@@ -1,6 +1,6 @@
 #JOB INTERVIEW QUESTIONAIRRE
 
-##General Questions:
+## General Questions:
 
 * Are you on Twitter? 
 	* If so, who do you follow on Twitter?
