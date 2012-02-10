@@ -101,6 +101,7 @@ function Person(){} var person = Person() var person = new Person()
 
 ```javascript
 >~~3.14
+```
 Question: What value is returned from the above statement? 
 **Answer: 3** 
 
