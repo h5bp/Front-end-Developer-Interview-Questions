@@ -4,7 +4,7 @@
  
 ##Contributors
 
-@ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/) and @darcy_clarke (http://darcyclarke.me)
+@ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/) and @darcy_clarke (http://darcyclarke.me)
 
 ## General Questions:
 
