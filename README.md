@@ -4,7 +4,7 @@
  
 ##Contributors
 
-@bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/) and @darcy_clarke (http://darcyclarke.me)
+@bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal) and @darcy_clarke (http://darcyclarke.me)
 
 ## General Questions:
 
@@ -93,7 +93,7 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization in JavaScript. 
+* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
 * Why is it called a Ternary statement, what does the word "Ternary" indicate? 
 * What is the arity of a function?  
 
