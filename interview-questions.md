@@ -3,27 +3,27 @@
 ##General Questions:
 
 * Are you on Twitter? 
-** If so, who do you follow on Twitter?
+	* If so, who do you follow on Twitter?
 * Are you on Github? 
-** If so, what are some examples of repos you follow  
+	* If so, what are some examples of repos you follow  
 * What blogs do you follow? 
 * What version control systems have you used? 
 * What is your preferred development enviroment? (OS, Editor, Browsers, Tools etc.) 
 * Can you describe your workflow when you create a web page? 
 * Can you describe the difference between progressive enhancement and graceful degredation? 
-** Bonus points for the answer "no one can" 
-** Extra bonus points for describing feature detection  
+	* Bonus points for the answer "no one can" 
+	* Extra bonus points for describing feature detection  
 * Explain what "Semantic HTML" means. 
 * What does "minification" do? 
 * Why is it better to serve site assets from multiple domains? 
-** How many resources will a browser download from a given domain at a time?  
+	* How many resources will a browser download from a given domain at a time?  
 * If you have 8 different stylesheets for a given design, how would you integrate them into the site? 
-** Looking for file concatenation.
-** Points off for `@import`, unless it works in conjunction with a build system.  
+	* Looking for file concatenation.
+	* Points off for `@import`, unless it works in conjunction with a build system.  
 * If you jumped on a project and they used tabs and you used spaces, what would you do? 
-** `issue :retab! command`
+	* `issue :retab! command`
 * Write a simple slideshow page 
-** Bonus points if it does not use JS.  
+	* Bonus points if it does not use JS.  
 * What tools do you use to test your code's performance? 
 * If you could master one technology this year, what would it be? 
 * Name 3 ways to decrease page load. (perceived or actual load time) 
@@ -34,7 +34,7 @@
 * What's a `doctype` do, and how many can you name? 
 * What's the difference between standards mode and quirks mode? 
 * What are the limitations when serving XHTML pages? 
-** Are there any problems with serving pages as `application/xhtml+xml`?  
+	* Are there any problems with serving pages as `application/xhtml+xml`?  
 * How do you serve a page with content in multiple languages? 
 * Can you use XHTML syntax in HTML5? How do you use XML in HTML5? 
 * What are `data-` attributes good for? 
@@ -48,11 +48,11 @@
 * How is JavaScript different from Java? 
 * What are `undefined` and `undeclared` variables? 
 * What is a closure, and how/why would you use one? 
-** Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
+	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
 * What's a typical use case for anonymous functions? 
 * Explain the "JavaScript module pattern" and when you'd use it. 
-** Bonus points for mentioning clean namespacing. 
-** What if your modules are namespace-less?  
+	* Bonus points for mentioning clean namespacing. 
+	* What if your modules are namespace-less?  
 * how do you organize your code? (module pattern, classical inheritance?) 
 * What's the difference between host objects and native objects? 
 * Difference between: 
@@ -63,10 +63,10 @@ function Person(){} var person = Person() var person = new Person()
 * explain `Function.prototype.bind`? 
 * When do you optimize your code? 
 * Can you explain how inheritance works in JavaScript? 
-** Bonus points for the funny answer: "no one can" 
-** Extra bonus points if they take a stab at explaining it  
+	* Bonus points for the funny answer: "no one can" 
+	* Extra bonus points if they take a stab at explaining it  
 * When would you use `document.write()`? 
-** Correct answer: 1999 - time to weed out the junior devs  
+	* Correct answer: 1999 - time to weed out the junior devs  
 * What's the difference between feature detection, feature inference, and using the UA string 
 * Explain AJAX in as much detail as possible 
 * Explain how JSONP works (and how it's not really AJAX) 
@@ -140,7 +140,7 @@ $(".foo div#bar:eq(0)")
 * What are your favourite image replacement techniques and which do you use when? 
 * CSS property hacks, conditionally included .css files, or... something else? 
 * How do you serve your pages for feature-constrained browsers? 
-** What techniques/processes do you use?  
+	* What techniques/processes do you use?  
 * What are the different ways to visually hide content (and make it available only for screenreaders)? 
 * Have you ever used a grid system, and if so, what do you prefer? 
 * Hav you used or implement media queries or mobile specific layouts/CSS? 
@@ -160,10 +160,10 @@ $(".foo div#bar:eq(0)")
 * Do you have any pet projects? What kind? 
 * Explain the significance of "cornify". 
 * On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
-** Wait and see if they turn the paper upside down
+	* Wait and see if they turn the paper upside down
 * This should make the laugh and is a fine way to relieve some tension at the end of the interview.  
 * Pirate or Ninja? 
-** Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
+	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
 * If not Web Development what would you be doing? 
 * Where in the world is Carmen Sandiego? (hint: they'e answer is always wrong) 
 * What's your favorite feature of Internet Explorer? 
