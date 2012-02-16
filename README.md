@@ -173,7 +173,7 @@ $(".foo div#bar:eq(0)")
 * Pirate or Ninja? 
 	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
 * If not Web Development what would you be doing? 
-* Where in the world is Carmen Sandiego? (hint: they'e answer is always wrong) 
+* Where in the world is Carmen Sandiego? (hint: their answer is always wrong) 
 * What's your favorite feature of Internet Explorer?
 * Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
 * jQuery: a great library or the greatest library? Discuss.
