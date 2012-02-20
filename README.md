@@ -10,13 +10,13 @@
 
 * Are you on Twitter? 
 	* If so, who do you follow on Twitter?
-* Are you on Github? 
+* Are you on GitHub? 
 	* If so, what are some examples of repos you follow  
 * What blogs do you follow? 
 * What version control systems have you used? 
-* What is your preferred development enviroment? (OS, Editor, Browsers, Tools etc.) 
+* What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
 * Can you describe your workflow when you create a web page? 
-* Can you describe the difference between progressive enhancement and graceful degredation? 
+* Can you describe the difference between progressive enhancement and graceful degradation? 
 	* Bonus points for the answer "no one can" 
 	* Extra bonus points for describing feature detection  
 * Explain what "Semantic HTML" means. 
@@ -149,9 +149,9 @@ $(".foo div#bar:eq(0)")
 * CSS property hacks, conditionally included .css files, or... something else? 
 * How do you serve your pages for feature-constrained browsers? 
 	* What techniques/processes do you use?  
-* What are the different ways to visually hide content (and make it available only for screenreaders)? 
+* What are the different ways to visually hide content (and make it available only for screen readers)? 
 * Have you ever used a grid system, and if so, what do you prefer? 
-* Hav you used or implement media queries or mobile specific layouts/CSS? 
+* Have you used or implement media queries or mobile specific layouts/CSS? 
 * Any familiarity with styling SVG? 
 * How do you optimize your webpages for print? 
 * What are some of the "gotchas" for writing efficient CSS? 
