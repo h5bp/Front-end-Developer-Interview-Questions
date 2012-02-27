@@ -155,7 +155,8 @@ $(".foo div#bar:eq(0)")
 * Any familiarity with styling SVG? 
 * How do you optimize your webpages for print? 
 * What are some of the "gotchas" for writing efficient CSS? 
-* Do you use LESS? 
+* Do you use CSS preprocessors? 
+	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? (avoid mentioning webfonts so they can figure it out) 
 * Explain how a browser determines what elements match a CSS selector?  
 
