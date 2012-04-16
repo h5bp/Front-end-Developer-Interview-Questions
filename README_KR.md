@@ -64,7 +64,7 @@
 	* 당신의 모듈이 네임스페이스가 없는 상황이라면?
 * 당신의 코드를 어떻게 구성하는지?(모듈 패턴, Class기반 상속?)
 * 호스트 객체(Host Objects)와 네이티브 객체(Native Objects)의 차이점은 무엇인가요?
-* 우래 코드의 차이점이 무엇인가요?
+* 다음 코드의 차이점은 무엇인가요?
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
