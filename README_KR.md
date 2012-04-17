@@ -7,7 +7,7 @@
 @bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
 
 ##한국어 번역(한국 상황에 맞춰서 약간 수정 하였습니다.)
-@Songhun(http://songhun.blogspot.com), @ohgyun(http://ohgyun.com), @nerdog
+@ohgyun(http://ohgyun.com), @nerdog, @javarouka, @Songhun(http://songhun.blogspot.com)
 
 ## 일반적인 질문:
 
@@ -28,9 +28,9 @@
 	* 브라우저가 한 번에 1개의 도메인에서 다운로드 받는 리소스는 몇 개 인가요?
 * 만약에 디자인을 표현하기 위해 8개의 다른 Stylesheet를 가지고 있다면, 사이트에서는 어떻게 통합하실 건가요?
 	* 파일의 연결법을 찾아내세요.
-	* Build system을 이용한 결합없이, '@import'를 사용하면 점수를 깎으세요.
+	* Build system을 이용한 결합없이, `@import`를 사용하면 점수를 깎으세요.
 * 당신이 프로젝트에 합류했습니다. 근데 그들은 Tab을 이용하고, 당신은 Sapce를 사용했습니다. 어떻게 하실건가요?
-	* :retab! 명령어를 아는지 확인
+	* `:retab!` 명령어를 아는지 확인
 * 간단한 Slideshow 페이지를 만들어보세요.
 	* Javascript를 사용하지 않고 만들었다면, 보너스 점수가 있습니다.
 * 당신의 코드의 성능을 테스트하기 위해서 사용하는 도구가 무엇입니까?
@@ -40,13 +40,13 @@
 
 ## HTML에 관련된 질문들:
 
-* 'doctype'이 무엇을 하는 것이고, 몇 번 지정할 수 있나요?
+* `doctype`이 무엇을 하는 것이고, 몇 번 지정할 수 있나요?
 * 표준모드(standards mode)와 쿽스모드(quirks mode)의 다른 점은 무엇인가요?
 * XHTML을 이용한 페이지의 한계점은 무엇이 있나요?
-	* 'application/xhtml+xml'으로 지정한 페이지에 어떠한 문제가 있나요?
+	* `application/xhtml+xml`으로 지정한 페이지에 어떠한 문제가 있나요?
 * 다국어가 포함된 페이지는 어떤 방식으로 제공하나요?
 * HTML5에서 XHTML문법을 사용할 수 있나요? HTML5에서 XML을 어떻게 사용하나요?
-* 'data-'속성은 무엇을 하는 것인가요?
+* `data-`속성은 무엇을 하는 것인가요?
 * HTML4에서 콘텐츠 모델(content models)은 무엇이며, HTML5의 그것과 다른 점은 무엇인가요?
 * HTML5를 오픈웹플랫폼(open web platform)으로 생각해본다면, 어떤 것들로 구성돼 있을까요?
 * 쿠키(Cookies)와 세션저장소(sessionStorage)와 로컬저장소(localStorage)의 차이점을 설명해주세요.
@@ -55,7 +55,7 @@
 
 * 사용해 본 Javascript 라이브러리들을 말씀해주세요.
 * Java와 Javascript의 다른 점은 무엇인가요?
-* 'undefined'와 'undeclared' 변수는 무엇인가요?
+* `undefined`와 `undeclared` 변수는 무엇인가요?
 * 클로져(Closure)는 무엇이며, 어떻게/왜 사용하는지 설명해주세요.
 	* 클로져를 만들 때 선호하는 패턴은 무엇인가요? argyle (IIFEs에만 적용할 수 있다)
 * 익명함수(anonymous functions)는 주로 어떤 상황에서 사용하나요?
@@ -68,13 +68,13 @@
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* '.call'과 '.apply'의 차이점은 무엇인가요?
-* 'Function.prototype.bind'을 설명 하시오
+* `.call`과 `.apply`의 차이점은 무엇인가요?
+* `Function.prototype.bind`을 설명 하시오
 * 코드 최적화를 하는 시점은 언제인가요?
 * Javascript에서 어떻게 상속을 하는지 설명할 수 있나요?
 	* "누구도 할 수 없어요" 같은 재밌는 대답 시에 보너스 포인트가 있습니다.
 	* 안되는 이유에 대해서 설명을 시도한다면, 더 많은 점수를 주세요.
-* 'document.write()'를 언제 사용하시나요?
+* `document.write()`를 언제 사용하시나요?
 	* 정답 : 1999년 - 초보개발자를 걸러내기 위한 시절
 * UA문자열을 이용하여 기능 검출(feature detection)과 기능 추론(feature inference)의 차이점을 설명 하시오.
 * AJAX에 관해 가능한 자세히 설명하세요.
@@ -86,7 +86,7 @@ function Person(){} var person = Person() var person = new Person()
 * "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
 * Javascript 객체를 확장하는 것이 좋지 않은 이유는 무엇인가요?
 * Document Load 이벤트와 Ready 이벤트의 차이가 무엇인가요?
-* '=='와 '==='의 차이점은 무엇인가요?
+* `==`와 `===`의 차이점은 무엇인가요?
 * 브라우저의 URL에서 파라메터를 얻을 수 있는 방법에 대해서 설명하세요.
 * Javascript의 "동일출처정책(the same-origin policy)"에 대해서 설명하세요.
 * 이벤트 딜리게이션(Event Delegation)에 대해서 설명하세요.
@@ -105,37 +105,43 @@ function Person(){} var person = Person() var person = new Person()
 >~~3.14
 ```
 문제: 위 상황의 결과 값은?
+
 **답: 3**
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 문제: 위 상황의 결과 값은?
+
 **답: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
 문제: window.foo의 값은 무엇인가요?
+
 **답: "bar"**
+
 처음에 window.foo는 false, undefined 혹은 0등의 값을 가지고 있다.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
 문제: 어떠한 두 가지의 알럿이 나올까요?
+
 **답: "Hello World" & ReferenceError: bar is not defined**
 
 ## jQuery에 연관된 질문들:
 
 * "체이닝(Chaining)"에 대해서 설명 하세요.
-* '.end()'는 무엇을 하는 것입니까?
+* `.end()`는 무엇을 하는 것입니까?
 * 이벤트 핸들러 선언 시, 언제 그리고 왜 namespace를 부여하는지를 설명해주세요.
 * 이펙트 큐(queue)라는 것은 무엇인가요?
-* '.get()','[]' 그리고 '.eq()'의 차이점이 무엇인가요?
-* '.bind()','.live()'그리고 '.delegate()'의 차이점이 무엇인가요?
-* '$'과 '$.fn' 차이점이 무엇인지 설명 해주시오. 혹은, '$.fn'가 무엇인지 설명해주세요.
+* `.get()`,`[]` 그리고 `.eq()`의 차이점이 무엇인가요?
+* `.bind()`,`.live()`그리고 `.delegate()`의 차이점이 무엇인가요?
+* `$`과 `$.fn` 차이점이 무엇인지 설명 해주시오. 혹은, `$.fn`가 무엇인지 설명해주세요.
 * 다음 Selector를 최적화 해주세요.:
+
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
