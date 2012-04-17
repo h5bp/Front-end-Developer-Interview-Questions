@@ -80,7 +80,7 @@ function Person(){} var person = Person() var person = new Person()
 * AJAX에 관해 가능한 자세히 설명하세요.
 * JSONP가 어떻게 동작 되는지 설명하세요.(그리고,실제 AJAX와 어떻게 다른지 설명하세요.)
 * 기존에 Javascript 템플릿을 사용한 적이 있나요? 만약에 있다면, 어떠한 방식으로 사용했는지 말씀해주세요.
-* "호스팅(Hosting)"에 대해서 설명 하시오.
+* "호이스팅(Hoisting)"에 대해서 설명 하시오.
 * FOUC가 무엇이며 FOUC를 어떻게 방지하나요?
 * 이벤트 버블링(Event Bubbling)에 대해서 설명하세요.
 * "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
