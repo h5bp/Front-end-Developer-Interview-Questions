@@ -23,8 +23,20 @@
 	* Ext JS
 	* Dojo
 * Java와 Javascript는 Car와 Carpet의 차이와 비슷하다고 할 수 있습니다.
+* [Undeclared, Undefined, Null in JavaScript](http://constc.blogspot.com/2008/07/undeclared-undefined-null-in-javascript.html)
+* [Naver Developer에서 제공 되는 Closure설명](http://dev.naver.com/tech/ajaxui/ajaxui_2.php#a_2_2)
+* [Javascript anonymous functions](http://helephant.com/2008/08/23/javascript-anonymous-functions/)
+	* [Pro Javascript Techniques(3): Anonymous Functions(한글)](http://happyzoo.tistory.com/124)
 
-##jQuery의 참고
+##jQuery에 대한 참고
+* jQeury들의 거의 모든 method들은 jQuery object를 돌려주도록 되어있습니다.
+	* 이 특성으로 인해 같은 scope에서 일어나는 거의 모든 method들을 연결하여 정의를 할 수 가 있습니다.
+	* Paul Irish 가 작성한 [블로그](http://paulirish.com/2008/sequentially-chain-your-callbacks-in-jquery-two-ways/) 를 참고하시면 좋을 듯 합니다.
+* [.end()](http://api.jquery.com/end/)
+* [Namesapced Events](http://docs.jquery.com/Namespaced_Events)
+* [Effect queue()](http://api.jquery.com/queue/)
+	* [Understanding jQuery Effects Queue](http://blog.bigbinary.com/2010/02/02/understanding-jquery-effects-queue.html)
+
 
 ##CSS 참고
 
