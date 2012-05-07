@@ -7,6 +7,7 @@
 
 ##기여자
 @Songhun(http://songhun.blogspot.com)
+@YiHanghee(http://blog.javarouka.me)
 
 ##일반적인 질문에 대한 참고
 * SNS에 대해서 물어보는 이유가 무엇일까요?
@@ -14,10 +15,16 @@
 ##HTML에 대한 참고
 * `doctype`에 대한 설명은 [Wikipedia](http://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8) 에서 찾아볼 수 있습니다.
 	* 문서 타입에 대한 자세한 설명을 담은 블로그 ["Activating Browser Modes with Doctype"](http://hsivonen.iki.fi/doctype/) 도 좋습니다.
-* 쿽스 모드는 다양한 브라우저 및 표준 정립 이전의 구버전 기준으로 작성된 HTML의 fallback 입니다.
-	*
-* [XHTML 과 HTML의 차이](http://blog.wystan.net/2007/05/24/xhtml-vs-html) 에 4부작(?)으로 좋은 글이 있습니다.
+* 표준 모드는 W3C의 표준에 맞춘 구현 렌더링으로 동작하며(미세하게 다릅니다), 쿽스 모드는 다양한 브라우저 및 표준 정립 이전의 구버전 기준으로 작성된 HTML의 fallback 과 비슷합니다.
+* [XHTML 과 HTML의 차이](http://blog.wystan.net/2007/05/24/xhtml-vs-html) 블로그 포스팅에 4부작(?)으로 좋은 설명이 있네요.
 	* application/xhtml+xml 컨텐트 타입은 브라우저에 따라 해석할 수 없기도 합니다.(IE...)
+* 엘리먼트의(특히 루트인 html) lang attribute 와 관련이 있을까요...?
+* doctype 선언으로 사용할 수 있습니다.
+* Programer custom attribute. ex) 자동차를 엘리먼트로 나타내야 할 경우를 생각해보면 기본 html 속성으로는 부족하겠죠.
+* HTML4의 콘텐츠 모델이 div와 span에 id와 클래스를 입힌 inline 및 block display의 사용자 정의형이라면, HTML5는 그것을 표준화한 콘텐츠 모델.
+	* 자세한 것은 [내용 모델(한글 by ClearBoth 팀)](http://html5.clearboth.org/content-models.html) 이쪽으로.
+* open web platform 이 뭘까요...?
+* 서버와 공유할 필요가 있는지의 여부, 저장 용량, 저장 생명주기에 따라 셋을 구분할 수 있습니다.
 
 ##Javascript에 대한 참고
 * 유명한 Javascript Library는 다음과 같습니다.
@@ -46,4 +53,3 @@
 
 ##흥미로운 질문들에 대한 참고
 * http://html5homi.es/
-	
