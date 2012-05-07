@@ -13,7 +13,11 @@
 
 ##HTML에 대한 참고
 * `doctype`에 대한 설명은 [Wikipedia](http://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8) 에서 찾아볼 수 있습니다.
-	* 
+	* 문서 타입에 대한 자세한 설명을 담은 블로그 ["Activating Browser Modes with Doctype"](http://hsivonen.iki.fi/doctype/) 도 좋습니다.
+* 쿽스 모드는 다양한 브라우저 및 표준 정립 이전의 구버전 기준으로 작성된 HTML의 fallback 입니다.
+	*
+* [XHTML 과 HTML의 차이](http://blog.wystan.net/2007/05/24/xhtml-vs-html) 에 4부작(?)으로 좋은 글이 있습니다.
+	* application/xhtml+xml 컨텐트 타입은 브라우저에 따라 해석할 수 없기도 합니다.(IE...)
 
 ##Javascript에 대한 참고
 * 유명한 Javascript Library는 다음과 같습니다.
