@@ -116,7 +116,7 @@ Question: What value is returned from the above statement?
 ```
 Question: What is the value of window.foo? 
 **Answer: "bar"** 
-if intially window.foo was false, undefined or zero else it will retain its value.
+only if window.foo was falsey otherwise it will retain its value.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
