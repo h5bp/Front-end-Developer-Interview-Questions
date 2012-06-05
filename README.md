@@ -144,7 +144,6 @@ $(".foo div#bar:eq(0)")
 * Describe Floats and how they work. 
 * What are the various clearing techniques and which is appropriate for what context? 
 * Explain CSS sprites, and how you would implement them on a page or site. 
-* What are the differences between the IE box model and the W3C box model? 
 * What are your favourite image replacement techniques and which do you use when? 
 * CSS property hacks, conditionally included .css files, or... something else? 
 * How do you serve your pages for feature-constrained browsers? 
