@@ -11,26 +11,26 @@
 * Sei su Twitter? 
 	* Se sì, chi segui su Twitter?
 * Sei su GitHub? 
-	* Se sì, quali sono alcuni esempi di repositi che segui  
+	* Se sì, quali sono alcuni esempi di repository che segui  
 * Che blog segui? 
-* Che sistema di version control hai usato? 
+* Che sistema di controllo di versione [*version control*] hai usato? 
 * Qual è il tuo ambiente di sviluppo preferito? (Sistema Operativo, Editor di testo, Browser, Strumenti ecc.) 
 * Puoi descrivere il tuo metodo di lavoro quando crei una pagina web? 
-* Puoi descrivere la differenza tra progressive enhancement e graceful degradation? 
+* Puoi descrivere la differenza tra miglioramento progressivo [*progressive enhancement*] e degradazione elegante [*graceful degradation*]? 
 	* Punti bonus per la risposta "nessuno può" 
-	* Altri punti bonus se descrive feature detection  
+	* Ulteriori punti bonus se descrive il rilevamento di funzionalità [*feature detection*]  
 * Spiega cosa significa "HTML Semantico". 
-* Cosa fa la "minification"? 
-* Perché è meglio servire asset per il sito da più domini? 
+* Cosa fa la "minimizzazione" [*minification*]? 
+* Perché è meglio servire file per il sito da più domini? 
 	* Quante risorse scaricherà per volta un browser da uno specifico dominio?  
-* Se hai 8 diversi stylesheets per un certo design, come li integreresti dentro al sito? 
+* Se hai 8 diversi stylesheets per una grafica, come li integri dentro al sito? 
 	* Mi aspetto concatenazione di file.
 	* Punti in meno per `@import`, a meno che non lavori in congiunzione con un sistema di compilazione.  
-* Se salti su un progetto e usano tab invece di spazi, cosa faresti? 
+* Se cominci a lavorare su un progetto già iniziato dove vengono usati tab invece di spazi, cosa fai? 
 	* `issue :retab! command`
 * Scrivi una semplice pagina con slideshow 
 	* Punti bonus se non utilizza JS.  
-* Che strumenti usi per testare le performance del tuo codice? 
+* Che strumenti usi per testare le prestazioni del tuo codice? 
 * Se potessi approfondire una tecnologia quest'anno, quale sarebbe? 
 * Citami 3 modi per diminuire il caricamento della pagina. (percepito o effettivo tempo di caricamento) 
 * Spiega l'importanza degli standard.  
@@ -43,17 +43,17 @@
 	* Ci sono dei problemi a servire le pagine come `application/xhtml+xml`?  
 * Come servi una pagina con il contenuto in più lingue? 
 * Puoi usare la sintassi XHTML in HTML5? Come usi XML in HTML5? 
-* A cosa servono gli attributi `data-`? 
-* Quali sono i content model in HTML4 e sono differenti in HTML5? 
-* Considera HTML5 come una piattaforma web aperta. Quali sono i blocchi di costruzione di HTML5? 
+* Per cosa sono utili gli attributi `data-`? 
+* Quali sono i modelli di contenuto [*content models*] in HTML4 e sono differenti in HTML5? 
+* Considera HTML5 come una piattaforma web aperta. Quali sono i mattoni di HTML5? 
 * Descrivi le differenze tra cookie, sessionStorage e localStorage.  
 
 ## Domande Specifiche su JS
 
 * Quali librerie JavaScript hai usato? 
-* Come è diverso da Java JavaScript? 
+* Come è diverso JavaScript da Java? 
 * Cosa sono le variabili `undefined` e `undeclared`? 
-* Cosa è una closure, e come/perché ne useresti una? 
+* Cosa è una chiusura [*closure*], e come/perché ne useresti una? 
 	* Il tuo pattern preferito usato per crearle? argyle (Applicabile solo a IIFE)  
 * Qual è l'uso tipico di una funzione anonima? 
 * Spiega il "JavaScript module pattern" e quando lo useresti. 
@@ -70,7 +70,7 @@ function Person(){} var person = Person() var person = new Person()
 * Quando ottimizzi il tuo codice? 
 * Puoi spiegare come funziona l'ereditarietà in JavaScript? 
 	* Punti bonus per la battuta: "nessuno può" 
-	* Altri punti bonus se si cimentano nello spiegarlo  
+	* Ulteriori punti bonus se si cimentano nello spiegarlo  
 * Quando useresti `document.write()`? 
 	* Risposta corretta: 1999 - tempo di estirpare i programmatori junior  
 * Qual è la differenza tra feature detection, feature inference, e usare la stringa UA 
@@ -116,20 +116,20 @@ Domanda: Quale valore viene ritornato dalla dichiarazione qui sopra?
 ```
 Domanda: Qual è il valore di window.foo? 
 **Risposta: "bar"** 
-only if window.foo was falsey otherwise it will retain its value.
+solo se window.foo era falso altrimenti manterrà il suo valore.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Domanda: What is the outcome dei due alert qui sopra? 
+Domanda: Qual è il risultato dei due alert qui sopra? 
 **Risposta: "Hello World" & ReferenceError: bar is not defined** 
 
 ## Domande Specifiche su jQuery:
 
-* Spiega la "concatenazione". 
+* Spiega la "concatenazione" [*chaining*]. 
 * Cosa fa `.end()`? 
-* Come, e perché, would you namespace a bound event handler? 
-* Cosa è la coda di effects (o fx)? 
+* Come, e perché, assegneresti un namespace al gestore di un evento? 
+* Cosa è la coda di effetti [*fx queue*]? 
 * Qual è la differenza tra `.get()`, `[]`, e `.eq()`? 
 * Qual è la differenza tra `.bind()`, `.live()`, e `.delegate()`? 
 * Qual è la differenza tra `$` e `$.fn`? O anche solo cosa è `$.fn`. 
@@ -144,19 +144,19 @@ $(".foo div#bar:eq(0)")
 * Descrivi i Float e come funzionano. 
 * Quali sono le varie tecniche di clearing e quale è appropriata per quale contesto? 
 * Spiega i CSS sprite, e come li implementeresti in una pagina o in un sito. 
-* Quali sono le tue tecniche di image replacement preferite e quale usi quando? 
+* Quali sono le tue tecniche di sostituzione immagini [*image replacement*] preferite e quale usi quando? 
 * Hack delle proprietà CSS, file .css inclusi con condizioni, o... altro? 
-* Come servi le tue pagine per i browser feature-constrained? 
+* Come servi le tue pagine per i browser con funzionalità limitate? 
 	* Che tecniche/processi usi?  
 * Quali sono i vari modi per nascondere visualmente il contenuto (e renderlo disponibile solo per gli screen reader)? 
-* Hai mai usato un sistema di griglie [grid system], e se sì, qual è il tuo preferito? 
+* Hai mai usato un sistema di griglie [*grid system*], e se sì, qual è il tuo preferito? 
 * Hai mai usato o implementato media queries o CSS/layout specifici per mobile? 
 * Familiarità con lo styling SVG? 
 * Come ottimizzi le tue pagine web per la stampa? 
 * Quali sono alcuni dei "trucchi" per scrivere CSS efficiente? 
 * Usi preprocessori CSS? 
 	* Se sì, descrivi cosa ti piace e cosa non ti piace dei preprocessori CSS che hai usato. 
-* Come implementeresti un web design comp che usa font non standard? (evita di menzionare i webfont così che ci arrivino da soli) 
+* Come implementeresti una grafica web che usa font non standard? (evita di menzionare i webfont così che ci arrivino da soli) 
 * Spiega come un browser determina quali elementi corrispondono a un selettore CSS.  
 
 ## Domande Opzionali per divertimento:
@@ -164,16 +164,16 @@ $(".foo div#bar:eq(0)")
 * Qual è la cosa più figa che hai mai sviluppato, di cosa sei più orgoglioso? 
 * Conosci l'HTML5 gang sign? 
 * Sei o sei mai stato su una barca. 
-* Dimmi quali sono i tuoi pezzi preferiti in Firebug / Webkit Inspector. 
+* Dimmi quali sono le tue parti preferite in Firebug / Webkit Inspector. 
 * Hai qualche interesse, pallino? Di che tipo? 
 * Spiega il significato di "cornify". 
 * Su un pezzo di carta, scrivi le lettere A B C D E in fila verticale. Ora mettile in ordine decrescente senza scrivere neanche una linea di codice. 
 	* Aspetta e vedi se girano il foglio sottosopra
-* Questo dovrebbe far ridere ed è un bel modo per alleviare una certa tensione alla fine del colloquio.  
+* Questo dovrebbe far ridere ed è un bel modo per alleviare la tensione alla fine del colloquio.  
 * Pirata o Ninja? 
 	* Punti bonus se è una combinazione e se è stata data una buona motivazione (+2 per scimmia ninja pirata zombie) 
 * Se non fosse per lo sviluppo web cosa staresti facendo ora? 
 * Che fine ha fatto Carmen Sandiego? (suggerimento: la risposta è sempre sbagliata) 
 * Qual è la tua feature preferita di Internet Explorer?
 * Completa questa frase: Brendan Eich e Doug Crockford sono i __________ di javascript.
-* jQuery: una ottima libreria o la migliore libreria? Discuti.
+* jQuery: un'ottima libreria o la migliore libreria? Discuti.
