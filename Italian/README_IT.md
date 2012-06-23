@@ -38,7 +38,7 @@
 ## Domande Specifiche su HTML:
 
 * Cosa fa il `doctype`, e quanti me ne puoi citare? 
-* Qual è la differenza tra standard mode e quirk mode? 
+* Qual è la differenza tra standard mode e quirks mode? 
 * Quali sono le limitazioni quando servi pagine XHTML? 
 	* Ci sono dei problemi a servire le pagine come `application/xhtml+xml`?  
 * Come servi una pagina con il contenuto in più lingue? 
@@ -54,12 +54,12 @@
 * Come è diverso JavaScript da Java? 
 * Cosa sono le variabili `undefined` e `undeclared`? 
 * Cosa è una chiusura [*closure*], e come/perché ne useresti una? 
-	* Il tuo pattern preferito usato per crearle? argyle (Applicabile solo a IIFE)  
+	* Il tuo pattern preferito usato per crearle? argyle (Applicabile solo a espressioni di funzione immediatamente eseguite [*IIFE*])  
 * Qual è l'uso tipico di una funzione anonima? 
 * Spiega il "JavaScript module pattern" e quando lo useresti. 
-	* Punti bonus se menziona clean namespacing. 
+	* Punti bonus se menziona namespacing pulito. 
 	* E se i tuoi moduli sono senza namespace?  
-* Come organizzi il tuo codice? (module pattern, classical inheritance?) 
+* Come organizzi il tuo codice? (module pattern, ereditarietà classica?) 
 * Qual è la differenza tra oggetti host e oggetti nativi? 
 * Differenza tra: 
 ```javascript
@@ -73,20 +73,20 @@ function Person(){} var person = Person() var person = new Person()
 	* Ulteriori punti bonus se si cimentano nello spiegarlo  
 * Quando useresti `document.write()`? 
 	* Risposta corretta: 1999 - tempo di estirpare i programmatori junior  
-* Qual è la differenza tra feature detection, feature inference, e usare la stringa UA 
+* Qual è la differenza tra il rilevamento di funzionalità [*feature detection*], la deduzione di funzionalità [*feature inference*], e l'uso della stringa UA 
 * Spiega AJAX nel modo più dettagliato possibile 
 * Spiega come funziona JSONP (e come non è veramente AJAX) 
-* Hai mai usato JavaScript templating, e se sì, cosa/come? 
+* Hai mai usato il templating JavaScript, e se sì, cosa/come? 
 * Spiega "hoisting". 
 * Cosa è il FOUC? Come eviti il FOUC? 
 * Descrivi l'event bubbling. 
 * Qual è la differenza tra un "attribute" e una "property"? 
 * Perché extending built negli oggetti JavaScript non è una buona idea? 
 * Perché extending built è una buona idea? 
-* Differenza tra document load event e document ready event? 
+* Differenza tra l'evento document load e l'evento document ready? 
 * Qual è la differenza tra `==` e `===`? 
 * Spiega come prenderesti il parametro query string dall'URL della finestra del browser. 
-* Spiega la same-origin policy per quanto riguarda JavaScript. 
+* Spiega la policy "stessa origine" [*same-origin*] per quanto riguarda JavaScript. 
 * Spiega l'event delegation. 
 * Descrivi i pattern di ereditarietà in JavaScript. 
 * Cosa ottieni da: 
@@ -143,7 +143,7 @@ $(".foo div#bar:eq(0)")
 * Descrivi cosa fa un file CSS "reset" e in cosa è utile. 
 * Descrivi i Float e come funzionano. 
 * Quali sono le varie tecniche di clearing e quale è appropriata per quale contesto? 
-* Spiega i CSS sprite, e come li implementeresti in una pagina o in un sito. 
+* Spiega gli sprite CSS, e come li implementeresti in una pagina o in un sito. 
 * Quali sono le tue tecniche di sostituzione immagini [*image replacement*] preferite e quale usi quando? 
 * Hack delle proprietà CSS, file .css inclusi con condizioni, o... altro? 
 * Come servi le tue pagine per i browser con funzionalità limitate? 
@@ -161,7 +161,7 @@ $(".foo div#bar:eq(0)")
 
 ## Domande Opzionali per divertimento:
 
-* Qual è la cosa più figa che hai mai sviluppato, di cosa sei più orgoglioso? 
+* Qual è la cosa più bella che hai mai sviluppato, di cosa sei più orgoglioso? 
 * Conosci l'HTML5 gang sign? 
 * Sei o sei mai stato su una barca. 
 * Dimmi quali sono le tue parti preferite in Firebug / Webkit Inspector. 
