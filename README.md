@@ -100,7 +100,7 @@ function Person(){} var person = Person() var person = new Person()
 ## JS-Code Examples:
 
 ```javascript
->~~3.14
+~~3.14
 ```
 Question: What value is returned from the above statement? 
 **Answer: 3** 
