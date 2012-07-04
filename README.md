@@ -19,7 +19,7 @@
 * Can you describe the difference between progressive enhancement and graceful degradation? 
 	* Bonus points for describing feature detection  
 * Explain what "Semantic HTML" means. 
-* What browser do primary develop in and what developer tools do you use?
+* What browser do you primary develop in and what developer tools do you use?
 * How would you optimize a websites assets/resources?
 	* Looking for a number of solutions which can include:
 		* File concatenation
@@ -50,7 +50,7 @@
 * What are the limitations when serving XHTML pages? 
 	* Are there any problems with serving pages as `application/xhtml+xml`?  
 * How do you serve a page with content in multiple languages? 
-	* What kind of things must you be wary of when design or developming for multilingual sites?
+	* What kind of things must you be wary of when design or developing for multilingual sites?
 * Can you use XHTML syntax in HTML5? 
 * How do you use XML in HTML5? 
 * What are `data-` attributes good for? 
@@ -154,10 +154,10 @@ Question: What is the value of foo.length?
 
 * Explain "chaining". 
 * Explain "deferreds".
-* What are som jQuery specific optimizations you can implement?
+* What are some jQuery specific optimizations you can implement?
 * What does `.end()` do? 
 * How, and why, would you namespace a bound event handler? 
-* Name 4 different values you can pass to the jQuery method?
+* Name 4 different values you can pass to the jQuery method.
 	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
 * What is the effects (or fx) queue? 
 * What is the difference between `.get()`, `[]`, and `.eq()`? 
@@ -187,7 +187,7 @@ $(".foo div#bar:eq(0)")
 * Do you use CSS preprocessors? (SASS, Compass, Stylus, LESS) 
 	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? 
-	* Webfonts (font services like: Goodle Webfonts, Typekit etc.)
+	* Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?  
 
 ## Optional fun Questions:
