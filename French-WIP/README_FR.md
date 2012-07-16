@@ -17,31 +17,32 @@
 * Quel est votre environnement de développement préféré ? (OS, Editor, Browsers, Tools etc.)
 * Pouvez-vous décrire votre workflow lorsque vous créez une page web ? 
 * Pouvez-vous décrire la différence entre amélioration progressive et dégradation progressive ? 
-	* Des points bonus si vous décrivez des méthodes de détections
+	* Un point bonus si vous décrivez des méthodes de détections
 * Expliquez ce que le terme "sémantique HTML" signifie. 
 * Quel naviguateur et outils de débogage web utilisez-vous ?
-* How would you optimize a websites assets/resources?
-	* Looking for a number of solutions which can include:
-		* File concatenation
-		* File minification
-		* CDN Hosted
-		* Caching
+* Comment optimisez vous les performances de vos page web (assets/resources) ?
+	* Énumérez quelques solutions comme :
+		* La concaténation des fichiers
+		* La minification des fichiers
+		* L'utilisation d'un Content Delivery Network (CDN)
+		* La mise en cache
 		* etc.
-* Why is it better to serve site assets from multiple domains? 
-	* How many resources will a browser download from a given domain at a time? 
-* Name 3 ways to decrease page load. (perceived or actual load time) 
-* If you jumped on a project and they used tabs and you used spaces, what would you do? 
-	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-	* Conform to the conventions (stay consistant)
+* Pourquoi est-il préférable de disposer ses assets sur des domaines différents ? 
+	* Combien de ressources différentes un navigateur peut télécharger à partir d'un même domaine à un instant T ? 
+* Donnez 3 façons qui permettent de réduire le temps de chargement d'une page. (perçu ou réel) 
+* Si vous démarrez sur un projet existant, que votre prédécesseur à utilisez des tabulations pour l'indenter son code et que vous, vous utilisez des espaces, que faites-vous ?
+	* Proposez d'utiliser quelque chose comme EditorConfig (http://editorconfig.org)
+	* Rester fidèle aux conventions
 	* `issue :retab! command`
-* Write a simple slideshow page 
-	* Bonus points if it does not use JS.  
-* What tools do you use to test your code's performance?
+* Développez un simple slideshow
+	* Un point bonus si vous le faites sans JS  
+* Quel outils utilisez vous pour tester la performance de votre code ?
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
 * If you could master one technology this year, what would it be? 
-* Explain the importance of standards and standards bodies.  
+* Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait-elle ?
+* Expliquer l'importance des strandards et des organisations gérant les standards.
 
 ## HTML-Specific Questions:
 
