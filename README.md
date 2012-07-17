@@ -167,6 +167,7 @@ Question: What is the value of foo.length?
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
+* What is the difference between jQuery (YUI/Dojo/Ext.js) and Prototype.js (Mootools)?
 
 ## CSS-Specific Questions:
 
