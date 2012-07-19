@@ -57,6 +57,7 @@
 * What are the content models in HTML4 and are they different in HTML5? 
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
 * Describe the difference between cookies, sessionStorage and localStorage. 
+* Name at least seven elements which are new in HTML5
 
 ## JS-Specific Questions
 
@@ -106,6 +107,7 @@ function Person(){} var person = Person() var person = new Person()
 * Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
 * Why is it called a Ternary statement, what does the word "Ternary" indicate? 
 * What is the arity of a function?  
+* Name at least three "falsy values"
 
 ## JS-Code Examples:
 
