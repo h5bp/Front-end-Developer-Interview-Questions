@@ -41,8 +41,8 @@
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
 * If you could master one technology this year, what would it be? 
-* Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait-elle ?
-* Expliquer l'importance des strandards et des organisations gérant les standards.
+* Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait-ce ?
+* Expliquez l'importance des standards et des organisations gérant les standards.
 
 ## HTML-Specific Questions:
 
