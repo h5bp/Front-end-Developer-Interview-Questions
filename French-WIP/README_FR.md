@@ -40,7 +40,6 @@
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
-* If you could master one technology this year, what would it be? 
 * Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait-ce ?
 * Expliquez l'importance des standards et des organisations gérant les standards.
 
