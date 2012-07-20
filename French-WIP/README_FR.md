@@ -30,7 +30,7 @@
 * Pourquoi est-il préférable de disposer ses assets sur des domaines différents ? 
 	* Combien de ressources différentes un navigateur peut télécharger à partir d'un même domaine à un instant T ? 
 * Donnez 3 façons qui permettent de réduire le temps de chargement d'une page. (perçu ou réel) 
-* Si vous démarrez sur un projet existant, que votre prédécesseur à utilisez des tabulations pour l'indenter son code et que vous, vous utilisez des espaces, que faites-vous ?
+* Si vous démarrez sur un projet existant, que votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
 	* Proposez d'utiliser quelque chose comme EditorConfig (http://editorconfig.org)
 	* Rester fidèle aux conventions
 	* `issue :retab! command`
