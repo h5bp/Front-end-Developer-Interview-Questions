@@ -61,6 +61,7 @@
 ## JS-Specific Questions
 
 * Which JavaScript libraries have you used? 
+* Have you ever looked at the source code aof the libraries/frameworks you use?
 * How is JavaScript different from Java? 
 * What's a hashtable?
 * What are `undefined` and `undeclared` variables? 
