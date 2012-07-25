@@ -1,12 +1,13 @@
+这是对 [eFront-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) 的一个翻译
 #JOB INTERVIEW QUESTIONNAIRE
 
 @version 1.0
  
-##Contributors
+##投稿人名单：
 
 @bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
 
-## General Questions:
+## 综合性问题:
 
 * 你上Twitter吗? 
 	* 如果上, 那么你在Twitter上都关注了哪些人?
@@ -33,25 +34,25 @@
 * Name 3 ways to decrease page load. (perceived or actual load time) 
 * Explain the importance of standards.  
 
-## HTML-Specific Questions:
+## HTML问题:
 
-* What's a `doctype` do, and how many can you name? 
-* What's the difference between standards mode and quirks mode? 
-* What are the limitations when serving XHTML pages? 
-	* Are there any problems with serving pages as `application/xhtml+xml`?  
-* How do you serve a page with content in multiple languages? 
-* Can you use XHTML syntax in HTML5? How do you use XML in HTML5? 
+* `doctype` 是什么, 你知道多少种呢? 
+* 什么是标准模式和怪癖模式，之间的区别是什么? 
+* 当构建一个XHTML网页时有一些什么限制或规定？ 
+	* 如果我创建为`application/xhtml+xml`有没有什么问题？
+* 怎么为多语言网页更好的创建网页? 
+* 能在HTML5里使用XHTML的语法吗？HTML5里怎么使用XML? 
 * What are `data-` attributes good for? 
 * What are the content models in HTML4 and are they different in HTML5? 
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
 * Describe the difference between cookies, sessionStorage and localStorage.  
 
-## JS-Specific Questions
+## JS问题
 
-* Which JavaScript libraries have you used? 
-* How is JavaScript different from Java? 
-* What are `undefined` and `undeclared` variables? 
-* What is a closure, and how/why would you use one? 
+* 你使用什么JS库? 
+* JavaScript 跟 Java 有什么区别? 
+* 什么是`undefined` 和 `未定义` 变量? 
+* 什么是闭包，闭包怎么使用 ? 为什么使用闭包？ 
 	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
 * What's a typical use case for anonymous functions? 
 * Explain the "JavaScript module pattern" and when you'd use it. 
@@ -63,29 +64,29 @@
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* What's the difference between `.call` and `.apply`? 
-* explain `Function.prototype.bind`? 
-* When do you optimize your code? 
-* Can you explain how inheritance works in JavaScript? 
+*  `.call` 和 `.apply` 有什么区别? 
+* 描述 `Function.prototype.bind`? 
+* 什么时候优化你的代码? 
+* 能解释一下javascript里如何继承吗? 
 	* Bonus points for the funny answer: "no one can" 
 	* Extra bonus points if they take a stab at explaining it  
-* When would you use `document.write()`? 
+* 什么时候会使用 `document.write()`? 
 	* Correct answer: 1999 - time to weed out the junior devs  
 * What's the difference between feature detection, feature inference, and using the UA string 
 * Explain AJAX in as much detail as possible 
-* Explain how JSONP works (and how it's not really AJAX) 
-* Have you ever used JavaScript templating, and if so, what/how? 
+* 解释一下JSONP的原理(它为什么不是AJAX，区别在哪？) 
+* 用过 JavaScript 模板技术吗, 如果用过, 解释下为什么用、怎么用的? 
 * Explain "hoisting". 
 * What is FOUC? How do you avoid FOUC? 
-* Describe event bubbling. 
+* 解释一下事件冒泡. 
 * What's the difference between an "attribute" and a "property"? 
-* Why is extending built in JavaScript objects not a good idea? 
+* 为什么说扩展JS的原生对象是不好的呢? 
 * Why is extending built ins a good idea? 
-* Difference between document load event and document ready event? 
-* What is the difference between `==` and `===`? 
+* document的load 事件document ready 事件区别在哪? 
+* `==` 和 `===` 有什么区别？
 * Explain how you would get a query string parameter from the browser window's URL. 
-* Explain the same-origin policy with regards to JavaScript. 
-* Explain event delegation. 
+* 解释一下同源策略（关于javascript相关的就行）. 
+* 描述一下事件代理. 
 * Describe inheritance patterns in JavaScript. 
 * Make this work: 
 ```javascript
@@ -136,33 +137,33 @@ Question: What is the outcome of the two alerts above?
 $(".foo div#bar:eq(0)")
 ```
 
-## CSS-Specific Questions:
+## CSS问题:
 
-* Describe what a "reset" CSS file does and how it's useful. 
-* Describe Floats and how they work. 
+* 描述一下css的reset，它有什么作用？. 
+* 描述一下浮动的它的原理. 
 * What are the various clearing techniques and which is appropriate for what context? 
-* Explain CSS sprites, and how you would implement them on a page or site. 
+* 描述一下 CSS sprites, 你一般是怎么实现的？. 
 * What are your favourite image replacement techniques and which do you use when? 
-* CSS property hacks, conditionally included .css files, or... something else? 
-* How do you serve your pages for feature-constrained browsers? 
-	* What techniques/processes do you use?  
-* What are the different ways to visually hide content (and make it available only for screen readers)? 
-* Have you ever used a grid system, and if so, what do you prefer? 
+* 描述一下关于CSS属性的hacks, css文件的条件包含, 或者相关的其它技术? 
+* 遇上某些功能有限的浏览器时，你如何做？
+	* 使用什么工具或技术?  
+* 有什么方法让某些内容在网页上不可见 (但是需要让屏幕阅读器读到)? 
+* 你用不用网格布局?如果用，你喜欢它什么？
 * Have you used or implement media queries or mobile specific layouts/CSS? 
 * Any familiarity with styling SVG? 
-* How do you optimize your webpages for print? 
+* 你怎么为打印功能优化你的网页? 
 * What are some of the "gotchas" for writing efficient CSS? 
-* Do you use CSS preprocessors? 
+* 你使用css预处理技术吗? 
 	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? (avoid mentioning webfonts so they can figure it out) 
 * Explain how a browser determines what elements match a CSS selector?  
 
-## Optional fun Questions:
+## 可选的问题:
 
-* What's the coolest thing you've ever coded, what are you most proud of? 
+* 你曾经写过最酷的代码是什么，值得你骄傲的地方在哪? 
 * Do you know the HTML5 gang sign? 
 * Are you now, or have you ever been, on a boat. 
-* Tell me your favorite parts about Firebug / Webkit Inspector. 
+* 你最喜欢Firebug / Webkit Inspector的哪些部分或功能？
 * Do you have any pet projects? What kind? 
 * Explain the significance of "cornify". 
 * On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
