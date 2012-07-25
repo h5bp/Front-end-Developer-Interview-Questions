@@ -1,4 +1,4 @@
-这是对 [eFront-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) 的一个翻译
+这是对 [Front-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) 的一个翻译
 #JOB INTERVIEW QUESTIONNAIRE
 
 @version 1.0
@@ -44,7 +44,7 @@
 * 能在HTML5里使用XHTML的语法吗？HTML5里怎么使用XML? 
 * `data-` 属性的好处在哪? 
 * What are the content models in HTML4 and are they different in HTML5? 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
+* HTML5作为一个开放的网络平台. What are the building blocks of HTML5? 
 * Describe the difference between cookies, sessionStorage and localStorage.  
 
 ## JS问题
@@ -77,9 +77,9 @@ function Person(){} var person = Person() var person = new Person()
 * 解释一下JSONP的原理(它为什么不是AJAX，区别在哪？) 
 * 用过 JavaScript 模板技术吗, 如果用过, 解释下为什么用、怎么用的? 
 * Explain "hoisting". 
-* What is FOUC? How do you avoid FOUC? 
+* 什么是FOUC? 如何避免FOUC? --译者注：[关于FOUC的说明](http://paulirish.com/2009/avoiding-the-fouc-v3/)
 * 解释一下事件冒泡. 
-* What's the difference between an "attribute" and a "property"? 
+* "attribute" and a "property"之间的区别是什么? 
 * 为什么说扩展JS的原生对象是不好的呢? 
 * Why is extending built ins a good idea? 
 * document的load 事件document ready 事件区别在哪? 
@@ -87,8 +87,8 @@ function Person(){} var person = Person() var person = new Person()
 * Explain how you would get a query string parameter from the browser window's URL. 
 * 解释一下同源策略（关于javascript相关的就行）. 
 * 描述一下事件代理. 
-* Describe inheritance patterns in JavaScript. 
-* Make this work: 
+* 描述一下javascript中的继承. 
+* 让下面的代码执行完后结果为注释过的值: 
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
@@ -101,38 +101,38 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 ~~3.14
 ```
-Question: What value is returned from the above statement? 
+问题: 上面的语句返回什么值? 
 **Answer: 3** 
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Question: What value is returned from the above statement? 
-**Answer: "goh angasal a m'i"** 
+问题: 上面的语句返回什么值? 
+**答案: "goh angasal a m'i"** 
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo? 
-**Answer: "bar"** 
+问题: window.foo的值是什么? 
+**答案: "bar"** 
 only if window.foo was falsey otherwise it will retain its value.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above? 
-**Answer: "Hello World" & ReferenceError: bar is not defined** 
+问题: 上面两个alert会弹出什么? 
+**答案: "Hello World" 和 ReferenceError: bar is not defined** 
 
-## jQuery-Specific Questions:
+## jQuery 相关问题：
 
-* Explain "chaining". 
-* What does `.end()` do? 
-* How, and why, would you namespace a bound event handler? 
+* 解释一下 "链式". 
+* `.end()` 的作用是什么? 
+* 什么情况下，你会为事件绑定创建一个命名空间? 
 * What is the effects (or fx) queue? 
-* What is the difference between `.get()`, `[]`, and `.eq()`? 
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`? 
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`. 
-* Optimize this selector: 
+* `.get()`, `[]`, 和 `.eq()` 之间的区别是什么？
+* `.bind()`, `.live()`, 和 `.delegate()`之间的区别是什么？
+* `$` 和 `$.fn` 的区别是什么? 或者说`$.fn`究竟是什么？. 
+* 优化下面的选择器: 
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
@@ -156,7 +156,7 @@ $(".foo div#bar:eq(0)")
 * 你使用css预处理技术吗? 
 	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? (avoid mentioning webfonts so they can figure it out) 
-* Explain how a browser determines what elements match a CSS selector?  
+* 解释一下浏览器是如何匹配符合的选择器的?  
 
 ## 可选的问题:
 
@@ -171,8 +171,8 @@ $(".foo div#bar:eq(0)")
 * This should make the laugh and is a fine way to relieve some tension at the end of the interview.  
 * Pirate or Ninja? 
 	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
-* If not Web Development what would you be doing? 
+* 如果没有网络，你会做什么？
 * Where in the world is Carmen Sandiego? (hint: their answer is always wrong) 
-* What's your favorite feature of Internet Explorer?
-* Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
-* jQuery: a great library or the greatest library? Discuss.
+* 你最喜欢Internet Explorer的什么功能？
+* 完成这句话: Brendan Eich 和 Doug Crockford 是 javascript 的________.
+* jQuery它是一个伟大的库或者说是最伟大的库吗？话题讨论.
