@@ -8,18 +8,16 @@
 
 ## General Questions:
 
-* Are you on Twitter? 
-	* If so, who do you follow on Twitter?
-* Are you on GitHub? 
-	* If so, what are some examples of repos you follow  
-* What blogs do you follow? 
-* What version control systems have you used? 
-* What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
-* Can you describe your workflow when you create a web page? 
-* Can you describe the difference between progressive enhancement and graceful degradation? 
-	* Bonus points for the answer "no one can" 
-	* Extra bonus points for describing feature detection  
-* Explain what "Semantic HTML" means. 
+* 你上Twitter吗? 
+	* 如果上, 那么你在Twitter上都关注了哪些人?
+* 你上Github吗? 
+	* 如果上, 你关注了哪些项目呢？  
+* 你订阅了哪些博客? 
+* 你用什么版本控制软件? 
+* 你的首选开发环境是什么(OS, 编辑器, 浏览器, 调试工具等.) 
+* 你能描述一下你创建一个网页的工作流程吗？Can you describe your workflow when you create a web page? 
+* 能描述一下什么是渐进增强和平稳退化吗？区别是什么呢？Can you describe the difference between progressive enhancement and graceful degradation? 
+* 解释一下什么是HTML语义化。Explain what "Semantic HTML" means. 
 * What does "minification" do? 
 * Why is it better to serve site assets from multiple domains? 
 	* How many resources will a browser download from a given domain at a time?  
