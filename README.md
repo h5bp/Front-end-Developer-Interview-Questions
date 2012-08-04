@@ -61,7 +61,7 @@
 ## JS-Specific Questions
 
 * Which JavaScript libraries have you used? 
-* Have you ever looked at the source code aof the libraries/frameworks you use?
+* Have you ever looked at the source code of the libraries/frameworks you use?
 * How is JavaScript different from Java? 
 * What's a hashtable?
 * What are `undefined` and `undeclared` variables? 
@@ -107,6 +107,7 @@ function Person(){} var person = Person() var person = new Person()
 * Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
 * Why is it called a Ternary statement, what does the word "Ternary" indicate? 
 * What is the arity of a function?  
+* What is `"use strict";`? what are the advantages and disadvantages to using it?
 
 ## JS-Code Examples:
 
