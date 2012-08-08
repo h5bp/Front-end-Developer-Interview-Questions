@@ -89,7 +89,6 @@ function Person(){} var person = Person() var person = new Person()
 * Have you ever used JavaScript templating?
 	* If so, what libraries have you used? (Mustache.js, Handlebars etc.) 
 * Explain "hoisting".
-* What is FOUC? How do you avoid FOUC?
 * Describe event bubbling. 
 * What's the difference between an "attribute" and a "property"? 
 * Why is extending built in JavaScript objects not a good idea? 
@@ -191,6 +190,7 @@ $(".foo div#bar:eq(0)")
 * How would you implement a web design comp that uses non-standard fonts? 
 	* Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?  
+* What is FOUC? How do you avoid FOUC?
 
 ## Optional fun Questions:
 
