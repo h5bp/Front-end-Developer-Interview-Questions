@@ -41,7 +41,8 @@
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
 * If you could master one technology this year, what would it be? 
-* Explain the importance of standards and standards bodies.  
+* Explain the importance of standards and standards bodies.
+* What is FOUC? How do you avoid FOUC?  
 
 ## HTML-Specific Questions:
 
@@ -89,7 +90,6 @@ function Person(){} var person = Person() var person = new Person()
 * Have you ever used JavaScript templating?
 	* If so, what libraries have you used? (Mustache.js, Handlebars etc.) 
 * Explain "hoisting".
-* What is FOUC? How do you avoid FOUC?
 * Describe event bubbling. 
 * What's the difference between an "attribute" and a "property"? 
 * Why is extending built in JavaScript objects not a good idea? 
