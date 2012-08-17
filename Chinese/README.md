@@ -1,14 +1,10 @@
-#JOB INTERVIEW QUESTIONNAIRE
 #前端工程师面试问题
 
-@version 1.0
 @版本 1.0 
-##Contributors
 ##贡献者
 
 @bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
 
-## General Questions:
 ## 一般问题
 
 * 你用Twitter吗？ （在天朝最好问你用微博吗？）
