@@ -1,12 +1,30 @@
-#JOB INTERVIEW QUESTIONNAIRE
+#Front-end Job Interview Questions
 
 @version 1.0
+
+**Note:** This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+
+Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities then a straight answer would.
  
-##Contributors
+####Original Contributors
 
-@bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
+**Note:** The majority of the questions were plucked from a thread created and contributed to by the following individuals:
 
-## General Questions:
+* @bentruyman (http://bentruyman.com)
+* @cowboy (http://benalman.com)
+* @roger_raymond (http://twitter.com/iansym)
+* @ajpiano (http://ajpiano.com)
+* @paul_irish (http://paulirish.com)
+* @SlexAxton (http://alexsexton.com)
+* @boazsender (http://boazsender.com)
+* @miketaylr (http://miketaylr.com)
+* @vladikoff (http://vladfilippov.com)
+* @gf3 (http://gf3.ca)
+* @jon_neal (http://twitter.com/jon_neal)
+* @wookiehangover (http://wookiehangover.com)
+* @darcy_clarke (http://darcyclarke.me)
+
+### General Questions:
 
 * Are you on Twitter? 
 	* If so, who do you follow on Twitter?
@@ -44,7 +62,7 @@
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?  
 
-## HTML-Specific Questions:
+### HTML-Specific Questions:
 
 * What's a `doctype` do, and how many can you name? 
 * What's the difference between standards mode and quirks mode? 
@@ -59,7 +77,7 @@
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
 * Describe the difference between cookies, sessionStorage and localStorage. 
 
-## JS-Specific Questions
+### JS-Specific Questions
 
 * Which JavaScript libraries have you used? 
 * Have you ever looked at the source code of the libraries/frameworks you use?
@@ -109,7 +127,7 @@ function Person(){} var person = Person() var person = new Person()
 * What is the arity of a function?  
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
-## JS-Code Examples:
+### JS-Code Examples:
 
 ```javascript
 ~~3.14
@@ -152,7 +170,7 @@ Question: What is the value of foo.length?
 **Answer: `undefined`
 
 
-## jQuery-Specific Questions:
+### jQuery-Specific Questions:
 
 * Explain "chaining". 
 * Explain "deferreds".
@@ -170,7 +188,7 @@ Question: What is the value of foo.length?
 $(".foo div#bar:eq(0)")
 ```
 
-## CSS-Specific Questions:
+### CSS-Specific Questions:
 
 * Describe what a "reset" CSS file does and how it's useful. 
 * Describe Floats and how they work. 
@@ -192,7 +210,7 @@ $(".foo div#bar:eq(0)")
 	* Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?  
 
-## Optional fun Questions:
+### Optional fun Questions:
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * Do you know the HTML5 gang sign? 
