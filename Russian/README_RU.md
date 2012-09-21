@@ -163,14 +163,14 @@ foo.push(1);
 foo.push(2);
 ```
 Вопрос: Чему равно foo.length?
-**Ответ: `2`
+**Ответ: `2`**
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
 Вопрос: Чему равно foo.length?
-**Ответ: `undefined`
+**Ответ: `undefined`**
 
 
 ### Вопросы по jQuery:
