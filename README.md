@@ -31,6 +31,7 @@ Keep in mind that many of these questions are open ended and could lead to inter
 * Are you on GitHub? 
 	* If so, what are some examples of repos you follow  
 * What blogs do you follow? 
+* What bugs do you follow? (in open-source projects that you use, think browsers, libraries)?
 * What version control systems have you used (Git, SVN etc.)? 
 * What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
 * Can you describe your workflow when you create a web page? 
