@@ -1,9 +1,29 @@
 #前端工程师面试问题
 
 @版本 1.0 
-##贡献者
 
-@bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
+**备注:** 本repo包含了一些前端面试问题用于考查候选者。不建议对单个候选者问及每个问题（那需要好几个小时）。只要从列表里挑选一些，就能帮助你考查候选者是否具备所需要的技能了。
+
+记住，很多问题都是开放的，可以引发有趣的讨论。那比直接的答案更能体现此人的能力。
+ 
+####最初的贡献者
+
+**备注:** 大部分问题从是某个帖子搜集和由下列个人提供：
+
+* @bentruyman (http://bentruyman.com)
+* @cowboy (http://benalman.com)
+* @roger_raymond (http://twitter.com/iansym)
+* @ajpiano (http://ajpiano.com)
+* @paul_irish (http://paulirish.com)
+* @SlexAxton (http://alexsexton.com)
+* @boazsender (http://boazsender.com)
+* @miketaylr (http://miketaylr.com)
+* @vladikoff (http://vladfilippov.com)
+* @gf3 (http://gf3.ca)
+* @jon_neal (http://twitter.com/jon_neal)
+* @wookiehangover (http://wookiehangover.com)
+* @darcy_clarke (http://darcyclarke.me)
+* @tairraos (http://xiaole.happylive.org)
 
 ## 一般问题
 
@@ -208,6 +228,31 @@ foo.bar = 'hello';
 问题：foo.length的值是什么？
 **答案: `undefined`
 
+```javascript
+foo = foo||bar
+```
+问题: 这行代码是什么意思? 
+**答案: if(!foo) foo = bar
+
+```javascript
+foo>>1
+```
+问题: 这行代码是什么意思? 
+**答案: Math.floor(foo/2)
+
+```javascript
+foo|0
+foo+.5|0
+```
+问题: 这行代码是什么意思? 
+**答案: parseInt(foo) & Math.round(foo)
+
+```javascript
+function foo(bar1, bar2, bar3){}
+```
+问题: 如何获取参数的个数?
+**答案: foo.length //this example is 3
+
 
 ## jQuery-Specific Questions:
 ## jQuery相关问题
@@ -238,6 +283,8 @@ foo.bar = 'hello';
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
+
+* 'delegate()'和'live()'有什么区别? 
 
 
 ## CSS相关问题
