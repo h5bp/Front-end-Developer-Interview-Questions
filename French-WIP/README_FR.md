@@ -12,7 +12,7 @@
 	* Si oui, qui suivez-vous ?
 * Êtes-vous sur GitHub ?
 	* Si oui, donnez quelques exemples de dépôt que vous suivez.
-* A quels blogs êtes vous abonné ?
+* A quels blogs êtes-vous abonné ?
 * Quel logiciel de gestion de versions avez-vous déjà utilisé ? (Git, SVN etc.)
 * Quel est votre environnement de développement préféré ? (OS, Editor, Browsers, Tools etc.)
 * Pouvez-vous décrire votre workflow lorsque vous créez une page web ?
@@ -86,8 +86,8 @@ var person = new Person()
 * Quelle est la différence entre détection de feature, inférence de feature, et l'utilisation de l'User Agent ?
 * Expliquez un call AJAX dans le plus grand détail possible
 * Expliquez comment JSONP fonctionne (et en quoi ca n'est pas réellement de l'AJAX)
-* Avez vous déja utilisé fait du templating en JavaScript ?
-	* Si oui, quelles librairies avez vous utilisé (Mustache.js, Handlebars etc…)
+* Avez-vous déjà utilisé du templating en JavaScript ?
+	* Si oui, quelles librairies avez-vous utilisé (Mustache.js, Handlebars etc…)
 * Expliquez "hoisiting".
 * Quest-ce que le FOUC, comment l'évitez vous ?
 * Décrivez le bubbling d'événement.
@@ -180,9 +180,9 @@ $(".foo div#bar:eq(0)")
 * Comment servez vous vos pages pour les browsers aux fonctionnalités réduites ?
 	* Quelles techniques / process utilisez vous ?
 * Quelles sont les différentes manières de masquer du contenu (en le laissant disponible pour les lecteurs d'écran) ?
-* Avez vous déja utilisé un grid system, et si oui, lequel préférez-vous ?
-* Avez vous déja implémenté des media queries, ou des layouts/CSS spécifiques aux mobiles ?
-* Déja touché au styling de SVG ?
+* Avez-vous déjà utilisé un grid system, et si oui, lequel préférez-vous ?
+* Avez-vous déjà implémenté des media queries, ou des layouts/CSS spécifiques aux mobiles ?
+* déjà touché au styling de SVG ?
 * Comment optimisez vous vos pages pour le print ?
 * Quelques trucs pour écrire du CSS efficace ?
 * Utilisez vous des préprocesseurs CSS ? (SASS, Compass, Stylus, LESS)
@@ -195,12 +195,12 @@ $(".foo div#bar:eq(0)")
 
 ## Questions optionnelles, pour le geste.
 
-* Quel est le tuc le plus cool que vous ayez jamais codé, de quoi êtes vous le plus fier ?
+* Quel est le tuc le plus cool que vous ayez jamais codé, de quoi êtes-vous le plus fier ?
 * Connaissez vous le signe de gang du HTML5 ?
-* Êtes vous ou avez vous déja été sur un bateau.
+* Êtes-vous ou avez-vous déjà été sur un bateau ?
 * Quelles sont vos parties favorites des outils de développement que vous utilisez.
-* Avez vous des projets chouchous ? Quel genre ?
-* Expliquez 'cornify'
+* Avez-vous des projets chouchous ? Quel genre ?
+* Expliquez 'cornify'.
 * Sur un bout de papier, écrivez les lettres A B C D E verticalement.
   Maintenant mettez les en ordre descendant sans écrire une ligne de code.
 	* Regardez si ils retournent le bout de papier.
@@ -209,6 +209,6 @@ $(".foo div#bar:eq(0)")
 * Si c'était pas du Dev, vous feriez quoi ?
 * Ou est Carmen San Diego ?
 	* Indice : La réponse est toujours fausse.
-* Quelle est votre feature favorite de IE
+* Quelle est votre feature favorite de IE ?
 * Complétez cette phrase Brendan Eich et Doug Crockford sont les __________ de JavaScript.
 * jQuery : superbe librairie, ou la meilleure ? Discutez.
