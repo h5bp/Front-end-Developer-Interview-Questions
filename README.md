@@ -23,6 +23,7 @@ Keep in mind that many of these questions are open ended and could lead to inter
 * @jon_neal (http://twitter.com/jon_neal)
 * @wookiehangover (http://wookiehangover.com)
 * @darcy_clarke (http://darcyclarke.me)
+* @tairraos (http://xiaole.happylive.org)
 
 ### General Questions:
 
@@ -169,6 +170,31 @@ foo.bar = 'hello';
 Question: What is the value of foo.length? 
 **Answer: `undefined`
 
+```javascript
+foo = foo||bar
+```
+Question: What is the mean for? 
+**Answer: if(!foo) foo = bar
+
+```javascript
+foo>>1
+```
+Question: What is the mean for?
+**Answer: Math.floor(foo/2)
+
+```javascript
+foo|0
+foo+.5|0
+```
+Question: What is the mean for?
+**Answer: parseInt(foo) & Math.round(foo)
+
+```javascript
+function foo(bar1, bar2, bar3){}
+```
+Question: How to get the numbers of parameters?
+**Answer: foo.length //this example is 3
+
 
 ### jQuery-Specific Questions:
 
@@ -187,6 +213,8 @@ Question: What is the value of foo.length?
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
+* Difference between 'delegate()' and 'live()'? 
+
 
 ### CSS-Specific Questions:
 
