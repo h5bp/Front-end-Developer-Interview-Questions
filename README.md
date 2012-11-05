@@ -37,7 +37,7 @@ Keep in mind that many of these questions are open ended and could lead to inter
 * Can you describe the difference between progressive enhancement and graceful degradation? 
 	* Bonus points for describing feature detection  
 * Explain what "Semantic HTML" means. 
-* What browser do you primary develop in and what developer tools do you use?
+* What browser do you primarily develop in and what developer tools do you use?
 * How would you optimize a websites assets/resources?
 	* Looking for a number of solutions which can include:
 		* File concatenation
