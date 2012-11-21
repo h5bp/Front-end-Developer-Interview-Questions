@@ -65,23 +65,22 @@ Qual seu ambiente de trabalho preferido? (SO's, Editores, Browsers, Ferramentas 
 
 * Se você pudesse dominar uma tecnologia este ano, o que seria?
 * Explique a importância de padrões e padrões organizacionais.
-* 
 * O que é FOUC? Como evitamos o FOUC?  
 
 ### HTML-Specific Questions:
-
-* What's a `doctype` do, and how many can you name? 
-* What's the difference between standards mode and quirks mode? 
-* What are the limitations when serving XHTML pages? 
-	* Are there any problems with serving pages as `application/xhtml+xml`?  
-* How do you serve a page with content in multiple languages? 
-	* What kind of things must you be wary of when design or developing for multilingual sites?
-* Can you use XHTML syntax in HTML5? 
-* How do you use XML in HTML5? 
-* What are `data-` attributes good for? 
-* What are the content models in HTML4 and are they different in HTML5? 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
-* Describe the difference between cookies, sessionStorage and localStorage. 
+* O que `doctype` faz, e quantos você consegue nomear?
+* Qual a diferença entre stardads mode e quirks mode?
+* Quais as limitações quando utilizamos páginas XHTML?
+	* Existe algum problema em utilizar páginas como application/xhtml+xml`?
+* Como você desenvolve uma página como conteúdo em múltiplos idiomas?
+	* Que tipo de coisas que você deve ser cauteloso em está desenvolvendo um website multi-língua?
+* Você pode utilizar a sintaxe XHTML no HTML5?
+* Como você usa XML no HTML5?
+* Quais são os benefícios em utilizar o atributo `data-`?
+* Quais são os modelos de conteúdo do HTML4 e eles são diferentes em HTML5?
+* Considere o HTML5 como uma plataforma web aberta. Quais são os 
+* Consider HTML5 as an open web platform. Quais são os blocos de construção de HTML5?
+* Descreva a diferença entre cookies, sessionStorage e localStorage.
 
 ### JS-Specific Questions
 
