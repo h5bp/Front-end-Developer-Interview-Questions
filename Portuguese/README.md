@@ -7,9 +7,11 @@
 Tenha em mente que muitas dessas questões estão em aberto e poderiam levar a discussões interessantes que irão revelar mais sobre as competências da pessoa do que uma resposta.
 
  
-####Original Contributors
+####Contribuidore
 
-**Note:** The majority of the questions were plucked from a thread created and contributed to by the following individuals:
+
+
+**Nota:** A maioria das perguntas foram retiradas de um tópico criado e contribuido pelas seguintes pessoas:
 
 * @bentruyman (http://bentruyman.com)
 * @cowboy (http://benalman.com)
@@ -25,45 +27,46 @@ Tenha em mente que muitas dessas questões estão em aberto e poderiam levar a d
 * @wookiehangover (http://wookiehangover.com)
 * @darcy_clarke (http://darcyclarke.me)
 * @tairraos (http://xiaole.happylive.org)
-* @guiiipontes (http://guilhermepontes.com)
 
-### General Questions:
+### Questões Gerais:
 
-* Are you on Twitter? 
-	* If so, who do you follow on Twitter?
-* Are you on GitHub? 
-	* If so, what are some examples of repos you follow  
-* What blogs do you follow? 
-* What version control systems have you used (Git, SVN etc.)? 
-* What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
-* Can you describe your workflow when you create a web page? 
-* Can you describe the difference between progressive enhancement and graceful degradation? 
-	* Bonus points for describing feature detection  
-* Explain what "Semantic HTML" means. 
-* What browser do you primarily develop in and what developer tools do you use?
-* How would you optimize a websites assets/resources?
-	* Looking for a number of solutions which can include:
-		* File concatenation
-		* File minification
-		* CDN Hosted
+* Vocêe está no Twitter? 
+	* Se sim, quem você segue?
+* Você está no GitHub?
+	* Se sim, quais repositórios você segue?
+* Quais blogs você lê?
+Qual Sistema de Controle de Versão você tem usado? (Git, SVN etc.)?
+Qual seu ambiente de trabalho preferido? (SO's, Editores, Browsers, Ferramentas etc.) 
+* Você pode descrever o seu ambiente de trabalho quando você cria uma página?
+* Você poderia descrever qual a diferença entre progressive enhancement e graceful degradation?
+	* Pontos bônus se descrever detecção de recursos.
+* Explique o que "HTML Semântico" significa.
+* Qual browser você usa principalmente para desenvolvedor e quais ferramentas de desenvolvimento você usa?
+* Como você optimiza os recursos de um website?
+	* Uma série de soluções podem ser incluídas:
+		* Concatenação de arquivos
+		* Minificação de arquivos
+		* Hospedar em um CDN os arquivos estáticos
 		* Caching
 		* etc.
-* Why is it better to serve site assets from multiple domains? 
-	* How many resources will a browser download from a given domain at a time? 
-* Name 3 ways to decrease page load. (perceived or actual load time) 
-* If you jumped on a project and they used tabs and you used spaces, what would you do? 
-	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-	* Conform to the conventions (stay consistant)
+* Porque é muito melhor utilizarmos recursos de um website vindo de vários domínios?
+	* Quanto recursos irão ser baixados de um determinado dominío por vez?
+* Exemplifique 3 modos de dominuir o tempo de carregamento. (tempo de carregamento real ou percebido)
+* Se você entrasse em um projeto onde foram utilizados TABS para indentação e você usa ESPAÇOS, o que você faria?
+	* Sugerir para o projeto a utilização de algo como o EditorConfig (http://editorconfig.org)
+	* Conformarcom as convenções (ficar consistente)
 	* `issue :retab! command`
-* Write a simple slideshow page 
-	* Bonus points if it does not use JS.  
-* What tools do you use to test your code's performance?
+* Desenvolva uma página simples para apresentação de slides 
+	* Pontos bônus se não utilizar JS.
+* Quais ferramentas você usa para testar a perfomance do seu código?
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
-* If you could master one technology this year, what would it be? 
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?  
+
+* Se você pudesse dominar uma tecnologia este ano, o que seria?
+* Explique a importância de padrões e padrões organizacionais.
+* 
+* O que é FOUC? Como evitamos o FOUC?  
 
 ### HTML-Specific Questions:
 
