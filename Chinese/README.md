@@ -186,6 +186,12 @@ function Person(){} var person = Person() var person = new Person()
 
 * 什么是"use strict"?使用它的好处和坏处分别是什么？
 
+* JavaScript内存泄漏。
+	* 什么是内存泄漏？
+	* JavaScript中哪些原因会导致内存泄漏？
+	* 有什么样的工具可以检测内存泄漏？
+	* 应该怎样去避免内存泄漏？
+
 ## JS代码示例：
 
 ```javascript
