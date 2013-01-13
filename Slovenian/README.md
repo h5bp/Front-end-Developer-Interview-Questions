@@ -34,33 +34,33 @@ Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, 
 * Katere bloge spremljaš? 
 * Katere programe za hranjenje verzij si uporabljal (Git, SVN, ...)? 
 * Katero okolje najraje uporabljaš za razvoj? (OS, editor, brskalnik, orodja, …) 
-* Lahko opišeš tvoj potek dela, ko kreiraš novo spletno stran? 
-* Can you describe the difference between progressive enhancement and graceful degradation? 
-	* Bonus points for describing feature detection  
-* Razloži pojem "Semantičen HTML". 
-* What browser do you primarily develop in and what developer tools do you use?
-* How would you optimize a websites assets/resources?
-	* Looking for a number of solutions which can include:
-		* File concatenation
-		* File minification
-		* CDN Hosted
+* Lahko opišeš tvoj potek dela, ko kreiraš novo spletno stran?
+* Lahko opišeš razliko med "progressive enhancement" in "graceful degradation"?
+	* bonus točke za opis "feature detection"-a
+* Razloži pojem "Semantic HTML". 
+* V katerem brskalniku primarno razvijaš in katera orodja uporabljaš?
+* Kako bi optimiziral nalaganje spletne strani (s stališča zahtevanih datotek)?
+	* Iščemo več rešitev, ki med drugimi vklučujejo tudi:
+		* Združevanje datotek
+		* Minifikacija datotek
+		* CDN gostovanje
 		* Caching
-		* etc.
-* Why is it better to serve site assets from multiple domains? 
-	* How many resources will a browser download from a given domain at a time? 
-* Name 3 ways to decrease page load. (perceived or actual load time) 
-* If you jumped on a project and they used tabs and you used spaces, what would you do? 
-	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-	* Conform to the conventions (stay consistant)
+		* ...
+* zakaj je bolje statične vsebine servirati z večih domen?
+	* Koliko različnih datotek bo brskalnik prenesel iz ene domene na enkrat?
+* Naštej 3 načine za zmanjšanje "page load time"-a. (dejanski ali zaznavan "load time")
+* Če bi se pridružil projektu, kjer uporabljajo "tab"-e, ti pa uporabljaš presledke, kaj bi storil?
+	* Predlog da se uporabi nekaj takega kot je EditorConfig (http://editorconfig.org)
+	* Se prilagodi
 	* `issue :retab! command`
 * Ustvari preprosto prezentacijsko stran (slide-show) 
-	* Bonus točke, če ne uporablja JS.  
-* What tools do you use to test your code's performance?
+	* Bonus točke, če ne uporablja JS.
+* Katera orodja uporabljaš za testiranje performančnosti kode?
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
-	* etc.
-* Če bi to leto lahko popolnoma osvojil novo tehnologijo, katera bi to bila? 
-* Explain the importance of standards and standards bodies.
+	* ...
+* Če bi to leto lahko popolnoma osvojil novo tehnologijo, katera bi to bila?
+* Razloži pomembnost standardov in organov za nadzorovanje standardov.
 * Kaj je FOUC? Kako se izogneš FOUC-u?  
 
 ### HTML-Specific Questions:
