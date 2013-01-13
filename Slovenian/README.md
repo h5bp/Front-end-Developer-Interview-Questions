@@ -2,13 +2,13 @@
 
 @verzija 1.0
 
-**Note:** This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+**Obvestilo:** Ta repositorij vsebuje vrsto front-end vprašanj, ki se lahko uporabijo za preverjanje potencialnih kandidatov. Ni priporočljivo, da se vsa vprašanja uporabijo za vsakega kandidata (to bi trajalo ure). Izberite nekaj vprašanj, ki vam bodo pomagala preveriti kandidata za znanja, ki jih potrebujete.
 
-Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, ki vam bodo o kandidatih sporočili več, kot pa navaden kratek odgovor.
  
 ####Originalni Avtorji
 
-**Obvestil:o** večino teh vprašanj je bilo pobranih iz foruma, ustvarjenega in vzdrževanega od nasljednjih ljudi:
+**Obvestilo:** večino teh vprašanj je bilo pobranih iz foruma, ustvarjenega in vzdrževanega od nasljednjih ljudi:
 
 * @bentruyman (http://bentruyman.com)
 * @cowboy (http://benalman.com)
