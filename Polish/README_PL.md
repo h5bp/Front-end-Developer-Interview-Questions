@@ -67,7 +67,7 @@
 	* Co jest ważne przy projektowaniu i tworzeniu stron wielojęzycznych?
 * Czy możliwe jest używanie składni XHTML w HTML5? 
 * Jak używać języka XML w HTML5? 
-* Jaka jest przydatność atrybutów `data-` attributes good for? 
+* Jaka jest przydatność atrybutów `data-` 
 * Czy są modele treści w HTML4, a także czy różnią się w HTML5? 
 * Rozpatrujemy HTML5 jako otwartą platformę internetową. Jakie składniki tworzą HTML5? 
 * Opisz różnice między cookies, sessionStorage i localStorage. 
