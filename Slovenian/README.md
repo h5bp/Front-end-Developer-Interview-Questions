@@ -63,20 +63,20 @@ Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, 
 * Razloži pomembnost standardov in organov za nadzorovanje standardov.
 * Kaj je FOUC? Kako se izogneš FOUC-u?  
 
-### HTML-Specific Questions:
+### HTML vprašanja:
 
-* What's a `doctype` do, and how many can you name? 
-* What's the difference between standards mode and quirks mode? 
-* What are the limitations when serving XHTML pages? 
-	* Are there any problems with serving pages as `application/xhtml+xml`?  
-* How do you serve a page with content in multiple languages? 
-	* What kind of things must you be wary of when design or developing for multilingual sites?
-* Can you use XHTML syntax in HTML5? 
-* How do you use XML in HTML5? 
-* What are `data-` attributes good for? 
-* What are the content models in HTML4 and are they different in HTML5? 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
-* Describe the difference between cookies, sessionStorage and localStorage. 
+* Kaj naredi `doctype` in koliko različtih lahko našteješ?
+* Kaj je razlika med "standards mode" in "quirks mode"?
+* Kaj so omejitve pri serviranju XHTML strani?
+	* Ali so kakšni problemi pri servviranju strani z `application/xhtml+xml`?  
+* Kako serviraš stran z vsebino v večih jezikih?
+	* Na katere stvari moraš paziti ko dizajniraš ali programiraš večjezično stran?
+* Ali lahko uporabljaš XHTML sintakso v HTML5? 
+* Kako uporabljaš XML v HTML5? 
+* Zakaj lahko uporabimo `data-` atribute?
+* Kaj so "content models" v HTML4 in ali so različni v HTML5?
+* Predpostavi da je HTML5 odprta spletna platforma. Kaj so gradniki HTML5?
+* Opiši razliko med "cookies", "sessionStorage" in "localStorage". 
 
 ### JS-Specific Questions
 
