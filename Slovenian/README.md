@@ -238,22 +238,20 @@ $(".foo div#bar:eq(0)")
 	* Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?  
 
-### Optional fun Questions:
+### Opcijska zabavna vprašanja:
 
-* What's the coolest thing you've ever coded, what are you most proud of?
-* Do you know the HTML5 gang sign? 
-* Are you now, or have you ever been, on a boat. 
-* What are your favorite parts about the developer tools you use?
-* Do you have any pet projects? What kind? 
-* Explain the significance of "cornify". 
-* On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
-	* Wait and see if they turn the paper upside down
-* Pirate or Ninja? 
-	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
-* If not Web Development, what would you be doing? 
-* Where in the world is Carmen Sandiego?
-	* Hint: their answer is always wrong 
-* What's your favorite feature of Internet Explorer?
-* Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
-* jQuery: a great library or the greatest library? Discuss.
-* http://www.w3schools.com/ or http://w3fools.com/
+* Kaj je najbolj "cool" stvar, ki si jo sprogramiral/a? Na kaj si najbolj ponosen/a?
+* Poznaš znak (logo) za HTML5?
+* Ali si trenutno, oz. si kjda bil, na ladji?
+* Najljubše stvari tvojih razvojnih orodij?
+* Imaš kak zasebni projekt? Kakšen?
+* Razloži pomembnost "cornify".
+* Na list papirja napiši vertikalno črke A B C D E . Sedaj pa jih postavi v spuščajoči vrstni red, brez da napišeš vrstico kode.
+	* Počakaj če bo obrnil list papirja na glavo
+* Pirat ali Ninja?
+	* Bonus točke če je kombiniran in je dal/a dober razlog (+2 za zombi opia pirat ninja)
+* Če nebi bil/a web-developer, kaj bi počel/a?
+* Najljubša lastnost Internet Explorerja?
+* Dokončaj naslednji stavek: Brendan Eich in Doug Crockford sta __________ javascript-a.
+* jQuery: dobra ali najboljša knjižnica? Debata.
+* http://www.w3schools.com/ ali http://w3fools.com/
