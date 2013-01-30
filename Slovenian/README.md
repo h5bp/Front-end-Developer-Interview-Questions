@@ -196,24 +196,24 @@ Question: How to get the numbers of parameters?
 **Answer: foo.length //this example is 3
 
 
-### jQuery-Specific Questions:
+### jQuery vprašanja:
 
-* Explain "chaining". 
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do? 
-* How, and why, would you namespace a bound event handler? 
-* Name 4 different values you can pass to the jQuery method.
-	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue? 
-* What is the difference between `.get()`, `[]`, and `.eq()`? 
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`? 
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector: 
+* Razloži "chaining".
+* Razloži "deferreds".
+* Naštej nekaj, za jQuery specifičnih, optimizacij.
+* Kaj naredi `.end()`? 
+* Kako, in zakaj, bi uporabil "namespace"-e za "event handler"-je?
+* Naštej 4 različne vrednosti, ki jih lahko podač jQuery funkciji.
+	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object, ...
+* Kaj je "effects" vrsta (oz. fx)?
+* Razlika med `.get()`, `[]`, in `.eq()`?
+* Razlika med `.bind()`, `.live()`, in `.delegate()`?
+* Razlika med `$` in `$.fn`? Oz. kaj je `$.fn`?
+* Optimiziraj naslednji selektor: 
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Difference between 'delegate()' and 'live()'? 
+* Razlika med 'delegate()' in 'live()'?
 
 
 ### CSS-Specific Questions:
