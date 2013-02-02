@@ -128,72 +128,72 @@ function Person(){} var person = Person() var person = new Person()
 * What is the arity of a function?  
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
-### JS-Code Examples:
+### JavaScript koda primeri:
 
 ```javascript
 ~~3.14
 ```
-Question: What value is returned from the above statement? 
-**Answer: 3** 
+Vprašanje: Kaj je vrednost zgornjega stavka? 
+**Odgovor: 3** 
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Question: What value is returned from the above statement? 
-**Answer: "goh angasal a m'i"** 
+Vprašanje: Kaj je vrednost zgornjega stavka? 
+**Odgovor: "goh angasal a m'i"** 
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo? 
-**Answer: "bar"** 
-only if window.foo was falsey otherwise it will retain its value.
+Vprašanje: Kaj je vrednost window.foo? 
+**Odgovor: "bar"** 
+samoe če je bil window.foo "lažen", drugače bo ohranil svojo vrednost.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above? 
-**Answer: "Hello World" & ReferenceError: bar is not defined** 
+Vprašanje: Kaj je rezultat zgornjih dveh alert-ov? 
+**Odgovor: "Hello World" & ReferenceError: bar is not defined** 
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Question: What is the value of foo.length? 
-**Answer: `2`
+Vprašanje: Kaj je vrednost od foo.length? 
+**Odgovor: `2`
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Question: What is the value of foo.length? 
+Vprašanje: Kaj je vrednost od foo.length? 
 **Answer: `undefined`
 
 ```javascript
 foo = foo||bar
 ```
-Question: What is the mean for? 
-**Answer: if(!foo) foo = bar
+Vprašanje: Kako bi lahko drugače napisal zgornji stavek?
+*Odgovor: if(!foo) foo = bar
 
 ```javascript
 foo>>1
 ```
-Question: What is the mean for?
-**Answer: Math.floor(foo/2)
+Vprašanje: Kako bi lahko drugače napisal zgornji stavek?
+**Odgovor: Math.floor(foo/2)
 
 ```javascript
 foo|0
 foo+.5|0
 ```
-Question: What is the mean for?
-**Answer: parseInt(foo) & Math.round(foo)
+Vprašanje: Kako bi lahko drugače napisal zgornji stavek?
+**Odgovor: parseInt(foo) & Math.round(foo)
 
 ```javascript
 function foo(bar1, bar2, bar3){}
 ```
-Question: How to get the numbers of parameters?
-**Answer: foo.length //this example is 3
+Vprašanje: Kako dobiti število paremetrov podanih v funkcijo?
+**Odgovor: foo.length // 3 za ta primer
 
 
 ### jQuery vprašanja:
