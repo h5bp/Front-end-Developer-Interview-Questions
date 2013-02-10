@@ -78,55 +78,52 @@ Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, 
 * Predpostavi da je HTML5 odprta spletna platforma. Kaj so gradniki HTML5?
 * Opiši razliko med "cookies", "sessionStorage" in "localStorage". 
 
-### JS-Specific Questions
+### JavaScript vprašanja:
 
-* Which JavaScript libraries have you used? 
-* Have you ever looked at the source code of the libraries/frameworks you use?
-* How is JavaScript different from Java? 
-* What's a hashtable?
-* What are `undefined` and `undeclared` variables? 
-* What is a closure, and how/why would you use one? 
-	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
-* What's a typical use case for anonymous functions? 
-* Explain the "JavaScript module pattern" and when you'd use it. 
-	* Bonus points for mentioning clean namespacing. 
-	* What if your modules are namespace-less?  
-* How do you organize your code? (module pattern, classical inheritance?) 
-* What's the difference between host objects and native objects? 
-* Difference between: 
+* Katere JavaScript knjižnice si že uporabljal/a?
+* Si kdaj gledal/a izvorno kodo knjižnic/ogrodij, i si jih uporabljal/a?
+* Razlika med Java in JavaScript?
+* Kaj je "hashtable"?
+* Kaj sta `undefined` in `undeclared` spremenljivki?
+* Kaj je "closure", in zakaj/kako bi jo uporabil/a?
+* Tipičen primer uporabe anonimnih funkcij?
+* Razloži "JavaScript module pattern" in kdaj bi ga uporabil/a.
+	* Bonus točke če omeni "clean namespacing".
+* Kako organiziraš svojo kodo? (module pattern, classical inheritance?)
+* Razlika med "host object" in "native object"?
+* Razlika med:
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* What's the difference between `.call` and `.apply`? 
-* explain `Function.prototype.bind`? 
-* When do you optimize your code? 
-* Can you explain how inheritance works in JavaScript?   
-* When would you use `document.write()`?
-	* Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string 
-* Explain AJAX in as much detail as possible 
-* Explain how JSONP works (and how it's not really AJAX) 
-* Have you ever used JavaScript templating?
-	* If so, what libraries have you used? (Mustache.js, Handlebars etc.) 
-* Explain "hoisting".
-* Describe event bubbling. 
-* What's the difference between an "attribute" and a "property"? 
-* Why is extending built in JavaScript objects not a good idea? 
-* Why is extending built ins a good idea? 
-* Difference between document load event and document ready event? 
-* What is the difference between `==` and `===`? 
-* Explain how you would get a query string parameter from the browser window's URL. 
-* Explain the same-origin policy with regards to JavaScript. 
-* Explain event delegation. 
-* Describe inheritance patterns in JavaScript. 
-* Make this work: 
+* Razlika med `.call` in `.apply`?
+* Razloži `Function.prototype.bind`?
+* Kdaj optimiziraš kodo?
+* Ali lahko razložiš dedovanje v JavaScript-u?
+* Kdaj bi uporabil/a `document.write()`?
+* Razlika med zaznavanjem funkcionalnosti, sklepanjem o funkcionalnosti in uporabljanjem UA niza.
+* Razloži AJAX s čim več detajli.
+* Razloži kako deluje JSONP (in zakaj to ni res AJAX).
+* Si že kdaj uporabil/a JavaScript "templates"-e?
+	* Če ja, katere knjižnice si uporabil/a? (Mustache.js, Handlebars etc.)
+* Razloži "hoisting".
+* Opiši "event bubbling".
+* Razlika med "attribute" in "property"?
+* Zakaj je razširjanje vgrajenih JS objektov slaba ideja?
+* Zakaj je razširjanje vgrajenih JS objektov dobra ideja?
+* Razlika med "document load" in "document ready"?
+* Razlika med `==` in `===`? 
+* Kako bi dobil URL GET parameter?
+* Razloži "same-origin policy".
+* Razloži "event delegation".
+* Razloži različne načine doseganja dedovanja.
+* Napiši kodo za "duplicator()" funkcijo:
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
-* Why is it called a Ternary statement, what does the word "Ternary" indicate? 
-* What is the arity of a function?  
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Opiši strategijo za pomnenje (izogibanje ponovnemu računanju).
+* Od kod ime "Ternary statement", kaj označuje beseda "Ternary"?
+* Kaj je "arity" funkcije?
+* Kaj je `"use strict";`? Prednosti/slabosti?
 
 ### JavaScript koda primeri:
 
