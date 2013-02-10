@@ -27,61 +27,61 @@ Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, 
 
 ### Splošna vprašanja:
 
-* Ali uporabljaš Twitter? 
+* Ali uporabljaš Twitter?
 	* Če ja, katerim osebam slediš?
-* Ali uporabljaš GitHub? 
-	* Če ja, katerim repositorijem slediš?  
-* Katere bloge spremljaš? 
-* Katere programe za hranjenje verzij si uporabljal (Git, SVN, ...)? 
-* Katero okolje najraje uporabljaš za razvoj? (OS, editor, brskalnik, orodja, …) 
+* Ali uporabljaš GitHub?
+	* Če ja, katerim repositorijem slediš?
+* Katere bloge spremljaš?
+* Katere programe za hranjenje verzij si uporabljal/a (Git, SVN, ...)?
+* Katero okolje najraje uporabljaš za razvoj? (OS, editor, brskalnik, orodja, …)
 * Lahko opišeš tvoj potek dela, ko kreiraš novo spletno stran?
 * Lahko opišeš razliko med "progressive enhancement" in "graceful degradation"?
 	* bonus točke za opis "feature detection"-a
-* Razloži pojem "Semantic HTML". 
+* Razloži pojem "Semantic HTML".
 * V katerem brskalniku primarno razvijaš in katera orodja uporabljaš?
-* Kako bi optimiziral nalaganje spletne strani (s stališča zahtevanih datotek)?
+* Kako bi optimiziral/a nalaganje spletne strani (s stališča zahtevanih datotek)?
 	* Iščemo več rešitev, ki med drugimi vklučujejo tudi:
 		* Združevanje datotek
 		* Minifikacija datotek
 		* CDN gostovanje
 		* Caching
 		* ...
-* zakaj je bolje statične vsebine servirati z večih domen?
+* Zakaj je bolje statične vsebine servirati z večih domen?
 	* Koliko različnih datotek bo brskalnik prenesel iz ene domene na enkrat?
-* Naštej 3 načine za zmanjšanje "page load time"-a. (dejanski ali zaznavan "load time")
-* Če bi se pridružil projektu, kjer uporabljajo "tab"-e, ti pa uporabljaš presledke, kaj bi storil?
+* Naštej 3 načine za zmanjšanje "page load time"-a. (dejanski ali zaznavan "load time").
+* Če bi se pridružil/a projektu, kjer uporabljajo "tab"-e, ti pa uporabljaš presledke, kaj bi storil/a?
 	* Predlog da se uporabi nekaj takega kot je EditorConfig (http://editorconfig.org)
 	* Se prilagodi
 	* `issue :retab! command`
-* Ustvari preprosto prezentacijsko stran (slide-show) 
+* Ustvari preprosto prezentacijsko stran (slide-show).
 	* Bonus točke, če ne uporablja JS.
 * Katera orodja uporabljaš za testiranje performančnosti kode?
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
 	* ...
-* Če bi to leto lahko popolnoma osvojil novo tehnologijo, katera bi to bila?
+* Če bi to leto lahko popolnoma osvojil/a novo tehnologijo, katera bi to bila?
 * Razloži pomembnost standardov in organov za nadzorovanje standardov.
-* Kaj je FOUC? Kako se izogneš FOUC-u?  
+* Kaj je FOUC? Kako se izogneš FOUC-u?
 
 ### HTML vprašanja:
 
 * Kaj naredi `doctype` in koliko različtih lahko našteješ?
 * Kaj je razlika med "standards mode" in "quirks mode"?
 * Kaj so omejitve pri serviranju XHTML strani?
-	* Ali so kakšni problemi pri servviranju strani z `application/xhtml+xml`?  
+	* Ali so kakšni problemi pri servviranju strani z `application/xhtml+xml`?
 * Kako serviraš stran z vsebino v večih jezikih?
 	* Na katere stvari moraš paziti ko dizajniraš ali programiraš večjezično stran?
-* Ali lahko uporabljaš XHTML sintakso v HTML5? 
-* Kako uporabljaš XML v HTML5? 
+* Ali lahko uporabljaš XHTML sintakso v HTML5?
+* Kako uporabljaš XML v HTML5?
 * Zakaj lahko uporabimo `data-` atribute?
 * Kaj so "content models" v HTML4 in ali so različni v HTML5?
 * Predpostavi da je HTML5 odprta spletna platforma. Kaj so gradniki HTML5?
-* Opiši razliko med "cookies", "sessionStorage" in "localStorage". 
+* Opiši razliko med "cookies", "sessionStorage" in "localStorage".
 
 ### JavaScript vprašanja:
 
 * Katere JavaScript knjižnice si že uporabljal/a?
-* Si kdaj gledal/a izvorno kodo knjižnic/ogrodij, i si jih uporabljal/a?
+* Si kdaj gledal/a izvorno kodo knjižnic/ogrodij, ki si jih uporabljal/a?
 * Razlika med Java in JavaScript?
 * Kaj je "hashtable"?
 * Kaj sta `undefined` in `undeclared` spremenljivki?
@@ -144,7 +144,7 @@ Vprašanje: Kaj je vrednost zgornjega stavka?
 ```
 Vprašanje: Kaj je vrednost window.foo? 
 **Odgovor: "bar"** 
-samoe če je bil window.foo "lažen", drugače bo ohranil svojo vrednost.
+samo če je bil window.foo "lažen", drugače bo ohranil svojo vrednost.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
@@ -170,20 +170,20 @@ Vprašanje: Kaj je vrednost od foo.length?
 ```javascript
 foo = foo||bar
 ```
-Vprašanje: Kako bi lahko drugače napisal zgornji stavek?
+Vprašanje: Kako bi lahko drugače napisal/a zgornji stavek?
 *Odgovor: if(!foo) foo = bar
 
 ```javascript
 foo>>1
 ```
-Vprašanje: Kako bi lahko drugače napisal zgornji stavek?
+Vprašanje: Kako bi lahko drugače napisal/a zgornji stavek?
 **Odgovor: Math.floor(foo/2)
 
 ```javascript
 foo|0
 foo+.5|0
 ```
-Vprašanje: Kako bi lahko drugače napisal zgornji stavek?
+Vprašanje: Kako bi lahko drugače napisal/a zgornji stavek?
 **Odgovor: parseInt(foo) & Math.round(foo)
 
 ```javascript
@@ -198,9 +198,9 @@ Vprašanje: Kako dobiti število paremetrov podanih v funkcijo?
 * Razloži "chaining".
 * Razloži "deferreds".
 * Naštej nekaj, za jQuery specifičnih, optimizacij.
-* Kaj naredi `.end()`? 
-* Kako, in zakaj, bi uporabil "namespace"-e za "event handler"-je?
-* Naštej 4 različne vrednosti, ki jih lahko podač jQuery funkciji.
+* Kaj naredi `.end()`?
+* Kako, in zakaj, bi uporabil/a "namespace"-e za "event handler"-je?
+* Naštej 4 različne vrednosti, ki jih lahko podaš jQuery funkciji.
 	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object, ...
 * Kaj je "effects" vrsta (oz. fx)?
 * Razlika med `.get()`, `[]`, in `.eq()`?
@@ -218,11 +218,11 @@ $(".foo div#bar:eq(0)")
 * Opiši namen CSS "reset" datoteke in zakaj je uporabna.
 * Opiši "float"-e in kako delujejo.
 * Opiši različne "clearing" tehnike.
-* Razloži CSS "sprite"-e in kako bi jih implementiral.
+* Razloži CSS "sprite"-e in kako bi jih implementiral/a.
 * Tvoje najljubše tehnike za zamenjavo slik?
 * CSS hacki, pogojno vključene .css datoteke ali kaj drugega?
 * Kako serviraš strani brskalnikom ki imajo omejen nabor funkcionalnosti?
-	* Katere tehnike/procese uporabljaš? 
+	* Katere tehnike/procese uporabljaš?
 * Na katere načine lahko vizualno skriješ vsebino (tako da je navoljo samo "screen reader"-jem)?
 * Si že kdaj uporabil/a "grid" sistem. Če ja, kateri ti je najljubši?
 * Si že implementiral/a "media queries" ali za mobilnike specifičen HTML/CSS?
@@ -239,14 +239,14 @@ $(".foo div#bar:eq(0)")
 
 * Kaj je najbolj "cool" stvar, ki si jo sprogramiral/a? Na kaj si najbolj ponosen/a?
 * Poznaš znak (logo) za HTML5?
-* Ali si trenutno, oz. si kjda bil, na ladji?
+* Ali si trenutno, oz. si kdaj bil/a, na ladji?
 * Najljubše stvari tvojih razvojnih orodij?
 * Imaš kak zasebni projekt? Kakšen?
 * Razloži pomembnost "cornify".
 * Na list papirja napiši vertikalno črke A B C D E . Sedaj pa jih postavi v spuščajoči vrstni red, brez da napišeš vrstico kode.
-	* Počakaj če bo obrnil list papirja na glavo
+	* Počakaj če bo obrnil/a list papirja na glavo
 * Pirat ali Ninja?
-	* Bonus točke če je kombiniran in je dal/a dober razlog (+2 za zombi opia pirat ninja)
+	* Bonus točke če je kombiniran/a in je dal/a dober razlog (+2 za zombi opica pirat ninja)
 * Če nebi bil/a web-developer, kaj bi počel/a?
 * Najljubša lastnost Internet Explorerja?
 * Dokončaj naslednji stavek: Brendan Eich in Doug Crockford sta __________ javascript-a.
