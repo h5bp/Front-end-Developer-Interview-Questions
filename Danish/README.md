@@ -225,7 +225,6 @@ $(".foo div#bar:eq(0)")
 * Forklar CSS sprites, og hvordan du vil indføre dem på en side eller et websted.
 * Hvad er din yndlings billed udskiftning(image replacement) teknik og som bruger du?
 * CSS property hacks, konditionel inkluderet. css filer, eller ... noget andet?
-
 * Hvordan serverer du dine sider for funktionen begrænset browsere?
    * Hvilke teknikker/processer bruger du?
 * Hvilke forskellige måder findes der for at visuelt skjule indhold (og gør det kun tilgængelig for skærmlæsere)?
