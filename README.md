@@ -127,6 +127,7 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary statement, what does the word "Ternary" indicate? 
 * What is the arity of a function?  
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Explain how JSON.stringify() works
 
 ### JS-Code Examples:
 
