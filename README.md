@@ -12,19 +12,18 @@ This repo contains a number of front-end interview questions that can be used wh
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
-* @bentruyman (http://bentruyman.com)
-* @cowboy (http://benalman.com)
-* @roger_raymond (http://twitter.com/iansym)
-* @ajpiano (http://ajpiano.com)
-* @SlexAxton (http://alexsexton.com)
-* @boazsender (http://boazsender.com)
-* @miketaylr (http://miketaylr.com)
-* @vladikoff (http://vladfilippov.com)
-* @gf3 (http://gf3.ca)
-* @jon_neal (http://twitter.com/jon_neal)
-* @wookiehangover (http://wookiehangover.com)
-* @darcy_clarke (http://darcyclarke.me)
-* @tairraos (http://xiaole.happylive.org)
+* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
+* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
+* [@ajpiano](http://ajpiano) - http://ajpiano.com
+* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
+* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
+* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
+* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
+* [@gf3](http://twitter.com/gf3) - http://gf3.ca
+* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
+* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
+* [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
+* [@iansym](http://twitter.com)
 
 ### General Questions:
 
