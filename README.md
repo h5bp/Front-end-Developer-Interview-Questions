@@ -1,20 +1,21 @@
 #Front-end Job Interview Questions
 
-@version 1.0
+@version 2.0.0
 
-**Note:** This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
-Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
- 
+[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview. 
+
+**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+
 ####Original Contributors
 
-**Note:** The majority of the questions were plucked from a thread created and contributed to by the following individuals:
+The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
 * @bentruyman (http://bentruyman.com)
 * @cowboy (http://benalman.com)
 * @roger_raymond (http://twitter.com/iansym)
 * @ajpiano (http://ajpiano.com)
-* @paul_irish (http://paulirish.com)
 * @SlexAxton (http://alexsexton.com)
 * @boazsender (http://boazsender.com)
 * @miketaylr (http://miketaylr.com)
@@ -27,11 +28,6 @@ Keep in mind that many of these questions are open ended and could lead to inter
 
 ### General Questions:
 
-* Are you on Twitter? 
-	* If so, who do you follow on Twitter?
-* Are you on GitHub? 
-	* If so, what are some examples of repos you follow  
-* What blogs do you follow? 
 * What version control systems have you used (Git, SVN etc.)? 
 * What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
 * Can you describe your workflow when you create a web page? 
@@ -80,9 +76,13 @@ Keep in mind that many of these questions are open ended and could lead to inter
 
 ### JS-Specific Questions
 
+* Explain event delegation
+* Explain how `this` works in JavaScript
+* Explain how to prototypal inheritance works
+* How do you go about testing your JavaScript?
+* AMD vs. CommonJS?
 * Which JavaScript libraries have you used? 
 * Have you ever looked at the source code of the libraries/frameworks you use?
-* How is JavaScript different from Java? 
 * What's a hashtable?
 * What are `undefined` and `undeclared` variables? 
 * What is a closure, and how/why would you use one? 
@@ -121,10 +121,10 @@ function Person(){} var person = Person() var person = new Person()
 * Describe inheritance patterns in JavaScript. 
 * Make this work: 
 ```javascript
-[1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
+[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
-* Why is it called a Ternary statement, what does the word "Ternary" indicate? 
+* Why is it called a Ternary expression, what does the word "Ternary" indicate? 
 * What is the arity of a function?  
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
@@ -169,32 +169,6 @@ foo.bar = 'hello';
 ```
 Question: What is the value of foo.length? 
 **Answer: `undefined`
-
-```javascript
-foo = foo||bar
-```
-Question: What is the mean for? 
-**Answer: if(!foo) foo = bar
-
-```javascript
-foo>>1
-```
-Question: What is the mean for?
-**Answer: Math.floor(foo/2)
-
-```javascript
-foo|0
-foo+.5|0
-```
-Question: What is the mean for?
-**Answer: parseInt(foo) & Math.round(foo)
-
-```javascript
-function foo(bar1, bar2, bar3){}
-```
-Question: How to get the numbers of parameters?
-**Answer: foo.length //this example is 3
-
 
 ### jQuery-Specific Questions:
 
