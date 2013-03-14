@@ -116,7 +116,6 @@ function Person(){} var person = Person() var person = new Person()
 * What is the difference between `==` and `===`? 
 * Explain how you would get a query string parameter from the browser window's URL. 
 * Explain the same-origin policy with regards to JavaScript. 
-* Explain event delegation. 
 * Describe inheritance patterns in JavaScript. 
 * Make this work: 
 ```javascript
