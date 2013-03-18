@@ -77,7 +77,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
-* Explain how to prototypal inheritance works
+* Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * Which JavaScript libraries have you used? 
