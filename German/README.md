@@ -2,15 +2,13 @@
 
 @version 2.0.0
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+Dieses Repository beinhaltet ein paar Front-end Fragen die für potentielle Kandidaten verwendet werden können. Es sollten natürlich nicht alle Fragen gestellt werden, dass würde Stunden dauern. 
 
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview. 
+[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) ist übrigens auch eine gute Ressource die man gelesen haben sollte bevor man in ein Interview geht.
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+**Notiz:** Es ist zu beachten das viele dieser Fragen zu interessanten Diskussionen führen können, die mehr über die Fertigkeiten einer Person aussagen, als eine einfach Antwort.
 
-####Original Contributors
-
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+#### Ursprüngliche Autoren
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
 * [@cowboy](http://twitter.com/cowboy) - http://benalman.com
@@ -25,7 +23,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
 * [@iansym](http://twitter.com)
 
-### General Questions:
+### Allgemeine Fragen:
 
 * Welche Versionskontrollsysteme haben Sie bereits benutzt? (Git, SVN, etc.)
 * Welche Entwicklungsumgebung bevorzugen Sie? (OS, Editor, Browser, Tools etc.)
@@ -34,33 +32,32 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * Bonuspunkte wenn "Feature Detection" beschrieben werden kann
 * Erklären Sie was "Semantisches HTML" bedeutet
 * Welchen Browser nutzen Sie hauptsächlich zum Entwickeln und welche Entwicklertools benutzen Sie dazu?
-* How would you optimize a websites assets/resources?
-	* Looking for a number of solutions which can include:
+* Wie würden Sie Website Assets optimieren?
+	* Antworten könnten sein:
 		* File concatenation
 		* File minification
 		* CDN Hosted
 		* Caching
 		* etc.
-* Why is it better to serve site assets from multiple domains? 
-	* How many resources will a browser download from a given domain at a time? 
-* Name 3 ways to decrease page load. (perceived or actual load time) 
-* If you jumped on a project and they used tabs and you used spaces, what would you do? 
-	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-	* Conform to the conventions (stay consistant)
-	* `issue :retab! command`
-* Write a simple slideshow page 
-	* Bonus points if it does not use JS.  
-* What tools do you use to test your code's performance?
+* Warum ist es besser Assets einer Website von verschiedenen domains zu serven?
+  * Wie viele Ressourcen läd ein Browser von einer Domain zur gleichen Zeit?
+* Nennen Sie 3 Wege die Ladezeit einer Website zu verkürzen.
+* Wenn Sie in einem Projekt starten und alle Anderen haben Tabs benutzt, während Sie Spaces benutzen... was würden Sie tun?
+  * Vorschlagen das Projekt mit einer EditorConfig (http://editorconfig.org) zu versehen
+  * Sich den Konventionen anzupassen, um konsistent zu bleiben
+* Entwickeln Sie eine einfache Slideshow-Seite
+  * Bonuspunkte wenn kein JS verwendet wird.
+* Welche Tools nutzen Sie, um die Performance ihres Codes zu testen?
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
-* If you could master one technology this year, what would it be? 
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?  
+* Wenn Sie Jahr dieses eine Technologie meistern könnten, welche würde das sein?
+* Warum sind Standards wichtig?
+* Was ist ein FOUC und wie können Sie ihn vermeiden?
 
-### HTML-Specific Questions:
+### HTML-spezifische Fragen:
 
-* What's a `doctype` do, and how many can you name? 
+* Was ist ein `doctype` und wie viele können Sie aufzählen?
 * What's the difference between standards mode and quirks mode? 
 * What are the limitations when serving XHTML pages? 
 	* Are there any problems with serving pages as `application/xhtml+xml`?  
