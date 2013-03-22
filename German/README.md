@@ -58,9 +58,10 @@ Dieses Repository beinhaltet ein paar Front-end Fragen die für potentielle Kand
 ### HTML-spezifische Fragen:
 
 * Was ist ein `doctype` und wie viele können Sie aufzählen?
-* What's the difference between standards mode and quirks mode? 
-* What are the limitations when serving XHTML pages? 
-	* Are there any problems with serving pages as `application/xhtml+xml`?  
+* Was ist der Unterschied zwischen Standards und Quirks Mode?
+* Wo sind die Grenzen beim Ausliefern von XHTML-Seiten?
+  * Gibt es irgendwelche Probleme Seiten als `application/xhtml+xml`?
+* Wie liefert man eine Seite mit Inhalt in mehreren Sprachen aus?
 * How do you serve a page with content in multiple languages? 
 	* What kind of things must you be wary of when design or developing for multilingual sites?
 * Can you use XHTML syntax in HTML5? 
