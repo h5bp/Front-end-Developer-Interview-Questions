@@ -106,10 +106,10 @@ function Person(){} var person = Person() var person = new Person()
 * Erklären Sie "hoisting".
 * Erklären Sie Event Bubbling. 
 * Was ist der Unterschied zwischen einem Attribut und einer Property? 
-* Warum ist das erweitern von built-in Objects in JavaScript keine gute Idee? 
-* Why is extending built ins a good idea? 
-* Difference between document load event and document ready event? 
-* What is the difference between `==` and `===`? 
+* Warum ist das Erweitern von built-in Objects in JavaScript keine gute Idee? 
+* Warum ist das Erweitern von built-ins eine gute Idee?
+* Unterschied zwischen document.load Event und document.ready Event? 
+* Was ist der Unterschied zwischen `==` und `===`? 
 * Explain how you would get a query string parameter from the browser window's URL. 
 * Explain the same-origin policy with regards to JavaScript. 
 * Describe inheritance patterns in JavaScript. 
