@@ -210,14 +210,14 @@ $(".foo div#bar:eq(0)")
 * Sind Sie jemals auf einem Boot gewesen? 
 * Welche Developer Tools nutzen Sie am liebsten?
 * Haben Sie irgendwelche Haustiere? 
-* On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
-	* Wait and see if they turn the paper upside down
-* Pirate or Ninja? 
-	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
-* If not Web Development, what would you be doing? 
-* Where in the world is Carmen Sandiego?
-	* Hint: their answer is always wrong 
-* What's your favorite feature of Internet Explorer?
-* Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
+* Schreiben Sie auf einem Blatt Papier die Buchstaben A B C D E vertikal auf. Sortieren Sie diese nun nach absteigender Reihenfolge ohne eine Zeile Code zu schreiben. 
+	* Warten und schauen ob der Kandidat das Blatt umdreht.
+* Pirat oder Ninja? 
+	* Bonus wenn es eine Kombination ist und ein guter Grund genannt wurde. (+2 für zombie monkey pirate ninjas) 
+* Was würden Sie machen, wenn es keine Webentwicklung wäre? 
+* Wo ist Carmen Sandiego?
+	* Hint: Die Antwort wird immer falsch sein. 
+* Was ist Ihr Lieblings-Feature vom Internet Explorer?
+* Vervollständigen Sie diesen Satz: Brendan Eich and Doug Crockford are the __________ of javascript.
 * jQuery: a great library or the greatest library? Discuss.
 * http://www.w3schools.com/ or http://w3fools.com/
