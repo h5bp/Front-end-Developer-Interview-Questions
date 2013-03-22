@@ -74,39 +74,39 @@ Dieses Repository beinhaltet ein paar Front-end Fragen die für potentielle Kand
 * Erklären Sie Event Delegation.
 * Erklären Sie wie `this` in JavaScript funktioniert.
 * Wie funktioniert prototypische Vererbung in JavaScript?
-* How do you go about testing your JavaScript?
+* Wie testen Sie Ihren JavaScript Code?
 * AMD vs. CommonJS?
-* Which JavaScript libraries have you used? 
-* Have you ever looked at the source code of the libraries/frameworks you use?
-* What's a hashtable?
-* What are `undefined` and `undeclared` variables? 
-* What is a closure, and how/why would you use one? 
-	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
-* What's a typical use case for anonymous functions? 
-* Explain the "JavaScript module pattern" and when you'd use it. 
-	* Bonus points for mentioning clean namespacing. 
-	* What if your modules are namespace-less?  
-* How do you organize your code? (module pattern, classical inheritance?) 
-* What's the difference between host objects and native objects? 
-* Difference between: 
+* Welche JavaScript Libraries haben Sie bereits genutzt?
+* Haben Sie sich jemals den Source Code der Libraries angesehen?
+* Hast ist ein Hashtable?
+* Was sind undefinierte und undeklarierte Variablen?
+* Was ist ein Closure und warum/wie würde Sie ein benutzen?
+* Was ist Ihr Lieblingsmuster diese zu erstellen?
+* Was ist ein typischer Anwendungsfall für anonyme Funktionen?
+* Erkären Sie das "JavaScript Module Pattern" und wann würden Sie es nutzen?
+	* Bonuspunkte wenn sauberes Namespacing erwähnt wird.
+  * Was wenn Ihre Module keinen Namespace haben?
+  * Wie organisieren Sie ihren Code? (Module Pattern, klassische Vererbung)
+* Was ist der Unterschied zwischen host Objects und native Objects?
+* Underschied zwischen: 
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* What's the difference between `.call` and `.apply`? 
-* explain `Function.prototype.bind`? 
-* When do you optimize your code? 
-* Can you explain how inheritance works in JavaScript?   
-* When would you use `document.write()`?
-	* Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string 
-* Explain AJAX in as much detail as possible 
-* Explain how JSONP works (and how it's not really AJAX) 
-* Have you ever used JavaScript templating?
-	* If so, what libraries have you used? (Mustache.js, Handlebars etc.) 
-* Explain "hoisting".
-* Describe event bubbling. 
-* What's the difference between an "attribute" and a "property"? 
-* Why is extending built in JavaScript objects not a good idea? 
+* Was ist der Unterschied zwischen `.call` und `.apply`?
+* Erklären Sie `Function.prototype.bind`? 
+* Wann optimieren Sie ihren Code? 
+* Können Sie erklären Wie Vererbung in JavaScript funktioniert?
+* Wann würden Sie `document.write()` verwenden?
+  * Die meisten Werbe-Ads benutzen immer noch document.write()
+* Was ist der Unterschied zwischen Feature Detection, Feature Inference und die Benutzung des UA-Strings?
+* Eklären Sie AJAX so detailliert wie möglich.
+* Erklären Sie wie JSONP funktioniert und warum es eigentlich kein richtiges AJAX ist
+* Haben Sie jemals JavaScript Templating verwendet?
+	* Wenn ja, welche Libraries haben Sie benutzt? (Mustache, Handlebars etc.) 
+* Erklären Sie "hoisting".
+* Erklären Sie Event Bubbling. 
+* Was ist der Unterschied zwischen einem Attribut und einer Property? 
+* Warum ist das erweitern von built-in Objects in JavaScript keine gute Idee? 
 * Why is extending built ins a good idea? 
 * Difference between document load event and document ready event? 
 * What is the difference between `==` and `===`? 
