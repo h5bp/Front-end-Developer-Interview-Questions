@@ -110,102 +110,99 @@ function Person(){} var person = Person() var person = new Person()
 * Warum ist das Erweitern von built-ins eine gute Idee?
 * Unterschied zwischen document.load Event und document.ready Event? 
 * Was ist der Unterschied zwischen `==` und `===`? 
-* Explain how you would get a query string parameter from the browser window's URL. 
-* Explain the same-origin policy with regards to JavaScript. 
-* Describe inheritance patterns in JavaScript. 
-* Make this work: 
+* Erklären Sie wie Sie den Query String Parameter aus der Browser URL ermitteln können.
+* Erkären Sie die Same-Origin Policy in Beziehung zu JavaScript.
+* Erklären Sie Vererbungsmuser in JavaScript.
+* Lösen Sie folgendes Problem: 
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
-* Why is it called a Ternary expression, what does the word "Ternary" indicate? 
-* What is the arity of a function?  
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Erklären Sie eine Strategie für Memoization in JavaScript.
+* Warum heißt es "Ternary Expression" und was soll das Wort "Ternary" ausdrücken?
+* Was is die Stelligkeit eine Funktion? 
+* Was ist "use strict"? Was sind die Vor- und Nachteile es zu benutzen?
 
-### JS-Code Examples:
+### JS-Code Beispiele:
 
 ```javascript
 ~~3.14
 ```
-Question: What value is returned from the above statement? 
-**Answer: 3** 
+Frage: Welcher Wert wird zurück gegeben? 
+**Antwort: 3** 
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Question: What value is returned from the above statement? 
-**Answer: "goh angasal a m'i"** 
+Frage: Welcher Wert wird zurück gegeben?
+**Antwort: "goh angasal a m'i"** 
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo? 
-**Answer: "bar"** 
-only if window.foo was falsey otherwise it will retain its value.
-
+Frage: Welchen Wert hat window.foo?
+**Antwort: "bar"** 
+Nur wenn window.foo einen falsey Wert hatte andernfalls wird es den eigentlichen Wert zurück geben.
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above? 
-**Answer: "Hello World" & ReferenceError: bar is not defined** 
+Frage: Was steht in den beiden Alerts?
+**Antwort: "Hello World" & ReferenceError: bar is not defined** 
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Question: What is the value of foo.length? 
-**Answer: `2`
+Question: Welchen Wert hat foo.length?
+**Antwort: `2`
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Question: What is the value of foo.length? 
-**Answer: `undefined`
+Frage: Welchen Wert hat foo.length?
+**Antwort: `undefined`
 
-### jQuery-Specific Questions:
+### jQuery-Spezifische Fragen:
 
-* Explain "chaining". 
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do? 
-* How, and why, would you namespace a bound event handler? 
-* Name 4 different values you can pass to the jQuery method.
+* Erklären Sie "chaining". 
+* Erklären Sie "deferreds".
+* Was sind jQuery-spezifische Optimierungen die Sie implementieren können?
+* Was macht `.end()`? 
+* Wie und warum würden Sie einen gebundenen Event Handler namespacen?
+* Nennen Sie 4 verschiedene Werte die Sie der jQuery Methode übergeben können.
 	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue? 
-* What is the difference between `.get()`, `[]`, and `.eq()`? 
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`? 
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector: 
+* Was ist die effects (oder fx) queue? 
+* Was ist der Unterschied zwischen `.get()`, `[]`, and `.eq()`? 
+* Was ist der Unterschied zwischen `.bind()`, `.live()`, und `.delegate()`? 
+* Was ist der Underschied zwischen `$` und `$.fn`? Oder was ist `$.fn`?
+* Optimieren Sie diesen Selektor: 
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Difference between 'delegate()' and 'live()'? 
+* Was ist der Unterschied zwischen 'delegate()' und 'live()'? 
 
 
-### CSS-Specific Questions:
+### CSS-Spezifische Fragen:
 
-* Describe what a "reset" CSS file does and how it's useful. 
-* Describe Floats and how they work. 
-* What are the various clearing techniques and which is appropriate for what context? 
-* Explain CSS sprites, and how you would implement them on a page or site. 
-* What are your favourite image replacement techniques and which do you use when? 
-* CSS property hacks, conditionally included .css files, or... something else? 
-* How do you serve your pages for feature-constrained browsers? 
-	* What techniques/processes do you use?  
-* What are the different ways to visually hide content (and make it available only for screen readers)? 
-* Have you ever used a grid system, and if so, what do you prefer? 
-* Have you used or implemented media queries or mobile specific layouts/CSS? 
-* Any familiarity with styling SVG? 
-* How do you optimize your webpages for print? 
-* What are some of the "gotchas" for writing efficient CSS? 
-* Do you use CSS preprocessors? (SASS, Compass, Stylus, LESS) 
-	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
-* How would you implement a web design comp that uses non-standard fonts? 
-	* Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?  
-
+* Erklären Sie was ein "reset" CSS File macht und was warum es nützlich ist.
+* Erkären Sie Floats und wie sie funktionieren.
+* Erkären Sie CSS Sprites. Wie würden Sie sie in einer Seite einbauen?
+* Was sind Ihre Lieblings-Image-Replacement-Techniken und wann nutzen Sie welche?
+* Wie liefern Sie Seiten für feature-gezwungene Browser aus?
+	* Welche Techniken nutzen Sie?
+* Welche Wege gibt es um Inhalte visuell verschwinden zu lassen (aber erreichbar für Screen Reader?)
+* Haben Sie jemals ein Grid System benutzt, wenn ja welches bevorzugen Sie? 
+* Haben Sie schon mal mobile-spezifisches CSS implementiert?
+* Haben Sie Erfahrungen in SVG-Styling? 
+* Wie optimieren Sie Ihre Seite für Drucker? 
+* Nennen Sie einige "Gotchas" wenn man effizientes CSS schreiben möchte.
+* Wie benutzen Sie CSS Preprocessors? (SASS, Compass, Stylus, LESS) 
+	* Was mögen Sie und was nicht, an diesen. 
+* Wie implementieren Sie ein Webdesign welches keine Standard Fonts verwendet?
+	* Webfonts (font services wie: Google Webfonts, Typekit etc.)
+* Erkären Sie wie ein Browser ermittelt, welche Element auf einen CSS-Selektor matchen.
+ 
 ### Optional fun Questions:
 
 * What's the coolest thing you've ever coded, what are you most proud of?
