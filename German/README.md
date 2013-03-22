@@ -203,14 +203,13 @@ $(".foo div#bar:eq(0)")
 	* Webfonts (font services wie: Google Webfonts, Typekit etc.)
 * Erkären Sie wie ein Browser ermittelt, welche Element auf einen CSS-Selektor matchen.
  
-### Optional fun Questions:
+### Optionale Fun Fragen:
 
-* What's the coolest thing you've ever coded, what are you most proud of?
-* Do you know the HTML5 gang sign? 
-* Are you now, or have you ever been, on a boat. 
-* What are your favorite parts about the developer tools you use?
-* Do you have any pet projects? What kind? 
-* Explain the significance of "cornify". 
+* Was ist das coolste was Sie je entwickelt haben? Wo sind Sie besonders stolz drauf?
+* Kennen Sie das HTML5 Gang Zeichen? 
+* Sind Sie jemals auf einem Boot gewesen? 
+* Welche Developer Tools nutzen Sie am liebsten?
+* Haben Sie irgendwelche Haustiere? 
 * On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
 	* Wait and see if they turn the paper upside down
 * Pirate or Ninja? 
