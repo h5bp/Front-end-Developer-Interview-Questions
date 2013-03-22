@@ -62,20 +62,18 @@ Dieses Repository beinhaltet ein paar Front-end Fragen die für potentielle Kand
 * Wo sind die Grenzen beim Ausliefern von XHTML-Seiten?
   * Gibt es irgendwelche Probleme Seiten als `application/xhtml+xml`?
 * Wie liefert man eine Seite mit Inhalt in mehreren Sprachen aus?
-* How do you serve a page with content in multiple languages? 
-	* What kind of things must you be wary of when design or developing for multilingual sites?
-* Can you use XHTML syntax in HTML5? 
-* How do you use XML in HTML5? 
-* What are `data-` attributes good for? 
-* What are the content models in HTML4 and are they different in HTML5? 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
-* Describe the difference between cookies, sessionStorage and localStorage. 
+  * Worauf muss man achten wenn man eine Website entwickelt und/oder designed, die in verschiedenen Sprachen ausgeliefert werden soll?
+* Kann man XHTML-Syntax in HTML5 verwenden?
+* Wie benutzt man XML in HTML5?
+* Wofür sind `data-`-Attribute gut?
+* Was sind die Content Models in HTML4 und unterscheiden sie sich in HTML5?
+* Beschreiben Sie den Unterschied zwischen Cookies, SessionStorage und LocalStorage.
 
-### JS-Specific Questions
+### JS-Spezifische Fragen
 
-* Explain event delegation
-* Explain how `this` works in JavaScript
-* Explain how prototypal inheritance works
+* Erklären Sie Event Delegation.
+* Erklären Sie wie `this` in JavaScript funktioniert.
+* Wie funktioniert prototypische Vererbung in JavaScript?
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * Which JavaScript libraries have you used? 
