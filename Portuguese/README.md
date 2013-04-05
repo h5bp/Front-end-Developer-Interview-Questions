@@ -251,8 +251,7 @@ $(".foo div#bar:eq(0)")
 * Você teve algum projeto para animais de estimação? Qual tipo?
 
 * Explica a importância da "Unicornização".
-* Num pedaço de papel, escreva as letras A B C D E verticalmente. Agora coloque 
-* On a piece of paper, write down the letters A B C D E vertically. Agora coloque isso em ordem decrescente, sem escrever uma linha de código.
+* Num pedaço de papel, escreva as letras A B C D E verticalmente. Agora coloque isso em ordem decrescente, sem escrever uma linha de código.
 	* Esperar e ver se eles vire o papel de cabeça para baixo
 * Pirata ou Ninja? 
 	* Bônus se ele fizer um combo ou com uma boa razão. (+2 para zombie macaco pirata vestido de ninja) 
