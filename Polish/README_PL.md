@@ -1,4 +1,4 @@
-#Pytania kwalifikacyjne na stanowisko Webmastera
+#Pytania kwalifikacyjne na stanowisko front-end web developera
 
 @wersja 1.0
 
@@ -25,13 +25,13 @@
   * Jeśli tak, czyje konta śledzisz na Twitterze?
 * Czy używasz GitHuba? 
 	* Jeśli tak, podaj przykłady śledzonych repozytoriów  
-* Jakie blogi śledzisz? 
-* Jakie systemy kontroli wersji używałeś (Git, SVN itd.)? 
-* Jakie jest Twoje preferowane środowisko programistyczne? (System operacyjny, Edytor, Przeglądarki, Narzędzia itd.) 
+* Jakie blogi czytujesz? 
+* Jakich systemów kontroli wersji używałeś (Git, SVN itd.)? 
+* Jakie jest Twoje preferowane środowisko programistyczne? (system operacyjny, edytor, przeglądarki, narzędzia itd.) 
 * Opisz kolejne zadania podczas tworzenia strony internetowej? 
-* Opisz różnicę między stopniowym ulepszaniemn i wdzięczną degradacją? 
-	* Dodatkowe punkty za opisanie wykrywania obsługi cech  
-* Wyjaśnij, co oznacza "Semantyczny HTML". 
+* Opisz różnicę między stopniowym ulepszaniem (progressive enhancement) i wdzięczną degradacją (graceful degradation)? 
+	* Dodatkowe punkty za opisanie wykrywania obsługi cech (feature detection) 
+* Wyjaśnij, co kryje się za terminem "semantyczny HTML". 
 * Jakiej przeglądarki i narzędzi używasz podczas prac programistycznych?
 * Jak optymalizowałbyś zasoby strony internetowej?
 	* Myśląc o wielu rozwiązaniach, które zawierają:
@@ -60,7 +60,7 @@
 ### Pytania HTML:
 
 * Co robi `doctype` i jakie znasz przykłady? 
-* Jaka jest różnica między trybem standardów a trybem dziwactw? 
+* Jaka jest różnica między trybem standardów a trybem dziwactw (quirks mode)? 
 * Jakie są ogranicznia w serwowaniu stron XHTML? 
 	* Czy istnieją problemy z serwowaniem stron jako `application/xhtml+xml`?  
 * Jak serwujesz stronę z treścią w wielu językach? 
@@ -68,7 +68,7 @@
 * Czy możliwe jest używanie składni XHTML w HTML5? 
 * Jak używać języka XML w HTML5? 
 * Jaka jest przydatność atrybutów `data-` 
-* Czy są modele treści w HTML4, a także czy różnią się w HTML5? 
+* Czy są modele treści (content models) w HTML4, a także czy różnią się w HTML5? 
 * Rozpatrujemy HTML5 jako otwartą platformę internetową. Jakie składniki tworzą HTML5? 
 * Opisz różnice między cookies, sessionStorage i localStorage. 
 
@@ -234,17 +234,17 @@ $(".foo div#bar:eq(0)")
 
 ### Pytania dodatkowe (zabawne):
 
-* Opowiedz o najfajniejszej rzeczy zadaniu podczas kodowania. Z czego jest jesteś najbardziej dumny?
-* Czy znasz podpis gangu HTML5? 
+* Opowiedz o najfajniejszej rzeczy jaką kiedykolwiek zakodowałeś. Z czego jest jesteś najbardziej dumny?
+* Czy znasz znak gangu HTML5? 
 * Czy jesteś teraz lub kiedykolwiek byłeś na statku? 
 * Jakie są Twoje ulubione narzędzia programistyczne, których używasz?
-* Czy masz jakąś maskotkę projektową? Jaką? 
+* Czy masz jakiś swój własny projekt na boku? Jaki? 
 * Wyjaśnij termin "cornify". 
 * Napisz na kartce papieru litery A B C D E w pionie. Posortuj je teraz malejąco bez pisania linijki kodu. 
 	* Czekaj i patrz czy obróci kartkę do góry nogami
 * Pirat lub Ninja? 
 	* Dodatkowe punkty za połącznie obu i dobre argumenty (+2 dla zombie małpa pirat ninja) 
-* Jeśli nie Programowanie Stron Internetowych, co innego mógłbyś robić? 
+* Jeśli nie web development, co innego byś robił? 
 * Gdzie na świecie jest Carmen Sandiego?
 	* Podpowiedź: każda odpowiedź jest zła
 * Jaka jest Twoja ulubiona funkcja w Internet Explorer?
