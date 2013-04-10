@@ -1,4 +1,4 @@
-#Interjú kérdések front-end fejlesztoknek
+# Interjú kérdések front-end fejlesztoknek
 
 @version 2.0.0
 
@@ -8,7 +8,7 @@ This repo contains a number of front-end interview questions that can be used wh
 
 **Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
-####Original Contributors
+#### Original Contributors
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
@@ -28,7 +28,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ### Általános kérdések:
 
 * Milyen verziókovetoket használtál már (Git, SVN stb.)?
-* Mi a számodra legelonyosebb fejlesztoi kornyezet? (Operációs rendszer, Szerkeszto, Bongeszo, Kellekel stb.)
+* Mi a számodra legelonyosebb fejlesztoi kornyezet? (Operációs rendszer, Szerkeszto, Bongeszo, Kellekek, stb)
 * Részletezd hogyan készítesz el egy weboldalt!
 * Can you describe the difference between progressive enhancement and graceful degradation?
 	* Bonus points for describing feature detection
@@ -40,47 +40,48 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 		* File minification
 		* CDN Hosted
 		* Caching
-		* stb.
+		* stb
 * Why is it better to serve site assets from multiple domains?
 	* How many resources will a browser download from a given domain at a time?
 * Name 3 ways to decrease page load. (perceived or actual load time)
+(* Ha bekerulsz egy projektbe és ott tabokat használnak de te szókozokkel dolgoztal eddig, mit teszel?)
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
 	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
 	* Conform to the conventions (stay consistant)
 	* `issue :retab! command`
-* Írj egy egyszeru slideshow oldalt
-	* Bónusz pont ha nem szukseges JS hozza.
-* Milyen eszkozokkel teszteled a kodod teljesítményét?
+* Készíts egy egyszeru slideshow oldalt
+	* Bónusz pont ha nem szukseges hozzá JS.
+* Milyen eszkozokkel teszteled a kódod teljesítményét?
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
-	* etc.
-* If you could master one technology this year, what would it be? 
+	* stb
+* Ha idén elsajátíthatnál egy technológiát, mi lenne az?
 * Explain the importance of standards and standards bodies.
 * Mi a FOUC? Hogyan kerulod el a FOUC-et?
 
 ### HTML specifikus kérdések:
 
-* Mi a `doctype` feladata és hányat tudsz megnevezni? 
+* Mi a `doctype` feladata és hány fajtáját tudod megnevezni? 
 * Mi a kulonbseg a `standard` és a `quirks` módok kozott?
-* What are the limitations when serving XHTML pages? 
+* Nevezd meg az XHTML oldalak korlátait? 
 	* Are there any problems with serving pages as `application/xhtml+xml`?  
 * How do you serve a page with content in multiple languages? 
 	* What kind of things must you be wary of when design or developing for multilingual sites?
 * Használhatsz XHTML szintaxist HTML5-be?
 * Hogyan használsz XML-t HTML5-ben?
-* Mire való a `data-` attribútumok? 
+* Mire valók a `data-` attribútumok? 
 * What are the content models in HTML4 and are they different in HTML5? 
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
-* Describe the difference between cookies, sessionStorage and localStorage. 
+* Mi a kulonbség a `cookie` a `sessionStorage` és a `localStorage` kozott.
 
 ### JS specifikus kérdések:
 
-* Explain event delegation
-* Explain how `this` works in JavaScript
+* Mit jelent az `event delegation`
+* Magyarázd el hogyan mukodik a `this` a JavaScript-ben
 * Explain how prototypal inheritance works
-* How do you go about testing your JavaScript?
+* Hogyan teszteled a JavaScript kódodat?
 * AMD vs. CommonJS?
-* Which JavaScript libraries have you used? 
+* Melyik JS library-ket használtad már?
 * Have you ever looked at the source code of the libraries/frameworks you use?
 * What's a hashtable?
 * What are `undefined` and `undeclared` variables? 
@@ -92,28 +93,28 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 	* What if your modules are namespace-less?  
 * How do you organize your code? (module pattern, classical inheritance?) 
 * What's the difference between host objects and native objects? 
-* Difference between: 
+* Mi a kulonbség az kovetkezo kódok kozott: 
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* What's the difference between `.call` and `.apply`? 
-* explain `Function.prototype.bind`? 
-* When do you optimize your code? 
-* Can you explain how inheritance works in JavaScript?   
-* When would you use `document.write()`?
+* Mi a kulonbseg a `.call` es az `.apply` kozott?
+* Magyarázzd el mire jo a `Function.prototype.bind`? 
+* Mikor szoktad optimalizálni a kódodat?
+* Can you explain how inheritance works in JavaScript? 
+* Mikor használod a `document.write()` funkciót?
 	* Most generated ads still utilize `document.write()` although its use is frowned upon
 * What's the difference between feature detection, feature inference, and using the UA string 
 * Explain AJAX in as much detail as possible 
 * Explain how JSONP works (and how it's not really AJAX) 
-* Have you ever used JavaScript templating?
-	* If so, what libraries have you used? (Mustache.js, Handlebars etc.) 
+* Használtál már JavaScript template rendszert?
+	* Ha igen mit? (Mustache.js, Handlebars, stb) 
 * Explain "hoisting".
 * Describe event bubbling. 
 * What's the difference between an "attribute" and a "property"? 
 * Why is extending built in JavaScript objects not a good idea? 
 * Why is extending built ins a good idea? 
-* Difference between document load event and document ready event? 
-* What is the difference between `==` and `===`? 
+* Mi a kulonbség a document load és a document ready kozott?
+* Mi a kulonbseg `==` és `===` kozott?
 * Explain how you would get a query string parameter from the browser window's URL. 
 * Explain the same-origin policy with regards to JavaScript. 
 * Describe inheritance patterns in JavaScript. 
@@ -131,49 +132,49 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 ~~3.14
 ```
-Question: What value is returned from the above statement? 
-**Answer: 3** 
+Kérdés: Mi a kimente a fenti példának? 
+**Válasz: 3**
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Question: What value is returned from the above statement? 
-**Answer: "goh angasal a m'i"** 
+Kérdés: Milyen értékkel tér vissza a fenti állítás? 
+**Válasz: "goh angasal a m'i"** 
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo? 
-**Answer: "bar"** 
+Kérdés: What is the value of window.foo? 
+**Válasz: "bar"** 
 only if window.foo was falsey otherwise it will retain its value.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above? 
-**Answer: "Hello World" & ReferenceError: bar is not defined** 
+Kérdés: What is the outcome of the two alerts above? 
+**Válasz: "Hello World" & ReferenceError: bar is not defined** 
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Question: What is the value of foo.length? 
-**Answer: `2`
+Kérdés: What is the value of foo.length? 
+**Válasz: `2`
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Question: What is the value of foo.length? 
-**Answer: `undefined`
+Kérdés: What is the value of foo.length? 
+**Válasz: `undefined`
 
 ### jQuery-Specific Questions:
 
-* Explain "chaining". 
-* Explain "deferreds".
+* Mit jelent a `chaining`.
+* Mit jelent a `deferreds`.
 * What are some jQuery specific optimizations you can implement?
-* What does `.end()` do? 
+* Mire használhatjuk az `.end()` funkciót? 
 * How, and why, would you namespace a bound event handler? 
 * Name 4 different values you can pass to the jQuery method.
 	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
@@ -220,12 +221,12 @@ $(".foo div#bar:eq(0)")
 * Explain the significance of "cornify". 
 * On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
 	* Wait and see if they turn the paper upside down
-* Pirate or Ninja? 
+* Kalóz vagy Ninja?
 	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
 * If not Web Development, what would you be doing? 
 * Where in the world is Carmen Sandiego?
 	* Hint: their answer is always wrong 
-* What's your favorite feature of Internet Explorer?
+* Mit szeretsz a legjobban az Internet Explorerben?
 * Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
 * jQuery: a great library or the greatest library? Discuss.
-* http://www.w3schools.com/ or http://w3fools.com/
+* http://www.w3schools.com/ vagy http://w3fools.com/
