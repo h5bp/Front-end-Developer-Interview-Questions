@@ -6,9 +6,9 @@ This repo contains a number of front-end interview questions that can be used wh
 
 [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview. 
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+**Megjegyzés:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
-#### Original Contributors
+#### Eredeti közreműködők
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
@@ -27,13 +27,13 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ### Általános kérdések:
 
-* Milyen verziókovetoket használtál már (Git, SVN stb.)?
-* Mi a számodra legelonyosebb fejlesztoi kornyezet? (Operációs rendszer, Szerkeszto, Bongeszo, Kellekek, stb)
+* Milyen verziókovetoket használtál már? (Git, SVN stb.)
+* Mi a számodra legelonyosebb fejlesztoi kornyezet? (Operációs rendszer, szerkeszto, bongészo, fejlesztoi eszkozok, stb)
 * Részletezd hogyan készítesz el egy weboldalt!
 * Can you describe the difference between progressive enhancement and graceful degradation?
-	* Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* What browser do you primarily develop in and what developer tools do you use?
+	* Bonus points for describing feature detection.
+* Magyarázzd el mit jelent a "szemantikus HTML".
+* Milyen bongészot es milyen eszkozoket használsz a fejlesztéshez?
 * How would you optimize a websites assets/resources?
 	* Looking for a number of solutions which can include:
 		* File concatenation
@@ -43,17 +43,16 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 		* stb
 * Why is it better to serve site assets from multiple domains?
 	* How many resources will a browser download from a given domain at a time?
-* Name 3 ways to decrease page load. (perceived or actual load time)
-(* Ha bekerulsz egy projektbe és ott tabokat használnak de te szókozokkel dolgoztal eddig, mit teszel?)
+* Nevezz meg 3 lehetoseget az oldalletoltes idotartamanak csokkentésére. (perceived or actual load time)
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
-	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
+	* Suggest the project utilize something like [EditorConfig](http://editorconfig.org)
 	* Conform to the conventions (stay consistant)
 	* `issue :retab! command`
-* Készíts egy egyszeru slideshow oldalt
+* Készíts egy egyszeru slideshow oldalt.
 	* Bónusz pont ha nem szukseges hozzá JS.
 * Milyen eszkozokkel teszteled a kódod teljesítményét?
-	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/) 
+	* [JSPerf](http://jsperf.com/)
+	* [Dromaeo](http://dromaeo.com/) 
 	* stb
 * Ha idén elsajátíthatnál egy technológiát, mi lenne az?
 * Explain the importance of standards and standards bodies.
@@ -103,8 +102,8 @@ function Person(){} var person = Person() var person = new Person()
 * Can you explain how inheritance works in JavaScript? 
 * Mikor használod a `document.write()` funkciót?
 	* Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string 
-* Explain AJAX in as much detail as possible 
+* What's the difference between feature detection, feature inference, and using the UA string.
+* Magyarázzd meg az AJAX mukodését a leheto legrészletesebben.
 * Explain how JSONP works (and how it's not really AJAX) 
 * Használtál már JavaScript template rendszert?
 	* Ha igen mit? (Mustache.js, Handlebars, stb) 
@@ -118,11 +117,11 @@ function Person(){} var person = Person() var person = new Person()
 * Explain how you would get a query string parameter from the browser window's URL. 
 * Explain the same-origin policy with regards to JavaScript. 
 * Describe inheritance patterns in JavaScript. 
-* Make this work: 
+* Javítsd ki az alábbi példát: 
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
+* Describe a strategy for memorization (avoiding calculation repetition) in JavaScript. 
 * Why is it called a Ternary expression, what does the word "Ternary" indicate? 
 * What is the arity of a function?  
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
@@ -132,7 +131,7 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 ~~3.14
 ```
-Kérdés: Mi a kimente a fenti példának? 
+Kérdés: Mi a kimente a fenti példának?
 **Válasz: 3**
 
 ```javascript
@@ -144,23 +143,22 @@ Kérdés: Milyen értékkel tér vissza a fenti állítás?
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Kérdés: What is the value of window.foo? 
-**Válasz: "bar"** 
-only if window.foo was falsey otherwise it will retain its value.
+Kérdés: Mi az értéke a `window.foo`-nak?
+**Válasz: "bar"** de csak ha a `window.foo` hamis egyébként megtartja az értékét.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Kérdés: What is the outcome of the two alerts above? 
-**Válasz: "Hello World" & ReferenceError: bar is not defined** 
+Kérdés: Mi a fenti két alert-nek a kimenete? 
+**Válasz: "Hello World" és ReferenceError: bar is not defined** 
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Kérdés: What is the value of foo.length? 
-**Válasz: `2`
+Kérdés: Mi a `foo.length` értéke? 
+**Válasz: 2**
 
 ```javascript
 var foo = {};
@@ -169,10 +167,10 @@ foo.bar = 'hello';
 Kérdés: What is the value of foo.length? 
 **Válasz: `undefined`
 
-### jQuery-Specific Questions:
+### jQuery specifikus kérdések:
 
-* Mit jelent a `chaining`.
-* Mit jelent a `deferreds`.
+* Mit jelent a `chaining`?
+* Mit jelent a `deferreds`?
 * What are some jQuery specific optimizations you can implement?
 * Mire használhatjuk az `.end()` funkciót? 
 * How, and why, would you namespace a bound event handler? 
@@ -186,7 +184,7 @@ Kérdés: What is the value of foo.length?
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Difference between 'delegate()' and 'live()'? 
+* Mi a kulonbség `delegate()` és `live()` kozott? 
 
 
 ### CSS specifikus kérdések:
@@ -211,7 +209,7 @@ $(".foo div#bar:eq(0)")
 	* Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?  
 
-### Optional fun Questions:
+### Választható és vicces kérdések:
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * Do you know the HTML5 gang sign? 
@@ -229,4 +227,4 @@ $(".foo div#bar:eq(0)")
 * Mit szeretsz a legjobban az Internet Explorerben?
 * Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
 * jQuery: a great library or the greatest library? Discuss.
-* http://www.w3schools.com/ vagy http://w3fools.com/
+* [W3School](http://www.w3schools.com/) vagy [W3Fools](http://w3fools.com/)
