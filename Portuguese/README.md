@@ -11,7 +11,7 @@ Tenha em mente que muitas dessas questões estão em aberto e poderiam levar a d
 
 
 
-**Nota:** A maioria das perguntas foram retiradas de um tópico criado e contribuido pelas seguintes pessoas:
+**Nota:** A maioria das perguntas foi retirada de um tópico criado e contribuído pelas seguintes pessoas:
 
 * @bentruyman (http://bentruyman.com)
 * @cowboy (http://benalman.com)
@@ -30,7 +30,7 @@ Tenha em mente que muitas dessas questões estão em aberto e poderiam levar a d
 
 ### Questões Gerais:
 
-* Vocêe está no Twitter? 
+* Você está no Twitter? 
 	* Se sim, quem você segue?
 * Você está no GitHub?
 	* Se sim, quais repositórios você segue?
@@ -50,11 +50,11 @@ Qual seu ambiente de trabalho preferido? (SO's, Editores, Browsers, Ferramentas 
 		* Caching
 		* etc.
 * Porque é muito melhor utilizarmos recursos de um website vindo de vários domínios?
-	* Quanto recursos irão ser baixados de um determinado dominío por vez?
-* Exemplifique 3 modos de dominuir o tempo de carregamento. (tempo de carregamento real ou percebido)
+	* Quantos recursos podem ser baixados de um determinado domínio simultaneamente?
+* Exemplifique 3 modos de diminuir o tempo de carregamento. (tempo de carregamento real ou percebido)
 * Se você entrasse em um projeto onde foram utilizados TABS para indentação e você usa ESPAÇOS, o que você faria?
 	* Sugerir para o projeto a utilização de algo como o EditorConfig (http://editorconfig.org)
-	* Conformarcom as convenções (ficar consistente)
+	* Conformar com as convenções (ficar consistente)
 	* `issue :retab! command`
 * Desenvolva uma página simples para apresentação de slides 
 	* Pontos bônus se não utilizar JS.
@@ -63,39 +63,37 @@ Qual seu ambiente de trabalho preferido? (SO's, Editores, Browsers, Ferramentas 
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
 
-* Se você pudesse dominar uma tecnologia este ano, o que seria?
+* Se você pudesse dominar uma tecnologia este ano, qual seria?
 * Explique a importância de padrões e padrões organizacionais.
 * O que é FOUC? Como evitamos o FOUC?  
 
 ### Questões específicas de HTML
-* O que `doctype` faz, e quantos você consegue nomear?
-* Qual a diferença entre stardads mode e quirks mode?
+* O que `doctype` faz e quantos você consegue nomear?
+* Qual a diferença entre standards mode e quirks mode?
 * Quais as limitações quando utilizamos páginas XHTML?
 	* Existe algum problema em utilizar páginas como application/xhtml+xml`?
 * Como você desenvolve uma página como conteúdo em múltiplos idiomas?
-	* Que tipo de coisas que você deve ser cauteloso em está desenvolvendo um website multi-língua?
+	* Que tipo de coisas que você deve tomar cuidado ao desenvolver um website multi-língua?
 * Você pode utilizar a sintaxe XHTML no HTML5?
 * Como você usa XML no HTML5?
 * Quais são os benefícios em utilizar o atributo `data-`?
-* Quais são os modelos de conteúdo do HTML4 e eles são diferentes em HTML5?
-* Considere o HTML5 como uma plataforma web aberta. Quais são os 
-* Consider HTML5 as an open web platform. Quais são os blocos de construção de HTML5?
+* Quais são os modelos de conteúdo do HTML4? Eles são diferentes em HTML5?
+* Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção de HTML5?
 * Descreva a diferença entre cookies, sessionStorage e localStorage.
 
 ### Questões específicas de Javascript
 * Quais bibliotecas Javascript você tem usado?
 * Você alguma vez já olhou no código de alguma biblioteca/framework que você utilizou?
-* Quais a diferença entre Javascript e Java?
+* Quais as diferenças entre Javascript e Java?
 * O que é um hashtable?
 * Qual a diferença entre variáveis `undefined` e variáveis `undeclared`?
 * O que é uma closure, e como/porque você usaria uma?
-	* Seu padrão favorito a ser utilizar por ele? Argyle (Apenas aplicáveis para IIFEs)
+	* Seu padrão favorito é utilizado por ele? Argyle (Apenas aplicáveis para IIFEs)
 * Qual o típico uso de uma função anônima?
 * Explique o padrão "JavaScript module pattern" e quando você o usaria.
 	* Pontos bônus para menção de namespaces limpos.
 	* E se seus módulos são namespace-less?
-* Como você utiliza seu código? (Module Pattern, )
-* How do you organize your code? (module pattern, Herança clássica?) 
+* Como você utiliza seu código? (module pattern, Herança clássica?) 
 * Qual a diferença entre objetos herdados e objetos nativos? 
 * Diferencie: 
 ```javascript
@@ -106,7 +104,7 @@ function Person(){} var person = Person() var person = new Person()
 * Quando você otimiza seu código?
 * Você pode explicar como funciona a herença no Javascript?
 * Quando você deve usar o `document.write()`?
-	* A maioria dos anúncios de publicidade ainda utilizam `document.write ()` embora seu uso é não recomendado.
+	* A maioria dos anúncios de publicidade ainda utilizam `document.write ()` embora seu uso não seja recomendado.
 * Qual a diferença entre feature detection, feature inference, e o uso de UA string?
 * Explique o que é AJAX mais detalhadamente possível.
 * Explique como o JSONP funciona (e como ele realmente não é AJAX).
@@ -115,8 +113,8 @@ function Person(){} var person = Person() var person = new Person()
 * Explique o que é "hoisting".
 * Descreva o que é event bubbling. 
 * Qual a diferença entre attribute e property.
-* Porque a extensão de objetos nativos não são uma boa idéia?
-* Porque a extensão de elementos nativos não são uma boa idéia?
+* Porque a extensão de objetos nativos não são uma boa ideia?
+* Porque a extensão de elementos nativos não são uma boa ideia?
 * Qual a diferença entre o evento document load e o evento document ready?
 * Qual a diferença entre `==` e `===`? 
 * Explique como você pega uma query string pela url do browser.
@@ -127,8 +125,8 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Descreva a estratégica para memoization (evitar a repetição de cálculo) no JavaScript. 
-* O que é um operador tornario, o que a palavra "ternário" indica/significa?
+* Descreva a estratégia para memoization (evitar a repetição de cálculo) no JavaScript. 
+* O que é um operador ternário, o que a palavra "ternário" indica/significa?
 * O que a aridade de uma função?  
 * O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
 
@@ -204,7 +202,7 @@ Questão: Como posso pegar a quantidade de parâmetros?
 
 * Explique o que é "chaining". 
 * Explique o que é "deferreds".
-* Quais são algumas especificações de optimização do jQuery qye você pode implementar?
+* Quais são algumas especificações de optimização do jQuery que você pode implementar?
 * O que o `.end()` faz? 
 * Como, e porque, faria namespacing de vários agregadores de eventos? 
 * Cite 4 valores diferentes que você pode passar pelo método jQuery
@@ -255,8 +253,8 @@ $(".foo div#bar:eq(0)")
 	* Esperar e ver se eles vire o papel de cabeça para baixo
 * Pirata ou Ninja? 
 	* Bônus se ele fizer um combo ou com uma boa razão. (+2 para zombie macaco pirata vestido de ninja) 
-* Se você não estiver desenvolvendo, o que você estaria fazendo?
-* Aonde no mundo fica o Acre?
+* Se você não estivesse desenvolvendo, o que você estaria fazendo?
+* Onde no mundo fica o Acre?
 	* Dica: A resposta sempre será errada.
 * Qual sua feature favorita do Internet Explorer?
 * Complete essa sentença: Brendan Eich e Doug Crockford são os __________ do javascript.
