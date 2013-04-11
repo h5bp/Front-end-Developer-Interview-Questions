@@ -2,15 +2,17 @@
 
 @version 2.0.0
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+Ebben a gyűjteményben összeválogattuk a legjobb front-end fejlesztő interjú kérdéseket. Ellenben nem tanácsoljuk az összes kérdés egyidejű feltevését, hiszen ez órákat venne igénybe de egy válogatott kérdéssorral megkönnyíthetjük a potenciális jelentkezők szelektálását.
 
-[Rebecca Murphey](http://rmurphey.com/) [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) cikke is hasznos alapja lehet egy interjúnak. 
+[Rebecca Murphey](http://rmurphey.com/), [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) cikke is hasznos alapja lehet egy interjúnak. 
 
-**Megjegyzés:** Ne feledd, hogy a kérdések többsége érdekes beszélgetésé alakúlhat, ami többet elárúlhat az emberről mint ha csak egyszerű válaszokat adna.
+**Megjegyzés:** Ne feledd, hogy a kérdések többsége érdekes beszélgetésé alakulhat, ami többet elárulhat az emberről mintha csak egyszerű válaszokat adna.
+
+A magyar fordítást [Czeglédy Tibor](http://github.com/microtroll) készítette az eredeti angol szöveg alapján.
 
 #### Eredeti közreműködők
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapján készült, amit [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) kezdeményezett az alábbi közreműködőkkel:
 
 * [@bentruyman](http://twitter.com/bentruyman) - [http://bentruyman.com](http://bentruyman.com)
 * [@cowboy](http://twitter.com/cowboy) - [http://benalman.com](http://benalman.com)
@@ -28,29 +30,28 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ### Általános kérdések:
 
 * Milyen verziókövetőket használtál már? (Git, SVN, stb.)
-* Mi a számodra legelőnyösebb fejlesztői környezet? (Operációs rendszer, szerkesztő, böngésző, fejlesztői eszközök, stb.)
+* Mi a számodra legelőnyösebb fejlesztői környezet? (operációs rendszer, szerkesztő, böngésző, fejlesztői eszközök, stb.)
 * Részletezd hogyan készítesz el egy weboldalt.
-* Can you describe the difference between progressive enhancement and graceful degradation?
-	* Bonus points for describing feature detection.
+* Mi a különbség a fokozatos javítása és a között, hogy a weboldalt folyamatosan optimalizálod régebbi és egyszerűbb felületekre is?
+	* Bónusz pont a funkció működésének tesztelése adott eszközön.
 * Magyarázd el mit jelent a "szemantikus HTML".
 * Milyen böngészőt és milyen eszközöket használsz a fejlesztéshez?
-* How would you optimize a websites assets/resources?
-	* Looking for a number of solutions which can include:
-		* File concatenation
-		* File minification
-		* CDN Hosted
-		* Caching
-		* stb
-* Why is it better to serve site assets from multiple domains?
-	* How many resources will a browser download from a given domain at a time?
-* Nevezz meg 3 lehetoseget az oldalletoltes idotartamanak csokkentésére. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-* Ha beszállsz egy projectbe, és ők tabot használnak te pedig szókozt a kód rendezésénél, mit teszel?
-	* Suggest the project utilize something like [EditorConfig](http://editorconfig.org)
-	* Conform to the conventions (stay consistant)
+* Hogyan optimalizálod egy weboldal forrásait/eszközeit?
+	* Keress több megoldást, amik tartalmazzák az alábbiakat:
+		* Fájl egyesítés
+		* Fájl minimalizálás
+		* CDN hoszting
+		* Cachelés
+		* stb.
+* Miert jobb az eszközöket több domainnek kiszolgálni egyszerre?
+	* Hány lekérdezés futhat a böngészőben egyidejűleg az adott domain irányába?
+* Nevezz meg 3 lehetőséget az oldalletöltés időtartámanak csökkentésére. (előtöltött vagy aktiális töltési idő)
+* Ha beszállsz egy projektbe, és ők tabot használnak te pedig szókozt a kód rendezésénél, mit teszel?
+	* Tanácsolod, hogy használjatok valami technológiát, pl. [EditorConfig](http://editorconfig.org)
+	* Elfogadod (vagy tartózkodsz)
 	* `issue :retab! command`
 * Készíts egy egyszerű slideshow oldalt.
-	* Bónusz pont ha nem szükséges hozzá JS.
+	* Bónusz pont ha nem szükséges hozzá JavaScript.
 * Milyen eszközökkel teszteled a kódod teljesítményét?
 	* [JSPerf](http://jsperf.com/)
 	* [Dromaeo](http://dromaeo.com/)
@@ -70,7 +71,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Használhatsz XHTML szintaxist HTML5-be?
 * Hogyan használsz XML-t HTML5-ben?
 * Mire valók a `data-` attribútumok?
-* What are the content models in HTML4 and are they different in HTML5?
+* Mik tartoznak bele a HTML4 tartalmi modelljébe és miként különbözik ez a HTML5-ben?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Mi a különbség a `cookie` a `sessionStorage` és a `localStorage` között.
 
@@ -81,51 +82,51 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how prototypal inheritance works.
 * Hogyan teszteled a JavaScript kódodat?
 * AMD vs. CommonJS?
-* Melyik JS library-ket használtad már?
-* Have you ever looked at the source code of the libraries/frameworks you use?
-* What's a hashtable?
-* What are `undefined` and `undeclared` variables?
+* Melyik JavaScript library-ket használtad már?
+* Próbáltad már értelmezni az általad használt library/keretrendszer forrását?
+* Mi a "hashtable"?
+* Mit jelent az `undefined` és az `undeclared` változó?
 * What is a closure, and how/why would you use one?
 	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)
-* What's a typical use case for anonymous functions?
+* Hogyan néz ki egy anoním funkció?
 * Explain the "JavaScript module pattern" and when you'd use it.
 	* Bonus points for mentioning clean namespacing.
 	* What if your modules are namespace-less?
-* How do you organize your code? (module pattern, classical inheritance?)
+* Miként rendszerezed a kódodat? (module pattern, classical inheritance)
 * What's the difference between host objects and native objects?
 * Mi a különbség az következő kódok között:
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
 * Mi a különbség a `.call` és az `.apply` között?
-* Magyarázd el mire jo a `Function.prototype.bind`?
+* Magyarázd el mire jó a `Function.prototype.bind`?
 * Mikor szoktad optimalizálni a kódodat?
-* Magyarázd el hogyan működik az öröklődés szabálya a JavaScriptben?
+* Magyarázd el hogyan működik az öröklődés szabálya a JavaScript-ben?
 * Mikor használod a `document.write()` funkciót?
 	* Most generated ads still utilize `document.write()` although its use is frowned upon
 * What's the difference between feature detection, feature inference, and using the UA string.
-* Magyarázd meg az AJAX működését a leheto legrészletesebben.
-* Explain how JSONP works (and how it's not really AJAX)
+* Magyarázd meg az AJAX működését a lehető legrészletesebben.
+* Magyarázd el, hogyan működik a JSONP (és miért nem AJAX valójában)
 * Használtál már JavaScript template rendszert?
 	* Ha igen mit? (Mustache.js, Handlebars, stb.)
 * Mit jelent a "hoisting"?
-* Describe event bubbling.
+* Mit jelent az `event bubbling`?
 * Mi a különbség az "attribute" és a "property" között?
-* Why is extending built in JavaScript objects not a good idea?
-* Why is extending built ins a good idea?
+* Miért nem jó ötlet kiegészíteni a beépített JavaScript objektumokat?
+* Miért jó ötlet kiegészíteni a bepített funkciókat?
 * Mi a különbség a "document load" és a "document ready" között?
 * Mi a különbség `==` és `===` között?
-* Explain how you would get a query string parameter from the browser window's URL.
+* Hogyan olvasol be egy paramétert a böngésző ablak URL-ből?
 * Explain the same-origin policy with regards to JavaScript.
-* Ismertesd a JS öröklési mintáját.
+* Ismertesd a JavaScript öröklési mintáját.
 * Javítsd ki az alábbi példát:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Describe a strategy for memorization (avoiding calculation repetition) in JavaScript.
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
-* What is the arity of a function?
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Mennyi attribútumot lehet átadni egy funkciónak?
+* Mi a `"use strict";`, mik az előnyei és a hátrányai?
 
 ### JS példakódok:
 
@@ -172,16 +173,16 @@ Kérdés: Mi a `foo.length` értéke?
 
 * Mit jelent a `chaining`?
 * Mit jelent a `deferreds`?
-* What are some jQuery specific optimizations you can implement?
-* Mire használhatjuk az `.end()` funkciót? 
-* How, and why, would you namespace a bound event handler? 
-* Name 4 different values you can pass to the jQuery method.
+* Milyen jQuery specifikus optimalizálást ismersz?
+* Mire használhatjuk az `.end()` funkciót?
+* How, and why, would you namespace a bound event handler?
+* Nevezz meg 4 különböző értéket, ami átadható egy jQuery folyamatnak.
 	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue? 
+* Mit jelent az effektek (var fx) sorba állítas?
 * Mi a különbség `.get()`, `[]`, és `.eq()` között? 
 * Mi a különbség `.bind()`, `.live()`, és `.delegate()` között? 
 * Mi a különbség `$` és `$.fn` között? Vagy mit jelent a `$.fn`.
-* Optimize this selector: 
+* Optimalizáld a alábbi selector-t: 
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
@@ -189,43 +190,42 @@ $(".foo div#bar:eq(0)")
 
 ### CSS specifikus kérdések:
 
-* Describe what a "reset" CSS file does and how it's useful. 
-* Describe Floats and how they work. 
+* Mire való a "reset" CSS fájl és mennyire hasznos?
+* Hogyan működik a CSS `float`?
 * What are the various clearing techniques and which is appropriate for what context? 
-* Magyarázd el a CSS sprites működését és, hogy hogyan alkalmazod a weboldalon?
+* Magyarázd el a CSS sprites működését és, hogy hogyan alkalmazod egy weboldalon?
 * What are your favourite image replacement techniques and which do you use when? 
 * CSS property hacks, conditionally included .css files, or... something else? 
 * How do you serve your pages for feature-constrained browsers? 
 	* What techniques/processes do you use?  
-* What are the different ways to visually hide content (and make it available only for screen readers)? 
-* Have you ever used a grid system, and if so, what do you prefer? 
-* Használtál már grid rendszer, ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootsrtap](http://twitter.github.io/bootstrap/))
+* Milyen módon lehet tartalmakat vizuálisan elrejteni? (és csak screen olvasók számára elérhetővé tenni)
+* Használtál már grid rendszer? Ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootstrap](http://twitter.github.io/bootstrap/))
 * Have you used or implemented media queries or mobile specific layouts/CSS?
-* Any familiarity with styling SVG?
-* Hogyan alakítod a weboldalad nyomtatóbaráttá?
+* Jártas vay az SVG használatában?
+* Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
 * What are some of the "gotchas" for writing efficient CSS? 
-* Do you use CSS preprocessors? (SASS, Compass, Stylus, LESS) 
-	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
-* How would you implement a web design comp that uses non-standard fonts? 
-	* Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?  
+* Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
+	* Ha igen mit szeretsz és mit nem szeretsz bennuk?
+* Hogyan valósítasz meg egy olyan dizájn kompozíciót, ami nem a szabványos betűtípusokat tartalmazza?
+	* Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
+* Miként határozza meg a böngésző a megfelelő CSS selector-t?
 
 ### Választható és vicces kérdések:
 
-* Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbuszkébb?
-* Do you know the HTML5 gang sign? 
-* Are you now, or have you ever been, on a boat. 
-* What are your favorite parts about the developer tools you use?
-* Do you have any pet projects? What kind? 
-* Explain the significance of "cornify". 
-* On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
+* Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbüszkébb?
+* Ismered a HTML5 banda jelét?
+* Are you now, or have you ever been, on a boat.
+* Mi a kedvenced az általad használt fejlesztői eszközökben?
+* Do you have any pet projects? What kind?
+* Ismertesd a "cornify" jelentőségét. [Cornify](http://www.cornify.com/)
+* Egy darab papirra írd le az A B C D E betűket függőlegesen. Now put these in descending order without writing one line of code.
 	* Wait and see if they turn the paper upside down
 * Kalóz vagy Ninja?
-	* Bónusz, ha mindketto és jó indokot adott rá (+2 ha zombie majom kalóz ninják) 
+	* Bónusz pont, ha mindketto és jó indokot adott rá (+2 ha zombi majom kalóz ninják)
 * Ha nem fejlesztesz, mi mást szoktál csinálni?
 * Hol lehet vajon Carmen Sandiego?
 	* Tipp: nincs rá helyes válasz
 * Mit szeretsz a legjobban az Internet Explorerben?
 * Fejezd be a mondatot: Brendan Eich és Doug Crockford a JavaScript __________.
-* jQuery: a great library or the greatest library? Discuss.
+* jQuery: egy jó library vagy a legjobb library? Vitassátok meg.
 * [W3School](http://www.w3schools.com/) vagy [W3Fools](http://w3fools.com/)
