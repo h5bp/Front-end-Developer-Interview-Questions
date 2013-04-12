@@ -43,7 +43,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 		* CDN hoszting
 		* Cachelés
 		* stb.
-* Miert jobb az eszközöket több domainnek kiszolgálni egyszerre?
+* Miert jobb az eszközöket egyszerre több domainnek is kiszolgálni?
 	* Hány lekérdezés futhat a böngészőben egyidejűleg az adott domain irányába?
 * Nevezz meg 3 lehetőséget az oldalletöltés időtartámanak csökkentésére. (előtöltött vagy aktiális töltési idő)
 * Ha beszállsz egy projektbe, és ők tabot használnak te pedig szókozt a kód rendezésénél, mit teszel?
@@ -57,7 +57,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 	* [Dromaeo](http://dromaeo.com/)
 	* stb.
 * Ha idén elsajátíthatnál egy technológiát, mi lenne az?
-* Explain the importance of standards and standards bodies.
+* ___Explain the importance of standards and standards bodies.___
 * Mi a FOUC? Hogyan kerulöd el a FOUC-et?
 
 ### HTML specifikus kérdések:
@@ -72,28 +72,28 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Hogyan használsz XML-t HTML5-ben?
 * Mire valók a `data-` attribútumok?
 * Mik tartoznak bele a HTML4 tartalmi modelljébe és miként különbözik ez a HTML5-ben?
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+* Tegyük fel, hogy a HTML5 egy nyílt webes felület. Mik az építőelemei?
 * Mi a különbség a `cookie` a `sessionStorage` és a `localStorage` között.
 
 ### JS specifikus kérdések:
 
 * Mit jelent az `event delegation`?
 * Magyarázd el hogyan működik a `this` a JavaScript-ben.
-* Explain how prototypal inheritance works.
+* Hogyan működik a protokol öröklés (prototypal inheritance)?
 * Hogyan teszteled a JavaScript kódodat?
 * AMD vs. CommonJS?
 * Melyik JavaScript library-ket használtad már?
 * Próbáltad már értelmezni az általad használt library/keretrendszer forrását?
 * Mi a "hashtable"?
 * Mit jelent az `undefined` és az `undeclared` változó?
-* What is a closure, and how/why would you use one?
-	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)
+* ___What is a closure, and how/why would you use one?___
+	* ___Your favorite pattern used to create them? argyle (Only applicable to IIFEs)___
 * Hogyan néz ki egy anoním funkció?
-* Explain the "JavaScript module pattern" and when you'd use it.
-	* Bonus points for mentioning clean namespacing.
-	* What if your modules are namespace-less?
+* Magyarázd el a JavaScript modul sablont és, hogy mikor használjuk.
+	* Bónusz pont, ha említi a tiszta namespace-ket.
+	* Mi történik akkor, ha a modul namespace mentes?
 * Miként rendszerezed a kódodat? (module pattern, classical inheritance)
-* What's the difference between host objects and native objects?
+* ___What's the difference between host objects and native objects?___
 * Mi a különbség az következő kódok között:
 ```javascript
 function Person(){} var person = Person() var person = new Person()
@@ -103,10 +103,10 @@ function Person(){} var person = Person() var person = new Person()
 * Mikor szoktad optimalizálni a kódodat?
 * Magyarázd el hogyan működik az öröklődés szabálya a JavaScript-ben?
 * Mikor használod a `document.write()` funkciót?
-	* Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string.
+	* A generált hírdetés még mindig használják annak ellenére, hogy nem ajánlatos.
+* ___What's the difference between feature detection, feature inference, and using the UA string.___
 * Magyarázd meg az AJAX működését a lehető legrészletesebben.
-* Magyarázd el, hogyan működik a JSONP (és miért nem AJAX valójában)
+* Magyarázd el, hogyan működik a JSONP (és miért nem AJAX valójában).
 * Használtál már JavaScript template rendszert?
 	* Ha igen mit? (Mustache.js, Handlebars, stb.)
 * Mit jelent a "hoisting"?
@@ -117,14 +117,14 @@ function Person(){} var person = Person() var person = new Person()
 * Mi a különbség a "document load" és a "document ready" között?
 * Mi a különbség `==` és `===` között?
 * Hogyan olvasol be egy paramétert a böngésző ablak URL-ből?
-* Explain the same-origin policy with regards to JavaScript.
+* Mit jelent a "same-origin" szabály a JavaScript-bet?
 * Ismertesd a JavaScript öröklési mintáját.
 * Javítsd ki az alábbi példát:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memorization (avoiding calculation repetition) in JavaScript.
-* Why is it called a Ternary expression, what does the word "Ternary" indicate?
+* ___Describe a strategy for memorization (avoiding calculation repetition) in JavaScript.___
+* Mit nevezünk "Ternary" kifejezésnek? Mire utal a "Ternary" szó?
 * Mennyi attribútumot lehet átadni egy funkciónak?
 * Mi a `"use strict";`, mik az előnyei és a hátrányai?
 
@@ -175,56 +175,56 @@ Kérdés: Mi a `foo.length` értéke?
 * Mit jelent a `deferreds`?
 * Milyen jQuery specifikus optimalizálást ismersz?
 * Mire használhatjuk az `.end()` funkciót?
-* How, and why, would you namespace a bound event handler?
+* ___How, and why, would you namespace a bound event handler?___
 * Nevezz meg 4 különböző értéket, ami átadható egy jQuery folyamatnak.
-	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* Mit jelent az effektek (var fx) sorba állítas?
-* Mi a különbség `.get()`, `[]`, és `.eq()` között? 
-* Mi a különbség `.bind()`, `.live()`, és `.delegate()` között? 
-* Mi a különbség `$` és `$.fn` között? Vagy mit jelent a `$.fn`.
-* Optimalizáld a alábbi selector-t: 
+	* Szelektor (sztring), HTML (sztring), Callback (funkció), HTMLElement, objektum, tömb, elemb tömb, jQuery objektum, stb.
+* Mit jelent az effektek (vagy fx) sorba állítas?
+* Mi a különbség `.get()`, `[]`, és `.eq()` között?
+* Mi a különbség `.bind()`, `.live()`, és `.delegate()` között?
+* Mi a különbség `$` és `$.fn` között? Vagy mit jelent a `$.fn`?
+* Optimalizáld a alábbi szelektort:
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Mi a különbség `delegate()` és `live()` között? 
+* Mi a különbség `delegate()` és `live()` között?
 
 ### CSS specifikus kérdések:
 
 * Mire való a "reset" CSS fájl és mennyire hasznos?
 * Hogyan működik a CSS `float`?
-* What are the various clearing techniques and which is appropriate for what context? 
+* ___What are the various clearing techniques and which is appropriate for what context?___
 * Magyarázd el a CSS sprites működését és, hogy hogyan alkalmazod egy weboldalon?
-* What are your favourite image replacement techniques and which do you use when? 
-* CSS property hacks, conditionally included .css files, or... something else? 
-* How do you serve your pages for feature-constrained browsers? 
-	* What techniques/processes do you use?  
-* Milyen módon lehet tartalmakat vizuálisan elrejteni? (és csak screen olvasók számára elérhetővé tenni)
-* Használtál már grid rendszer? Ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootstrap](http://twitter.github.io/bootstrap/))
-* Have you used or implemented media queries or mobile specific layouts/CSS?
+* Mi a kedvenc képpel helyettesítő (image replacement) technikád és mit használsz mire?
+* CSS hackek, böngésző függő CSS fájlok, vagy.... valami más?
+* Hogyan jelenítesz meg oldalakat korlátozott böngészőkben?
+	* Milyen technológiákat/folyamatokat használsz?
+* Milyen módon tudsz tartalmakat vizuálisan elrejteni (és csak screen olvasók számára elérhetővé tenni)?
+* Használtál már rács rendszert (grid system)? Ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootstrap](http://twitter.github.io/bootstrap/))
+* Használtál már "media query"-ket vagy mobil specifikus layoutokat/CSS-eket?
 * Jártas vay az SVG használatában?
 * Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
-* What are some of the "gotchas" for writing efficient CSS? 
+* ___What are some of the "gotchas" for writing efficient CSS?___
 * Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
-	* Ha igen mit szeretsz és mit nem szeretsz bennuk?
+	* Ha igen mit szeretsz és mit nem szeretsz bennük?
 * Hogyan valósítasz meg egy olyan dizájn kompozíciót, ami nem a szabványos betűtípusokat tartalmazza?
 	* Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
-* Miként határozza meg a böngésző a megfelelő CSS selector-t?
+* Miként határozza meg a böngésző a megfelelő CSS szelektort?
 
 ### Választható és vicces kérdések:
 
 * Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbüszkébb?
 * Ismered a HTML5 banda jelét?
-* Are you now, or have you ever been, on a boat.
+* Vagy, vagy voltál már hajón? 
 * Mi a kedvenced az általad használt fejlesztői eszközökben?
-* Do you have any pet projects? What kind?
+* Van bármilyen állatos projekted? Ha igen milyen?
 * Ismertesd a "cornify" jelentőségét. [Cornify](http://www.cornify.com/)
-* Egy darab papirra írd le az A B C D E betűket függőlegesen. Now put these in descending order without writing one line of code.
-	* Wait and see if they turn the paper upside down
+* Egy darab papirra írd le az A B C D E betűket függőlegesen. Most rendezzd át oket csökkenő sorrendbe egyetlen sor kóddal.
+	* Várj és figyelj, megfordítják-e a papírt, hogy fejjel lefelé legyen.
 * Kalóz vagy Ninja?
-	* Bónusz pont, ha mindketto és jó indokot adott rá (+2 ha zombi majom kalóz ninják)
+	* Bónusz pont, ha mindkettő és jó indokot adott rá (+2 ha zombi majom kalóz ninják)
 * Ha nem fejlesztesz, mi mást szoktál csinálni?
 * Hol lehet vajon Carmen Sandiego?
-	* Tipp: nincs rá helyes válasz
+	* Megoldás: nincs rá helyes válasz
 * Mit szeretsz a legjobban az Internet Explorerben?
 * Fejezd be a mondatot: Brendan Eich és Doug Crockford a JavaScript __________.
 * jQuery: egy jó library vagy a legjobb library? Vitassátok meg.
