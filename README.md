@@ -209,6 +209,7 @@ $(".foo div#bar:eq(0)")
 * How would you implement a web design comp that uses non-standard fonts? 
 	* Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?  
+* What is specificity and how does it work?
 
 ### Optional fun Questions:
 
