@@ -43,6 +43,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 		* etc.
 * Why is it better to serve site assets from multiple domains? 
 	* How many resources will a browser download from a given domain at a time? 
+	* Why wouldn't you want to load all assets from unique domains?
 * Name 3 ways to decrease page load. (perceived or actual load time) 
 * If you jumped on a project and they used tabs and you used spaces, what would you do? 
 	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
