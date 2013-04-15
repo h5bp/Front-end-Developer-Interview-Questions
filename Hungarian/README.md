@@ -57,7 +57,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 	* [Dromaeo](http://dromaeo.com/)
 	* stb.
 * Ha idén elsajátíthatnál egy technológiát, mi lenne az?
-* ___Explain the importance of standards and standards bodies.___
+* Ismertesd a sztandardok fontosságát.
 * Mi a FOUC? Hogyan kerulöd el a FOUC-et?
 
 ### HTML specifikus kérdések:
@@ -86,14 +86,14 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Próbáltad már értelmezni az általad használt library/keretrendszer forrását?
 * Mi a "hashtable"?
 * Mit jelent az `undefined` és az `undeclared` változó?
-* ___What is a closure, and how/why would you use one?___
-	* ___Your favorite pattern used to create them? argyle (Only applicable to IIFEs)___
+* Mi a lezárás, milyen formáit ismered és hogyan használod azokat?
+	* Kedvenc mintád? "argyle" (kizárólag IIFE-re alkalmazható)
 * Hogyan néz ki egy anoním funkció?
 * Magyarázd el a JavaScript modul sablont és, hogy mikor használjuk.
 	* Bónusz pont, ha említi a tiszta namespace-ket.
 	* Mi történik akkor, ha a modul namespace mentes?
 * Miként rendszerezed a kódodat? (module pattern, classical inheritance)
-* ___What's the difference between host objects and native objects?___
+* Mi a különbség hoszt objektum és natív objektum között?
 * Mi a különbség az következő kódok között:
 ```javascript
 function Person(){} var person = Person() var person = new Person()
@@ -104,7 +104,7 @@ function Person(){} var person = Person() var person = new Person()
 * Magyarázd el hogyan működik az öröklődés szabálya a JavaScript-ben?
 * Mikor használod a `document.write()` funkciót?
 	* A generált hírdetés még mindig használják annak ellenére, hogy nem ajánlatos.
-* ___What's the difference between feature detection, feature inference, and using the UA string.___
+* Mi a különbség a "feature" észlelés (detection), "feature" következtetés (inference) és az UA sztring használata között?
 * Magyarázd meg az AJAX működését a lehető legrészletesebben.
 * Magyarázd el, hogyan működik a JSONP (és miért nem AJAX valójában).
 * Használtál már JavaScript template rendszert?
@@ -123,7 +123,7 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* ___Describe a strategy for memorization (avoiding calculation repetition) in JavaScript.___
+* írj le egy memorizáló stratégiát (ismétlődő kalkulációk nélkül) JavaScriptben.
 * Mit nevezünk "Ternary" kifejezésnek? Mire utal a "Ternary" szó?
 * Mennyi attribútumot lehet átadni egy funkciónak?
 * Mi a `"use strict";`, mik az előnyei és a hátrányai?
@@ -175,7 +175,7 @@ Kérdés: Mi a `foo.length` értéke?
 * Mit jelent a `deferreds`?
 * Milyen jQuery specifikus optimalizálást ismersz?
 * Mire használhatjuk az `.end()` funkciót?
-* ___How, and why, would you namespace a bound event handler?___
+* Hogyan neveznél el egy kapcsolt esemény kezelőt (bound event handler) és miért?
 * Nevezz meg 4 különböző értéket, ami átadható egy jQuery folyamatnak.
 	* Szelektor (sztring), HTML (sztring), Callback (funkció), HTMLElement, objektum, tömb, elemb tömb, jQuery objektum, stb.
 * Mit jelent az effektek (vagy fx) sorba állítas?
@@ -192,7 +192,7 @@ $(".foo div#bar:eq(0)")
 
 * Mire való a "reset" CSS fájl és mennyire hasznos?
 * Hogyan működik a CSS `float`?
-* ___What are the various clearing techniques and which is appropriate for what context?___
+* Milyen `clear` technikákat ismersz és melyik milyen környezetben a megfelelő?
 * Magyarázd el a CSS sprites működését és, hogy hogyan alkalmazod egy weboldalon?
 * Mi a kedvenc képpel helyettesítő (image replacement) technikád és mit használsz mire?
 * CSS hackek, böngésző függő CSS fájlok, vagy.... valami más?
@@ -203,7 +203,7 @@ $(".foo div#bar:eq(0)")
 * Használtál már "media query"-ket vagy mobil specifikus layoutokat/CSS-eket?
 * Jártas vay az SVG használatában?
 * Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
-* ___What are some of the "gotchas" for writing efficient CSS?___
+* Mik a legjobb "ötletek" a hatékony CSS kód írásához?
 * Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
 	* Ha igen mit szeretsz és mit nem szeretsz bennük?
 * Hogyan valósítasz meg egy olyan dizájn kompozíciót, ami nem a szabványos betűtípusokat tartalmazza?
