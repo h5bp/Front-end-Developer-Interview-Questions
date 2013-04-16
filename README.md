@@ -27,13 +27,11 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ### General Questions:
 
-* What version control systems have you used (Git, SVN etc.)? 
-* What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
+* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.) 
 * Can you describe your workflow when you create a web page? 
 * Can you describe the difference between progressive enhancement and graceful degradation? 
 	* Bonus points for describing feature detection  
 * Explain what "Semantic HTML" means. 
-* What browser do you primarily develop in and what developer tools do you use?
 * How would you optimize a websites assets/resources?
 	* Looking for a number of solutions which can include:
 		* File concatenation
@@ -51,25 +49,20 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Write a simple slideshow page 
 	* Bonus points if it does not use JS.  
 * What tools do you use to test your code's performance?
-	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/) 
-	* etc.
+	* Profiler, JSPerf, Dromaeo
 * If you could master one technology this year, what would it be? 
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?  
 
 ### HTML-Specific Questions:
 
-* What's a `doctype` do, and how many can you name? 
+* What's a `doctype` do?
 * What's the difference between standards mode and quirks mode? 
 * What are the limitations when serving XHTML pages? 
 	* Are there any problems with serving pages as `application/xhtml+xml`?  
 * How do you serve a page with content in multiple languages? 
 	* What kind of things must you be wary of when design or developing for multilingual sites?
-* Can you use XHTML syntax in HTML5? 
-* How do you use XML in HTML5? 
 * What are `data-` attributes good for? 
-* What are the content models in HTML4 and are they different in HTML5? 
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
 * Describe the difference between cookies, sessionStorage and localStorage. 
 
@@ -80,8 +73,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
-* Which JavaScript libraries have you used? 
-* Have you ever looked at the source code of the libraries/frameworks you use?
 * What's a hashtable?
 * What are `undefined` and `undeclared` variables? 
 * What is a closure, and how/why would you use one? 
@@ -204,7 +195,7 @@ $(".foo div#bar:eq(0)")
 * Any familiarity with styling SVG? 
 * How do you optimize your webpages for print? 
 * What are some of the "gotchas" for writing efficient CSS? 
-* Do you use CSS preprocessors? (SASS, Compass, Stylus, LESS) 
+* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS) 
 	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? 
 	* Webfonts (font services like: Google Webfonts, Typekit etc.)
@@ -213,19 +204,6 @@ $(".foo div#bar:eq(0)")
 ### Optional fun Questions:
 
 * What's the coolest thing you've ever coded, what are you most proud of?
-* Do you know the HTML5 gang sign? 
-* Are you now, or have you ever been, on a boat. 
 * What are your favorite parts about the developer tools you use?
 * Do you have any pet projects? What kind? 
-* Explain the significance of "cornify". 
-* On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
-	* Wait and see if they turn the paper upside down
-* Pirate or Ninja? 
-	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
-* If not Web Development, what would you be doing? 
-* Where in the world is Carmen Sandiego?
-	* Hint: their answer is always wrong 
 * What's your favorite feature of Internet Explorer?
-* Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
-* jQuery: a great library or the greatest library? Discuss.
-* http://www.w3schools.com/ or http://w3fools.com/
