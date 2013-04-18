@@ -95,7 +95,7 @@ function Person(){} var person = Person() var person = new Person()
 ```
 * Vad är skillnaden mellan `.call` och `.apply`? 
 * Förklara `Function.prototype.bind`? 
-* När optimizerar du din kod? 
+* När optimerar du din kod?
 * Kan du förklara hur arv fungerar i JavaScript?   
 * När skulle du använda `document.write()`?
 	* De flesta genererade reklamerna använder fortfarande `document.write()` även om de flesta ogillar det
@@ -103,7 +103,7 @@ function Person(){} var person = Person() var person = new Person()
 * Förklara AJAX så noggrant som möjligt
 * Förklara hur JSONP fungerar(och varför det egentligen inte är AJAX)
 * Har du någonsin använt någon JavaScript mall?
-* Have you ever used JavaScript templating?
+* Har du någonsin använt JavaScript templating?
 	* Om så är fallet, vilka? (T.ex. Mustache.js, Handlebars osv.) 
 * Förklara "hoisting".
 * Beskriv event bubbling. 
