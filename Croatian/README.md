@@ -1,6 +1,6 @@
 #Intervju za posao Front-end Developera
 
-@version 1.0.0
+@version 2.0.0
 
 Ovaj repozitorij sadrži brojna pitanja za intervju iz područja front-end-a koja možete koristiti u procjeni potencijalnih kandidata. Nikako se ne preporuča da upotrijebite svako ovdje navedeno pitanje za jednog kandidata (to bi trajalo satima). Odabir nekoliko ciljanih pitanja s ove liste bi Vam trebao pomoći u odabiru.
 
@@ -27,13 +27,11 @@ Većina pitanja je preuzeta sa [oksoclap](http://oksoclap.com/) tj. rasprave koj
 
 ### Općenita pitanja:
 
-* Koje ste sustave verzioniranja koristili (Git, SVN itd.)? 
-* Kako izgleda vaša idealna razvoja okolina? (Os, Editor, Browser, Alati itd.) 
+* Opišite Vašu preferiranu razvojnu okolinu. (OS, Editor, Broseri, Alati itd.)
 * Možete li opisati Vaš postupak izrade web stranice? 
 * Možete li opisati razliku između progresivnog poboljšanja i neprimjetne degradacije? 
 	* Bonus bodovi ako se opiše detektiranje mogućnosti browsera 
 * Objasnite što je to "Semantički HTML". 
-* Koje preglednike i razvojne alate koristite za razvoj? 
 * Kako biste optimirali infrastrukturu i resurse web stranice?
 	* Traženje više rješenja poput:
 		* Spajanje datoteka
@@ -51,25 +49,20 @@ Većina pitanja je preuzeta sa [oksoclap](http://oksoclap.com/) tj. rasprave koj
 * Napravite jednostavnu stranicu za držanje prezentacije
 	* Bonus bodovi za nekorištenje JavaScript-a.  
 * Koje alate koristite za testiranje performansi koda?
-	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/) 
-	* itd.
+	* Profiler, JSPerf, Dromaeo
 * Kad bi mogli odabrati jednu tehologiju koju ćete naučiti ove godine, što bi to bila? 
 * Objasnite važnost standarda i tijela za standardizaciju
 * Što je FOUC? Kako biste izbjegli FOUC?  
 
 ### Pitanja za HTML:
 
-* Što radi `doctype`, koliko ih možete navesti?
+* Što radi `doctype`?
 * Koja je razlika između standardnog i dosjetljivog (quirks) modusa? 
 * Koja su ograničenja kod posluživanja XHTML stranica? 
 	* Postoje li problemi kod posluživanja stranica sa `application/xhtml+xml`?  
 * Kako biste poslužili stranicu sa sadržajem na više jezika? 
 	* Na što morate paziti kod dizajniranja ili razvoja za višejezičnu stranicu?
-* Može li se sintaksa XHTML-a koristiti u HTML5-ici?
-* Kako se u HTML5-ici koristi XML?
 * Za što se koriste `data-` atributi? 
-* Što su modeli sadržaja (content model) u HTML4-ci i kako se razlikuju u HTML5-ici? 
 * Razmotrite HTML5 kao platformu otvorenog web-a. Koji su gradivni elementi HTML5-ice?
 * Pojasnite razliku između kolačića, podataka sjednice (sessionStorage) i lokalne pohrane. 
 
@@ -80,8 +73,6 @@ Većina pitanja je preuzeta sa [oksoclap](http://oksoclap.com/) tj. rasprave koj
 * Pojasnite prototipno nasljeđivanje
 * Kako testirate JavaScript? 
 * AMD u usporedbi sa CommonJS-om?
-* Koje Javascript biblioteke ste koristili?
-* Da li ste ikad pogledali u izvorni kod biblioteke/framework-a kojeg koristite? 
 * Što je to hash tabela?
 * Što su `undefined` i `undeclared` varijable? 
 * Što je closure, kako i zašto se koristi?
@@ -187,6 +178,7 @@ $(".foo div#bar:eq(0)")
 ```
 * Razlika između 'delegate()' i 'live()'? 
 
+
 ### Pitanja za CSS:
 
 * Objasnite što je to "reset" CSS i zašto je koristan. 
@@ -203,28 +195,15 @@ $(".foo div#bar:eq(0)")
 * Imate li iskustva u stiliziranju sa SVG-om? 
 * Kako optimirate stranice za ispis? 
 * Koje su "kvake" za pisanje učinkovitog CSS-a? 
-* Koristite li CSS preprocessore? (SASS, Compass, Stylus, LESS) 
+* Koje su prednosti/nedostatci korištenja CSS preprocessore? (SASS, Compass, Stylus, LESS) 
 	* Ako da, opišite što vam se (ne)sviđa kod CSS preprocessora koje ste koristili. 
 * Kako bi izradili preliminarni web dizajn koji ne koristi standardne fontove? 
 	* Webfont-ovi (font servisi poput: Google Webfonts, Typekit itd.)
 * Objasnite kako browser utvrđuje koji elementi odgovaraju CSS selector-u.  
 
-### Pitanja za zabavni dio razgovora:
+### Opcionalna zabavna pitanja:
 
 * Koja je najbolja stvar koju ste isprogramirali, na što ste najviše ponosni?
-* Znate li kako izgleda HTML5 gang pozdrav? 
-* Da li ste ikada bili u posadi na brodu? 
 * Koji su Vam omiljena svojstva razvojnih alata koje koristite?
 * Imate li kakve omiljene vlastite projekte? Koje? 
-* Pojasnite važnost "kornificiranja". 
-* Napišite slova A B C D E vertikalno na komad papira. Poredajte slova padajući bez da napišete liniju koda. 
-	* Pričekati ako će okrenuti papir naopačke
-* Pirat ili Ninja? 
-	* Bonus za combo i dobar razlog (+2 za zombie monkey pirate ninjas) 
-* Što biste radili da se ne bavite Web Development-om? 
-* Gdje se nalazi Carmen Sandiego?
-	* Naputak: odgovor je uvijek netočan 
 * Koja Vam je omiljena mogućnost Internet Explorer-a?
-* Dovršite rečenicu: Brendan Eich i Doug Crockford su __________ javascript-a.
-* jQuery: dobra ili najbolja biblioteka ikad? Raspravite.
-* http://www.w3schools.com/ ili http://w3fools.com/
