@@ -27,6 +27,8 @@ Keep in mind that many of these questions are open ended and could lead to inter
 
 ### General Questions:
 
+* What did you learn yesterday/this week?
+* What excites or interests you about coding?
 * Are you on Twitter? 
 	* If so, who do you follow on Twitter?
 * Are you on GitHub? 
