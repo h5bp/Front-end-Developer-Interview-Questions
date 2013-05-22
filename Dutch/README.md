@@ -129,7 +129,7 @@ Vraag: Welke waarde wordt terug gegeven bij de bovenstaande code?
 "ik hou van lasagna".split("").reverse().join("");
 ```
 Vraag: Welke waarde wordt terug gegeven bij de bovenstaande code? 
-**Answer: "angasal nav uoh ki"** 
+**Antwoord: "angasal nav uoh ki"** 
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
