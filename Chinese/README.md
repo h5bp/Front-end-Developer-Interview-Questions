@@ -128,7 +128,11 @@
 
 * 指出下列代码的区别：
 ```javascript
-function Person(){} var person = Person() var person = new Person()
+function Person(){
+	some code
+} 
+var person = Person(); 
+var person = new Person();
 ```
 
 * '.call'和'.apply'的区别是什么？
@@ -188,9 +192,18 @@ function Person(){} var person = Person() var person = new Person()
 
 * JavaScript内存泄漏。
 	* 什么是内存泄漏？
-	* JavaScript中哪些原因会导致内存泄漏？
+	* 哪些情况下会导致内存泄漏？
 	* 有什么样的工具可以检测内存泄漏？
-	* 应该怎样去避免内存泄漏？
+
+* 变量的数据类型( 基本类型和引用类型 )。
+	* 什么是基本类型值？
+	* JavaScript中有哪些基本类型值？
+	* 什么是引用类型值？
+	* 基本类型值和引用类型值在内存中的保存方式有什么不同？
+	* 基本类型值和引用类型值的"复制"在内存中有什么不同？
+
+* typeof 与 instanceof 操作符。	
+
 
 ## JS代码示例：
 
