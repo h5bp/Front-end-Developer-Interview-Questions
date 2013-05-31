@@ -46,7 +46,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Name 3 ways to decrease page load. (perceived or actual load time)
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
   * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistant)
+  * Conform to the conventions (stay consistent)
   * `issue :retab! command`
 * Write a simple slideshow page
   * Bonus points if it does not use JS.
