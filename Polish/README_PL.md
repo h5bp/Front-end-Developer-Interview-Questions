@@ -26,7 +26,7 @@
 * Czy używasz GitHuba? 
 	* Jeśli tak, podaj przykłady śledzonych repozytoriów  
 * Jakie blogi czytujesz? 
-* Jakich systemów kontroli wersji używałeś (Git, SVN itd.)? 
+* Jakich systemów kontroli wersji używałeś (GIT, SVN itd.)?
 * Jakie jest Twoje preferowane środowisko programistyczne? (system operacyjny, edytor, przeglądarki, narzędzia itd.) 
 * Opisz kolejne zadania podczas tworzenia strony internetowej? 
 * Opisz różnicę między stopniowym ulepszaniem (progressive enhancement) i wdzięczną degradacją (graceful degradation)? 
@@ -42,7 +42,7 @@
 		* itd.
 * Dlaczego serwowanie zasobów strony przez wiele domen jest lepsze? 
 	* Ile zasobów pobiera przeglądarka z danej domeny w jednej chwili? 
-* Podaj 3 sposoby na zmniejszenie czasu ładowania strony. (postrzeganego lub rzeczywistego czasu ładowania) 
+* Podaj 3 sposoby na zmniejszenie czasu ładowania strony (postrzeganego lub rzeczywistego czasu ładowania).
 * Jeśli dołączasz do projektu, w którym używa się tabulacji, a ty używasz spacji, co wtedy zrobisz? 
 	* Sugerowanie użycia narzędzi w stylu EditorConfig (http://editorconfig.org)
 	* Zgodnie z konwencjami (pozostań konsekwentny)
@@ -60,7 +60,7 @@
 ### Pytania HTML:
 
 * Co robi `doctype` i jakie znasz przykłady? 
-* Jaka jest różnica między trybem standardów a trybem dziwactw (quirks mode)? 
+* Jaka jest różnica między trybem standardów a trybem dziwactw (quirks mode)?
 * Jakie są ogranicznia w serwowaniu stron XHTML? 
 	* Czy istnieją problemy z serwowaniem stron jako `application/xhtml+xml`?  
 * Jak serwujesz stronę z treścią w wielu językach? 
@@ -83,7 +83,7 @@
 	* Ulubiony wzorzec używany do ich tworzenia? argyle (Dotyczy tylko IIFE)  
 * Jakie znasz typowe użycie funkcji anonimowych? 
 * Wyjaśnij pomysł "Moduł JavaScript" i kiedy jest wart stosowania. 
-	* Dodatkowe punkty za wzmiankę na temat czytości przestrzeni nazw. 
+	* Dodatkowe punkty za wzmiankę na temat czystości przestrzeni nazw.
 	* Co jeśli Twój kod nie używa przestrzeni nazw?  
 * Jak organizujesz swój kod? (moduły, klasyczne dziedziczenie?) 
 * Jaka jest różnicza między obiektami typu `host` i `native`? 
@@ -104,10 +104,10 @@ function Person(){} var person = Person() var person = new Person()
 	* Jeśli tak, jakie to były biblioteki? (Mustache.js, Handlebars itd.) 
 * Wyjaśnij pojęcie "hoisting".
 * Opisz bąbelkowanie zdarzeń. 
-* Jak jest różnica między "atrybutem" i "właściwością"? 
+* Jaka jest różnica między "atrybutem" a "właściwością"?
 * Czemu rozszerzanie wbudowanych obiektów w JavaScript jest złym pomysłem? 
 * Czemu rozszerzenia to dobry pomysł? 
-* Jak jest różnicą między zdarzeniami `load` i `ready` dla strony internetowej? 
+* Jaka jest różnica między zdarzeniami `load` i `ready` dla strony internetowej?
 * Jaka jest różnica między `==` i `===`? 
 * Wyjaśnij ewentualny sposób pobrania parametrów z adresu URL w oknie przeglądarki. 
 * Wyjaśnij politykę pochodzenia w odniesieniu do JavaScript. 
@@ -155,39 +155,39 @@ foo.push(1);
 foo.push(2);
 ```
 Pytanie: Jaka jest wartość foo.length? 
-**Odpowiedź: `2`
+**Odpowiedź: `2`**
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
 Pytanie: Jaka jest wartość foo.length? 
-**Odpowiedź: `undefined`
+**Odpowiedź: `undefined`**
 
 ```javascript
 foo = foo||bar
 ```
 Pytanie: Co to oznacza? 
-**Odpowiedź: if(!foo) foo = bar
+**Odpowiedź: if(!foo) foo = bar**
 
 ```javascript
 foo>>1
 ```
 Pytanie: Co to oznacza?
-**Odpowiedź: Math.floor(foo/2)
+**Odpowiedź: Math.floor(foo/2)**
 
 ```javascript
 foo|0
 foo+.5|0
 ```
 Pytanie: Co to oznacza?
-**Odpowiedź: parseInt(foo) & Math.round(foo)
+**Odpowiedź: parseInt(foo) & Math.round(foo)**
 
 ```javascript
 function foo(bar1, bar2, bar3){}
 ```
 Pytanie: Jak pobrać liczbę parametrów?
-**Odpowiedź: foo.length //this example is 3
+**Odpowiedź: foo.length // w tym przypadku 3**
 
 
 ### Pytania jQuery:
@@ -199,15 +199,15 @@ Pytanie: Jak pobrać liczbę parametrów?
 * Jak i dlaczego, użyjesz przestrzeni nazw przy obsłudze wiązania zdarzeń? 
 * Podaj 4 różne wartości, jakie możesz przekazać do metody jQuery.
 	* Selektor (string), HTML (string), funkcja zwrotna, HTMLElement, obiekt, tablica, element tablicy, obiekt jQuery itd.
-* Co to jest kolejka  (or fx) queue? 
-* Jakie są różnicę między `.get()`, `[]`, i `.eq()`? 
-* Jakie są różnicę między `.bind()`, `.live()`, i `.delegate()`? 
-* Jakie są różnicę między `$` i `$.fn`? Albo czym jest `$.fn`.
+* Co to jest kolejka (or fx) queue?
+* Jakie są różnice między `.get()`, `[]`, i `.eq()`?
+* Jakie są różnice między `.bind()`, `.live()`, i `.delegate()`?
+* Jakie są różnice między `$` i `$.fn`? Albo czym jest `$.fn`.
 * Zoptymalizuj selektor: 
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Różnica między 'delegate()' i 'live()'? 
+* Różnica między `.delegate()` i `.live()`?
 
 
 ### Pytania CSS:
@@ -234,7 +234,7 @@ $(".foo div#bar:eq(0)")
 
 ### Pytania dodatkowe (zabawne):
 
-* Opowiedz o najfajniejszej rzeczy jaką kiedykolwiek zakodowałeś. Z czego jest jesteś najbardziej dumny?
+* Opowiedz o najfajniejszej rzeczy jaką kiedykolwiek zakodowałeś. Z czego jesteś najbardziej dumny?
 * Czy znasz znak gangu HTML5? 
 * Czy jesteś teraz lub kiedykolwiek byłeś na statku? 
 * Jakie są Twoje ulubione narzędzia programistyczne, których używasz?
