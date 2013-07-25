@@ -197,6 +197,7 @@ asyncOperation()
 .then(function(){
     // Yay we're finished!
 });
+```
 
 ### jQuery-Specific Questions:
 
