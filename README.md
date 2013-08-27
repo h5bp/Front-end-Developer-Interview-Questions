@@ -119,6 +119,7 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Explain javascript 'promises' and 'deferreds' and when you would use them.
 
 ### JS-Code Examples:
 
@@ -161,6 +162,42 @@ foo.bar = 'hello';
 ```
 Question: What is the value of foo.length?
 **Answer: `undefined`
+
+#####Promises
+* A promise represents a value that is not yet known
+
+#####Deferred
+* A deferred represents work that is not yet finished
+
+#####Uses of promises and deferreds
+* Ajax, Timing, Animation, Synchronization of parallel tasks, decoupling events and app logic
+
+```javascript
+// Normal callback usage => PYRAMID OF DOOM
+asyncOperation(function(data){
+    // Do some processing with `data`
+    anotherAsync(function(data2){
+        // Some more processing with `data2`
+        yetAnotherAsync(function(){
+            // Yay we're finished!
+        });
+    });
+});
+
+// Using promises
+asyncOperation()
+.then(function(data){
+    // Do some processing with `data`
+    return anotherAsync();
+})
+.then(function(data2){
+    // Some more processing with `data2`
+    return yetAnotherAsync();
+})
+.then(function(){
+    // Yay we're finished!
+});
+```
 
 ### jQuery-Specific Questions:
 
