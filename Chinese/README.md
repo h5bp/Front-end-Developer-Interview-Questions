@@ -62,7 +62,7 @@
 * 请说出三种减低页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）
 
 * 如果你接到了一个使用Tab来缩进代码的项目，但是你喜欢空格，你会怎么做？
-	* 建议这个项目使用像EditorConfig( http://editorconfig.org )之类的规范
+	* 建议这个项目使用像EditorConfig(http://editorconfig.org/)之类的规范
 	* 为了保持一致性，转换成项目原有的风格
 	* 直接使用VIM的retab命令
 
