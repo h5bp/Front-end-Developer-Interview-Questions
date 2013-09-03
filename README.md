@@ -119,6 +119,11 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+* How to check if a value has been declared, is `undefined` or `null`?
+* Explain the syntax error produced by: `function foo(){ }();` and how to avoid it.
+* What is the "smallest" number possible in JavaScript?
+  * `Number.MIN_VALUE`
+  * Technically smaller: `-Infinity` = `-1/0`
 
 ### JS-Code Examples:
 
@@ -203,6 +208,7 @@ $(".foo div#bar:eq(0)")
 * How would you implement a web design comp that uses non-standard fonts?
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
+* Explain how defining an element to have `border-box: box-sizing;` is different than not.
 
 ### Optional fun Questions:
 
