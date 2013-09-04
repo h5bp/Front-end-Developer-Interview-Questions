@@ -24,6 +24,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
 * [@iansym](http://twitter.com)
+* [@Andre](http://twitter.com/andrelion) - http://about.me/andrelion
 
 ### General Questions:
 
@@ -119,6 +120,7 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Describe the return result of `+new Date` and `""+new Date` respectively. And explain the differences.
 
 ### JS-Code Examples:
 
