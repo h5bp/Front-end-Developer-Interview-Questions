@@ -24,6 +24,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
 * [@iansym](http://twitter.com)
+* [Paulo Avila](http://about.me/paulo.avila) ([@demoive](http://twitter.com/demoive)) - http://demoive.github.io/
 
 ### General Questions:
 
@@ -76,7 +77,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * What's a hashtable?
-* What are `undefined` and `undeclared` variables?
+* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
+* What's the difference between a variable that is: `null`, `undefined`, `undeclared`?
+  * How would you go about checking if a variable has either of these values?
 * What is a closure, and how/why would you use one?
   * Your favorite pattern used to create them? argyle (Only applicable to IIFEs)
 * What's a typical use case for anonymous functions?
@@ -203,6 +206,7 @@ $(".foo div#bar:eq(0)")
 * How would you implement a web design comp that uses non-standard fonts?
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
+* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 
 ### Optional fun Questions:
 
