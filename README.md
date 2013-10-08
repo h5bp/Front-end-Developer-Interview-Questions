@@ -8,7 +8,18 @@ This repo contains a number of front-end interview questions that can be used wh
 
 **Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
-####Original Contributors
+## <a name='toc'>Table of Contents</a>
+
+  1. [Original Contributors](#contributors)
+  1. [General Questions](#general)
+  1. [HTML-Specific Questions](#html)
+  1. [JS-Specific Questions](#js)
+  1. [JS-Code Questions](#jscode)
+  1. [jQuery-Specific Questions](#jquery)
+  1. [CSS-Specific Questions](#css)
+  1. [Optional fun Questions](#optional)
+
+####<a name='contributors'>Original Contributors:</a>
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
@@ -25,7 +36,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
 * [@iansym](http://twitter.com)
 
-### General Questions:
+**[[⬆]](#toc)**
+
+####<a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
@@ -56,7 +69,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 
-### HTML-Specific Questions:
+**[[⬆]](#toc)**
+
+####<a name='html'>HTML-Specific Questions:</a>
 
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
@@ -68,7 +83,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
 
-### JS-Specific Questions
+**[[⬆]](#toc)**
+
+####<a name='js'>JS-Specific Questions:</a>
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -119,8 +136,15 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+* How to check if a value has been declared, is `undefined` or `null`?
+* Explain the syntax error produced by: `function foo(){ }();` and how to avoid it.
+* What is the "smallest" number possible in JavaScript?
+  * `Number.MIN_VALUE`
+  * Technically smaller: `-Infinity` = `-1/0`
 
-### JS-Code Examples:
+**[[⬆]](#toc)**
+
+####<a name='jscode'>JS-Code Questions:</a>
 
 ```javascript
 ~~3.14
@@ -162,7 +186,9 @@ foo.bar = 'hello';
 Question: What is the value of foo.length?
 **Answer: `undefined`
 
-### jQuery-Specific Questions:
+**[[⬆]](#toc)**
+
+####<a name='jquery'>jQuery-Specific Questions:</a>
 
 * Explain "chaining".
 * Explain "deferreds".
@@ -181,8 +207,9 @@ $(".foo div#bar:eq(0)")
 ```
 * Difference between 'delegate()' and 'live()'?
 
+**[[⬆]](#toc)**
 
-### CSS-Specific Questions:
+####<a name='css'>CSS-Specific Questions:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe Floats and how they work.
@@ -203,10 +230,15 @@ $(".foo div#bar:eq(0)")
 * How would you implement a web design comp that uses non-standard fonts?
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
+* Explain how defining an element to have `border-box: box-sizing;` is different than not.
 
-### Optional fun Questions:
+**[[⬆]](#toc)**
+
+####<a name='optional'>Optional fun Questions:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * What are your favorite parts about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
+
+**[[⬆]](#toc)**
