@@ -33,29 +33,29 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Mi a számodra legelőnyösebb fejlesztői környezet? (operációs rendszer, szerkesztő, böngésző, fejlesztői eszközök, stb.)
 * Részletezd hogyan készítesz el egy weboldalt.
 * Mi a különbség a fokozatos javítása és a között, hogy a weboldalt folyamatosan optimalizálod régebbi és egyszerűbb felületekre is?
-	* Bónusz pont a funkció működésének tesztelése adott eszközön.
+  * Bónusz pont a funkció működésének tesztelése adott eszközön.
 * Magyarázd el mit jelent a "szemantikus HTML".
 * Milyen böngészőt és milyen eszközöket használsz a fejlesztéshez?
 * Hogyan optimalizálod egy weboldal forrásait/eszközeit?
-	* Keress több megoldást, amik tartalmazzák az alábbiakat:
-		* Fájl egyesítés
-		* Fájl minimalizálás
-		* CDN hoszting
-		* Cachelés
-		* stb.
+  * Keress több megoldást, amik tartalmazzák az alábbiakat:
+    * Fájl egyesítés
+    * Fájl minimalizálás
+    * CDN hoszting
+    * Cachelés
+    * stb.
 * Miert jobb az eszközöket egyszerre több domainnek is kiszolgálni?
-	* Hány lekérdezés futhat a böngészőben egyidejűleg az adott domain irányába?
-* Nevezz meg 3 lehetőséget az oldalletöltés időtartámanak csökkentésére. (előtöltött vagy aktiális töltési idő)
+  * Hány lekérdezés futhat a böngészőben egyidejűleg az adott domain irányába?
+* Nevezz meg 3 lehetőséget az oldalletöltés időtartámanak csökkentésére. (előtöltött vagy aktuális töltési idő)
 * Ha beszállsz egy projektbe, és ők tabot használnak te pedig szókozt a kód rendezésénél, mit teszel?
-	* Tanácsolod, hogy használjatok valami technológiát, pl. [EditorConfig](http://editorconfig.org)
-	* Elfogadod (vagy tartózkodsz)
-	* `issue :retab! command`
+  * Tanácsolod, hogy használjatok valami technológiát, pl. [EditorConfig](http://editorconfig.org)
+  * Elfogadod (vagy tartózkodsz)
+  * `issue :retab! command`
 * Készíts egy egyszerű slideshow oldalt.
-	* Bónusz pont ha nem szükséges hozzá JavaScript.
+  * Bónusz pont ha nem szükséges hozzá JavaScript.
 * Milyen eszközökkel teszteled a kódod teljesítményét?
-	* [JSPerf](http://jsperf.com/)
-	* [Dromaeo](http://dromaeo.com/)
-	* stb.
+  * [JSPerf](http://jsperf.com/)
+  * [Dromaeo](http://dromaeo.com/)
+  * stb.
 * Ha idén elsajátíthatnál egy technológiát, mi lenne az?
 * Ismertesd a sztandardok fontosságát.
 * Mi a FOUC? Hogyan kerulöd el a FOUC-et?
@@ -65,9 +65,9 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Mi a `doctype` feladata és hány fajtáját tudod megnevezni?
 * Mi a különbség a `standard` és a `quirks` módok között?
 * Nevezd meg az XHTML oldalak korlátait?
-	* Van bármi akadálya annak, hogy egy oldalt `application/xhtml+xml`-ként szolgáljon ki?
+  * Van bármi akadálya annak, hogy egy oldalt `application/xhtml+xml`-ként szolgáljon ki?
 * Hogyan készítesz fel egy weboldalt többnyelvű tartalom megjelenítésére?
-	* Mikre kell figyelni egy többnyelvű oldal tervezése és fejlesztése során?
+  * Mikre kell figyelni egy többnyelvű oldal tervezése és fejlesztése során?
 * Használhatsz XHTML szintaxist HTML5-be?
 * Hogyan használsz XML-t HTML5-ben?
 * Mire valók a `data-` attribútumok?
@@ -87,11 +87,11 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Mi a "hashtable"?
 * Mit jelent az `undefined` és az `undeclared` változó?
 * Mi a lezárás, milyen formáit ismered és hogyan használod azokat?
-	* Kedvenc mintád? "argyle" (kizárólag IIFE-re alkalmazható)
+  * Kedvenc mintád? "argyle" (kizárólag IIFE-re alkalmazható)
 * Hogyan néz ki egy anoním funkció?
 * Magyarázd el a JavaScript modul sablont és, hogy mikor használjuk.
-	* Bónusz pont, ha említi a tiszta namespace-ket.
-	* Mi történik akkor, ha a modul namespace mentes?
+  * Bónusz pont, ha említi a tiszta namespace-ket.
+  * Mi történik akkor, ha a modul namespace mentes?
 * Miként rendszerezed a kódodat? (module pattern, classical inheritance)
 * Mi a különbség hoszt objektum és natív objektum között?
 * Mi a különbség az következő kódok között:
@@ -103,12 +103,12 @@ function Person(){} var person = Person() var person = new Person()
 * Mikor szoktad optimalizálni a kódodat?
 * Magyarázd el hogyan működik az öröklődés szabálya a JavaScript-ben?
 * Mikor használod a `document.write()` funkciót?
-	* A generált hírdetés még mindig használják annak ellenére, hogy nem ajánlatos.
+  * A generált hírdetés még mindig használják annak ellenére, hogy nem ajánlatos.
 * Mi a különbség a "feature" észlelés (detection), "feature" következtetés (inference) és az UA sztring használata között?
 * Magyarázd meg az AJAX működését a lehető legrészletesebben.
 * Magyarázd el, hogyan működik a JSONP (és miért nem AJAX valójában).
 * Használtál már JavaScript template rendszert?
-	* Ha igen mit? (Mustache.js, Handlebars, stb.)
+  * Ha igen mit? (Mustache.js, Handlebars, stb.)
 * Mit jelent a "hoisting"?
 * Mit jelent az `event bubbling`?
 * Mi a különbség az "attribute" és a "property" között?
@@ -177,7 +177,7 @@ Kérdés: Mi a `foo.length` értéke?
 * Mire használhatjuk az `.end()` funkciót?
 * Hogyan neveznél el egy kapcsolt esemény kezelőt (bound event handler) és miért?
 * Nevezz meg 4 különböző értéket, ami átadható egy jQuery folyamatnak.
-	* Szelektor (sztring), HTML (sztring), Callback (funkció), HTMLElement, objektum, tömb, elemb tömb, jQuery objektum, stb.
+  * Szelektor (sztring), HTML (sztring), Callback (funkció), HTMLElement, objektum, tömb, elemb tömb, jQuery objektum, stb.
 * Mit jelent az effektek (vagy fx) sorba állítas?
 * Mi a különbség `.get()`, `[]`, és `.eq()` között?
 * Mi a különbség `.bind()`, `.live()`, és `.delegate()` között?
@@ -197,7 +197,7 @@ $(".foo div#bar:eq(0)")
 * Mi a kedvenc képpel helyettesítő (image replacement) technikád és mit használsz mire?
 * CSS hackek, böngésző függő CSS fájlok, vagy.... valami más?
 * Hogyan jelenítesz meg oldalakat korlátozott böngészőkben?
-	* Milyen technológiákat/folyamatokat használsz?
+  * Milyen technológiákat/folyamatokat használsz?
 * Milyen módon tudsz tartalmakat vizuálisan elrejteni (és csak screen olvasók számára elérhetővé tenni)?
 * Használtál már rács rendszert (grid system)? Ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootstrap](http://twitter.github.io/bootstrap/))
 * Használtál már "media query"-ket vagy mobil specifikus layoutokat/CSS-eket?
@@ -205,9 +205,9 @@ $(".foo div#bar:eq(0)")
 * Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
 * Mik a legjobb "ötletek" a hatékony CSS kód írásához?
 * Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
-	* Ha igen mit szeretsz és mit nem szeretsz bennük?
+  * Ha igen mit szeretsz és mit nem szeretsz bennük?
 * Hogyan valósítasz meg egy olyan dizájn kompozíciót, ami nem a szabványos betűtípusokat tartalmazza?
-	* Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
+  * Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
 * Miként határozza meg a böngésző a megfelelő CSS szelektort?
 
 ### Választható és vicces kérdések:
@@ -219,12 +219,12 @@ $(".foo div#bar:eq(0)")
 * Van bármilyen állatos projekted? Ha igen milyen?
 * Ismertesd a "cornify" jelentőségét. [Cornify](http://www.cornify.com/)
 * Egy darab papirra írd le az A B C D E betűket függőlegesen. Most rendezzd át oket csökkenő sorrendbe egyetlen sor kóddal.
-	* Várj és figyelj, megfordítják-e a papírt, hogy fejjel lefelé legyen.
+  * Várj és figyelj, megfordítják-e a papírt, hogy fejjel lefelé legyen.
 * Kalóz vagy Ninja?
-	* Bónusz pont, ha mindkettő és jó indokot adott rá (+2 ha zombi majom kalóz ninják)
+  * Bónusz pont, ha mindkettő és jó indokot adott rá (+2 ha zombi majom kalóz ninják)
 * Ha nem fejlesztesz, mi mást szoktál csinálni?
 * Hol lehet vajon Carmen Sandiego?
-	* Megoldás: nincs rá helyes válasz
+  * Megoldás: nincs rá helyes válasz
 * Mit szeretsz a legjobban az Internet Explorerben?
 * Fejezd be a mondatot: Brendan Eich és Doug Crockford a JavaScript __________.
 * jQuery: egy jó library vagy a legjobb library? Vitassátok meg.
