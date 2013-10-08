@@ -4,7 +4,7 @@
 
 Ebben a gyűjteményben összeválogattuk a legjobb front-end fejlesztő interjú kérdéseket. Ellenben nem tanácsoljuk az összes kérdés egyidejű feltevését, hiszen ez órákat venne igénybe de egy válogatott kérdéssorral megkönnyíthetjük a potenciális jelentkezők szelektálását.
 
-[Rebecca Murphey](http://rmurphey.com/), [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) cikke is hasznos alapja lehet egy interjúnak. 
+[Rebecca Murphey](http://rmurphey.com/), [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) cikke is hasznos alapja lehet egy interjúnak.
 
 **Megjegyzés:** Ne feledd, hogy a kérdések többsége érdekes beszélgetésé alakulhat, ami többet elárulhat az emberről mintha csak egyszerű válaszokat adna.
 
@@ -139,8 +139,8 @@ Kérdés: Mi a kimente a fenti példának?
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Kérdés: Milyen értékkel tér vissza a fenti állítás? 
-**Válasz: "goh angasal a m'i"** 
+Kérdés: Milyen értékkel tér vissza a fenti állítás?
+**Válasz: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
@@ -151,15 +151,15 @@ Kérdés: Mi az értéke a `window.foo`-nak?
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Kérdés: Mi a fenti két alert-nek a kimenete? 
-**Válasz: "Hello World" és ReferenceError: bar is not defined** 
+Kérdés: Mi a fenti két alert-nek a kimenete?
+**Válasz: "Hello World" és ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Kérdés: Mi a `foo.length` értéke? 
+Kérdés: Mi a `foo.length` értéke?
 **Válasz: 2**
 
 ```javascript
@@ -201,7 +201,7 @@ $(".foo div#bar:eq(0)")
 * Milyen módon tudsz tartalmakat vizuálisan elrejteni (és csak screen olvasók számára elérhetővé tenni)?
 * Használtál már rács rendszert (grid system)? Ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootstrap](http://twitter.github.io/bootstrap/))
 * Használtál már "media query"-ket vagy mobil specifikus layoutokat/CSS-eket?
-* Jártas vay az SVG használatában?
+* Jártas vagy az SVG használatában?
 * Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
 * Mik a legjobb "ötletek" a hatékony CSS kód írásához?
 * Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
@@ -214,7 +214,7 @@ $(".foo div#bar:eq(0)")
 
 * Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbüszkébb?
 * Ismered a HTML5 banda jelét?
-* Vagy, vagy voltál már hajón? 
+* Vagy, vagy voltál már hajón?
 * Mi a kedvenced az általad használt fejlesztői eszközökben?
 * Van bármilyen állatos projekted? Ha igen milyen?
 * Ismertesd a "cornify" jelentőségét. [Cornify](http://www.cornify.com/)
