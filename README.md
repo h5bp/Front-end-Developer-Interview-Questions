@@ -31,8 +31,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@gf3](http://twitter.com/gf3) - http://gf3.ca
 * [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com/iansym)
+* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
 **[[⬆]](#toc)**
 
