@@ -32,7 +32,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com)
+* [@iansym](http://twitter.com/iansym)
 
 **[[⬆]](#toc)**
 
@@ -91,9 +91,11 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * What's a hashtable?
-* What are `undefined` and `undeclared` variables?
+* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
+  * What needs to be changed to properly make it an IIFE?
+* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
+  * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
-  * Your favorite pattern used to create them? argyle (Only applicable to IIFEs)
 * What's a typical use case for anonymous functions?
 * Explain the "JavaScript module pattern" and when you'd use it.
   * Bonus points for mentioning clean namespacing.
@@ -134,11 +136,6 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
-* How to check if a value has been declared, is `undefined` or `null`?
-* Explain the syntax error produced by: `function foo(){ }();` and how to avoid it.
-* What is the "smallest" number possible in JavaScript?
-  * `Number.MIN_VALUE`
-  * Technically smaller: `-Infinity` = `-1/0`
 
 **[[⬆]](#toc)**
 
@@ -228,7 +225,7 @@ $(".foo div#bar:eq(0)")
 * How would you implement a web design comp that uses non-standard fonts?
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
-* Explain how defining an element to have `border-box: box-sizing;` is different than not.
+* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 
 **[[⬆]](#toc)**
 
