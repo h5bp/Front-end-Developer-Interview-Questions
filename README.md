@@ -10,12 +10,12 @@ This repo contains a number of front-end interview questions that can be used wh
 
   1. [Original Contributors](#contributors)
   1. [General Questions](#general)
-  1. [HTML-Specific Questions](#html)
-  1. [JS-Specific Questions](#js)
-  1. [JS-Code Questions](#jscode)
-  1. [jQuery-Specific Questions](#jquery)
-  1. [CSS-Specific Questions](#css)
-  1. [Optional fun Questions](#optional)
+  1. [HTML Questions](#html)
+  1. [CSS Questions](#css)
+  1. [JS Questions](#js)
+  1. [jQuery Questions](#jquery)
+  1. [Coding Questions](#jscode)
+  1. [Fun Questions](#fun)
 
 ####<a name='contributors'>Original Contributors:</a>
 
@@ -68,7 +68,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 **[[⬆]](#toc)**
 
-####<a name='html'>HTML-Specific Questions:</a>
+####<a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
@@ -82,7 +82,32 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 **[[⬆]](#toc)**
 
-####<a name='js'>JS-Specific Questions:</a>
+####<a name='css'>CSS Questions:</a>
+
+* Describe what a "reset" CSS file does and how it's useful.
+* Describe Floats and how they work.
+* What are the various clearing techniques and which is appropriate for what context?
+* Explain CSS sprites, and how you would implement them on a page or site.
+* What are your favourite image replacement techniques and which do you use when?
+* CSS property hacks, conditionally included .css files, or... something else?
+* How do you serve your pages for feature-constrained browsers?
+  * What techniques/processes do you use?
+* What are the different ways to visually hide content (and make it available only for screen readers)?
+* Have you ever used a grid system, and if so, what do you prefer?
+* Have you used or implemented media queries or mobile specific layouts/CSS?
+* Any familiarity with styling SVG?
+* How do you optimize your webpages for print?
+* What are some of the "gotchas" for writing efficient CSS?
+* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
+  * If so, describe what you like and dislike about the CSS preprocessors you have used.
+* How would you implement a web design comp that uses non-standard fonts?
+  * Webfonts (font services like: Google Webfonts, Typekit etc.)
+* Explain how a browser determines what elements match a CSS selector?
+* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+
+**[[⬆]](#toc)**
+
+####<a name='js'>JS Questions:</a>
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -138,7 +163,28 @@ function Person(){} var person = Person() var person = new Person()
 
 **[[⬆]](#toc)**
 
-####<a name='jscode'>JS-Code Questions:</a>
+####<a name='jquery'>jQuery Questions:</a>
+
+* Explain "chaining".
+* Explain "deferreds".
+* What are some jQuery specific optimizations you can implement?
+* What does `.end()` do?
+* How, and why, would you namespace a bound event handler?
+* Name 4 different values you can pass to the jQuery method.
+  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
+* What is the effects (or fx) queue?
+* What is the difference between `.get()`, `[]`, and `.eq()`?
+* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
+* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
+* Optimize this selector:
+```javascript
+$(".foo div#bar:eq(0)")
+```
+* Difference between 'delegate()' and 'live()'?
+
+**[[⬆]](#toc)**
+
+####<a name='jscode'>Code Questions:</a>
 
 ```javascript
 ~~3.14
@@ -182,53 +228,7 @@ Question: What is the value of foo.length?
 
 **[[⬆]](#toc)**
 
-####<a name='jquery'>jQuery-Specific Questions:</a>
-
-* Explain "chaining".
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do?
-* How, and why, would you namespace a bound event handler?
-* Name 4 different values you can pass to the jQuery method.
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue?
-* What is the difference between `.get()`, `[]`, and `.eq()`?
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector:
-```javascript
-$(".foo div#bar:eq(0)")
-```
-* Difference between 'delegate()' and 'live()'?
-
-**[[⬆]](#toc)**
-
-####<a name='css'>CSS-Specific Questions:</a>
-
-* Describe what a "reset" CSS file does and how it's useful.
-* Describe Floats and how they work.
-* What are the various clearing techniques and which is appropriate for what context?
-* Explain CSS sprites, and how you would implement them on a page or site.
-* What are your favourite image replacement techniques and which do you use when?
-* CSS property hacks, conditionally included .css files, or... something else?
-* How do you serve your pages for feature-constrained browsers?
-  * What techniques/processes do you use?
-* What are the different ways to visually hide content (and make it available only for screen readers)?
-* Have you ever used a grid system, and if so, what do you prefer?
-* Have you used or implemented media queries or mobile specific layouts/CSS?
-* Any familiarity with styling SVG?
-* How do you optimize your webpages for print?
-* What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
-  * If so, describe what you like and dislike about the CSS preprocessors you have used.
-* How would you implement a web design comp that uses non-standard fonts?
-  * Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?
-* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-
-**[[⬆]](#toc)**
-
-####<a name='optional'>Optional fun Questions:</a>
+####<a name='fun'>Fun Questions:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * What are your favorite parts about the developer tools you use?
