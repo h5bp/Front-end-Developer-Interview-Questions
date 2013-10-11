@@ -1,7 +1,5 @@
 #Front-end Job Interview Questions
 
-@version 2.0.0
-
 This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
 [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
@@ -12,12 +10,12 @@ This repo contains a number of front-end interview questions that can be used wh
 
   1. [Original Contributors](#contributors)
   1. [General Questions](#general)
-  1. [HTML-Specific Questions](#html)
-  1. [JS-Specific Questions](#js)
-  1. [JS-Code Questions](#jscode)
-  1. [jQuery-Specific Questions](#jquery)
-  1. [CSS-Specific Questions](#css)
-  1. [Optional fun Questions](#optional)
+  1. [HTML Questions](#html)
+  1. [CSS Questions](#css)
+  1. [JS Questions](#js)
+  1. [jQuery Questions](#jquery)
+  1. [Coding Questions](#jscode)
+  1. [Fun Questions](#fun)
 
 ####<a name='contributors'>Original Contributors:</a>
 
@@ -33,8 +31,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@gf3](http://twitter.com/gf3) - http://gf3.ca
 * [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com)
+* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
 **[[⬆]](#toc)**
 
@@ -71,7 +68,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 **[[⬆]](#toc)**
 
-####<a name='html'>HTML-Specific Questions:</a>
+####<a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
@@ -85,7 +82,32 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 **[[⬆]](#toc)**
 
-####<a name='js'>JS-Specific Questions:</a>
+####<a name='css'>CSS Questions:</a>
+
+* Describe what a "reset" CSS file does and how it's useful.
+* Describe Floats and how they work.
+* What are the various clearing techniques and which is appropriate for what context?
+* Explain CSS sprites, and how you would implement them on a page or site.
+* What are your favourite image replacement techniques and which do you use when?
+* CSS property hacks, conditionally included .css files, or... something else?
+* How do you serve your pages for feature-constrained browsers?
+  * What techniques/processes do you use?
+* What are the different ways to visually hide content (and make it available only for screen readers)?
+* Have you ever used a grid system, and if so, what do you prefer?
+* Have you used or implemented media queries or mobile specific layouts/CSS?
+* Any familiarity with styling SVG?
+* How do you optimize your webpages for print?
+* What are some of the "gotchas" for writing efficient CSS?
+* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
+  * If so, describe what you like and dislike about the CSS preprocessors you have used.
+* How would you implement a web design comp that uses non-standard fonts?
+  * Webfonts (font services like: Google Webfonts, Typekit etc.)
+* Explain how a browser determines what elements match a CSS selector?
+* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+
+**[[⬆]](#toc)**
+
+####<a name='js'>JS Questions:</a>
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -93,9 +115,11 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * What's a hashtable?
-* What are `undefined` and `undeclared` variables?
+* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
+  * What needs to be changed to properly make it an IIFE?
+* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
+  * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
-  * Your favorite pattern used to create them? argyle (Only applicable to IIFEs)
 * What's a typical use case for anonymous functions?
 * Explain the "JavaScript module pattern" and when you'd use it.
   * Bonus points for mentioning clean namespacing.
@@ -136,15 +160,31 @@ function Person(){} var person = Person() var person = new Person()
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
-* How to check if a value has been declared, is `undefined` or `null`?
-* Explain the syntax error produced by: `function foo(){ }();` and how to avoid it.
-* What is the "smallest" number possible in JavaScript?
-  * `Number.MIN_VALUE`
-  * Technically smaller: `-Infinity` = `-1/0`
 
 **[[⬆]](#toc)**
 
-####<a name='jscode'>JS-Code Questions:</a>
+####<a name='jquery'>jQuery Questions:</a>
+
+* Explain "chaining".
+* Explain "deferreds".
+* What are some jQuery specific optimizations you can implement?
+* What does `.end()` do?
+* How, and why, would you namespace a bound event handler?
+* Name 4 different values you can pass to the jQuery method.
+  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
+* What is the effects (or fx) queue?
+* What is the difference between `.get()`, `[]`, and `.eq()`?
+* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
+* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
+* Optimize this selector:
+```javascript
+$(".foo div#bar:eq(0)")
+```
+* Difference between 'delegate()' and 'live()'?
+
+**[[⬆]](#toc)**
+
+####<a name='jscode'>Code Questions:</a>
 
 ```javascript
 ~~3.14
@@ -188,53 +228,7 @@ Question: What is the value of foo.length?
 
 **[[⬆]](#toc)**
 
-####<a name='jquery'>jQuery-Specific Questions:</a>
-
-* Explain "chaining".
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do?
-* How, and why, would you namespace a bound event handler?
-* Name 4 different values you can pass to the jQuery method.
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue?
-* What is the difference between `.get()`, `[]`, and `.eq()`?
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector:
-```javascript
-$(".foo div#bar:eq(0)")
-```
-* Difference between 'delegate()' and 'live()'?
-
-**[[⬆]](#toc)**
-
-####<a name='css'>CSS-Specific Questions:</a>
-
-* Describe what a "reset" CSS file does and how it's useful.
-* Describe Floats and how they work.
-* What are the various clearing techniques and which is appropriate for what context?
-* Explain CSS sprites, and how you would implement them on a page or site.
-* What are your favourite image replacement techniques and which do you use when?
-* CSS property hacks, conditionally included .css files, or... something else?
-* How do you serve your pages for feature-constrained browsers?
-  * What techniques/processes do you use?
-* What are the different ways to visually hide content (and make it available only for screen readers)?
-* Have you ever used a grid system, and if so, what do you prefer?
-* Have you used or implemented media queries or mobile specific layouts/CSS?
-* Any familiarity with styling SVG?
-* How do you optimize your webpages for print?
-* What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
-  * If so, describe what you like and dislike about the CSS preprocessors you have used.
-* How would you implement a web design comp that uses non-standard fonts?
-  * Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?
-* Explain how defining an element to have `border-box: box-sizing;` is different than not.
-
-**[[⬆]](#toc)**
-
-####<a name='optional'>Optional fun Questions:</a>
+####<a name='fun'>Fun Questions:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * What are your favorite parts about the developer tools you use?
