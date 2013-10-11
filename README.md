@@ -32,7 +32,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
-* [@demoive](http://twitter.com/demoive) - http://demoive.github.io/
 
 **[[⬆]](#toc)**
 
