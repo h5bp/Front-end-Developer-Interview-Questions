@@ -35,29 +35,29 @@ Söz konusu aşağıdaki sorular [Paul Irish](http://paulirish.com) ([@paul_iris
 
 ####<a name='general'>Genel Sorular:</a>
 
-* What did you learn yesterday/this week?
+* Dün -ya da bu hafta- neler öğrendin?
 * What excites or interests you about coding?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Can you describe your workflow when you create a web page?
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
+* Bize biraz geliştirme ortamından bahset. -İşletim Sistemi, Web Tarayıcı, Araçlar, Kod Editörü/IDE, vb.-
+* Web sayfasını oluştururken hangi adımları takip edersin ?
+* "Aşamalı geliştirme" ile "kabul edilebilir etkinlik düşüşü" arasında ne fark vardır?
+  * Bahsedilen doğru özellikler için artı puan 
+* "Semantic HTML" ne demektir, açıklayabilir misin?
+* Web sitesindeki dosyaları nasıl optimize edersin?
+  * Beklenilen çözüm alt başlıkları:
+    * Dosya birleştirme
+    * Dosya boyut küçültme
+    * CDN kullanımı
     * Caching
-    * etc.
-* Why is it better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
+    * vb.
+* Sitedeki JS/CSS gibi yan kaynakları birden fazla alanadı altında barındırmanın avantajları nelerdir ?
+  * Belli bir zamanda, tek bir alanadı üzerinden web tarayıcısı ne kadar kaynak indirebilir?
+* Sayfa yüklenme süresini azaltmak için hangi yollara başvurursun?
+* Yeni dahil olduğunuz bir projede, kodlama için `Space` boşluk kullanılıyor ama siz `Tab` ile boşluk bırakmayı tercih ediyorsunuz. Bu durumda ne yaparsınız?
+  * EditorConfig (http://editorconfig.org) vb. kod yazım standardını kolaylaştıran araçlar
   * Conform to the conventions (stay consistent)
   * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
+* Basit bir slayt/galeri sayfası oluşturun
+  * JS kodu kullanılmaması halinde artı puan.
 * What tools do you use to test your code's performance?
   * Profiler, JSPerf, Dromaeo
 * If you could master one technology this year, what would it be?
@@ -68,13 +68,13 @@ Söz konusu aşağıdaki sorular [Paul Irish](http://paulirish.com) ([@paul_iris
 
 ####<a name='html'>HTML Soruları:</a>
 
-* What's a `doctype` do?
-* What's the difference between standards mode and quirks mode?
-* What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
+* `doctype`ın işlevi nedir?
+*  "standart mod" ile "aptal mod" arasındaki fark nedir?
+* XHTML sayfalarının ne gibi sınırlamaları vardır?
+  * Sayfaların `application/xhtml+xml` olarak çalıştırılmasında herhangi bir sakınca var mıdır?
 * How do you serve a page with content in multiple languages?
   * What kind of things must you be wary of when design or developing for multilingual sites?
-* What are `data-` attributes good for?
+* `data-` özelliği ne faydalar sağlar?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
 
@@ -215,6 +215,7 @@ foo.push(1);
 foo.push(2);
 ```
 Soru: `foo.length`in değeri kaçtır? 
+
 **Cevap: `2`
 
 ```javascript
