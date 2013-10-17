@@ -199,14 +199,14 @@ Question: What value is returned from the above statement?
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo?
-**Answer: "bar"**
-only if window.foo was falsey otherwise it will retain its value.
+Soru: `window.foo`nun değeri nedir? 
+**Cevap: "bar"**
+`window.foo`nun değeri false olmadıkça kendi değerini döndürür.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above?
+Soru: Yukarıdaki iki uyarının -`alert`- çıktısı nedir? 
 **Answer: "Hello World" & ReferenceError: bar is not defined**
 
 ```javascript
@@ -214,15 +214,15 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Question: What is the value of foo.length?
-**Answer: `2`
+Soru: `foo.length`in değeri kaçtır? 
+**Cevap: `2`
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Question: What is the value of foo.length?
-**Answer: `undefined`
+Soru: `foo.length`in değeri kaçtır? 
+**Cevap: `undefined`
 
 **[[⬆]](#toc)**
 
