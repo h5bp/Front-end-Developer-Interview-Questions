@@ -2,7 +2,10 @@
 
 Tento repozitář obsahuje řadu otázek, které můžete směle položit u pohovoru kandidátovi na pozici front-end vývojář a ověřit si tak jeho znalosti v tomto oboru. Není zamýšleno položit všechny tyto otázky (jejich korektní zodpovězení by trvalo hodiny), leč pouze určitou část vyhovující vašim potřebám.   
 
-Za přečtení stojí také článek [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)(Anglicky) od [Rebecca Murphey](http://rmurphey.com/)
+Za přečtení stojí také:
+
+* [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)(Anglicky) od [Rebecca Murphey](http://rmurphey.com/)
+* [Interview Questions and Exercises About CSS](http://css-tricks.com/interview-questions-css/)(Anglicky) od [Chris Coyier](http://chriscoyier.net/)
 
 **Poznámka:** Mějte na paměti, že tyto otázky mají vést spíše k diskusi na dané téma a prozradit tak něco více o schopnostech daného vývojáře než aby byly zodpovězeny jedním slovem nebo větou.
 
