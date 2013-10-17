@@ -117,7 +117,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 * Co je hashovací tabulka?
 * Vysvětlete proč následující volání nebude fungovat jako IIFE: `function foo(){ }();`.
   * Co musíte změnit, aby volání zafungovalo jako IIFE?
-* Vysvětlete rozdíl mezi proměnou, která je `null`, `nedefinovaná` nebo `nedeclarovaná`?
+* Vysvětlete rozdíl mezi proměnou, která je `null`, `nedefinovaná` nebo `nedeklarovaná`?
   * Jakým způsobem ověříte jednotlivé stavy proměnné?
 * Co to je closure a jak/proč bychom je měli používat?  
 * Jaké je typické využití pro anonymní funkce?
@@ -217,14 +217,14 @@ foo.push(1);
 foo.push(2);
 ```
 Otázka: Jaká je hodnota foo.length?
-**Odpověď: `2`
+**Odpověď: `2`**
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
 Otázka: Jaká je hodnota foo.length?
-**Odpověď: `undefined`
+**Odpověď: `undefined`**
 
 **[[⬆]](#toc)**
 
