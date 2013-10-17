@@ -80,8 +80,8 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * Explique cómo funciona la herencia de prototipos (prototypal inheritance) en JavaScript.
 * ¿Cómo realiza pruebas en JavaScript?
 * AMD vs. CommonJS?
-* ¿Qué librerías de JavaScript ha usado?
-* ¿Alguna vez ha mirado el código fuente de librerías/frameworks que utiliza?
+* ¿Qué bibliotecas de JavaScript ha usado?
+* ¿Alguna vez ha mirado el código fuente de bibliotecas/frameworks que utiliza?
 * ¿Qué es un `hashtable`?
 * ¿Cuál es la diferencia entre variables `undefined` y variables `undeclared`? 
 * ¿Qué es un "closure" y cuando, o porqué, usaría uno?
@@ -106,7 +106,7 @@ function Person(){} var person = Person() var person = new Person()
 * Explique AJAX con tanto detalle como pueda.
 * Explique cómo funciona JSONP (y cómo no es AJAX realmente)
 * ¿Ha utilizado alguna vez templates en JavaScript?
-	* De ser asi, ¿qué librerías ha usado (Mustache.js, Handlebars, entre otros)?
+	* De ser asi, ¿qué bibliotecas ha usado (Mustache.js, Handlebars, entre otros)?
 * ¿Puede explicar en que consiste el "hoisting"?
 * ¿Puede hablar sobre "event bubbling"?
 * ¿Cuál es la diferencia entre un "atributo" y una "propiedad"?
@@ -227,5 +227,5 @@ $(".foo div#bar:eq(0)")
 	* Consejo: no hay respuesta correcta.
 * ¿Cúal es su funcionalidad favorita de Internet Explorer?
 * Complete esta oracion: Brendan Eich y Doug Crockford son los __________ del JavaScript.
-* jQuery: ¿Una buena librería o la mejor librería? Explique porqué.
+* jQuery: ¿Una buena biblioteca o la mejor biblioteca? Explique porqué.
 * http://www.w3schools.com/ o http://w3fools.com/
