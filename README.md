@@ -131,7 +131,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 function Person(){} var person = Person() var person = new Person()
 ```
 * What's the difference between `.call` and `.apply`?
-* What's the difference between `undefined` and `null`?
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
 * Can you explain how inheritance works in JavaScript?
