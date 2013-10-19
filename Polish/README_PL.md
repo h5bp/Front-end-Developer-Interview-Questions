@@ -207,3 +207,4 @@ $(".foo div#bar:eq(0)")
 * Jakie są Twoje ulubione części narzędzia programistyczne, których używasz?
 * Czy masz jakiś swój własny projekt na boku? Jaki? 
 * Jaka jest Twoja ulubiona funkcja w Internet Explorer?
+**Odpowiedź: Zamknij** 
