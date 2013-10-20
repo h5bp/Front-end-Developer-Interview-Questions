@@ -252,7 +252,7 @@ var person = new Person();
 
 * 请指出 `.get()`，`[]`，`eq()` 的区别。
 
-* 请指出 `.bing()`，`.live()` 和 `.delegate()` 的区别。
+* 请指出 `.bind()`，`.live()` 和 `.delegate()` 的区别。
 
 * 请指出 `$` 和 `$.fn` 的区别，或者说出 `$.fn` 的用途。
 
