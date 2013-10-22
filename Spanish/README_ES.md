@@ -8,7 +8,17 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 **Nota:** Tenga en mente que muchas de estas preguntas son abiertas y pueden llevar a interesantes discusiones que le pueden decir más sobre las capacidades de la persona que una simple respuesta.
 
-#### Contribuyentes originales
+## <a name='indice'>Índice</a>
+
+  1. [Contribuyentes originales](#contribuyentes)
+  1. [Preguntas generales](#general)
+  1. [Preguntas específicas de HTML](#html)
+  1. [Preguntas específicas de CSS](#css)
+  1. [Preguntas específicas de JavaScript](#js)
+  1. [Preguntas específicas de jQuery](#jquery)
+  1. [Preguntas opcionales y divertidas](#jscode)
+
+####<a name='contribuyentes'>Contribuyentes originales</a>
 
 La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://oksoclap.com/) creado originalmente por [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) y ampliado por los siguientes individuos:
 
@@ -25,7 +35,9 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
 * [@iansym](http://twitter.com)
 
-### Preguntas generales:
+**[[⬆]](#indice)**
+
+####<a name='general'>Preguntas generales:</a>
 
 * ¿Qué sistemas de control de versiones ha usado (Subversion, Git, etc.)?
 * ¿Cuál es su ambiente de desarrollo favorito (Sistema Operativo, Editor de Texto, Navegadores, Herramientas, etc.)?
@@ -58,7 +70,9 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * Explique la importancia de estándares y los grupos que los definen.
 * ¿Sabe que es el FOUC? ¿Cómo lo evita?
 
-### Preguntas específicas de HTML:
+**[[⬆]](#indice)**
+
+####<a name='html'>Preguntas específicas de HTML:</a>
 
 * ¿Qué función cumple el `doctype` y cuántos puede nombrar?
 * ¿Cuál es la diferencia entre el modo convencional y el "quirks mode"?
@@ -73,7 +87,33 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * Si consideramos HTML5 como una plataforma web abierta, ¿cuáles son las piezas del lego que constituyen HTML5?
 * Describa la diferencia entre cookies, sessionStorage y localStorage.
 
-### Preguntas específicas de JavaScript:
+**[[⬆]](#indice)**
+
+####<a name='css'>Preguntas específicas de CSS:</a>
+
+* Describa qué es un archivo "reset" y porqué es útil.
+* Describa qué son los "floats" y su funcionamiento.
+* ¿Cuáles son los métodos para "limpiar" (clear) sus "floats" y cuál es apropiado en el contexto dado?
+* Explique ¿qué son los sprites en CSS y cómo los implementarias en una página?
+* ¿Cuál es su técnica favorita para reemplazar imágenes y cuando usa cada una?
+* ¿"CSS Hacks", archivos incluidos con etiquetas condicionales o algún otro metodo...?
+* ¿Cuál es su enfoque al desarrollar páginas que dan soporte a navegadores con capacidades limitadas?
+	* ¿Qué técnicas o procesos usa?
+* ¿Cuáles son las distintas formas para esconder contenido, pero mantenerlo disponible únicamente para lectores de pantalla?
+* ¿Ha usado algún sistema para cuadrículas (grids) y cuál prefiere?
+* ¿Ha usado o implementado "media queries" o reglas específicas para dispositivos móviles?
+* ¿Está familiarizado con aplicar estilos a SVGs?
+* ¿Cómo optimiza sus páginas para la impresión?
+* ¿Cuáles son algunas de las "trampas" al escribir CSS eficiente?
+* ¿Ha usado algún preprocesador para CSS (SASS, Compass, Stylus, LESS)? 
+	* De ser así, ¿puede mencionar qué le gusta y qué no de los que ha usado?
+* ¿Cómo implementaría un diseño que usa fuentes que no son web-safe?
+	* Webfonts (usando servicios para fuentes como Goodle Webfonts, Typekit, entre otros).
+* ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
+
+**[[⬆]](#indice)**
+
+####<a name='js'>Preguntas específicas de JavaScript:</a>
 
 * Explique "event delegation".
 * Explique cómo funciona `this` en JavaScript.
@@ -168,8 +208,9 @@ foo.bar = 'hello';
 Pregunta: ¿Cuál es el valor de foo.length? 
 **Respuesta: `undefined`
 
+**[[⬆]](#indice)**
 
-### Preguntas específicas de jQuery:
+####<a name='jquery'>Preguntas específicas de jQuery:</a>
 
 * Explique el "encadenamiento" (chaining).
 * Explique las "diferidas" (deferreds).
@@ -188,29 +229,9 @@ $(".foo div#bar:eq(0)")
 ```
 * ¿Cuál es la diferencia entre 'delegate()' y 'live()'? 
 
-## Preguntas específicas de CSS:
+**[[⬆]](#indice)**
 
-* Describa qué es un archivo "reset" y porqué es útil.
-* Describa qué son los "floats" y su funcionamiento.
-* ¿Cuáles son los métodos para "limpiar" (clear) sus "floats" y cuál es apropiado en el contexto dado?
-* Explique ¿qué son los sprites en CSS y cómo los implementarias en una página?
-* ¿Cuál es su técnica favorita para reemplazar imágenes y cuando usa cada una?
-* ¿"CSS Hacks", archivos incluidos con etiquetas condicionales o algún otro metodo...?
-* ¿Cuál es su enfoque al desarrollar páginas que dan soporte a navegadores con capacidades limitadas?
-	* ¿Qué técnicas o procesos usa?
-* ¿Cuáles son las distintas formas para esconder contenido, pero mantenerlo disponible únicamente para lectores de pantalla?
-* ¿Ha usado algún sistema para cuadrículas (grids) y cuál prefiere?
-* ¿Ha usado o implementado "media queries" o reglas específicas para dispositivos móviles?
-* ¿Está familiarizado con aplicar estilos a SVGs?
-* ¿Cómo optimiza sus páginas para la impresión?
-* ¿Cuáles son algunas de las "trampas" al escribir CSS eficiente?
-* ¿Ha usado algún preprocesador para CSS (SASS, Compass, Stylus, LESS)? 
-	* De ser así, ¿puede mencionar qué le gusta y qué no de los que ha usado?
-* ¿Cómo implementaría un diseño que usa fuentes que no son web-safe?
-	* Webfonts (usando servicios para fuentes como Goodle Webfonts, Typekit, entre otros).
-* ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
-
-## Preguntas opcionales y divertidas:
+####<a name='jscode'>Preguntas opcionales y divertidas:</a>
 
 * ¿Qué es lo más cool que ha programado y qué es lo que más le enorgullece de ello?
 * ¿Sabe cuál es la "gang sign" de HTML5?
@@ -229,3 +250,5 @@ $(".foo div#bar:eq(0)")
 * Complete esta oracion: Brendan Eich y Doug Crockford son los __________ del JavaScript.
 * jQuery: ¿Una buena biblioteca o la mejor biblioteca? Explique porqué.
 * http://www.w3schools.com/ o http://w3fools.com/
+
+**[[⬆]](#indice)**
