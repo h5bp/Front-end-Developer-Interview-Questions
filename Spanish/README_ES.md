@@ -16,7 +16,8 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
   1. [Preguntas específicas de CSS](#css)
   1. [Preguntas específicas de JavaScript](#js)
   1. [Preguntas específicas de jQuery](#jquery)
-  1. [Preguntas opcionales y divertidas](#jscode)
+  1. [Preguntas de código](#codigojs)
+  1. [Preguntas divertidas](#divertidas)
 
 ####<a name='contribuyentes'>Contribuyentes originales</a>
 
@@ -166,7 +167,30 @@ function Person(){} var person = Person() var person = new Person()
 * ¿Qué es el `arity` de una función?
 * ¿Qué es `"use strict";`? ¿Cuáles son las ventajas y desventajas de usarlo?
 
-### Ejemplos de código de JavaScript:
+**[[⬆]](#indice)**
+
+####<a name='jquery'>Preguntas específicas de jQuery:</a>
+
+* Explique el "encadenamiento" (chaining).
+* Explique las "diferidas" (deferreds).
+* ¿Cuáles son algunas optimizaciones que se pueden implementar usando jQuery?
+* ¿Qué función cumple el método `.end()`? 
+* ¿Cómo y por qué, aplicaría "namespacing" a un "event handler"?
+* Nombre cuatro diferentes valores que se pueden pasar como parámetro al metodo jQuery.
+	* Un selector (string), HTML (string), Callback (function), HTMLElement, objeto, matriz, matriz de elementos, objeto jQuery, entre otros.
+* ¿Qué es la "cola de efectos" (fx queue)?
+* ¿Cuál es la diferencia entre `.get()`, `[]` y `.eq()`? 
+* ¿Cuál es la diferencia entre `.bind()`, `.live()` y `.delegate()`? 
+* ¿Cuál es la diferencia entre `$` y `$.fn`? O simplemente, ¿qué es `$.fn`?
+* Optimize este selector:
+```javascript
+$(".foo div#bar:eq(0)")
+```
+* ¿Cuál es la diferencia entre 'delegate()' y 'live()'? 
+
+**[[⬆]](#indice)**
+
+####<a name='codigojs'>Preguntas de código:</a>
 
 ```javascript
 ~~3.14
@@ -210,28 +234,7 @@ Pregunta: ¿Cuál es el valor de foo.length?
 
 **[[⬆]](#indice)**
 
-####<a name='jquery'>Preguntas específicas de jQuery:</a>
-
-* Explique el "encadenamiento" (chaining).
-* Explique las "diferidas" (deferreds).
-* ¿Cuáles son algunas optimizaciones que se pueden implementar usando jQuery?
-* ¿Qué función cumple el método `.end()`? 
-* ¿Cómo y por qué, aplicaría "namespacing" a un "event handler"?
-* Nombre cuatro diferentes valores que se pueden pasar como parámetro al metodo jQuery.
-	* Un selector (string), HTML (string), Callback (function), HTMLElement, objeto, matriz, matriz de elementos, objeto jQuery, entre otros.
-* ¿Qué es la "cola de efectos" (fx queue)?
-* ¿Cuál es la diferencia entre `.get()`, `[]` y `.eq()`? 
-* ¿Cuál es la diferencia entre `.bind()`, `.live()` y `.delegate()`? 
-* ¿Cuál es la diferencia entre `$` y `$.fn`? O simplemente, ¿qué es `$.fn`?
-* Optimize este selector:
-```javascript
-$(".foo div#bar:eq(0)")
-```
-* ¿Cuál es la diferencia entre 'delegate()' y 'live()'? 
-
-**[[⬆]](#indice)**
-
-####<a name='jscode'>Preguntas opcionales y divertidas:</a>
+####<a name='divertidas'>Preguntas divertidas:</a>
 
 * ¿Qué es lo más cool que ha programado y qué es lo que más le enorgullece de ello?
 * ¿Sabe cuál es la "gang sign" de HTML5?
@@ -239,7 +242,7 @@ $(".foo div#bar:eq(0)")
 * ¿Cuáles son sus partes favoritas de las herramientas de desarrollo que usa?
 * ¿Tiene algún proyecto personal? ¿De qué tipo?
 * Explique el significado de "cursificar" (cornify).
-* Tome un papel y escriba las letras A B C D E verticalmente, ahora póngalas en order descendiente sin escribir una sola línea de código.
+* Tome un papel y escriba las letras A B C D E verticalmente, ahora póngalas en órden descendiente sin escribir una sola línea de código.
 	* Espere a ver si giran el papel.
 * ¿Pirata o Ninja?
 	* Puntos extra si es una combinación y dio una buena razón, dos puntos extra por monos zombies piratas ninjas.
