@@ -1,10 +1,10 @@
-#Front-end Job Interview Questions
+#Questionaire de recrutement pour développeur front-end
 
-Ce dépôt contient un certain nombre de questions pour entretien avec des développeurs front-end qui peuvent être utilisée sur des candidats potentiels. Il n'est en aucun cas recommandé de poser toutes ces questions à un unique candidat (ça prendrait des heures). En choisir quelques-unes de cette liste devrait vous aider à vérifier les compétences dont vous avez besoin.
+Ce dépôt contient un certain nombre de questions pour entretien d'embauche sur le développement front-end qui peuvent être utilisée sur des candidats potentiels. Il n'est en aucun cas recommandé de poser toutes ces questions à un unique candidat (ça prendrait des heures). En choisir quelques-unes de cette liste devrait vous aider à vérifier les compétences dont vous avez besoin.
 
-L'article [Bases pour les développeurs front-end](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)[en] de [Rebecca Murphey](http://rmurphey.com/) est aussi une bonne ressource à lire avant de lancer dans un entretien.
+L'article [Bases pour les développeurs front-end](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) (en) de [Rebecca Murphey](http://rmurphey.com/) est aussi une bonne ressource à lire avant de se lancer dans un entretien.
 
-**Note:** Gardez en tête que la plupart de ces questions sont ouvertes et qu'elles peuvent mener à des discussions intéressantes qui vous en apprendront plus sur les capacités de la personne, qu'une question directe le ferait.
+**Note:** Gardez en tête que la plupart de ces questions sont ouvertes et qu'elles peuvent mener à des discussions intéressantes, qui vous en apprendront plus sur les capacités de la personne qu'une question directe le ferait.
 
 ## <a name='toc'>Table des matières</a>
 
@@ -216,14 +216,14 @@ foo.push(1);
 foo.push(2);
 ```
 Question: Quelle est la valeur de foo.length ?
-**Réponse: `2`
+**Réponse: `2`**
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
 Question: Quelle est la valeur de foo.length ?
-**Réponse: `undefined`
+**Réponse: `undefined`**
 
 **[[⬆]](#toc)**
 
