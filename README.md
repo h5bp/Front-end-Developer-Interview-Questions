@@ -188,26 +188,29 @@ $(".foo div#bar:eq(0)")
 ```javascript
 ~~3.14
 ```
-Question: What value is returned from the above statement?
+*Question: What value is returned from the above statement?*
+
 **Answer: 3**
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Question: What value is returned from the above statement?
+*Question: What value is returned from the above statement?*
+
 **Answer: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo?
-**Answer: "bar"**
-only if window.foo was falsey otherwise it will retain its value.
+*Question: What is the value of window.foo?*
+
+**Answer: "bar"** *(only if window.foo was falsey otherwise it will retain its value)*
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above?
+*Question: What is the outcome of the two alerts above?*
+
 **Answer: "Hello World" & ReferenceError: bar is not defined**
 
 ```javascript
@@ -215,15 +218,17 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Question: What is the value of foo.length?
-**Answer: `2`
+*Question: What is the value of `foo.length`?*
+
+**Answer: `2`**
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Question: What is the value of foo.length?
-**Answer: `undefined`
+*Question: What is the value of `foo.length`?*
+
+**Answer: `undefined`**
 
 **[[⬆]](#toc)**
 
