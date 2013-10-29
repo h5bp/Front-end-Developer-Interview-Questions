@@ -202,9 +202,9 @@ $(".foo div#bar:eq(0)")
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-*Question: What is the value of window.foo?*
+*Question: What is the value of `window.foo`?*
 
-**Answer: "bar"** *(only if window.foo was falsey otherwise it will retain its value)*
+**Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
