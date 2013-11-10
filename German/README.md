@@ -54,7 +54,7 @@ Ein Großteil der Fragen wurden aus einer Diskussion bei [oksoclap](http://oksoc
 	* JSPerf (http://jsperf.com/)
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
-* Wenn du eine Technologie in diesem Jahr erlernen könntest, welche wäre das?
+* Wenn du eine Technologie in diesem Jahr meistern könntest, welche wäre das?
 * Erkläre die Bedeutung von Standards und Standardisierungsorganisationen?
 * Was ist FOUC? Wie vermeidest du FOUC?
 
@@ -117,7 +117,7 @@ function Person(){} var person = Person() var person = new Person()
 * Erkläre, wie du einen Query-String-Parameter aus der URL des Browserfensters abfragst.
 * Erkläre die same-origin policy und in welcher Form sie JavaScript betrifft.
 * Erkläre Vererbungsmuster in JavaScript.
-* Bringt dies zum Laufen:
+* Bringe dies zum Laufen:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
@@ -214,7 +214,7 @@ $(".foo div#bar:eq(0)")
 * Was ist das großartigste, was du je entwickelt hast, und worauf bist du am meisten stolz?
 * Kennst du das Zeichen der HTML5-Gang?
 * Bist du gerade oder warst du jemals auf einem Boot?
-* Was sind die besten Eigenschaften der Entwicklerwerkzeugen, die du benutzt?
+* Was sind die besten Eigenschaften der Entwicklerwerkzeuge, die du benutzt?
 * Hast du irgendwelche Freizeitprojekte? Welcher Art?
 * Erkläre die Bedeutung von »cornify«.
 * Schreibe auf einen Zettel die Buchstaben A B C D E von oben nach unten. Jetzt sortiere diese in umgekehrter Abfolge, ohne eine Zeile Code zu schreiben.
