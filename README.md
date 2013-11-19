@@ -16,6 +16,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
   1. [Fun Questions](#fun)
+  1. [Other Great References](#references)
 
 ####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
@@ -226,3 +227,8 @@ foo.bar = 'hello';
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 
+####[[⬆]](#toc) <a name='references'>Other Great References:</a>
+
+* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
+* http://css-tricks.com/interview-questions-css/
