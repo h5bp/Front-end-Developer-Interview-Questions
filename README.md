@@ -37,6 +37,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
+* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 * Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
 * Can you describe your workflow when you create a web page?
 * Can you describe the difference between progressive enhancement and graceful degradation?
