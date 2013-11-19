@@ -16,8 +16,9 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
   1. [Fun Questions](#fun)
+  1. [Other Great References](#references)
 
-####<a name='contributors'>Original Contributors:</a>
+####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
@@ -33,12 +34,11 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-**[[⬆]](#toc)**
-
-####<a name='general'>General Questions:</a>
+####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
+* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 * Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
 * Can you describe your workflow when you create a web page?
 * Can you describe the difference between progressive enhancement and graceful degradation?
@@ -66,9 +66,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 
-**[[⬆]](#toc)**
-
-####<a name='html'>HTML Questions:</a>
+####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
@@ -80,9 +78,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
 
-**[[⬆]](#toc)**
-
-####<a name='css'>CSS Questions:</a>
+####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe Floats and how they work.
@@ -105,9 +101,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 
-**[[⬆]](#toc)**
-
-####<a name='js'>JS Questions:</a>
+####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -160,9 +154,7 @@ function Person(){} var person = Person() var person = new Person()
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
-**[[⬆]](#toc)**
-
-####<a name='jquery'>jQuery Questions:</a>
+####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
 
 * Explain "chaining".
 * Explain "deferreds".
@@ -181,9 +173,7 @@ $(".foo div#bar:eq(0)")
 ```
 * Difference between 'delegate()' and 'live()'?
 
-**[[⬆]](#toc)**
-
-####<a name='jscode'>Code Questions:</a>
+####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
 ```javascript
 ~~3.14
@@ -230,13 +220,15 @@ foo.bar = 'hello';
 
 **Answer: `undefined`**
 
-**[[⬆]](#toc)**
-
-####<a name='fun'>Fun Questions:</a>
+####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * What are your favorite parts about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 
-**[[⬆]](#toc)**
+####[[⬆]](#toc) <a name='references'>Other Great References:</a>
+
+* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
+* http://css-tricks.com/interview-questions-css/
