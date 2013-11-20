@@ -193,7 +193,7 @@ $(".foo div#bar:eq(0)")
 * Beschreibe Floats und wie sie funktionieren.
 * Was sind die verschiedenen Clear-Methoden und welche ist geeignet für welchen Kontext?
 * Erkläre CSS-Sprites und wie du sie auf einer Seite oder Website implementieren würdest.
-* Was sind deine bevorzugten Imace-Replacement-Techniken und wann benutzt du welche davon?
+* Was sind deine bevorzugten Image-Replacement-Techniken und wann benutzt du welche davon?
 * CSS-Hacks, per conditional eingebundene .css-Ressourcen oder… was sonst?
 * Wie lieferst du Seiten für funktional beschränkte Browser aus?
 	* Welche Techniken/Prozesse verwendest du dafür?
