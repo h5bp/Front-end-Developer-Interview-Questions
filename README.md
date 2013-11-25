@@ -171,7 +171,6 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Difference between 'delegate()' and 'live()'?
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
