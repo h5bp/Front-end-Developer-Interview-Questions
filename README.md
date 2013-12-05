@@ -12,6 +12,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [General Questions](#general)
   1. [HTML Questions](#html)
   1. [CSS Questions](#css)
+  1. [Sass Questions](#scss)
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
@@ -100,6 +101,24 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+
+####[[⬆]](#toc) <a name='scss'>Sass Questions:</a>
+
+* Explain how to declare a variable in Sass, and the benefits of using variables in your stylesheets.
+* Explain the parent selector **(&)** and what it is used for.
+* Explain the benefits of **nesting** selectors in Sass. How can nesting be abused, and What best practices can be applied when using nesting in Sass?
+* What is a **partial**? Explain declaration and importing partials and why they are useful.
+* Explain **selector inheritance**.
+* What is the difference between the `@extends`, and `@mixin` directives? When would you use one over the other?
+* List the **six** main data types in Sass
+* How can you use **interpolation** in selectors and property names?
+* What is the difference between the two different `@for` directive syntaxes?
+* Write a `@for` loop that counts backwards from 10 to 0
+* How could you write repeating styles for a list of values by using the `@each` directive?
+* Simulate an associate array in Sass using lists
+* Use the `@if` directive to output conditional styles
+* What are some of your favorite mixin libraries to use with Sass? *(Bourbon, Compass, Breakpoint, Susy, Jacket, Typeplate)*
+
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
