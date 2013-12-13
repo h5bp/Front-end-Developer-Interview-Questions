@@ -1,7 +1,5 @@
 #前端工作面试问题
 
-@版本 1.0 
-
 **备注:** 本 repo 包含了一些前端面试问题用于考查候选者。不建议对单个候选者问及每个问题（那需要好几个小时）。只要从列表里挑选一些，就能帮助你考查候选者是否具备所需要的技能了。
 
 [Rebecca Murphey](http://rmurphey.com/) 的 [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) 是你在准备面试前应该阅读的绝佳资源。
@@ -16,12 +14,13 @@
   1. [CSS 相关问题](#css)
   1. [JS 相关问题](#js)
   1. [jQuery 相关问题](#jquery)
-  1. [需编写代码的问题](#jscode)
+  1. [代码相关的问题](#jscode)
   1. [有趣的问题](#fun)
+  1. [其他参考资料](#references)
 
 ####<a name='contributors'>最初的贡献者：</a>
 
-**备注:** 大部分面试题来自于 [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) 在 [oksoclap](http://oksoclap.com/) 创建的某个帖子和以下个人提供：
+**备注:** 这里大部分的面试题都摘抄自 [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) 在 [oksoclap](http://oksoclap.com/) 创建的帖子，这份原帖的贡献者还有：
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
 * [@cowboy](http://twitter.com/cowboy) - http://benalman.com
@@ -41,6 +40,8 @@
 * 你在昨天/本周学到了什么？
 
 * 编写代码的哪些方面能够使你兴奋或感兴趣？
+
+* 在制作一个Web应用或Web站点的过程中，你是如何考虑他的UI、安全性、高性能、SEO、可维护性以及技术因素的？
 
 * 谈谈你喜欢的开发环境。(例如操作系统，编辑器，浏览器，工具等等。)
 
@@ -83,7 +84,7 @@
 
 ####<a name='html'>HTML相关问题：</a>
 
-* `doctype`（文档类型）的作用是什么？你知道多少种文档类型？
+* `doctype`（文档类型）的作用是什么？
 
 * 浏览器标准模式和怪异模式之间的区别是什么？
 
@@ -101,7 +102,7 @@
 
 ####<a name='css'>CSS 相关问题：</a>
 
-* 描述下 “reset” CSS 文件的作用和使用它的好处。
+* 描述下 “reset” CSS 文件的作用和使用他的好处。
 
 * 解释下浮动和它的工作原理。
 
@@ -116,7 +117,7 @@
 * 如何为有功能限制的浏览器提供网页？
   * 你会使用哪些技术和处理方法？
   
-* 如何视觉隐藏网页内容，只让它们在屏幕阅读器中可用？
+* 有哪些的隐藏内容的方法（如果同时还要保证屏幕阅读器可用呢？）
 
 * 你用过栅格系统吗？如果使用过，你最喜欢哪种？
 
@@ -147,6 +148,8 @@
 
 * 解释下原型继承的原理。
 
+* 你是如何测试JavaScript代码的？
+
 * AMD vs. CommonJS？
 
 * 什么是哈希表？
@@ -171,16 +174,12 @@
 
 * 指出下列代码的区别：
 ```javascript
-function Person(){
-	some code
-} 
+function Person(){} 
 var person = Person(); 
 var person = new Person();
 ```
 
 * `.call` 和 `.apply` 的区别是什么？
-
-* `undefined` 和 `null` 的区别是什么？
 
 * 请解释 `Function.prototype.bind` 的作用？
 
@@ -261,10 +260,7 @@ var person = new Person();
 $(".foo div#bar:eq(0)")
 ```
 
-* 'delegate()' 和 'live()'有什么区别? 
-
-
-####<a name='jscode'>JS代码示例：</a>
+####<a name='jscode'>代码相关的问题：</a>
 
 ```javascript
 ~~3.14
@@ -312,8 +308,7 @@ foo.bar = 'hello';
 问题：foo.length 的值是什么？
 **答案: `undefined`**
 
-
-####<a name='fun'>可选的有趣问题：</a>
+####<a name='fun'>有趣的问题：</a>
 
 * 你编写过的最酷的代码是什么？其中你最自豪的是什么？
 
@@ -323,25 +318,8 @@ foo.bar = 'hello';
 
 * 你最爱的 IE 特性是什么？
 
-* 你是否正在或曾经在一艘船上。(不懂这个幽默）
-> 这句话是直译。在英语里 `ship` 有一个很重要的意思是 `交付`，所以这句话可以理解为：你是否正在或曾经交付过产品？（也就是正在一个产品项目的开发过程中，或是已经交付过开发完成的产品或项目
+####<a name='references'>其他参考资料:</a>
 
-* 解释cornify的重要性？(本题完全摸不到头脑）
-> 独角兽是西方文化中非常普遍的一种吉祥物图腾，类似于中国的龙凤麒麟一类。在西方，开发者常使用独角兽 + 彩虹的设计风格来生成一些装饰用的图像/动画，这些东西可以用来对网站进行一种美化。然而是否真的算美化那就见仁见智了，可以仅仅看做是一种人文文化在开发者世界里的影射。
-
-* 在一张纸上，垂直写下ABCDE，然后不用任何代码，将他们到序排列。
-	* 静静的看他们是否将纸反转。
-
-* 海盗还是忍者？
-	* 如果是两者的合体，并有恰当理由，可以加分。如果是僵尸猴子海盗加忍者加两分。(注，此题文化差异过大）
-
-> 海盗与忍者之争是互联网文化“动漫化”的标志性话题。首先，它们都很酷，都深受 Geeks 的喜爱，然而他们却各自代表了一种不同的风格。海盗是西式的，崇尚“工具化”，刀剑和枪炮是他们称霸的依仗；忍者则是东方文化的典型，更注重精神和内在的修行，摒弃“外物依赖”。对于开发者而言，二者的结合当然是最完美的。至于僵尸猴子，大概是说不拘泥于“外物”和“内在”之争，更加开放，更加包容的意思。
-
-* 如果没有在Web开发，你会做什么？
-
-* 卡门圣迭哥的隐藏处在哪里？
-	* 提示：本题的答案永远是错的。
-
-* 完句填空： Brendan Eich和Douglas Crockford是JavaScript的________。
-
-* 讨论：jQuery是牛逼的库还是最牛逼的库。
+* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
+* http://css-tricks.com/interview-questions-css/
