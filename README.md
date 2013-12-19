@@ -171,12 +171,12 @@ $(".foo div#bar:eq(0)")
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
-```javascript
-~~3.14
-```
-*Question: What value is returned from the above statement?*
 
-**Answer: 3**
+```javascript
+modulo(12, 5) // 2
+```
+*Question: Implement a modulo function that satisfies the above*
+
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
@@ -207,14 +207,6 @@ foo.push(2);
 *Question: What is the value of `foo.length`?*
 
 **Answer: `2`**
-
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
-*Question: What is the value of `foo.length`?*
-
-**Answer: `undefined`**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
