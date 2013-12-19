@@ -120,10 +120,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * What if your modules are namespace-less?
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
-* Difference between:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
