@@ -1,14 +1,24 @@
 #Front-end Anställningsfrågor
 
-@version 2.0.0
-
 Detta arkiv innehåller ett urval av frågor som kan ställas till den arbetssökande. Det är verkligen inte rekommenderat att ställa alla frågor här till samma person (det skulle ta timmar). Att välja ut ett par stycken från listan bör hjälpa dig besluta huruvida den arbetssökande uppfyller dina krav.
 
 [Rebecca Murphey](http://rmurphey.com/)s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) är också en bra resurs att läsa in dig på innan du ger dig in i en intervju.
 
 **Att tänka på:** Kom ihåg att många av de här frågorna är öppna och kan leda till intressanta diskussioner som berättar mer om personens kunskaper än vad en sluten fråga skulle.
 
-####Ursprungliga skribenter
+## <a name='toc'>Innehållsförteckning</a>
+
+  1. [Ursprungliga skribenter](#contributors)
+  1. [Allmänna frågor](#general)
+  1. [HTML-frågor](#html)
+  1. [CSS-frågor](#css)
+  1. [JS-frågor](#js)
+  1. [jQuery-frågor](#jquery)
+  1. [Kodfrågor](#jscode)
+  1. [Roliga frågor](#fun)
+  1. [Andra bra resurser](#references)
+
+####[[⬆]](#toc) <a name='contributors'>Ursprungliga skribenter:</a>
 
 Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksoclap.com/)-tråd som skapades av [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) och bidrag till dessa gjordes av följande personer:
 
@@ -24,7 +34,8 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-###Allmänna frågor:
+####[[⬆]](#toc) <a name='general'>Allmänna frågor:</a>
+
 * Vad lärde du dig i går/den här veckan?
 * Vad tycker du är spännande eller intressant med kodning?
 * Vilka övervägningar gör du angående gränssnitt, säkerhet, prestanda, SEO, underhållsmässighet och tekniker när du bygger en webbapplikation eller -plats?
@@ -55,7 +66,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Beskriv varför det är viktigt med standarder och standardiseringsorganisationer.
 * Vad är FOUC? Hur undviker du FOUC?  
 
-###HTML-frågor:
+####[[⬆]](#toc) <a name='html'>HTML-frågor:</a>
 
 * Vad gör en dokumenttyp?
 * Vad är skillnaden mellan standard-läge och quirks-läge?
@@ -67,7 +78,30 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Tänk dig HTML5 som en öppen webb-plattform. Vad är byggstenarna i HTML5?
 * Beskriv skillnaden mellan cookies, sessionStorage och localStorage.
 
-###JS-frågor:
+####[[⬆]](#toc) <a name='css'>CSS-frågor:</a>
+
+* Förklara vad en återställnings(reset)-CSS-fil gör och varför den är användbar.
+* Beskriv Floats och hur de fungerar.
+* Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
+* Förklara CSS-sprites och hur du skulle implementera dem på en sida.
+* Vilka är dina favorittekniker för bildersättning och vilka använder du i vilka situationer?
+* CSS "property hacks", villkorligt inkluderade .css-filer eller något annat?
+* Hur skickar du sidor till funktionsbegränsade webbläsare?
+  * Vilka tekniker/processer använder du?
+* Vilka olika sätt finns det att visuellt dölja element (och bara göra dem tillgängliga för skärmläsare)?
+* Har du någonsin använt ett rutnätsystem, och i sådana fall, vilket föredrar du?
+* Har du använt eller implementerat mediafrågor eller mobilspecifika layouter/CSS:er?
+* Någon erfarenhet av att styla SVG? 
+* Hur optimerar du dina webbplatser för utskrift?
+* Vilka är några av de fallgropar som finns för att skriva effektiv CSS?
+* Vilka är fördelarna/nackdelarna med att använda CSS-preprocessorer? (SASS, Compass, Stylus, LESS)
+  * Om du använt några själv, beskriv vad du gillar och ogillar med dem.
+* Hur skulle du implementera en webbdesign som använder icke-standardiserade typsnitt?
+  * Webbtypsnitt (Typsnittstjänster som: Google webbtypsnitt, Typekit o.s.v.)
+* Förklara hur en webbläsare bestämmer vilka element som matchar en CSS-väljare (selector).
+* Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera dina layout i olika boxmodeller.
+
+####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
 
 * Förklara "event delegation"
 * Förklara hur `this` fungerar i JavaScript
@@ -116,7 +150,22 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Vad är "the arity" av en funktion?  
 * Vad är `"use strict";`? Vilka är för- och nackdelarna med att använda det?
 
-###Kodfrågor:
+####[[⬆]](#toc) <a name='jquery'>jQuery-frågor:</a>
+
+* Förklara "chaining". 
+* Förklara "deferreds".
+* Vad är några jQuery-optimeringar du kan göra?
+* Vad gör `.end()`? 
+* Hur, och varför, skulle du "namespace a bound event handler"? 
+* Nämn fyra olika värden du kan skicka till jQuery-metoden.
+  * Selektor (sträng), HTML (sträng), Callback (funktion), HTMLElement, objekt, array, array av element, jQuery-objekt o.s.v.
+* Vad är effects-kön (eller fx-kön)? 
+* Vad är skillnaden mellan `.get()`, `[]`, och `.eq()`? 
+* Vad är skillnaden mellan `.bind()`, `.live()`, och `.delegate()`? 
+* Vad är skillnaden mellan `$` och `$.fn`? Eller bara, vad är `$.fn`.
+* Förbättra den här selektorn: `$(".foo div#bar:eq(0)")`
+
+####[[⬆]](#toc) <a name='jscode'>Kodfrågor:</a>
 
 ```javascript
 modulo(12, 5) // 2
@@ -153,51 +202,14 @@ foo.push(2);
 
 **Svar: `2`**
 
-###jQuery-frågor:
-
-* Förklara "chaining". 
-* Förklara "deferreds".
-* Vad är några jQuery-optimeringar du kan göra?
-* Vad gör `.end()`? 
-* Hur, och varför, skulle du "namespace a bound event handler"? 
-* Nämn fyra olika värden du kan skicka till jQuery-metoden.
-  * Selektor (sträng), HTML (sträng), Callback (funktion), HTMLElement, objekt, array, array av element, jQuery-objekt o.s.v.
-* Vad är effects-kön (eller fx-kön)? 
-* Vad är skillnaden mellan `.get()`, `[]`, och `.eq()`? 
-* Vad är skillnaden mellan `.bind()`, `.live()`, och `.delegate()`? 
-* Vad är skillnaden mellan `$` och `$.fn`? Eller bara, vad är `$.fn`.
-* Förbättra den här selektorn: `$(".foo div#bar:eq(0)")`
-
-###CSS-frågor:
-* Förklara vad en återställnings(reset)-CSS-fil gör och varför den är användbar.
-* Beskriv Floats och hur de fungerar.
-* Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
-* Förklara CSS-sprites och hur du skulle implementera dem på en sida.
-* Vilka är dina favorittekniker för bildersättning och vilka använder du i vilka situationer?
-* CSS "property hacks", villkorligt inkluderade .css-filer eller något annat?
-* Hur skickar du sidor till funktionsbegränsade webbläsare?
-  * Vilka tekniker/processer använder du?
-* Vilka olika sätt finns det att visuellt dölja element (och bara göra dem tillgängliga för skärmläsare)?
-* Har du någonsin använt ett rutnätsystem, och i sådana fall, vilket föredrar du?
-* Har du använt eller implementerat mediafrågor eller mobilspecifika layouter/CSS:er?
-* Någon erfarenhet av att styla SVG? 
-* Hur optimerar du dina webbplatser för utskrift?
-* Vilka är några av de fallgropar som finns för att skriva effektiv CSS?
-* Vilka är fördelarna/nackdelarna med att använda CSS-preprocessorer? (SASS, Compass, Stylus, LESS)
-  * Om du använt några själv, beskriv vad du gillar och ogillar med dem.
-* Hur skulle du implementera en webbdesign som använder icke-standardiserade typsnitt?
-  * Webbtypsnitt (Typsnittstjänster som: Google webbtypsnitt, Typekit o.s.v.)
-* Förklara hur en webbläsare bestämmer vilka element som matchar en CSS-väljare (selector).
-* Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera dina layout i olika boxmodeller.
-
-###Roliga frågor:
+####[[⬆]](#toc) <a name='fun'>Roliga frågor:</a>
 
 * Vad är den coolaste grejen du någonsin har kodat och vad är du mest stolt över?
 * Vilka är dina favoritdelar som finns i de utvecklarverktyg som du använder?
 * Har du några egna projekt som du håller kära? I sådana fall vad för typer?
 * Vilken är din favoritfunktion i Internet Explorer?
 
-###Andra bra resurser
+####[[⬆]](#toc) <a name='references'>Andra bra resurser:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
