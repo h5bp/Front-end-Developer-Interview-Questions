@@ -71,7 +71,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Vad gör en dokumenttyp?
 * Vad är skillnaden mellan standard-läge och quirks-läge?
 * Vilka begränsningar utsätts du för när du hanterar XHTML-sidor?
-  * Finns det några problem med att skicka sidor som "application/xhtml+xml"?
+  * Finns det några problem med att skicka sidor som `application/xhtml+xml`?
 * Hur skickar du en sida innehållandes flera språk?
   * Vad måste du vara försiktig med när du designar eller utvecklar för flerspråkssidor?
 * Vad är `data-`-attributen bra för?
