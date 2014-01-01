@@ -9,6 +9,13 @@ This repo contains a number of front-end interview questions that can be used wh
 ## Answers
 
 The answers are(will be) placed in `Answers` directory. All answers are written by [@noraesae](https://github.com/noraesae).
+* [General Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/General-Questions.md)
+* [HTML Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/HTML-Questions.md)
+* [CSS Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/CSS-Questions.md)
+* [JS Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/JS-Questions.md)
+* [jQuery Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/jQuery-Questions.md)
+* [Coding Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/Coding-Questions.md)
+* [Fun Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/Fun-Questions.md)
 
 ## <a name='toc'>Table of Contents</a>
 
