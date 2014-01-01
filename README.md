@@ -14,7 +14,7 @@ The answers are(will be) placed in `Answers` directory. All answers are written 
 * [CSS Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/CSS-Questions.md)
 * [JS Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/JS-Questions.md)
 * [jQuery Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/jQuery-Questions.md)
-* [Coding Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/Coding-Questions.md)
+* [Code Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/Code-Questions.md)
 * [Fun Questions](https://github.com/noraesae/Front-end-Developer-Interview-Questions-And-Answers/blob/master/Answers/Fun-Questions.md)
 
 ## <a name='toc'>Table of Contents</a>
