@@ -6,6 +6,10 @@ This repo contains a number of front-end interview questions that can be used wh
 
 **Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
+## Answers
+
+The answers are(will be) placed in `Answers` directory. All answers are written by [@noraesae](https://github.com/noraesae).
+
 ## <a name='toc'>Table of Contents</a>
 
   1. [Original Contributors](#contributors)
