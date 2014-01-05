@@ -120,10 +120,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * What if your modules are namespace-less?
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
-* Difference between:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
@@ -171,16 +168,15 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Difference between 'delegate()' and 'live()'?
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
-```javascript
-~~3.14
-```
-*Question: What value is returned from the above statement?*
 
-**Answer: 3**
+```javascript
+modulo(12, 5) // 2
+```
+*Question: Implement a modulo function that satisfies the above*
+
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
@@ -211,14 +207,6 @@ foo.push(2);
 *Question: What is the value of `foo.length`?*
 
 **Answer: `2`**
-
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
-*Question: What is the value of `foo.length`?*
-
-**Answer: `undefined`**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
