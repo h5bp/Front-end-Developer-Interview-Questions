@@ -1,16 +1,24 @@
 # Interjú kérdések front-end fejlesztőknek
 
-@version 2.0.0
-
 Ebben a gyűjteményben összeválogattuk a legjobb front-end fejlesztő interjú kérdéseket. Ellenben nem tanácsoljuk az összes kérdés egyidejű feltevését, hiszen ez órákat venne igénybe de egy válogatott kérdéssorral megkönnyíthetjük a potenciális jelentkezők szelektálását.
 
 [Rebecca Murphey](http://rmurphey.com/), [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) cikke is hasznos alapja lehet egy interjúnak.
 
 **Megjegyzés:** Ne feledd, hogy a kérdések többsége érdekes beszélgetésé alakulhat, ami többet elárulhat az emberről mintha csak egyszerű válaszokat adna.
 
-A magyar fordítást [Czeglédy Tibor](http://github.com/microtroll) készítette az eredeti angol szöveg alapján.
+## <a name='toc'>Tartalom</a>
 
-#### Eredeti közreműködők
+  1. [Eredeti közreműködők](#contributors)
+  1. [Általános kérdések](#general)
+  1. [HTML kérdések:](#html)
+  1. [CSS kérdések](#css)
+  1. [JS kérdések](#js)
+  1. [jQuery kérdések](#jquery)
+  1. [Példakódok](#jscode)
+  1. [Választható és vicces kérdések](#fun)
+  1. [További referenciák](#references)
+
+####[[⬆]](#toc) <a name='contributors'>Eredeti közreműködők:</a>
 
 A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapján készült, amit [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) kezdeményezett az alábbi közreműködőkkel:
 
@@ -24,14 +32,15 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * [@gf3](http://twitter.com/gf3) - [http://gf3.ca](http://gf3.ca)
 * [@jon_neal](http://twitter.com/jon_neal) - [http://twitter.com/jon_neal](http://twitter.com/jon_neal)
 * [@wookiehangover](http://twitter.com/wookiehangover) - [http://wookiehangover.com](http://wookiehangover.com)
-* [@darcy_clarke](http://twitter.com/darcy) - [http://darcyclarke.me](http://darcyclarke.me)
 * [@iansym](http://twitter.com)
 
-### Általános kérdések:
+####[[⬆]](#toc) <a name='general'>Általános kérdések:</a>
 
-* Milyen verziókövetőket használtál már? (Git, SVN, stb.)
+* Tanultál valami újat a héten/tegnap és ha igen, mit?
+* Mi számodra a legérdekesebb és izgalmasabb a kódolás során?
+* Milyen UI, biztonsági, teljesítménybeli, SEO, karbantarthatósági és technológiai szempontokat tartasz szem elött fejlesztés közben?
 * Mi a számodra legelőnyösebb fejlesztői környezet? (operációs rendszer, szerkesztő, böngésző, fejlesztői eszközök, stb.)
-* Részletezd hogyan készítesz el egy weboldalt.
+* Részletezd a munkafolyamatot, hogyan készítesz el egy weboldalt.
 * Mi a különbség a fokozatos javítása és a között, hogy a weboldalt folyamatosan optimalizálod régebbi és egyszerűbb felületekre is?
   * Bónusz pont a funkció működésének tesztelése adott eszközön.
 * Magyarázd el mit jelent a "szemantikus HTML".
@@ -52,15 +61,15 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
   * `issue :retab! command`
 * Készíts egy egyszerű slideshow oldalt.
   * Bónusz pont ha nem szükséges hozzá JavaScript.
-* Milyen eszközökkel teszteled a kódod teljesítményét?
+* Milyen eszközökkel teszteled a kódod teljesítményét? ()
+  * Profiler
   * [JSPerf](http://jsperf.com/)
   * [Dromaeo](http://dromaeo.com/)
-  * stb.
 * Ha idén elsajátíthatnál egy technológiát, mi lenne az?
 * Ismertesd a sztandardok fontosságát.
 * Mi a FOUC? Hogyan kerulöd el a FOUC-et?
 
-### HTML specifikus kérdések:
+####[[⬆]](#toc) <a name='html'>HTML kérdések:</a>
 
 * Mi a `doctype` feladata és hány fajtáját tudod megnevezni?
 * Mi a különbség a `standard` és a `quirks` módok között?
@@ -68,42 +77,60 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
   * Van bármi akadálya annak, hogy egy oldalt `application/xhtml+xml`-ként szolgáljon ki?
 * Hogyan készítesz fel egy weboldalt többnyelvű tartalom megjelenítésére?
   * Mikre kell figyelni egy többnyelvű oldal tervezése és fejlesztése során?
-* Használhatsz XHTML szintaxist HTML5-be?
-* Hogyan használsz XML-t HTML5-ben?
 * Mire valók a `data-` attribútumok?
-* Mik tartoznak bele a HTML4 tartalmi modelljébe és miként különbözik ez a HTML5-ben?
 * Tegyük fel, hogy a HTML5 egy nyílt webes felület. Mik az építőelemei?
 * Mi a különbség a `cookie` a `sessionStorage` és a `localStorage` között.
 
-### JS specifikus kérdések:
+####[[⬆]](#toc) <a name='css'>CSS kérdések:</a>
+
+* Mire való a "reset" CSS fájl és mennyire hasznos?
+* Hogyan működik a CSS `float`?
+* Milyen `clear` technikákat ismersz és melyik milyen környezetben a megfelelő?
+* Magyarázd el a CSS sprites működését és, hogy hogyan alkalmazod egy weboldalon?
+* Mi a kedvenc képpel helyettesítő (image replacement) technikád és mit használsz mire?
+* CSS hackek, böngésző függő CSS fájlok, vagy.... valami más?
+* Hogyan jelenítesz meg oldalakat korlátozott böngészőkben?
+  * Milyen technológiákat/folyamatokat használsz?
+* Milyen módon tudsz tartalmakat vizuálisan elrejteni (és csak screen olvasók számára elérhetővé tenni)?
+* Használtál már "grid system"-et? Ha igen nevezz meg párat.
+* Használtál már "media query"-ket vagy mobil specifikus layoutokat/CSS-eket?
+* Jártas vagy az SVG használatában?
+* Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
+* Mik a legjobb "ötletek" a hatékony CSS kód írásához?
+* Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
+  * Ha igen mit szeretsz és mit nem szeretsz bennük?
+* Hogyan valósítasz meg egy olyan dizájn kompozíciót, ami nem a szabványos betűtípusokat tartalmazza?
+  * Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
+* Miként határozza meg a böngésző a megfelelő CSS szelektort?
+* Hogyan értelmezed a "box model"-t és hogyan alkalmazod a böngészőkben?
+
+####[[⬆]](#toc) <a name='js'>JS kérdések:</a>
 
 * Mit jelent az `event delegation`?
 * Magyarázd el hogyan működik a `this` a JavaScript-ben.
 * Hogyan működik a protokol öröklés (prototypal inheritance)?
 * Hogyan teszteled a JavaScript kódodat?
 * AMD vs. CommonJS?
-* Melyik JavaScript library-ket használtad már?
-* Próbáltad már értelmezni az általad használt library/keretrendszer forrását?
-* Mi a "hashtable"?
+* Mi a hashtábla?
+* Miért nem működik a következő kód IIFE-ként? `function foo(){ }();`
+  * Mit kell megváltoztatni, hogy működjön?
 * Mit jelent az `undefined` és az `undeclared` változó?
-* Mi a lezárás, milyen formáit ismered és hogyan használod azokat?
-  * Kedvenc mintád? "argyle" (kizárólag IIFE-re alkalmazható)
+  * Miként ellenőrzöd ezeket?
+* Mi a "closure", milyen formáit ismered és hogyan használod azokat?
 * Hogyan néz ki egy anoním funkció?
 * Magyarázd el a JavaScript modul sablont és, hogy mikor használjuk.
-  * Bónusz pont, ha említi a tiszta namespace-ket.
-  * Mi történik akkor, ha a modul namespace mentes?
+  * Bónusz pont, ha említi a tiszta "namespace"-ket.
+  * Mi történik akkor, ha a modul "namespace" mentes?
 * Miként rendszerezed a kódodat? (module pattern, classical inheritance)
 * Mi a különbség hoszt objektum és natív objektum között?
 * Mi a különbség az következő kódok között:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+`function Person(){}`, `var person = Person()` és `var person = new Person()` 
 * Mi a különbség a `.call` és az `.apply` között?
 * Magyarázd el mire jó a `Function.prototype.bind`?
 * Mikor szoktad optimalizálni a kódodat?
 * Magyarázd el hogyan működik az öröklődés szabálya a JavaScript-ben?
 * Mikor használod a `document.write()` funkciót?
-  * A generált hírdetés még mindig használják annak ellenére, hogy nem ajánlatos.
+  * A legtöbb generált hírdetésben még mindig használják annak ellenére, hogy nem ajánlatos.
 * Mi a különbség a "feature" észlelés (detection), "feature" következtetés (inference) és az UA sztring használata között?
 * Magyarázd meg az AJAX működését a lehető legrészletesebben.
 * Magyarázd el, hogyan működik a JSONP (és miért nem AJAX valójában).
@@ -128,48 +155,7 @@ function Person(){} var person = Person() var person = new Person()
 * Mennyi attribútumot lehet átadni egy funkciónak?
 * Mi a `"use strict";`, mik az előnyei és a hátrányai?
 
-### JS példakódok:
-
-```javascript
-~~3.14
-```
-Kérdés: Mi a kimente a fenti példának?
-**Válasz: 3**
-
-```javascript
-"i'm a lasagna hog".split("").reverse().join("");
-```
-Kérdés: Milyen értékkel tér vissza a fenti állítás?
-**Válasz: "goh angasal a m'i"**
-
-```javascript
-( window.foo || ( window.foo = "bar" ) );
-```
-Kérdés: Mi az értéke a `window.foo`-nak?
-**Válasz: "bar"** de csak ha a `window.foo` hamis egyébként megtartja az értékét.
-
-```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
-```
-Kérdés: Mi a fenti két alert-nek a kimenete?
-**Válasz: "Hello World" és ReferenceError: bar is not defined**
-
-```javascript
-var foo = [];
-foo.push(1);
-foo.push(2);
-```
-Kérdés: Mi a `foo.length` értéke?
-**Válasz: 2**
-
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
-Kérdés: Mi a `foo.length` értéke?
-**Válasz: undefined**
-
-### jQuery specifikus kérdések:
+####[[⬆]](#toc) <a name='jquery'>jQuery kérdések:</a>
 
 * Mit jelent a `chaining`?
 * Mit jelent a `deferreds`?
@@ -186,46 +172,58 @@ Kérdés: Mi a `foo.length` értéke?
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Mi a különbség `delegate()` és `live()` között?
 
-### CSS specifikus kérdések:
+####[[⬆]](#toc) <a name='jscode'>Példakódok:</a>
 
-* Mire való a "reset" CSS fájl és mennyire hasznos?
-* Hogyan működik a CSS `float`?
-* Milyen `clear` technikákat ismersz és melyik milyen környezetben a megfelelő?
-* Magyarázd el a CSS sprites működését és, hogy hogyan alkalmazod egy weboldalon?
-* Mi a kedvenc képpel helyettesítő (image replacement) technikád és mit használsz mire?
-* CSS hackek, böngésző függő CSS fájlok, vagy.... valami más?
-* Hogyan jelenítesz meg oldalakat korlátozott böngészőkben?
-  * Milyen technológiákat/folyamatokat használsz?
-* Milyen módon tudsz tartalmakat vizuálisan elrejteni (és csak screen olvasók számára elérhetővé tenni)?
-* Használtál már rács rendszert (grid system)? Ha igen nevezz meg párat. ([960 Grid System](http://960.gs/), [Foundation](http://foundation.zurb.com/), [Twitter Bootstrap](http://twitter.github.io/bootstrap/))
-* Használtál már "media query"-ket vagy mobil specifikus layoutokat/CSS-eket?
-* Jártas vagy az SVG használatában?
-* Hogyan alakítasz egy weboldalt nyomtatóbaráttá?
-* Mik a legjobb "ötletek" a hatékony CSS kód írásához?
-* Használsz CSS előfeldolgozó technilógiát? ([SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://learnboost.github.io/stylus/), [LESS](http://lesscss.org/))
-  * Ha igen mit szeretsz és mit nem szeretsz bennük?
-* Hogyan valósítasz meg egy olyan dizájn kompozíciót, ami nem a szabványos betűtípusokat tartalmazza?
-  * Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
-* Miként határozza meg a böngésző a megfelelő CSS szelektort?
+```javascript
+modulo(12, 5) // 2
+```
 
-### Választható és vicces kérdések:
+*Kérdés: Készítsd el a modulo funkció, hogy a fenti példa eredménye 2 legyen.*
+
+```javascript
+"i'm a lasagna hog".split("").reverse().join("");
+```
+
+*Kérdés: Milyen értékkel tér vissza a fenti állítás?*
+
+**Válasz: "goh angasal a m'i"**
+
+```javascript
+( window.foo || ( window.foo = "bar" ) );
+```
+
+*Kérdés: Mi az értéke a `window.foo`-nak?*
+
+**Válasz: "bar"** *(de csak ha a `window.foo` hamis egyébként megtartja az értékét.)*
+
+```javascript
+var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+```
+
+*Kérdés: Mi a fenti két alert-nek a kimenete?*
+
+**Válasz: "Hello World" és ReferenceError: bar is not defined**
+
+```javascript
+var foo = [];
+foo.push(1);
+foo.push(2);
+```
+
+*Kérdés: Mi a `foo.length` értéke?*
+
+**Válasz: `2`**
+
+####[[⬆]](#toc) <a name='fun'>Választható és vicces kérdések:</a>
 
 * Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbüszkébb?
-* Ismered a HTML5 banda jelét?
-* Vagy, vagy voltál már hajón?
 * Mi a kedvenced az általad használt fejlesztői eszközökben?
 * Van bármilyen állatos projekted? Ha igen milyen?
-* Ismertesd a "cornify" jelentőségét. [Cornify](http://www.cornify.com/)
-* Egy darab papirra írd le az A B C D E betűket függőlegesen. Most rendezzd át oket csökkenő sorrendbe egyetlen sor kóddal.
-  * Várj és figyelj, megfordítják-e a papírt, hogy fejjel lefelé legyen.
-* Kalóz vagy Ninja?
-  * Bónusz pont, ha mindkettő és jó indokot adott rá (+2 ha zombi majom kalóz ninják)
-* Ha nem fejlesztesz, mi mást szoktál csinálni?
-* Hol lehet vajon Carmen Sandiego?
-  * Megoldás: nincs rá helyes válasz
 * Mit szeretsz a legjobban az Internet Explorerben?
-* Fejezd be a mondatot: Brendan Eich és Doug Crockford a JavaScript __________.
-* jQuery: egy jó library vagy a legjobb library? Vitassátok meg.
-* [W3School](http://www.w3schools.com/) vagy [W3Fools](http://w3fools.com/)
+
+####[[⬆]](#toc) <a name='references'>További referenciák:</a>
+
+* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
+* http://css-tricks.com/interview-questions-css/
