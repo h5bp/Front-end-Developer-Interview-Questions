@@ -1,14 +1,24 @@
 #Domande per il colloquio di lavoro per front-end
 
-@version 2.0.0
-
 Questo repository contiene una serie di domande che possono essere usate nei colloqui di lavoro quando si esaminano i potenziali candidati per il ruolo di front-end. Non è affatto consigliato usare ogni singola domanda con lo stesso candidato (richiederebbe ore). Scegliere alcune di queste domande dalla lista dovrebbe aiutarti ad esaminare le skill che richiedi.
 
 L'articolo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) di [Rebecca Murphey](http://rmurphey.com/) è un'ottima risorsa da leggere prima di affrontare un colloquio.
 
 **Nota:** Tieni presente che molte di queste domande sono a risposta aperta e possono portare a interessanti discussioni che ti possono far capire le capacità di una persona più di quello che farebbe una risposta diretta.
 
-####Collaboratori Originali
+## <a name='toc'>Indice dei Contenuti</a>
+
+  1. [Collaboratori Originali](#contributors)
+  1. [Domande Generali](#general)
+  1. [Domande Specifiche su HTML](#html)
+  1. [Domande Specifiche su CSS](#css)
+  1. [Domande Specifiche su JS](#js)
+  1. [Domande Specifiche su jQuery](#jquery)
+  1. [Domande con Codice](#jscode)
+  1. [Domande per Divertimento](#fun)
+  1. [Altre Ottime Risorse](#references)
+
+####[[⬆]](#toc) <a name='contributors'>Collaboratori Originali:</a>
 
 La maggior parte delle domande sono state prese da una discussione su [oksoclap](http://oksoclap.com/) originariamente creata da [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) e con il contributo delle seguenti persone:
 
@@ -22,13 +32,13 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * [@gf3](http://twitter.com/gf3) - http://gf3.ca
 * [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com)
+* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-### Domande Generali:
+####[[⬆]](#toc) <a name='general'>Domande Generali:</a>
 
 * Cosa hai imparato ieri/questa settimana?
 * Cosa ti entusiasma o ti interessa della programmazione?
+* Quali considerazioni fai riguardo alla UI, alla Sicurezza, alle Prestazioni, al SEO, alla Manutenibilità o alla Tecnologia mentre costruisci una applicazione web o un sito?
 * Parla del tuo ambiente di sviluppo preferito. (Sistema Operativo, Editor di testo, Browser, Strumenti ecc.)
 * Puoi descrivere il tuo metodo di lavoro quando crei una pagina web?
 * Puoi descrivere la differenza tra miglioramento progressivo [*progressive enhancement*] e degradazione elegante [*graceful degradation*]?
@@ -56,7 +66,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Spiega l'importanza degli standard e degli enti di normazione.
 * Cosa è il FOUC? Come eviti il FOUC?
 
-### Domande Specifiche su HTML:
+####[[⬆]](#toc) <a name='html'>Domande Specifiche su HTML:</a>
 
 * Cosa fa il `doctype`?
 * Qual è la differenza tra standard mode e quirks mode?
@@ -68,7 +78,30 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Considera HTML5 come una piattaforma web aperta. Quali sono i mattoni di HTML5?
 * Descrivi le differenze tra cookie, sessionStorage e localStorage.
 
-### Domande Specifiche su JS
+####[[⬆]](#toc) <a name='css'>Domande Specifiche su CSS:</a>
+
+* Descrivi cosa fa un file CSS "reset" e in cosa è utile.
+* Descrivi i Float e come funzionano.
+* Quali sono le varie tecniche di clearing e quale è appropriata per quale contesto?
+* Spiega gli sprite CSS, e come li implementeresti in una pagina o in un sito.
+* Quali sono le tue tecniche di sostituzione immagini [*image replacement*] preferite e quale usi quando?
+* Hack delle proprietà CSS, file .css inclusi con condizioni, o... altro?
+* Come servi le tue pagine per i browser con funzionalità limitate?
+	* Che tecniche/processi usi?
+* Quali sono i vari modi per nascondere visualmente il contenuto (e renderlo disponibile solo per gli screen reader)?
+* Hai mai usato un sistema di griglie [*grid system*], e se sì, qual è il tuo preferito?
+* Hai mai usato o implementato media queries o CSS/layout specifici per mobile?
+* Familiarità con lo styling SVG?
+* Come ottimizzi le tue pagine web per la stampa?
+* Quali sono alcuni dei "trucchi" per scrivere CSS efficiente?
+* Quali sono i vantaggi/svantaggi nell'usare i preprocessori CSS? (SASS, Compass, Stylus, LESS)
+	* Se sì, descrivi cosa ti piace e cosa non ti piace dei preprocessori CSS che hai usato.
+* Come implementeresti una grafica web che usa font non standard?
+	* Webfonts (servizi di font tipo: Google Webfonts, Typekit, ecc...)
+* Spiega come un browser determina quali elementi corrispondono a un selettore CSS.
+* Spiega la tua comprensione del box model e come useresti i CSS per dire al browser di rappresentare il tuo layout nei vari box model.
+
+####[[⬆]](#toc) <a name='js'>Domande Specifiche su JS:</a>
 
 * Spiega l'event delegation.
 * Spiega come funziona `this` in JavaScript.
@@ -76,19 +109,18 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Come fai a testare il tuo codice JavaScript?
 * AMD contro CommonJS?
 * Cosa è una hashtable?
-* Cosa sono le variabili `undefined` e `undeclared`?
+* Spiega perché il seguente codice non funziona come UN IIFE: `function foo(){ }();`. 
+  * Cosa c'è bisogno di cambiare per renderlo correttamente un IIFE?
+* Quale è la differenza tra una variabile che è: `null`, `undefined` or `undeclared`?
+  * Come faresti per controllare questi stati?
 * Cosa è una chiusura [*closure*], e come/perché ne useresti una?
-	* Il tuo pattern preferito usato per crearle? argyle (Applicabile solo a espressioni di funzione immediatamente eseguite [*IIFE*])
 * Qual è l'uso tipico di una funzione anonima?
 * Spiega il "JavaScript module pattern" e quando lo useresti.
 	* Punti bonus se menziona namespacing pulito.
 	* E se i tuoi moduli sono senza namespace?
 * Come organizzi il tuo codice? (module pattern, ereditarietà classica?)
 * Qual è la differenza tra oggetti host e oggetti nativi?
-* Differenza tra:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* Differenza tra: `function Person(){}`, `var person = Person()`, e `var person = new Person()`?
 * Qual è la differenza tra `.call` e `.apply`?
 * Spiega `Function.prototype.bind`?
 * Quando ottimizzi il tuo codice?
@@ -119,49 +151,7 @@ function Person(){} var person = Person() var person = new Person()
 * Cosa è l'arietà di una funzione?
 * Cosa è `"use strict";`? Quali sono i vantaggi e gli svantaggi nell'usarlo?
 
-### Esempi di Codice JS:
-
-```javascript
-~~3.14
-```
-Domanda: Quale valore viene ritornato dalla dichiarazione qui sopra?
-**Risposta: 3**
-
-```javascript
-"i'm a lasagna hog".split("").reverse().join("");
-```
-Domanda: Quale valore viene ritornato dalla dichiarazione qui sopra?
-**Risposta: "goh angasal a m'i"**
-
-```javascript
-( window.foo || ( window.foo = "bar" ) );
-```
-Domanda: Qual è il valore di window.foo?
-**Risposta: "bar"**
-solo se window.foo era falso altrimenti manterrà il suo valore.
-
-```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
-```
-Domanda: Qual è il risultato dei due alert qui sopra?
-**Risposta: "Hello World" & ReferenceError: bar is not defined**
-
-```javascript
-var foo = [];
-foo.push(1);
-foo.push(2);
-```
-Domanda: Qual è il valore di foo.length?
-**Risposta: `2`
-
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
-Domanda: Qual è il valore di foo.length?
-**Risposta: `undefined`
-
-### Domande Specifiche su jQuery:
+####[[⬆]](#toc) <a name='jquery'>Domande Specifiche su jQuery:</a>
 
 * Spiega la "concatenazione" [*chaining*].
 * Spiega "deferreds".
@@ -178,34 +168,55 @@ Domanda: Qual è il valore di foo.length?
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Differenza tra 'delegate()' e 'live()'?
+
+####[[⬆]](#toc) <a name='jscode'>Domande con Codice:</a>
 
 
-### Domande Specifiche su CSS:
+```javascript
+modulo(12, 5) // 2
+```
+*Domanda: Implementa la funzione modulo che soddisfi quanto sopra*
 
-* Descrivi cosa fa un file CSS "reset" e in cosa è utile.
-* Descrivi i Float e come funzionano.
-* Quali sono le varie tecniche di clearing e quale è appropriata per quale contesto?
-* Spiega gli sprite CSS, e come li implementeresti in una pagina o in un sito.
-* Quali sono le tue tecniche di sostituzione immagini [*image replacement*] preferite e quale usi quando?
-* Hack delle proprietà CSS, file .css inclusi con condizioni, o... altro?
-* Come servi le tue pagine per i browser con funzionalità limitate?
-	* Che tecniche/processi usi?
-* Quali sono i vari modi per nascondere visualmente il contenuto (e renderlo disponibile solo per gli screen reader)?
-* Hai mai usato un sistema di griglie [*grid system*], e se sì, qual è il tuo preferito?
-* Hai mai usato o implementato media queries o CSS/layout specifici per mobile?
-* Familiarità con lo styling SVG?
-* Come ottimizzi le tue pagine web per la stampa?
-* Quali sono alcuni dei "trucchi" per scrivere CSS efficiente?
-* Quali sono i vantaggi/svantaggi nell'usare i preprocessori CSS? (SASS, Compass, Stylus, LESS)
-	* Se sì, descrivi cosa ti piace e cosa non ti piace dei preprocessori CSS che hai usato.
-* Come implementeresti una grafica web che usa font non standard?
-	* Webfonts (servizi di font tipo: Google Webfonts, Typekit, ecc...)
-* Spiega come un browser determina quali elementi corrispondono a un selettore CSS.
 
-### Domande Opzionali per divertimento:
+```javascript
+"i'm a lasagna hog".split("").reverse().join("");
+```
+*Domanda: Quale valore viene ritornato dalla dichiarazione qui sopra?*
+
+**Risposta: "goh angasal a m'i"**
+
+```javascript
+( window.foo || ( window.foo = "bar" ) );
+```
+*Domanda: Qual è il valore di `window.foo?`*
+
+**Risposta: "bar"** *(solo se `window.foo` era falso altrimenti manterrà il suo valore)*
+
+```javascript
+var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+```
+*Domanda: Qual è il risultato dei due alert qui sopra?*
+
+**Risposta: "Hello World" & ReferenceError: bar is not defined**
+
+```javascript
+var foo = [];
+foo.push(1);
+foo.push(2);
+```
+*Domanda: Qual è il valore di `foo.length`?*
+
+**Risposta: `2`**
+
+####[[⬆]](#toc) <a name='fun'>Domande per Divertimento:</a>
 
 * Qual è la cosa più bella che hai mai sviluppato, di cosa sei più orgoglioso?
 * Quali sono le tue parti preferite degli strumenti di sviluppo che usi?
 * Hai qualche progetto personale? Di che tipo?
 * Qual è la tua feature preferita di Internet Explorer?
+
+####[[⬆]](#toc) <a name='references'>Altre Ottime Risorse:</a>
+
+* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
+* http://css-tricks.com/interview-questions-css/
