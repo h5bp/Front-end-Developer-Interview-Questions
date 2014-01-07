@@ -209,7 +209,7 @@ Pregunta: ¿Cuál es el retorno de la sentencia anterior?
 ```
 Preguntan: ¿Cuál es el valor de window.foo?
 **Respuesta: "bar"** 
-Únicamente si window.foo tenía un valor falsy, de cualquier otra forma retendrá su valor.
+Únicamente si window.foo tenía un valor falso, de cualquier otra forma retendrá su valor.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
