@@ -51,6 +51,7 @@ De meerderheid van deze vragen is geplukt uit een [oksoclap](http://oksoclap.com
 * Welke tools gebruik je om je je code performance te testen?
 	* Profiler, JSPerf, Dromaeo
 * Als je dit jaar één techniek zou willen beheersen, wat zou het zijn? 
+* Kan je de verschillen tussen Long-Polling, Websockets en SSE benoemen?
 * Leg het belang uit van standaards en standaards organisaties.
 * Wat is FOUC? Hoe voorkom je FOUC?  
 

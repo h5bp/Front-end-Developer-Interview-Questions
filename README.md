@@ -63,6 +63,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What tools do you use to test your code's performance?
   * Profiler, JSPerf, Dromaeo
 * If you could master one technology this year, what would it be?
+* What are the differences between Long-Polling, Websockets and SSE?
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 
