@@ -36,7 +36,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 
 ####[[⬆]](#toc) <a name='general'>Allmänna frågor:</a>
 
-* Vad lärde du dig i går/den här veckan?
+* Vad lärde du dig igår / den här veckan?
 * Vad tycker du är spännande eller intressant med kodning?
 * Vilka övervägningar gör du angående gränssnitt, säkerhet, prestanda, SEO, underhållsmässighet och tekniker när du bygger en webbapplikation eller -plats?
 * Berätta lite om den utvecklingsmiljö du helst sitter i? (OS, editor, webbläsare, verktyg o.s.v.)
@@ -51,7 +51,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
     * Hosta via CDN
     * Caching
     * o.s.v.
-* Varför är det bättre skicka webbplatsen från flera domäner?
+* Varför är det bättre att servera webbplatsen från flera domäner?
   * Hur många resurser kan en webbläsare ladda från en specifik domän åt gången?
 * Nämn tre sätt att minska laddningstiden för en webbsida (uppfattad eller faktisk laddningstid).
 * Om du hoppade på ett projekt och de använde tabbar och du mellanslag, vad skulle du då göra?
@@ -62,13 +62,13 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
   * Bonuspoäng om det inte använder sig av JS.
 * Vilka verktyg använder du dig av för att testa din kods prestanda?
   * Profiler, JSPerf, Dromaeo
-* Om du kunde bemästra en teknologi det här året, vad skulle det vara?
+* Om du kunde bemästra en teknologi i år, vad skulle det vara?
 * Beskriv varför det är viktigt med standarder och standardiseringsorganisationer.
-* Vad är FOUC? Hur undviker du FOUC?  
+* Vad är FOUC? Hur undviker du FOUC?
 
 ####[[⬆]](#toc) <a name='html'>HTML-frågor:</a>
 
-* Vad gör en dokumenttyp?
+* Vad gör en dokumenttyp (doctype)?
 * Vad är skillnaden mellan standard-läge och quirks-läge?
 * Vilka begränsningar utsätts du för när du hanterar XHTML-sidor?
   * Finns det några problem med att skicka sidor som `application/xhtml+xml`?
@@ -80,7 +80,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 
 ####[[⬆]](#toc) <a name='css'>CSS-frågor:</a>
 
-* Förklara vad en återställnings(reset)-CSS-fil gör och varför den är användbar.
+* Förklara vad en nollställnings(reset)-CSS-fil gör och varför den är användbar.
 * Beskriv Floats och hur de fungerar.
 * Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
 * Förklara CSS-sprites och hur du skulle implementera dem på en sida.
@@ -98,12 +98,12 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
   * Om du använt några själv, beskriv vad du gillar och ogillar med dem.
 * Hur skulle du implementera en webbdesign som använder icke-standardiserade typsnitt?
   * Webbtypsnitt (Typsnittstjänster som: Google webbtypsnitt, Typekit o.s.v.)
-* Förklara hur en webbläsare bestämmer vilka element som matchar en CSS-väljare (selector).
-* Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera dina layout i olika boxmodeller.
+* Förklara hur en webbläsare bestämmer vilka element som matchar en selektor.
+* Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera din layout i olika boxmodeller.
 
 ####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
 
-* Förklara "event delegation"
+* Förklara eventdelegering
 * Förklara hur `this` fungerar i JavaScript
 * Förklara hur prototypiskt arv fungerar
 * Hur gör du för att testa ditt JavaScript?
@@ -139,7 +139,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Varför är det bra att utvidga inbyggda JavaScript-objekt?
 * Skillnaden mellan "document load event" och "document ready event"? 
 * Vad är skillnaden mellan `==` och `===`? 
-* Förklara hur du får en frågesträngparameter från webbläsarfönstrets URL.
+* Förklara hur du får en QueryString-parameter från webbläsarfönstrets URL.
 * Förklara "same-origin policy" med hänsyn till JavaScript. 
 * Få det här att fungera
 ```javascript
@@ -159,11 +159,11 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Hur, och varför, skulle du "namespace a bound event handler"? 
 * Nämn fyra olika värden du kan skicka till jQuery-metoden.
   * Selektor (sträng), HTML (sträng), Callback (funktion), HTMLElement, objekt, array, array av element, jQuery-objekt o.s.v.
-* Vad är effects-kön (eller fx-kön)? 
+* Vad är effektkö ("effects queue" eller "fx queue")? 
 * Vad är skillnaden mellan `.get()`, `[]`, och `.eq()`? 
 * Vad är skillnaden mellan `.bind()`, `.live()`, och `.delegate()`? 
 * Vad är skillnaden mellan `$` och `$.fn`? Eller bara, vad är `$.fn`.
-* Förbättra den här selektorn: `$(".foo div#bar:eq(0)")`
+* Förbättra denna selektor: `$(".foo div#bar:eq(0)")`
 
 ####[[⬆]](#toc) <a name='jscode'>Kodfrågor:</a>
 
@@ -184,7 +184,7 @@ Fråga: Vilket värde returneras från ovanstående?
 ```
 *Fråga: Vad är värdet av `window.foo`?*
 
-**Svar: "bar"** *Bara om `window.foo` var "falsey", annars skulle den behålla dess värde.*
+**Svar: "bar"** *Bara om `window.foo` var "falsey", annars skulle den behålla sitt värde.*
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
@@ -204,9 +204,9 @@ foo.push(2);
 
 ####[[⬆]](#toc) <a name='fun'>Roliga frågor:</a>
 
-* Vad är den coolaste grejen du någonsin har kodat och vad är du mest stolt över?
-* Vilka är dina favoritdelar som finns i de utvecklarverktyg som du använder?
-* Har du några egna projekt som du håller kära? I sådana fall vad för typer?
+* Vad är det coolaste du någonsin har kodat och vad är du mest stolt över?
+* Vilka är dina favoritdelar som finns i de utvecklarverktyg du använder?
+* Har du några egna projekt som du sköter om? I sådana fall vilken typ av projekt?
 * Vilken är din favoritfunktion i Internet Explorer?
 
 ####[[⬆]](#toc) <a name='references'>Andra bra resurser:</a>
