@@ -6,7 +6,7 @@ Dieses Repo enthält einige Fragen, die zur Einschätzung von geeigneten Fronten
 
 [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) (Englisch) ist ebenso eine nützliche Quelle zur Vorbereitung auf ein Bewerbungsgespräch. 
 
-**Anmerkung:** Beachte bitte, dass viele dieser Fragen so offen gehalten sind, dass sie interessante Diskussionen auslösen können, in deren Verlauf du viel mehr über die Fährigkeiten eines Bewerbers erfahren kannst, als in kurzen, direkten Antworten.
+**Anmerkung:** Beachte bitte, dass viele dieser Fragen so offen gehalten sind, dass sie interessante Diskussionen auslösen können, in deren Verlauf du viel mehr über die Fähigkeiten eines Bewerbers erfahren kannst, als in kurzen, direkten Antworten.
 
 #### Initiatoren und Mitwirkende
 
