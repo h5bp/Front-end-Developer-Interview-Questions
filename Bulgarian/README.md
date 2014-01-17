@@ -154,18 +154,18 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery въпроси:</a>
 
-* Explain "chaining".
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do?
-* How, and why, would you namespace a bound event handler?
-* Name 4 different values you can pass to the jQuery method.
+* Обяснете "chaining".
+* Обяснете "deferreds".
+* Какви специфични за jQuery оптимизации, можете да направите?
+* Какво прави `.end()`?
+* Как и защо бихте сложили bound event handler в namespace?
+* Назовете 4 различни типа стойности, които можете да подадете на jQuery метод.
   * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue?
-* What is the difference between `.get()`, `[]`, and `.eq()`?
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector:
+* Какво е effects (или fx) queue?
+* Каква е разликата между `.get()`, `[]`, и `.eq()`?
+* Каква е разликата между `.bind()`, `.live()`, и `.delegate()`?
+* Каква е разликата между `$` и `$.fn`? Или просто: Какво е `$.fn`?
+* Оптимизирайте този селектор:
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
