@@ -176,38 +176,38 @@ $(".foo div#bar:eq(0)")
 ```javascript
 modulo(12, 5) // 2
 ```
-*Question: Implement a modulo function that satisfies the above*
+*Въпрос: Имплементирайте функцията modulo която отговаря на горното условие (да връща 2 при аргументи 12 и 5)*
 
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-*Question: What value is returned from the above statement?*
+*Въпрос: Каква стойност ще върне горният израз?*
 
-**Answer: "goh angasal a m'i"**
+**Отговор: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-*Question: What is the value of `window.foo`?*
+*Въпрос: Каква е стойността на `window.foo`?*
 
-**Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
+**Отговор: "bar", ако `window.foo` има стойност `false`, иначе стойността на `window.foo`)**
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-*Question: What is the outcome of the two alerts above?*
+*Въпрос: Какво ще изкарат двете alert функции от горния код?*
 
-**Answer: "Hello World" & ReferenceError: bar is not defined**
+**Отговор: "Hello World" и ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-*Question: What is the value of `foo.length`?*
+*Въпрос: Каква е стойността на `foo.length`?*
 
-**Answer: `2`**
+**Отговор: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Забавни въпроси:</a>
 
