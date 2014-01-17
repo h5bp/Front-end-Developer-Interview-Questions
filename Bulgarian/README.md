@@ -104,53 +104,53 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='js'>JS въпроси:</a>
 
-* Explain event delegation
-* Explain how `this` works in JavaScript
-* Explain how prototypal inheritance works
-* How do you go about testing your JavaScript?
-* AMD vs. CommonJS?
-* What's a hashtable?
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
-  * What needs to be changed to properly make it an IIFE?
-* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
-  * How would you go about checking for any of these states?
-* What is a closure, and how/why would you use one?
-* What's a typical use case for anonymous functions?
-* Explain the "JavaScript module pattern" and when you'd use it.
-  * Bonus points for mentioning clean namespacing.
-  * What if your modules are namespace-less?
-* How do you organize your code? (module pattern, classical inheritance?)
-* What's the difference between host objects and native objects?
-* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-* What's the difference between `.call` and `.apply`?
-* explain `Function.prototype.bind`?
-* When do you optimize your code?
-* Can you explain how inheritance works in JavaScript?
-* When would you use `document.write()`?
-  * Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string
-* Explain AJAX in as much detail as possible
-* Explain how JSONP works (and how it's not really AJAX)
-* Have you ever used JavaScript templating?
-  * If so, what libraries have you used? (Mustache.js, Handlebars etc.)
-* Explain "hoisting".
-* Describe event bubbling.
-* What's the difference between an "attribute" and a "property"?
+* Обяснете делегатите на събития
+* Обяснете как работи `this` в JavaScript
+* Обяснете как работят прототипните интерфейси
+* Как тествате вашия JavaScript?
+* AMD или CommonJS?
+* Какво е хеш-таблица?
+* Обяснете защо този код не работи като IIFE: `function foo(){ }();`. 
+  * Какво е нужно да се промени, за да може кодът да работи като IIFE?
+* Каква е разликата между променлива, която е: `null`, `undefined` или `недекларирана`?
+  * Как проверявате всяко от тези състояния на променливите?
+* Какво е closure? Как и защо се използва?
+* Какви са типичните употреби на анонимните функции?
+* Обяснете "JavaScript модул патърна" и кога се използва.
+  * Бонус точки за споменаване на "замърсяване на глобалния scope".
+  * Какво ще стане ако модулите нямат namespace?
+* Как организирате своя код? (модул патърн, класическо наследяване?)
+* Каква е разликата между host обекти и native обекти?
+* Каква е разликата между: `function Person(){}`, `var person = Person()` и `var person = new Person()`?
+* Каква е разликата между `.call` и `.apply`?
+* Обяснете `Function.prototype.bind`?
+* Кога оптимизирате кода си?
+* Можете ли да обясните как работи наследяването в JavaScript?
+* В какви случаи бихте използвали `document.write()`?
+  * Повечето генерирани реклами все още използват `document.write()`
+* Каква е разликата между feature detection, feature inference, и използването на информация, кой е браузъра?
+* Обяснете AJAX във възможно най-много детайли.
+* Обяснете как работи JSONP (и защо не е точно AJAX)
+* Използвали ли сте JavaScript темплейти?
+  * Ако да, коя библиотека сте използвали? (Mustache.js, Handlebars и т.н.)
+* Обяснете "hoisting".
+* Обяснете event bubbling-а.
+* Каква е разликата между "атрибут" и "свойство"?
 * Why is extending built in JavaScript objects not a good idea?
 * Why is extending built ins a good idea?
-* Difference between document load event and document ready event?
-* What is the difference between `==` and `===`?
-* Explain how you would get a query string parameter from the browser window's URL.
-* Explain the same-origin policy with regards to JavaScript.
-* Describe inheritance patterns in JavaScript.
-* Make this work:
+* Каква е разликата между събитията "document load" и "document ready"?
+* Каква е разликата между `==` и `===`?
+* Обяснете как да вземете query string параметъра от адреса в браузъра.
+* Обяснете same-origin policy-то от гледна точка на JavaScript.
+* Опишете патърните за наследяване в JavaScript.
+* Оправете кода, така че да работи:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript.
-* Why is it called a Ternary expression, what does the word "Ternary" indicate?
-* What is the arity of a function?
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Опишете стратегия за memoization (избягване на повторните изчисления) в JavaScript.
+* Защо тернарният оператор се нарича така? Какво означава думата "тернарен"?
+* Какво е arity на функция?
+* Какво е `"use strict";`? Какви са предимствата и недостатъците от слагането му в кода?
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery въпроси:</a>
 
