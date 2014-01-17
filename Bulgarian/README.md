@@ -36,36 +36,36 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='general'>Общи въпроси:</a>
 
-* What did you learn yesterday/this week?
-* What excites or interests you about coding?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Can you describe your workflow when you create a web page?
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
-    * Caching
-    * etc.
-* Why is it better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistent)
-  * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
-* What tools do you use to test your code's performance?
+* Какво научихте вчера / тази седмица?
+* Какво ви привлича в писането на код?
+* Какви неща свързани с потребителския интерфейс, сигурността, бързодействието, SEO, поддръжката или технологиите взимате предвид, когато създавате веб приложения или сайтове?
+* Разкажете за предпочитаната среда за разработка. (операционна система, редактор, браузър, инструменти и т.н.)
+* Можете ли да обясните последователността от действия, които извършвате, когато създавате уеб страници?
+* Можете ли да обясните разликите между progressive enhancement и graceful degradation?
+  * Бонус точки за обяснението на feature detection (определяне на това, какво поддържа браузъра и какво не)
+* Обяснете какво означава "Semantic HTML".
+* Как бихте оптимизирали зареждането на ресурси за дадена уеб страница?
+  * Има различни техники, които решават този проблем. Сред тях са:
+    * Събиране на няколко файла заедно
+    * Минифициране на файловете (премахване на празни места, махане на коментари и т.н.)
+    * Използване на CDN за доставяне на ресурсите
+    * Кеширане
+    * и т.н.
+* Защо е добра идея да сайтовете да свалят ресурсите от няколко различни домейна?
+  * По колко ресурса едновременно свалят браузърите от даден домейн?
+* Назовете 3 начина да намалите скоростта на зареждане на дадена страница. (забележимата или реалната скорост на зареждане)
+* Ако се присъедините към проект, който използва табулации, а вие използвате разстояния за отстъп, какво ще направите?
+  * Предложете EditorConfig (http://editorconfig.org) или подобен проект
+  * Използвайте конвенцията на проекта
+  * `Използвайте :retab! командата`
+* Реализирайте примерно слайд-шоу
+  * Бонус точки, ако не използвате JS.
+* Какви инструменти използвате за да тествате бързодействието на вашия код?
   * Profiler, JSPerf, Dromaeo
-* If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
+* Ако можете да научите много добре 1 технология тази година, каква ще е тя?
+* Каква е разликата между Long-Polling, Websockets и SSE?
+* Обяснете важността на стандартите и организациите за стандартизация.
+* Какво е FOUC? Как се справяте с FOUC?
 
 ####[[⬆]](#toc) <a name='html'>HTML въпроси:</a>
 
