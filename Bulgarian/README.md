@@ -1,24 +1,24 @@
 #Въпроси за интервю за front-end разработчици
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+Това репозитори съдържа въпроси от интервюта на front-end разработчици, които могат да бъдат използвани за отсяване на потенциални кандидати. Не препоръчваме използването на всеки въпрос за всеки кандидат (това би отнело часове). Избирането на няколко въпроса от списъка би могло да помогне да се проверят търсените умения у кандидатите.
 
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
+Статията [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) на [Rebecca Murphey](http://rmurphey.com/)също е чудесен ресурс за четене преди провеждането на интервю.
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+**Note:** Имайте предвид, че много от тези въпроси могат да породят интересни дискусии и да ви помогнат по-добре да проверите познанията и начина на мислене на кандидата, отколкото ако получавате директен отговор.
 
-## <a name='toc'>Table of Contents</a>
+## <a name='toc'>Съдържание</a>
 
-  1. [Original Contributors](#contributors)
-  1. [General Questions](#general)
-  1. [HTML Questions](#html)
-  1. [CSS Questions](#css)
-  1. [JS Questions](#js)
-  1. [jQuery Questions](#jquery)
-  1. [Coding Questions](#jscode)
-  1. [Fun Questions](#fun)
-  1. [Other Great References](#references)
+  1. [Участници в проекта](#contributors)
+  1. [Общи въпроси](#general)
+  1. [HTML въпроси](#html)
+  1. [CSS въпроси](#css)
+  1. [JS въпроси](#js)
+  1. [jQuery въпроси](#jquery)
+  1. [Въпроси, свързани с програмиране](#jscode)
+  1. [Забавни въпроси](#fun)
+  1. [Допълнителни ресурси](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+####[[⬆]](#toc) <a name='contributors'>Участници в проекта:</a>
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
@@ -34,7 +34,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+####[[⬆]](#toc) <a name='general'>Общи въпроси:</a>
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
@@ -67,7 +67,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 
-####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
+####[[⬆]](#toc) <a name='html'>HTML въпроси:</a>
 
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
@@ -79,7 +79,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
 
-####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
+####[[⬆]](#toc) <a name='css'>CSS въпроси:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe Floats and how they work.
@@ -102,7 +102,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 
-####[[⬆]](#toc) <a name='js'>JS Questions:</a>
+####[[⬆]](#toc) <a name='js'>JS въпроси:</a>
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -152,7 +152,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
-####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
+####[[⬆]](#toc) <a name='jquery'>jQuery въпроси:</a>
 
 * Explain "chaining".
 * Explain "deferreds".
@@ -170,7 +170,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 $(".foo div#bar:eq(0)")
 ```
 
-####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
+####[[⬆]](#toc) <a name='jscode'>Въпроси, свързани с програмиране:</a>
 
 
 ```javascript
@@ -209,14 +209,14 @@ foo.push(2);
 
 **Answer: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
+####[[⬆]](#toc) <a name='fun'>Забавни въпроси:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
 * What are your favorite parts about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
+####[[⬆]](#toc) <a name='references'>Допълнителни ресурси:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
