@@ -69,15 +69,15 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='html'>HTML въпроси:</a>
 
-* What's a `doctype` do?
-* What's the difference between standards mode and quirks mode?
-* What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
-* How do you serve a page with content in multiple languages?
-  * What kind of things must you be wary of when design or developing for multilingual sites?
-* What are `data-` attributes good for?
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5?
-* Describe the difference between cookies, sessionStorage and localStorage.
+* Какво прави `doctype`?
+* Каква е разликат между standards mode и quirks mode?
+* Какви са ограниченията при XHTML страниците?
+  * Има ли проблеми при обработката на страници с `application/xhtml+xml`?
+* Как връщате страници със съдържание на няколко езика?
+  * Какви неща трябва да се имат предвид, когато правите дизайн или разработвате многоезични страници?
+* За какво служат HTML атрибутите, които започват с `data-`?
+* Представете си HTML5 като отворена уеб платформа. Кои са градивните елементи на HTML5?
+* Обяснете разликата между бисквитки, sessionStorage и localStorage.
 
 ####[[⬆]](#toc) <a name='css'>CSS въпроси:</a>
 
