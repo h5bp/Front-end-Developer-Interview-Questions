@@ -20,7 +20,7 @@
 
 ####[[⬆]](#toc) <a name='contributors'>Участници в проекта:</a>
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+Мнозинството от въпроси са взети от [oksoclap](http://oksoclap.com/) измислени от [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) и благодарение на:
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
 * [@cowboy](http://twitter.com/cowboy) - http://benalman.com
@@ -38,7 +38,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 * Какво научихте вчера / тази седмица?
 * Какво ви привлича в писането на код?
-* Какви неща свързани с потребителския интерфейс, сигурността, бързодействието, SEO, поддръжката или технологиите взимате предвид, когато създавате веб приложения или сайтове?
+* Какви неща свързани с потребителския интерфейс, сигурността, бързодействието, SEO, поддръжката или технологиите взимате предвид, когато създавате уеб приложения или сайтове?
 * Разкажете за предпочитаната среда за разработка. (операционна система, редактор, браузър, инструменти и т.н.)
 * Можете ли да обясните последователността от действия, които извършвате, когато създавате уеб страници?
 * Можете ли да обясните разликите между progressive enhancement и graceful degradation?
@@ -70,7 +70,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ####[[⬆]](#toc) <a name='html'>HTML въпроси:</a>
 
 * Какво прави `doctype`?
-* Каква е разликат между standards mode и quirks mode?
+* Каква е разликата между standards mode и quirks mode?
 * Какви са ограниченията при XHTML страниците?
   * Има ли проблеми при обработката на страници с `application/xhtml+xml`?
 * Как връщате страници със съдържание на няколко езика?
@@ -89,9 +89,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Коя техника предпочитате: CSS свойства за всеки браузър, условно включени .css файлове, или... нещо друго?
 * Как показвате страниците си на браузъри, които не поддържат част от възможностите на HTML5?
   * Какви техники/процеси използвате?
-* Какви са различните начини визуално да скриете съсържание от уеб страницата (и да го направите видимо само за екранните четци)?
+* Какви са различните начини визуално да скриете съдържание от уеб страницата (и да го направите видимо само за екранните четци)?
 * Използвали ли сте грид система и ако да, коя предпочитате?
-* Изполвали ли сте media queries или специфичен за мобилните платформи layouts или CSS?
+* Използвали ли сте media queries или специфичен за мобилните платформи layouts или CSS?
 * Запознати ли сте със стилизирането на SVG?
 * Как оптимизирате вашите уеб страници за принтиране?
 * Кои са някои от "триковете" за писане на ефективен CSS?
