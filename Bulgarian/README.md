@@ -136,8 +136,8 @@
 * Обяснете "hoisting".
 * Обяснете event bubbling-а.
 * Каква е разликата между "атрибут" и "свойство"?
-* Why is extending built in JavaScript objects not a good idea?
-* Why is extending built ins a good idea?
+* Защо extending built в JavaScript обктите не е добра идея?
+* Защо extending built е добра идея?
 * Каква е разликата между събитията "document load" и "document ready"?
 * Каква е разликата между `==` и `===`?
 * Обяснете как да вземете query string параметъра от адреса в браузъра.
