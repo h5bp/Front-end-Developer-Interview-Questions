@@ -20,7 +20,7 @@
 
 ####[[⬆]](#toc) <a name='contributors'>Участници в проекта:</a>
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+Мнозинството от въпроси са взети от [oksoclap](http://oksoclap.com/) измислени от [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) и благодарение на:
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
 * [@cowboy](http://twitter.com/cowboy) - http://benalman.com
@@ -36,121 +36,121 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='general'>Общи въпроси:</a>
 
-* What did you learn yesterday/this week?
-* What excites or interests you about coding?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Can you describe your workflow when you create a web page?
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
-    * Caching
-    * etc.
-* Why is it better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistent)
-  * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
-* What tools do you use to test your code's performance?
+* Какво научихте вчера / тази седмица?
+* Какво ви привлича в писането на код?
+* Какви неща свързани с потребителския интерфейс, сигурността, бързодействието, SEO, поддръжката или технологиите взимате предвид, когато създавате уеб приложения или сайтове?
+* Разкажете за предпочитаната среда за разработка. (операционна система, редактор, браузър, инструменти и т.н.)
+* Можете ли да обясните последователността от действия, които извършвате, когато създавате уеб страници?
+* Можете ли да обясните разликите между progressive enhancement и graceful degradation?
+  * Бонус точки за обяснението на feature detection (определяне на това, какво поддържа браузъра и какво не)
+* Обяснете какво означава "Semantic HTML".
+* Как бихте оптимизирали зареждането на ресурси за дадена уеб страница?
+  * Има различни техники, които решават този проблем. Сред тях са:
+    * Събиране на няколко файла заедно
+    * Минифициране на файловете (премахване на празни места, махане на коментари и т.н.)
+    * Използване на CDN за доставяне на ресурсите
+    * Кеширане
+    * и т.н.
+* Защо е добра идея да сайтовете да свалят ресурсите от няколко различни домейна?
+  * По колко ресурса едновременно свалят браузърите от даден домейн?
+* Назовете 3 начина да намалите скоростта на зареждане на дадена страница. (забележимата или реалната скорост на зареждане)
+* Ако се присъедините към проект, който използва табулации, а вие използвате разстояния за отстъп, какво ще направите?
+  * Предложете EditorConfig (http://editorconfig.org) или подобен проект
+  * Използвайте конвенцията на проекта
+  * `Използвайте :retab! командата`
+* Реализирайте примерно слайд-шоу
+  * Бонус точки, ако не използвате JS.
+* Какви инструменти използвате за да тествате бързодействието на вашия код?
   * Profiler, JSPerf, Dromaeo
-* If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
+* Ако можете да научите много добре 1 технология тази година, каква ще е тя?
+* Каква е разликата между Long-Polling, Websockets и SSE?
+* Обяснете важността на стандартите и организациите за стандартизация.
+* Какво е FOUC? Как се справяте с FOUC?
 
 ####[[⬆]](#toc) <a name='html'>HTML въпроси:</a>
 
-* What's a `doctype` do?
-* What's the difference between standards mode and quirks mode?
-* What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
-* How do you serve a page with content in multiple languages?
-  * What kind of things must you be wary of when design or developing for multilingual sites?
-* What are `data-` attributes good for?
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5?
-* Describe the difference between cookies, sessionStorage and localStorage.
+* Какво прави `doctype`?
+* Каква е разликата между standards mode и quirks mode?
+* Какви са ограниченията при XHTML страниците?
+  * Има ли проблеми при обработката на страници с `application/xhtml+xml`?
+* Как връщате страници със съдържание на няколко езика?
+  * Какви неща трябва да се имат предвид, когато правите дизайн или разработвате многоезични страници?
+* За какво служат HTML атрибутите, които започват с `data-`?
+* Представете си HTML5 като отворена уеб платформа. Кои са градивните елементи на HTML5?
+* Обяснете разликата между бисквитки, sessionStorage и localStorage.
 
 ####[[⬆]](#toc) <a name='css'>CSS въпроси:</a>
 
-* Describe what a "reset" CSS file does and how it's useful.
-* Describe Floats and how they work.
-* What are the various clearing techniques and which is appropriate for what context?
-* Explain CSS sprites, and how you would implement them on a page or site.
-* What are your favourite image replacement techniques and which do you use when?
-* CSS property hacks, conditionally included .css files, or... something else?
-* How do you serve your pages for feature-constrained browsers?
-  * What techniques/processes do you use?
-* What are the different ways to visually hide content (and make it available only for screen readers)?
-* Have you ever used a grid system, and if so, what do you prefer?
-* Have you used or implemented media queries or mobile specific layouts/CSS?
-* Any familiarity with styling SVG?
-* How do you optimize your webpages for print?
-* What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
-  * If so, describe what you like and dislike about the CSS preprocessors you have used.
-* How would you implement a web design comp that uses non-standard fonts?
-  * Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?
-* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+* Обяснете както е "reset" CSS файл и за какво е необходим.
+* Обяснете плаващите елементи (floats) и как работят.
+* Кои са различните clearing техники и кои в какъв контекст се използват?
+* Обяснете CSS sprite-овете, и как можете да ги вкарате на уеб страница или сайт.
+* Кои са любимите ви техники, които заменят картинките и в кои случаи кои от тях използвате?
+* Коя техника предпочитате: CSS свойства за всеки браузър, условно включени .css файлове, или... нещо друго?
+* Как показвате страниците си на браузъри, които не поддържат част от възможностите на HTML5?
+  * Какви техники/процеси използвате?
+* Какви са различните начини визуално да скриете съдържание от уеб страницата (и да го направите видимо само за екранните четци)?
+* Използвали ли сте грид система и ако да, коя предпочитате?
+* Използвали ли сте media queries или специфичен за мобилните платформи layouts или CSS?
+* Запознати ли сте със стилизирането на SVG?
+* Как оптимизирате вашите уеб страници за принтиране?
+* Кои са някои от "триковете" за писане на ефективен CSS?
+* Какви са предимствата/недостатъците при използване на SASS, Compass, Stylus, LESS и подобни?
+  * Опишете какво ви харесва и не ви харесва при използването им.
+* Как реализирате уеб дизайни, които използват нестандартни фонтове?
+  * Уеб фонтове (фонт сървиси като: Google Webfonts, Typekit и т.н.)
+* Обяснете как уеб браузърите разбират кои елементи отговарят на даден CSS селектор.
+* Как разбирате box модела и как казвате на уеб браузъра чрез CSS да рендира вашия лейаут с различен box модел.
 
 ####[[⬆]](#toc) <a name='js'>JS въпроси:</a>
 
-* Explain event delegation
-* Explain how `this` works in JavaScript
-* Explain how prototypal inheritance works
-* How do you go about testing your JavaScript?
-* AMD vs. CommonJS?
-* What's a hashtable?
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
-  * What needs to be changed to properly make it an IIFE?
-* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
-  * How would you go about checking for any of these states?
-* What is a closure, and how/why would you use one?
-* What's a typical use case for anonymous functions?
-* Explain the "JavaScript module pattern" and when you'd use it.
-  * Bonus points for mentioning clean namespacing.
-  * What if your modules are namespace-less?
-* How do you organize your code? (module pattern, classical inheritance?)
-* What's the difference between host objects and native objects?
-* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-* What's the difference between `.call` and `.apply`?
-* explain `Function.prototype.bind`?
-* When do you optimize your code?
-* Can you explain how inheritance works in JavaScript?
-* When would you use `document.write()`?
-  * Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string
-* Explain AJAX in as much detail as possible
-* Explain how JSONP works (and how it's not really AJAX)
-* Have you ever used JavaScript templating?
-  * If so, what libraries have you used? (Mustache.js, Handlebars etc.)
-* Explain "hoisting".
-* Describe event bubbling.
-* What's the difference between an "attribute" and a "property"?
-* Why is extending built in JavaScript objects not a good idea?
-* Why is extending built ins a good idea?
-* Difference between document load event and document ready event?
-* What is the difference between `==` and `===`?
-* Explain how you would get a query string parameter from the browser window's URL.
-* Explain the same-origin policy with regards to JavaScript.
-* Describe inheritance patterns in JavaScript.
-* Make this work:
+* Обяснете делегатите на събития
+* Обяснете как работи `this` в JavaScript
+* Обяснете как работят прототипните интерфейси
+* Как тествате вашия JavaScript?
+* AMD или CommonJS?
+* Какво е хеш-таблица?
+* Обяснете защо този код не работи като IIFE: `function foo(){ }();`. 
+  * Какво е нужно да се промени, за да може кодът да работи като IIFE?
+* Каква е разликата между променлива, която е: `null`, `undefined` или `недекларирана`?
+  * Как проверявате всяко от тези състояния на променливите?
+* Какво е closure? Как и защо се използва?
+* Какви са типичните употреби на анонимните функции?
+* Обяснете "JavaScript модул патърна" и кога се използва.
+  * Бонус точки за споменаване на "замърсяване на глобалния scope".
+  * Какво ще стане ако модулите нямат namespace?
+* Как организирате своя код? (модул патърн, класическо наследяване?)
+* Каква е разликата между host обекти и native обекти?
+* Каква е разликата между: `function Person(){}`, `var person = Person()` и `var person = new Person()`?
+* Каква е разликата между `.call` и `.apply`?
+* Обяснете `Function.prototype.bind`?
+* Кога оптимизирате кода си?
+* Можете ли да обясните как работи наследяването в JavaScript?
+* В какви случаи бихте използвали `document.write()`?
+  * Повечето генерирани реклами все още използват `document.write()`
+* Каква е разликата между feature detection, feature inference, и използването на информация, кой е браузъра?
+* Обяснете AJAX във възможно най-много детайли.
+* Обяснете как работи JSONP (и защо не е точно AJAX)
+* Използвали ли сте JavaScript темплейти?
+  * Ако да, коя библиотека сте използвали? (Mustache.js, Handlebars и т.н.)
+* Обяснете "hoisting".
+* Обяснете event bubbling-а.
+* Каква е разликата между "атрибут" и "свойство"?
+* Защо extending built в JavaScript обктите не е добра идея?
+* Защо extending built е добра идея?
+* Каква е разликата между събитията "document load" и "document ready"?
+* Каква е разликата между `==` и `===`?
+* Обяснете как да вземете query string параметъра от адреса в браузъра.
+* Обяснете same-origin policy-то от гледна точка на JavaScript.
+* Опишете патърните за наследяване в JavaScript.
+* Оправете кода, така че да работи:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript.
-* Why is it called a Ternary expression, what does the word "Ternary" indicate?
-* What is the arity of a function?
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Опишете стратегия за memoization (избягване на повторните изчисления) в JavaScript.
+* Защо тернарният оператор се нарича така? Какво означава думата "тернарен"?
+* Какво е arity на функция?
+* Какво е `"use strict";`? Какви са предимствата и недостатъците от слагането му в кода?
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery въпроси:</a>
 
@@ -176,38 +176,38 @@ $(".foo div#bar:eq(0)")
 ```javascript
 modulo(12, 5) // 2
 ```
-*Question: Implement a modulo function that satisfies the above*
+*Въпрос: Имплементирайте функцията modulo която отговаря на горното условие (да връща 2 при аргументи 12 и 5)*
 
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-*Question: What value is returned from the above statement?*
+*Въпрос: Каква стойност ще върне горният израз?*
 
-**Answer: "goh angasal a m'i"**
+**Отговор: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-*Question: What is the value of `window.foo`?*
+*Въпрос: Каква е стойността на `window.foo`?*
 
-**Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
+**Отговор: "bar", ако `window.foo` има стойност `false`, иначе стойността на `window.foo`)**
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-*Question: What is the outcome of the two alerts above?*
+*Въпрос: Какво ще изкарат двете alert функции от горния код?*
 
-**Answer: "Hello World" & ReferenceError: bar is not defined**
+**Отговор: "Hello World" и ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-*Question: What is the value of `foo.length`?*
+*Въпрос: Каква е стойността на `foo.length`?*
 
-**Answer: `2`**
+**Отговор: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Забавни въпроси:</a>
 
