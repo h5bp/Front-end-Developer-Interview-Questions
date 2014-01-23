@@ -67,6 +67,7 @@
 * 你用什麼工具來測試你的程式碼效能？
 	* Profiler, [JSPerf](http://jsperf.com/), [Dromaeo](http://dromaeo.com/)
 * 如果今年你能精通一項技術，那會是什麼？
+* Long-Polling, Websockets, SSE(Server-Sent Event)之間有什麼差異？
 * 描述標準和製定標準機構的重要性？
 * 什麼是 FOUC？ 你怎麼避免 FOUC?  
 
