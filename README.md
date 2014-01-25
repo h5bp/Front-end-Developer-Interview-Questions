@@ -66,6 +66,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What are the differences between Long-Polling, Websockets and SSE?
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
+* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
@@ -78,6 +79,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
+* Can you explain the difference between `GET` and `POST`?
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 
@@ -101,6 +103,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+* List as many values for the display property that you can remember.
+* What's the difference between inline and inline-block?
+* What's the difference between a relative, fixed, absolute and statically positioned element?
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
@@ -221,3 +226,5 @@ foo.push(2);
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
 * http://css-tricks.com/interview-questions-css/
+* http://davidshariff.com/quiz/
+* http://blog.sourcing.io/interview-questions
