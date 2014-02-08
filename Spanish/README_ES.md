@@ -111,6 +111,10 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Cómo implementaría un diseño que usa fuentes que no son web-safe?
 	* Webfonts (usando servicios para fuentes como Goodle Webfonts, Typekit, entre otros).
 * ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
+* ¿Puede explicar cómo entiende el `box model` (modelo de cajas) y como podría hacer que un navegador renderize su esquema usando diferentes modelos de cajas?
+* Por favor enliste todos los valores para la propiedad `display` que pueda recordar
+* ¿Cual es la diferencia entre `inline` y `inline-block`?
+* ¿Cual es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
 
 **[[⬆]](#indice)**
 
