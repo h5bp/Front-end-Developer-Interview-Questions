@@ -63,8 +63,10 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Vilka verktyg använder du dig av för att testa din kods prestanda?
   * Profiler, JSPerf, Dromaeo
 * Om du kunde bemästra en teknologi i år, vad skulle det vara?
+* Vad är skillnaderna mellan long-polling, WebSockets och SSE?
 * Beskriv varför det är viktigt med standarder och standardiseringsorganisationer.
 * Vad är FOUC? Hur undviker du FOUC?
+* Förklara så noggrannt du kan processen från att du skriver in en webbsidas URL till att sidan har laddats färdigt på din skärm.
 
 ####[[⬆]](#toc) <a name='html'>HTML-frågor:</a>
 
@@ -77,6 +79,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Vad är `data-`-attributen bra för?
 * Tänk dig HTML5 som en öppen webb-plattform. Vad är byggstenarna i HTML5?
 * Beskriv skillnaden mellan cookies, sessionStorage och localStorage.
+* Kan du förklara skillnaden mellan `GET` och `POST`?
 
 ####[[⬆]](#toc) <a name='css'>CSS-frågor:</a>
 
@@ -100,6 +103,9 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
   * Webbtypsnitt (Typsnittstjänster som: Google webbtypsnitt, Typekit o.s.v.)
 * Förklara hur en webbläsare bestämmer vilka element som matchar en selektor.
 * Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera din layout i olika boxmodeller.
+* Lista så många värden för display-egenskapen som du kan komma ihåg.
+* Vad är skillnaden mellan inline och inline-block?
+* Vad är skillnaden mellan element som är positionerade med relative, fixed, absolute och static?
 
 ####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
 
@@ -214,3 +220,5 @@ foo.push(2);
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
 * http://css-tricks.com/interview-questions-css/
+* http://davidshariff.com/quiz/
+* http://blog.sourcing.io/interview-questions
