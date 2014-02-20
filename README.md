@@ -217,6 +217,7 @@ foo.push(2);
 $a = 012;
 echo $a/4;
 ```
+* What is the maximum size of a file that we can upload using PHP?
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
