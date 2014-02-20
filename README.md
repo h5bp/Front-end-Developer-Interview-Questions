@@ -212,6 +212,11 @@ foo.push(2);
 ####[[⬆]](#toc) <a name='php'>PHP Questions:</a>
 
 * What is value of ("foo" == true)?
+* What is output of this code:
+```php
+$a = 012;
+echo $1/4;
+```
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
