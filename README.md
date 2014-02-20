@@ -215,7 +215,7 @@ foo.push(2);
 * What is output of this code:
 ```php
 $a = 012;
-echo $1/4;
+echo $a/4;
 ```
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
