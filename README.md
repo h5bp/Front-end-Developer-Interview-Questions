@@ -15,6 +15,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
+  1. [PHP Questions](#php)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
 
@@ -207,6 +208,10 @@ foo.push(2);
 *Question: What is the value of `foo.length`?*
 
 **Answer: `2`**
+
+####[[⬆]](#toc) <a name='php'>PHP Questions:</a>
+
+* What is value of ("foo" == true)?
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
