@@ -70,6 +70,7 @@
 * Long-Polling, Websockets, SSE(Server-Sent Event)之間有什麼差異？
 * 描述標準和製定標準機構的重要性？
 * 什麼是 FOUC？ 你怎麼避免 FOUC?
+* 請詳細描述當您在網址列打入網址開始到最後網頁呈現在螢幕前的整個流程
 
 ####[[⬆]](#toc) <a name='html'>HTML 規格問題集:</a>
 
@@ -82,6 +83,7 @@
 * `data-` 屬性的好處在哪？
 * 考慮 HTML5 作為一個開放式的網站平台。HTML5 的 building blocks 有哪些？
 * 請描述 cookies, sessionStorage 和 localStorage 的不同？
+* 請描述 `GET` 和 `POST` 差異性
 
 ####[[⬆]](#toc) <a name='css'>CSS 規格問題集：</a>
 
@@ -104,7 +106,10 @@
 * 你如何使用非標準字體來實作網頁設計？
     * Webfonts (font services 像是: Google Webfonts, Typekit …等等)
 * 解釋瀏覽器如何按照 CSS selector 找到對應的element？
-* 解釋你所認知的box model，以及你如何在CSS告訴瀏覽器使用不同box model來呈現圖層？
+* 解釋你所認知的 box model，以及你如何在 CSS告訴瀏覽器使用不同box model來呈現圖層？
+* 請列出您記憶中 display 屬性的全部值
+* 請說明 inline 和 inline-block 的差異性？
+* 請說明 relative、fixed、absolute 和 static 元件差異性
 
 ####[[⬆]](#toc) <a name='js'>JS 規格問題集：</a>
 
@@ -230,3 +235,5 @@ foo.push(2);
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
 * http://css-tricks.com/interview-questions-css/
+* http://davidshariff.com/quiz/
+* http://blog.sourcing.io/interview-questions
