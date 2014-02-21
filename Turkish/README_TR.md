@@ -128,9 +128,9 @@ Söz konusu aşağıdaki sorular [Paul Irish](http://paulirish.com) ([@paul_iris
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* What's the difference between `.call` and `.apply`?
-* What's the difference between `undefined` and `null`?
-* explain `Function.prototype.bind`?
+* `.call` ve `.apply` arasındaki fark nedir?
+* `undefined` ve `null` arasındaki fark nedir?
+* `Function.prototype.bind` açıklayınız?
 * When do you optimize your code?
 * Can you explain how inheritance works in JavaScript?
 * When would you use `document.write()`?
@@ -150,7 +150,7 @@ function Person(){} var person = Person() var person = new Person()
 * Explain how you would get a query string parameter from the browser window's URL.
 * Explain the same-origin policy with regards to JavaScript.
 * Describe inheritance patterns in JavaScript.
-* Make this work:
+* Çözümleyiniz:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
@@ -230,8 +230,8 @@ Soru: `foo.length`in değeri kaçtır?
 ####<a name='fun'>Eğlence Soruları:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
-* What are your favorite parts about the developer tools you use?
+* Kullandığınız geliştirici araçları arasında, sevdikleriniz nelerdir ?
 * Do you have any pet projects? What kind?
-* What's your favorite feature of Internet Explorer?
+* Internet Explorer'ın sevdiğiniz özellikleri nelerdir?
 
 **[[⬆]](#toc)**
