@@ -103,6 +103,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+* What does ```* { Box-sizing: Border-box; }``` do? What are its advantages? 
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
