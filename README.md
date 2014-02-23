@@ -106,7 +106,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
-* What existing CSS frameworks have you used locally, or in production?
+* What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
   * If so, which ones? If you could, how would you change/improve them? 
 * Have you played around with the new CSS Flexbox or Grid specs?
   * If so, what do you think of them from a performance standpoint? 
