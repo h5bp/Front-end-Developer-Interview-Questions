@@ -1,26 +1,23 @@
-#Front-end Job Interview Questions
+#Ön Yüz -Front-end- Mülakat Soruları
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+Burada ön yüz -ya da front-end- iş başvurularında karşınıza çıkabilecek sorular yer almaktadır. Burada yer alan her sorunun söz konusu iş başvurularında karşınıza çakması garanti olmayıp, olası sorulardır. Buradaki sorular sadece iş başvurusu yapanlar için olmamakla beraber, bu branşta kendini geliştirmeyi planlayanlar da bu sorularla kendilerini sınayabilirler.
 
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
+[Rebecca Murphey](http://rmurphey.com/)'in [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) adlı İngilizce makalesinin de okunması tavsiye edilmektedir.
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+## <a name='toc'>İçindekiler</a>
 
-## <a name='toc'>Table of Contents</a>
+  1. [Katkıda Bulunanlar](#contributors)
+  1. [Genel Sorular](#general)
+  1. [HTML Soruları](#html)
+  1. [CSS Soruları](#css)
+  1. [JS Soruları](#js)
+  1. [jQuery Soruları](#jquery)
+  1. [Kodlama Becerisi Soruları](#jscode)
+  1. [Eğlence Soruları](#fun)
 
-  1. [Original Contributors](#contributors)
-  1. [General Questions](#general)
-  1. [HTML Questions](#html)
-  1. [CSS Questions](#css)
-  1. [JS Questions](#js)
-  1. [jQuery Questions](#jquery)
-  1. [Coding Questions](#jscode)
-  1. [Fun Questions](#fun)
-  1. [Other Great References](#references)
+####<a name='contributors'>Katkıda Bulunanlar:</a>
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
-
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+Söz konusu aşağıdaki sorular [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) önderliğinde ve aşağıdaki katkıcılarca oluşturulmuştur:
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
 * [@cowboy](http://twitter.com/cowboy) - http://benalman.com
@@ -34,54 +31,56 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+**[[⬆]](#toc)**
 
-* What did you learn yesterday/this week?
+####<a name='general'>Genel Sorular:</a>
+
+* Dün -ya da bu hafta- neler öğrendin?
 * What excites or interests you about coding?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Can you describe your workflow when you create a web page?
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
+* Bize biraz geliştirme ortamından bahset. -İşletim Sistemi, Web Tarayıcı, Araçlar, Kod Editörü/IDE, vb.-
+* Web sayfasını oluştururken hangi adımları takip edersin ?
+* "Aşamalı geliştirme" ile "kabul edilebilir etkinlik düşüşü" arasında ne fark vardır?
+  * Bahsedilen doğru özellikler için artı puan 
+* "Semantic HTML" ne demektir, açıklayabilir misin?
+* Web sitesindeki dosyaları nasıl optimize edersin?
+  * Beklenilen çözüm alt başlıkları:
+    * Dosya birleştirme
+    * Dosya boyut küçültme
+    * CDN kullanımı
     * Caching
-    * etc.
-* Why is it better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
+    * vb.
+* Sitedeki JS/CSS gibi yan kaynakları birden fazla alanadı altında barındırmanın avantajları nelerdir ?
+  * Belli bir zamanda, tek bir alanadı üzerinden web tarayıcısı ne kadar kaynak indirebilir?
+* Sayfa yüklenme süresini azaltmak için hangi yollara başvurursun?
+* Yeni dahil olduğunuz bir projede, kodlama için `Space` boşluk kullanılıyor ama siz `Tab` ile boşluk bırakmayı tercih ediyorsunuz. Bu durumda ne yaparsınız?
+  * EditorConfig (http://editorconfig.org) vb. kod yazım standardını kolaylaştıran araçlar
   * Conform to the conventions (stay consistent)
   * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
+* Basit bir slayt/galeri sayfası oluşturun
+  * JS kodu kullanılmaması halinde artı puan.
 * What tools do you use to test your code's performance?
   * Profiler, JSPerf, Dromaeo
 * If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
-* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 
-####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
+**[[⬆]](#toc)**
 
-* What's a `doctype` do?
-* What's the difference between standards mode and quirks mode?
-* What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
+####<a name='html'>HTML Soruları:</a>
+
+* `doctype`ın işlevi nedir?
+*  "standart mod" ile "aptal mod" arasındaki fark nedir?
+* XHTML sayfalarının ne gibi sınırlamaları vardır?
+  * Sayfaların `application/xhtml+xml` olarak çalıştırılmasında herhangi bir sakınca var mıdır?
 * How do you serve a page with content in multiple languages?
   * What kind of things must you be wary of when design or developing for multilingual sites?
-* What are `data-` attributes good for?
+* `data-` özelliği ne faydalar sağlar?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
-* Can you explain the difference between `GET` and `POST`?
 
-####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
+**[[⬆]](#toc)**
+
+####<a name='css'>CSS Soruları:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe Floats and how they work.
@@ -103,11 +102,10 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-* List as many values for the display property that you can remember.
-* What's the difference between inline and inline-block?
-* What's the difference between a relative, fixed, absolute and statically positioned element?
 
-####[[⬆]](#toc) <a name='js'>JS Questions:</a>
+**[[⬆]](#toc)**
+
+####<a name='js'>JS Soruları:</a>
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -126,9 +124,13 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * What if your modules are namespace-less?
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
-* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-* What's the difference between `.call` and `.apply`?
-* explain `Function.prototype.bind`?
+* Difference between:
+```javascript
+function Person(){} var person = Person() var person = new Person()
+```
+* `.call` ve `.apply` arasındaki fark nedir?
+* `undefined` ve `null` arasındaki fark nedir?
+* `Function.prototype.bind` açıklayınız?
 * When do you optimize your code?
 * Can you explain how inheritance works in JavaScript?
 * When would you use `document.write()`?
@@ -148,7 +150,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how you would get a query string parameter from the browser window's URL.
 * Explain the same-origin policy with regards to JavaScript.
 * Describe inheritance patterns in JavaScript.
-* Make this work:
+* Çözümleyiniz:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
@@ -157,7 +159,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
-####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
+**[[⬆]](#toc)**
+
+####<a name='jquery'>jQuery Soruları:</a>
 
 * Explain "chaining".
 * Explain "deferreds".
@@ -174,35 +178,35 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
+* Difference between 'delegate()' and 'live()'?
 
-####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
+**[[⬆]](#toc)**
 
+####<a name='jscode'>Kodlama Becerisi Soruları:</a>
 
 ```javascript
-modulo(12, 5) // 2
+~~3.14
 ```
-*Question: Implement a modulo function that satisfies the above*
-
+Question: What value is returned from the above statement?
+**Answer: 3**
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-*Question: What value is returned from the above statement?*
-
+Question: What value is returned from the above statement?
 **Answer: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-*Question: What is the value of `window.foo`?*
-
-**Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
+Soru: `window.foo`nun değeri nedir? 
+**Cevap: "bar"**
+`window.foo`nun değeri false olmadıkça kendi değerini döndürür.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-*Question: What is the outcome of the two alerts above?*
-
+Soru: Yukarıdaki iki uyarının -`alert`- çıktısı nedir? 
 **Answer: "Hello World" & ReferenceError: bar is not defined**
 
 ```javascript
@@ -210,21 +214,24 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-*Question: What is the value of `foo.length`?*
+Soru: `foo.length`in değeri kaçtır? 
 
-**Answer: `2`**
+**Cevap: `2`
 
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
+```javascript
+var foo = {};
+foo.bar = 'hello';
+```
+Soru: `foo.length`in değeri kaçtır? 
+**Cevap: `undefined`
+
+**[[⬆]](#toc)**
+
+####<a name='fun'>Eğlence Soruları:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
-* What are your favorite parts about the developer tools you use?
+* Kullandığınız geliştirici araçları arasında, sevdikleriniz nelerdir ?
 * Do you have any pet projects? What kind?
-* What's your favorite feature of Internet Explorer?
+* Internet Explorer'ın sevdiğiniz özellikleri nelerdir?
 
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
-
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
+**[[⬆]](#toc)**
