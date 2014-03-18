@@ -1,10 +1,10 @@
-#Questionaire de recrutement pour développeur front-end
+#Questionnaire de recrutement pour développeur front-end
 
-Ce dépôt contient un certain nombre de questions pour entretien d'embauche sur le développement front-end qui peuvent être utilisée sur des candidats potentiels. Il n'est en aucun cas recommandé de poser toutes ces questions à un unique candidat (ça prendrait des heures). En choisir quelques-unes de cette liste devrait vous aider à vérifier les compétences dont vous avez besoin.
+Cette liste contient un certain nombre de questions que vous pouvez poser lors d'un entretien d'embauche pour un développeur Front-End. Il n'est en aucun cas recommandé de poser toutes ces questions à un candidat (ça prendrait des heures). Choisissez en quelques-unes liées au profil que vous rechercher afin de vérifier les compétences dont vous avez besoin.
 
 L'article [Bases pour les développeurs front-end](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) (en) de [Rebecca Murphey](http://rmurphey.com/) est aussi une bonne ressource à lire avant de se lancer dans un entretien.
 
-**Note:** Gardez en tête que la plupart de ces questions sont ouvertes et qu'elles peuvent mener à des discussions intéressantes, qui vous en apprendront plus sur les capacités de la personne qu'une question directe le ferait.
+**Note:** Gardez en tête que la plupart de ces questions sont ouvertes et qu'elles peuvent mener à des discussions intéressantes, qui vous en apprendront plus sur les capacités de la personne.
 
 ## <a name='toc'>Table des matières</a>
 
@@ -38,9 +38,10 @@ La majorité des questions sont tirées d'un sujet sur [oksoclap](http://oksocla
 ####<a name='general'>Questions générales:</a>
 
 * Qu'avez-vous appris cette semaine ?
-* Qu'est-ce qui vous motive ou vous intéresse dans le développement ?
+* Qu'est ce qui vous motive ou vous intéresse dans le développement ?
 * Parlez-moi de votre environnement de travail préféré. (OS, éditeur, navigateur, outils, etc.)
 * Pouvez-vous décrire comment vous travaillez (votre workflow) lorsque vous créez une page web ?
+* Avec quels logiciels de gestion de versions ètes vous familier? 
 * Pouvez-vous décrire la différence entre amélioration progressive et dégradation gracieuse ?
   * Point bonus si description des méthodes de détection.
 Expliquez ce que le terme «HTML sémantique» signifie.
@@ -54,7 +55,7 @@ Expliquez ce que le terme «HTML sémantique» signifie.
 * Pourquoi est-il préférable de disposer ses assets sur des domaines différents ?
   * Combien de ressources différentes à la fois un navigateur peut-il télécharger à partir d'un même domaine ?
 * Donnez 3 façons qui permettent de réduire le temps de chargement d'une page (perçu ou réel).
-* Si vous démarrez sur un projet existant, que votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
+* Si vous commencer à travailler sur un projet existant, où votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
   * Vous proposez d'utiliser quelque chose comme EditorConfig (http://editorconfig.org)
   * Vous restez fidèle aux conventions
   * `issue :retab! command`
@@ -64,7 +65,7 @@ Expliquez ce que le terme «HTML sémantique» signifie.
   * JSPerf (http://jsperf.com/)
   * Dromaeo (http://dromaeo.com/)
   * etc.
-* Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait-ce ?
+* Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait t'elle ?
 * Expliquez l'importance des standards et des organisations les édictant.
 * Qu'est-ce que le FOUC, comment l'évitez-vous ?
 
@@ -87,11 +88,11 @@ Expliquez ce que le terme «HTML sémantique» signifie.
 ####<a name='css'>Questions sur CSS :</a>
 
 * Décrivez ce que fait un "reset" CSS et en quoi il est utile.
-* Décrivez le positionnement flottant et comment cela fonctionne.
+* Décrivez le positionnement flottant et son fonctionnement.
 * Quelles sont les différentes méthodes de "clearing" des éléments flottant, et laquelle est appropriée pour chaque contexte ?
-* Expliquez ce que sont les "sprites" CSS, et comment vous les implémenteriez sur une page ou un site.
+* Expliquez ce que sont les "sprites" CSS et comment vous les implémenteriez sur une page ou un site.
 * Quelles sont vos techniques favorites de remplacement d'images, et comment les utilisez-vous ?
-* Parmi les solutions suivantes, laquelle préférez-vous ? Hacks CSS, appel de fichier CSS par commentaire conditionnel ou autre chose ?
+* Parmi les solutions suivantes, laquelle préférez-vous ? Hacks CSS, appel de fichier CSS par commentaire conditionnel ou autre ?
 * Comment servez-vous vos pages pour les navigateurs aux fonctionnalités réduites ?
   * Quelles techniques/procédés utilisez-vous ?
 * Quelles sont les différentes manières de masquer du contenu (en le laissant disponible pour les lecteurs d'écran) ?
@@ -101,11 +102,11 @@ Expliquez ce que le terme «HTML sémantique» signifie.
 * Comment optimisez-vous vos pages pour l'impression (le print) ?
 * Quelques astuces pour écrire du CSS efficacement ?
 * Quels sont les avantages/désavantages de l'utilisation des préprocesseurs CSS ? (SASS, Compass, Stylus, LESS)
-  * Si vous avez un avis, décrivez ce que vous aimez et n'aimez pas des préprocesseurs que vous avez utilisés.
-* Comment implémenteriez-vous un design qui utilise des polices non standards ?
+  * Si vous avez un avis, décrivez ce que vous aimez et n'aimez pas des préprocesseurs que vous avez utilisé.
+* Comment implémenteriez-vous un design qui utilise des polices de caractères non standards ?
   * Webfonts (des services : Google Webfonts, Typekit, etc.)
-* Expliquez comment un navigateur détermine quels éléments correspondent à quel sélecteur CSS.
-* Expliquez ce que vous avez compris du modèle de boite et comment diriez-vous au navigateur, en CSS, de représenter votre mise en page avec des modèles de boite différents.
+* Expliquez comment un navigateur détermine quels éléments correspondent à un sélecteur CSS.
+* Expliquez ce que vous avez compris du modèle de boite (box model) et comment implémenteriez vous une mise en page avec des modèles de boite différents.
 
 **[[⬆]](#toc)**
 
@@ -114,7 +115,7 @@ Expliquez ce que le terme «HTML sémantique» signifie.
 * Expliquez la délégation d'évènement.
 * Expliquez comment fonctionne `this` en Javascript.
 * Expliquez comment fonctionne l'héritage de prototype.
-* Comment vous en sortez-vous avec les tests en Javascript ?
+* Comment testez-vous votre code Javascript ?
 * AMD ou CommonJS ?
 * Qu'est-ce qu'une table de hachage (hashtable) ?
 * Expliquez pourquoi ce qui suit n'est pas une IIFE (Immediately Invoked Function Expression) : `function foo(){ }();`.
@@ -123,7 +124,7 @@ Expliquez ce que le terme «HTML sémantique» signifie.
   * Comment feriez-vous pour vérifier chacun de ces états ?
 * Qu'est-ce qu'une "closure" et comment/pourquoi en utiliser une ?
   * Point bonus pour avoir mentionné le nettoyage de l'espace de nom (namespace).
-  . Et si vos modules n'avaient pas d'espace de nom ?
+  * Et si vos modules n'avaient pas d'espace de nom ?
 * Comment organisez-vous votre code ? (pattern modulaire, héritage classique ?)
 * Quelle est la différence entre des objets hôtes et des objets natifs ?
 * Différence entre :
@@ -136,27 +137,27 @@ function Person(){} var person = Person() var person = new Person()
 * Pouvez-vous expliquer comment fonctionne l'héritage en Javascript ?
 * Quand utiliseriez-vous `document.write()` ?
   * La plupart des pubs utilisent encore `document.write()` même si son utilisation est découragée.
-* Quelle est la différence entre détections de "feature", inférence de "feature" et l'utilisation du "User-Agent" ?
+* Quelle est la différence entre détection de "feature", inférence de "feature" et l'utilisation du "User-Agent" ?
 * Expliquez ce qu'est AJAX avec autant de détails que possible.
 * Expliquez comment fonctionne JSONP (et pourquoi ce n'est pas réellement de l'AJAX).
-* Avez-vous déjà utilisé fait du "templating" Javascript ?
+* Avez-vous déjà utilisé des "templates" en Javascript ?
   * Si oui, quelles librairies avez-vous utilisées ? (Mustache.js, Handlebars, etc.)
 * Expliquez le phénomène de "hoisting".
-* Décrivez la phase de remontée d'un évènement.
+* Décrivez le "event bubbling".
 * Quelle est la différence entre un "attribut" et une "propriété" ?
 * Pourquoi étendre des objets natifs de Javascript n'est-il pas une bonne idée ?
 * Pourquoi étendre les objets natifs est-il une bonne idée ?
-* Quelle est la différence entre un les évènements "document load" et "document ready" ?
+* Quelle est la différence entre les évènements "document load" et "document ready" ?
 * Quelle la différence entre `==` et `===` ?
 * Expliquez comment vous récupèreriez le paramètre d'une requête issu de l'URL de la fenêtre du navigateur ?
-* Expliquez la politique d'origine commune et ses implications en JavaScript.
+* Expliquez la politique d'origine commune (same-origin policy) et ses implications en JavaScript.
 * Expliquez les patterns d'héritage en JavaScript.
 * Faites fonctionner ceci :
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Décrivez une stratégie de "memoization" (éviter la répétition de calculs) en Javascript.
-* Pourquoi qualifierions-nous une expression de : ternaire ? Qu'est-ce que ce mot indique ?
+* Qu'est ce que l'opérateur ternaire ? Qu'est-ce que ce mot indique ?
 * Qu'est-ce que l'arité d'une fonction ?
 * Qu'est-ce que `"use strict";`? Quels sont les avantages et désavantages de son utilisation ?
 
@@ -230,8 +231,8 @@ Question: Quelle est la valeur de foo.length ?
 ####<a name='fun'>Questions pour le fun :</a>
 
 * Quel est le truc le plus cool que vous ayez programmé, de quoi êtes-vous le plus fier ?
-* Quelles sont vos parties favorites des outils de développement que vous utilisez ?
+* Quelles sont les parties favorites des outils de développement que vous utilisez ?
 * Avez-vous des projets chouchous ? Quel genre ?
-* Quelle est votre fonctionnalité favorite de IE ?
+* Quelle est votre fonctionnalité favorite dans IE ?
 
 **[[⬆]](#toc)**
