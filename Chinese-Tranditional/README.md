@@ -44,6 +44,7 @@
 * 寫程式的哪部份最讓你感到很興奮或是有興趣？
 * 當你開發Web應用程式或網站時，針對UI、安全性、效能、SEO、維護性，以及技術，你考量的點是什麼？
 * 說說你喜好的開發環境 (作業系統, 編輯器, 瀏覽器, 開發工具 … 之類)
+* 你最熟悉哪一套版本控制系統？
 * 你可以描述你在開發一個網站時的工作流程嗎？
 * 你可以描述漸進增強 (progressive enhancement) 和優美退化 (graceful degradation) 間的差異嗎？
     * 加分題：描述這兩項的特色？
@@ -105,11 +106,16 @@
     * 如果是這樣, 描述你使用過的喜歡和不喜歡的 CSS preprocessors
 * 你如何使用非標準字體來實作網頁設計？
     * Webfonts (font services 像是: Google Webfonts, Typekit …等等)
-* 解釋瀏覽器如何按照 CSS selector 找到對應的element？
-* 解釋你所認知的 box model，以及你如何在 CSS告訴瀏覽器使用不同box model來呈現圖層？
+* 解釋瀏覽器如何按照 CSS selector 找到對應的 element？
+* 解釋你所認知的 box model，以及你如何在 CSS 告訴瀏覽器使用不同 box model 來呈現圖層？
+* 請解釋 ```* { Box-sizing: Border-box; }```？並且說明使用它的好處
 * 請列出您記憶中 display 屬性的全部值
 * 請說明 inline 和 inline-block 的差異性？
 * 請說明 relative、fixed、absolute 和 static 元件差異性
+* 你目前有使用哪一套 CSS Framework 在開發環境或產品線上？
+    * 如果有，請問是哪一套，並且描述如果改善或提昇 CSS Framework？
+* 請問你有使用過 CSS Flexbox 或 Grid specs？
+    * 如果有，你對於它們的效能論點想法是？
 
 ####[[⬆]](#toc) <a name='js'>JS 規格問題集：</a>
 
@@ -153,9 +159,11 @@
 * 描述 JavaScript 的 same-origin policy (同源策略)
 * 描述 JavaScript 的 inheritance patterns (繼承模式)
 * 實作如下程式:
+
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
+
 * 描述一個 memoization (避免重複運算) 的策略  在 JavaScript 中
 * Ternary expression 怎麼來的, "Ternary" 的意思是什麼？
 * function 的 arity 是什麼？
@@ -175,6 +183,7 @@
 * `.bind()`, `.live()`, 和 `.delegate()` 有何不同？
 * `$` 和 `$.fn` 有何不同？ 或什麼是 `$.fn`？
 * 優化這個 selector:
+
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
