@@ -103,9 +103,14 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
   * Webbtypsnitt (Typsnittstjänster som: Google webbtypsnitt, Typekit o.s.v.)
 * Förklara hur en webbläsare bestämmer vilka element som matchar en selektor.
 * Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera din layout i olika boxmodeller.
+* Vad gör ```* { box-sizing: border-box; }```? Vad är dess fördelar?
 * Lista så många värden för display-egenskapen som du kan komma ihåg.
 * Vad är skillnaden mellan inline och inline-block?
 * Vad är skillnaden mellan element som är positionerade med relative, fixed, absolute och static?
+* Vilka CSS-ramverk har du använt lokalt eller i produktion? (Twitter Bootstrap, PureCSS, Foundation etc.)
+  * Om du kunde, hur skulle du förändra/förbättra dem?
+* Har du lekt något med de nya CSS-specifikationerna för Flexbox och Grid?
+  * I så fall, vad tycker du om dem ur ett prestandaperspektiv?
 
 ####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
 
