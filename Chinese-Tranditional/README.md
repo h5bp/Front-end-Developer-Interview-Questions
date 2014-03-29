@@ -108,7 +108,7 @@
   * Webfonts (font services 像是: Google Webfonts, Typekit …等等)
 * 解釋瀏覽器如何按照 CSS selector 找到對應的 element？
 * 解釋你所認知的 box model，以及你如何在 CSS 告訴瀏覽器使用不同 box model 來呈現圖層？
-* 請解釋 ```* { Box-sizing: Border-box; }```？並且說明使用它的好處
+* 請解釋 `* { box-sizing: border-box; }`？並且說明使用它的好處
 * 請列出您記憶中 display 屬性的全部值
 * 請說明 inline 和 inline-block 的差異性？
 * 請說明 relative、fixed、absolute 和 static 元件差異性
