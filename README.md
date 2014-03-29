@@ -86,6 +86,8 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe Floats and how they work.
+* Describe z-index and how they work.
+* Explain how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
 * What are your favourite image replacement techniques and which do you use when?
