@@ -84,7 +84,9 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 ####[[⬆]](#toc) <a name='css'>CSS-frågor:</a>
 
 * Förklara vad en nollställnings(reset)-CSS-fil gör och varför den är användbar.
-* Beskriv Floats och hur de fungerar.
+* Beskriv floats och hur de fungerar.
+* Beskriv z-index och hur det fungerar.
+* Förklara hur stacking context skapas.
 * Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
 * Förklara CSS-sprites och hur du skulle implementera dem på en sida.
 * Vilka är dina favorittekniker för bildersättning och vilka använder du i vilka situationer?
