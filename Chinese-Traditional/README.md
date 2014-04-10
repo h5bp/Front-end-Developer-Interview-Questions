@@ -90,8 +90,7 @@
 
 * 描述 "reset" 在 CSS 中做什麼, 如何用？
 * 描述 Floats 並解釋如何運作
-* 描述 z-index 並解釋如何運作
-* 描述如何定義堆疊 (stacking context)
+* 描述 z-index 並且描述堆疊內容 (stacking context) 如何形成
 * 有哪些不同的 clearing 技術？哪個適用在哪種內容上？
 * 描述 CSS sprites, 你如何實作在網頁或網站上？
 * 你最喜愛的圖片取代技術是什麼？你什麼時候會用到？
