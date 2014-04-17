@@ -18,9 +18,9 @@
   1. [有趣的问题](#fun)
   1. [其他参考资料](#references)
 
-####<a name='contributors'>最初的贡献者：</a>
+####[[⬆]](#toc) <a name='contributors'>最初贡献者</a>
 
-**备注:** 这里大部分的面试题都摘抄自 [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) 在 [oksoclap](http://oksoclap.com/) 创建的帖子，这份原帖的贡献者还有：
+这里大部分的面试题都摘抄自 [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) 在 [oksoclap](http://oksoclap.com/) 创建的帖子，这份原帖的贡献者还有：
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
 * [@cowboy](http://twitter.com/cowboy) - http://benalman.com
@@ -32,10 +32,11 @@
 * [@gf3](http://twitter.com/gf3) - http://gf3.ca
 * [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
+* [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
+* [@iansym](http://twitter.com/iansym)
 
 
-####<a name='general'>常见问题：</a>
+####[[⬆]](#toc) <a name='general'>常见问题：</a>
 
 * 你在昨天/本周学到了什么？
 
@@ -44,6 +45,8 @@
 * 在制作一个Web应用或Web站点的过程中，你是如何考虑他的UI、安全性、高性能、SEO、可维护性以及技术因素的？
 
 * 谈谈你喜欢的开发环境。(例如操作系统，编辑器，浏览器，工具等等。)
+
+* 你最熟悉哪一套版本控制系统？
 
 * 你能描述一下当你制作一个网页的工作流程吗？
 
@@ -78,11 +81,15 @@
 
 * 如果今年你打算熟练掌握一项新技术，那会是什么？
 
+* Long-Polling, Websockets, SSE(Server-Sent Event) 之间有什么区别？
+
 * 请谈一下你对网页标准和标准制定机构重要性的理解。
 
 * 什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？
 
-####<a name='html'>HTML相关问题：</a>
+* 请尽可能完整得描述下从输入URL到整个网页加载完毕及显示在屏幕上的整个流程
+
+####[[⬆]](#toc) <a name='html'>HTML相关问题：</a>
 
 * `doctype`（文档类型）的作用是什么？
 
@@ -100,7 +107,9 @@
 
 * 请描述一下 cookies，sessionStorage 和 localStorage 的区别？ 
 
-####<a name='css'>CSS 相关问题：</a>
+* 请描述一下 `GET` 和 `POST` 的区别?
+
+####[[⬆]](#toc) <a name='css'>CSS 相关问题：</a>
 
 * 描述下 “reset” CSS 文件的作用和使用它的好处。
 
@@ -139,8 +148,21 @@
 
 * 解释一下你对盒模型的理解，以及如何在 CSS 中告诉浏览器使用不同的盒模型来渲染你的布局。
 
+* 请解释一下 ```* { box-sizing: border-box; }``` 的作用, 并且说明使用它有什么好处？
 
-####<a name='js'>JS相关问题：</a>
+* 请罗列出你所知道的 display 属性的全部值
+
+* 请解释一下 inline 和 inline-block 的区别？
+
+* 请解释一下 relative、fixed、absolute 和 static 元素的区别
+
+* 你目前在使用哪一套CSS框架，或者在产品线上使用过哪一套？(Bootstrap, PureCSS, Foundation 等等)
+  * 如果有，请问是哪一套？如果可以，你如何改善CSS框架？
+
+* 请问你有使用过 CSS Flexbox 或者 Grid specs 吗？
+  * 如果有，请问在性能和效率的方面你是怎么看的？
+
+####[[⬆]](#toc) <a name='js'>JS相关问题：</a>
 
 * 解释下事件代理。
 
@@ -232,7 +254,7 @@ var person = new Person();
 
 * 什么是 `"use strict";` ? 使用它的好处和坏处分别是什么？
 
-####<a name='jquery'>jQuery 相关问题：</a>
+####[[⬆]](#toc) <a name='jquery'>jQuery 相关问题：</a>
 
 * 解释"chaining"。
 
@@ -260,14 +282,13 @@ var person = new Person();
 $(".foo div#bar:eq(0)")
 ```
 
-####<a name='jscode'>代码相关的问题：</a>
+####[[⬆]](#toc) <a name='jscode'>代码相关的问题：</a>
 
 ```javascript
-~~3.14
+modulo(12, 5) // 2
 ```
 
-问题：上面语句的返回值是什么？
-**答案：3**
+问题：实现满足上述结果的modulo函数
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
@@ -300,15 +321,7 @@ foo.push(2);
 问题：foo.length 的值是什么？
 **答案：`2`**
 
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
-
-问题：foo.length 的值是什么？
-**答案: `undefined`**
-
-####<a name='fun'>有趣的问题：</a>
+####[[⬆]](#toc) <a name='fun'>有趣的问题：</a>
 
 * 你编写过的最酷的代码是什么？其中你最自豪的是什么？
 
@@ -318,8 +331,10 @@ foo.bar = 'hello';
 
 * 你最爱的 IE 特性是什么？
 
-####<a name='references'>其他参考资料:</a>
+####[[⬆]](#toc) <a name='references'>其他参考资料：</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
 * http://css-tricks.com/interview-questions-css/
+* http://davidshariff.com/quiz/
+* http://blog.sourcing.io/interview-questions
