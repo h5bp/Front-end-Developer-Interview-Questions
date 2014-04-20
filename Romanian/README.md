@@ -123,7 +123,7 @@ Majoritatea întrebărilor au fost adunate dintr-un fir de discutie [oksoclap](h
 ####[[⬆]](#toc) <a name='js'>Întrebări JS:</a>
 
 * Explică "event delegation".
-* EXplică cum funcționează `this` în JavaScript.
+* Explică cum funcționează `this` în JavaScript.
 * Explică cum funcționează moștenirea prototipală.
 * Cum procedezi cu testarea codului JavaScript?
 * AMD vs. CommonJS?
