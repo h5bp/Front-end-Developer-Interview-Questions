@@ -128,7 +128,7 @@
 * 什麼是 hashtable?
 * 解釋下列程式碼為什麼不是IIFE: `function foo(){ }();`.  (Immediately Invoked Function Expression,立即函式)
   * 需要修改那裡使它成為IIFE?
-* `null、`undefined`和 `undeclared`變數之間有什麼差異？
+* `null`、`undefined`和 `undeclared`變數之間有什麼差異？
   * 你如何檢查？
 * 什麼是 closure, 如何/為什麼使用?
 * anonymous functions 典型的使用時機？
