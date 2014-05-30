@@ -226,8 +226,8 @@ foo.push(2);
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
-* What's the coolest thing you've ever coded, what are you most proud of?
-* What are your favorite parts about the developer tools you use?
+* What's a cool thing you've coded recently? What's something you've built that you're proud of?
+* What are some things you like about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 
