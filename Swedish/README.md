@@ -51,8 +51,11 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
     * Hosta via CDN
     * Caching
     * o.s.v.
-* Varför är det bättre att servera webbplatsen från flera domäner?
+* Varför har det traditionellt sett varit bättre att servera webbplatsen från flera domäner?
   * Hur många resurser kan en webbläsare ladda från en specifik domän åt gången?
+  * Vilka är undantagen?
+    * Bonuspoäng för att nämna mobila enheter som en möjlig nackdel (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/).
+    * Bonuspoäng för att nämna SPDY som ett undantag.
 * Nämn tre sätt att minska laddningstiden för en webbsida (uppfattad eller faktisk laddningstid).
 * Om du hoppade på ett projekt och de använde tabbar och du mellanslag, vad skulle du då göra?
   * Föreslå att projektet använder sig av något som t.ex. EditorConfig (http://editorconfig.org)
@@ -85,8 +88,7 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 
 * Förklara vad en nollställnings(reset)-CSS-fil gör och varför den är användbar.
 * Beskriv floats och hur de fungerar.
-* Beskriv z-index och hur det fungerar.
-* Förklara hur stacking context skapas.
+* Beskriv z-index och hur stacking context skapas.
 * Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
 * Förklara CSS-sprites och hur du skulle implementera dem på en sida.
 * Vilka är dina favorittekniker för bildersättning och vilka använder du i vilka situationer?
@@ -217,8 +219,8 @@ foo.push(2);
 
 ####[[⬆]](#toc) <a name='fun'>Roliga frågor:</a>
 
-* Vad är det coolaste du någonsin har kodat och vad är du mest stolt över?
-* Vilka är dina favoritdelar som finns i de utvecklarverktyg du använder?
+* Nämn en cool sak du kodat nyligen. Vad har du byggt som du är stolt över?
+* Nämn några delar som du gillar hos de utvecklarverktyg du använder?
 * Har du några egna projekt som du sköter om? I sådana fall vilken typ av projekt?
 * Vilken är din favoritfunktion i Internet Explorer?
 
