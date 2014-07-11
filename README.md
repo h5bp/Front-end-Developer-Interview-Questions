@@ -42,6 +42,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
+* If you have 5 different stylesheets, how would you best integrate them into the site?
+  * Points off for `@import` directives.
+  * File concatenation
 * Can you describe the difference between progressive enhancement and graceful degradation?
   * Bonus points for describing feature detection
 * Explain what "Semantic HTML" means.
