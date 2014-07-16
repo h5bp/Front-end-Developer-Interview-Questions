@@ -45,7 +45,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
     * Bonus points for identifying mobile as a possible downside (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
-    * Bonus points for identifying SDPY as an exception
+    * Bonus points for identifying SPDY as an exception
 * Name 3 ways to decrease page load. (perceived or actual load time)
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
   * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
