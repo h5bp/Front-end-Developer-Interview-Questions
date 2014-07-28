@@ -116,6 +116,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * If so, which ones? If you could, how would you change/improve them? 
 * Have you played around with the new CSS Flexbox or Grid specs?
   * If so, what do you think of them from a performance standpoint? 
+* How is responsive design different from adaptive design?
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
