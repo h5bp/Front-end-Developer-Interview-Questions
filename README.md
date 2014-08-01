@@ -91,6 +91,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
+  * Bonus for pointing out the downsides of a "reset", and/or mentioning "normalize" as a better alternative.
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
