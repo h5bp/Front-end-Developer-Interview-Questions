@@ -59,8 +59,11 @@
     * CDN Hosted (CDN託管)
     * Caching (快取)
     * …之類
-* 為什麼用多個域名來放置網站資源會比較好？
+* 傳統上為什麼用多個域名來放置網站資源會比較好？
   * 瀏覽器一次能在同一個域名下載多少資源？
+  * 有哪些是例外？
+    * 對於手持裝置可能是個缺點 (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
+    * 對於 [SPDY](http://en.wikipedia.org/wiki/SPDY) 也是例外
 * 說出三種能加快網頁讀取速度的方法？ (感覺上的速度或是真正的讀取時間)
 * 如果你加入了一個專案，但是他們的程式碼用tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
   * 建議此專案使用，例如：EditorConfig (http://editorconfig.org)
