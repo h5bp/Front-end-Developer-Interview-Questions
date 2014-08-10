@@ -167,7 +167,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ```
 * Describe a strategy for memoization (avoiding calculation repetition) in JavaScript.
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
-* What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
