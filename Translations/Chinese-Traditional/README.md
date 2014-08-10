@@ -173,7 +173,6 @@
 
 * 描述一個 memoization (避免重複運算) 的策略  在 JavaScript 中
 * Ternary expression 怎麼來的, "Ternary" 的意思是什麼？
-* function 的 arity 是什麼？
 * 什麼是 `"use strict";`? 使用他的優點和缺點是什麼？
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery 規格問題集：</a>
