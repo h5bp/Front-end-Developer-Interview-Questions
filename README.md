@@ -20,19 +20,7 @@ This repo contains a number of front-end interview questions that can be used wh
 
 ####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
-
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
+The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
@@ -43,11 +31,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
-  * Points off for `@import` directives.
   * File concatenation
 * Can you describe the difference between progressive enhancement and graceful degradation?
   * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
 * How would you optimize a websites assets/resources?
   * Looking for a number of solutions which can include:
     * File concatenation
@@ -118,7 +104,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
   * If so, which ones? If you could, how would you change/improve them? 
 * Have you played around with the new CSS Flexbox or Grid specs?
-  * If so, what do you think of them from a performance standpoint? 
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 
@@ -129,23 +114,18 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
-* What's a hashtable?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
   * What needs to be changed to properly make it an IIFE?
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
-* Explain the "JavaScript module pattern" and when you'd use it.
-  * Bonus points for mentioning clean namespacing.
-  * What if your modules are namespace-less?
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
-* Can you explain how inheritance works in JavaScript?
 * When would you use `document.write()`?
   * Most generated ads still utilize `document.write()` although its use is frowned upon
 * What's the difference between feature detection, feature inference, and using the UA string
@@ -157,17 +137,13 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built in JavaScript objects not a good idea?
-* Why is extending built ins a good idea?
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
-* Explain how you would get a query string parameter from the browser window's URL.
 * Explain the same-origin policy with regards to JavaScript.
-* Describe inheritance patterns in JavaScript.
 * Make this work:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript.
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
@@ -177,55 +153,45 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain "deferreds".
 * What are some jQuery specific optimizations you can implement?
 * What does `.end()` do?
-* How, and why, would you namespace a bound event handler?
 * Name 4 different values you can pass to the jQuery method.
   * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue?
 * What is the difference between `.get()`, `[]`, and `.eq()`?
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector:
-```javascript
-$(".foo div#bar:eq(0)")
-```
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
-
+*Question: Implement a modulo function that satisfies the following*
 ```javascript
 modulo(12, 5) // 2
 ```
-*Question: Implement a modulo function that satisfies the above*
 
 
+*Question: What value is returned from the following statement?*
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-*Question: What value is returned from the above statement?*
-
 **Answer: "goh angasal a m'i"**
 
+
+*Question: What is the value of `window.foo`?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-*Question: What is the value of `window.foo`?*
-
 **Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
 
+
+*Question: What is the outcome of the two alerts below?*
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-*Question: What is the outcome of the two alerts above?*
-
 **Answer: "Hello World" & ReferenceError: bar is not defined**
 
+
+*Question: What is the value of `foo.length`?*
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-*Question: What is the value of `foo.length`?*
-
 **Answer: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
