@@ -123,6 +123,8 @@
   * 如果有，請問是哪一套，並且描述如果改善或提昇 CSS Framework？
 * 請問你有使用過 CSS Flexbox 或 Grid specs？
   * 如果有，你對於它們的效能論點想法是？
+ * 如何區分 responsive design 與 adaptive design 有何不同？
+ * 你曾經使用過 retina graphics？如果有，是在什麼時機以及用了什麼技術？
 
 ####[[⬆]](#toc) <a name='js'>JS 規格問題集：</a>
 
