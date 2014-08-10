@@ -46,6 +46,9 @@
 * 說說你喜好的開發環境 (作業系統, 編輯器, 瀏覽器, 開發工具 … 之類)
 * 你最熟悉哪一套版本控制系統？
 * 你可以描述你在開發一個網站時的工作流程嗎？
+* 如果有 5 種不同的樣式表 (stylesheets)，該如何整併到網站？
+  * 使用 `@import`
+  * 檔案合併
 * 你可以描述漸進增強 (progressive enhancement) 和優美退化 (graceful degradation) 間的差異嗎？
   * 加分題：描述這兩項的特色？
 * 描述什麼是"Semantic HTML"？
@@ -56,8 +59,11 @@
     * CDN Hosted (CDN託管)
     * Caching (快取)
     * …之類
-* 為什麼用多個域名來放置網站資源會比較好？
+* 傳統上為什麼用多個域名來放置網站資源會比較好？
   * 瀏覽器一次能在同一個域名下載多少資源？
+  * 有哪些是例外？
+    * 對於手持裝置可能是個缺點 (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
+    * 對於 [SPDY](http://en.wikipedia.org/wiki/SPDY) 也是例外
 * 說出三種能加快網頁讀取速度的方法？ (感覺上的速度或是真正的讀取時間)
 * 如果你加入了一個專案，但是他們的程式碼用tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
   * 建議此專案使用，例如：EditorConfig (http://editorconfig.org)
