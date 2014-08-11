@@ -20,19 +20,7 @@ Detta arkiv innehåller ett urval av frågor som kan ställas till den arbetssö
 
 ####[[⬆]](#toc) <a name='contributors'>Ursprungliga skribenter:</a>
 
-Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksoclap.com/)-tråd som skapades av [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) och bidrag till dessa gjordes av följande personer:
-
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
+Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.com/)-tråd som ursprungligen skapades av [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) med bidrag från följande personer: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
 
 ####[[⬆]](#toc) <a name='general'>Allmänna frågor:</a>
 
@@ -41,9 +29,10 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Vilka övervägningar gör du angående gränssnitt, säkerhet, prestanda, SEO, underhållsmässighet och tekniker när du bygger en webbapplikation eller -plats?
 * Berätta lite om den utvecklingsmiljö du helst sitter i? (OS, editor, webbläsare, verktyg o.s.v.)
 * Kan du beskriva ditt arbetsflöde när du skapar en hemsida?
+* Om du har fem olika stilmallar, hur skulle du bäst integrera dem i sajten?
+  * Filkonkatenering.
 * Kan du beskriva skillnaden mellan "progressive enhancement" och "graceful degradation"?
 	* Bonuspoäng för att beskriva "feature detection"
-* Förklara vad som menas med semantisk HTML.
 * Hur skulle du optimera en webbplats resurser?
   * Söker en rad lösningar som kan innefatta:
     * Sammanfoga filer (file concatenation)
@@ -114,7 +103,8 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Vilka CSS-ramverk har du använt lokalt eller i produktion? (Twitter Bootstrap, PureCSS, Foundation etc.)
   * Om du kunde, hur skulle du förändra/förbättra dem?
 * Har du lekt något med de nya CSS-specifikationerna för Flexbox och Grid?
-  * I så fall, vad tycker du om dem ur ett prestandaperspektiv?
+* På vilket sätt skiljer sig resposiv design från adaptiv design?
+* Har du någon gång arbetat med retinagrafik? I så fall, när var det och vilka tekniker använde du?
 
 ####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
 
@@ -123,23 +113,18 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Förklara hur prototypiskt arv fungerar
 * Hur gör du för att testa ditt JavaScript?
 * AMD eller CommonJS?
-* Vad är en hashtabell?
 * Förklara varför följande inte fungerar som en IIFE: `function foo(){ }();`.
   * Vad behöver ändras för att göra den till en fungerande IIFE?
 * Vad är skillnaden mellan en variabel som är: `null`, `undefined` eller `undeclared`?
   * Hur skulle du göra för att kolla efter någon av dessa?
 * Vad är en "closure" och hur/varför vill du använda det?
 * Vad är ett typiskt användningsområde för en anonym funktion?
-* Förklara "JavaScript module pattern" och när du skulle vilja använda det.
-  * Bonuspoäng om man nämner rena namnrymder (clean namespacing)
-  * Tänk om dina moduler inte har några namnrymder?
 * Hur organiserar du din kod? (module pattern, classical inheritance?) 
 * Vad är skillnaden mellan "host objects" och "native objects"?
 * Skillnaden mellan: `function Person(){}`, `var person = Person()` och `var person = new Person()`?
 * Vad är skillnaden mellan `.call` och `.apply`? 
 * Förklara `Function.prototype.bind`? 
 * När optimerar du din kod?
-* Kan du förklara hur arv fungerar i JavaScript?   
 * När skulle du använda `document.write()`?
   * De flesta genererade reklamerna använder fortfarande `document.write()` även om de flesta ogillar det
 * Vad är skillnaden mellan "feature detection", "feature inference", och att använda UA-strängen?
@@ -151,18 +136,14 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Beskriv "event bubbling".
 * Vad är skillnaden mellan "attribute" och "property"? 
 * Varför är det inte bra att utvidga (extend) inbyggda JavaScript-objekt?
-* Varför är det bra att utvidga inbyggda JavaScript-objekt?
 * Skillnaden mellan "document load event" och "document ready event"? 
 * Vad är skillnaden mellan `==` och `===`? 
-* Förklara hur du får en QueryString-parameter från webbläsarfönstrets URL.
 * Förklara "same-origin policy" med hänsyn till JavaScript. 
 * Få det här att fungera
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Beskriv en strategi för "memoization" (undvika repetitioner av uträkningar) i JavaScript.
 * Varför kallas det för "Ternary expression", vad menas med ordet "Ternary"?
-* Vad är "the arity" av en funktion?  
 * Vad är `"use strict";`? Vilka är för- och nackdelarna med att använda det?
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery-frågor:</a>
@@ -171,50 +152,43 @@ Majoriteten av de här frågorna var plockade från en [oksoclap](http://oksocla
 * Förklara "deferreds".
 * Vad är några jQuery-optimeringar du kan göra?
 * Vad gör `.end()`? 
-* Hur, och varför, skulle du "namespace a bound event handler"? 
 * Nämn fyra olika värden du kan skicka till jQuery-metoden.
   * Selektor (sträng), HTML (sträng), Callback (funktion), HTMLElement, objekt, array, array av element, jQuery-objekt o.s.v.
-* Vad är effektkö ("effects queue" eller "fx queue")? 
 * Vad är skillnaden mellan `.get()`, `[]`, och `.eq()`? 
-* Vad är skillnaden mellan `.bind()`, `.live()`, och `.delegate()`? 
-* Vad är skillnaden mellan `$` och `$.fn`? Eller bara, vad är `$.fn`.
-* Förbättra denna selektor: `$(".foo div#bar:eq(0)")`
 
 ####[[⬆]](#toc) <a name='jscode'>Kodfrågor:</a>
 
+*Fråga: Implementera en modulofunktion som stämmer med nedan*
 ```javascript
 modulo(12, 5) // 2
 ```
-*Fråga: Implementera en modulofunktion som stämmer med ovan*
 
+Fråga: Vilket värde returneras från nedanstående?
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Fråga: Vilket värde returneras från ovanstående?
-
 **Svar: "goh angasal a m'i"** 
 
+*Fråga: Vad är värdet av `window.foo`?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-*Fråga: Vad är värdet av `window.foo`?*
-
 **Svar: "bar"** *Bara om `window.foo` var "falsey", annars skulle den behålla sitt värde.*
 
+
+*Fråga: Vad kommer de två alerterna att ropa ut?*
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-*Fråga: Vad kommer de två alerterna att ropa ut?*
-
 **Svar: "Hello World" & ReferenceError: bar is not defined** 
 
+
+*Fråga: Vad är värdet av `foo.length`?*
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-*Fråga: Vad är värdet av `foo.length`?*
-
 **Svar: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Roliga frågor:</a>
