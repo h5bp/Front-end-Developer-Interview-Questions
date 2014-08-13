@@ -44,7 +44,7 @@ Ein Großteil der Fragen wurden aus einer Diskussion bei [oksoclap](http://oksoc
 * Warum ist es sinnvoll, Ressourcen über mehr als eine Domain abzufragen?
 	* Wie viele Quellen kann ein Browser von einer Domain parallel empfangen?
 * Benenne drei Umstände, die das Laden einer Seite verlangsamen können (hinsichtlich der Wahrnehmung oder der tatsächlichen Ladezeit).
-* Wie verhälst du dich, wenn du in ein neues Projekt kommst, in dem Tabs verwendet werden und du aber Leerzeichen verwendest?
+* Wie verhältst du dich, wenn du in ein neues Projekt kommst, in dem Tabs verwendet werden und du aber Leerzeichen verwendest?
 	* Vorschlagen, dass für das Projekt sowas wie EditorConfig (http://editorconfig.org) verwendet werden soll.
 	* Sich an die Vorgaben des Projekts halten.
 	* `issue :retab! command`
