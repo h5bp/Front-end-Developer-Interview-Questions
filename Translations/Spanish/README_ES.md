@@ -115,7 +115,7 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * Por favor enliste todos los valores para la propiedad `display` que pueda recordar
 * ¿Cual es la diferencia entre `inline` y `inline-block`?
 * ¿Cual es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
-
+* ¿Que sabe sobre  Css Flexbox y cuales son sus ventajas ?
 **[[⬆]](#indice)**
 
 ####<a name='js'>Preguntas específicas de JavaScript:</a>
