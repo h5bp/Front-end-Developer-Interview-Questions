@@ -75,7 +75,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Can you explain the difference between `GET` and `POST`?
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
-
+* What is the difference between classes and IDs in CSS?
 * Describe what a "reset" CSS file does and how it's useful.
   * Bonus for pointing out the downsides of a "reset", and/or mentioning "normalize" as a better alternative.
 * Describe Floats and how they work.
