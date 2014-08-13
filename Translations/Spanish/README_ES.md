@@ -157,7 +157,7 @@ function Person(){} var person = Person() var person = new Person()
 * ¿Cuál es la diferencia entre un "atributo" y una "propiedad"?
 * ¿Por qué es una mala idea extender objetos nativos de JavaScript?
 * ¿Por qué es una buena idea extender objetos nativos de JavaScript?
-* ¿Cuál es la diferencia entre el evento "document load" y "document ready"?
+* ¿Cuál es la diferencia entre el evento "document load" y el evento “document ready"?
 * ¿Cuál es la diferencia entre `==` y `===`? 
 * Si tiene que obtener un parametro de la URL, ¿cómo lo harías?
 * Explique la política de mismo origen (same-origin policy) y sus repercusiones en JavaScript.
@@ -166,7 +166,7 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* ¿Puede describir una estrategia para memoización (*memoization*, evitar repetir cálculos) en JavaScript?
+* ¿Puede describir una estrategia para memorización (*memoization*, evitar repetir cálculos) en JavaScript?
 * ¿Por qué reciben el nombre de sentencias ternarias? ¿Qué significa la palabra "ternaria"?  
 * ¿Qué es el `arity` de una función?
 * ¿Qué es `"use strict";`? ¿Cuáles son las ventajas y desventajas de usarlo?
@@ -213,7 +213,7 @@ Pregunta: ¿Cuál es el retorno de la sentencia anterior?
 ```
 Preguntan: ¿Cuál es el valor de window.foo?
 **Respuesta: "bar"** 
-Únicamente si window.foo tenía un valor falsy, de cualquier otra forma retendrá su valor.
+Únicamente si window.foo tenía un valor fals y, de cualquier otra forma retendrá su valor.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
