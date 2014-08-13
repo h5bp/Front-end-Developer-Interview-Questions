@@ -253,8 +253,8 @@ Pregunta: ¿Cuál es el valor de foo.length?
 * ¿Si no estuviera en Desarollo Web, en que estaría trabajando?
 * ¿En qué lugar del mundo está Carmen Sandiego?
 	* Consejo: no hay respuesta correcta.
-* ¿Cúal es su funcionalidad favorita de Internet Explorer?
-* Complete esta oracion: Brendan Eich y Doug Crockford son los __________ del JavaScript.
+* ¿Cuál es su funcionalidad favorita de Internet Explorer?
+* Complete esta oración: Brendan Eich y Doug Crockford son los __________ del JavaScript.
 * jQuery: ¿Una buena biblioteca o la mejor biblioteca? Explique porqué.
 * http://www.w3schools.com/ o http://w3fools.com/
 
