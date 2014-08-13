@@ -1,4 +1,4 @@
-#GUIA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
+﻿#GUIA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
 
 @version 2.0.0
 
@@ -257,5 +257,6 @@ Pregunta: ¿Cuál es el valor de foo.length?
 * Complete esta oracion: Brendan Eich y Doug Crockford son los __________ del JavaScript.
 * jQuery: ¿Una buena biblioteca o la mejor biblioteca? Explique porqué.
 * http://www.w3schools.com/ o http://w3fools.com/
+* Cual es el mejor lenguage de programacion para aprender en 2014?
 
 **[[⬆]](#indice)**
