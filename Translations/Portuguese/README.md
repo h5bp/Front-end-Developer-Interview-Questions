@@ -225,3 +225,4 @@ $(".foo div#bar:eq(0)")
 * Quais suas partes favoritas sobre as ferramentas de desenvolvimento que você usa?
 * Você teve algum projeto para animais de estimação? Qual tipo?
 * Qual sua feature favorita do Internet Explorer?
+* Qual é a melhor linguagem de programação para aprender em 2014?
