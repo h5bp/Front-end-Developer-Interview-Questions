@@ -209,3 +209,4 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+* http://www.toptal.com/javascript/interview-questions
