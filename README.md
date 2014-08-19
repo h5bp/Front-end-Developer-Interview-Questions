@@ -1,4 +1,4 @@
-#Front-end Job Interview Questions
+﻿#Front-end Job Interview Questions
 
 This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
@@ -60,6 +60,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* Which IDE are you using and why? Brackets, Coda, Webstorm, Sublime, VIM, other?
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
