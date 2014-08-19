@@ -27,7 +27,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
+* Talk about your preferred development environment. (OS, Editor or IDE, Browsers, Tools etc.)
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
@@ -60,7 +60,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
-* Which IDE are you using and why? Brackets, Coda, Webstorm, Sublime, VIM, other?
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
