@@ -1,4 +1,4 @@
-#Front-end Job Interview Questions
+﻿#Front-end Job Interview Questions
 
 This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
@@ -27,7 +27,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
+* Talk about your preferred development environment. (OS, Editor or IDE, Browsers, Tools etc.)
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
