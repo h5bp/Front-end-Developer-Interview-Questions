@@ -15,6 +15,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
+  1. [Code Chalenges](#code)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
 
@@ -141,10 +142,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
-* Make this work:
-```javascript
-[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
-```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
@@ -194,6 +191,40 @@ foo.push(1);
 foo.push(2);
 ```
 **Answer: `2`**
+
+####[[⬆]](#toc) <a name='code'>Code Challenges:</a>
+
+* Beginner - Make this work:
+```javascript
+[1,2,3].duplicate();  // => [1,2,3,1,2,3]
+[1,2,3].duplicate(0); // => [1,2,3]
+[1,2,3].duplicate(1); // => [1,2,3,1,2,3]
+[1,2,3].duplicate(2); // => [1,2,3,1,2,3,1,2,3]
+```
+* Intermediate - Make this work:
+```javascript
+A([1, 2])
+  .duplicate()
+  .duplicate(0)
+  .duplicate(1)
+  .duplicate(2)
+  .value();
+// => [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+```
+* Advanced - Make this work:
+```javascript
+A([1, 2])
+  .and(duplicate())
+  .and(duplicate(0))
+  .and(duplicate(1))
+  .and(duplicate(2))
+  .value();
+// => [
+//   1, 2, 1, 2,
+//   1, 2, 1, 2, 1, 2, 1, 2,
+//   1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2
+// ]
+```
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
