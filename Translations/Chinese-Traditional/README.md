@@ -43,7 +43,7 @@
 * 你昨天或這週學習了什麼？
 * 寫程式的哪部份最讓你感到很興奮或是有興趣？
 * 當你開發Web應用程式或網站時，針對UI、安全性、效能、SEO、維護性，以及技術，你考量的點是什麼？
-* 說說你喜好的開發環境 (作業系統, 編輯器, 瀏覽器, 開發工具 … 之類)
+* 說說你喜好的開發環境 (作業系統, 編輯器或 IDE, 瀏覽器, 開發工具 … 之類)
 * 你最熟悉哪一套版本控制系統？
 * 你可以描述你在開發一個網站時的工作流程嗎？
 * 如果有 5 種不同的樣式表 (stylesheets)，該如何整併到網站？
@@ -75,7 +75,7 @@
 * Long-Polling, Websockets, SSE(Server-Sent Event)之間有什麼差異？
 * 描述標準和製定標準機構的重要性？
 * 什麼是 FOUC？ 你怎麼避免 FOUC?
-* 請詳細描述當您在網址列打入網址開始到最後網頁呈現在螢幕前的整個流程
+* 請詳細描述當您在網址列打入網址開始到最後網頁呈現在螢幕前的整個流程。
 
 ####[[⬆]](#toc) <a name='html'>HTML 規格問題集:</a>
 
@@ -92,9 +92,11 @@
 
 ####[[⬆]](#toc) <a name='css'>CSS 規格問題集：</a>
 
+* CSS 的 class 和 ID 兩者有何差異？
 * 描述 "reset" 在 CSS 中做什麼, 如何用？
-* 描述 Floats 並解釋如何運作
-* 描述 z-index 並且描述堆疊內容 (stacking context) 如何形成
+  * 加分題：指出 "rest" 的缺點，最好能提到 "normalize" 是更好的選擇。
+* 描述 Floats 並解釋如何運作。
+* 描述 z-index 並且描述堆疊內容 (stacking context) 如何形成。
 * 有哪些不同的 clearing 技術？哪個適用在哪種內容上？
 * 描述 CSS sprites, 你如何實作在網頁或網站上？
 * 你最喜愛的圖片取代技術是什麼？你什麼時候會用到？
@@ -232,3 +234,4 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+* http://www.toptal.com/javascript/interview-questions
