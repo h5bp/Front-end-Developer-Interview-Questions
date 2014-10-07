@@ -15,7 +15,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
-  1. [Code Chalenges](#code)
+  1. [Code Challenges](#code)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
 
@@ -196,10 +196,10 @@ foo.push(2);
 
 * Beginner - Make this work:
 ```javascript
-[1,2,3].duplicate();  // => [1,2,3,1,2,3]
-[1,2,3].duplicate(0); // => [1,2,3]
-[1,2,3].duplicate(1); // => [1,2,3,1,2,3]
-[1,2,3].duplicate(2); // => [1,2,3,1,2,3,1,2,3]
+[1, 2, 3].duplicate();  // => [1, 2, 3, 1, 2, 3]
+[1, 2, 3].duplicate(0); // => [1, 2, 3]
+[1, 2, 3].duplicate(1); // => [1, 2, 3, 1, 2, 3]
+[1, 2, 3].duplicate(2); // => [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```
 * Intermediate - Make this work:
 ```javascript
