@@ -17,6 +17,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [Coding Questions](#jscode)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
+  1. [License](#license)
 
 ####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
@@ -210,3 +211,7 @@ foo.push(2);
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
 * http://www.toptal.com/javascript/interview-questions
+
+####[[⬆]](#toc) <a name='license'>License:</a>
+
+Copyright 2012 by Darcy Clarke, released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
