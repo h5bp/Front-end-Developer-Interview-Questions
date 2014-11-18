@@ -105,7 +105,7 @@
 
 * 如果把 HTML5 看作做一个开放平台，那它的构建模块有哪些？
 
-* 请描述一下 cookies，sessionStorage 和 localStorage 的区别？ 
+* 请描述一下 cookies，sessionStorage 和 localStorage 的区别？
 
 * 请描述一下 `GET` 和 `POST` 的区别?
 
@@ -125,7 +125,7 @@
 
 * 如何为有功能限制的浏览器提供网页？
   * 你会使用哪些技术和处理方法？
-  
+
 * 有哪些的隐藏内容的方法（如果同时还要保证屏幕阅读器可用呢？）
 
 * 你用过栅格系统吗？如果使用过，你最喜欢哪种？
@@ -140,10 +140,10 @@
 
 * 使用 CSS 预处理器的优缺点有哪些？(SASS，Compass，Stylus，LESS)
   * 描述下你曾经使用过的 CSS 预处理的优缺点。
-  
+
 * 如果设计中使用了非标准的字体，你该如何去实现？
   * Webfonts (字体服务例如：Google Webfonts，Typekit 等等。)
-  
+
 * 解释下浏览器是如何判断元素是否匹配某个 CSS 选择器？
 
 * 解释一下你对盒模型的理解，以及如何在 CSS 中告诉浏览器使用不同的盒模型来渲染你的布局。
@@ -176,12 +176,12 @@
 
 * 什么是哈希表？
 
-* 解释下为什么接下来这段代码不是 IIFE(立即调用的函数表达式)：`function foo(){ }();`. 
+* 解释下为什么接下来这段代码不是 IIFE(立即调用的函数表达式)：`function foo(){ }();`.
   * 要做哪些改动使它变成 IIFE?
-  
+
 * 描述以下变量的区别：`null`，`undefined` 或 `undeclared`？
   * 该如何检测它们？
-  
+
 * 什么是闭包，如何使用它，为什么要使用它？
 
 * 请举出一个匿名函数的典型用例？
@@ -189,15 +189,15 @@
 * 解释 “JavaScript 模块模式” 以及你在何时使用它。
   * 如果有提到无污染的命名空间，可以考虑加分。
   * 如果你的模块没有自己的命名空间会怎么样？
-  
+
 * 你是如何组织自己的代码？是使用模块模式，还是使用经典继承的方法？
 
 * 请指出 JavaScript 宿主对象和原生对象的区别？
 
 * 指出下列代码的区别：
 ```javascript
-function Person(){} 
-var person = Person(); 
+function Person(){}
+var person = Person();
 var person = new Person();
 ```
 
@@ -295,7 +295,7 @@ modulo(12, 5) // 2
 ```
 
 问题：上面的语句的返回值是什么？
-**答案："goh angasal a m'i"** 
+**答案："goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
@@ -310,7 +310,7 @@ var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); ale
 ```
 
 问题：上面两个 alert 的结果是什么
-**答案: "Hello World" 和 ReferenceError: bar is not defined** 
+**答案: "Hello World" 和 ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
@@ -325,7 +325,7 @@ foo.push(2);
 
 * 你编写过的最酷的代码是什么？其中你最自豪的是什么？
 
-* 在你使用过的开发工具中，最喜欢哪个？
+* 在你使用的开发工具中，最喜欢哪些方面？
 
 * 你有什么业余项目吗？是哪种类型的？
 
@@ -338,3 +338,8 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+* http://www.toptal.com/javascript/interview-questions
+
+####[[⬆]](#toc) <a name='license'>协议:</a>
+
+Copyright 2012 by Darcy Clarke, 基于[MIT License](http://opensource.org/licenses/MIT) 协议。点击协议文件查看详细。
