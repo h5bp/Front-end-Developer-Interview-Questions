@@ -17,6 +17,7 @@
   1. [代码相关的问题](#jscode)
   1. [有趣的问题](#fun)
   1. [其他参考资料](#references)
+  1. [协议](#license)
 
 ####[[⬆]](#toc) <a name='contributors'>最初贡献者</a>
 
@@ -42,7 +43,7 @@
 
 * 编写代码的哪些方面能够使你兴奋或感兴趣？
 
-* 在制作一个Web应用或Web站点的过程中，你是如何考虑他的UI、安全性、高性能、SEO、可维护性以及技术因素的？
+* 在制作一个Web应用或Web站点的过程中，你是如何考虑它的UI、安全性、高性能、SEO、可维护性以及技术因素的？
 
 * 谈谈你喜欢的开发环境。(例如操作系统，编辑器，浏览器，工具等等。)
 
@@ -53,7 +54,9 @@
 * 你能描述一下渐进增强和优雅降级之间的不同吗?
 	* 如果提到了特性检测，可以加分。
 
-* 请解释一下什么是“语义化的 HTML”。
+* 假若你有5个不同的 CSS 文件, 加载进页面的最好方式是?
+  * 文件拼合
+
 
 * 你如何对网站的文件和资源进行优化？
 	* 期待的解决方案包括：
@@ -65,6 +68,9 @@
 
 * 为什么利用多个域名来提供网站资源会更有效？
 	* 浏览器同一时间可以从一个域名下载多少资源？
+    * 有什么例外吗？
+        * 加分项： 指出在手机端可能有负面影响 (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
+        * 加分项： HTTP2 / SPDY
 
 * 请说出三种减少页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）
 
@@ -105,19 +111,24 @@
 
 * 如果把 HTML5 看作做一个开放平台，那它的构建模块有哪些？
 
-* 请描述一下 cookies，sessionStorage 和 localStorage 的区别？ 
+* 请描述一下 cookies，sessionStorage 和 localStorage 的区别？
 
 * 请描述一下 `GET` 和 `POST` 的区别?
 
 ####[[⬆]](#toc) <a name='css'>CSS 相关问题：</a>
 
+* CSS 中类(classes)和 ID 的区别。
+
 * 描述下 “reset” CSS 文件的作用和使用它的好处。
+    * 期待能够指出它的负面影响，或者提到它的一个更好的替换者"normalize"
 
 * 解释下浮动和它的工作原理。
 
+* 描述`z-index`和叠加上下文是如何形成的。
+
 * 列举不同的清除浮动的技巧，并指出它们各自适用的使用场景。
 
-* 解释下 CSS sprites，以及你要如何在页面或网站中使用它。
+* 解释下 CSS sprites，以及你要如何在页面或网站中实现它。
 
 * 你最喜欢的图片替换方法是什么，你如何选择使用。
 
@@ -125,7 +136,7 @@
 
 * 如何为有功能限制的浏览器提供网页？
   * 你会使用哪些技术和处理方法？
-  
+
 * 有哪些的隐藏内容的方法（如果同时还要保证屏幕阅读器可用呢？）
 
 * 你用过栅格系统吗？如果使用过，你最喜欢哪种？
@@ -140,10 +151,10 @@
 
 * 使用 CSS 预处理器的优缺点有哪些？(SASS，Compass，Stylus，LESS)
   * 描述下你曾经使用过的 CSS 预处理的优缺点。
-  
+
 * 如果设计中使用了非标准的字体，你该如何去实现？
   * Webfonts (字体服务例如：Google Webfonts，Typekit 等等。)
-  
+
 * 解释下浏览器是如何判断元素是否匹配某个 CSS 选择器？
 
 * 解释一下你对盒模型的理解，以及如何在 CSS 中告诉浏览器使用不同的盒模型来渲染你的布局。
@@ -162,6 +173,10 @@
 * 请问你有使用过 CSS Flexbox 或者 Grid specs 吗？
   * 如果有，请问在性能和效率的方面你是怎么看的？
 
+* 为什么响应式设计（responsive design）和自适应设计（adaptive design）不同？
+
+* 你有兼容 retina 屏幕的经历吗？如果有，在什么地方使用了何种技术？
+
 ####[[⬆]](#toc) <a name='js'>JS相关问题：</a>
 
 * 解释下事件代理。
@@ -170,18 +185,18 @@
 
 * 解释下原型继承的原理。
 
-* 你是如何测试JavaScript代码的？
+* 你是如何测试 JavaScript 代码的？
 
 * AMD vs. CommonJS？
 
 * 什么是哈希表？
 
-* 解释下为什么接下来这段代码不是 IIFE(立即调用的函数表达式)：`function foo(){ }();`. 
+* 解释下为什么接下来这段代码不是 IIFE(立即调用的函数表达式)：`function foo(){ }();`.
   * 要做哪些改动使它变成 IIFE?
-  
+
 * 描述以下变量的区别：`null`，`undefined` 或 `undeclared`？
   * 该如何检测它们？
-  
+
 * 什么是闭包，如何使用它，为什么要使用它？
 
 * 请举出一个匿名函数的典型用例？
@@ -189,28 +204,26 @@
 * 解释 “JavaScript 模块模式” 以及你在何时使用它。
   * 如果有提到无污染的命名空间，可以考虑加分。
   * 如果你的模块没有自己的命名空间会怎么样？
-  
+
 * 你是如何组织自己的代码？是使用模块模式，还是使用经典继承的方法？
 
 * 请指出 JavaScript 宿主对象和原生对象的区别？
 
 * 指出下列代码的区别：
 ```javascript
-function Person(){} 
-var person = Person(); 
+function Person(){}
+var person = Person();
 var person = new Person();
 ```
 
 * `.call` 和 `.apply` 的区别是什么？
 
-* 请解释 `Function.prototype.bind` 的作用？
+* 请解释 `Function.prototype.bind`？
 
 * 你何时优化自己的代码？
 
-* 你能解释一下 JavaScript 中的继承是如何工作的吗？
-
 * 在什么时候你会使用 `document.write()`？
-	* 大多数生成的广告代码依旧使用 `document.write()`，虽然这种用法会让人很不爽。
+    * 大多数生成的广告代码依旧使用 `document.write()`，虽然这种用法会让人很不爽。
 
 * 请指出浏览器特性检测，特性推断和浏览器 UA 字符串嗅探的区别？
 
@@ -219,7 +232,7 @@ var person = new Person();
 * 请解释 JSONP 的工作原理，以及它为什么不是真正的 AJAX。
 
 * 你使用过 JavaScript 模板系统吗？
-	* 如有使用过，请谈谈你都使用过哪些库，比如 Mustache.js，Handlebars 等等。
+    * 如有使用过，请谈谈你都使用过哪些库，比如 Mustache.js，Handlebars 等等。
 
 * 请解释变量声明提升。
 
@@ -229,28 +242,18 @@ var person = new Person();
 
 * 为什么扩展 JavaScript 内置对象不是好的做法？
 
-* 为什么扩展 JavaScript 内置对象是好的做法？
-
 * 请指出 document load 和 document ready 两个事件的区别。
 
 * `==` 和 `===` 有什么不同？
 
-* 你如何从浏览器的 URL 中获取查询字符串参数。
-
 * 请解释一下 JavaScript 的同源策略。
-
-* 请描述一下 JavaScript 的继承模式。
 
 * 如何实现下列代码：
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
 
-* 描述一种 JavaScript 中实现 memoization(避免重复运算)的策略。
-
 * 什么是三元表达式？“三元” 表示什么意思？
-
-* 函数的参数元是什么？
 
 * 什么是 `"use strict";` ? 使用它的好处和坏处分别是什么？
 
@@ -295,7 +298,7 @@ modulo(12, 5) // 2
 ```
 
 问题：上面的语句的返回值是什么？
-**答案："goh angasal a m'i"** 
+**答案："goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
@@ -310,7 +313,7 @@ var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); ale
 ```
 
 问题：上面两个 alert 的结果是什么
-**答案: "Hello World" 和 ReferenceError: bar is not defined** 
+**答案: "Hello World" 和 ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
@@ -325,7 +328,7 @@ foo.push(2);
 
 * 你编写过的最酷的代码是什么？其中你最自豪的是什么？
 
-* 在你使用过的开发工具中，最喜欢哪个？
+* 在你使用的开发工具中，最喜欢哪些方面？
 
 * 你有什么业余项目吗？是哪种类型的？
 
@@ -338,3 +341,8 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+* http://www.toptal.com/javascript/interview-questions
+
+####[[⬆]](#toc) <a name='license'>协议:</a>
+
+Copyright 2012 by Darcy Clarke, 基于[MIT License](http://opensource.org/licenses/MIT) 协议。点击协议文件查看详细。
