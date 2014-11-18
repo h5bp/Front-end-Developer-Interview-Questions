@@ -170,7 +170,7 @@
 
 * 解释下原型继承的原理。
 
-* 你是如何测试JavaScript代码的？
+* 你是如何测试 JavaScript 代码的？
 
 * AMD vs. CommonJS？
 
@@ -203,14 +203,12 @@ var person = new Person();
 
 * `.call` 和 `.apply` 的区别是什么？
 
-* 请解释 `Function.prototype.bind` 的作用？
+* 请解释 `Function.prototype.bind`？
 
 * 你何时优化自己的代码？
 
-* 你能解释一下 JavaScript 中的继承是如何工作的吗？
-
 * 在什么时候你会使用 `document.write()`？
-	* 大多数生成的广告代码依旧使用 `document.write()`，虽然这种用法会让人很不爽。
+    * 大多数生成的广告代码依旧使用 `document.write()`，虽然这种用法会让人很不爽。
 
 * 请指出浏览器特性检测，特性推断和浏览器 UA 字符串嗅探的区别？
 
@@ -219,7 +217,7 @@ var person = new Person();
 * 请解释 JSONP 的工作原理，以及它为什么不是真正的 AJAX。
 
 * 你使用过 JavaScript 模板系统吗？
-	* 如有使用过，请谈谈你都使用过哪些库，比如 Mustache.js，Handlebars 等等。
+    * 如有使用过，请谈谈你都使用过哪些库，比如 Mustache.js，Handlebars 等等。
 
 * 请解释变量声明提升。
 
@@ -229,28 +227,18 @@ var person = new Person();
 
 * 为什么扩展 JavaScript 内置对象不是好的做法？
 
-* 为什么扩展 JavaScript 内置对象是好的做法？
-
 * 请指出 document load 和 document ready 两个事件的区别。
 
 * `==` 和 `===` 有什么不同？
 
-* 你如何从浏览器的 URL 中获取查询字符串参数。
-
 * 请解释一下 JavaScript 的同源策略。
-
-* 请描述一下 JavaScript 的继承模式。
 
 * 如何实现下列代码：
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
 
-* 描述一种 JavaScript 中实现 memoization(避免重复运算)的策略。
-
 * 什么是三元表达式？“三元” 表示什么意思？
-
-* 函数的参数元是什么？
 
 * 什么是 `"use strict";` ? 使用它的好处和坏处分别是什么？
 
