@@ -1,4 +1,4 @@
-﻿#Front-end Job Interview Questions
+#Front-end Job Interview Questions
 
 This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
@@ -148,6 +148,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
 
@@ -161,11 +162,11 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
-*Question: Implement a modulo function that satisfies the following*
+*Question: How would you make this work?*
 ```javascript
-modulo(12, 5) // 2
+add(2, 5); // 7
+add(2)(5); // 7
 ```
-
 
 *Question: What value is returned from the following statement?*
 ```javascript
@@ -183,7 +184,12 @@ modulo(12, 5) // 2
 
 *Question: What is the outcome of the two alerts below?*
 ```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+var foo = "Hello"; 
+(function() { 
+  var bar = " World"; 
+  alert(foo + bar); 
+})(); 
+alert(foo + bar);
 ```
 **Answer: "Hello World" & ReferenceError: bar is not defined**
 
