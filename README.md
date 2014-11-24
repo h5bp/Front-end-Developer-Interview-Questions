@@ -211,6 +211,8 @@ foo.push(2);
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
 * http://www.toptal.com/javascript/interview-questions
+* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
+* http://www.sitepoint.com/5-javascript-interview-exercises/
 
 ####[[⬆]](#toc) <a name='license'>License:</a>
 
