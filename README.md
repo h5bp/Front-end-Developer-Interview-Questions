@@ -219,6 +219,7 @@ foo.push(2);
 * http://www.toptal.com/javascript/interview-questions
 * http://www.sitepoint.com/5-typical-javascript-interview-exercises/
 * http://www.sitepoint.com/5-javascript-interview-exercises/
+* http://www.sitepoint.com/10-typical-html-interview-exercises/
 
 ####[[⬆]](#toc) <a name='license'>License:</a>
 
