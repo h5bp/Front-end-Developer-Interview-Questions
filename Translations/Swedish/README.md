@@ -17,6 +17,7 @@ Detta arkiv innehåller ett urval av frågor som kan ställas till den arbetssö
   1. [Kodfrågor](#jscode)
   1. [Roliga frågor](#fun)
   1. [Andra bra resurser](#references)
+  1. [Licens](#license)
 
 ####[[⬆]](#toc) <a name='contributors'>Ursprungliga skribenter:</a>
 
@@ -27,7 +28,7 @@ Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.c
 * Vad lärde du dig igår / den här veckan?
 * Vad tycker du är spännande eller intressant med kodning?
 * Vilka övervägningar gör du angående gränssnitt, säkerhet, prestanda, SEO, underhållsmässighet och tekniker när du bygger en webbapplikation eller -plats?
-* Berätta lite om den utvecklingsmiljö du helst sitter i? (OS, editor, webbläsare, verktyg o.s.v.)
+* Berätta lite om den utvecklingsmiljö du helst sitter i? (OS, editor eller IDE, webbläsare, verktyg o.s.v.)
 * Kan du beskriva ditt arbetsflöde när du skapar en hemsida?
 * Om du har fem olika stilmallar, hur skulle du bäst integrera dem i sajten?
   * Filkonkatenering.
@@ -44,7 +45,7 @@ Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.c
   * Hur många resurser kan en webbläsare ladda från en specifik domän åt gången?
   * Vilka är undantagen?
     * Bonuspoäng för att nämna mobila enheter som en möjlig nackdel (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/).
-    * Bonuspoäng för att nämna SPDY som ett undantag.
+    * Bonuspoäng för att nämna HTTP2/SPDY som ett undantag.
 * Nämn tre sätt att minska laddningstiden för en webbsida (uppfattad eller faktisk laddningstid).
 * Om du hoppade på ett projekt och de använde tabbar och du mellanslag, vad skulle du då göra?
   * Föreslå att projektet använder sig av något som t.ex. EditorConfig (http://editorconfig.org)
@@ -75,7 +76,9 @@ Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.c
 
 ####[[⬆]](#toc) <a name='css'>CSS-frågor:</a>
 
+* Vad är skillnaden mellan klasser och ID:n i CSS?
 * Förklara vad en nollställnings(reset)-CSS-fil gör och varför den är användbar.
+  * Bonuspoäng för att nämna baksidor med en nollställningsfil, och/eller nämna normaliseringsfil som ett bättre alternativ.
 * Beskriv floats och hur de fungerar.
 * Beskriv z-index och hur stacking context skapas.
 * Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
@@ -205,3 +208,10 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+* http://www.toptal.com/javascript/interview-questions
+* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
+* http://www.sitepoint.com/5-javascript-interview-exercises/
+
+####[[⬆]](#toc) <a name='license'>Licens:</a>
+
+Copyright 2012 av Darcy Clarke, släppt under [MIT-licensen](http://opensource.org/licenses/MIT). Se filen LICENSE för detaljer.
