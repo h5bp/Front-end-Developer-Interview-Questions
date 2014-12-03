@@ -218,6 +218,8 @@ $a = 012;
 echo $a/4;
 ```
 * What is the maximum size of a file that we can upload using PHP?
+* How do you debug the PHP code?
+* How do you sanitize the input?
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
