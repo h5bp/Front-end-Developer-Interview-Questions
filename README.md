@@ -15,13 +15,14 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
+  1. [Code Challenges](#code)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
   1. [License](#license)
 
 ####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
+The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym) [@sukima](http://twitter.com/sukima)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
@@ -142,10 +143,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
-* Make this work:
-```javascript
-[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
-```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
@@ -201,6 +198,40 @@ foo.push(1);
 foo.push(2);
 ```
 **Answer: `2`**
+
+####[[⬆]](#toc) <a name='code'>Code Challenges:</a>
+
+* Beginner - Make this work:
+```javascript
+[1, 2, 3].duplicate();  // => [1, 2, 3, 1, 2, 3]
+[1, 2, 3].duplicate(0); // => [1, 2, 3]
+[1, 2, 3].duplicate(1); // => [1, 2, 3, 1, 2, 3]
+[1, 2, 3].duplicate(2); // => [1, 2, 3, 1, 2, 3, 1, 2, 3]
+```
+* Intermediate - Make this work:
+```javascript
+A([1, 2])
+  .duplicate()
+  .duplicate(0)
+  .duplicate(1)
+  .duplicate(2)
+  .value();
+// => [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+```
+* Advanced - Make this work:
+```javascript
+A([1, 2])
+  .and(duplicate())
+  .and(duplicate(0))
+  .and(duplicate(1))
+  .and(duplicate(2))
+  .value();
+// => [
+//   1, 2, 1, 2,
+//   1, 2, 1, 2, 1, 2, 1, 2,
+//   1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2
+// ]
+```
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
