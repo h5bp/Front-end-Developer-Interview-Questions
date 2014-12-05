@@ -144,7 +144,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the same-origin policy with regards to JavaScript.
 * Make this work:
 ```javascript
-[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
