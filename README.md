@@ -222,4 +222,4 @@ foo.push(2);
 
 ####[[⬆]](#toc) <a name='license'>License:</a>
 
-Copyright 2012 by Darcy Clarke, released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
+Released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
