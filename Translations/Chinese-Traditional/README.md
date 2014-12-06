@@ -1,8 +1,6 @@
 # 前端工程師面試問題集
 
-@版本 2.1.0
-
-譯注：此翻譯版，主要給不能流利的讀英文的人看，相關專有名詞還是保留原文。翻譯不好地方請協助pull request.
+譯注：此翻譯版，主要給不能流利的讀英文的人看，相關專有名詞還是保留原文，翻譯不好地方請協助 Pull request。
 
 此 repository 包含了一些前端開發的面試問題，來審查一個有潛力的面試者。這並不是建議你對同一個面試者問上所有的問 (那會花費好幾小時)。從列表中挑幾個題目，應該就夠幫助你審查面試者是否擁有你需要的技能。
 
@@ -61,12 +59,12 @@
   * 瀏覽器一次能在同一個域名下載多少資源？
   * 有哪些是例外？
     * 對於手持裝置可能是個缺點 (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
-    * 對於 [SPDY](http://en.wikipedia.org/wiki/SPDY) 也是例外
+    * 對於 HTTP2 / [SPDY](http://en.wikipedia.org/wiki/SPDY) 也是例外
 * 說出三種能加快網頁讀取速度的方法？ (感覺上的速度或是真正的讀取時間)
-* 如果你加入了一個專案，但是他們的程式碼用tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
+* 如果你加入了一個專案，但是他們的程式碼用 tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
   * 建議此專案使用，例如：EditorConfig (http://editorconfig.org)
   * 訂定一個公約 (保持一致)
-  * `issue :retab! command` (retab! 在vim中用來把所有spaces換成tabs)
+  * `issue :retab! command` (retab! 在 vim 中用來把所有 spaces 換成 tabs)
 * 寫一個簡易的投影片頁面
   * 加分如果沒有用到 JavaScript
 * 你用什麼工具來測試你的程式碼效能？
@@ -166,6 +164,7 @@
 
 * Ternary expression 怎麼來的, "Ternary" 的意思是什麼？
 * 什麼是 `"use strict";`? 使用他的優點和缺點是什麼？
+* Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery 規格問題集：</a>
 
@@ -179,10 +178,11 @@
 
 ####[[⬆]](#toc) <a name='jscode'>程式碼問題集:</a>
 
-問題：實作符合下面的 modulo 函式
+問題：實作符合下面的函式
 
 ```javascript
-modulo(12, 5) // 2
+add(2, 5); // 7
+add(2)(5); // 7
 ```
 
 問題: 下面的 statement(陳述式) 會回傳什麼？
@@ -205,7 +205,12 @@ modulo(12, 5) // 2
 問題: 下面的兩個 alerts 的結果會是什麼？
 
 ```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
 ```
 
 **答案: "Hello World" & ReferenceError: bar is not defined**
@@ -235,3 +240,9 @@ foo.push(2);
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
 * http://www.toptal.com/javascript/interview-questions
+* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
+* http://www.sitepoint.com/5-javascript-interview-exercises/
+
+####[[⬆]](#toc) <a name='license'>版權宣告:</a>
+
+Copyright 2012 by Darcy Clarke, released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
