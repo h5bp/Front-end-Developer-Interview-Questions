@@ -1,39 +1,40 @@
 #Questões para entrevista de profissionais Front-end
 
-@versão 2.0.0
-
 Este repositório contém uma série de perguntas para entrevista de profissionais de front-end que podem ser usadas para avaliar os candidatos. Não é recomendado de maneira alguma usar todas as perguntas aqui no mesmo candidato (que levaria horas). A escolha de alguns itens dessa lista deverá ajudar a identificar as habilidades requeridas do candidato.
 
 O artigo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) de [Rebecca Murphey](http://rmurphey.com/) é também uma ótima fonte para ler antes de entrevistar um candidato.
 
 **Note:** Tenha em mente que muitas destas questões estão em aberto e poderia levar à discussões interessantes que dizem mais sobre as capacidades do candidato do que a resposta em si.
 
-####Colaboradores originais
+## <a name='toc'>Tabela de Conteúdos</a>
 
-A maioria das perguntas foi retirada de uma _thread_ da [oksoclap](http://oksoclap.com/), criada originalmente por [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) e com a contribuição individual das seguintes pessoas:
+  1. [Original Contributors](#contributors)
+  1. [General Questions](#general)
+  1. [HTML Questions](#html)
+  1. [CSS Questions](#css)
+  1. [JS Questions](#js)
+  1. [jQuery Questions](#jquery)
+  1. [Coding Questions](#jscode)
+  1. [Fun Questions](#fun)
+  1. [Other Great References](#references)
+  1. [License](#license)
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com)
+####[[⬆]](#toc) <a name='contributors'>Contribuintes originais:</a>
 
-### Questões gerais:
+A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://oksoclap.com/) originalmente criada por [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) e com a contribuição das seguintes pessoas: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
+
+####[[⬆]](#toc) <a name='general'>Questões Gerais:</a>
 
 * O que você aprendeu ontem ou esta semana?
 * O que te excita ou te interessa em programação/codificação?
+* Quais as suas considerações sobre UI, Segurança, Perfomance, Aplicação, Manutenibilidade  ou Tecnologia quando você desenvolve uma aplicação web ou site? 
 * Fale sobre seu ambiente de desenvolvimento preferido. (SO, Editor, Browser, Ferramentas, etc)
+* Com quais sistemas de controle de versão você é familiar?
 * Descreva seu trabalho quando cria uma página web.
+* Se você tivesse 5 diferentes arquivos de folhas de estilo, qual seria a melhor forma de integrá-los no site?
+  * Concatenação de arquivos
 * Descreva a diferença entre _progressive enhancement_ and _graceful degradation_.
   * Bônus se descrever ou mencionar detecção de recursos.
-* Explique o que significa "HTML Semântico".
 * Como você pode otimizar os recursos de um site?
   * À procura de uma série de soluções que possam incluir:
     * Concatenação de arquivo
@@ -42,7 +43,10 @@ A maioria das perguntas foi retirada de uma _thread_ da [oksoclap](http://oksocl
     * Caching
     * etc.
 * Por que é melhor servir recursos de um site de múltiplos domínios?
-* Quantos recursos um navegador pode baixar, simultaneamente, a partir de um determinado domínio?
+  * Quantos recursos um navegador pode baixar, simultaneamente, a partir de um determinado domínio?
+  * O que são *exceptions*?
+    * Bônus para identificação mobile como uma possível desvantagem (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
+    * Bônus para identicação de HTTP2 / SPDY como uma *exception*
 * Fale 3 formas de diminuir o _page load_ (tempo de carregamento real e percebido)
 * Se você caísse em um projeto que as pessoas usam _tabs_ para identação e você usa espaços, o que você faria?
   * Sugerir que o projeto utilize algo como EditorConfig (http://editorconfig.org)
@@ -53,10 +57,12 @@ A maioria das perguntas foi retirada de uma _thread_ da [oksoclap](http://oksocl
 * Quais ferramentas você usa para testar a performance do seu código?
   * Profiler, JSPerf, Dromaeo
 * Se você pudesse dominar uma tecnologia deste ano, qual seria?
+* Quais as diferenças entre *Long-Polling*, *Websockets* and *SSE*?
 * Explique a importância de normas e órgãos normativos.
 * O que é FOUC? Como você evita FOUC?
+* Dê a sua melhor descrição do processo do momento que você digita a URL de um website até o final do carregamento da página na sua tela.
 
-### Questões específicas de HTML:
+####[[⬆]](#toc) <a name='html'>Questões de HTML:</a>
 
 * O que um `doctype` faz?
 * Qual a diferença entre _standards mode_ e _quirks mode_?
@@ -67,6 +73,32 @@ A maioria das perguntas foi retirada de uma _thread_ da [oksoclap](http://oksocl
 * Quais são os benefícios em utilizar o atributo `data-`?
 * Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção de HTML5?
 * Descreva a diferença entre cookies, sessionStorage e localStorage.
+* Você pode explicar a diferença entre `GET` e `POST`?
+
+####[[⬆]](#toc) <a name='css'>Questões de CSS:</a>
+
+* Qual é a diferença entre classes e IDs no CSS?
+* Descreva o que é o arquivo "reset" do css e o que ele faz e como ele é útil.
+  * Bônus para identicação das desvantagens de um *reset* e/ou mencionar *normalize* como uma melhor alternativa.
+* Descreva o que são Floats e como eles funcionam.
+* Descreva z-index e como o empilhamento do contexto é formado.
+* Quais são as várias técnicas para "clearing" e quais delas são apropriadas para qual contexto?
+* Explique o que são CSS Sprites, e como você implementaria eles em um website.
+* Quais são suas técnicas favoritas para troca de imagens e quais dela você usa.
+* CSS Hacks, arquivo condicional .css, ou... alguma outra coisa?
+* Como você desenvolve sua página para browsers com recursos limitados?
+  * Quais técnicas/processos você usa?
+* Quais são as diferentes formas de visualizar conteúdo escondido (e como fazer para deixar eles disponíveis apenas para leitores de tela?)
+* VoCê já utilizou algum sistema de grid, se sim, qual você prefere?
+* Você já utilizou ou implementou media queries ou css's específicos para mobile?
+* Qual sua familiaridade com SVG?
+* Como você optimiza suas páginas para impressão?
+* Quais são algumas técnicas para escrever um eficiente CSS?
+* Você já utilizou pré-processadores css? (SASS, Compass, Stylus, LESS)
+  * Se sim, descreva o que você gostou e o que não gostou com eles.
+* Como você implementaria um website que não utilizaria fontes padrões nos computadores?
+  * Webfonts (Serviços como: Google Webfonts, Typekit etc.)
+* Explique como um browser determina quais os elementos que correspondem a um seletor CSS.
 
 ### Questões específicas de JS:
 
@@ -196,28 +228,6 @@ Questão: Qual o valor de `foo.length`?
 $(".foo div#bar:eq(0)")
 ```
 * Qual a diferença entre 'delegate()' e 'live()'?
-
-
-### Questões específicas de CSS
-* Descreva o que é o arquivo "reset" do css e o que ele faz e como ele é útil.
-* Descreva o que são floats e como eles funcionam.
-* Quais são as várias técnicas para "clearing" e quais delas são apropriadas para qual contexto?
-* Explique o que são CSS Sprites, e como você implementaria eles em um website.
-* Quais são suas técnicas favoritas para troca de imagens e quais dela você usa.
-* CSS Hacks, arquivo condicional .css, ou... alguma outra coisa?
-* Como você desenvolve sua página para browsers com recursos limitados?
-  * Quais técnicas/processos você usa?
-* Quais são as diferentes formas de visualizar conteúdo escondido (e como fazer para deixar eles disponíveis apenas para leitores de tela?)
-* VoCê já utilizou algum sistema de grid, se sim, qual você prefere?
-* Você já utilizou ou implementou media queries ou css's específicos para mobile?
-* Qual sua familiaridade com SVG?
-* Como você optimiza suas páginas para impressão?
-* Quais são algumas técnicas para escrever um eficiente CSS?
-* Você já utilizou pré-processadores css? (SASS, Compass, Stylus, LESS)
-  * Se sim, descreva o que você gostou e o que não gostou com eles.
-* Como você implementaria um website que não utilizaria fontes padrões nos computadores?
-  * Webfonts (Serviços como: Google Webfonts, Typekit etc.)
-* Explique como um browser determina quais os elementos que correspondem a um seletor CSS.
 
 ### Questões divertidas opcionais:
 
