@@ -89,7 +89,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Como você desenvolve sua página para browsers com recursos limitados?
   * Quais técnicas/processos você usa?
 * Quais são as diferentes formas de visualizar conteúdo escondido (e como fazer para deixar eles disponíveis apenas para leitores de tela?)
-* VoCê já utilizou algum sistema de grid, se sim, qual você prefere?
+* Você já utilizou algum sistema de grid, se sim, qual você prefere?
 * Você já utilizou ou implementou media queries ou css's específicos para mobile?
 * Qual sua familiaridade com SVG?
 * Como você optimiza suas páginas para impressão?
@@ -99,32 +99,33 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Como você implementaria um website que não utilizaria fontes padrões nos computadores?
   * Webfonts (Serviços como: Google Webfonts, Typekit etc.)
 * Explique como um browser determina quais os elementos que correspondem a um seletor CSS.
+*  Explique o que você entende sobre *box model* e como você poderia dizer para o navegador en CSS para renderizar seu layout em diferentes *box models*.
+* O que ```* { box-sizing: border-box; }``` faz? Quais são as vantagens? 
+* Liste quantas propriedades *display* você puder lembrar.
+* Qual a diferença entre inline e inline-block?
+* Qual a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática?
+* Quais frameworks CSS você tem usado localmente ou em produção? (Bootstrap, PureCSS, Foundation etc.)
+  * Se sim, quais deles? Se você puder, como você mudaria/melhoraria ele(s)? 
+* Você já brincou com as novas especificações de CSS Flexbox e CSS Grid?
+* Como o design responsivo é diferente do design adaptavel?
+* Você já trabalhou com gráficos retina? Se sim, quando e quais técnicas você usou?
 
-### Questões específicas de JS:
+####[[⬆]](#toc) <a name='js'>Questões de JS:</a>
 
 * Explique o evento _delegation_.
 * Explique como `this` funciona em JavaScript.
 * Explique como funciona herança prototipada.
 * Como você testa seu JavaScript?
 * AMD vs. CommonJS?
-* O que é um _hashtable_?
-* O que são as variáveis `undefined` e `undeclared`?
+* Explique por que a seguinte função não funciona como uma IIFE: `function foo(){ }();`. 
+  * O que precisa ser alterado para se tornar uma IIFE?
+* Qual a diferença entre uma variável que `null`,  `undefined` ou `undeclared`?
+  * Como você verificaria esses estados?
 * O que é uma _closure_, e como/por que você usaria uma?
-  * Seu padrão favorito é utilizado por ele? Argyle (Apenas aplicáveis para IIFEs)
 * Qual o caso de uso típico para funções anônimas?
-* Explique o padrão "JavaScript module pattern" e quando você o usaria.
-  * Bônus por mencionar _namespaces_ limpos.
-  * E se seus módulos são namespace-less?
 * Como você organiza seu código? (module pattern, herança clássica?)
 * Qual a diferença entre objetos herdados e objetos nativos?
-* Qual a diferença entre:
-
-```javascript
-function Person(){}
-var person = Person()
-var person = new Person()
-```
-
+ Qual a diferença entre: `function Person(){}`, `var person = Person()`, e `var person = new Person()`?
 * Qual a diferença entre `.call` e `.apply`?
 * Explique `Function.prototype.bind`.
 * Quando você otimiza seu código?
@@ -132,107 +133,97 @@ var person = new Person()
 * Quando você deve usar o `document.write()`?
   * A maioria dos anúncios de publicidade ainda utilizam `document.write()` embora seu uso não seja recomendado.
 * Qual a diferença entre feature detection, feature inference, e o uso de UA string?
-* Explique o que é AJAX mais detalhadamente possível.
+* Explique o que é AJAX o mais detalhadamente possível.
 * Explique como o JSONP funciona (e como ele realmente não é AJAX).
 * Você já utilizou templates com Javascript?
   * Se sim, quais bibliotecas foram utilizadas? (Mustache.js, Handlebars etc.)
 * Explique o que é "hoisting".
 * Descreva o que é event bubbling.
-* Qual a diferença entre atributo e propriedade?
-* Porque a extensão de objetos nativos não são uma boa ideia?
-* Porque a extensão de elementos nativos não são uma boa ideia?
+* Qual a diferença entre "atributo" e "propriedade"?
+* Porque a extensão de objetos nativos não é uma boa ideia?
 * Qual a diferença entre o evento document load e o evento document ready?
 * Qual a diferença entre `==` e `===`?
 * Explique como você pega um parâmetro na URL do browser.
 * Explique a política de _same-origin_ em relação a Javascript.
-* Descreva os padrões de herança em JavaScript.
 * Faça isso funcionar:
-
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-
-* Descreva a estratégia para memoization (evitar a repetição de cálculo) no JavaScript.
 * O que é um operador ternário, o que a palavra "ternário" indica/significa?
-* O que a aridade de uma função?
-O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
+* O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
+* Crie um loop for que itere até `100` enquanto retorn **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
 
-### Exemplos de códigos JavaScript:
+####[[⬆]](#toc) <a name='jquery'>Questões de jQuery:</a>
 
+* Eplique "chaining".
+* Eplique "deferreds".
+* Quais são algumas otimizações de jQuery que você pode implementar?
+* O que `.end()` faz?
+* Nomeie 4 valores diferentes que você pode passar para um método jQuery.
+  * Seletor (string), HTML (string), Callback (function), HTMLElement, objeti, array, elemento de array, jQuery Object etc.
+* Qual a diferença entre `.get()`, `[]`, e `.eq()`?
+
+####[[⬆]](#toc) <a name='jscode'>Questões de código:</a>
+
+*Questão: Como você faria isso funcionar?*
 ```javascript
-~~3.14
+add(2, 5); // 7
+add(2)(5); // 7
 ```
 
-Questão: Qual é o valor a ser retornado?
 
-**Resposta: 3**
-
+*Question: Qual valor é retornado da seguinte declaração?*
 ```javascript
 "sou uma lasanha".split("").reverse().join("");
 ```
+**Answer: "ahnasal amu uos"**
 
-Questão: Qual é o valor a ser retornado?
 
-**Resposta: "ahnasal amu uos"**
-
+*Questão: Qual é o valor de `window.foo`?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Questão: Qual é o valor de `window.foo`?
+**Resposta: "bar"** *(apenas se window.foo for falso, se não ele vai retornar o seu valor próprio).*
 
-**Resposta: "bar"**
 
-Apenas se window.foo for falso, se não ele vai retornar o seu valor próprio.
-
+*Questão: Qual o retorno dos dois alerts abaixo?*
 ```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+var foo = "Hello"; 
+(function() { 
+  var bar = " World"; 
+  alert(foo + bar); 
+})(); 
+alert(foo + bar);
 ```
-Questão: Qual o retorno destes dois alerts?
+**Resposta: "Hello World" & ReferenceError: bar is not defined**
 
-**Resposta: "Olá Mundo" & ReferenceError: bar is not defined**
 
+*Questão: Qual o valor de `foo.length`?*
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-
-Questão: Qual o valor de `foo.length`?
-
 **Resposta: `2`**
 
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
+####[[⬆]](#toc) <a name='fun'>Questões Divertidas:</a>
 
-Questão: Qual o valor de `foo.length`?
-
-**Resposta: `undefined`**
-
-### Questões específicas de jQuery:
-
-* Explique o que é "chaining".
-* Explique o que é "deferreds".
-* Quais são algumas especificações de optimização do jQuery que você pode implementar?
-* O que o `.end()` faz?
-* Como, e porque, faria namespacing de vários agregadores de eventos?
-* Cite 4 valores diferentes que você pode passar pelo método jQuery
-  * Seletores (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* Quais são os efeitos do queue?
-* Qual a diferença entre `.get()`, `[]`, e `.eq()`?
-* Qual a diferença entre `.bind()`, `.live()`, e `.delegate()`?
-* Qual a diferença entre `$` e `$.fn`? Ou, apenas, o que é `$.fn`.
-* Optimize esse seletor:
-```javascript
-$(".foo div#bar:eq(0)")
-```
-* Qual a diferença entre 'delegate()' e 'live()'?
-
-### Questões divertidas opcionais:
-
-* Qual a coisa mais legal que você desenvolveu, qual você ficou mais orgulhoso?
+* Qual a coisa mais legal que você desenvolveu recentement? Qual você ficou mais orgulhoso?
 * Quais suas partes favoritas sobre as ferramentas de desenvolvimento que você usa?
 * Você teve algum projeto para animais de estimação? Qual tipo?
 * Qual sua feature favorita do Internet Explorer?
-* Qual é a melhor linguagem de programação para aprender em 2014?
+
+####[[⬆]](#toc) <a name='references'>Outras Grandes Referências:</a>
+
+* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
+* http://css-tricks.com/interview-questions-css/
+* http://davidshariff.com/quiz/
+* http://blog.sourcing.io/interview-questions
+* http://www.toptal.com/javascript/interview-questions
+* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
+* http://www.sitepoint.com/5-javascript-interview-exercises/
+
+####[[⬆]](#toc) <a name='license'>Licença:</a>
+
+Lançado sobre a [Licença MIT](http://opensource.org/licenses/MIT). Veja o arquivo LICENSE para detalhes.
