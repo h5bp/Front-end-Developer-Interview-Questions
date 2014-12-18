@@ -93,7 +93,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Any familiarity with styling SVG?
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
+* What are the advantages/disadvantages of using CSS preprocessors? (Sass, Compass, Stylus, LESS)
   * If so, describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
