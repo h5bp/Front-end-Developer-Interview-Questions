@@ -74,6 +74,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
 * Can you explain the difference between `GET` and `POST`?
+* Describe the difference between `<script>`, `<script async>` & `<script defer>`.
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 * What is the difference between classes and IDs in CSS?
@@ -93,7 +94,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Any familiarity with styling SVG?
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
+* What are the advantages/disadvantages of using CSS preprocessors? (Sass, Compass, Stylus, LESS)
   * If so, describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
