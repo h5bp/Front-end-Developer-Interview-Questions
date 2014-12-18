@@ -4,7 +4,7 @@ This repo contains a number of front-end interview questions that can be used wh
 
 [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
 ## <a name='toc'>Table of Contents</a>
 
@@ -28,26 +28,25 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor or IDE, Browsers, Tools etc.)
+* Talk about your preferred development environment. (OS, Editor or IDE, Browsers, Tools, etc.)
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
   * File concatenation
 * Can you describe the difference between progressive enhancement and graceful degradation?
   * Bonus points for describing feature detection
-* How would you optimize a websites assets/resources?
+* How would you optimize a website's assets/resources?
   * Looking for a number of solutions which can include:
     * File concatenation
     * File minification
     * CDN Hosted
     * Caching
-    * etc.
 * Traditionally, why has it been better to serve site assets from multiple domains?
   * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
     * Bonus points for identifying mobile as a possible downside (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
     * Bonus points for identifying HTTP2 / SPDY as an exception
-* Name 3 ways to decrease page load. (perceived or actual load time)
+* Name 3 ways to decrease page load (perceived or actual load time).
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
   * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
   * Conform to the conventions (stay consistent)
@@ -77,7 +76,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Describe the difference between `<script>`, `<script async>` & `<script defer>`.
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
-* What is the difference between classes and IDs in CSS?
+* What is the difference between classes and ID's in CSS?
 * Describe what a "reset" CSS file does and how it's useful.
   * Bonus for pointing out the downsides of a "reset", and/or mentioning "normalize" as a better alternative.
 * Describe Floats and how they work.
@@ -97,13 +96,14 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What are the advantages/disadvantages of using CSS preprocessors? (Sass, Compass, Stylus, LESS)
   * If so, describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
-  * Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?
+  * Webfonts (font services like Google Webfonts, Typekit, etc.)
+* Explain how a browser determines what elements match a CSS selector.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages? 
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
+* The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
 * What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
   * If so, which ones? If you could, how would you change/improve them? 
 * Have you played around with the new CSS Flexbox or Grid specs?
@@ -127,13 +127,13 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What's the difference between host objects and native objects?
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
-* explain `Function.prototype.bind`?
+* Explain `Function.prototype.bind`.
 * When do you optimize your code?
 * When would you use `document.write()`?
   * Most generated ads still utilize `document.write()` although its use is frowned upon
 * What's the difference between feature detection, feature inference, and using the UA string
-* Explain AJAX in as much detail as possible
-* Explain how JSONP works (and how it's not really AJAX)
+* Explain AJAX in as much detail as possible.
+* Explain how JSONP works (and how it's not really AJAX).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used? (Mustache.js, Handlebars etc.)
 * Explain "hoisting".
@@ -158,7 +158,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are some jQuery specific optimizations you can implement?
 * What does `.end()` do?
 * Name 4 different values you can pass to the jQuery method.
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
+  * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
 * What is the difference between `.get()`, `[]`, and `.eq()`?
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
@@ -171,9 +171,9 @@ add(2)(5); // 7
 
 *Question: What value is returned from the following statement?*
 ```javascript
-"i'm a lasagna hog".split("").reverse().join("");
+"i'm a lasagne hog".split("").reverse().join("");
 ```
-**Answer: "goh angasal a m'i"**
+**Answer: "goh engasal a m'i"**
 
 
 *Question: What is the value of `window.foo`?*
