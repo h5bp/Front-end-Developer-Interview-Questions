@@ -41,7 +41,7 @@ La majorité des questions sont tirées d'un sujet sur [oksoclap](http://oksocla
 * Qu'est ce qui vous motive ou vous intéresse dans le développement ?
 * Parlez-moi de votre environnement de travail préféré. (OS, éditeur, navigateur, outils, etc.)
 * Pouvez-vous décrire comment vous travaillez (votre workflow) lorsque vous créez une page web ?
-* Avec quels logiciels de gestion de versions ètes vous familier? 
+* Avec quels logiciels de gestion de versions êtes vous familier? 
 * Pouvez-vous décrire la différence entre amélioration progressive et dégradation gracieuse ?
   * Point bonus si description des méthodes de détection.
 Expliquez ce que le terme «HTML sémantique» signifie.
@@ -65,7 +65,7 @@ Expliquez ce que le terme «HTML sémantique» signifie.
   * JSPerf (http://jsperf.com/)
   * Dromaeo (http://dromaeo.com/)
   * etc.
-* Si vous pouviez maitriser parfaitement une technologie cette année, laquelle serait t'elle ?
+* Si vous pouviez maîtriser parfaitement une technologie cette année, laquelle serait t'elle ?
 * Expliquez l'importance des standards et des organisations les édictant.
 * Qu'est-ce que le FOUC, comment l'évitez-vous ?
 
@@ -149,7 +149,7 @@ function Person(){} var person = Person() var person = new Person()
 * Pourquoi étendre les objets natifs est-il une bonne idée ?
 * Quelle est la différence entre les évènements "document load" et "document ready" ?
 * Quelle la différence entre `==` et `===` ?
-* Expliquez comment vous récupèreriez le paramètre d'une requête issu de l'URL de la fenêtre du navigateur ?
+* Expliquez comment vous récupéreriez le paramètre d'une requête issu de l'URL de la fenêtre du navigateur ?
 * Expliquez la politique d'origine commune (same-origin policy) et ses implications en JavaScript.
 * Expliquez les patterns d'héritage en JavaScript.
 * Faites fonctionner ceci :
@@ -165,7 +165,7 @@ function Person(){} var person = Person() var person = new Person()
 
 ####<a name='jquery'>Questions sur jQuery :</a>
 
-* Expliquez le chainage (chaining).
+* Expliquez le chaînage (chaining).
 * Expliquez "deferred".
 * Décrivez quelques optimisations spécifiques à jQuery que vous pouvez implémenter.
 * Que fait `.end()` ?
