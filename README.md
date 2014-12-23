@@ -60,6 +60,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* Explain what a singlepage app is and how to make them SEO-friendly.
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
