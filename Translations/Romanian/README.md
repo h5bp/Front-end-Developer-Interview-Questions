@@ -6,7 +6,7 @@ este deloc recomandat să fie folosite toate întrebările pentru un singur
 candidat ( ar lua câteva ore ). Alegând câteva întrebări din această listă ar
 trebui să te ajute în verificarea calităților pe care le urmărești.
 
-Articolul lui [Rebecca Murphey](http://rmurphey.com/) [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) este de asemenea o resursă bună de citit înainte de a intra într-un interviu
+Articolul lui [Rebecca Murphey](http://rmurphey.com/) [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) este de asemenea o resursă bună de citit înainte de a intra într-un interviu.
 
 **Notă:** Ține în minte că multe dintre întrebări au răspuns liber și ar putea
 duce la discuții interesante, care ți-ar putea spune mai multe despre
@@ -26,7 +26,6 @@ capacitățile persoanei.
 
 ####[[⬆]](#toc) <a name='contributors'>Contribuitori inițiali:</a>
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 Majoritatea întrebărilor au fost adunate dintr-un fir de discutie [oksoclap](http://oksoclap.com/) creat de [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) la care au contribuit apoi:
 
 * [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
@@ -46,7 +45,7 @@ Majoritatea întrebărilor au fost adunate dintr-un fir de discutie [oksoclap](h
 * Ce ai învățat ieri / săptămâna asta?
 * Ce te fascinează sau interesează la programare?
 * Ce aspecte de UI, Securitate, Performanță, SEO, Întreținere sau Tehnologie iei în cosiderare când construiești o aplicație web sau un site?
-* Povestește despre mediul de lucru preferat. ( OS, Editor, Browsere, Unelte,
+* Povestește despre mediul de lucru preferat. (OS, Editor, Browsere, Unelte,
   etc.)
 * Îți poți descrie fluxul de lucru când creezi o pagină web?
 * Poți descrie difereța dintre "progressive enhancement" și "graceful
@@ -55,18 +54,18 @@ Majoritatea întrebărilor au fost adunate dintr-un fir de discutie [oksoclap](h
     a capabilităților suportate de browsere
 * Explică ce înseamnă "HTML Semantic".
 * Cum ai optimiza părțile componente ale unui site web?
-  * Urmărit mai multe soluții printre care:
+  * Sunt urmărite mai multe soluții printre care:
     * Concatenarea fișierelor
     * Minificarea fișierelor
     * Cache
     * etc.
 * De ce este mai bine să servești conținutul static din mai multe domenii?
   * Câte resurse va descarca un browser de la un domeniu la un moment dat?
-* Numește 3 moduri pentru a scădea timpul de încarcare a paginii. ( perceput
-  sau chiar timpul de descărcare )
+* Numește 3 moduri pentru a scădea timpul de încarcare a paginii. (perceput
+  sau chiar timpul de descărcare)
 * Dacă intri într-un proiect și se folosesc taburi în loc de spații, ce faci?
-  * Sugerează ca proiectul să folosească ceva de genul EditorConfig (http://editorconfig.org)
-  * Conformează cu convențiile ( rămâi consistent )
+  * Sugerezi ca proiectul să folosească ceva de genul EditorConfig (http://editorconfig.org)
+  * Te conformezi convențiilor (rămâi consistent)
   * `issue :retab! command`
 * Scrie o simplă pagină de slideshow
   * Puncte bonus dacă nu se folosește JS.
@@ -80,14 +79,14 @@ Majoritatea întrebărilor au fost adunate dintr-un fir de discutie [oksoclap](h
 
 * La ce este util `doctype`?
 * Care este diferența dintre "standards mode" și "quirks mode"?
-* Care sunt limitările când servești pagini XHTML ?
+* Care sunt limitările când servești pagini XHTML?
   * Apar probleme când servești pagini ca `application/xhtml+xml`?
 * Cum servești o pagină cu conținut în mai multe limbi?
   * La ce trebuie să fi atent când faci design sau dezvolți pentru site-uri multilingve
 * La ce sunt utile atributele `data-`?
 * Considerând HTML5 ca o platformă web deschisă, care sunt parțile componente
   alte HTML5?
-* Descrie diferența dintre cookies, sessionStorage și localStorage
+* Descrie diferența dintre cookies, sessionStorage și localStorage.
 
 ####[[⬆]](#toc) <a name='css'>Întrebări CSS:</a>
 
@@ -140,10 +139,7 @@ Majoritatea întrebărilor au fost adunate dintr-un fir de discutie [oksoclap](h
   * Daca modulele sunt fără namespace?
 * Cum îți organizezi codul? (module pattern, moștenire?)
 * Care este diferența dintre obiecte host si obiecte native?
-* Diferența dintre:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* Diferența dintre: `function Person(){}`, `var person = Person()` și `person = new Person()`
 * Care este diferența dintre `.call` și `.apply`?
 * Explică `Function.prototype.bind`?
 * Când îți optimizezi codul?
@@ -152,19 +148,19 @@ function Person(){} var person = Person() var person = new Person()
   * Cele mai multe reclame generate încă folosesc `document.write()` deși este
     o soluție neplacută
 * Care este diferența dintre 'feature detection', 'feature inference' și
-  folosirea șirului User Agent
-* Explică AJAX cât mai detaliat posibil
-* Explică cum funcționează JSONP ( și cum nu este AJAX prea mult )
+  folosirea șirului User Agent?
+* Explică AJAX cât mai detaliat posibil.
+* Explică cum funcționează JSONP (și cum nu este AJAX prea mult).
 * Ai folosit vreodată template-uri JavaScript?
   * Dacă da, ce librării ai folosit? (Mustache.js, Handlebars etc.)
 * Explică "hoisting".
 * Descrie "event bubbling".
 * Care este diferența dintre un atribut și o proprietate?
-* De ce nu este o idee bună extinderea obiectelor JavaScript DOM/"built-in".
+* De ce nu este o idee bună extinderea obiectelor JavaScript DOM/"built-in"?
 * De ce este extinderea "built in"-urilor o idee bună?
-* Diferența dintre evenimentul de "document load" și "document ready"?
+* Care este diferența dintre evenimentul "document load" și "document ready"?
 * Care este diferența dintre "==" și "==="?
-* Explain how you would get a query string parameter from the browser window's URL.
+* Descrie cum poți extrage un parametru de interogare din adresa URL a browser-ului.
 * Explică politica "same-origins" în legătură cu JavaScript.
 * Descrie pattern-uri de moștenire în JavaScript.
 * Fă următorul cod să funcționeze:
