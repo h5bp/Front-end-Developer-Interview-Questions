@@ -60,6 +60,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* Where would you go to find out if a Browser (or a specific version of it) supports a certain web technique?
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
