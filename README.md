@@ -60,6 +60,13 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* Explain the following request and response headers:
+  * Diff. between Expires, Date, Age and If-Modified-...
+  * DNT
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
