@@ -60,6 +60,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* Would it make sense to commit an IDE's project settings folder (p.e. ".idea" for JetBrains editors)? Would it make sense to commit parts of it?
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
