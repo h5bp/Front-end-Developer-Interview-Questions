@@ -143,6 +143,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
+* Can you think of any problems that might occur during JS minification?
+  * Angular-like AMD screwups due to DI and string2objec assignment
+  * Omitted File/Lib-DocBlocks which might cause legal issues
 * Make this work:
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
