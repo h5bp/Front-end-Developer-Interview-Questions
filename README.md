@@ -151,6 +151,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
+* Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
 
