@@ -143,6 +143,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
+* Are you aware of the problems that addition of integer values bring within javascript?
 * Make this work:
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
