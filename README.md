@@ -205,7 +205,7 @@ foo.push(1);
 foo.push(2);
 ```
 **Answer: `2`**
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+####[[⬆]](#toc) <a name='java'>General Questions:</a>
 What is the output of this code?
 ```Java
 int i = 012;
