@@ -205,14 +205,24 @@ foo.push(1);
 foo.push(2);
 ```
 **Answer: `2`**
-####[[⬆]](#toc) <a name='java'>General Questions:</a>
+####[[⬆]](#toc) <a name='java'>Java Questions:</a>
+
 What is the output of this code?
 ```Java
 int i = 012;
 i++;
 System.out.println(i);
 ```
-**Answer: `11` (0 prefix on integer literal converts it to octal)**
+**Answer: `11` (`0` prefix on integer literal converts it to octal)**
+
+
+Does this code compile? If not, on which line(s) does it fail?
+```Java
+1 List<Integer> l1 = new ArrayList<>();
+2 ArrayList<Integer> l2 = new ArrayList<Integer>(10);
+3 List<Object> l3 = new ArrayList<Integer>();
+```
+**Answer: There will be a compile error on line 3 (due to how generics work)**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
