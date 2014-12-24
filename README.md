@@ -182,7 +182,7 @@ add(2)(5); // 7
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-**Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
+**Answer: "bar"** **(only if `window.foo` is truthy, does it retain its value)**
 
 
 *Question: What is the outcome of the two alerts below?*
