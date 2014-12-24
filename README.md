@@ -15,6 +15,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
+  1. [Java Questions](#java)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
   1. [License](#license)
@@ -204,6 +205,14 @@ foo.push(1);
 foo.push(2);
 ```
 **Answer: `2`**
+####[[⬆]](#toc) <a name='general'>General Questions:</a>
+What is the output of this code?
+```Java
+int i = 012;
+i++;
+System.out.println(i);
+```
+**Answer: `11` (0 prefix on integer literal converts it to octal)**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
