@@ -207,7 +207,7 @@ foo.push(2);
 **Answer: `2`**
 ####[[⬆]](#toc) <a name='java'>Java Questions:</a>
 
-What is the output of this code?
+*Question: What is the output of this code?*
 ```Java
 int i = 012;
 i++;
@@ -216,13 +216,48 @@ System.out.println(i);
 **Answer: `11` (`0` prefix on integer literal converts it to octal)**
 
 
-Does this code compile? If not, on which line(s) does it fail?
+*Question: Does this code compile? If not, on which line(s) does it fail?*
 ```Java
 1 List<Integer> l1 = new ArrayList<>();
 2 ArrayList<Integer> l2 = new ArrayList<Integer>(10);
 3 List<Object> l3 = new ArrayList<Integer>();
 ```
 **Answer: There will be a compile error on line 3 (due to how generics work)**
+
+
+*Question: What property of Java does the following code exemplify?*
+```Java
+Integer i = 5;
+```
+**Answer: Auto-Boxing**
+
+
+*Question: What property of Java does the following code exemplify?*
+```Java
+String s = "Hello";
+Object o = s;
+```
+**Answer: Widening**
+
+
+*Question: What are two distinct ways one could call the foo method, as shown below?*
+```Java
+public class test
+{
+  void foo(String... args){}
+
+  void bar()
+  {
+    foo(/* Insert code here */);
+  }
+}
+```
+
+**Answer: Because foo is declared with a varargs method signature, it can be called as `foo(new String[]{"s1","s2","s3"});` or `foo("s1","s2","s3");`**
+
+*Question: What is the `strictfp` keyword, and when might one use it?*
+
+**Answer: The `strictfp` keyword enforces the IEEE 754 floating point standard for the method or class it is applied to. This is useful when floating-point calculations MUST be identical across different systems and platforms.**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
