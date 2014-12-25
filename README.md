@@ -286,7 +286,7 @@ public class Outer
 
 *Question: Name the two ways to create a Thread.*
 
-**Answer: 1) extend `Thread` 2) implement `Runnable` and pass an instance to the Thread constructor**
+**Answer: 1) extend `Thread` 2) implement `Runnable` and pass an instance to the `Thread` constructor**
 
 
 *Question: What is the purpose of calling `System.gc()`?*
