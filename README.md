@@ -262,7 +262,7 @@ public class test
 
 *Question: What are the advantages of using `StringBuilder` over regular strings. What is the difference between `StringBuilder` and `StringBuffer`?*
 
-**Answer: `StringBuilder` allows the creation of strings wihtout creating multiple new `String` objects. `StringBuffer` is a thread-safe and slightly slower version of `StringBuilder` **
+**Answer: `StringBuilder` allows the creation of strings wihtout creating multiple new `String` objects. `StringBuffer` is a thread-safe and slightly slower version of `StringBuilder`**
 
 
 *Question: What is the output of the following code segment?*
@@ -282,6 +282,52 @@ public class Outer
 ```
 
 **Answer: `1` (an inner class has access to *all* members of the enclosing class)**
+
+
+*Question: Name the two ways to create a Thread.*
+
+**Answer: 1) extend `Thread` 2) implement `Runnable` and pass an instance to the Thread constructor**
+
+
+*Question: What is the purpose of calling `System.gc()`?*
+
+**Answer: Calling `System.gc()` *asks* the gc (Garbage Collector) to run. There is no guarantee, however, that it will do anything.**
+
+
+*Question: How would you call the constructor of a parent class from inside the child's constructor? What about another constructor inside the class?*
+
+**Answer: `super(data)` and `this(data)`, respectively.**
+
+
+*Question: In memory, references exist on the _____, whereas the actual objects exist on the _____.*
+
+**Answer: Stack, Heap**
+
+
+*Question: Should assertions be used for crucial application logic?*
+
+**Answer: No, as assertions are debugging mechanisms ONLY, and are not enabled by default.**
+
+
+*Question: When is the code inside a static initialization block run?*
+
+**Answer: When the class is first loaded into memory.**
+
+
+*Question: What is the output of the following code?*
+```Java
+boolean b = false;
+int x = 1;
+
+if(b=true)
+{
+  x++;
+}
+
+System.out.println(x);
+```
+
+**Answer: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
