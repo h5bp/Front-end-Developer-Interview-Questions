@@ -259,6 +259,30 @@ public class test
 
 **Answer: The `strictfp` keyword enforces the IEEE 754 floating point standard for the method or class it is applied to. This is useful when floating-point calculations MUST be identical across different systems and platforms.**
 
+
+*Question: What are the advantages of using `StringBuilder` over regular strings. What is the difference between `StringBuilder` and `StringBuffer`?*
+
+**Answer: `StringBuilder` allows the creation of strings wihtout creating multiple new `String` objects. `StringBuffer` is a thread-safe and slightly slower version of `StringBuilder` **
+
+
+*Question: What is the output of the following code segment?*
+```Java
+public class Outer
+{
+  private int x = 1;
+  
+  class Inner
+  {
+    void foo()
+    {
+      System.out.println(x);
+    }
+  }
+}
+```
+
+**Answer: `1` (an inner class has access to *all* members of the enclosing class)**
+
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
 * What's a cool thing you've coded recently? What's something you've built that you're proud of?
