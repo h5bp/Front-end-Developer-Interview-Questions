@@ -68,6 +68,8 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Ha idén elsajátíthatnál egy technológiát, mi lenne az?
 * Ismertesd a sztandardok fontosságát.
 * Mi a FOUC? Hogyan kerulöd el a FOUC-et?
+* Magyarázt el legjobb tudásod szerint mi történik a böngészőben attól kezdve hogy beírod az oldal url-jét, addig hogy az betöltődött a képernyőn.
+* Magyarázd el mi az ARIA és a képernyőolvasók, és hogy tudsz egy weboldalt hozzáférhetővé tenni hátrányos helyzetben élők számára.
 
 ####[[⬆]](#toc) <a name='html'>HTML kérdések:</a>
 
@@ -80,6 +82,9 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Mire valók a `data-` attribútumok?
 * Tegyük fel, hogy a HTML5 egy nyílt webes felület. Mik az építőelemei?
 * Mi a különbség a `cookie` a `sessionStorage` és a `localStorage` között.
+* El tudod mondani mi a különbség a `GET` és a `POST` között?
+* Mi a különbség a `<script>`, `<script async>` és `<script defer>` között.
+
 
 ####[[⬆]](#toc) <a name='css'>CSS kérdések:</a>
 
@@ -103,6 +108,16 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
   * Webfontok ([Google Webfonts](https://www.google.com/fonts/), [Typekit](https://typekit.com/), stb.)
 * Miként határozza meg a böngésző a megfelelő CSS szelektort?
 * Hogyan értelmezed a "box model"-t és hogyan alkalmazod a böngészőkben?
+* Mit csinál a `* { box-sizing: border-box; }`? Mik az előnyei?
+* Sorold fel a display tulajdonság annyi értékét amennyit tudsz.
+* Mi a különbség az `inline` és az `inline-block` között?
+* Mi a különbség a `relative` , `fixed`, `absolute` és statikusan pozicionált elemek között?
+* A 'C' feloldása a CSS-ben a cascading (lépcsőzetes). Hogy van a prioritás meghatározva a stílusok közt (néhány példával)? Hogy használhatod ezt a rendszert a saját előnyödre?
+* Használtál már CSS keretrendszert? (Bootstrap, PureCSS, Foundation stb.)
+* Ha igen, melyiket? Ha tehetnéd, hogy változtatnád/fejlesztenéd tovább?
+* Foglalkoztál már az új CSS Flexbox és Grid specifikációkkal?
+* Miben más a reszponzív design és az adaptív design?
+* Dolgoztál már retina grafikával? Ha igen, milyen teknikákat használtál?
 
 ####[[⬆]](#toc) <a name='js'>JS kérdések:</a>
 
@@ -154,6 +169,8 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Mit nevezünk "Ternary" kifejezésnek? Mire utal a "Ternary" szó?
 * Mennyi attribútumot lehet átadni egy funkciónak?
 * Mi a `"use strict";`, mik az előnyei és a hátrányai?
+* Készíts egy ciklust ami 100-ig számol, minden 3-al osztható számnál kiírja hogy "fizz", minden 5-el osztható számnál kiírja hogy "buzz", és minden 3-al és 5-el is osztható számnál kiírja hogy "fizzbuzz"
+* Általánosságban miért jó ötlet a weboldal global scope-ját érintetlenül hagyni?
 
 ####[[⬆]](#toc) <a name='jquery'>jQuery kérdések:</a>
 
@@ -219,7 +236,7 @@ foo.push(2);
 
 * Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbüszkébb?
 * Mi a kedvenced az általad használt fejlesztői eszközökben?
-* Van bármilyen állatos projekted? Ha igen milyen?
+* Van dédelgetett projekted? Ha igen, milyen?
 * Mit szeretsz a legjobban az Internet Explorerben?
 
 ####[[⬆]](#toc) <a name='references'>További referenciák:</a>
