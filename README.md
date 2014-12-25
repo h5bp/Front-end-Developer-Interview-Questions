@@ -15,6 +15,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
+  1. [Java Questions](#java)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
   1. [License](#license)
@@ -203,6 +204,129 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
+**Answer: `2`**
+####[[⬆]](#toc) <a name='java'>Java Questions:</a>
+
+*Question: What is the output of this code?*
+```Java
+int i = 012;
+i++;
+System.out.println(i);
+```
+**Answer: `11` (`0` prefix on integer literal converts it to octal)**
+
+
+*Question: Does this code compile? If not, on which line(s) does it fail?*
+```Java
+1 List<Integer> l1 = new ArrayList<>();
+2 ArrayList<Integer> l2 = new ArrayList<Integer>(10);
+3 List<Object> l3 = new ArrayList<Integer>();
+```
+**Answer: There will be a compile error on line 3 (due to how generics work)**
+
+
+*Question: What property of Java does the following code exemplify?*
+```Java
+Integer i = 5;
+```
+**Answer: Auto-Boxing**
+
+
+*Question: What property of Java does the following code exemplify?*
+```Java
+String s = "Hello";
+Object o = s;
+```
+**Answer: Widening**
+
+
+*Question: What are two distinct ways one could call the foo method, as shown below?*
+```Java
+public class test
+{
+  void foo(String... args){}
+
+  void bar()
+  {
+    foo(/* Insert code here */);
+  }
+}
+```
+
+**Answer: Because foo is declared with a varargs method signature, it can be called as `foo(new String[]{"s1","s2","s3"});` or `foo("s1","s2","s3");`**
+
+*Question: What is the `strictfp` keyword, and when might one use it?*
+
+**Answer: The `strictfp` keyword enforces the IEEE 754 floating point standard for the method or class it is applied to. This is useful when floating-point calculations MUST be identical across different systems and platforms.**
+
+
+*Question: What are the advantages of using `StringBuilder` over regular strings. What is the difference between `StringBuilder` and `StringBuffer`?*
+
+**Answer: `StringBuilder` allows the creation of strings wihtout creating multiple new `String` objects. `StringBuffer` is a thread-safe and slightly slower version of `StringBuilder`**
+
+
+*Question: What is the output of the following code segment?*
+```Java
+public class Outer
+{
+  private int x = 1;
+  
+  class Inner
+  {
+    void foo()
+    {
+      System.out.println(x);
+    }
+  }
+}
+```
+
+**Answer: `1` (an inner class has access to *all* members of the enclosing class)**
+
+
+*Question: Name the two ways to create a Thread.*
+
+**Answer: 1) extend `Thread` 2) implement `Runnable` and pass an instance to the `Thread` constructor**
+
+
+*Question: What is the purpose of calling `System.gc()`?*
+
+**Answer: Calling `System.gc()` *asks* the gc (Garbage Collector) to run. There is no guarantee, however, that it will do anything.**
+
+
+*Question: How would you call the constructor of a parent class from inside the child's constructor? What about another constructor inside the class?*
+
+**Answer: `super(data)` and `this(data)`, respectively.**
+
+
+*Question: In memory, references exist on the _____, whereas the actual objects exist on the _____.*
+
+**Answer: Stack, Heap**
+
+
+*Question: Should assertions be used for crucial application logic?*
+
+**Answer: No, as assertions are debugging mechanisms ONLY, and are not enabled by default.**
+
+
+*Question: When is the code inside a static initialization block run?*
+
+**Answer: When the class is first loaded into memory.**
+
+
+*Question: What is the output of the following code?*
+```Java
+boolean b = false;
+int x = 1;
+
+if(b=true)
+{
+  x++;
+}
+
+System.out.println(x);
+```
+
 **Answer: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
