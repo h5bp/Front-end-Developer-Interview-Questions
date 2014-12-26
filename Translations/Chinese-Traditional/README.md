@@ -4,7 +4,7 @@
 
 此 repository 包含了一些前端開發的面試問題，來審查一個有潛力的面試者。這並不是建議你對同一個面試者問上所有的問 (那會花費好幾小時)。從列表中挑幾個題目，應該就夠幫助你審查面試者是否擁有你需要的技能。
 
-[Rebecca Murphey](http://rmurphey.com/) 的 [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) 也是一篇很棒且值得讀的文章在你開始面試之前。
+在你開始面試之前，[Rebecca Murphey](http://rmurphey.com/) 的 [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) 也是一篇很棒且值得閱讀的文章。
 
 **注意：** 請記住一點，很多問題都是隨情況而變化，能引發很多有趣的討論，比直接的標準答案更能讓你瞭解此人的能力。
 
@@ -200,7 +200,7 @@ add(2)(5); // 7
 ```
 
 **答案: "bar"**
-只有在 window.foo 是 falsey 時會回傳此答案，否則的話會回傳window.foo
+(只有在 ```window.foo``` 是 truthy 時會回傳它本身內存的值。)
 
 問題: 下面的兩個 alerts 的結果會是什麼？
 
