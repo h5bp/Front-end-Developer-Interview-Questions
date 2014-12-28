@@ -47,7 +47,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
     * Bonus points for identifying mobile as a possible downside (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
     * Bonus points for identifying HTTP2 / SPDY as an exception
 * Name 3 ways to decrease page load (perceived or actual load time).
-  * Consider using a .gif file rather than a .png file when the quality difference is not noticeable, such as for simple artwork with solid colors. A tall or wide infographic is an example of a.png file that would convert well to a smaller .gif file.
+  * Convert 24-bit .png image files to smaller 8-bit .png image files when the quality difference is not noticeable, such as for simple artwork with solid colors. Tall or wide infographics are often good candidates for conversion. To accomplish this in Photoshop, use the File -> Save for Web & Devices option and select PNG-8. In that same location, further compress the file by adjusting the Web Snap feature to eliminate unnecessary colors.
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
   * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
   * Conform to the conventions (stay consistent)
