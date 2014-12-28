@@ -27,8 +27,8 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 * O que você aprendeu ontem ou esta semana?
 * O que te excita ou te interessa em programação/codificação?
-* Quais as suas considerações sobre UI, Segurança, Perfomance, Aplicação, Manutenibilidade  ou Tecnologia quando você desenvolve uma aplicação web ou site? 
-* Fale sobre seu ambiente de desenvolvimento preferido. (SO, Editor, Browser, Ferramentas, etc)
+* Quais as suas considerações sobre UI, Segurança, Perfomance, Aplicação, Manutenibilidade  ou Tecnologia quando você desenvolve uma aplicação web ou site?
+* Fale sobre seu ambiente de desenvolvimento preferido. (SO, Editor, Browser, Ferramentas, etc.)
 * Com quais sistemas de controle de versão você é familiar?
 * Descreva seu trabalho quando cria uma página web.
 * Se você tivesse 5 diferentes arquivos de folhas de estilo, qual seria a melhor forma de integrá-los no site?
@@ -48,7 +48,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
     * Bônus para identificação mobile como uma possível desvantagem (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
     * Bônus para identicação de HTTP2 / SPDY como uma *exception*
 * Fale 3 formas de diminuir o _page load_ (tempo de carregamento real e percebido)
-* Se você caísse em um projeto que as pessoas usam _tabs_ para identação e você usa espaços, o que você faria?
+* Se você caísse em um projeto que as pessoas usam _tabs_ para indentação e você usa espaços, o que você faria?
   * Sugerir que o projeto utilize algo como EditorConfig (http://editorconfig.org)
   * Se conformar com as convenções (ficar consistente)
   * `issue :retab! command`
@@ -78,7 +78,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 ####[[⬆]](#toc) <a name='css'>Questões de CSS:</a>
 
 * Qual é a diferença entre classes e IDs no CSS?
-* Descreva o que é o arquivo "reset" do css e o que ele faz e como ele é útil.
+* Descreva o que é o arquivo "reset" do CSS e o que ele faz e como ele é útil.
   * Bônus para identicação das desvantagens de um *reset* e/ou mencionar *normalize* como uma melhor alternativa.
 * Descreva o que são Floats e como eles funcionam.
 * Descreva z-index e como o empilhamento do contexto é formado.
@@ -90,22 +90,22 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
   * Quais técnicas/processos você usa?
 * Quais são as diferentes formas de visualizar conteúdo escondido (e como fazer para deixar eles disponíveis apenas para leitores de tela?)
 * Você já utilizou algum sistema de grid, se sim, qual você prefere?
-* Você já utilizou ou implementou media queries ou css's específicos para mobile?
+* Você já utilizou ou implementou media queries ou CSSs específicos para mobile?
 * Qual sua familiaridade com SVG?
 * Como você optimiza suas páginas para impressão?
 * Quais são algumas técnicas para escrever um eficiente CSS?
-* Você já utilizou pré-processadores css? (SASS, Compass, Stylus, LESS)
+* Você já utilizou pré-processadores CSS? (SASS, Compass, Stylus, LESS)
   * Se sim, descreva o que você gostou e o que não gostou com eles.
 * Como você implementaria um website que não utilizaria fontes padrões nos computadores?
-  * Webfonts (Serviços como: Google Webfonts, Typekit etc.)
+  * Webfonts (Serviços como: Google Webfonts, Typekit, etc.)
 * Explique como um browser determina quais os elementos que correspondem a um seletor CSS.
 *  Explique o que você entende sobre *box model* e como você poderia dizer para o navegador en CSS para renderizar seu layout em diferentes *box models*.
-* O que ```* { box-sizing: border-box; }``` faz? Quais são as vantagens? 
+* O que ```* { box-sizing: border-box; }``` faz? Quais são as vantagens?
 * Liste quantas propriedades *display* você puder lembrar.
 * Qual a diferença entre inline e inline-block?
 * Qual a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática?
-* Quais frameworks CSS você tem usado localmente ou em produção? (Bootstrap, PureCSS, Foundation etc.)
-  * Se sim, quais deles? Se você puder, como você mudaria/melhoraria ele(s)? 
+* Quais frameworks CSS você tem usado localmente ou em produção? (Bootstrap, PureCSS, Foundation, etc.)
+  * Se sim, quais deles? Se você puder, como você mudaria/melhoraria ele(s)?
 * Você já brincou com as novas especificações de CSS Flexbox e CSS Grid?
 * Como o design responsivo é diferente do design adaptavel?
 * Você já trabalhou com gráficos retina? Se sim, quando e quais técnicas você usou?
@@ -117,7 +117,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Explique como funciona herança prototipada.
 * Como você testa seu JavaScript?
 * AMD vs. CommonJS?
-* Explique por que a seguinte função não funciona como uma IIFE: `function foo(){ }();`. 
+* Explique por que a seguinte função não funciona como uma IIFE: `function foo(){ }();`.
   * O que precisa ser alterado para se tornar uma IIFE?
 * Qual a diferença entre uma variável que `null`,  `undefined` ou `undeclared`?
   * Como você verificaria esses estados?
@@ -136,7 +136,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Explique o que é AJAX o mais detalhadamente possível.
 * Explique como o JSONP funciona (e como ele realmente não é AJAX).
 * Você já utilizou templates com Javascript?
-  * Se sim, quais bibliotecas foram utilizadas? (Mustache.js, Handlebars etc.)
+  * Se sim, quais bibliotecas foram utilizadas? (Mustache.js, Handlebars, etc.)
 * Explique o que é "hoisting".
 * Descreva o que é event bubbling.
 * Qual a diferença entre "atributo" e "propriedade"?
@@ -155,12 +155,12 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 ####[[⬆]](#toc) <a name='jquery'>Questões de jQuery:</a>
 
-* Eplique "chaining".
-* Eplique "deferreds".
+* Explique "chaining".
+* Explique "deferreds".
 * Quais são algumas otimizações de jQuery que você pode implementar?
 * O que `.end()` faz?
 * Nomeie 4 valores diferentes que você pode passar para um método jQuery.
-  * Seletor (string), HTML (string), Callback (function), HTMLElement, objeti, array, elemento de array, jQuery Object etc.
+  * Seletor (string), HTML (string), Callback (function), HTMLElement, object, array, elemento de array, jQuery Object, etc.
 * Qual a diferença entre `.get()`, `[]`, e `.eq()`?
 
 ####[[⬆]](#toc) <a name='jscode'>Questões de código:</a>
@@ -172,7 +172,7 @@ add(2)(5); // 7
 ```
 
 
-*Question: Qual valor é retornado da seguinte declaração?*
+*Questão: Qual valor é retornado da seguinte declaração?*
 ```javascript
 "sou uma lasanha".split("").reverse().join("");
 ```
@@ -188,11 +188,11 @@ add(2)(5); // 7
 
 *Questão: Qual o retorno dos dois alerts abaixo?*
 ```javascript
-var foo = "Hello"; 
-(function() { 
-  var bar = " World"; 
-  alert(foo + bar); 
-})(); 
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
 alert(foo + bar);
 ```
 **Resposta: "Hello World" & ReferenceError: bar is not defined**
