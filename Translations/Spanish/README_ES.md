@@ -61,7 +61,7 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 	* Sugerir que el proyecto utilice algo como EditorConfig (http://editorconfig.org)
 	* Mantener la convención establecida y utilizar tabs.
 	* Utilizar el comando `:retab!`
-* Escriba un página con una galería sencilla.
+* Escriba una página con una galería sencilla.
 	* Puntos extra si no usa JavaScript.
 * ¿Qué herramientas usa para probar el rendimiento de su código?
 	* JSPerf (http://jsperf.com/)
@@ -113,9 +113,9 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
 * ¿Puede explicar cómo entiende el `box model` (modelo de cajas) y como podría hacer que un navegador renderize su esquema usando diferentes modelos de cajas?
 * Por favor enliste todos los valores para la propiedad `display` que pueda recordar
-* ¿Cual es la diferencia entre `inline` y `inline-block`?
-* ¿Cual es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
-* ¿Que sabe sobre  Css Flexbox y cuales son sus ventajas ?
+* ¿Cuál es la diferencia entre `inline` y `inline-block`?
+* ¿Cuál es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
+* ¿Qué sabe sobre  Css Flexbox y cuales son sus ventajas ?
 **[[⬆]](#indice)**
 
 ####<a name='js'>Preguntas específicas de JavaScript:</a>
@@ -146,7 +146,7 @@ function Person(){} var person = Person() var person = new Person()
 * ¿Cuándo optimiza su codigo?
 * ¿Puede explicar cómo funciona la herencia en JavaScript?
 * ¿Cuándo usarías `document.write()`?
-	* La mayoría de anuncios de todavía utilizan esta técnica, aunque no es recomendada.
+	* La mayoría de anuncios todavía utilizan esta técnica, aunque no es recomendada.
 * ¿Cuál es la diferencia entre detección de capacidades, inferencia de capacidades y usar la cadena del user agent.
 * Explique AJAX con tanto detalle como pueda.
 * Explique cómo funciona JSONP (y cómo no es AJAX realmente)
