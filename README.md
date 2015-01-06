@@ -61,6 +61,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
+* Explain some of the pros and cons for CSS animations versus JavaScript animations
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
