@@ -211,6 +211,7 @@ foo.push(2);
 * What are some things you like about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
+* How do you like your Coffee?
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
 
