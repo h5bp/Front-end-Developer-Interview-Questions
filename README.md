@@ -111,6 +111,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Have you played around with the new CSS Flexbox or Grid specs?
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
+* Which server software do you know and what were your experiences so far?
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
