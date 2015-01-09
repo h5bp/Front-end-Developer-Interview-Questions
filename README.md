@@ -47,6 +47,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations
+* Where would you go to find out if a Browser (or a specific version of it) supports a certain web technique?
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
