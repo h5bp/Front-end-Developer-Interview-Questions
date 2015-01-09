@@ -1,14 +1,11 @@
 #Front-end Job Interview Questions
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
-
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
+This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
 **Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [Original Contributors](#contributors)
   1. [General Questions](#general)
   1. [HTML Questions](#html)
   1. [CSS Questions](#css)
@@ -16,13 +13,15 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
   1. [Fun Questions](#fun)
-  1. [Other Great References](#references)
-  1. [License](#license)
+  
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+## <a name='toc'>Getting Involved</a>
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
-
+  1. [Original Contributors](#contributors)
+  1. [Recent Contributors](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors)
+  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
+  
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
@@ -32,29 +31,15 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
-  * File concatenation
 * Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
 * How would you optimize a website's assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
-    * Caching
 * Traditionally, why has it been better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
+* How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
-    * Bonus points for identifying mobile as a possible downside (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
-    * Bonus points for identifying HTTP2 / SPDY as an exception
 * Name 3 ways to decrease page load (perceived or actual load time).
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistent)
-  * `issue :retab! command`
 * Write a simple slideshow page
-  * Bonus points if it does not use JS.
 * What tools do you use to test your code's performance?
-  * Profiler, JSPerf, Dromaeo
 * If you could master one technology this year, what would it be?
 * What are the differences between Long-Polling, Websockets and SSE?
 * Explain the importance of standards and standards bodies.
@@ -68,9 +53,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
 * What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
+* Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
-  * What kind of things must you be wary of when design or developing for multilingual sites?
+* What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
@@ -80,7 +65,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 * What is the difference between classes and ID's in CSS?
 * Describe what a "reset" CSS file does and how it's useful.
-  * Bonus for pointing out the downsides of a "reset", and/or mentioning "normalize" as a better alternative.
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
@@ -98,7 +82,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What are the advantages/disadvantages of using CSS preprocessors? (Sass, Compass, Stylus, LESS)
   * If so, describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
-  * Webfonts (font services like Google Webfonts, Typekit, etc.)
 * Explain how a browser determines what elements match a CSS selector.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages? 
@@ -132,7 +115,6 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain `Function.prototype.bind`.
 * When do you optimize your code?
 * When would you use `document.write()`?
-  * Most generated ads still utilize `document.write()` although its use is frowned upon
 * What's the difference between feature detection, feature inference, and using the UA string
 * Explain AJAX in as much detail as possible.
 * Explain how JSONP works (and how it's not really AJAX).
@@ -176,15 +158,11 @@ add(2)(5); // 7
 ```javascript
 "i'm a lasagne hog".split("").reverse().join("");
 ```
-**Answer: "goh engasal a m'i"**
-
 
 *Question: What is the value of `window.foo`?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-**Answer: "bar"** **(only if `window.foo` is truthy, does it retain its value)**
-
 
 *Question: What is the outcome of the two alerts below?*
 ```javascript
@@ -195,8 +173,6 @@ var foo = "Hello";
 })(); 
 alert(foo + bar);
 ```
-**Answer: "Hello World" & ReferenceError: bar is not defined**
-
 
 *Question: What is the value of `foo.length`?*
 ```javascript
@@ -204,29 +180,16 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-**Answer: `2`**
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
-* What's a cool thing you've coded recently? What's something you've built that you're proud of?
+* What's a cool project the you've recently worked on? 
 * What are some things you like about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 * How do you like your Coffee?
 
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
 
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://davidshariff.com/js-quiz/
-* http://blog.sourcing.io/interview-questions
-* http://www.toptal.com/javascript/interview-questions
-* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-* http://www.sitepoint.com/5-javascript-interview-exercises/
-* http://www.sitepoint.com/10-typical-html-interview-exercises/
+####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
-####[[⬆]](#toc) <a name='license'>License:</a>
-
-Released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
+The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created **originally** by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and collectively contributed to by the following: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
