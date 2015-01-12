@@ -68,6 +68,10 @@ This file contains a number of front-end interview questions that can be used wh
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
 * Can you explain the difference between `GET` and `POST`?
+* How can you define custom HTML Elements? 
+  * HTML5? Shadow DOM? "Web components"?
+  * Libraries: Polymer? Bosonic? Xtags?
+  * Browser adoption?
 * Describe the difference between `<script>`, `<script async>` & `<script defer>`.
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
