@@ -191,11 +191,11 @@ foo.push(2);
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
-* What's a cool project the you've recently worked on? 
+* What's a cool project that you've recently worked on? 
 * What are some things you like about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
-* How do you like your Coffee?
+* How do you like your coffee?
 
 
 ####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
