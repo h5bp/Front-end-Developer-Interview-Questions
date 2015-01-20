@@ -27,7 +27,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+* What UI, Accessibility, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 * Talk about your preferred development environment. (OS, Editor or IDE, Browsers, Tools, etc.)
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
@@ -44,9 +44,11 @@ This file contains a number of front-end interview questions that can be used wh
 * If you could master one technology this year, what would it be?
 * What are the differences between Long-Polling, Websockets and SSE?
 * Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
+* What is Flash of Unstyled Content (FOUC)? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
-* Explain what ARIA and screenreaders are, and how to make a website accessible.
+* What is your approach to accessiblity and developing in keyboard accessibility and visual focus, such as using foundational HTML and Javascript techniques? 
+* Explain your experience with Web Accessibility Initiative's Accessible Rich Internet Applications (WAI-ARIA): Do you know the difference between developing an aceesible website following Web Content Accessibility Guidelines (WCAG) web standards and custom developing for assistive technologies such as screenreaders with WAI-ARIA?
+* What experience do you have in developing in frameworks such as Microsoft Active Accessibility (MSAA), Microsoft UI Automation (UIA), or Java Accessibilty Bridge, or Linux Foundation's IAccessible2?
 * Explain some of the pros and cons for CSS animations versus JavaScript animations
 * Explain the following request and response headers:
   * Diff. between Expires, Date, Age and If-Modified-...
