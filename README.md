@@ -11,9 +11,10 @@ This file contains a number of front-end interview questions that can be used wh
   1. [CSS Questions](#css)
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
+  1. [Backbone.js Questions](#backbone)
   1. [Coding Questions](#jscode)
   1. [Fun Questions](#fun)
-  
+
 
 ## <a name='toc'>Getting Involved</a>
 
@@ -153,6 +154,19 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Name 4 different values you can pass to the jQuery method.
   * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
 * What is the difference between `.get()`, `[]`, and `.eq()`?
+
+####[[⬆]](#toc) <a name='backbone'>Backbone.js Questions:</a>
+
+* Describe the way you integrated Backbone on your application.
+  * If you used it on more than one project, how did using it evolve from one project to the other ?
+* How does Backbone relate to "traditional" MVC?
+* Can you describe how the Backbone router works?
+* Can you explain what's the purpose of Backbone.sync?
+  * How does the default sync handler map CRUD to REST?
+* Describe `delegateEvents`.
+* Have you ever mixed parts of Backbone with other objects or structural frameworks ?
+* Have you ever heard of / used Marionette?
+  * What does it add on top of Backbone?
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
