@@ -164,7 +164,7 @@ add(2)(5); // 7
 
 *Question: What value is returned from the following statement?*
 ```javascript
-"i'm a lasagne hog".split("").reverse().join("");
+"i'm a lasagna hog".split("").reverse().join("");
 ```
 
 *Question: What is the value of `window.foo`?*
