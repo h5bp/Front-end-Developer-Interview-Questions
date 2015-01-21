@@ -4,25 +4,25 @@ This file contains a number of front-end interview questions that can be used wh
 
 **Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
-## <a name='toc'>Table of Contents</a>
+## Table of Contents
 
-  1. [General Questions](#general)
-  1. [HTML Questions](#html)
-  1. [CSS Questions](#css)
-  1. [JS Questions](#js)
-  1. [jQuery Questions](#jquery)
-  1. [Coding Questions](#jscode)
-  1. [Fun Questions](#fun)
+  1. [General Questions](#general-questions)
+  1. [HTML Questions](#html-questions)
+  1. [CSS Questions](#css-questions)
+  1. [JS Questions](#js-questions)
+  1. [jQuery Questions](#jquery-questions)
+  1. [Coding Questions](#coding-questions)
+  1. [Fun Questions](#fun-questions)
   
 
-## <a name='toc'>Getting Involved</a>
+## Getting Involved
 
   1. [Original Contributors](#contributors)
   1. [Recent Contributors](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors)
   1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
   
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+#### General Questions:
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
@@ -56,7 +56,7 @@ This file contains a number of front-end interview questions that can be used wh
   * ETag
   * X-Frame-Options
 
-####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
+#### HTML Questions:
 
 * What's a `doctype` do?
 * What's the difference between standards mode and quirks mode?
@@ -70,7 +70,8 @@ This file contains a number of front-end interview questions that can be used wh
 * Can you explain the difference between `GET` and `POST`?
 * Describe the difference between `<script>`, `<script async>` & `<script defer>`.
 
-####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
+#### CSS Questions:
+
 * What is the difference between classes and ID's in CSS?
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe Floats and how they work.
@@ -103,7 +104,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 
-####[[⬆]](#toc) <a name='js'>JS Questions:</a>
+#### JS Questions:
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
@@ -144,7 +145,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 
-####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
+#### jQuery Questions:
 
 * Explain "chaining".
 * Explain "deferreds".
@@ -154,7 +155,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
 * What is the difference between `.get()`, `[]`, and `.eq()`?
 
-####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
+#### Code Questions:
 
 *Question: How would you make this work?*
 ```javascript
@@ -189,7 +190,7 @@ foo.push(1);
 foo.push(2);
 ```
 
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
+#### Fun Questions:
 
 * What's a cool project that you've recently worked on? 
 * What are some things you like about the developer tools you use?
@@ -198,6 +199,6 @@ foo.push(2);
 * How do you like your coffee?
 
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+#### Original Contributors:
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created **originally** by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and collectively contributed to by the following: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
