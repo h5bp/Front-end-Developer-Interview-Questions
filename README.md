@@ -155,7 +155,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
 * What is the difference between `.get()`, `[]`, and `.eq()`?
 
-#### Code Questions:
+#### Coding Questions:
 
 *Question: How would you make this work?*
 ```javascript
