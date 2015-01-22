@@ -103,6 +103,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Have you played around with the new CSS Flexbox or Grid specs?
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
+* Which one is better translate() vs Position:Abs;Top/left?
 
 #### JS Questions:
 
