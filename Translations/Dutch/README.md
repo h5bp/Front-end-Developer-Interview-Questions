@@ -109,7 +109,7 @@ function Person(){} var person = Person() var person = new Person()
 * Leg uit hoe je een query string parameter uit een browsers window URL kan halen. 
 * Leg de same-origin policy met betrekking tot JavaScript uit. 
 * Beschrijf overerving patronen in JavaScript. 
-* Maaak dit werkend: 
+* Maak dit werkend: 
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
