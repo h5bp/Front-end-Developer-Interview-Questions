@@ -123,7 +123,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain `Function.prototype.bind`.
 * When do you optimize your code?
 * When would you use `document.write()`?
-* What's the difference between feature detection, feature inference, and using the UA string
+* What's the difference between feature detection, feature inference, and using the UA string?
 * Explain AJAX in as much detail as possible.
 * Explain how JSONP works (and how it's not really AJAX).
 * Have you ever used JavaScript templating?
