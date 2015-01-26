@@ -16,7 +16,7 @@ the preferred channel for spelling mistakes, errors or any general feedback. Ple
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
-* Please **do not** open issues or pull requests that invlove including **answers** to any of the questions. 
+* Please **do not** open issues or pull requests that involve including **answers** to any of the questions.
 
 <a name="pull-requests"></a>
 ## Pull requests
