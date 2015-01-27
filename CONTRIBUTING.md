@@ -16,7 +16,7 @@ the preferred channel for spelling mistakes, errors or any general feedback. Ple
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
-* Please **do not** open issues or pull requests that invlove including **answers** to any of the questions. 
+* Please **do not** open issues or pull requests that involve including **answers** to any of the questions.
 
 <a name="pull-requests"></a>
 ## Pull requests
@@ -67,4 +67,4 @@ Adhering to the following process is the best way to get your work included in t
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
     with a clear title and description.
 
-**IMPORTANT**: By submitting pathes, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE.md).
+**IMPORTANT**: By submitting patches, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE.md).
