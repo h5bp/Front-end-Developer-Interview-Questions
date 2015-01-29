@@ -13,14 +13,13 @@ This file contains a number of front-end interview questions that can be used wh
   1. [jQuery Questions](#jquery-questions)
   1. [Coding Questions](#coding-questions)
   1. [Fun Questions](#fun-questions)
-  
 
 ## Getting Involved
 
   1. [Contributors](#contributors)
   1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
-  
+
 #### General Questions:
 
 * What did you learn yesterday/this week?
@@ -93,13 +92,13 @@ This file contains a number of front-end interview questions that can be used wh
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-* What does ```* { box-sizing: border-box; }``` do? What are its advantages? 
+* What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
 * What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
-  * If so, which ones? If you could, how would you change/improve them? 
+  * If so, which ones? If you could, how would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
@@ -111,7 +110,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
+* Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
   * How would you go about checking for any of these states?
@@ -175,11 +174,11 @@ add(2)(5); // 7
 
 *Question: What is the outcome of the two alerts below?*
 ```javascript
-var foo = "Hello"; 
-(function() { 
-  var bar = " World"; 
-  alert(foo + bar); 
-})(); 
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
 alert(foo + bar);
 ```
 
@@ -192,7 +191,7 @@ foo.push(2);
 
 #### Fun Questions:
 
-* What's a cool project that you've recently worked on? 
+* What's a cool project that you've recently worked on?
 * What are some things you like about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
@@ -203,4 +202,4 @@ foo.push(2);
 
 This document started in 2009 as a collaboration of [@paul_irish](http://twitter.com/paul_irish) [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://twitter.com/ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) and [@iansym](http://twitter.com/iansym).
 
-It has since received contributions from [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors). 
+It has since received contributions from [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
