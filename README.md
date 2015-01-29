@@ -54,6 +54,7 @@ This file contains a number of front-end interview questions that can be used wh
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
+* Where would you go to find out if a Browser (or a specific version of it) supports a certain web technique?
 
 #### HTML Questions:
 
