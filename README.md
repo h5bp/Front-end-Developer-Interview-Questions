@@ -11,6 +11,7 @@ This file contains a number of front-end interview questions that can be used wh
   1. [CSS Questions](#css-questions)
   1. [JS Questions](#js-questions)
   1. [jQuery Questions](#jquery-questions)
+  1. [HTTP/Network Questions](#httpnetwork-questions)
   1. [Coding Questions](#coding-questions)
   1. [Fun Questions](#fun-questions)
 
@@ -32,7 +33,6 @@ This file contains a number of front-end interview questions that can be used wh
 * If you have 5 different stylesheets, how would you best integrate them into the site?
 * Can you describe the difference between progressive enhancement and graceful degradation?
 * How would you optimize a website's assets/resources?
-* Traditionally, why has it been better to serve site assets from multiple domains?
 * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
 * Name 3 ways to decrease page load (perceived or actual load time).
@@ -40,20 +40,10 @@ This file contains a number of front-end interview questions that can be used wh
 * Write a simple slideshow page
 * What tools do you use to test your code's performance?
 * If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
-* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations
-* Explain the following request and response headers:
-  * Diff. between Expires, Date, Age and If-Modified-...
-  * DNT
-  * Cache-Control
-  * Transfer-Encoding
-  * ETag
-  * X-Frame-Options
-* Where would you go to find out if a Browser (or a specific version of it) supports a certain web technique?
 
 #### HTML Questions:
 
@@ -66,7 +56,6 @@ This file contains a number of front-end interview questions that can be used wh
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
-* Can you explain the difference between `GET` and `POST`?
 * Describe the difference between `<script>`, `<script async>` & `<script defer>`.
 
 #### CSS Questions:
@@ -153,6 +142,20 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Name 4 different values you can pass to the jQuery method.
   * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
 * What is the difference between `.get()`, `[]`, and `.eq()`?
+
+#### HTTP/Network Questions:
+
+* Traditionally, why has it been better to serve site assets from multiple domains?
+* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* What are the differences between Long-Polling, Websockets and SSE?
+* Explain the following request and response headers:
+  * Diff. between Expires, Date, Age and If-Modified-...
+  * DNT
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
+* Can you explain the difference between `GET` and `POST`?
 
 #### Coding Questions:
 
