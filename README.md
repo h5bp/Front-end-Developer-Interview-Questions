@@ -77,7 +77,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors? (Sass, Compass, Stylus, LESS)
-  * If so, describe what you like and dislike about the CSS preprocessors you have used.
+  * Describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
