@@ -143,6 +143,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
+* Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 
 #### jQuery Questions:
 
@@ -153,7 +154,6 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Name 4 different values you can pass to the jQuery method.
   * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
 * What is the difference between `.get()`, `[]`, and `.eq()`?
-* What is the difference between `window.onload` and jQuery's `$(document).ready()`?
 
 #### Coding Questions:
 
