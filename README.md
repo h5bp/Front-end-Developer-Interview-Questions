@@ -43,6 +43,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What is FOUC? How do you avoid FOUC?
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations
+* Explain what a single page app is and how to make it SEO-friendly.
 
 #### HTML Questions:
 
