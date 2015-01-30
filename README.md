@@ -73,6 +73,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 * What is the difference between classes and ID's in CSS?
 * Describe what a "reset" CSS file does and how it's useful.
+  * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
