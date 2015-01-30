@@ -47,7 +47,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### HTML Questions:
 
-* What's a `doctype` do?
+* What does a `doctype` do?
 * What's the difference between standards mode and quirks mode?
 * What are the limitations when serving XHTML pages?
 * Are there any problems with serving pages as `application/xhtml+xml`?
