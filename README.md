@@ -10,8 +10,7 @@ This file contains a number of front-end interview questions that can be used wh
   1. [HTML Questions](#html-questions)
   1. [CSS Questions](#css-questions)
   1. [JS Questions](#js-questions)
-  1. [jQuery Questions](#jquery-questions)
-  1. [HTTP/Network Questions](#httpnetwork-questions)
+  1. [Network Questions](#network-questions)
   1. [Coding Questions](#coding-questions)
   1. [Fun Questions](#fun-questions)
 
@@ -134,17 +133,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 
-#### jQuery Questions:
-
-* Explain "chaining".
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do?
-* Name 4 different values you can pass to the jQuery method.
-  * Selector (string), HTML (string), Callback (function), HTML element, object, array, element array, jQuery Object, etc.
-* What is the difference between `.get()`, `[]`, and `.eq()`?
-
-#### HTTP/Network Questions:
+#### Network Questions:
 
 * Traditionally, why has it been better to serve site assets from multiple domains?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
