@@ -26,7 +26,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor or IDE, Browsers, Tools, etc.)
+* Talk about your preferred development environment.
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
@@ -55,7 +55,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
-* Describe the difference between `<script>`, `<script async>` & `<script defer>`.
+* Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 
 #### CSS Questions:
@@ -76,7 +76,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Any familiarity with styling SVG?
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors? (Sass, Compass, Stylus, LESS)
+* What are the advantages/disadvantages of using CSS preprocessors?
   * Describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
@@ -86,8 +86,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
-* What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
-  * If so, which ones? If you could, how would you change/improve them?
+* What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
@@ -117,7 +116,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain AJAX in as much detail as possible.
 * Explain how JSONP works (and how it's not really AJAX).
 * Have you ever used JavaScript templating?
-  * If so, what libraries have you used? (Mustache.js, Handlebars etc.)
+  * If so, what libraries have you used?
 * Explain "hoisting".
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
