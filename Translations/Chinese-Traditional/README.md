@@ -10,33 +10,22 @@
 
 ## <a name='toc'>目錄</a>
 
-  1. [最初貢獻者](#contributors)
-  1. [常見問題](#general)
-  1. [HTML 規格問題集](#html)
-  1. [CSS 規格問題集](#css)
-  1. [JS 規格問題集](#js)
-  1. [jQuery 規格問題集](#jquery)
-  1. [程式碼問題集](#jscode)
-  1. [有趣問題](#fun)
-  1. [其他參考資料](#references)
+  1. [常見問題](#general-questions)
+  1. [HTML 問題集](#html-questions)
+  1. [CSS 問題集](#css-questions)
+  1. [JS 問題集](#js-questions)
+  1. [Network 問題集](#network-questions)
+  1. [程式碼問題集](#coding-questions)
+  1. [有趣問題](#fun-questions)
 
-####[[⬆]](#toc) <a name='contributors'>最初貢獻者:</a>
-多數的問題都是從 [oksoclap](http://oksoclap.com/) 上的一個討論串截取出來，原創作人為 [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) 並由以下的人員所貢獻：
+## 參與貢獻
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com/iansym)
+  1. [貢獻作者群](#contributors)
+  1. [如何貢獻](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [版權宣告](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-####[[⬆]](#toc) <a name='general'>常見問題：</a>
+
+####[[⬆]](#toc) <a name='general-questions'>常見問題：</a>
 
 * 你昨天或這週學習了什麼？
 * 寫程式的哪部份最讓你感到很興奮或是有興趣？
@@ -75,7 +64,7 @@
 * 什麼是 FOUC？ 你怎麼避免 FOUC?
 * 請詳細描述當您在網址列打入網址開始到最後網頁呈現在螢幕前的整個流程。
 
-####[[⬆]](#toc) <a name='html'>HTML 規格問題集:</a>
+####[[⬆]](#toc) <a name='html-questions'>HTML 規格問題集:</a>
 
 * `doctype` 做什麼用的？
 * standards mode 和 quirks mode 有什麼不同？
@@ -86,9 +75,8 @@
 * `data-` 屬性的好處在哪？
 * 考慮 HTML5 作為一個開放式的網站平台。HTML5 的 building blocks 有哪些？
 * 請描述 cookies, sessionStorage 和 localStorage 的不同？
-* 請描述 `GET` 和 `POST` 差異性
 
-####[[⬆]](#toc) <a name='css'>CSS 規格問題集：</a>
+####[[⬆]](#toc) <a name='css-questions'>CSS 規格問題集：</a>
 
 * CSS 的 class 和 ID 兩者有何差異？
 * 描述 "reset" 在 CSS 中做什麼, 如何用？
@@ -123,7 +111,7 @@
 * 如何區分 responsive design 與 adaptive design 有何不同？
 * 你曾經使用過 retina graphics？如果有，是在什麼時機以及用了什麼技術？
 
-####[[⬆]](#toc) <a name='js'>JS 規格問題集：</a>
+####[[⬆]](#toc) <a name='js-questions'>JS 規格問題集：</a>
 
 * 描述 event delegation
 * 描述 `this` 如果運作在 JavaScript 中
@@ -166,17 +154,21 @@
 * 什麼是 `"use strict";`? 使用他的優點和缺點是什麼？
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 
-####[[⬆]](#toc) <a name='jquery'>jQuery 規格問題集：</a>
+####[[⬆]](#toc) <a name='network-questions'>網路問題集:</a>
 
-* 描述 "chaining"
-* 描述 "deferreds"
-* 你知道哪些實作 jQuery 的優化方式？
-* `.end()` 做些什麼？
-* 說出四種可以傳到 jQuery 方法的值
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object … 等。
-* `.get()`, `[]`, 和 `.eq()` 有何不同？
+* Traditionally, why has it been better to serve site assets from multiple domains?
+* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+* What are the differences between Long-Polling, Websockets and SSE?
+* Explain the following request and response headers:
+  * Diff. between Expires, Date, Age and If-Modified-...
+  * DNT
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
+* 請描述 `GET` 和 `POST` 差異性
 
-####[[⬆]](#toc) <a name='jscode'>程式碼問題集:</a>
+####[[⬆]](#toc) <a name='coding-questions'>程式碼問題集:</a>
 
 問題：實作符合下面的函式
 
@@ -225,24 +217,15 @@ foo.push(2);
 
 **答案： `2`**
 
-####[[⬆]](#toc) <a name='fun'>有趣問題：</a>
+####[[⬆]](#toc) <a name='fun-questions'>有趣問題：</a>
 
 * 你寫過最酷的程式是什麼？你最自豪的是什麼？
 * 你使用的開發工具中，你最喜歡的部分是什麼？
 * 你有任何的 pet projects (個人開發的小專案)？ 什麼樣的？
 * 你最喜歡 IE 瀏覽器的什麼特點？
 
-####[[⬆]](#toc) <a name='references'>其他參考資料:</a>
+#### <a name='contributors'>貢獻作者群:</a>
 
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
-* http://www.toptal.com/javascript/interview-questions
-* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-* http://www.sitepoint.com/5-javascript-interview-exercises/
+此文件是由 [@paul_irish](http://twitter.com/paul_irish) [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://twitter.com/ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) and [@iansym](http://twitter.com/iansym) 於 2009 年共同發起。
 
-####[[⬆]](#toc) <a name='license'>版權宣告:</a>
-
-Copyright 2012 by Darcy Clarke, released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
+目前已經超過 [100 開發者](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors) 參與此專案.
