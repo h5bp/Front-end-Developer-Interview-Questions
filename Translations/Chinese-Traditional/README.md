@@ -2,97 +2,67 @@
 
 譯注：此翻譯版，主要給不能流利的讀英文的人看，相關專有名詞還是保留原文，翻譯不好地方請協助 Pull request。
 
-此 repository 包含了一些前端開發的面試問題，來審查一個有潛力的面試者。這並不是建議你對同一個面試者問上所有的問 (那會花費好幾小時)。從列表中挑幾個題目，應該就夠幫助你審查面試者是否擁有你需要的技能。
-
-在你開始面試之前，[Rebecca Murphey](http://rmurphey.com/) 的 [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) 也是一篇很棒且值得閱讀的文章。
+此文件包含了一些前端開發的面試問題，來審查一個有潛力的面試者。這並不是建議你對同一個面試者問上所有的問 (那會花費好幾小時)。從列表中挑幾個題目，應該就夠幫助你審查面試者是否擁有你需要的技能。
 
 **注意：** 請記住一點，很多問題都是隨情況而變化，能引發很多有趣的討論，比直接的標準答案更能讓你瞭解此人的能力。
 
 ## <a name='toc'>目錄</a>
 
-  1. [最初貢獻者](#contributors)
-  1. [常見問題](#general)
-  1. [HTML 規格問題集](#html)
-  1. [CSS 規格問題集](#css)
-  1. [JS 規格問題集](#js)
-  1. [jQuery 規格問題集](#jquery)
-  1. [程式碼問題集](#jscode)
-  1. [有趣問題](#fun)
-  1. [其他參考資料](#references)
+  1. [常見問題](#general-questions)
+  1. [HTML 問題](#html-questions)
+  1. [CSS 問題](#css-questions)
+  1. [JS 問題](#js-questions)
+  1. [Network 問題](#network-questions)
+  1. [程式碼問題](#coding-questions)
+  1. [有趣問題](#fun-questions)
 
-####[[⬆]](#toc) <a name='contributors'>最初貢獻者:</a>
-多數的問題都是從 [oksoclap](http://oksoclap.com/) 上的一個討論串截取出來，原創作人為 [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) 並由以下的人員所貢獻：
+## 參與貢獻
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com/iansym)
+  1. [貢獻作者群](#contributors)
+  1. [如何貢獻](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [版權宣告](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-####[[⬆]](#toc) <a name='general'>常見問題：</a>
+
+#### <a name='general-questions'>常見問題：</a>
 
 * 你昨天或這週學習了什麼？
 * 寫程式的哪部份最讓你感到很興奮或是有興趣？
+* What is a recent technical challenge you experienced and how did you solve it?
 * 當你開發Web應用程式或網站時，針對UI、安全性、效能、SEO、維護性，以及技術，你考量的點是什麼？
 * 說說你喜好的開發環境 (作業系統, 編輯器或 IDE, 瀏覽器, 開發工具 … 之類)
 * 你最熟悉哪一套版本控制系統？
 * 你可以描述你在開發一個網站時的工作流程嗎？
 * 如果有 5 種不同的樣式表 (stylesheets)，該如何整併到網站？
-  * 檔案合併
 * 你可以描述漸進增強 (progressive enhancement) 和優美退化 (graceful degradation) 間的差異嗎？
-  * 加分題：描述這兩項的特色？
 * 你怎麼優化一個網站的靜態檔案 (assets) 和資源 (resources)？
-  * 可能的解決方法包含如下：
-    * File concatenation (檔案合併)
-    * File minification (最小化文檔)
-    * CDN Hosted (CDN託管)
-    * Caching (快取)
-    * …之類
-* 傳統上為什麼用多個域名來放置網站資源會比較好？
-  * 瀏覽器一次能在同一個域名下載多少資源？
-  * 有哪些是例外？
-    * 對於手持裝置可能是個缺點 (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
-    * 對於 HTTP2 / [SPDY](http://en.wikipedia.org/wiki/SPDY) 也是例外
-* 說出三種能加快網頁讀取速度的方法？ (感覺上的速度或是真正的讀取時間)
+* 說出三種能加快網頁讀取速度的方法 (感覺上的速度或是真正的讀取時間)。
 * 如果你加入了一個專案，但是他們的程式碼用 tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
-  * 建議此專案使用，例如：EditorConfig (http://editorconfig.org)
-  * 訂定一個公約 (保持一致)
-  * `issue :retab! command` (retab! 在 vim 中用來把所有 spaces 換成 tabs)
 * 寫一個簡易的投影片頁面
-  * 加分如果沒有用到 JavaScript
 * 你用什麼工具來測試你的程式碼效能？
-  * Profiler, [JSPerf](http://jsperf.com/), [Dromaeo](http://dromaeo.com/)
 * 如果今年你能精通一項技術，那會是什麼？
-* Long-Polling, Websockets, SSE(Server-Sent Event)之間有什麼差異？
 * 描述標準和製定標準機構的重要性？
 * 什麼是 FOUC？ 你怎麼避免 FOUC?
-* 請詳細描述當您在網址列打入網址開始到最後網頁呈現在螢幕前的整個流程。
+* Explain what ARIA and screenreaders are, and how to make a website accessible.
+* Explain some of the pros and cons for CSS animations versus JavaScript animations.
 
-####[[⬆]](#toc) <a name='html'>HTML 規格問題集:</a>
+#### <a name='html-questions'>HTML 問題:</a>
 
 * `doctype` 做什麼用的？
 * standards mode 和 quirks mode 有什麼不同？
 * 使用 XHTML 有什麼限制？?
-  * 如果網頁使用 `application/xhtml+xml` 會有問題嗎？
+* 如果網頁使用 `application/xhtml+xml` 會有問題嗎？
 * 你怎麼做一個需要支持多國語言的網頁？
-  * 當開發和設計一個多國語言網站時，有什麼需要小心的？
+* 當開發和設計一個多國語言網站時，有什麼需要小心的？
 * `data-` 屬性的好處在哪？
 * 考慮 HTML5 作為一個開放式的網站平台。HTML5 的 building blocks 有哪些？
-* 請描述 cookies, sessionStorage 和 localStorage 的不同？
-* 請描述 `GET` 和 `POST` 差異性
+* 請描述 `cookies`, `sessionStorage` 和 `localStorage` 的不同？
+* Describe the difference between `<script>`, `<script async>` & `<script defer>`.
+* Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 
-####[[⬆]](#toc) <a name='css'>CSS 規格問題集：</a>
+#### <a name='css-questions'>CSS 問題：</a>
 
 * CSS 的 class 和 ID 兩者有何差異？
-* 描述 "reset" 在 CSS 中做什麼, 如何用？
-  * 加分題：指出 "rest" 的缺點，最好能提到 "normalize" 是更好的選擇。
+* 描述 "resetting" 和 "normalizing" 的差異性？你會選擇哪一種，為什麼選擇它？
 * 描述 Floats 並解釋如何運作。
 * 描述 z-index 並且描述堆疊內容 (stacking context) 如何形成。
 * 有哪些不同的 clearing 技術？哪個適用在哪種內容上？
@@ -107,23 +77,24 @@
 * 你熟悉任何有關 SVG 嗎？
 * 你如何優化你的網頁以利於列印？
 * 在寫高效的 CSS 時，有什麼要注意的？
-* 使用 CSS preprocessors 的優點和缺點是什麼？ (SASS, Compass, Stylus, LESS)
-  * 如果是這樣, 描述你使用過的喜歡和不喜歡的 CSS preprocessors
+* 使用 CSS preprocessors 的優點和缺點是什麼？ (Sass, Compass, Stylus, LESS)
+  * 描述你使用過的喜歡和不喜歡的 CSS preprocessors
 * 你如何使用非標準字體來實作網頁設計？
-  * Webfonts (font services 像是: Google Webfonts, Typekit …等等)
-* 解釋瀏覽器如何按照 CSS selector 找到對應的 element？
+* 解釋瀏覽器如何按照 CSS selector 找到對應的 element。
 * 解釋你所認知的 box model，以及你如何在 CSS 告訴瀏覽器使用不同 box model 來呈現圖層？
-* 請解釋 `* { box-sizing: border-box; }`？並且說明使用它的好處
+* 請解釋 `* { box-sizing: border-box; }`？並且說明使用它的好處？
 * 請列出您記憶中 display 屬性的全部值
 * 請說明 inline 和 inline-block 的差異性？
-* 請說明 relative、fixed、absolute 和 static 元件差異性
+* 請說明 relative、fixed、absolute 和 static 元件差異性？
+* The 'C' in CSS stands for Cascading. How is priority determined in assigning styles (a few examples)? How can you use this system to your advantage?
 * 你目前有使用哪一套 CSS Framework 在開發環境或產品線上？
   * 如果有，請問是哪一套，並且描述如果改善或提昇 CSS Framework？
 * 請問你有使用過 CSS Flexbox 或 Grid specs？
 * 如何區分 responsive design 與 adaptive design 有何不同？
 * 你曾經使用過 retina graphics？如果有，是在什麼時機以及用了什麼技術？
+* Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 
-####[[⬆]](#toc) <a name='js'>JS 規格問題集：</a>
+#### <a name='js-questions'>JS 規格問題集：</a>
 
 * 描述 event delegation
 * 描述 `this` 如果運作在 JavaScript 中
@@ -146,7 +117,7 @@
   * 多數的廣告產生仍然使用 `document.write()` 雖然這樣用會令人皺眉
 * feature detection, feature inference, 和使用 UA string 有什麼不同？
 * 盡可能的詳述描述 AJAX。
-* 描述 JSONP 如何運作 (且為何它不是真正的 AJAX)
+* 描述 JSONP 如何運作 (且為何它不是真正的 AJAX)。
 * 你是用過 JavaScript templating (樣板) ？
   * 如果有的話，你有用過哪些 libraries？ (Mustache.js, Handlebars … 等)
 * 描述 "hoisting"
@@ -159,24 +130,28 @@
 * 實作如下程式:
 
 ```javascript
-[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 
 * Ternary expression 怎麼來的, "Ternary" 的意思是什麼？
 * 什麼是 `"use strict";`? 使用他的優點和缺點是什麼？
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 
-####[[⬆]](#toc) <a name='jquery'>jQuery 規格問題集：</a>
+#### <a name='network-questions'>網路問題集:</a>
 
-* 描述 "chaining"
-* 描述 "deferreds"
-* 你知道哪些實作 jQuery 的優化方式？
-* `.end()` 做些什麼？
-* 說出四種可以傳到 jQuery 方法的值
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object … 等。
-* `.get()`, `[]`, 和 `.eq()` 有何不同？
+* 傳統上為什麼用多個域名來放置網站資源會比較好？
+* 請詳細描述當您在網址列打入網址開始到最後網頁呈現在螢幕前的整個流程。
+* Long-Polling, Websockets, SSE (Server-Sent Event) 之間有什麼差異？
+* 請描述下列 request 和 response headers：
+  * Diff. between Expires, Date, Age and If-Modified-...
+  * DNT
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
+* 請描述 `GET` 和 `POST` 的差異性？
 
-####[[⬆]](#toc) <a name='jscode'>程式碼問題集:</a>
+#### <a name='coding-questions'>程式碼問題集:</a>
 
 問題：實作符合下面的函式
 
@@ -191,16 +166,11 @@ add(2)(5); // 7
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 
-**答: "goh angasal a m'i"**
-
 問題:  window.foo 的值是什麼？
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-
-**答案: "bar"**
-(只有在 ```window.foo``` 是 truthy 時會回傳它本身內存的值。)
 
 問題: 下面的兩個 alerts 的結果會是什麼？
 
@@ -213,8 +183,6 @@ var foo = "Hello";
 alert(foo + bar);
 ```
 
-**答案: "Hello World" & ReferenceError: bar is not defined**
-
 問題: 下面 foo.length 的值是什麼？
 
 ```javascript
@@ -223,26 +191,16 @@ foo.push(1);
 foo.push(2);
 ```
 
-**答案： `2`**
+#### <a name='fun-questions'>有趣問題：</a>
 
-####[[⬆]](#toc) <a name='fun'>有趣問題：</a>
-
-* 你寫過最酷的程式是什麼？你最自豪的是什麼？
+* 你最近寫過最酷的專案是？
 * 你使用的開發工具中，你最喜歡的部分是什麼？
 * 你有任何的 pet projects (個人開發的小專案)？ 什麼樣的？
 * 你最喜歡 IE 瀏覽器的什麼特點？
+* How do you like your coffee?
 
-####[[⬆]](#toc) <a name='references'>其他參考資料:</a>
+#### <a name='contributors'>貢獻作者群:</a>
 
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
-* http://www.toptal.com/javascript/interview-questions
-* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-* http://www.sitepoint.com/5-javascript-interview-exercises/
+此文件是由 [@paul_irish](http://twitter.com/paul_irish) [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://twitter.com/ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) and [@iansym](http://twitter.com/iansym) 於 2009 年共同發起。
 
-####[[⬆]](#toc) <a name='license'>版權宣告:</a>
-
-Copyright 2012 by Darcy Clarke, released under the [MIT License](http://opensource.org/licenses/MIT). See LICENSE file for details.
+目前已經超過 [100 開發者](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors) 參與此專案.
