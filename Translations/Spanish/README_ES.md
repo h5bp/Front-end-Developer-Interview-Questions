@@ -65,7 +65,7 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 	* Puntos extra si no usa JavaScript.
 * ¿Qué herramientas usa para probar el rendimiento de su código?
 	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/) 
+	* Dromaeo (http://dromaeo.com/)
 	* Entre otras.
 * Si pudiera elegir una tecnología para dominar este año, ¿cuál sería?
 * Explique la importancia de estándares y los grupos que los definen.
@@ -84,7 +84,7 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Puede usar sintaxis de XHTML en HTML5?
 * ¿Cómo usa XML en HTML5?
 * ¿Para qué son buenos los atributos `data-`?
-* ¿Cuáles son los modelos de contenido usados en HTML4? ¿Puede compararlos a los de HTML5? 
+* ¿Cuáles son los modelos de contenido usados en HTML4? ¿Puede compararlos a los de HTML5?
 * Si consideramos HTML5 como una plataforma web abierta, ¿cuáles son las piezas del lego que constituyen HTML5?
 * Describa la diferencia entre cookies, sessionStorage y localStorage.
 
@@ -92,7 +92,7 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 
 ####<a name='css'>Preguntas específicas de CSS:</a>
 
-* Describa qué es un archivo "reset" y porqué es útil.
+* Describa qué es un archivo "reset" y por qué es útil.
 * Describa qué son los "floats" y su funcionamiento.
 * ¿Cuáles son los métodos para "limpiar" (clear) sus "floats" y cuál es apropiado en el contexto dado?
 * Explique ¿qué son los sprites en CSS y cómo los implementarias en una página?
@@ -106,7 +106,7 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Está familiarizado con aplicar estilos a SVGs?
 * ¿Cómo optimiza sus páginas para la impresión?
 * ¿Cuáles son algunas de las "trampas" al escribir CSS eficiente?
-* ¿Ha usado algún preprocesador para CSS (SASS, Compass, Stylus, LESS)? 
+* ¿Ha usado algún preprocesador para CSS (SASS, Compass, Stylus, LESS)?
 	* De ser así, ¿puede mencionar qué le gusta y qué no de los que ha usado?
 * ¿Cómo implementaría un diseño que usa fuentes que no son web-safe?
 	* Webfonts (usando servicios para fuentes como Goodle Webfonts, Typekit, entre otros).
@@ -128,22 +128,20 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Qué bibliotecas de JavaScript ha usado?
 * ¿Alguna vez ha mirado el código fuente de bibliotecas/frameworks que utiliza?
 * ¿Qué es un `hashtable`?
-* ¿Cuál es la diferencia entre variables `undefined` y variables `undeclared`? 
-* ¿Qué es un "closure" y cuando, o porqué, usaría uno?
+* ¿Cuál es la diferencia entre variables `undefined` y variables `undeclared`?
+* ¿Qué es un "closure" y cuando, o por qué usaría uno?
 	* ¿Cuál es su patrón favorito para crearlos? Cuadriculado (Solo aplica a las IIFEs)
 * ¿Puede hablar de un uso típico para una función anónima?
 * ¿Puede explicar el Patrón Módulo en JavaScript y cuándo lo usaría?
 	* Puntos extra por mencionar un namespace no contaminado.
-	* ¿Qué pasa si sus módulos no tienen un namespace?	
+	* ¿Qué pasa si sus módulos no tienen un namespace?
 * ¿Cómo organiza su código, patrón módulo, herencia clásica?
 * ¿Cuál es la diferencia entre objetos huésped (host objects) y objetos nativos?
 * ¿Cuál es la diferencia entre:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
-* ¿Cuál es la diferencia entre `.call` y `.apply`? 
-* ¿Puede explicar el uso de `Function.prototype.bind`? 
-* ¿Cuándo optimiza su codigo?
+` function Person(){} `, `var person = Person()` y `var person = new Person()`?
+* ¿Cuál es la diferencia entre `.call` y `.apply`?
+* ¿Puede explicar el uso de `Function.prototype.bind`?
+* ¿Cuándo optimiza su código?
 * ¿Puede explicar cómo funciona la herencia en JavaScript?
 * ¿Cuándo usarías `document.write()`?
 	* La mayoría de anuncios todavía utilizan esta técnica, aunque no es recomendada.
@@ -158,7 +156,7 @@ function Person(){} var person = Person() var person = new Person()
 * ¿Por qué es una mala idea extender objetos nativos de JavaScript?
 * ¿Por qué es una buena idea extender objetos nativos de JavaScript?
 * ¿Cuál es la diferencia entre el evento "document load" y el evento “document ready"?
-* ¿Cuál es la diferencia entre `==` y `===`? 
+* ¿Cuál es la diferencia entre `==` y `===`?
 * Si tiene que obtener un parametro de la URL, ¿cómo lo harías?
 * Explique la política de mismo origen (same-origin policy) y sus repercusiones en JavaScript.
 * ¿Puede describir los patrones de herencia en JavaScript?
@@ -168,6 +166,8 @@ function Person(){} var person = Person() var person = new Person()
 ```
 * ¿Puede describir una estrategia para memorización (*memoization*, evitar repetir cálculos) en JavaScript?
 * ¿Por qué reciben el nombre de sentencias ternarias? ¿Qué significa la palabra "ternaria"?  
+* Haga un ciclo `for` de `100` iteraciones que imprima **"fizz"** en los múltiplos de `3`, **"buzz"** en los múltiplos de 5 y **"fizzbuzz"** en los múltiplos de `3` y `5`
+* De manera general, ¿por qué es una buena idea no usar el "ámbito" (scope) global de un sitio web?
 * ¿Qué es el `arity` de una función?
 * ¿Qué es `"use strict";`? ¿Cuáles son las ventajas y desventajas de usarlo?
 
@@ -178,69 +178,68 @@ function Person(){} var person = Person() var person = new Person()
 * Explique el "encadenamiento" (chaining).
 * Explique las "diferidas" (deferreds).
 * ¿Cuáles son algunas optimizaciones que se pueden implementar usando jQuery?
-* ¿Qué función cumple el método `.end()`? 
+* ¿Qué función cumple el método `.end()`?
 * ¿Cómo y por qué, aplicaría "namespacing" a un "event handler"?
-* Nombre cuatro diferentes valores que se pueden pasar como parámetro al metodo jQuery.
+* Nombre cuatro diferentes valores que se pueden pasar como parámetro al método jQuery.
 	* Un selector (string), HTML (string), Callback (function), HTMLElement, objeto, matriz, matriz de elementos, objeto jQuery, entre otros.
 * ¿Qué es la "cola de efectos" (fx queue)?
-* ¿Cuál es la diferencia entre `.get()`, `[]` y `.eq()`? 
-* ¿Cuál es la diferencia entre `.bind()`, `.live()` y `.delegate()`? 
+* ¿Cuál es la diferencia entre `.get()`, `[]` y `.eq()`?
+* ¿Cuál es la diferencia entre `.bind()`, `.live()` y `.delegate()`?
 * ¿Cuál es la diferencia entre `$` y `$.fn`? O simplemente, ¿qué es `$.fn`?
-* Optimize este selector:
+* Optimice este selector:
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* ¿Cuál es la diferencia entre 'delegate()' y 'live()'? 
+* ¿Cuál es la diferencia entre `delegate()` y `live()`?
 
 **[[⬆]](#indice)**
 
 ####<a name='codigojs'>Preguntas de código:</a>
 
+Pregunta: ¿Cuál es el resultado de la siguiente sentencia?
 ```javascript
 ~~3.14
 ```
-Pregunta: ¿Cuál es el retorno de la sentencia anterior?
-**Respuesta: 3** 
 
+Pregunta: ¿Cuál es el resultado de la siguiente sentencia?
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Pregunta: ¿Cuál es el retorno de la sentencia anterior?
-**Respuesta: "goh angasal a m'i"** 
 
+Pregunta: ¿Cuál es el valor de **window.foo**?
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Preguntan: ¿Cuál es el valor de window.foo?
-**Respuesta: "bar"** 
-Únicamente si window.foo tenía un valor fals y, de cualquier otra forma retendrá su valor.
 
+Pregunta: ¿Cuál es el resultado de los dos *alerts*?
 ```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
 ```
-Pregunta: ¿Cuál es el resultado de los dos alerts anteriores?
-**Respuesta: "Hello World" y ReferenceError: bar is not defined** 
 
+Pregunta: ¿Cuál es el valor de **foo.length**?
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Pregunta: ¿Cuál es el valor de foo.length? 
-**Respuesta: `2`
 
+Pregunta: ¿Y el valor de **foo.length** después de lo siguiente?
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Pregunta: ¿Cuál es el valor de foo.length? 
-**Respuesta: `undefined`
+
 
 **[[⬆]](#indice)**
 
 ####<a name='divertidas'>Preguntas divertidas:</a>
 
-* ¿Qué es lo más cool que ha programado y qué es lo que más le enorgullece de ello?
+* ¿Qué es lo más genial que ha programado y qué es lo que más le enorgullece de ello?
 * ¿Sabe cuál es la "gang sign" de HTML5?
 * ¿Está ahora o ha estado alguna vez en un bote?
 * ¿Cuáles son sus partes favoritas de las herramientas de desarrollo que usa?
@@ -250,7 +249,7 @@ Pregunta: ¿Cuál es el valor de foo.length?
 	* Espere a ver si giran el papel.
 * ¿Pirata o Ninja?
 	* Puntos extra si es una combinación y dio una buena razón, dos puntos extra por monos zombies piratas ninjas.
-* ¿Si no estuviera en Desarollo Web, en que estaría trabajando?
+* ¿Si no estuviera en desarollo Web, en que estaría trabajando?
 * ¿En qué lugar del mundo está Carmen Sandiego?
 	* Consejo: no hay respuesta correcta.
 * ¿Cuál es su funcionalidad favorita de Internet Explorer?
