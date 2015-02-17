@@ -149,8 +149,14 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * ETag
   * X-Frame-Options
 * Can you explain the difference between `GET` and `POST`?
+* Can you explain the difference between `GET` and `HEAD`?
 
 #### Coding Questions:
+
+*Question: What is the value of `foo`?*
+```javascript
+var foo = 10 + '20';
+```
 
 *Question: How would you make this work?*
 ```javascript
