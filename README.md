@@ -110,7 +110,6 @@ This file contains a number of front-end interview questions that can be used wh
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * Explain `Function.prototype.bind`.
-* When do you optimize your code?
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain AJAX in as much detail as possible.
