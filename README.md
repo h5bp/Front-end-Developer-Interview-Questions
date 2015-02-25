@@ -36,11 +36,11 @@ This file contains a number of front-end interview questions that can be used wh
   * What are the exceptions?
 * Name 3 ways to decrease page load (perceived or actual load time).
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
-* Write a simple slideshow page
+* Describe how you would create a simple slideshow page.
 * What tools do you use to test your code's performance?
 * If you could master one technology this year, what would it be?
 * Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
+* What is Flash of Unstyled Content? How do you avoid FOUC?
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 
@@ -98,7 +98,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
-* AMD vs. CommonJS?
+* What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
@@ -139,10 +139,10 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 
 * Traditionally, why has it been better to serve site assets from multiple domains?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
-* What are the differences between Long-Polling, Websockets and SSE?
+* What are the differences between Long-Polling, Websockets and Server-Sent Events?
 * Explain the following request and response headers:
   * Diff. between Expires, Date, Age and If-Modified-...
-  * DNT
+  * Do Not Track
   * Cache-Control
   * Transfer-Encoding
   * ETag
