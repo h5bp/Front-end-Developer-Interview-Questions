@@ -1,77 +1,43 @@
 #GUIA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
 
-@version 2.0.0
-
 Este repositorio contiene preguntas de entrevistas a programadores front-end, que pueden ser usadas para revisar a candidatos potenciales. Bajo ningún concepto se recomienda usar todas las preguntas aquí expuestas con el mismo candidato (eso llevaría horas). Escoger algunos elementos de esta lista debería ayudarle a revisar las habilidades que requiere.
-
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) es también un gran recurso a leer (en inglés) antes de ir a una entrevista.
 
 **Nota:** Tenga en mente que muchas de estas preguntas son abiertas y pueden llevar a interesantes discusiones que le pueden decir más sobre las capacidades de la persona que una simple respuesta.
 
-## <a name='indice'>Índice</a>
+## Índice
 
-  1. [Contribuyentes originales](#contribuyentes)
   1. [Preguntas generales](#general)
   1. [Preguntas específicas de HTML](#html)
   1. [Preguntas específicas de CSS](#css)
   1. [Preguntas específicas de JavaScript](#js)
-  1. [Preguntas específicas de jQuery](#jquery)
   1. [Preguntas de código](#codigojs)
   1. [Preguntas divertidas](#divertidas)
 
-####<a name='contribuyentes'>Contribuyentes originales</a>
+## Contribuyendo
 
-La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://oksoclap.com/) creado originalmente por [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) y ampliado por los siguientes individuos:
-
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@darcy_clarke](http://twitter.com/darcy) - http://darcyclarke.me
-* [@iansym](http://twitter.com)
-
-**[[⬆]](#indice)**
+  1. [Contribuyentes](#contribuyentes)
+  1. [Cómo contribuir](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [Licencia](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
 ####<a name='general'>Preguntas generales:</a>
 
-* ¿Qué sistemas de control de versiones ha usado (Subversion, Git, etc.)?
-* ¿Cuál es su ambiente de desarrollo favorito (Sistema Operativo, Editor de Texto, Navegadores, Herramientas, etc.)?
+* ¿Qué sistemas de control de versiones ha usado?
+* ¿Cuál es su ambiente de desarrollo favorito?
 * ¿Puede describir el proceso que sigue cuando crea una página web?
 * ¿Puede describir la diferencia entre "Progressive Enhancement" y "Graceful Degradation"?
 	* Puntos extra si el entrevistado menciona "detección de capacidades".
 * Explique qué significa "HTML Semántico".
 * ¿Cuál es el navegador que utiliza principalmente para el desarrollo y qué herramientas de desarrollo usa?
 * ¿Cómo optimiza los recursos de una web?
-	* Se espera una lista respuestas tales como:
-		* Concatenación de archivos
-		* Compresión (minificación) de archivos
-		* Utilizar un CDN
-		* Caching
-		* etc.
 * ¿Por qué es mejor utilizar varios dominios para distribuir los recursos de una página web?
 	* ¿Cuántos recursos se pueden descargar simultáneamente de un mismo dominio?
 * Mencione tres formas para disminuir el tiempo de carga de una página (tiempo real o percibido).
 * Si se ha unido a un proyecto y los desarrolladores usan tabs y usted usa espacios, ¿qué hace?
-	* Sugerir que el proyecto utilice algo como EditorConfig (http://editorconfig.org)
-	* Mantener la convención establecida y utilizar tabs.
-	* Utilizar el comando `:retab!`
 * Escriba una página con una galería sencilla.
-	* Puntos extra si no usa JavaScript.
 * ¿Qué herramientas usa para probar el rendimiento de su código?
-	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/)
-	* Entre otras.
 * Si pudiera elegir una tecnología para dominar este año, ¿cuál sería?
 * Explique la importancia de estándares y los grupos que los definen.
 * ¿Sabe que es el FOUC? ¿Cómo lo evita?
-
-**[[⬆]](#indice)**
 
 ####<a name='html'>Preguntas específicas de HTML:</a>
 
@@ -87,8 +53,6 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Cuáles son los modelos de contenido usados en HTML4? ¿Puede compararlos a los de HTML5?
 * Si consideramos HTML5 como una plataforma web abierta, ¿cuáles son las piezas del lego que constituyen HTML5?
 * Describa la diferencia entre cookies, sessionStorage y localStorage.
-
-**[[⬆]](#indice)**
 
 ####<a name='css'>Preguntas específicas de CSS:</a>
 
@@ -106,17 +70,15 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Está familiarizado con aplicar estilos a SVGs?
 * ¿Cómo optimiza sus páginas para la impresión?
 * ¿Cuáles son algunas de las "trampas" al escribir CSS eficiente?
-* ¿Ha usado algún preprocesador para CSS (SASS, Compass, Stylus, LESS)?
+* ¿Ha usado algún preprocesador para CSS?
 	* De ser así, ¿puede mencionar qué le gusta y qué no de los que ha usado?
 * ¿Cómo implementaría un diseño que usa fuentes que no son web-safe?
-	* Webfonts (usando servicios para fuentes como Goodle Webfonts, Typekit, entre otros).
 * ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
 * ¿Puede explicar cómo entiende el `box model` (modelo de cajas) y como podría hacer que un navegador renderize su esquema usando diferentes modelos de cajas?
 * Por favor enliste todos los valores para la propiedad `display` que pueda recordar
 * ¿Cuál es la diferencia entre `inline` y `inline-block`?
 * ¿Cuál es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
-* ¿Qué sabe sobre  Css Flexbox y cuales son sus ventajas ?
-**[[⬆]](#indice)**
+* ¿Qué sabe sobre Css Flexbox y cuales son sus ventajas?
 
 ####<a name='js'>Preguntas específicas de JavaScript:</a>
 
@@ -144,12 +106,11 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * ¿Cuándo optimiza su código?
 * ¿Puede explicar cómo funciona la herencia en JavaScript?
 * ¿Cuándo usarías `document.write()`?
-	* La mayoría de anuncios todavía utilizan esta técnica, aunque no es recomendada.
 * ¿Cuál es la diferencia entre detección de capacidades, inferencia de capacidades y usar la cadena del user agent.
 * Explique AJAX con tanto detalle como pueda.
 * Explique cómo funciona JSONP (y cómo no es AJAX realmente)
 * ¿Ha utilizado alguna vez templates en JavaScript?
-	* De ser asi, ¿qué bibliotecas ha usado (Mustache.js, Handlebars, entre otros)?
+	* De ser asi, ¿qué bibliotecas ha usado?
 * ¿Puede explicar en que consiste el "hoisting"?
 * ¿Puede hablar sobre "event bubbling"?
 * ¿Cuál es la diferencia entre un "atributo" y una "propiedad"?
@@ -170,29 +131,6 @@ La mayoría de las preguntas fueron extraidas de un hilo de [oksoclap](http://ok
 * De manera general, ¿por qué es una buena idea no usar el "ámbito" (scope) global de un sitio web?
 * ¿Qué es el `arity` de una función?
 * ¿Qué es `"use strict";`? ¿Cuáles son las ventajas y desventajas de usarlo?
-
-**[[⬆]](#indice)**
-
-####<a name='jquery'>Preguntas específicas de jQuery:</a>
-
-* Explique el "encadenamiento" (chaining).
-* Explique las "diferidas" (deferreds).
-* ¿Cuáles son algunas optimizaciones que se pueden implementar usando jQuery?
-* ¿Qué función cumple el método `.end()`?
-* ¿Cómo y por qué, aplicaría "namespacing" a un "event handler"?
-* Nombre cuatro diferentes valores que se pueden pasar como parámetro al método jQuery.
-	* Un selector (string), HTML (string), Callback (function), HTMLElement, objeto, matriz, matriz de elementos, objeto jQuery, entre otros.
-* ¿Qué es la "cola de efectos" (fx queue)?
-* ¿Cuál es la diferencia entre `.get()`, `[]` y `.eq()`?
-* ¿Cuál es la diferencia entre `.bind()`, `.live()` y `.delegate()`?
-* ¿Cuál es la diferencia entre `$` y `$.fn`? O simplemente, ¿qué es `$.fn`?
-* Optimice este selector:
-```javascript
-$(".foo div#bar:eq(0)")
-```
-* ¿Cuál es la diferencia entre `delegate()` y `live()`?
-
-**[[⬆]](#indice)**
 
 ####<a name='codigojs'>Preguntas de código:</a>
 
@@ -228,33 +166,16 @@ foo.push(1);
 foo.push(2);
 ```
 
-Pregunta: ¿Y el valor de **foo.length** después de lo siguiente?
-```javascript
-var foo = {};
-foo.bar = 'hello';
-```
-
-
-**[[⬆]](#indice)**
-
 ####<a name='divertidas'>Preguntas divertidas:</a>
 
 * ¿Qué es lo más genial que ha programado y qué es lo que más le enorgullece de ello?
-* ¿Sabe cuál es la "gang sign" de HTML5?
-* ¿Está ahora o ha estado alguna vez en un bote?
 * ¿Cuáles son sus partes favoritas de las herramientas de desarrollo que usa?
 * ¿Tiene algún proyecto personal? ¿De qué tipo?
-* Explique el significado de "cursificar" (cornify).
-* Tome un papel y escriba las letras A B C D E verticalmente, ahora póngalas en órden descendiente sin escribir una sola línea de código.
-	* Espere a ver si giran el papel.
-* ¿Pirata o Ninja?
-	* Puntos extra si es una combinación y dio una buena razón, dos puntos extra por monos zombies piratas ninjas.
-* ¿Si no estuviera en desarollo Web, en que estaría trabajando?
-* ¿En qué lugar del mundo está Carmen Sandiego?
-	* Consejo: no hay respuesta correcta.
 * ¿Cuál es su funcionalidad favorita de Internet Explorer?
-* Complete esta oración: Brendan Eich y Doug Crockford son los __________ del JavaScript.
-* jQuery: ¿Una buena biblioteca o la mejor biblioteca? Explique porqué.
-* http://www.w3schools.com/ o http://w3fools.com/
 
-**[[⬆]](#indice)**
+
+####<a name='contribuyentes'>Contribuyentes</a>
+
+Este documento se creó en 2009 como una colaboración de [@paul_irish](http://twitter.com/paul_irish) [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://twitter.com/ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) y [@iansym](http://twitter.com/iansym).
+
+Ha recibido contribuciones de [100 desarrolladores](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
