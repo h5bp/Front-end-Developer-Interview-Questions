@@ -147,8 +147,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* Can you explain the difference between `GET` and `POST`?
-* Can you explain the difference between `GET` and `HEAD`?
+* What are HTTP actions? List all HTTP actions that you know, and explain them. 
 
 #### Coding Questions:
 
