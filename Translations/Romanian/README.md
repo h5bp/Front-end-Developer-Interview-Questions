@@ -3,11 +3,11 @@
 Acest fișier conține o serie de întrebări pentru interviuri tehnice pe partea
 de front-end, care pot fi folosite pentru a verifica un potențial candidat. Nu
 este deloc recomandat să fie folosite toate întrebările pentru un singur
-candidat ( ar lua câteva ore ). Alegând câteva întrebări din această listă ar
+candidat (ar lua câteva ore). Alegând câteva întrebări din această listă ar
 trebui să te ajute în verificarea calităților pe care le urmărești.
 
-**Notă:** Ține în minte că multe dintre întrebări au răspuns liber și ar putea
-duce la discuții interesante, care ți-ar putea spune mai multe despre
+**Notă:** Ține minte că multe dintre întrebări au răspuns liber și ar
+putea duce la discuții interesante care ți-ar putea spune mai multe despre
 capacitățile persoanei.
 
 ## <a name='toc'>Cuprins</a>
@@ -16,33 +16,28 @@ capacitățile persoanei.
   1. [Întrebări despre HTML](#html)
   1. [Întrebări despre CSS](#css)
   1. [Întrebări despre JS](#js)
-  1. [Întrebări despre jQuery](#jquery)
+  1. [Întrebări despre rețea](#network)
   1. [Întrebări despre programare](#jscode)
   1. [Întrebări amuzante](#fun)
 
+## Procesul de implicare
 
-## <a name='toc'>Procesul de implicare</a>
-
-  1. [Contribuitori inițiali](#contributors)
-  1. [Contribuitori recenți](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors)
-  1. [Cum să contribui](    )
+  1. [Contribuitori](#contributors)
+  1. [Cum să contribui](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [Licență](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
 ####[[⬆]](#toc) <a name='general'>Întrebări generale:</a>
 
-* Ce ai învățat ieri / săptămâna asta?
+* Ce ai învățat ieri/săptămâna asta?
 * Ce te fascinează sau interesează la programare?
 * Ce aspecte de UI, Securitate, Performanță, SEO, Întreținere sau Tehnologie
-iei în cosiderare când construiești o aplicație web sau un site?
-* Povestește despre mediul de lucru preferat. (OS, Editor, Browsere, Unelte,
-  etc.)
+  iei în cosiderare când construiești o aplicație web sau un site?
+* Povestește despre mediul de lucru preferat.
 * Îți poți descrie fluxul de lucru când creezi o pagină web?
-* Dacă ai 5 fișiere cu cod CSS, cum le poți integra cel mai bine într-un
-  singur site?
+* Dacă ai 5 fișiere cu cod CSS, cum le poți integra cel mai bine în site?
 * Poți descrie diferența dintre "progressive enhancement" și "graceful
   degradation"?
 * Cum ai optimiza resursele statice ale unui site?
-* Tradițional, de ce a fost mai bine să servești resurse din mai multe domenii?
 * Câte resurse poate un browser descărca de la un domeniu la un moment dat?
     * Care sunt excepțiile?
 * Numește 3 moduri pentru a scădea timpul de încarcare a paginii. (perceput
@@ -51,27 +46,17 @@ iei în cosiderare când construiești o aplicație web sau un site?
 * Scrie o pagină simplă slideshow
 * Ce unelte folosești pentru a testa performanța codului pe care îl scrii?
 * Dacă ai putea învăța o tehnologie anul asta, care ar fi?
-* Care sunt diferențele dintre Long-Polling, Websockets și SSE?
 * Explică importanța standardelor și a organismelor de standardizare.
-* Ce este FOUC? Cum eviți Fouc?
-* Încearcă să descrii cât mai bine ce se întâmplă din momentul în care scrii
-  un URL în browser până când este complet încărcat pe ecranul tău.
-* Explică ce sunt screenreaders și ARIA și cum faci un website accesibil.
-* Compară părți bune și negative pentru animații CSS versus animații JavaScript
-* Explică ce înseamnă "HTML Semantic".
-* Explică următoarele headere de request și response:
-    * Diferența dintre Expires, Date, Age și If-Modified
-    * DNT
-    * Cache-Control
-    * Transfer-Encoding
-    * ETag
-    * X-Frame-Options
+* Ce este `Flash of Unstyled Content`? Cum eviți FOUC?
+* Explică ce sunt screenreaders și ARIA și cum faci un site accesibil.
+* Compară părți bune și negative pentru animații CSS versus animații JavaScript.
 
-####[[⬆]](#toc) <a name='html'>Întrebări HTML:</a>
+
+####[[⬆]](#toc) <a name='html'>Întrebări despre HTML:</a>
 
 * La ce este util `doctype`?
 * Care este diferența dintre "standards mode" și "quirks mode"?
-* Care sunt limitările când servești pagini XHTML?
+* Care este diferența dintre HTML și XHTML?
 * Apar probleme când servești pagini ca `application/xhtml+xml`?
 * Cum servești o pagină cu conținut în mai multe limbi?
 * La ce trebuie să fi atent când faci design sau dezvolți pentru site-uri
@@ -80,19 +65,19 @@ iei în cosiderare când construiești o aplicație web sau un site?
 * Considerând HTML5 ca o platformă web deschisă, care sunt parțile
   componente alte HTML5?
 * Descrie diferența dintre cookies, sessionStorage și localStorage.
-* Poți explica diferența dintre `GET` și `POST`?
 * Descrie diferența dintre `<script>`, `<script async>` și `<script defer>`.
 
-####[[⬆]](#toc) <a name='css'>Întrebări CSS:</a>
 
-* Care este diferența dintre clase și ID în CSS?
+####[[⬆]](#toc) <a name='css'>Întrebări despre CSS:</a>
+
+* Care este diferența dintre clase și ID-uri în CSS?
 * Descrie ce este un fișier CSS de resetare și la ce este util.
 * Descrie 'Float' si cum funcționează.
 * Descrie z-index și cum se formează stacking context.
 * Care sunt tehnicile de 'clearing' și care este potrivită pentru ce context
 * Explică conceptul de CSS sprites și cum le-ai implementa pe o pagină sau
   un site.
-* Care sunt tehnicile tale preferate pentru inlocuirea imaginilor și care
+* Care sunt tehnicile tale preferate pentru înlocuirea imaginilor și care
   când le folosești?
 * Hack-uri de proprietăți CSS, includerea condițională a fișierelor .css,
   sau... altceva?
@@ -128,13 +113,13 @@ iei în cosiderare când construiești o aplicație web sau un site?
 * Ai lucrat vreodata pentru retina display? Dacă da, ce tehnici ai folosit?
 
 
-####[[⬆]](#toc) <a name='js'>Întrebări JS:</a>
+####[[⬆]](#toc) <a name='js'>Întrebări despre JS:</a>
 
 * Explică "event delegation".
 * Explică cum funcționează `this` în JavaScript.
 * Explică cum funcționează moștenirea prototipală.
 * Cum îti testezi codul JavaScript?
-* AMD vs. CommonJS?
+* Ce părere ai despre AMD vs. CommonJS?
 * Explică de ce următoarea nu functionează ca un IIFE: `function foo(){ }();`
   * Ce trebuie schimbat ca să o transformi într-o IIFE?
 * Care este diferența dintre o variabilă care este: `null`, `undefined` sau
@@ -177,21 +162,33 @@ iei în cosiderare când construiești o aplicație web sau un site?
 * De ce este, de regulă, o idee bună să nu poluezi scope-ul global al unui
   website?
 
-####[[⬆]](#toc) <a name='jquery'>Întrebări jQuery:</a>
 
-* Explică "chaining".
-* Explică "deferreds".
-* Poți vorbi despre ceva optimizări specifice jQuery pe care le poți implementa?
-* Ce face `.end()`?
-* Când și cum ai folosi un "namespace" pentru a lega un handler de eveniment?
-* Numește 4 valori diferite pe care le poți trimite unei metode jQuery.
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object,
-    array, element array, jQuery Object etc.
-* Care este diferența dintre `.get()`, `[]`, și `.eq()`?
+####[[⬆]](#toc) <a name='network'>Întrebări despre rețea:</a>
+
+* Tradițional, de ce a fost mai bine să servești resurse de pe mai multe domenii?
+* Încearcă să descrii cât mai bine ce se întâmplă din momentul în care scrii
+  un URL-ul unui site în browser până când este complet încărcat pe ecranul tău.
+* Care sunt diferențele dintre Long-Polling, WebSockets și Server-Sent Events?
+* Explică semnificația următoarelor antete HTTP:
+  * Diferența dintre Expires, Date, Age și If-Modified
+  * Do Not Track
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
+* Poți explica diferența dintre `GET` și `POST`?
+* Poți explica diferența dintre `GET` și `HEAD`?
+
 
 ####[[⬆]](#toc) <a name='jscode'>Întrebări despre cod:</a>
 
-*Întrebare: Cum ai face asta să funcționeze?*
+*Întrebare: Care este valoarea lui `foo`?*
+
+```js
+var foo = 10 + '20';
+```
+
+*Întrebare: Cum ai face următoarea să funcționeze?*
 
 ```js
 add(2, 5); // 7
@@ -226,13 +223,14 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
+
 *Întrebare: Care este valoarea lui `foo.length`?*
 
 ```js
-var foo = {};
-foo.bar = 'hello';
+var foo = [];
+foo.push(1);
+foo.push(2);
 ```
-*Întrebare: Care este valoarea lui `foo.length`?*
 
 ####[[⬆]](#toc) <a name='fun'>Întrebări amuzante:</a>
 
@@ -242,9 +240,21 @@ foo.bar = 'hello';
 * Care este funcționalitatea ta preferată din Internet Explorer?
 * Cum îti place cafeaua?
 
-####[[⬆]](#toc) <a name='contributors'>Contribuitori inițiali:</a>
+####[[⬆]](#toc) <a name='contributors'>Contribuitori:</a>
 
-Acest document a început în 2009 ca o colaborare între [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) și [@iansym](https://twitter.com/iansym).
+Acest document a început în 2009 ca o colaborare între
+[@paul_irish](https://twitter.com/paul_irish)
+[@bentruyman](https://twitter.com/bentruyman)
+[@cowboy](https://twitter.com/cowboy)
+[@ajpiano](https://twitter.com/ajpiano)
+[@SlexAxton](https://twitter.com/slexaxton)
+[@boazsender](https://twitter.com/boazsender)
+[@miketaylr](https://twitter.com/miketaylr)
+[@vladikoff](https://twitter.com/vladikoff)
+[@gf3](https://twitter.com/gf3)
+[@jon_neal](https://twitter.com/jon_neal)
+[@sambreed](https://twitter.com/sambreed) și
+[@iansym](https://twitter.com/iansym).
 
-De atunci, au contribuit mai mult de [100
-dezvoltatori](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
+De atunci au contribuit mai mult de [100 de
+persoane](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors)!
