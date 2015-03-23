@@ -106,7 +106,7 @@ Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.c
 * Vilka CSS-ramverk har du använt lokalt eller i produktion? (Twitter Bootstrap, PureCSS, Foundation etc.)
   * Om du kunde, hur skulle du förändra/förbättra dem?
 * Har du lekt något med de nya CSS-specifikationerna för Flexbox och Grid?
-* På vilket sätt skiljer sig resposiv design från adaptiv design?
+* På vilket sätt skiljer sig responsiv design från adaptiv design?
 * Har du någon gång arbetat med retinagrafik? I så fall, när var det och vilka tekniker använde du?
 
 ####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
