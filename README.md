@@ -135,6 +135,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 * Explain what a single page app is and how to make one SEO-friendly.
 * What is the extent of your experience with Promises and/or their polyfills?
+* Explain how synchronous and asynchronous functions are executed in JavaScript. How does event loop work? What is the difference between call stack and task queue?
 
 #### Network Questions:
 
