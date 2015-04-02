@@ -190,6 +190,15 @@ foo.push(1);
 foo.push(2);
 ```
 
+*Question: What does the following code print?*
+```javascript
+console.log('one');
+setTimeout(function() {
+  console.log('two');
+}, 0);
+console.log('three');
+```
+
 #### Fun Questions:
 
 * What's a cool project that you've recently worked on?
