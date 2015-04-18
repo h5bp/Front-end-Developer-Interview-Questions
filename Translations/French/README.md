@@ -12,7 +12,7 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
   1. [Questions sur JS](#js-questions)
   1. [Questions sur réseau](#network-questions)
   1. [Questions sur la programmation](#code-questions)
-  1. [Questions pour le plaisir](#fun-questions)
+  1. [Questions pour le fun](#fun-questions)
 
 ####S'impliquer :
 
