@@ -60,7 +60,7 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Si l'on considère que HTML5 est une plateforme web ouverte, quelles sont les briques de base de HTML5 ?
 * Décrivez la différence entre `cookie`, `sessionStorage`, et `localStorage`.
 * Décrivez la différence entre `<script>`, `<script async>` et `<script defer>`.
-* Pourquoi est-ce-t'il généralement une bonne idée de positionner `<link>`s à l'intérieur de `<head></head>` et `<script>`s just avant `</body>`? Connaissez-vous des exceptions?
+* Pourquoi est-ce-t'il généralement une bonne idée de positionner `<link>`s à l'intérieur de `<head></head>` et `<script>`s juste avant `</body>`? Connaissez-vous des exceptions?
 * Qu'est-ce que le rendu progressif ?
 
 **[[⬆]](#toc)**
