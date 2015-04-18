@@ -160,7 +160,7 @@ function Person(){} var person = Person() var person = new Person()
 * Faites de votre mieux pour décrire le processus à partir du moment où vous tapez l'URL d'un site internet jusqu'au moment où la page a finit de charger.
 * Quelle est la différence entre "Long-Polling", "Websockets" et les événements "Server-Sent" ?
 * Expliquez les entêtes de requêtes et réponses suivant :
-  * Diff. between Expires, Date, Age and If-Modified-...
+  * Différences entre Expires, Date, Age and If-Modified-...
   * Do Not Track
   * Cache-Control
   * Transfer-Encoding
