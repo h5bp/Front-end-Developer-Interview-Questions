@@ -120,7 +120,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain "hoisting".
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
-* Why is extending built in JavaScript objects not a good idea?
+* Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
