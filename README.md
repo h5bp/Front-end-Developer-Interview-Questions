@@ -136,6 +136,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain what a single page app is and how to make one SEO-friendly.
 * What is the extent of your experience with Promises and/or their polyfills?
 * What are the pros and cons of using Promises instead of callbacks?
+* What is a Callback functions and explain when do you use it?
+* What is Variable Scope in JavaScript? What's the difference between Local Variables  and Global  Variables?
+* Explain Object Oriented Programming in Javascript.
+
+
 
 #### Network Questions:
 
