@@ -37,7 +37,6 @@ This file contains a number of front-end interview questions that can be used wh
 * Name 3 ways to decrease page load (perceived or actual load time).
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
 * Describe how you would create a simple slideshow page.
-* What tools do you use to test your code's performance?
 * If you could master one technology this year, what would it be?
 * Explain the importance of standards and standards bodies.
 * What is Flash of Unstyled Content? How do you avoid FOUC?
@@ -58,6 +57,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
+* Have you used different HTML templating languages before?
 
 #### CSS Questions:
 
@@ -98,7 +98,6 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain event delegation
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
-* How do you go about testing your JavaScript?
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
@@ -136,6 +135,20 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain what a single page app is and how to make one SEO-friendly.
 * What is the extent of your experience with Promises and/or their polyfills?
 * What are the pros and cons of using Promises instead of callbacks?
+* What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
+
+#### Testing Questions:
+
+* What are some advantages/disadvantages to testing your code?
+* What tools would you use to test your code's functionality?
+* What is the difference between a unit test and a functional/integration test?
+* What is the purpose of a code style linting tool?
+
+#### Performance Questions:
+
+* What tools would you use to find a performance bug in your code?
+* What are some ways you may improve your website's scrolling performance?
+* Explain the difference between layout, painting and compositing.
 
 #### Network Questions:
 
@@ -149,7 +162,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* What are HTTP actions? List all HTTP actions that you know, and explain them. 
+* What are HTTP actions? List all HTTP actions that you know, and explain them.
 
 #### Coding Questions:
 
