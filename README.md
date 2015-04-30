@@ -92,6 +92,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+* How to create an Up/Down arrow using CSS Styles. 
 
 #### JS Questions:
 
