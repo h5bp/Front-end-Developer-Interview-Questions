@@ -176,7 +176,7 @@ add(2)(5); // 7
 ```javascript
 "sou uma lasanha".split("").reverse().join("");
 ```
-**Answer: "ahnasal amu uos"**
+**Resposta: "ahnasal amu uos"**
 
 
 *Questão: Qual é o valor de `window.foo`?*
