@@ -95,7 +95,6 @@ This file contains a number of front-end interview questions that can be used wh
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
-* What is the difference between these two selectors 1) .one .two {} 2) .one.two {}
 
 #### JS Questions:
 
