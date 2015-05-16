@@ -57,17 +57,21 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Spiega cosa sono ARIA e lettori di schermo [*screenreaders*] e come rendere un sito web accessibile.
 * Spiega alcuni dei pro e contro delle animazioni CSS rispetto alle animazioni Javascript.
 
-####[[⬆]](#toc) <a name='html'>Domande Specifiche su HTML:</a>
+####[[⬆]](#toc) <a name='html'>Domande su HTML:</a>
 
 * Cosa fa il `doctype`?
 * Qual è la differenza tra standard mode e quirks mode?
-* Quali sono le limitazioni quando servi pagine XHTML?
-	* Ci sono dei problemi a servire le pagine come `application/xhtml+xml`?
+* Qual è la differenza tra HTML e XHTML?
+* Ci sono dei problemi a servire le pagine come `application/xhtml+xml`?
 * Come servi una pagina con il contenuto in più lingue?
-	* A cosa devi far attenzione quando progetti o sviluppi siti multilingua?
+* A cosa devi far attenzione quando progetti o sviluppi siti multilingua?
 * Per cosa sono utili gli attributi `data-`?
 * Considera HTML5 come una piattaforma web aperta. Quali sono i mattoni di HTML5?
-* Descrivi le differenze tra cookie, sessionStorage e localStorage.
+* Descrivi le differenze tra `cookie`, `sessionStorage` e `localStorage`.
+* Descrivi la differenza tra `<script>`, `<script async>` e `<script defer>`.
+* Perche è generalmente una buona idea posizionare CSS `<link>` tags all'interno di `<head></head>` e Javascript `<script>` tags appena prima di `</body>`? Conosci eccezioni?
+* Cos'è il rendering progressivo [*progressive rendering*]?
+* Hai mai utilizzato differeti liguaggi di templating HTML prima?
 
 ####[[⬆]](#toc) <a name='css'>Domande Specifiche su CSS:</a>
 
