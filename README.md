@@ -119,7 +119,7 @@ This file contains a number of front-end interview questions that can be used wh
   * If so, what libraries have you used?
 * Explain "hoisting".
 * Describe event bubbling.
-* What is the difference between event bubbling and event capturing.
+* Describe event capturing.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document ready event?
