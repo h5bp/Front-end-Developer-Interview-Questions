@@ -138,9 +138,10 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is the extent of your experience with Promises and/or their polyfills?
 * What are the pros and cons of using Promises instead of callbacks?
 * What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-* Explain mutability and immutability on example of JS basic types (string, object, array, number, etc.)
-  * What are the pros and cons of immutablility?
-  * How you can achieve immutablility in your own code?
+* Explain the difference between mutable and immutable objects.
+  * What is an example of an immutable object in JavaScript?
+  * What are the pros and cons of immutability?
+  * How can you achieve immutability in your own code?
 
 #### Testing Questions:
 
