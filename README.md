@@ -141,9 +141,6 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
 * What tools and techniques do you use debugging Javascript code?
 * What language constructions do you use for iterating over object properties and array items?
-* Explain mutability and immutability on example of JS basic types (string, object, array, number, etc.)
-  * What are the pros and cons of immutablility?
-  * How you can achieve immutablility in your own code?
 * Explain the difference between mutable and immutable objects.
   * What is an example of an immutable object in JavaScript?
   * What are the pros and cons of immutability?
