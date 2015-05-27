@@ -1,5 +1,7 @@
 #Front-end Job Interview Questions
 
+[![Join the chat at https://gitter.im/h5bp/Front-end-Developer-Interview-Questions](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/h5bp/Front-end-Developer-Interview-Questions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
 **Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
