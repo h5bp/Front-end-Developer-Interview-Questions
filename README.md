@@ -139,7 +139,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is the extent of your experience with Promises and/or their polyfills?
 * What are the pros and cons of using Promises instead of callbacks?
 * What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-* What tools and techniques do you use debugging Javascript code?
+* What tools and techniques do you use debugging JavaScript code?
 * What language constructions do you use for iterating over object properties and array items?
 
 #### Testing Questions:
