@@ -37,12 +37,12 @@ This file contains a number of front-end interview questions that can be used wh
 * Name 3 ways to decrease page load (perceived or actual load time).
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
 * Describe how you would create a simple slideshow page.
-* What tools do you use to test your code's performance?
 * If you could master one technology this year, what would it be?
 * Explain the importance of standards and standards bodies.
 * What is Flash of Unstyled Content? How do you avoid FOUC?
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
+* What does CORS stand for and what issue does it address?
 
 #### HTML Questions:
 
@@ -58,6 +58,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
+* Have you used different HTML templating languages before?
 
 #### CSS Questions:
 
@@ -65,6 +66,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
+* Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
 * What are your favourite image replacement techniques and which do you use when?
@@ -74,13 +76,14 @@ This file contains a number of front-end interview questions that can be used wh
 * What are the different ways to visually hide content (and make it available only for screen readers)?
 * Have you ever used a grid system, and if so, what do you prefer?
 * Have you used or implemented media queries or mobile specific layouts/CSS?
-* Any familiarity with styling SVG?
+* Are you familiar with styling SVG?
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors?
   * Describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
+* Describe pseudo-elements and discuss what they are used for. 
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * List as many values for the display property that you can remember.
@@ -98,7 +101,6 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain event delegation
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
-* How do you go about testing your JavaScript?
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
@@ -120,7 +122,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain "hoisting".
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
-* Why is extending built in JavaScript objects not a good idea?
+* Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document ready event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
@@ -135,7 +137,28 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 * Explain what a single page app is and how to make one SEO-friendly.
 * What is the extent of your experience with Promises and/or their polyfills?
+* What are the pros and cons of using Promises instead of callbacks?
+* What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
+* What tools and techniques do you use debugging JavaScript code?
+* What language constructions do you use for iterating over object properties and array items?
+* Explain the difference between mutable and immutable objects.
+  * What is an example of an immutable object in JavaScript?
+  * What are the pros and cons of immutability?
+  * How can you achieve immutability in your own code?
 * Explain how synchronous and asynchronous functions are executed in JavaScript. How does event loop work? What is the difference between call stack and task queue?
+
+#### Testing Questions:
+
+* What are some advantages/disadvantages to testing your code?
+* What tools would you use to test your code's functionality?
+* What is the difference between a unit test and a functional/integration test?
+* What is the purpose of a code style linting tool?
+
+#### Performance Questions:
+
+* What tools would you use to find a performance bug in your code?
+* What are some ways you may improve your website's scrolling performance?
+* Explain the difference between layout, painting and compositing.
 
 #### Network Questions:
 
@@ -149,7 +172,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* What are HTTP actions? List all HTTP actions that you know, and explain them. 
+* What are HTTP actions? List all HTTP actions that you know, and explain them.
 
 #### Coding Questions:
 
@@ -189,6 +212,13 @@ alert(foo + bar);
 var foo = [];
 foo.push(1);
 foo.push(2);
+```
+
+*Question: What is the value of `foo.x`?*
+```javascript
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
 ```
 
 *Question: What does the following code print?*
