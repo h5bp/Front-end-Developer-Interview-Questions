@@ -145,7 +145,9 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * What is an example of an immutable object in JavaScript?
   * What are the pros and cons of immutability?
   * How can you achieve immutability in your own code?
-* Explain how synchronous and asynchronous functions are executed in JavaScript. How does event loop work? What is the difference between call stack and task queue?
+* Explain the difference between synchronous and asynchronous functions.
+* What is event loop?
+  * What is the difference between call stack and task queue?
 
 #### Testing Questions:
 
