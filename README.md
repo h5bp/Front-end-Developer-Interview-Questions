@@ -116,6 +116,7 @@ This file contains a number of front-end interview questions that can be used wh
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain AJAX in as much detail as possible.
+* What are the advantages and disadvantages of using AJAX?
 * Explain how JSONP works (and how it's not really AJAX).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
