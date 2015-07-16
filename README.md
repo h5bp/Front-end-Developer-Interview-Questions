@@ -115,9 +115,9 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain `Function.prototype.bind`.
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
-* Explain AJAX in as much detail as possible.
-* What are the advantages and disadvantages of using AJAX?
-* Explain how JSONP works (and how it's not really AJAX).
+* Explain Ajax in as much detail as possible.
+* What are the advantages and disadvantages of using Ajax?
+* Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
 * Explain "hoisting".
