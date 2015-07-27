@@ -147,6 +147,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * What is an example of an immutable object in JavaScript?
   * What are the pros and cons of immutability?
   * How can you achieve immutability in your own code?
+* What are the differences between variables created using `let`, `var` or `const`?
 
 #### Testing Questions:
 
