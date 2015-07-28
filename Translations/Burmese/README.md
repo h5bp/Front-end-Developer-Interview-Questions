@@ -10,6 +10,7 @@
   1. [HTML နှင့်သက်ဆိုင်သော မေးခွန်းများ](#html-questions)
   1. [CSS နှင့်သက်ဆိုင်သော မေးခွန်းများ](#css-questions)
   1. [JS နှင့် သက်ဆိုင်သော မေးခွန်းများ](#js-questions)
+  1. [Testing နှင့် သက်ဆိုင်သော မေးခွန်းများ](#testing-questions)
   1. [Network နှင့် သက်ဆိုင်သော မေးခွန်းများ](#network-questions)
   1. [Coding နှင့်သက်ဆိုင်သော မေးခွန်းများ](#coding-questions)
   1. [အပျော်မေးခွန်းများ](#fun-questions)
@@ -37,12 +38,12 @@
 * Page load လုပ်သည့်အချိန်အား လျှော့ချနိုင်သည့် နည်း၃မျိုးပြောပါ။ (တကယ် load လုပ်သည့်အခိျန် သို့ load လုပ်သည်ဟုထင်ရချိန်)
 * လုပ်လက်ဆ Project တစ်ခုကို ဝင်ရောက်လုပ်ကိုင်ရာမှာ၊ နဂို developer များက Tab ကိုသုံးကာ code ကို format လုပ်ထားပြီး သင့်အနေနှင့် space များနှင့် format လုပ်သူတစ်ယောက်ဖြစ်သည်ဆိုပါစို့။ သင်မည်သို့ ဝင်ရောက်လုပ်ကိုင်မည်နည်း။
 * ရိုးရှင်းတဲ့ Slideshow page တစ်ခုကို သင်ဘယ်လိုပြုလုပ်ပါမည်နည်း။
-* ဘယ်လို tools များကို အသုံးပြု၍ သင်ရေးထားသော code ၏ performance ကို ြကည့်ပါမလဲ။
 * သင်သည် ဒီနှစ်ထဲတွင် technology တစ်ခုကို ကျွမ်းကျင်စွာလေ့လာနိုင်မည်ဆိုပါက မည်သည့် technology ကိုလေ့လာမည်နည်း။
 * Standard များ၏ အရေးပါပုံနှင့် standard များကို သတ်မှတ်သည့် အဖွဲ့အစည်းများ၏ အရေးပါပုံကို ပြောပါ။
 * Flash of unstyled content ဆိုတာဘာလဲ။ ဘယ်လိုရှောင်ကွင်းနိုင်ပါသလဲ။
 * ARIA နှင့် screenreader များအကြောင်း၊ accessible ြဖစ်သည့် website ကို လုပ်ပုံလုပ်နည်းအကြောင်း ပြောပါ။ 
 * CSS animation များနှင့် Javascript animation များ၏ အားနည်းချက်၊ အားသာချက်များအကြောင်းရှင်းပြပါ။
+* CORS ဆိုတာဘာလဲ၊ ဘယ်လိုအခက်အခဲမျိုး ဘယ်လို issue မျိုးအတွက် အသုံးပြုပါသလဲ။
 
 #### HTML နှင့်သက်ဆိုင်သော မေးခွန်းများ <a name="html-questions"></a>
 
@@ -57,6 +58,8 @@
 * `cookie`, `sessionStorage` နှင့် `localStorage` တို့၏ ကွာခြားချက်များကိုပြောပါ။
 * `<script>`, `<script async>` နှင့် `<script defer>` တို့၏ ကွာခြားချက်များကို ပြောပါ။
 * ဘာကြောင့် CSS ၏ `<link>` tag များကို `<head></head>` အတွင်း၊ ဘာကြောင့် Javascript ၏ `<script>` tag များကို `</body>` မတိုင်ခင်ထည့်သည့်သည်ဟု ယေဘုယျအားဖြင့် အကြံပြုကြပါသလည်း။ ဘယ်လိုချွင်းချက်များ ရှိပါလဲ။
+* Progressive Rendering ဆိုတာဘာလဲ။
+* တခြား HTML template လုပ်ပေးနိုင်တဲ့ templating engine မျိုးဘာသုံးဖူးလဲ။
 
 #### CSS နှင့်ပါတ်သက်သော မေးခွန်းများ <a name='css-questions'></a>
 
@@ -64,6 +67,7 @@
 * CSS တွင် "resetting" နှင့် "normalizing" တို့၏ ကွာခြားချက်များကို ပြောပါ။
 * Float တွေအကြောင်းနှင့် ဘယ်လိုအလုပ်လုပ်ကြောင်း ပြောပါ။
 * z-index နှင့် stacking အလုပ်လုပ်ပုံကို ရှင်းပါ။
+* BFC(Block Formatting Context) အကြောင်းရှင်းပါ၊ ဘယ်လိုအလုပ်လုပ်လဲ ပြောပါ။
 * Clearing နည်းအမျိုးမျိုးနှင့် မည်သည့်နည်းသည် မည်သို့အခြေအနေနှင့်သင့်တော်ကြောင်းရှင်းပြပါ။
 * CSS sprites များအကြောင်းရှင်းပြပါ။ Page တစ်ခု၊ site တစ်ခုမှာ ဘယ်လိုလုပ်မလဲရှင်းပြပါ။
 * အကြိုက်ဆုံး Image replacement နည်းများကိုပြောပါ၊ ဘယ်နည်းကို ဘယ်အခါမှာသုံးပါသနည်း။
@@ -73,13 +77,14 @@
 * Content တစ်ခုကို မမြင်ရအောင် မည်သို့လုပ်နိုင်ပါသနည်း (Screen readers များနှင့်သာ ဖတ်နိုင်အောင်)
 * Grid system များသုံးဖူးပါသလား၊ ဘယ်တစ်ခုကို ပိုကြိုက်ပါသလဲ။
 * Media queries သို့ mobile ဖုန်းအတွက် ရည်ရွယ်တဲ့ layout တွေ styling တွေလုပ်ဖူးလား။
-* SVG ကို style လုပ်ဖူးလား။
+* SVG ကို style လုပ်တာနဲ့ပါတ်သက်ပြီး ဘယ်လိုအတွေ့အကြုံရှိပါသလဲ။
 * Webpage တွေကို print ထုတ်ဖို့အတွက် ဘယ်လို optimize လုပ်ပါသလဲ။
 * Efficient ြဖစ်တဲ့ CSS တွေကိုရေးဖို့အတွက် ဘယ်လို အချက်များကို သတိထားရပါမလဲ။
 * CSS preprocessor များ၏ ကောင်းချက် ဆိုးချက်များကို ပြောပါ။
   * သုံးဖူးတဲ့ CSS preprocessor တွေရဲ့ ကြိုက်တဲ့အချက် မကြိုက်တဲ့အချက်များကို ပြောပြပါ။
 * Web design comp တစ်ခု၊ photoshop/illustrator နဲ့ဆွဲထားတဲ့ design တစ်ခုကို ဘယ်လို develop လုပ်ပါမည်နည်း။
 * Browser တစ်ခုက CSS selector တစ်ခုနှင့် ဘယ်လို match လုပ်ပါသနည်း။
+* Pseudo-element တွေအကြောင်း ပြောပါ။ ဘယ်လိုနေရာမှာသုံးလဲ ပြောပါ။
 * Box model ကို နားလည်သလောက်ရှင်းပြပါ။ Browser တစ်ခုကို သင်လိုချင်သော box model တစ်ခုနှင့် render လုပ်အောင်မည်သို့ပြောရမည်နည်း။
 * ```* { box-sizing: border-box; }``` က ဘာလုပ်တာလည်း။ အဲ့ဒါရဲ့ အားသာချက်တွေက ဘာလဲ။
 * `display` property ရဲ့ value တွေထဲက မှတ်မိသမျှပြောပြပါ။
@@ -97,7 +102,6 @@
 * Event delegation အကြောင်းရှင်းပြပါ။
 * `this` က Javascript မှာ ဘယ်လိုအလုပ်လုပ်ပါသလဲ။
 * Prototypal inheritance က ဘယ်လိုအလုပ်လုပ်ပါသလဲ။
-* Javascript ကို ဘယ်လို test လုပ်နိုင်ပါသလဲ။
 * AMD နှင့် CommonJS ကိုယှဉ်ပြပါ။
 * ဘာကြောင့် IIFE မှာ `function foo(){}();`; အလုပ်မလုပ်တာလည်း။
   * ဘာကိုပြောင်းလိုက်ရင် အလုပ်လုပ်ပါမည်နည်း။
@@ -128,11 +132,27 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Ternary expression လို့ ဘာကြောင့်ခေါ်တာလဲ, "Ternary" ဆိုတာ ဘာကိုဆိုလိုချင်တာလဲ။
 * `"use strict";` က ဘာလဲ။ အားနည်းချက် အားသာချက်များကို ရှင်းပါ။
-* `100` အထိ loop ပါတ်ကာ `3` နှင့် စားလုိ့ပြတ်က **"fizz"**  လို့ထုတ်ပြီး , `5` နှင့်စားလို့ပြတ်က `"buzz"` လို့ထုတ်ပါ။ `3` နှင့် `5` နှစ်ခုလုံးနှင့်စားလို့ပြတ်က **"fizzbuzz"** လို့ထုတ်ပါ။
+* `100` အထိ loop ပါတ်ကာ `3` နှင့် စားလုိ့ပြတ်က **"fizz"**  လို့ထုတ်ပြီး , `5` နှင့်စားလို့ပြတ်က **"buzz"**လို့ထုတ်ပါ။ `3` နှင့် `5` နှစ်ခုလုံးနှင့်စားလို့ပြတ်က **"fizzbuzz"** လို့ထုတ်ပါ။
 * Website တစ်ခု၏ global scope ကို များသောအားြဖင့် မထိတာအကောင်းဆုံးြဖစ်ပါသလဲ။
 * `load` event ကို ဘာကြောင့်သုံးပါသလဲ။ အဲ့ဒီ့ event မှာ အားနည်းချက်များရှိပါသလား။ တခြားနည်းလမ်းတွေသိလား၊ ဘာလို့ အြခားနည်းလမ်းတွေသုံးမှာလဲ။
 * Single page app ဆိုတာဘာလဲ ရှင်းပြပေးပါ၊ ပြီးတော့ အဲ့ဒီ့ app တွေကို ဘယ်လို SEO-friendly ြဖစ်အောင်လုပ်မလဲ။
 * Promises သို့မဟုတ် သူတို့ရဲ့ polyfills တွေနဲ့ပါတ်သက်ြပီး အတွေ့အကြုံအကြောင်းပြောပြပါ။
+* Promise တွေကိုသုံးြခင်းနှင့် Callback တွေကိုသုံးခြင်းတို့၏ အားနည်းချက်၊ အားသာချက်များကို ရှင်းပါ။
+* Javascript ကို တခြား language တစ်ခုနှင့် develop လုပ်ပြီး Javascript သို့ compile လုပ်ခြင်းနှင့်ပါတ်သက်ပြီး အားနည်းချက် အားသာချက်များကို ပြောပြပါ။
+* ဘယ်လို tools တွေ၊ technique တွေကို သုံးပြီး javascript ကို debug လုပ်ပါသလဲ။
+* ဘယ်လို language construction ကိုသုံးပြီး object တစ်ခုရဲ့ properties တွေနှင့် array item တွေကို iterate လုပ်ပါသလဲ။
+* Mutable နှင့် immutable object တွေဘယ်လိုကွာခြားပါသလဲ။
+  * Javascript မှာ ဘယ်လို object မျိုးသည် immutable object ဖြစ်ပါသလဲ။
+  * Immutability ရဲ့ အားနည်းချက်၊ အားသာချက်များက ဘာတွေလဲ။
+  * ကိုယ့်ရဲ့ code ထဲမှာ immutability ကို ဘယ်လို ရအောင်လုပ်နိုင်သလဲ။
+  
+#### Testing နှင့် သက်ဆိုင်သော မေးခွန်းများ
+<a name="testing-questions"></a>
+
+* ကိုယ်ရေးတဲ့ code ကို test လုပ်ခြင်းအားဖြင့် ဘယ်လိုအားနည်းချက်၊ အားသာချက်များရှိပါသလဲ။
+* ကိုယ်ရေးတဲ့ code ရဲ့ functionality ကို test လုပ်ဖို့အတွက် ဘယ်လို tool တွေ သုံးမှာလဲ။
+* Unit test နဲ့ function/integration test တို့ ဘယ်လိုကွာခြားပါသလဲ။
+* Code style linting tool ရဲ့ ရည်ရွယ်ချက်ကို ပြောပါ။
 
 #### Network နှင့်ပါတ်သက်သော မေးခွန်းများ
 <a name="network-questions"></a>
@@ -147,8 +167,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* `GET` နှင့် `POST` ၏ ကွာြခားချက်များကိုရှင်းပါ။
-* `GET` နှင့် `HEAD` ၏ ကွာခြားချက်များကိုရှင်းပါ။
+* HTTP action ဆိုတာ ဘာတွေလဲ? သိသလောက် action တွေရဲ့ တစ်ခုချင်းစီအကြောင်း​ရှင်းပါ။
 
 #### Coding နှင့်ပါတ်သက်သော မေးခွန်းများ <a name='coding-questions'></a>
 
@@ -190,6 +209,14 @@ foo.push(1);
 foo.push(2);
 ```
 
+*Question: What is the value of `foo.x`?*
+
+```javascript
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
+```
+
 #### အပျော်မေးခွန်းများ
 <a name="fun-questions"></a>
 
@@ -202,8 +229,8 @@ foo.push(2);
 
 #### Contributors:
 
-This document started in 2009 as a collaboration of [@paul_irish](http://twitter.com/paul_irish) [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://twitter.com/ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) and [@iansym](http://twitter.com/iansym).
+This document started in 2009 as a collaboration of [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
+
+It has since received contributions from over [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
 
 Burmese translation provided by [@mmhan](http://twitter.com/mmhan).
-
-It has since received contributions from [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
