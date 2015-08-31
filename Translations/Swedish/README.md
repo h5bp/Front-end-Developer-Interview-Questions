@@ -93,7 +93,7 @@ Detta arkiv innehåller ett urval av frågor som kan ställas till den arbetssö
 * Har du lekt något med de nya CSS-specifikationerna för Flexbox och Grid?
 * På vilket sätt skiljer sig responsiv design från adaptiv design?
 * Har du någon gång arbetat med retinagrafik? I så fall, när var det och vilka tekniker använde du?
-* Finns det någon anledning till att du skulle vilja använda `translate()` i stället för *absolutpositionering* och vice-versa? I så fall varför?
+* Finns det någon anledning till att du skulle vilja använda `translate()` i stället för *absolut positionering* och vice-versa? I så fall varför?
 
 #### JS-frågor:
 
