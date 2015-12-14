@@ -12,7 +12,9 @@
   1. [HTML 問題](#html-questions)
   1. [CSS 問題](#css-questions)
   1. [JS 問題](#js-questions)
-  1. [Network 問題](#network-questions)
+  1. [測試問題](#testing-questions)
+  1. [效能問題](#performance-questions)
+  1. [網路問題](#network-questions)
   1. [程式碼問題](#coding-questions)
   1. [有趣問題](#fun-questions)
 
@@ -27,9 +29,9 @@
 
 * 你昨天或這週學習了什麼？
 * 寫程式的哪部份最讓你感到很興奮或是有興趣？
-* What is a recent technical challenge you experienced and how did you solve it?
+* 最近有無遇過不容易的技術性問題，又如何解決？
 * 當你開發Web應用程式或網站時，針對UI、安全性、效能、SEO、維護性，以及技術，你考量的點是什麼？
-* 說說你喜好的開發環境 (作業系統, 編輯器或 IDE, 瀏覽器, 開發工具 … 之類)
+* 說說你喜好的開發環境 (作業系統, 編輯器或 IDE, 瀏覽器, 開發工具 … 之類)。
 * 你最熟悉哪一套版本控制系統？
 * 你可以描述你在開發一個網站時的工作流程嗎？
 * 如果有 5 種不同的樣式表 (stylesheets)，該如何整併到網站？
@@ -37,13 +39,14 @@
 * 你怎麼優化一個網站的靜態檔案 (assets) 和資源 (resources)？
 * 說出三種能加快網頁讀取速度的方法 (感覺上的速度或是真正的讀取時間)。
 * 如果你加入了一個專案，但是他們的程式碼用 tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
-* 寫一個簡易的投影片頁面
+* 寫一個簡易的投影片頁面。
 * 你用什麼工具來測試你的程式碼效能？
 * 如果今年你能精通一項技術，那會是什麼？
 * 描述標準和製定標準機構的重要性？
-* 什麼是 FOUC？ 你怎麼避免 FOUC?
-* Explain what ARIA and screenreaders are, and how to make a website accessible.
-* Explain some of the pros and cons for CSS animations versus JavaScript animations.
+* 什麼是 Flash of Unstyled Content？ 你怎麼避免 FOUC？
+* 解釋什麼是 ARIA 與 screenreaders，它們是怎麼樣讓網站使用更無障礙？
+* 解釋 CSS 動畫與 JavaScript 動畫之間的憂與劣。
+* CORS 是什麼，它解決了什麼問題？
 
 #### <a name='html-questions'>HTML 問題:</a>
 
@@ -54,10 +57,12 @@
 * 你怎麼做一個需要支持多國語言的網頁？
 * 當開發和設計一個多國語言網站時，有什麼需要小心的？
 * `data-` 屬性的好處在哪？
-* 考慮 HTML5 作為一個開放式的網站平台。HTML5 的 building blocks 有哪些？
+* 考慮 HTML5 作為一個開放式的網站平台，組成 HTML5 的技術有哪些？
 * 請描述 `cookies`, `sessionStorage` 和 `localStorage` 的不同？
-* Describe the difference between `<script>`, `<script async>` & `<script defer>`.
-* Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+* 描述下列之間的不同 `<script>`, `<script async>` & `<script defer>`。
+* 為什麼把 CSS `<link>` 放在 `<head></head>` 之間，與將 JS `<script>` 放在 `</body>` 之前是個較好的主意？有什麼例外情形嗎？
+* 什麼是漸進式呈現？
+* 有用過 HTML 樣板語言（template languages）嗎？
 
 #### <a name='css-questions'>CSS 問題：</a>
 
@@ -65,10 +70,11 @@
 * 描述 "resetting" 和 "normalizing" 的差異性？你會選擇哪一種，為什麼選擇它？
 * 描述 Floats 並解釋如何運作。
 * 描述 z-index 並且描述堆疊內容 (stacking context) 如何形成。
+* 解釋 BFC(Block Formatting Context) 是什麼、如何運作的。
 * 有哪些不同的 clearing 技術？哪個適用在哪種內容上？
 * 描述 CSS sprites, 你如何實作在網頁或網站上？
 * 你最喜愛的圖片取代技術是什麼？你什麼時候會用到？
-* CSS 屬性 hacks, 也條件引用 .css 檔案, 或是… 其他的？
+* 針對各瀏覽器制定的樣式表（browser-specific styling），你的做法是？
 * 你怎麼讓你的網頁支援有功能限制的瀏覽器？
   * 你會使用什麼樣的技術/流程 ？
 * 有什麼方法來隱藏網頁的內容？ (只顯示在 screen readers)？
@@ -78,26 +84,26 @@
 * 你如何優化你的網頁以利於列印？
 * 在寫高效的 CSS 時，有什麼要注意的？
 * 使用 CSS preprocessors 的優點和缺點是什麼？ (Sass, Compass, Stylus, LESS)
-  * 描述你使用過的喜歡和不喜歡的 CSS preprocessors
+  * 描述你使用過的喜歡和不喜歡的 CSS preprocessors。
 * 你如何使用非標準字體來實作網頁設計？
 * 解釋瀏覽器如何按照 CSS selector 找到對應的 element。
 * 解釋你所認知的 box model，以及你如何在 CSS 告訴瀏覽器使用不同 box model 來呈現圖層？
 * 請解釋 `* { box-sizing: border-box; }`？並且說明使用它的好處？
-* 請列出您記憶中 display 屬性的全部值
+* 請列出您記憶中 display 屬性的全部值。
 * 請說明 inline 和 inline-block 的差異性？
 * 請說明 relative、fixed、absolute 和 static 元件差異性？
-* The 'C' in CSS stands for Cascading. How is priority determined in assigning styles (a few examples)? How can you use this system to your advantage?
+* 'C' 在 CSS 中代表層疊。樣式的優先級（舉出範例）？如何利用這項功能？
 * 你目前有使用哪一套 CSS Framework 在開發環境或產品線上？
   * 如果有，請問是哪一套，並且描述如果改善或提昇 CSS Framework？
 * 請問你有使用過 CSS Flexbox 或 Grid specs？
 * 如何區分 responsive design 與 adaptive design 有何不同？
 * 你曾經使用過 retina graphics？如果有，是在什麼時機以及用了什麼技術？
-* Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+* 為什麼會用 `translate()` 代替 *aboslute positioning*，或者用 *absolute positioning* 代替 `translate`？為什麼要這樣？
 
 #### <a name='js-questions'>JS 規格問題集：</a>
 
-* 描述 event delegation
-* 描述 `this` 如果運作在 JavaScript 中
+* 描述 event delegation。
+* 描述 `this` 如何在 JavaScript 中運作。
 * 描述 prototypal inheritance 如何運作？
 * 你如何測試你的 JavaScript？
 * AMD vs. CommonJS?
@@ -135,7 +141,35 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 
 * Ternary expression 怎麼來的, "Ternary" 的意思是什麼？
 * 什麼是 `"use strict";`? 使用他的優點和缺點是什麼？
-* Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
+* 建個數到 `100` 的迴圈，當數字是 `3` 的倍數時輸出 **"fizz"**，當數字是 `5` 的倍數時輸出 `"buzz"`，當數字同時是 `3` 與 `5` 的倍數時輸出 **"fizzbuzz"**。
+* 為什麼保持網站的全域(global scope)原樣是一個好做法？
+* 為什麼要用 `load` 事件？有什麼缺點嗎？有其他選擇嗎？又為何選擇它？
+* 解釋什麼是 single page app，並怎麼讓它對 SEO 更友善。
+* 你對 Promises 的經驗？有用過相關的補強（ployfills）嗎？
+* Promises 之於 callbacks 的優劣？
+* JavaScript 轉譯器（transpiler）的優缺點？
+* 你用什麼工具或技巧來做 JavaScript debug?
+* 你都用什麼對 object properties 與 array 進行迭代？
+* 解釋 mutable 與 immutable objects 之間的不同。
+  * 舉個 immutable 在 JavaScript 中例子？
+  * immutability 的憂劣？
+  * 如何達成 immutability？
+* 解釋同步（synchronous）與非同步（asynchronous）函式之間的差異。
+* Event loop 是什麼？
+  * call stack 與 task queue 之間的不同？
+
+#### <a name='testing-questions'>測試問題集:</a>
+
+* 寫測試有什麼好壞？
+* 都用什麼工具測試代碼是否能運作？
+* Unit test 與 functional/integration 間的不同？
+* 監控代碼風格 linting 工具的用途是？
+
+#### <a name='performance-questions'>效能問題集:</a>
+
+* 你都用什麼工具尋找效能上的臭蟲？
+* 有哪些方法可改善網站在 scrolling 效能？
+* 解釋 layout, painting 與 compositing 的不同。（瀏覽器在 render 上的效能問題）
 
 #### <a name='network-questions'>網路問題集:</a>
 
@@ -149,9 +183,15 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* 請描述 `GET` 和 `POST` 的差異性？
+* 列出所有你知道的 HTTP 操作，並詳加解釋。
 
 #### <a name='coding-questions'>程式碼問題集:</a>
+
+問題： `foo` 的值是什麼？
+
+```javascript
+var foo = 10 + '20';
+```
 
 問題：實作符合下面的函式
 
@@ -166,7 +206,7 @@ add(2)(5); // 7
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 
-問題:  window.foo 的值是什麼？
+問題:  `window.foo` 的值是什麼？
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
@@ -183,12 +223,22 @@ var foo = "Hello";
 alert(foo + bar);
 ```
 
-問題: 下面 foo.length 的值是什麼？
+問題: 下面 `foo.length` 的值是什麼？
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
+```
+
+問題：下面這段會印出什麼？
+
+```javascript
+console.log('one');
+setTimeout(function() {
+  console.log('two');
+}, 0);
+console.log('three');
 ```
 
 #### <a name='fun-questions'>有趣問題：</a>
@@ -197,7 +247,7 @@ foo.push(2);
 * 你使用的開發工具中，你最喜歡的部分是什麼？
 * 你有任何的 pet projects (個人開發的小專案)？ 什麼樣的？
 * 你最喜歡 IE 瀏覽器的什麼特點？
-* How do you like your coffee?
+* 喜歡咖啡嗎?
 
 #### <a name='contributors'>貢獻作者群:</a>
 
