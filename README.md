@@ -148,7 +148,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
-
+* What is the difference between having method inside a constructor function and a prototype? Which one is the best?
 ####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
 
 * Explain "chaining".
