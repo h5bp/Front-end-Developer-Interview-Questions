@@ -151,15 +151,15 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
     * Apa pro dan kontra _immutability_?
     * Bagaimana Anda mencapai _immutability_ dalam kode Anda?
 * Jelaskan perbedaan antara fungsi _synchronous_ dan _asynchronous_
-* Apa itu _event loop_?
-* Apa perbedaan antara _call stack_ dan _task queue_?
+* _event loop_ itu apa?
+* Perbedaan antara _call stack_ dan _task queue_ itu apa?
 
 #### Pertanyaan Pengujian
 
-* Apa keuntungan / kerugian menguji kode Anda?
+* Apakah keuntungan / kerugian menguji kode Anda?
 * Program apa yang Anda gunakan untuk menguji kinerja kode Anda?
-* Apa perbedaan antara tes unit dan tes fungsi/integrasi?
-* Apa tujuan program _lint_?
+* Apa saja perbedaan antara tes unit dan tes fungsi/integrasi?
+* Apakah tujuan program _lint_?
 
 #### Pertanyaan Kinerja
 * Tool apa yang Anda gunakan untuk mencari masalah kinerja dalam kode Anda?
@@ -169,7 +169,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 #### Pertanyaan Jaringan:
 * Secara tradisional, mengapa lebih baik untuk melayani aset situs dari beberapa domain?
 * Jelaskan semampu Anda, bagaimana proses kerja dari saat Anda mengetikkan URL situs web sampai saat halamannya selesai tampil di layar Anda.
-* Apa perbedaan antara Long-Polling, Websockets dan Server-Sent Events (SSE)?
+* Apakah perbedaan antara Long-Polling, Websockets dan Server-Sent Events (SSE)?
 * Jelaskan _request_ dan _response_ header berikut ini:
     * Perbedaan antara Expires, Date, Age dan If-Modified-...
     * Do Not Track (DNT)
@@ -177,32 +177,32 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
     * Transfer-Encoding
     * ETag
     * X-Frame-Options
-* Apa itu aksi HTTP? Sebutkan aksi-aksi HTTP yang Anda tau, dan jelaskan.
+* aksi HTTP itu apa? Sebutkan aksi-aksi HTTP yang Anda tahu, dan jelaskan.
 
 #### Pertanyaan koding:
 
-*Pertanyaan: Apa hasil `foo`?*
+*Pertanyaan: Apakah hasil `foo`?*
 ```javascript
 var foo = 10 + '20';
 ```
 
-*Pertanyaan: Bagaimana Anda kerjakan berikut ini?*
+*Pertanyaan: Bagaimana Anda akan membuat fungsi berikut ini bekerja?*
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
 ```
 
-*Pertanyaan: Apa hasil yang dikembalikan dari pernyataan berikut?*
+*Pertanyaan: Apakah hasil yang akan dikembalikan dari pernyataan berikut?*
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 
-*Pertanyaan: Apa nilai `window.foo`?*
+*Pertanyaan: Apakah nilai `window.foo`?*
 ```javascript
 ( window.foo || (window.foo = "bar") );
 ```
 
-*Pertanyaan: Apa hasil dari dua alert di bawah ini?*
+*Pertanyaan: Apakah hasil dari dua alert di bawah ini?*
 ```javascript
 var foo = "Hello"; 
 (function() { 
@@ -212,21 +212,21 @@ var foo = "Hello";
 alert(foo + bar);
 ```
 
-*Pertanyaan: Apa hasil `foo.length`?*
+*Pertanyaan: Apakah hasil `foo.length`?*
 ```javascript
 var foo = [];
 foo.push (1);
 foo.push (2);
 ```
 
-*Pertanyaan: Apa hasil `foo.x`?*
+*Pertanyaan: Apakah hasil `foo.x`?*
 ```javascript
 var foo = {n: 1};
 var bar = foo;
 foo.x = foo = {n: 2};
 ```
 
-*Pertanyaan: Apa yang diprint dalam kode berikut ini?*
+*Pertanyaan: Apakah hasil yang akan diprint dalam kode berikut ini?*
 ```javascript
 console.log('one');
 setTimeout(function() {
@@ -237,15 +237,15 @@ console.log('three');
 
 #### Pertanyaan Seru / Sampingan:
 
-* Apa proyek menarik yang baru-baru ini Anda kerjakan?
+* Apa saja proyek menarik yang baru-baru ini Anda kerjakan?
 * Apa sajakah hal-hal yang Anda sukai tentang alat pengembang yang Anda gunakan?
 * Apakah Anda mempunyai proyek yang anda sukai? Apa saja?
-* Apa fitur favorit Anda dari Internet Explorer?
-* Bagaimana Anda menyukai kopi Anda?
+* Apa fitur favorit Anda di Internet Explorer?
+* Apa tipe kopi favorit Anda?
 
 
 #### Contributors:
 
 Dokumen ini dimulai pada tahun 2009 sebagai kolaborasi dari [@paul_irish](http://twitter.com/paul_irish) [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://twitter.com/ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) dan [@iansym](http://twitter.com/iansym).
 
-Sejak itu sudah menerima kontribusi lebih dari [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
+Dari sejak itu, dokumen ini sudah menerima kontribusi lebih dari [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
