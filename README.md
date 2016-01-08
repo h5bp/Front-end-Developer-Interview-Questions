@@ -1,26 +1,20 @@
-#Front-end Job Interview Questions
+# Front-end Job Interview Questions and Answers
 
-This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
-
-**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+This file contains a number of front-end interview questions from [the original
+repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+and answers [I](https://github.com/noraesae) answered.
 
 ## Table of Contents
 
-  1. [General Questions](#general-questions)
-  1. [HTML Questions](#html-questions)
-  1. [CSS Questions](#css-questions)
-  1. [JS Questions](#js-questions)
-  1. [Testing Questions](#testing-questions)
-  1. [Performance Questions](#performance-questions)
-  1. [Network Questions](#network-questions)
-  1. [Coding Questions](#coding-questions)
-  1. [Fun Questions](#fun-questions)
-
-## Getting Involved
-
-  1. [Contributors](#contributors)
-  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
-  1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
+  1. **[General Questions](#general-questions)** - *[Answers](answers/general-questions.md)*
+  1. **[HTML Questions](#html-questions)** - *[Answers](answers/html-questions.md)*
+  1. **[CSS Questions](#css-questions)** - *[Answers](answers/css-questions.md)*
+  1. **[JS Questions](#js-questions)** - *[Answers](answers/js-questions.md)*
+  1. **[Testing Questions](#testing-questions)** - *[Answers](answers/testing-questions.md)*
+  1. **[Performance Questions](#performance-questions)** - *[Answers](answers/performance-questions.md)*
+  1. **[Network Questions](#network-questions)** - *[Answers](answers/network-questions.md)*
+  1. **[Coding Questions](#coding-questions)** - *[Answers](answers/coding-questions.md)*
+  1. **[Fun Questions](#fun-questions)** - *[Answers](answers/fun-questions.md)*
 
 #### General Questions:
 
@@ -242,9 +236,15 @@ console.log('three');
 * What's your favorite feature of Internet Explorer?
 * How do you like your coffee?
 
+## Getting Involved
 
-#### Contributors:
+The questions and some contents are from
+[the original repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
+If interested in getting involved, please look into it.
 
-This document started in 2009 as a collaboration of [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
+The answers are from [me](https://github.com/noraesae). It is completely free
+to fork this repository and use as you want.
 
-It has since received contributions from over [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
+## License
+
+[MIT](LICENSE.md)
