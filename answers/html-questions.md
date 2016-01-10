@@ -1,7 +1,12 @@
 # HTML Questions
 
-* What does a `doctype` do?
-* What's the difference between standards mode and quirks mode?
+#### What does a `doctype` do?
+
+It specifies which markup standard the page is using. With the information, the
+browser determines how to render the page according to the page's source code.
+
+#### What's the difference between standards mode and quirks mode?
+
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
