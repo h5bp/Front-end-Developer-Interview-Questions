@@ -58,7 +58,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
-* Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+* Under which tag should we put <script> files and <link> files?
 * What is progressive rendering?
 * Have you used different HTML templating languages before?
 
