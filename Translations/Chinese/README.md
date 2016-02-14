@@ -185,6 +185,11 @@
 var foo = 10 + '20';
 ```
 
+*问题：`foo`的值是什么？*
+```javascript
+var foo = parseInt("08");
+```
+
 *问题：如何实现以下函数？*
 ```javascript
 add(2, 5); // 7

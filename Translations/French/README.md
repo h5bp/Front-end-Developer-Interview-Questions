@@ -181,6 +181,11 @@ function Person(){} var person = Person() var person = new Person()
 var foo = 10 + '20';
 ```
 
+*Quelle est la valeur de `foo` ?*
+```javascript
+var foo = parseInt("08");
+```
+
 *Comment feriez-vous marcher ceci ?*
 ```javascript
 add(2, 5); // 7

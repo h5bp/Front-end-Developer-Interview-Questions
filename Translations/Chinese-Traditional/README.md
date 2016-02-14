@@ -193,6 +193,12 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 var foo = 10 + '20';
 ```
 
+問題： `foo` 的值是什麼？
+
+```javascript
+var foo = parseInt("08");
+```
+
 問題：實作符合下面的函式
 
 ```javascript
