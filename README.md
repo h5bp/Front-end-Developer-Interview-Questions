@@ -185,6 +185,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 var foo = 10 + '20';
 ```
 
+*Question: What is the value of `foo`?*
+```javascript
+var foo = parseInt("08");
+```
+
 *Question: How would you make this work?*
 ```javascript
 add(2, 5); // 7
