@@ -151,6 +151,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the difference between synchronous and asynchronous functions.
 * What is event loop?
   * What is the difference between call stack and task queue?
+* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}` 
 
 #### Testing Questions:
 
