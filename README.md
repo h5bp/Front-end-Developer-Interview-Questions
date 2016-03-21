@@ -153,6 +153,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * What is the difference between call stack and task queue?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}` 
 * What is the benefits of singletons, how does this affect the unit tests can be written
+  * How would you export a function as a singleton
 
 #### Testing Questions:
 
