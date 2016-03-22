@@ -152,8 +152,8 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is event loop?
   * What is the difference between call stack and task queue?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}` 
-* What is the benefits of singletons, how does this affect the unit tests can be written
-  * How would you export a function as a singleton
+* What is the benefits of singletons, how does this affect the unit tests can be written?
+  * How would you export a function as a singleton?
 
 #### Testing Questions:
 
@@ -161,7 +161,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What tools would you use to test your code's functionality?
 * What is the difference between a unit test and a functional/integration test?
 * What is the purpose of a code style linting tool?
-* What testing frameworks do you have experience with
+* What testing frameworks do you have experience with?
 
 #### Performance Questions:
 
