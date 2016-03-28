@@ -49,16 +49,16 @@
 #### <a name='html-questions'>HTML 相关问题：</a>
 
 * `doctype`(文档类型) 的作用是什么？
-* 浏览器标准模式 (standards mode) 和怪异模式 (quirks mode) 之间的区别是什么？
+* 浏览器标准模式 (standards mode) 、几乎标准模式（almost standards mode）和怪异模式 (quirks mode) 之间的区别是什么？
 * HTML 和 XHTML 有什么区别？
 * 如果页面使用 'application/xhtml+xml' 会有什么问题吗？
 * 如果网页内容需要支持多语言，你会怎么做？
 * 在设计和开发多语言网站时，有哪些问题你必须要考虑？
-* `data-`属性的作用是什么？
+* 使用 `data-` 属性的好处是什么？
 * 如果把 HTML5 看作做一个开放平台，那它的构建模块有哪些？
 * 请描述 `cookies`、`sessionStorage` 和 `localStorage` 的区别。
 * 请解释 `<script>`、`<script async>` 和 `<script defer>` 的区别。
-* 为什么通常推荐将 CSS `<link>` 放置在 `<head></head>` 之间，而将 JS `<script>` 放置在 `</body>` 之前？你知道相关解释吗？
+* 为什么通常推荐将 CSS `<link>` 放置在 `<head></head>` 之间，而将 JS `<script>` 放置在 `</body>` 之前？你知道有哪些例外吗？
 * 什么是渐进式渲染 (progressive rendering)？
 * 你用过哪些不同的 HTML 模板语言？
 
@@ -117,15 +117,16 @@
 * 请解释 `Function.prototype.bind`？
 * 在什么时候你会使用 `document.write()`？
 * 请指出浏览器特性检测，特性推断和浏览器 UA 字符串嗅探的区别？
-* 请尽可能详尽的解释 AJAX 的工作原理。
-* 请解释 JSONP 的工作原理，以及它为什么不是真正的 AJAX。
+* 请尽可能详尽的解释 Ajax 的工作原理。
+* 使用 Ajax 都有哪些优劣？
+* 请解释 JSONP 的工作原理，以及它为什么不是真正的 Ajax。
 * 你使用过 JavaScript 模板系统吗？
   * 如有使用过，请谈谈你都使用过哪些库？
 * 请解释变量声明提升 (hoisting)。
 * 请描述事件冒泡机制 (event bubbling)。
 * "attribute" 和 "property" 的区别是什么？
 * 为什么扩展 JavaScript 内置对象不是好的做法？
-* 请指出 document load 和 document ready 两个事件的区别。
+* 请指出 document load 和 document DOMContentLoaded 两个事件的区别。
 * `==` 和 `===` 有什么不同？
 * 请解释 JavaScript 的同源策略 (same-origin policy)。
 * 如何实现下列代码：
@@ -150,6 +151,7 @@
 * 请解释同步 (synchronous) 和异步 (asynchronous) 函数的区别。
 * 什么是事件循环 (event loop)？
   * 请问调用栈 (call stack) 和任务队列 (task queue) 的区别是什么？
+* 解释 `function foo() {}` 与 `var foo = function() {}` 用法的区别
 
 #### <a name='testing-questions'>测试相关问题：</a>
 
@@ -176,7 +178,7 @@
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* 什么是 HTTP action？请罗列出你所知道的所有 HTTP action，并给出解释。
+* 什么是 HTTP method？请罗列出你所知道的所有 HTTP method，并给出解释。
 
 #### <a name='coding-questions'>代码相关的问题：</a>
 
@@ -238,6 +240,7 @@ console.log('three');
 
 * 你最近写过什么的很酷的项目吗？
 * 在你使用的开发工具中，最喜欢哪些方面？
+* 谁使你踏足了前端开发领域？
 * 你有什么业余项目吗？是哪种类型的？
 * 你最爱的 IE 特性是什么？
 * 你对咖啡有没有什么喜好？
