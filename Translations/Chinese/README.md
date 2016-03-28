@@ -54,7 +54,7 @@
 * 如果页面使用 'application/xhtml+xml' 会有什么问题吗？
 * 如果网页内容需要支持多语言，你会怎么做？
 * 在设计和开发多语言网站时，有哪些问题你必须要考虑？
-* `data-`属性的作用是什么？
+* 使用 `data-` 属性的好处是什么？
 * 如果把 HTML5 看作做一个开放平台，那它的构建模块有哪些？
 * 请描述 `cookies`、`sessionStorage` 和 `localStorage` 的区别。
 * 请解释 `<script>`、`<script async>` 和 `<script defer>` 的区别。
