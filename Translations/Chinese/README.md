@@ -58,7 +58,7 @@
 * 如果把 HTML5 看作做一个开放平台，那它的构建模块有哪些？
 * 请描述 `cookies`、`sessionStorage` 和 `localStorage` 的区别。
 * 请解释 `<script>`、`<script async>` 和 `<script defer>` 的区别。
-* 为什么通常推荐将 CSS `<link>` 放置在 `<head></head>` 之间，而将 JS `<script>` 放置在 `</body>` 之前？你知道相关解释吗？
+* 为什么通常推荐将 CSS `<link>` 放置在 `<head></head>` 之间，而将 JS `<script>` 放置在 `</body>` 之前？你知道有哪些例外吗？
 * 什么是渐进式渲染 (progressive rendering)？
 * 你用过哪些不同的 HTML 模板语言？
 
