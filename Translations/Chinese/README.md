@@ -49,7 +49,7 @@
 #### <a name='html-questions'>HTML 相关问题：</a>
 
 * `doctype`(文档类型) 的作用是什么？
-* 浏览器标准模式 (standards mode) 和怪异模式 (quirks mode) 之间的区别是什么？
+* 浏览器标准模式 (standards mode) 、几乎标准模式（almost standards mode）和怪异模式 (quirks mode) 之间的区别是什么？
 * HTML 和 XHTML 有什么区别？
 * 如果页面使用 'application/xhtml+xml' 会有什么问题吗？
 * 如果网页内容需要支持多语言，你会怎么做？
