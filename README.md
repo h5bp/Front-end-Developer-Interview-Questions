@@ -60,7 +60,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
-* Explain why you would use a srcset attribute? How does the browser determine what value to use?
+* Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Have you used different HTML templating languages before?
 
 #### CSS Questions:
