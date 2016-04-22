@@ -151,7 +151,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 ```
 * O que é um operador ternário, o que a palavra "ternário" indica/significa?
 * O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
-* Crie um loop for que itere até `100` enquanto retorn **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
+* Crie um loop for que itere até `100` enquanto retorna **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
 
 ####[[⬆]](#toc) <a name='jquery'>Questões de jQuery:</a>
 
