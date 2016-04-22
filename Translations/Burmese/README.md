@@ -1,4 +1,4 @@
-#Front-end developer အလုပ်နှင့်ဆိုင်သော အင်တာဗျူး မေးခွန်းများ 
+#Front-end developer အလုပ်နှင့်ဆိုင်သော အင်တာဗျူး မေးခွန်းများ
 
 ယခုဖိုင်တွင် Front-end developer အလုပ်အတွက် အလုပ်လျှောက်ထားသူများအား အင်တာဗျူးများပြုလုပ်ရာတွင် အထောက်အကူပြုနိုင်သည့် မေးခွန်းများပါဝင်ပါသည်။ အလုပ်လျှောက်ထားသူတစ်ဦးစီတိုင်းကို ရှိသမျှမေးခွန်းတိုင်းမေးရန် အကြံပြုခြင်းမဟုတ်ပါ။ (ဖြေရလွန်း၍ လျှာထွက်နိုင်ကိန်းရှိသည်။) မိမိခန့်အပ်လိုသောအလုပ်နှင့်သက်ဆိုင်သည့် အလုပ်တာဝန်၊ လိုအပ်ချက်များနှင့်သက်ဆိုင်သည့် မေးခွန်းများကိုသာရွေးချယ်ကာမေးရန် ရည်ရွယ်ပါသည်။
 
@@ -19,6 +19,8 @@
   1. [Contributors](#contributors)
   1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
+
+
 
 #### ယေဘုယျ မေးခွန်းများ<a name="general-questions"></a>
 
@@ -41,13 +43,13 @@
 * သင်သည် ဒီနှစ်ထဲတွင် technology တစ်ခုကို ကျွမ်းကျင်စွာလေ့လာနိုင်မည်ဆိုပါက မည်သည့် technology ကိုလေ့လာမည်နည်း။
 * Standard များ၏ အရေးပါပုံနှင့် standard များကို သတ်မှတ်သည့် အဖွဲ့အစည်းများ၏ အရေးပါပုံကို ပြောပါ။
 * Flash of unstyled content ဆိုတာဘာလဲ။ ဘယ်လိုရှောင်ကွင်းနိုင်ပါသလဲ။
-* ARIA နှင့် screenreader များအကြောင်း၊ accessible ြဖစ်သည့် website ကို လုပ်ပုံလုပ်နည်းအကြောင်း ပြောပါ။ 
+* ARIA နှင့် screenreader များအကြောင်း၊ accessible ြဖစ်သည့် website ကို လုပ်ပုံလုပ်နည်းအကြောင်း ပြောပါ။
 * CSS animation များနှင့် Javascript animation များ၏ အားနည်းချက်၊ အားသာချက်များအကြောင်းရှင်းပြပါ။
 
 #### HTML နှင့်သက်ဆိုင်သော မေးခွန်းများ <a name="html-questions"></a>
 
 * `doctype` ဆိုတာဘာလဲ။ ဘယ်လိုအလုပ်လုပ်ပါသလဲ။
-* Standard mode နှင့် quirks mode ကွာခြားချက်များကို ပြောပါ။
+* Full standards mode၊ almost standard mode နှင့် quirks mode ကွာခြားချက်များကို ပြောပါ။
 * HTML နှင့် XHTML ကွာခြားချက်များကို ပြောပါ။
 * Page များကို `application/xhtml+xml` နှင့် ချပေးပါက မည်သည့်ပြဿနာများရှိသနည်း။
 * ဘာသာစကားတစ်ခုထက်မကပါသော page တစ်ခုကို ဘယ်လိုချပြမည်နည်း။
@@ -57,6 +59,8 @@
 * `cookie`, `sessionStorage` နှင့် `localStorage` တို့၏ ကွာခြားချက်များကိုပြောပါ။
 * `<script>`, `<script async>` နှင့် `<script defer>` တို့၏ ကွာခြားချက်များကို ပြောပါ။
 * ဘာကြောင့် CSS ၏ `<link>` tag များကို `<head></head>` အတွင်း၊ ဘာကြောင့် Javascript ၏ `<script>` tag များကို `</body>` မတိုင်ခင်ထည့်သည့်သည်ဟု ယေဘုယျအားဖြင့် အကြံပြုကြပါသလည်း။ ဘယ်လိုချွင်းချက်များ ရှိပါလဲ။
+* Progressive Rendering ဆိုတာဘာလဲ။
+* HTML Templating language တွေကို သုံးဖူးပါသလား။
 
 #### CSS နှင့်ပါတ်သက်သော မေးခွန်းများ <a name='css-questions'></a>
 
@@ -64,6 +68,7 @@
 * CSS တွင် "resetting" နှင့် "normalizing" တို့၏ ကွာခြားချက်များကို ပြောပါ။
 * Float တွေအကြောင်းနှင့် ဘယ်လိုအလုပ်လုပ်ကြောင်း ပြောပါ။
 * z-index နှင့် stacking အလုပ်လုပ်ပုံကို ရှင်းပါ။
+* BFC(Block Formatting Context) အကြောင်းရှင်းပါ။
 * Clearing နည်းအမျိုးမျိုးနှင့် မည်သည့်နည်းသည် မည်သို့အခြေအနေနှင့်သင့်တော်ကြောင်းရှင်းပြပါ။
 * CSS sprites များအကြောင်းရှင်းပြပါ။ Page တစ်ခု၊ site တစ်ခုမှာ ဘယ်လိုလုပ်မလဲရှင်းပြပါ။
 * အကြိုက်ဆုံး Image replacement နည်းများကိုပြောပါ၊ ဘယ်နည်းကို ဘယ်အခါမှာသုံးပါသနည်း။
@@ -80,6 +85,7 @@
   * သုံးဖူးတဲ့ CSS preprocessor တွေရဲ့ ကြိုက်တဲ့အချက် မကြိုက်တဲ့အချက်များကို ပြောပြပါ။
 * Web design comp တစ်ခု၊ photoshop/illustrator နဲ့ဆွဲထားတဲ့ design တစ်ခုကို ဘယ်လို develop လုပ်ပါမည်နည်း။
 * Browser တစ်ခုက CSS selector တစ်ခုနှင့် ဘယ်လို match လုပ်ပါသနည်း။
+* Pseudoelement ဆိုတာဘာလဲ၊ ဘယ်နေရာမှာ သုံးပါသလဲ။
 * Box model ကို နားလည်သလောက်ရှင်းပြပါ။ Browser တစ်ခုကို သင်လိုချင်သော box model တစ်ခုနှင့် render လုပ်အောင်မည်သို့ပြောရမည်နည်း။
 * ```* { box-sizing: border-box; }``` က ဘာလုပ်တာလည်း။ အဲ့ဒါရဲ့ အားသာချက်တွေက ဘာလဲ။
 * `display` property ရဲ့ value တွေထဲက မှတ်မိသမျှပြောပြပါ။
@@ -97,13 +103,12 @@
 * Event delegation အကြောင်းရှင်းပြပါ။
 * `this` က Javascript မှာ ဘယ်လိုအလုပ်လုပ်ပါသလဲ။
 * Prototypal inheritance က ဘယ်လိုအလုပ်လုပ်ပါသလဲ။
-* Javascript ကို ဘယ်လို test လုပ်နိုင်ပါသလဲ။
 * AMD နှင့် CommonJS ကိုယှဉ်ပြပါ။
 * ဘာကြောင့် IIFE မှာ `function foo(){}();`; အလုပ်မလုပ်တာလည်း။
   * ဘာကိုပြောင်းလိုက်ရင် အလုပ်လုပ်ပါမည်နည်း။
 * Variable တစ်ခု၏ `null`, `undefined` or `undeclared` value များသည် ဘယ်လိုကွာခြားပါသလဲ။
   * အဲ့ဒီ့မတူတဲ့ value တွေကို ဘယ်လို check မလဲ။
-* Closure ဆိုတာဘာလဲ၊ ဘယ်လို၊ ဘာကြောင့်သုံးမှာလဲ။  
+* Closure ဆိုတာဘာလဲ၊ ဘယ်လို၊ ဘာကြောင့်သုံးမှာလဲ။
 * Anonymous function တစ်ခုရဲ့ use case တွေဘာတွေရှိသလဲ။
 * Code တွေကို ဘယ်လို organize လုပ်မှာလဲ။ (module pattern, classical inheritance?)
 * Host object တွေနဲ့ native object တွေနဲ့ ဘယ်လိုကွာသလဲ။
@@ -112,14 +117,16 @@
 * `Function.prototype.bind` အကြောင်းရှင်းပါ။
 * `document.write()` ကို ဘယ်လိုအချိန်မှာ သုံးမှာလဲ။
 * Feature detection, feature inference နှင့် UA string တို့ရဲ့ ကွာခြားချက်ကို ပြောပါ။
-* AJAX ကို အသေးစိတ်ကျကျ ရှင်းပါ။
+* Ajax ကို အသေးစိတ်ကျကျ ရှင်းပါ။
+* Ajax သုံးခြင်းရဲ့ အားသာချက်၊ အားနည်းချက်များကို ရှင်းပါ။
 * JSONP က ဘယ်လိုအလုပ်လုပ်သလဲပြောပါ။ (AJAX နှင့် ဘယ်လို မတူကြောင်းရှင်းပါ)
-* Javascript templating သုံးဖူးပါသလား၊​ ဘယ် Library တွေသုံးဖူးပါသလဲ။
+* Javascript templating သုံးဖူးပါသလား၊​
+  * ဘယ် Library တွေသုံးဖူးပါသလဲ။
 * "hoisting" ကိုရှင်းပြပါ။
 * Event bubbling အကြောင်းရှင်းပါ။
 * "attribute" နှင့် "property" ဘယ်လိုကွာပါသလဲ။
 * နဂိုကတည်းကရှိသည့် JavaScript object တွေကို extend လုပ်ခြင်းသည် ဘာ့ကြောင့် မလုပ်သင့်တာလဲ။
-* Document load event နဲ့ document ready event က ဘယ်လိုကွာသလဲ။
+* Document load event နဲ့ document DOMContentLoaded event က ဘယ်လိုကွာသလဲ။
 * `==` နှင့် `===` ကွာခြားပုံကိုပြောပါ။
 * Javascript ၏ same-origin policy အကြောင်းရှင်းပါ။
 * အောက်ပါကုဒ်ကို အလုပ်လုပ်အောင် လုပ်ပါ။
@@ -133,6 +140,18 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * `load` event ကို ဘာကြောင့်သုံးပါသလဲ။ အဲ့ဒီ့ event မှာ အားနည်းချက်များရှိပါသလား။ တခြားနည်းလမ်းတွေသိလား၊ ဘာလို့ အြခားနည်းလမ်းတွေသုံးမှာလဲ။
 * Single page app ဆိုတာဘာလဲ ရှင်းပြပေးပါ၊ ပြီးတော့ အဲ့ဒီ့ app တွေကို ဘယ်လို SEO-friendly ြဖစ်အောင်လုပ်မလဲ။
 * Promises သို့မဟုတ် သူတို့ရဲ့ polyfills တွေနဲ့ပါတ်သက်ြပီး အတွေ့အကြုံအကြောင်းပြောပြပါ။
+* Promises တွေက callback တွေထက် ဘယ်လိုအားသာပါသလဲ။
+* Javascript ကို compile လုပ်တဲ့ အခြား language တစ်ခုမှာရေးခြင်းရဲ့ အားနည်းချက် အားသာချက်များကို ပြောပါ။
+* Javascript code ကို debug လုပ်ဖို့ ဘယ်လို tools တွေ techniques တွေသုံးပါသလဲ။
+* Object တွေ array တွေကို loop ပါတ်ဖို့အတွက် ဘယ်လို language construction တွေကို သုံးပါသလဲ။
+* Mutable နဲ့  immutable object တွေရဲ့ ကွာခြားချက်ကို ပြောပါ။
+    * Javascript ရဲ့ immutable object ဥပမာပြပါ။
+    * Immutability ရဲ့ အားနည်းချက်၊ အားသာချက်ကို ပြောပါ။
+    * Immutability ကို ကိုယ့် code မှာ ရအောင်ဘယ်လိုလုပ်မလဲ။
+* Synchronous နဲ့ asynchronous function တွေရဲ့ ကွာခြားချက်ကိုပြောပါ။
+* Event loop ဆိုတာဘာလဲ။
+  * Call stack နဲ့ task queue က ဘာကွာလဲ။
+* `function foo() {}` နှင့် `var foo = function() {}` မှာ `foo` ရဲ့ကွာခြားချက်ကိုပြောပါ။
 
 #### Network နှင့်ပါတ်သက်သော မေးခွန်းများ
 <a name="network-questions"></a>
@@ -147,8 +166,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* `GET` နှင့် `POST` ၏ ကွာြခားချက်များကိုရှင်းပါ။
-* `GET` နှင့် `HEAD` ၏ ကွာခြားချက်များကိုရှင်းပါ။
+* HTTP Methods တွေကဘာတွေလဲ။ သူတို့ရဲ့ ကွာခြားချက်များကိုရှင်းပါ။
 
 #### Coding နှင့်ပါတ်သက်သော မေးခွန်းများ <a name='coding-questions'></a>
 
@@ -190,11 +208,29 @@ foo.push(1);
 foo.push(2);
 ```
 
+*Question: `foo.x` ၏ value ကိုပြောပါ။?*
+```javascript
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
+```
+
+*Question: အောက်ပါ ကုဒ်က ဘာ print ထုတ်မည်နည်း။?*
+```javascript
+console.log('one');
+setTimeout(function() {
+  console.log('two');
+}, 0);
+console.log('three');
+```
+
+
 #### အပျော်မေးခွန်းများ
 <a name="fun-questions"></a>
 
 * သင်လတ်တလောလုပ်ဖူးတဲ့ project များထဲက cool ဖြစ်တဲ့ project တစ်ခုအကြောင်းပြောပါ။
 * သင်သုံးတဲ့ developer tools တွေထဲက ဘယ်လိုအရာမျိုးတွေကို ကြိုက်ပါသလဲ။
+* Front-end community ထဲမှာ ဘယ်သူတွေကို စံနမူနာယူပါသလဲ။
 * အပျော်တမ်း၊ အားလပ်ချိန်မှာ လုပ်နေတဲ့ project တွေရှိပါသလား။ ဘယ်လိုမျိုးတွေလဲ။
 * Internet Explorer ရဲ့ အကြိုက်ဆုံး feature တစ်ခုပြောပါ။
 * ကော်ဖီကို ဘယ်လိုသောက်ပါသလဲ။
