@@ -155,7 +155,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Call stack နဲ့ task queue က ဘာကွာလဲ။
 * `function foo() {}` နှင့် `var foo = function() {}` မှာ `foo` ရဲ့ကွာခြားချက်ကိုပြောပါ။
 
-  
+
 #### Testing နှင့် သက်ဆိုင်သော မေးခွန်းများ
 <a name="testing-questions"></a>
 
@@ -167,10 +167,10 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 #### Performance နှင့် သက်ဆိုင်သော မေးခွန်းများ
 <a name="performance-questions"></a>
 
-* What tools would you use to find a performance bug in your code?
-* What are some ways you may improve your website's scrolling performance?
-* Explain the difference between layout, painting and compositing.
 
+* ဘယ်လို tools တွေကို သုံးပြီး performance bug တွေကို ရှာရမှာလဲ။
+* Website တစ်ခုရဲ့ scrolling နဲ့ပါတ်သက်ပြီး performance ဘယ်လိုကောင်းအောင်လုပ်ရမှာလဲ
+* Layout, painting နှင့် compositing ရဲ့ကွာခြားချက်ကိုပြောပါ။
 
 #### Network နှင့်ပါတ်သက်သော မေးခွန်းများ
 <a name="network-questions"></a>
@@ -227,19 +227,15 @@ foo.push(1);
 foo.push(2);
 ```
 
-<<<<<<< HEAD
-*Question: `foo.x` ၏ value ကိုပြောပါ။?*
-=======
-*Question: What is the value of `foo.x`?*
 
->>>>>>> 16591744ddf59e6a79616ace0b5079ed9cbf59bb
+*Question: `foo.x` ၏ value ကိုပြောပါ။?*
+
 ```javascript
 var foo = {n: 1};
 var bar = foo;
 foo.x = foo = {n: 2};
 ```
 
-<<<<<<< HEAD
 *Question: အောက်ပါ ကုဒ်က ဘာ print ထုတ်မည်နည်း။?*
 ```javascript
 console.log('one');
@@ -249,9 +245,6 @@ setTimeout(function() {
 console.log('three');
 ```
 
-
-=======
->>>>>>> 16591744ddf59e6a79616ace0b5079ed9cbf59bb
 #### အပျော်မေးခွန်းများ
 <a name="fun-questions"></a>
 
