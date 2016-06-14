@@ -2,92 +2,82 @@
 
 Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza çıkabilecek sorular yer almaktadır. Her sorunun iş başvurularınızda karşınıza çıkması garanti değil ancak ihtimali var. Ayrıca buradaki sorular sadece iş başvurusu yapanlar için değil, bu branşta kendini geliştirmeyi düşünenler için de kaynak niteliğindedir.
 
-[Rebecca Murphey](http://rmurphey.com/)'in [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) adlı İngilizce makalesinin de okunması tavsiye edilmektedir.
+**Not:** Buradaki birçok sorunun ucunun açık olduğunu, bu sebeple vereceğiniz cevaba göre ilginç tartışmalara yol açabileceğini unutmayın.
 
-## <a name='toc'>İçindekiler</a>
+## İçindekiler
 
-  1. [Katkıda Bulunanlar](#contributors)
-  1. [Genel Sorular](#general)
-  1. [HTML Soruları](#html)
-  1. [CSS Soruları](#css)
-  1. [JS Soruları](#js)
-  1. [jQuery Soruları](#jquery)
-  1. [Kodlama Becerisi Soruları](#jscode)
-  1. [Eğlence Soruları](#fun)
+  1. [Genel Sorular](#general-questions)
+  1. [HTML Soruları](#html-questions)
+  1. [CSS Soruları](#css-questions)
+  1. [JS Soruları](#js-questions)
+  1. [Test Soruları](#testing-questions)
+  1. [Performans Soruları](#performance-questions)
+  1. [Ağ Soruları](#network-questions)
+  1. [Kodlama Soruları](#coding-questions)
+  1. [Eğlenceli Sorular](#fun-questions)
 
-####[[⬆]](#toc) <a name='contributors'>Katkıda Bulunanlar:</a>
+## Dahil Olmak İçin
 
-Söz konusu aşağıdaki sorular [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) önderliğinde ve aşağıdaki katkıda bulunanlar tarafından oluşturulmuştur:
+    1. [Katkıda bulunanlar](#contributors)
+    1. [Nasıl katkıda bulunabilirim?](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+    1. [Lisans](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
-
-####[[⬆]](#toc) <a name='general'>Genel Sorular:</a>
+#### Genel Sorular:
 
 * Dün -ya da bu hafta- neler öğrendin?
-* Kod yazmanda seni cezbeden şey ne? Neden yazılım?
+* Kod yazmanda seni cezbeden şey ne?
+* Deneyimlediğin son teknik meydan okuma / problem neydi ve onu nasıl çözdün?
 * Website yada web application hazırlarken UI, güvenlik, performans, SEO, sürdürülebilirlik veya teknoloji için nelere dikkat edersin?
 * Bize biraz geliştirme ortamından bahset. -İşletim Sistemi, Web Tarayıcı, Araçlar, Kod Editörü/IDE, vb.-
+* Haangi version kontrol sistemlerine aşinasın?
 * Web sayfasını oluştururken hangi adımları takip edersin?
+* Eğer 5 farklı stil dosyası varsa, bunları siteye entegre etmenin en iyi yolu nedir?
 * "Aşamalı geliştirme (progressive enhancement)" ile "kontrollü azalma (graceful degradation)" arasında ne fark vardır?
-  * Bahsedilen doğru özellikler için artı puan 
-* "Semantic HTML" ne demektir, açıklayabilir misin?
 * Web sitesindeki dosyaları nasıl optimize edersin?
-  * Beklenilen çözüm konuları:
-    * Dosya birleştirme
-    * Dosya boyut küçültme
-    * CDN kullanımı
-    * Caching
-    * vb.
-* Sitedeki JS/CSS gibi statik dosyaları birden fazla alanadı altında barındırmanın avantajları nelerdir?
-  * Belli bir zamanda, tek bir alanadı üzerinden web tarayıcısı ne kadar kaynak indirebilir?
-* Sayfa yüklenme süresini azaltmak için 3 yöntem belirt.
+* Belli bir zamanda, tek bir alanadı üzerinden web tarayıcısı ne kadar kaynak indirebilir?
+  * İstisnalar nelerdir?
+* Sayfa yüklenme hızını azaltmanın yollarından 3 tanesini söyleyebilir misin?
 * Yeni dahil olduğunuz bir projede, kodlama için `Tab` boşluk kullanılıyor ama siz `Space` ile boşluk bırakmayı tercih ediyorsunuz. Bu durumda ne yaparsınız?
-  * EditorConfig (http://editorconfig.org) vb. kod yazım standardını kolaylaştıran araçlar
-  * Yazılan koda uymak (Kod tutarlılığı)
-  * `issue :retab! command`
 * Basit bir slayt/galeri sayfası oluşturun
-  * JS kodu kullanılmaması halinde artı puan.
-* Kod performansınızı ölçmek için hangi araçları kullanıyorsun?
-  * Profiler, JSPerf, Dromaeo
 * Eğer bu yıl bir teknolojide en iyi olmak isteseydin, hangisini seçerdin?
-* Yazılım standartlarının öneminden bahset
+* Yazılım standartlarının öneminden bahseder misin?
 * FOUC nedir? FOUC'a nasıl engel olabilirsin?
 * Web adresinin ilk adres girilirken sayfanın tam olarak yüklenmesine kadar ki işlemleri açıklayabilir misin?
+* CSS animasyonlarının JavaScript animasyonlara göre artılarını ve eksiklerini açıklayabilir misin?
+* CORS ne anlama geliyor ve nasıl bir problemi çözüyor?
 
-####[[⬆]](#toc) <a name='html'>HTML Soruları:</a>
+
+
+#### HTML Soruları:
 
 * `doctype`ın işlevi nedir?
-*  "standards mod" ile "quirks mod" arasındaki fark nedir?
-* XHTML sayfalarının ne gibi sınırlamaları vardır?
-  * Sayfaların `application/xhtml+xml` olarak çalıştırılmasında herhangi bir sakınca var mıdır?
+* Full standards mode, almost standards mode ve quirks mode arasındaki farklar nelerdir?
+* HTML ve XHTML arasındaki farkler nelerdir?
+* Sayfaların `application/xhtml+xml` olarak çalıştırılmasında herhangi bir sakınca var mıdır?
 * Sayfa içeriği çoklu dil olan siteyi nasıl sunabilirsin?
-  * Çoklu dil olan sayfalarda tasarım veya kodlama olarak nelerden kaçılmalısın?
+* Çoklu dil olan sayfalarda tasarım veya kodlama olarak nelerden kaçılmalısın?
 * `data-` özelliği ne faydalar sağlar?
 * HTML5'i 'open web platform' olarak düşün. HTML5'in yapı taşları/temelleri nelerdir?
-* Cookie, sessionStorage ve localStorage farklılıkları nelerdir?
-* GET ve POST arasındaki farklılık nedir?
+* `cookie`, `sessionStorage` ve `localStorage` arasındaki farkları açıklayabilir misin?
+* `<script>`, `<script async>` ve `<script defer>` arasındaki farkları açıklayabilir misin?
+* CSS `<link>`lerin `<head></head>` arasında ve JS `<script>`lerinin `</body>` etiketinden önce olması niye genelde iyi bir fikirdir? Herhangi bir istisna biliyor musun?
+* Progressive rendering nedir?
+* Önceden farklı bir HTML templating dili kullandın mı?
 
-####[[⬆]](#toc) <a name='css'>CSS Soruları:</a>
+#### CSS Soruları:
 
-* 'Reset' css dosyasının ne olduğunu ve neden kullanışlı olduğunu anlatın.
-* 'Floats' özelliğinin ne olduğunu ve nasıl çalıştığından bahsedin.
-* Çeşitli 'clearing' teknikleri nelerdir? and Hangi teknik hangi içerik için uygundur?
-* CSS Sprites özelliğini ve sayfanıza veya web app'inize nasıl entegre edeceğinizi anlatın.
+* CSS'te class ve ID arasındaki farklar nelerdir?
+* "Resetting" ve "normalizing" CSS'ler arasındaki farklar nelerdir? Hangisini kullanmamız gerekir, neden?
+* Floats özelliğinin ne olduğunu ve nasıl çalıştığından bahsedin.
+* z-index özelliğinin ne olduğunu ve nasıl çalıştığından bahsedin.
+* BFC (Block Formatting Context)'nin ne olduğunu ve nasıl çalıştığından bahsedin.
+* Çeşitli 'clearing' teknikleri nelerdir ve hangi teknik hangi içerik için uygundur?
+* CSS Sprites özelliğini ve sayfanıza veya web uygulamanıza nasıl entegre edeceğinizi anlatın.
 * En favori imaj yerini değiştirme (image replacement) tekniği sizce hangisidir ve ne gibi durumlarda kullanırsınız?
-* CSS özelliklerini 'hack'leme, Duruma bağlı css dosyaları yükleme veya ....herhangi farklı birşey?
-* Bazı özellikleri zorlayıcı tarayıcılarda sayfalarınızı nasıl hazırlarsınız?
+* Browser tabanlı (browser-specific) stil problemlerini nasıl çözersiniz?
+* Özellik kısıtlamalı (feature-constrained) tarayıcılar için websitenizi nasıl hazırlarsınız?
   * Hangi teknikleri/işlemleri kullanırsınız?
-* İçerikleri görsel olarak gizlemek hangi yollar bulunmakta? (ve içerik sadece ekran okuyucular (screen readers) için gözükecek)
+* İçerikleri görsel olarak gizlemek hangi yollar bulunmakta? (İçerik sadece ekran okuyucular (screen readers) için gözükecek.)
 * Şimdiye kadar grid sistemi kullandınız mı? Eğer kullandıysanız, ne tercih edersiniz?
 * Şimdiye kadar 'media queries' veya mobil bazlı CSS/tasarım kullanıdınız mı?
 * SVG stillendirme hakkında deneyiminiz var mı?
@@ -96,140 +86,170 @@ Söz konusu aşağıdaki sorular [Paul Irish](http://paulirish.com) ([@paul_iris
 * CSS 'preprocessor'ler kullanmanın artı-eksileri nelerdir? (SASS, Compass, Stylus, LESS)
   * Şimdiye kadar kullandıklarınızda en çok beğendiğiniz/beğenmediğiniz özellikler nelerdi?
 * Standart fontları kullanmayan web tasarımlarını nasıl sayfanıze entegre ediyorsunuz?
-  * Webfontlar (Örnek font servisleri: Google Webfonts, Typekit, vb.)
-* Tarayıcılar html elementlerin CSS seçicilerle (selector) eşleştiğini nasıl algılıyor?
-* 'box model' konusunu bildiğiniz kadar açıklayın. Ve Tasarımınızı farklı bir 'box model' ile göstermek istediğinizde CSS tarafında tarayıcıya ne belirtmeniz gerekir?
+* Tarayıcılar HTML elementlerin CSS seçicilerle (selector) eşleştiğini nasıl algılıyor, açıklar mısınız?
+* Sözde elementleri (pseudo-elements) ve ne için kullandıklarını açıklayın.
+* 'box model' konusunu bildiğiniz kadar açıklayın ve tasarımınızı farklı bir 'box model' ile göstermek istediğinizde CSS tarafında tarayıcıya ne belirtmeniz gerekir?
+* ```* { box-sizing: border-box; }``` ne yapar? Avantajları nelerdir?
 * 'Display' özelliğinin aldığı değerleri hatırladığınız kadar sayın.
-* 'Inline' ile 'Inline-block' arasındaki farklılıklar nelerdir?
-* 'Relative', 'Fixed', 'Absolute' ve 'Static' konumlandırılmış elementlerin farkı nedir?
+* 'inline' ile 'inline-block' arasındaki farklılıklar nelerdir?
+* 'relative', 'fixed', 'absolute' ve 'static' konumlandırılmış elementlerin farkı nedir?
+* CSS kelimesindeki C harfi "Cascading"in (basamaklı) kısaltmasıdır. Yönlendirilen stillerde öncelikler nasıl belirlenir (birkaç örnekle birlikte)? Bunu nasıl kendi avantajınıza göre kullanabilirsiniz?
+* Kullanmış olduğunuz, daha tanınmayan - lokal CSS çatılar (frameworks) var mı? Bunları nasıl değiştirmek / geliştirmek isterdiniz?
+* Yeni CSS Flebox veya Grid özellikleriyle deneyip bir şeyler yaptınız mı?
+* Responsive tasarımın adaptive tasarımdan farkı nedir?
+* Hiç retina grafiklerle çalıştınız mı? Eğer çalıştıysanız ne zaman ve hangi teknikleri kullandınız?
+* `translate()` yerine *absolute positioning*, veya tam tersini kullanmak için bir sebebiniz olabilir mi? Ve neden?
 
-####[[⬆]](#toc) <a name='js'>JS Soruları:</a>
+#### JS Soruları:
 
 * 'Event delegation' özelliğini anlatın.
 * JavaScript'te `this` nasıl çalışıyor?
 * 'prototypal inheritance' nasıl çalışır?
-* Javascript kodunuzu nasıl test ediyorsunuz?
 * AMD ile CommonJS'in farkı nelerdir?
-* 'hashtable' nedir?
-* IIFE olarak neden bu fonksiyonun çalışmadığını açıklayın: `function foo(){ }();`. 
+* IIFE olarak neden bu fonksiyonun çalışmadığını açıklayın: `function foo(){ }();`.
   * IIFE olarak çalışması için ne yapmak gerekiyor?
 * `null`, `undefined` ve `undeclared` arasında ne farklar var?
   * Bu değerleri kontrol ederken neler yapmalıyız?
-* 'Closure' nedir, ve Nasıl/Neden kullanırız?
+* 'Closure' nedir, ve nasıl/neden kullanırız?
 * Anonim fonksiyonları kullanma durumları nelerdir?
-* 'JavaScript module pattern' nedir? ve ne zaman kullanmalıyız?
-  * Kaliteli şekilde 'Namespace'a anlatımı için bonus puan
-  * Peki modüllerin 'namespace'i yoksa?
 * Kodunuzu nasıl organize edersiniz? (module pattern, classical inheritance?)
 * host objects ve native objects arasında ne fark var?
-* Aşağıdaki kodun birbirinden farkını belirtin:
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* `function Person(){}`, `var person = Person()`, ve `var person = new Person()` arasındaki farklar nelerdir?
 * `.call` ve `.apply` arasındaki fark nedir?
-* `undefined` ve `null` arasındaki fark nedir?
 * `Function.prototype.bind` özelliğinin ne olduğunu açıklayınız.
-* Kodunuzu ne zaman optimize edersiniz?
-* Javascriptte 'inheritance' nasıl çalışmaktadır?
+* `undefined` ve `null` arasındaki fark nedir?
 * `document.write()` fonksiyonunu ne zaman kullanmalıyız?
-  * Çoğu oluşturulan reklam (ads) hala `document.write()` kullanmaktadır.
-* 'Feature detection', 'feature inference', ve 'UA string' kullanımı arasında farklar nelerdir?
+* Özellik tespiti (feature detection), özellik çıkarım (feature inference) ve UA string kullanımı arasındaki farklar nelerdir?
 * AJAX'ı olabildiğince detaylı şekilde açıklayın.
-* JSONP nasıl çalışır? (ve neden tam olarak AJAX olmadığını)
+* Ajax kullanmanın avantajları ve dezavantajları nelerdir?
+* JSONP nasıl çalışır? (ve neden tam olarak AJAX olmadığını da açıklayınız.)
 * JavaScript 'template' yapısını hiç kullandınız mı?
   * Eğer kullandıysanız, Hangi 'library'leri kullandınız? (Mustache.js, Handlebars, vb.)
 * "Hoisting" özelliğini açıklayın.
 * 'Event bubbling' özelliğini açıklayın.
 * "Attribute" ve "property" arasındaki farklar nelerdir?
 * JavaScript objeleri genişletmek neden iyi fikir değildir?
-* Yerleşik yapıları genişletmek neden iyi fikirdir? 
-* 'document load' event ile 'document ready' event ne fark var?
-* `==` ve `===` arasında ne fark var?
-* Sayfa URL'inden querystring parametrelerini nasıl alabileceğinizi açıklayın.
-* Javascript için 'same-origin policy' konusunu açıklayın.
-* Javascript'teki 'inheritance patterns' özelliğini açıklayın.
+* "document load event" ile "document DOMContentLoaded event" arasındaki farklar nelerdir?
+* `==` ve `===` arasında ne fark vardır?
+* JavaScript için 'same-origin policy' konusunu açıklayın.
 * Çalışacak şekilde kodu yazın:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Javascript'te 'memoization (Hesaplama tekrarlarından kaçınma - avoiding calculation repetition)' için stratejiniz nedir?
-* Neden 'Ternary expression' olarak çağrılmaktadır? "Ternary" kelimesi ne belirtmektedir?
-* Fonksiyonlarda kullanılan 'arity' nedir?
+* Neden 'Ternary expression' olarak çağrılmaktadır? "Ternary" kelimesi neyi belirtmektedir?
 * `"use strict";` nedir? Bunu kullanmanın artı/eksileri nelerdir?
+* Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
+* Websitenin genel skopundan ayrılmak ve dokunmamak neden genelde iyi bir fikirdir?
+* Neden `load` gibi bir event kullanırsınız? Bunun dezavantajları var mı? Bildiğiniz alternatifleri var mı ve neden onları kullanıyorsunuz?
+* Tek sayfa uygulama (single page app) nedir ve nasıl arama motoru uyumlu (SEO-friendly) yapılır, açıklayın.
+* "Promises" ve/veya onun polyfilleriyle alakalı deneyimler nedir?
+* "Callback"ler yerine "Promises" kullanmanın artıları ve eksileri nelerdir?
+* JavaScript'in derlendiği bir dilde JavaScript yazmanın avantajları ve dezavantajlarından bazıları nelerdir?
+* JavaScript kodunuzda hata ayıklarken (debugging) kullandığınız teknikler ve araçlar nelerdir?
+* What language constructions do you use for iterating over object properties and array items?
+* Kesilebilir (mutable) ve değişmez (immutable) nesneler arasındaki farkları açıklayın.
+  * JavaScript'te değişmez (immutable) objeye bir örnek veriniz.
+  * Değişmezliğin (immutability) artıları ve eksileri nedir?
+  * Değişmezliği (immutability) kendi kodunuzda nasıl başarırsınız?
+* Senkron ve asenkron fonksiyonlar arasındaki farkları açıklayın.
+* Olay döngüsü (event loop) nedir?
+  * Çağrı yığını (call stack) ve görev kuyruğu (task queue) arasındaki fark nedir?
+* `foo`, `function foo() {}` ve `var foo = function() {}` arasındaki farkları açıklayın.
 
-####[[⬆]](#toc) <a name='jquery'>jQuery Soruları:</a>
+#### Test Soruları:
 
-* "chaining" özelliğini açıklayın.
-* "deferreds" özelliğini açıklayın.
-* Kullandığınız Jquery bazlı optimizasyonlar nelerdir?
-* `.end()` fonksiyonu ne yapmaktadır?
-* Nasıl, ve neden, birbine bağlı 'event' 'handler'lar için 'namespace' kullanmalıyız?
-* Jquery metodlarında izin verilen 4 farklı değer söyleyin.
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object, vb.
-* Efekt (veya fx) sırası 'queue' nedir?
-* `.get()`, `[]`, ve `.eq()` arasında ne farklılıklar var?
-* `.bind()`, `.live()`, ve `.delegate()` arasında ne farklılıklar var?
-* `$` ve `$.fn` arasında ne farklılıklar var? Veya sadece `$.fn` nedir?
-* Bu 'selector'ü optimize edin:
+  * Kodunuzu test etmenin avantajları ve dezavantajları nelerdir?
+  * Kodunuzun işlevselliğini sınamak için hangi araçları kullanıyorsunuz?
+  * Ünite testi (unit test) ile fonksiyonel/entgrasyon testi arasındaki fark nedir?
+  * Kodu lint etme aracının (code style linting tool) kullanım amacı nedir?
+
+#### Performans Soruları:
+
+  * Kodunuzda performans problemleri bulmak için hangi araçları kullanıyorsunuz?
+  * Websitenizin kaydırma (scrolling) performansını geliştirmenin yollarından bazıları nelerdir?
+  * "Layout", "painting" ve "compositing" terimleri arasındaki farkları açıklayınız.
+
+#### Ağ Soruları:
+
+  * Geleneksel olarak, neden site dosyalarını birden fazla domainden sunmak daha iyidir?
+  * Web adresinin ilk adres girilirken sayfanın tam olarak yüklenmesine kadar ki işlemleri açıklayabilir misin?
+  * "Long-Polling", "Websockets" ve "Server-Sent Events" terimleri arasındaki farklar nelerdir?
+  * Şu "request" ve "response header"ları açıklayın:
+    * Diff. between Expires, Date, Age and If-Modified-...
+    * Do Not Track
+    * Cache-Control
+    * Transfer-Encoding
+    * ETag
+    * X-Frame-Options
+  * HTTP metodları nelerdir? Bildiklerinizi listeleyin ve açıklayın.
+
+#### Kodlama Soruları:
+
+*Soru:`foo`'nun değeri nedir?*
 ```javascript
-$(".foo div#bar:eq(0)")
+var foo = 10 + '20';
 ```
-* 'delegate()' ve 'live()' arasındaki farklılıklar nelerdir?
 
-####[[⬆]](#toc) <a name='jscode'>Kodlama Becerisi Soruları:</a>
-
+*Soru: Bu işi nasıl yaparsınız?*
 ```javascript
-~~3.14
+add(2, 5); // 7
+add(2)(5); // 7
 ```
-Soru: Yukarıdaki ifadeden dönen sonuç nedir?
-**Cevap: 3**
 
+*Soru: Bu ifadeden dönen sonuç nedir?*
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Soru: Yukarıdaki ifadeden dönen sonuç nedir?
-**Cevap: "goh angasal a m'i"**
 
+*Question: `window.foo` değeri nedir?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Soru: `window.foo`nun değeri nedir? 
-**Cevap: "bar"**
-`window.foo`nun değeri 'false' olmadıkça kendi değerini döndürür.
 
+*Question: Aşağıdaki iki "alert"in çıktısı nedir?*
 ```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
 ```
-Soru: Yukarıdaki iki uyarının -`alert`- çıktısı nedir? 
-**Cevap: "Hello World" & ReferenceError: bar is not defined**
 
+*Soru: `foo.length` değeri nedir?*
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Soru: `foo.length`in değeri kaçtır? 
-**Cevap: `2`
 
+*Soru: `foo.x` değeri nedir?*
 ```javascript
-var foo = {};
-foo.bar = 'hello';
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
 ```
-Soru: `foo.length`in değeri kaçtır? 
-**Cevap: `undefined`
 
-####[[⬆]](#toc) <a name='fun'>Eğlenceli Sorular:</a>
+*Soru: Bu kodun çıktısı nedir?*
+```javascript
+console.log('one');
+setTimeout(function() {
+  console.log('two');
+}, 0);
+console.log('three');
+```
 
-* Şimdiye kadar kodlarken en çok gurur duyduğun/eğlendiğin şey neydi?
+#### Eğlenceli Sorular:
+
+* Şimdiye kadar içinde bulunduğun en havalı proje neydi?
 * Kullandığınız geliştirici araçları arasında, sevdikleriniz nelerdir?
-* Kendin için herhangi bir konuda önemli olan bir projede çalıştın mı? Ne tarz?
-* Internet Explorer'ın sevdiğiniz özellikleri nelerdir?
+* Önyüz (front-end) komünitesinde etkilendiklerin kimler?
+* Evcil hayvanlarla alakalı herhangi bir projen var mı? Varsa ne tür bir proje?
+* Internet Explorer'ın senin için favori özelliği nedir?
+* Kahveni nasıl seversin?
 
+#### Katılımcılar:
 
-####[[⬆]](#toc) <a name='references'>Diğer Önemli Referanslar: (İngilizce)</a>
+Bu belge 2009 yılında bu katılımcılarla başladı: [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
 
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
+O zamandan beri [100+ yazılımcı] '(https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors) katılım sağladı.
