@@ -29,15 +29,15 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Quel a été le dernier défi technique que vous avez expérimenté et comment l'avez-vous résolu ?
 * Quelles considérations en terme d'UI, Sécurité, Performance, SEO, Maintenabilité ou Technologie faites-vous lorsque vous concevez une application web ou site ?
 * Parlez-moi de votre environnement de travail préféré.
-* Avec quels logiciels de gestion de versions êtes vous familier?
+* Avec quels logiciels de gestion de versions êtes-vous familier?
 * Pouvez-vous décrire comment vous travaillez (votre workflow) lorsque vous créez une page web ?
 * Si vous aviez 5 feuilles de style différentes, de quelle façon les intégreriez-vous le mieux dans un site ?
 * Pouvez-vous décrire la différence entre amélioration progressive et dégradation gracieuse ?
-* Comment optimisez-vous les performances de vos pages web (assets/resources) ?
+* Comment optimisez-vous les performances de vos pages web (assets/ressources) ?
 * Combien de ressources différentes à la fois un navigateur peut-il télécharger à partir d'un même domaine ?
   * Quelles sont les exceptions ?
 * Donnez 3 façons qui permettent de réduire le temps de chargement d'une page (perçu ou réel).
-* Si vous commencer à travailler sur un projet existant, où votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
+* Si vous commencez à travailler sur un projet existant, où votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
 * Décrivez comment vous développeriez un simple diaporama
 * Quels outils utilisez-vous pour tester la performance de votre code ?
 * Si vous pouviez maîtriser parfaitement une technologie cette année, laquelle serait-elle ?
@@ -55,7 +55,7 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Quelles sont les différences entre HTML et XHTML ?
 * Y a-t-il des problèmes à envoyer des pages avec le *Content-Type* `application/xhtml+xml` ?
 * Comment servez-vous une page avec du contenu multilingue ?
-* À quoi devez-vous faire attention quand vous désignez ou développez des pages pour des sites multilingues ?
+* À quoi devez-vous faire attention quand vous *designez* ou développez des pages pour des sites multilingues ?
 * À quoi les attributs `data-` servent-ils ?
 * Si l'on considère que HTML5 est une API Web ouverte, quelles sont les briques de base de HTML5 ?
 * Décrivez la différence entre `cookie`, `sessionStorage`, et `localStorage`.
@@ -93,11 +93,11 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Quelle est la différence entre `inline` et `inline-block` ?
 * Quelle est la différence entre les éléments ayant `relative`, `fixed`, `absolute` et `static` comme `position` ?
 * Le 'C' dans CSS veut dire Cascade (Cascading). Comment la priorité est-elle définie lors de l'assignement de styles (exemples) ? Comment pouvez-vous utiliser ce système à votre avantage ?
-* Quels systèmes CSS (framework) avez-vous utilisé localement, ou en production ? Comment feriez-vous pour les changer/améliorer ?
+* Quels frameworks CSS avez-vous utilisé localement, ou en production ? Comment feriez-vous pour les changer/améliorer ?
 * Avez-vous expérimenté le récent `flexbox` ?
 * En quoi le "responsive design" est différent du "adaptive design" ?
-* Avez-vous déjà travaillé avec des images "retina" ? Si oui, à quel moment et quelles techniques avez-vous utilisé ?
-* Il y a t'il des raisons particulières pour lesquelles vous voudriez utilser `translate()` plutôt que `position: absolute` ou vice-versa ? Et pourquoi ?
+* Avez-vous déjà travaillé avec des images "retina" ? Si oui, à quel moment et quelles techniques avez-vous utilisées ?
+* Y a-t-il des raisons particulières pour lesquelles vous voudriez utilser `translate()` plutôt que `position: absolute` ou vice-versa ? Et pourquoi ?
 
 **[[⬆]](#toc)**
 
@@ -116,10 +116,7 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Quelle est l'utilisation typique d'une fonction anonyme ?
 * Comment organisez-vous votre code ? (pattern modulaire, héritage classique ?)
 * Quelle est la différence entre des objets hôtes et des objets natifs ?
-* Différence entre :
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* Différence entre: `function Person() {}`, `var person = Person()` et `var person = new Person()` ?
 * Quelle est la différence entre `.call` et `.apply` ?
 * Expliquez `Function.prototype.bind` ?
 * Comment optimisez-vous votre code ?
@@ -136,7 +133,7 @@ function Person(){} var person = Person() var person = new Person()
 * Pourquoi étendre des objets natifs de Javascript n'est-il pas une bonne idée ?
 * Pourquoi étendre des objets natifs est-il une bonne idée ?
 * Quelle est la différence entre les évènements "document load" et "document ready" ?
-* Quelle la différence entre `==` et `===` ?
+* Quelle est la différence entre `==` et `===` ?
 * Expliquez la politique d'origine commune (same-origin policy) et ses implications en JavaScript.
 * Expliquez les patterns d'héritage en JavaScript.
 * Faites fonctionner ceci :
@@ -164,7 +161,7 @@ function Person(){} var person = Person() var person = new Person()
 * Faites de votre mieux pour décrire le processus à partir du moment où vous tapez l'URL d'un site internet jusqu'au moment où la page a finit de charger.
 * Quelle est la différence entre "Long-Polling", "Websockets" et les événements "Server-Sent" ?
 * Expliquez les entêtes de requêtes et réponses suivant :
-  * Différences entre `Expires`, `Date`, `Age` and `If-Modified-`...
+  * Différences entre `Expires`, `Date`, `Age` et `If-Modified-`...
   * Do Not Track
   * `Cache-Control`
   * `Transfer-Encoding`
