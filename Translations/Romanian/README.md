@@ -232,7 +232,7 @@ explică-le.
 var foo = 10 + '20';
 ```
 
-*Întrebare: Ce valoare este returnată de codul următor?*
+*Întrebare: Ce valoare returnează următorul cod?*
 ```javascript
 console.log(0.1 + 0.2 == 0.3);
 ```
