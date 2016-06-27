@@ -187,6 +187,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 var foo = 10 + '20';
 ```
 
+*Question: What will be the output of the code below?*
+```javascript
+console.log(0.1 + 0.2 == 0.3);
+```
+
 *Question: How would you make this work?*
 ```javascript
 add(2, 5); // 7
