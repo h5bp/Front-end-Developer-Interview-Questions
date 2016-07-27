@@ -44,7 +44,7 @@
 * 什么是 FOUC (无样式内容闪烁)？你如何来避免 FOUC？
 * 请解释什么是 ARIA 和屏幕阅读器 (screenreaders)，以及如何使网站实现无障碍访问 (accessible)。
 * 请解释 CSS 动画和 JavaScript 动画的优缺点。
-* 什么使 CORS，以及其要解决的问题？
+* 什么是跨域资源共享 (CORS)？它用于解决什么问题？
 
 #### <a name='html-questions'>HTML 相关问题：</a>
 
