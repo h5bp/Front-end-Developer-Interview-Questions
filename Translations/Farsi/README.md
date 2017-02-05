@@ -54,17 +54,16 @@
 
 <h4 dir="rtl" id="html-questions">سوال‌های اچ‌تی‌ام‌ال:</h4>
 <ul dir="rtl">
-   <li><code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">doctype</code> چیکار میکنه؟</li>
+   <li><code dir="ltr">doctype</code> چیکار میکنه؟</li>
    <li>فرق بین حالت‌های کاملا استاندارد، تقریبا استاندارد و قدیمی (quirks) چیه؟</li>
    <li>تفاوت بین اچ‌تی‌ام‌ال و اکس‌اچ‌تی‌ام‌ال چیه؟</li>
-   <li>مشکلی برای سرو کردن صفحه‌ای به صورت <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">application/xhtml+xml</code> هست؟</li>
+   <li>مشکلی برای سرو کردن صفحه‌ای به صورت <code dir="ltr">application/xhtml+xml</code> هست؟</li>
    <li>چطور یه صفحه‌ای رو با محتوای چندزبانه سرو میکنی؟</li>
    <li>وقتی که داری سایت چندزبانه طراحی میکنی یا توسعه میدی، به چه چیزهایی باید حواست باشه؟</li>
-   <li>اتریبیوت‌های <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">data-</code> به چه دردی میخورن؟</li>
+   <li>اتریبیوت‌های <code dir="ltr">data-</code> به چه دردی میخورن؟</li>
    <li>اچ‌تی‌ام‌ال۵ رو یک پلتفرم وب آزاد در نظر بگیر. بلوک‌های سازنده‌ی اچ‌تی‌ام‌ال۵ چیا هستن؟</li>
-   <li>فرق بین یک <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">cookie</code>، <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">sessionStorage</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">localStorage</code> رو شرح بده.</li>
-   <li>فرق بین یک <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;script&gt;</code>، <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;script async&gt;</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;script defer&gt;</code> رو شرح بده.</li>
-   <li>چرا به طور کلی فکر خوبیه که <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;link&gt;</code>های سی‌اس‌اس رو داخل <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;head&gt;&lt;/head&gt;</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;script&gt;</code>های جی‌اس رو قبل از <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&lt;/body&gt;</code> قرار داد؟ هیچ استثنایی میشناسی؟</li>
+   <li>فرق بین یک <code dir="ltr">&lt;script&gt;</code>، <code dir="ltr">&lt;script async&gt;</code> و <code dir="ltr">&lt;script defer&gt;</code> رو شرح بده.</li>
+   <li>چرا به طور کلی فکر خوبیه که <code dir="ltr">&lt;link&gt;</code>های سی‌اس‌اس رو داخل <code dir="ltr">&lt;head&gt;&lt;/head&gt;</code> و <code dir="ltr">&lt;script&gt;</code>های جی‌اس رو قبل از <code dir="ltr">&lt;/body&gt;</code> قرار داد؟ هیچ استثنایی میشناسی؟</li>
    <li>رندر شدن تصاعدی چیه؟</li>
    <li>قبلا زبان‌های تمپلیت‌سازی اچ‌تی‌ام‌ال استفاده کردی؟</li>
 </ul>
@@ -101,7 +100,7 @@
    <li>توضیح بده که یک مرورگر چطوری مشخص میکنه کدوم المنت با کدوم سلکتور سی‌اس‌اس مچ میشه.</li>
    <li>سودو المنت‌ها رو توصیف کن و بحث کن که برای چی ازشون استفاده می‌کنن.</li>
    <li>چیزی رو که از باکس مدل فهمیدی توضیح بده و بگو چطوری توی سی‌اس‌اس به مرورگر میفهمونی تا لی‌اوتت رو توی باکس مدل‌های متفاوتی رندر کنه.</li>
-   <li><code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">* { box-sizing: border-box; }</code> چیکار میکنه؟ فوایدش چیه؟</li>
+   <li><code dir="ltr">* { box-sizing: border-box; }</code> چیکار میکنه؟ فوایدش چیه؟</li>
    <li>هر چی مقدار برای پراپرتی دیسپلی یادت میاد رو لیست کن.</li>
    <li>فرق بین اینلاین و اینلاین-بلاک چیه؟</li>
    <li>فرق بین یک المنت با پوزیشن ریلیتیو، فیکسد، ابسولوت و  استایتک چیه؟</li>
@@ -110,23 +109,23 @@
    <li>تا حالا با فلکس‌باک یا ویژگی‌های جدید گرید توی سی‌اس‌اس بازی بازی کردی؟</li>
    <li>طراحی ریسپانسیو با طراحی آداپتیو چه تفاوتی داره؟</li>
    <li>تاحالا با گرافیک رتینا کار کردی؟ اگه آره، کی و از چه تکنیک‌هایی استفاده کردی؟</li>
-   <li>دلیل هست که از <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">translate()</code> به جای <em>جاگذاری ابسولوت</em> یا برعکس استفاده کنی؟ و چرا؟</li>
+   <li>دلیل هست که از <code dir="ltr">translate()</code> به جای <em>جاگذاری ابسولوت</em> یا برعکس استفاده کنی؟ و چرا؟</li>
 </ul>
 
 <h4 dir="rtl" id="js-questions">سوال‌های جی‌اس:</h4>
 <ul dir="rtl">
    <li>ایونت دلیگیشن رو توضیح بده.</li>
-   <li>توضیح بده <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">this</code> توی جاوااسکریپت چطوری کار میکنه.</li>
+   <li>توضیح بده <code dir="ltr">this</code> توی جاوااسکریپت چطوری کار میکنه.</li>
    <li>توضیح بده ارث‌بری پروتوتایپی چطوری کار میکنه.</li>
    <li>نظرت در مورد AMD در برابر CommonJS چیه؟</li>
    <li>
-      توضیح بده چرا قطعه‌ی روبرو به عنوان یک IIFE کار نمیکنه: <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">function foo(){ }();</code>.
+      توضیح بده چرا قطعه‌ی روبرو به عنوان یک IIFE کار نمیکنه: <code dir="ltr">function foo(){ }();</code>.
       <ul>
          <li>چه چیزی احتیاج داره تا به شیوه‌ی صحیح IIFE بشه؟</li>
       </ul>
    </li>
    <li>
-      فرق بین یک متغییر که <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">null</code>، <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">undefined</code> یا اعلام نشده هست چیه؟
+      فرق بین یک متغییر که <code dir="ltr">null</code>، <code dir="ltr">undefined</code> یا اعلام نشده هست چیه؟
       <ul>
          <li>چطوری وضعیت هر کدوم از این‌ها رو چک می‌کنی؟</li>
       </ul>
@@ -135,10 +134,10 @@
    <li>استفاده‌ی معمول از فانکشن‌های انانیموس چیه؟</li>
    <li>چطوری کدهات رو مرتب میکنی؟ (ماژول پترن، ارث‌بری کلاسیک)</li>
    <li>فرق بین آبجکت‌های هاست و آبجکت‌های نیتیو چیه؟</li>
-   <li>فرق بین: <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">function Person(){}</code>، <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">var person = Person()</code>، و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">var person = new Person()</code>؟</li>
-   <li>فرق بین <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">.call</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">.apply</code> چیه؟</li>
-   <li><code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">Function.prototype.bind</code> رو توضیح بده.</li>
-   <li>چه موقع از <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">document.write()</code> استفاده میکنی؟</li>
+   <li>فرق بین: <code dir="ltr">function Person(){}</code>، <code dir="ltr">var person = Person()</code>، و <code dir="ltr">var person = new Person()</code>؟</li>
+   <li>فرق بین <code dir="ltr">.call</code> و <code dir="ltr">.apply</code> چیه؟</li>
+   <li><code dir="ltr">Function.prototype.bind</code> رو توضیح بده.</li>
+   <li>چه موقع از <code dir="ltr">document.write()</code> استفاده میکنی؟</li>
    <li>فرق بین تشخیص ویژگی، استنتاج ویژگی و استفاده از استرینگ UA چیه؟</li>
    <li>ایجکس رو تا تمام جزئیاتی که می‌تونی توضیح بده.</li>
    <li>مزایا و معایب استفاده از ایجکس چیا هستن؟</li>
@@ -154,22 +153,21 @@
    <li>فرق بین یک «اتریبیوت» و یک «پراپرتی» چیه؟</li>
    <li>چرا اکستند کردن یه آبجکت جاوااسکریپتی بیلت-این فکر خوبی نیست؟</li>
    <li>فرق بین ایونت load داکیومنت و DOMContentLoaded چیه؟</li>
-   <li>فرق بین <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">==</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">===</code> چیه؟</li>
+   <li>فرق بین <code dir="ltr">==</code> و <code dir="ltr">===</code> چیه؟</li>
    <li>سیاستگذاری سیم-اوریجین رو از دید جاوااسکریپت توضیح بده.</li>
-   <li>
-      کاری کن این کار کنه:
-      <span dir="ltr" style="text-align: left">
+   <li>کاری کن این کار کنه:</li>
+</ul>
 
 ```javascript
-  duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
-      
-   </li>
+
+<ul dir="rtl">
    <li>چرا میگن اکسپرشن Ternary، کلمه‌ی «Ternary» چه چیزی رو میگه؟</li>
-   <li><code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">&quot;use strict&quot;;</code> چیه؟ مزایا و معایب استفاده ازش چیه؟</li>
-   <li>یه حلقه بساز که تا <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">100</code> تکرار بشه در حالی که برای مضارب <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">3</code> <strong>&quot;fizz&quot;</strong>، برای مضارب <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">5</code> <strong>&quot;buzz&quot;</strong> و برای مضارب <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">3</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">5</code> <strong>&quot;fizzbuzz&quot;</strong> رو خروجی بده.</li>
+   <li><code dir="ltr">&quot;use strict&quot;;</code> چیه؟ مزایا و معایب استفاده ازش چیه؟</li>
+   <li>یه حلقه بساز که تا <code dir="ltr">100</code> تکرار بشه در حالی که برای مضارب <code dir="ltr">3</code> <strong>&quot;fizz&quot;</strong>، برای مضارب <code dir="ltr">5</code> <strong>&quot;buzz&quot;</strong> و برای مضارب <code dir="ltr">3</code> و <code dir="ltr">5</code> <strong>&quot;fizzbuzz&quot;</strong> رو خروجی بده.</li>
    <li>چرا به طور کلی، فکر خوبیه تا اسکوپ جنرال یک وبسایت رو همینطوری که هست بزاریم بمونه و هیچوقت بهش دست نزنیم؟</li>
-   <li>چرا از چیزهایی مثل ایونت <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">load</code> استفاده میکنی؟ این ایونت معایبی هم داره؟ جایگزینی میشناسی، و چرا از اونها استفاده میکنی؟</li>
+   <li>چرا از چیزهایی مثل ایونت <code dir="ltr">load</code> استفاده میکنی؟ این ایونت معایبی هم داره؟ جایگزینی میشناسی، و چرا از اونها استفاده میکنی؟</li>
    <li>توضیح بده که یک اپ سینگل پیج چیه و چطوری میشه سئوی یکیشون رو درست کرد؟</li>
    <li>نهایت تجربه‌ات توی کار کردن ب پرامیس‌ها و/یا پروفیل‌هاش چیه؟</li>
    <li>مزایا و معایب استفاده از پرامیس‌ها به جای کال‌بک‌ها چیه؟</li>
@@ -191,7 +189,7 @@
          <li>فرق بین استک کال و صف تسک چیه؟</li>
       </ul>
    </li>
-   <li>فرق بین استفاده از <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">foo</code> توی <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">function foo() {}</code> و <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">var foo = function() {}</code> رو توضیح بده.</li>
+   <li>فرق بین استفاده از <code dir="ltr">foo</code> توی <code dir="ltr">function foo() {}</code> و <code dir="ltr">var foo = function() {}</code> رو توضیح بده.</li>
 </ul>
 
 <h4 dir="rtl" id="testing-questions">سوال‌های تستینگ:</h4>
@@ -229,7 +227,7 @@
 </ul>
 
 <h4 dir="rtl" id="coding-questions">سوال‌های کدینگ:</h4>
-<p dir="rtl"><em>سوال: مقدار <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">foo</code> چیست؟</em></p>
+<p dir="rtl"><em>سوال: مقدار <code dir="ltr">foo</code> چیست؟</em></p>
 
 ```javascript
 var foo = 10 + '20';
@@ -247,7 +245,7 @@ add(2)(5); // 7
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 
-<p dir="rtl"><em>سوال: مقدار <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">window.foo</code> چیست؟</em></p>
+<p dir="rtl"><em>سوال: مقدار <code dir="ltr">window.foo</code> چیست؟</em></p>
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
@@ -264,7 +262,7 @@ var foo = "Hello";
 alert(foo + bar);
 ```
 
-<p dir="rtl"><em>سوال: مقدار <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">foo.length</code> چیست؟</em></p>
+<p dir="rtl"><em>سوال: مقدار <code dir="ltr">foo.length</code> چیست؟</em></p>
 
 ```javascript
 var foo = [];
@@ -272,7 +270,7 @@ foo.push(1);
 foo.push(2);
 ```
 
-<p dir="rtl"><em>سوال: مقدار <code dir="ltr" style="font-family: Operator Mono, Inconsolata, Monaco, Consolas, Behdad;">foo.x</code> چیست؟</em></p>
+<p dir="rtl"><em>سوال: مقدار <code dir="ltr">foo.x</code> چیست؟</em></p>
 
 ```javascript
 var foo = {n: 1};
