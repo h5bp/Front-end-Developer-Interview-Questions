@@ -1,4 +1,4 @@
-#Pytania kwalifikacyjne na stanowisko front-end web developera
+# Pytania kwalifikacyjne na stanowisko front-end web developera
 
 @version 2.0.0
 

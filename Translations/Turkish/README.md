@@ -1,4 +1,4 @@
-#Ön Yüz Yazılımcısı -Front-end Developer- Mülakat Soruları
+# Ön Yüz Yazılımcısı -Front-end Developer- Mülakat Soruları
 
 Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza çıkabilecek sorular yer almaktadır. Her sorunun iş başvurularınızda karşınıza çıkması garanti değil ancak ihtimali var. Ayrıca buradaki sorular sadece iş başvurusu yapanlar için değil, bu branşta kendini geliştirmeyi düşünenler için de kaynak niteliğindedir.
 
