@@ -1,10 +1,10 @@
-#Fragen im Bewerbungsgespräch für Frontend-Entwickler
+# Fragen im Bewerbungsgespräch für Frontend-Entwickler
 
 @version 2.0.0
 
 Dieses Repo enthält einige Fragen, die zur Einschätzung von geeigneten Frontend-Entwicklern innerhalb eines Bewerbungsgesprächs verwendet werden können. Es ist auf keinen Fall ratsam, einem Bewerber jede einzelne Frage zu stellen (das würde Stunden dauern). Es mag hilfreich sein, eine handvoll passender Fragen aus dieser Liste auszuwählen, um die Fähigkeiten abzuklopfen, die für den Job wichtig sind.
 
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) (Englisch) ist ebenso eine nützliche Quelle zur Vorbereitung auf ein Bewerbungsgespräch. 
+[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) (Englisch) ist ebenso eine nützliche Quelle zur Vorbereitung auf ein Bewerbungsgespräch.
 
 **Anmerkung:** Beachte bitte, dass viele dieser Fragen so offen gehalten sind, dass sie interessante Diskussionen auslösen können, in deren Verlauf du viel mehr über die Fähigkeiten eines Bewerbers erfahren kannst, als in kurzen, direkten Antworten.
 
@@ -27,8 +27,8 @@ Ein Großteil der Fragen wurden aus einer Diskussion bei [oksoclap](http://oksoc
 
 ### Allgemeine Fragen:
 
-* Welche Versionsverwaltung hast du bisher verwendet (Git, SVN, etc.)? 
-* Wie sieht deine bevorzugte Entwicklungsumgebung aus? (Betriebssystem, Editor, Browser, Werkzeuge, etc.) 
+* Welche Versionsverwaltung hast du bisher verwendet (Git, SVN, etc.)?
+* Wie sieht deine bevorzugte Entwicklungsumgebung aus? (Betriebssystem, Editor, Browser, Werkzeuge, etc.)
 * Beschreibe bitte deinen Arbeitsablauf, wenn du eine Website entwickelst.
 * Kannst du den Unterschied zwischen Progressive Enhancement und Graceful Degradation beschreiben?
 	* Extra-Punkte für die Beschreibung von Feature Detection
@@ -52,7 +52,7 @@ Ein Großteil der Fragen wurden aus einer Diskussion bei [oksoclap](http://oksoc
 	* Bonuspunkte, wenn sie kein JS verwendet.
 * Welche Werkzeuge nutzt du zum Testen der Performance deines Codes?
 	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/) 
+	* Dromaeo (http://dromaeo.com/)
 	* etc.
 * Wenn du eine Technologie in diesem Jahr meistern könntest, welche wäre das?
 * Erkläre die Bedeutung von Standards und Standardisierungsorganisationen?
@@ -113,7 +113,7 @@ function Person(){} var person = Person() var person = new Person()
 * Warum ist es nicht sinnvoll, JavaScript-eigene Objekte zu erweitern?
 * Warum ist es sinnvoll, Kernfunktionen zu erweitern?
 * Unterschied zwischen document load event und document ready event?
-* Was ist der Unterschied zwischen `==` und `===`? 
+* Was ist der Unterschied zwischen `==` und `===`?
 * Erkläre, wie du einen Query-String-Parameter aus der URL des Browserfensters abfragst.
 * Erkläre die same-origin policy und in welcher Form sie JavaScript betrifft.
 * Erkläre Vererbungsmuster in JavaScript.
@@ -132,40 +132,40 @@ function Person(){} var person = Person() var person = new Person()
 ~~3.14
 ```
 Frage: Welcher Wert wird zurückgegeben?
-**Antwort: 3** 
+**Antwort: 3**
 
 ```javascript
 "Draußen nur Kännchen".split("").reverse().join("");
 ```
 Frage: Welcher Wert wird zurückgegeben?
-**Antwort: "nehcnnäK run neßuarD"** 
+**Antwort: "nehcnnäK run neßuarD"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Frage: Welchen Wert hat window.foo? 
-**Antwort: "bar"** 
+Frage: Welchen Wert hat window.foo?
+**Antwort: "bar"**
 nur wenn window.foo false war, andernfalls behält es seinen Wert.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Frage: Was ist das Ergebnis der beiden alerts oben? 
-**Antwort: "Hello World" & ReferenceError: bar is not defined** 
+Frage: Was ist das Ergebnis der beiden alerts oben?
+**Antwort: "Hello World" & ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Frage: Welchen Wert hat foo.length? 
+Frage: Welchen Wert hat foo.length?
 **Antwort: `2`
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Frage: Welchen Wert hat foo.length? 
+Frage: Welchen Wert hat foo.length?
 **Antwort: `undefined`
 
 ### jQuery-spezifische Fragen:
@@ -178,14 +178,14 @@ Frage: Welchen Wert hat foo.length?
 * Benenne 4 verschiedene Werte, die man einer jQuery-Methode übergeben kann.
 	* Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
 * Was ist die effects (oder fx) queue?
-* Was ist der Unterschied zwischen `.get()`, `[]` und `.eq()`? 
+* Was ist der Unterschied zwischen `.get()`, `[]` und `.eq()`?
 * Was ist der Unterschied zwischen `.bind()`, `.live()`, und `.delegate()`?
 * Was ist der Unterschied zwischen `$` und `$.fn`? Was ist überhaupt `$.fn`?
 * Optimiere diesen Selektor:
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-* Unterschied zwischen 'delegate()' und 'live()'? 
+* Unterschied zwischen 'delegate()' und 'live()'?
 
 ### CSS-spezifische Fragen:
 

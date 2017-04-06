@@ -1,4 +1,4 @@
-#Front-end Anställningsfrågor
+# Front-end Anställningsfrågor
 
 Detta arkiv innehåller ett urval av frågor som kan ställas till den arbetssökande. Det är verkligen inte rekommenderat att ställa alla frågor här till samma person (det skulle ta timmar). Att välja ut ett par stycken från listan bör hjälpa dig besluta huruvida den arbetssökande uppfyller dina krav.
 

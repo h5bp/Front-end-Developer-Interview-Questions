@@ -1,12 +1,12 @@
-#Intervju vprašanja za front-end programerja
+# Intervju vprašanja za front-end programerja
 
 @verzija 1.0
 
 **Obvestilo:** Ta repositorij vsebuje vrsto front-end vprašanj, ki se lahko uporabijo za preverjanje potencialnih kandidatov. Ni priporočljivo, da se vsa vprašanja uporabijo za vsakega kandidata (to bi trajalo ure). Izberite nekaj vprašanj, ki vam bodo pomagala preveriti kandidata za znanja, ki jih potrebujete.
 
 Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, ki vam bodo o kandidatih sporočili več, kot pa navaden kratek odgovor.
- 
-####Originalni Avtorji
+
+#### Originalni Avtorji
 
 **Obvestilo:** večino teh vprašanj je bilo pobranih iz foruma, ustvarjenega in vzdrževanega od nasljednjih ljudi:
 
@@ -57,7 +57,7 @@ Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, 
 	* Bonus točke, če ne uporablja JS.
 * Katera orodja uporabljaš za testiranje performančnosti kode?
 	* JSPerf (http://jsperf.com/)
-	* Dromaeo (http://dromaeo.com/) 
+	* Dromaeo (http://dromaeo.com/)
 	* ...
 * Če bi to leto lahko popolnoma osvojil/a novo tehnologijo, katera bi to bila?
 * Razloži pomembnost standardov in organov za nadzorovanje standardov.
@@ -111,7 +111,7 @@ function Person(){} var person = Person() var person = new Person()
 * Zakaj je razširjanje vgrajenih JS objektov slaba ideja?
 * Zakaj je razširjanje vgrajenih JS objektov dobra ideja?
 * Razlika med "document load" in "document ready"?
-* Razlika med `==` in `===`? 
+* Razlika med `==` in `===`?
 * Kako bi dobil URL GET parameter?
 * Razloži "same-origin policy".
 * Razloži "event delegation".
@@ -130,41 +130,41 @@ function Person(){} var person = Person() var person = new Person()
 ```javascript
 ~~3.14
 ```
-Vprašanje: Kaj je vrednost zgornjega stavka? 
-**Odgovor: 3** 
+Vprašanje: Kaj je vrednost zgornjega stavka?
+**Odgovor: 3**
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Vprašanje: Kaj je vrednost zgornjega stavka? 
-**Odgovor: "goh angasal a m'i"** 
+Vprašanje: Kaj je vrednost zgornjega stavka?
+**Odgovor: "goh angasal a m'i"**
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Vprašanje: Kaj je vrednost window.foo? 
-**Odgovor: "bar"** 
+Vprašanje: Kaj je vrednost window.foo?
+**Odgovor: "bar"**
 samo če je bil window.foo "lažen", drugače bo ohranil svojo vrednost.
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Vprašanje: Kaj je rezultat zgornjih dveh alert-ov? 
-**Odgovor: "Hello World" & ReferenceError: bar is not defined** 
+Vprašanje: Kaj je rezultat zgornjih dveh alert-ov?
+**Odgovor: "Hello World" & ReferenceError: bar is not defined**
 
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-Vprašanje: Kaj je vrednost od foo.length? 
+Vprašanje: Kaj je vrednost od foo.length?
 **Odgovor: `2`
 
 ```javascript
 var foo = {};
 foo.bar = 'hello';
 ```
-Vprašanje: Kaj je vrednost od foo.length? 
+Vprašanje: Kaj je vrednost od foo.length?
 **Answer: `undefined`
 
 ```javascript
@@ -206,7 +206,7 @@ Vprašanje: Kako dobiti število paremetrov podanih v funkcijo?
 * Razlika med `.get()`, `[]`, in `.eq()`?
 * Razlika med `.bind()`, `.live()`, in `.delegate()`?
 * Razlika med `$` in `$.fn`? Oz. kaj je `$.fn`?
-* Optimiziraj naslednji selektor: 
+* Optimiziraj naslednji selektor:
 ```javascript
 $(".foo div#bar:eq(0)")
 ```

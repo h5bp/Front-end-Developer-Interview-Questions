@@ -1,6 +1,6 @@
-#Front-end vývojář - otázky k pohovoru 
+# Front-end vývojář - otázky k pohovoru
 
-Tento repozitář obsahuje řadu otázek, které můžete směle položit u pohovoru kandidátovi na pozici front-end vývojář a ověřit si tak jeho znalosti v tomto oboru. Není zamýšleno položit všechny tyto otázky (jejich korektní zodpovězení by trvalo hodiny), leč pouze určitou část vyhovující vašim potřebám.   
+Tento repozitář obsahuje řadu otázek, které můžete směle položit u pohovoru kandidátovi na pozici front-end vývojář a ověřit si tak jeho znalosti v tomto oboru. Není zamýšleno položit všechny tyto otázky (jejich korektní zodpovězení by trvalo hodiny), leč pouze určitou část vyhovující vašim potřebám.
 
 Za přečtení stojí také:
 
@@ -20,7 +20,7 @@ Za přečtení stojí také:
   1. [Otázky z kódu](#jscode)
   1. [Zábavné otázky](#fun)
 
-####<a name='contributors'>Původní přispěvovatelé:</a>
+#### <a name='contributors'>Původní přispěvovatelé:</a>
 
 Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vytvořeného [Paulem Irishem](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) a následně doplněna těmito osobami:
 
@@ -38,10 +38,10 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='general'>Obecné otázky:</a>
+#### <a name='general'>Obecné otázky:</a>
 
 * Co jste se naučili včera/minulý týden nového?
-* Co Vás vzrušuje nebo zajímá na kódování? 
+* Co Vás vzrušuje nebo zajímá na kódování?
 * Povězte něco o Vašem oblíbeném vývojovém prostředí (operační systém, editor, prohlížeč, nástroje, atd.).
 * Popište jak postupujete při vytváření nové webové stránky.
 * Dokážete vysvětlit rozdíl mezi pozvolným degradováním(graceful degradation) a postupným vylepšováním(progressive enhancement)?
@@ -71,13 +71,13 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='html'>HTML otázky:</a>
+#### <a name='html'>HTML otázky:</a>
 
 * Co dělá `doctype` ?
-* Jaký je rozdíl mezi standardním módem a quirks módem? 
+* Jaký je rozdíl mezi standardním módem a quirks módem?
 * Jaká jsou omezení při poskytování XHTML stránek?
   * Existuje nějaký problém při poskytování stránek jako `application/xhtml+xml`?
-* Jak poskytujete stránku s vícejazyčným obsahem?  
+* Jak poskytujete stránku s vícejazyčným obsahem?
   * Na co všechno si musíte dát pozor při vytváření vícejazyčné stránky?
 * K čemu jsou atribut `data-` dobrý?
 * Uvažujte o HTML5 jako o otevření platormě. Jaké jsou základní stavební kameny HTML5?
@@ -85,9 +85,9 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='css'>CSS otázky:</a>
+#### <a name='css'>CSS otázky:</a>
 
-* Popište co děla a k čemu je dobrý "reset" CSS soubor. 
+* Popište co děla a k čemu je dobrý "reset" CSS soubor.
 * Popište obtékání (floats) a jak funguje.
 * Popiště různé techniky pro zastavení obtékání(clear fixing) a řekněte, které se hodí v kterém kontextu.
 * Vysvětlete, co to jsou CSS sprites a jak byste je implementovali.
@@ -110,7 +110,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='js'>JS otázky:</a>
+#### <a name='js'>JS otázky:</a>
 
 * Vysvětlete delegaci událostí.
 * Vysvětlete jak funguje `this` v JavaScriptu.
@@ -122,7 +122,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
   * Co musíte změnit, aby volání zafungovalo jako IIFE?
 * Vysvětlete rozdíl mezi proměnou, která je `null`, `nedefinovaná` nebo `nedeklarovaná`?
   * Jakým způsobem ověříte jednotlivé stavy proměnné?
-* Co to je closure a jak/proč bychom je měli používat?  
+* Co to je closure a jak/proč bychom je měli používat?
 * Jaké je typické využití pro anonymní funkce?
 * Vysvětlete "JavaScript module pattern" a kdybyste ho měli použít.
   * Body navíc za zmínku o čistých jmených prostorech.
@@ -153,7 +153,7 @@ function Person(){} var person = Person() var person = new Person()
 * Jaký je rozdíl mezi událostmi document load a document ready?
 * Jaký je rozdíl mezi `==` a `===`?
 * Vysvětlete jakým způsobem získáte parametr z URL zadaného v okně prohlížeče.
-* Vysvětlete JavaScriptové pravidlo stejného původu(same-origin policy). 
+* Vysvětlete JavaScriptové pravidlo stejného původu(same-origin policy).
 * Popište přístupy k dědění v JavaScriptu.
 * Následující kód upravte tak, aby fungoval:
 ```javascript
@@ -166,7 +166,7 @@ function Person(){} var person = Person() var person = new Person()
 
 **[[⬆]](#toc)**
 
-####<a name='jquery'>jQuery otázky:</a>
+#### <a name='jquery'>jQuery otázky:</a>
 
 * Vysvětlete řetězení(chaining).
 * Vysvětlete odkládání(deferreds).
@@ -187,7 +187,7 @@ $(".foo div#bar:eq(0)")
 
 **[[⬆]](#toc)**
 
-####<a name='jscode'>Otázky z kódu:</a>
+#### <a name='jscode'>Otázky z kódu:</a>
 
 ```javascript
 ~~3.14
@@ -231,7 +231,7 @@ Otázka: Jaká je hodnota foo.length?
 
 **[[⬆]](#toc)**
 
-####<a name='fun'>Zábavné otázky:</a>
+#### <a name='fun'>Zábavné otázky:</a>
 
 * Jaká je nejúžasnější věc, kterou jste kdy nakódovali, nebo na kterou jste nejvíce pyšní?
 * Jaké jsou Vaše oblíbené části vývojářských nástrojů, které používáte?

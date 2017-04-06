@@ -1,4 +1,4 @@
-#Domande per il colloquio di lavoro per front-end
+# Domande per il colloquio di lavoro per front-end
 
 Questo repository contiene una serie di domande che possono essere usate nei colloqui di lavoro quando si esaminano i potenziali candidati per il ruolo di front-end. Non è affatto consigliato usare ogni singola domanda con lo stesso candidato (richiederebbe ore). Scegliere alcune di queste domande dalla lista dovrebbe aiutarti ad esaminare le skill che richiedi.
 
@@ -18,7 +18,7 @@ L'articolo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/
   1. [Domande per Divertimento](#fun)
   1. [Altre Ottime Risorse](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Collaboratori Originali:</a>
+#### [[⬆]](#toc) <a name='contributors'>Collaboratori Originali:</a>
 
 La maggior parte delle domande sono state prese da una discussione su [oksoclap](http://oksoclap.com/) originariamente creata da [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) e con il contributo delle seguenti persone:
 
@@ -34,7 +34,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-####[[⬆]](#toc) <a name='general'>Domande Generali:</a>
+#### [[⬆]](#toc) <a name='general'>Domande Generali:</a>
 
 * Cosa hai imparato ieri/questa settimana?
 * Cosa ti entusiasma o ti interessa della programmazione?
@@ -57,7 +57,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Spiega cosa sono ARIA e lettori di schermo [*screenreaders*] e come rendere un sito web accessibile.
 * Spiega alcuni dei pro e contro delle animazioni CSS rispetto alle animazioni Javascript.
 
-####[[⬆]](#toc) <a name='html'>Domande su HTML:</a>
+#### [[⬆]](#toc) <a name='html'>Domande su HTML:</a>
 
 * Cosa fa il `doctype`?
 * Qual è la differenza tra standard mode e quirks mode?
@@ -73,7 +73,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Cos'è il rendering progressivo [*progressive rendering*]?
 * Hai mai utilizzato differeti liguaggi di templating HTML prima?
 
-####[[⬆]](#toc) <a name='css'>Domande Specifiche su CSS:</a>
+#### [[⬆]](#toc) <a name='css'>Domande Specifiche su CSS:</a>
 
 * Descrivi cosa fa un file CSS "reset" e in cosa è utile.
 * Descrivi i Float e come funzionano.
@@ -96,7 +96,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Spiega come un browser determina quali elementi corrispondono a un selettore CSS.
 * Spiega la tua comprensione del box model e come useresti i CSS per dire al browser di rappresentare il tuo layout nei vari box model.
 
-####[[⬆]](#toc) <a name='js'>Domande Specifiche su JS:</a>
+#### [[⬆]](#toc) <a name='js'>Domande Specifiche su JS:</a>
 
 * Spiega l'event delegation.
 * Spiega come funziona `this` in JavaScript.
@@ -104,7 +104,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Come fai a testare il tuo codice JavaScript?
 * AMD contro CommonJS?
 * Cosa è una hashtable?
-* Spiega perché il seguente codice non funziona come UN IIFE: `function foo(){ }();`. 
+* Spiega perché il seguente codice non funziona come UN IIFE: `function foo(){ }();`.
   * Cosa c'è bisogno di cambiare per renderlo correttamente un IIFE?
 * Quale è la differenza tra una variabile che è: `null`, `undefined` or `undeclared`?
   * Come faresti per controllare questi stati?
@@ -146,7 +146,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Cosa è l'arietà di una funzione?
 * Cosa è `"use strict";`? Quali sono i vantaggi e gli svantaggi nell'usarlo?
 
-####[[⬆]](#toc) <a name='jquery'>Domande Specifiche su jQuery:</a>
+#### [[⬆]](#toc) <a name='jquery'>Domande Specifiche su jQuery:</a>
 
 * Spiega la "concatenazione" [*chaining*].
 * Spiega "deferreds".
@@ -164,7 +164,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 $(".foo div#bar:eq(0)")
 ```
 
-####[[⬆]](#toc) <a name='jscode'>Domande con Codice:</a>
+#### [[⬆]](#toc) <a name='jscode'>Domande con Codice:</a>
 
 
 ```javascript
@@ -203,14 +203,14 @@ foo.push(2);
 
 **Risposta: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Domande per Divertimento:</a>
+#### [[⬆]](#toc) <a name='fun'>Domande per Divertimento:</a>
 
 * Qual è la cosa più bella che hai mai sviluppato, di cosa sei più orgoglioso?
 * Quali sono le tue parti preferite degli strumenti di sviluppo che usi?
 * Hai qualche progetto personale? Di che tipo?
 * Qual è la tua feature preferita di Internet Explorer?
 
-####[[⬆]](#toc) <a name='references'>Altre Ottime Risorse:</a>
+#### [[⬆]](#toc) <a name='references'>Altre Ottime Risorse:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/

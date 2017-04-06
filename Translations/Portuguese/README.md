@@ -1,4 +1,4 @@
-#Questões para entrevista de profissionais Front-end
+# Questões para entrevista de profissionais Front-end
 
 Este repositório contém uma série de perguntas para entrevista de profissionais de front-end que podem ser usadas para avaliar os candidatos. Não é recomendado de maneira alguma usar todas as perguntas aqui no mesmo candidato (que levaria horas). A escolha de alguns itens dessa lista deverá ajudar a identificar as habilidades requeridas do candidato.
 
@@ -19,11 +19,11 @@ O artigo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12
   1. [Outras Grandes Referências](#references)
   1. [Licença](#license)
 
-####[[⬆]](#toc) <a name='contributors'>Contribuintes originais:</a>
+#### [[⬆]](#toc) <a name='contributors'>Contribuintes originais:</a>
 
 A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://oksoclap.com/) originalmente criada por [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) e com a contribuição das seguintes pessoas: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
 
-####[[⬆]](#toc) <a name='general'>Questões Gerais:</a>
+#### [[⬆]](#toc) <a name='general'>Questões Gerais:</a>
 
 * O que você aprendeu ontem ou esta semana?
 * O que te excita ou te interessa em programação/codificação?
@@ -62,7 +62,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * O que é FOUC? Como você evita FOUC?
 * Dê a sua melhor descrição do processo do momento que você digita a URL de um website até o final do carregamento da página na sua tela.
 
-####[[⬆]](#toc) <a name='html'>Questões de HTML:</a>
+#### [[⬆]](#toc) <a name='html'>Questões de HTML:</a>
 
 * O que um `doctype` faz?
 * Qual a diferença entre _standards mode_ e _quirks mode_?
@@ -75,7 +75,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Descreva a diferença entre cookies, sessionStorage e localStorage.
 * Você pode explicar a diferença entre `GET` e `POST`?
 
-####[[⬆]](#toc) <a name='css'>Questões de CSS:</a>
+#### [[⬆]](#toc) <a name='css'>Questões de CSS:</a>
 
 * Qual é a diferença entre classes e IDs no CSS?
 * Descreva o que é o arquivo "reset" do CSS e o que ele faz e como ele é útil.
@@ -110,7 +110,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Como o design responsivo é diferente do design adaptavel?
 * Você já trabalhou com gráficos retina? Se sim, quando e quais técnicas você usou?
 
-####[[⬆]](#toc) <a name='js'>Questões de JS:</a>
+#### [[⬆]](#toc) <a name='js'>Questões de JS:</a>
 
 * Explique o evento _delegation_.
 * Explique como `this` funciona em JavaScript.
@@ -153,7 +153,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
 * Crie um loop for que itere até `100` enquanto retorna **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
 
-####[[⬆]](#toc) <a name='jquery'>Questões de jQuery:</a>
+#### [[⬆]](#toc) <a name='jquery'>Questões de jQuery:</a>
 
 * Explique "chaining".
 * Explique "deferreds".
@@ -163,7 +163,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
   * Seletor (string), HTML (string), Callback (function), HTMLElement, object, array, elemento de array, jQuery Object, etc.
 * Qual a diferença entre `.get()`, `[]`, e `.eq()`?
 
-####[[⬆]](#toc) <a name='jscode'>Questões de código:</a>
+#### [[⬆]](#toc) <a name='jscode'>Questões de código:</a>
 
 *Questão: Como você faria isso funcionar?*
 ```javascript
@@ -206,14 +206,14 @@ foo.push(2);
 ```
 **Resposta: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Questões Divertidas:</a>
+#### [[⬆]](#toc) <a name='fun'>Questões Divertidas:</a>
 
 * Qual a coisa mais legal que você desenvolveu recentement? Qual você ficou mais orgulhoso?
 * Quais suas partes favoritas sobre as ferramentas de desenvolvimento que você usa?
 * Você teve algum projeto para animais de estimação? Qual tipo?
 * Qual sua feature favorita do Internet Explorer?
 
-####[[⬆]](#toc) <a name='references'>Outras Grandes Referências:</a>
+#### [[⬆]](#toc) <a name='references'>Outras Grandes Referências:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
@@ -224,6 +224,6 @@ foo.push(2);
 * http://www.sitepoint.com/5-typical-javascript-interview-exercises/
 * http://www.sitepoint.com/5-javascript-interview-exercises/
 
-####[[⬆]](#toc) <a name='license'>Licença:</a>
+#### [[⬆]](#toc) <a name='license'>Licença:</a>
 
 Lançado sobre a [Licença MIT](http://opensource.org/licenses/MIT). Veja o arquivo LICENSE para detalhes.
