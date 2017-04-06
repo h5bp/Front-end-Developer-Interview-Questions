@@ -179,6 +179,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * ETag
   * X-Frame-Options
 * What are HTTP methods? List all HTTP methods that you know, and explain them.
+* What is a CDN (Content Delivery Network) services and what are the benefits of using them?
 
 #### Coding Questions:
 
