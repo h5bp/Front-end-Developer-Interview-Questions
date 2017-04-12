@@ -192,6 +192,19 @@ var foo = 10 + '20';
 add(2, 5); // 7
 add(2)(5); // 7
 ```
+**Answer: Create a function that returns a partially applied function if there aren't enough arguments:**
+```javascript
+function add(a, b) {
+    if (arguments.length < 2) {
+        return function(c) {
+            return a + c;
+        }
+    }
+    else {
+        return a + b;
+    }
+}
+```
 
 *Question: What value is returned from the following statement?*
 ```javascript
