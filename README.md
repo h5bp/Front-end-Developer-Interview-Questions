@@ -128,6 +128,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
 * What is the difference between `==` and `===`?
+* What is the difference between arrays using brackets `[ ]` and braces `{ }`
 * Explain the same-origin policy with regards to JavaScript.
 * Make this work:
 ```javascript
