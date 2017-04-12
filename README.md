@@ -37,6 +37,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
 * Name 3 ways to decrease page load (perceived or actual load time).
+  * Convert 24-bit .png image files to smaller 8-bit .png image files when the quality difference is not noticeable, such as for simple artwork with solid colors. Tall or wide infographics are often good candidates for conversion. To accomplish this in Photoshop, use the File -> Save for Web & Devices option and select PNG-8. In that same location, further compress the file by adjusting the Web Snap feature to eliminate unnecessary colors.
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
 * Describe how you would create a simple slideshow page.
 * If you could master one technology this year, what would it be?
