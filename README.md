@@ -235,6 +235,7 @@ setTimeout(function() {
 }, 0);
 console.log('three');
 ```
+* What is the difference between jQuery (YUI/Dojo/Ext.js) and Prototype.js (Mootools)?
 
 #### Fun Questions:
 
