@@ -181,6 +181,9 @@ $(".foo div#bar:eq(0)")
 
 ### Pytania CSS:
 
+* Jaka jest różnica między klasami oraz idendyfikatorami w CSS?
+  Idendyfikatory są unikalne, każdy element może posiadać tylko jeden identyfikator, dodatkowo przeglądarka może używać identyfikatorów do nawigacji (scrollując do elementu z danym ID). Klasy nie są unikalne oraz elementy mogą posiadać więcej niż jedną klasę, nie mają większego znaczenia dla samej przeglądarki.
+
 * Opisz, czym jest plik "reset" dla CSS i dlaczego jest użyteczny.
 * Opisz jak działa właściwość `float`.
 * Jakie znasz techniki kasowania (clearing) i kiedy wskazane jest ich stosowanie?
