@@ -1,4 +1,4 @@
-#Intervju za posao Front-end Developera
+# Intervju za posao Front-end Developera
 
 @version 2.0.0
 
@@ -8,7 +8,7 @@ Ovaj repozitorij sadrži brojna pitanja za intervju iz područja front-end-a koj
 
 **Napomena:** Imajte na umu da su mnoga ovdje navedena pitanja otvorenog tipa i mogla bi voditi u zanimljive rasprave koje govore više o sposobnostima osobe nego pitanja sa direktnim odgovorima.
 
-####Autori originalne liste
+#### Autori originalne liste
 
 Većina pitanja je preuzeta sa [oksoclap](http://oksoclap.com/) tj. rasprave koju je u originalu pokrenuo [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) i kojoj su pridonijele sljedeće osobe:
 

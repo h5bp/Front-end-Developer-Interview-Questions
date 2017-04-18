@@ -1,4 +1,4 @@
-#Front-end Job Interview Spørgsmål
+# Front-end Job Interview Spørgsmål
 
 @version 1.0
 
@@ -6,7 +6,7 @@
 
 Husk på, at mange af disse spørgsmål er åbne og kan føre til interessante diskussioner, der fortæller dig mere om personens evner end et klart svar ville.
 
-####Originale bidragydere
+#### Originale bidragydere
 
 **Bemærk:** Størstedelen af spørgsmålene blev plukket fra en tråd skabt og bidraget af følgende personer:
 

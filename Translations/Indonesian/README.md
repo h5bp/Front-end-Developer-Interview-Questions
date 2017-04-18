@@ -1,4 +1,4 @@
-#Daftar Pertanyaan Wawancara Kerja Front-End
+# Daftar Pertanyaan Wawancara Kerja Front-End
 
 File ini berisi sejumlah pertanyaan teknis yang dapat digunakan saat mewawancarai calon pekerja. Namun, bukan berarti anda dianjurkan untuk bertanya kepada si calon pekerja dengan semua pertanyaan dari daftar di bawah ini (karena itu akan memakan waktu beberapa jam). Dengan cukup memilih beberapa pertanyaan dari daftar ini akan membantu anda mengenal kemampuan yang anda cari dari si calon pekerja.
 

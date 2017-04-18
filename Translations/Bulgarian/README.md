@@ -1,4 +1,4 @@
-#Въпроси за интервю за front-end разработчици
+# Въпроси за интервю за front-end разработчици
 
 Това репозитори съдържа въпроси от интервюта на front-end разработчици, които могат да бъдат използвани за отсяване на потенциални кандидати. Не препоръчваме използването на всеки въпрос за всеки кандидат (това би отнело часове). Избирането на няколко въпроса от списъка би могло да помогне да се проверят търсените умения у кандидатите.
 
@@ -18,7 +18,7 @@
   1. [Забавни въпроси](#fun)
   1. [Допълнителни ресурси](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Участници в проекта:</a>
+#### [[⬆]](#toc) <a name='contributors'>Участници в проекта:</a>
 
 Мнозинството от въпроси са взети от [oksoclap](http://oksoclap.com/) измислени от [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) и благодарение на:
 
@@ -34,7 +34,7 @@
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-####[[⬆]](#toc) <a name='general'>Общи въпроси:</a>
+#### [[⬆]](#toc) <a name='general'>Общи въпроси:</a>
 
 * Какво научихте вчера / тази седмица?
 * Какво ви привлича в писането на код?
@@ -57,7 +57,7 @@
 * Обяснете CORS и какъв проблем решава?
 
 
-####[[⬆]](#toc) <a name='html'>HTML въпроси:</a>
+#### [[⬆]](#toc) <a name='html'>HTML въпроси:</a>
 
 * Какво прави `doctype`?
 * Каква е разликата между standards mode, почти standards mode и quirks mode?
@@ -74,7 +74,7 @@
 * Използвали ли сте различни шаблонни HTML езици?
 
 
-####[[⬆]](#toc) <a name='css'>CSS въпроси:</a>
+#### [[⬆]](#toc) <a name='css'>CSS въпроси:</a>
 
 * Каква е разликата между class и ID в CSS?
 * Каква е разликата между "resetting" и "normalizing" в CSS? Кое бихте избрали и защо?
@@ -110,7 +110,7 @@
 * Работили ли сте с retina graphics? Ако да, какви техники използвахте?
 * Има ли причина да ползвате translate() вместо абсолютно позициониране и обратно? Защо?
 
-####[[⬆]](#toc) <a name='js'>JS въпроси:</a>
+#### [[⬆]](#toc) <a name='js'>JS въпроси:</a>
 
 * Обяснете event delegation.
 * Обяснете как работи `this` в JavaScript.
@@ -166,7 +166,7 @@
 * Explain the differences on the usage of foo between function foo() {} and var foo = function() {}
 
 
-####[[⬆]](#toc) <a name='jquery'>jQuery въпроси:</a>
+#### [[⬆]](#toc) <a name='jquery'>jQuery въпроси:</a>
 
 * Обяснете "chaining".
 * Обяснете "deferreds".
@@ -184,7 +184,7 @@
 $(".foo div#bar:eq(0)")
 ```
 
-####[[⬆]](#toc) <a name='jscode'>Въпроси, свързани с програмиране:</a>
+#### [[⬆]](#toc) <a name='jscode'>Въпроси, свързани с програмиране:</a>
 
 
 ```javascript
@@ -222,14 +222,14 @@ foo.push(2);
 
 **Отговор: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Забавни въпроси:</a>
+#### [[⬆]](#toc) <a name='fun'>Забавни въпроси:</a>
 
 * Кое е най-якото нещо, което сте писали и от което сте най-горд?
 * Кое най-много ви допада в инструментите за разработчици, които използвате?
 * Разработвате ли някакви проекти като хоби? Какви?
 * Какво най-много ви харесва в Internet Explorer?
 
-####[[⬆]](#toc) <a name='references'>Допълнителни ресурси:</a>
+#### [[⬆]](#toc) <a name='references'>Допълнителни ресурси:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/

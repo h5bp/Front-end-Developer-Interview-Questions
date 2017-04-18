@@ -1,4 +1,4 @@
-#Front-end vývojář - otázky k pohovoru 
+# Front-end vývojář - otázky k pohovoru 
 
 Tento repozitář obsahuje řadu otázek, které můžete směle položit u pohovoru kandidátovi na pozici front-end vývojář a ověřit si tak jeho znalosti v tomto oboru. Není zamýšleno položit všechny tyto otázky (jejich korektní zodpovězení by trvalo hodiny), leč pouze určitou část vyhovující vašim potřebám.   
 
@@ -20,7 +20,7 @@ Za přečtení stojí také:
   1. [Otázky z kódu](#jscode)
   1. [Zábavné otázky](#fun)
 
-####<a name='contributors'>Původní přispěvovatelé:</a>
+#### <a name='contributors'>Původní přispěvovatelé:</a>
 
 Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vytvořeného [Paulem Irishem](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) a následně doplněna těmito osobami:
 
@@ -38,7 +38,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='general'>Obecné otázky:</a>
+#### <a name='general'>Obecné otázky:</a>
 
 * Co jste se naučili včera/minulý týden nového?
 * Co Vás vzrušuje nebo zajímá na kódování? 
@@ -71,7 +71,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='html'>HTML otázky:</a>
+#### <a name='html'>HTML otázky:</a>
 
 * Co dělá `doctype` ?
 * Jaký je rozdíl mezi standardním módem a quirks módem? 
@@ -85,7 +85,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='css'>CSS otázky:</a>
+#### <a name='css'>CSS otázky:</a>
 
 * Popište co děla a k čemu je dobrý "reset" CSS soubor. 
 * Popište obtékání (floats) a jak funguje.
@@ -110,7 +110,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 **[[⬆]](#toc)**
 
-####<a name='js'>JS otázky:</a>
+#### <a name='js'>JS otázky:</a>
 
 * Vysvětlete delegaci událostí.
 * Vysvětlete jak funguje `this` v JavaScriptu.
@@ -166,7 +166,7 @@ function Person(){} var person = Person() var person = new Person()
 
 **[[⬆]](#toc)**
 
-####<a name='jquery'>jQuery otázky:</a>
+#### <a name='jquery'>jQuery otázky:</a>
 
 * Vysvětlete řetězení(chaining).
 * Vysvětlete odkládání(deferreds).
@@ -187,7 +187,7 @@ $(".foo div#bar:eq(0)")
 
 **[[⬆]](#toc)**
 
-####<a name='jscode'>Otázky z kódu:</a>
+#### <a name='jscode'>Otázky z kódu:</a>
 
 ```javascript
 ~~3.14
@@ -231,7 +231,7 @@ Otázka: Jaká je hodnota foo.length?
 
 **[[⬆]](#toc)**
 
-####<a name='fun'>Zábavné otázky:</a>
+#### <a name='fun'>Zábavné otázky:</a>
 
 * Jaká je nejúžasnější věc, kterou jste kdy nakódovali, nebo na kterou jste nejvíce pyšní?
 * Jaké jsou Vaše oblíbené části vývojářských nástrojů, které používáte?
