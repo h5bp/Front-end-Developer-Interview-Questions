@@ -97,6 +97,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+* How to create an Up/Down arrow using CSS Styles. 
 
 #### JS Questions:
 
@@ -124,6 +125,7 @@ This file contains a number of front-end interview questions that can be used wh
   * If so, what libraries have you used?
 * Explain "hoisting".
 * Describe event bubbling.
+* Describe event capturing.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
