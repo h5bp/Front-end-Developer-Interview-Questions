@@ -4,6 +4,14 @@ This file contains a number of front-end interview questions from [the original
 repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 and answers [I](https://github.com/noraesae) answered.
 
+## About contribution
+
+This repository is not to make the answers complete with people. This is to fill my personal answers to the original questions. Therefore, I am afraid I do not merge others' answers, and any PR concerning it will be silently closed.
+
+The questions and some of its contents are from
+[the original repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
+If interested in getting involved, it would be the right place.
+
 ## Table of Contents
 
   1. **[General Questions](#general-questions)** - *[Answers](answers/general-questions.md)*
@@ -235,15 +243,6 @@ console.log('three');
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 * How do you like your coffee?
-
-## Getting Involved
-
-The questions and some contents are from
-[the original repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
-If interested in getting involved, please look into it.
-
-The answers are from [me](https://github.com/noraesae). It is completely free
-to fork this repository and use as you want.
 
 ## License
 
