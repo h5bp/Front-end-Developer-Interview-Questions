@@ -203,6 +203,12 @@ var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); ale
 $(".foo div#bar:eq(0)")
 ```
 
+## 테스트 관련 질문들:
+* test code를 작성하면서 개발하는 방식의 장점과 단점에 대해 설명해주세요.
+* test code를 테스트하는 툴을 사용해보신 경험이 있나요?
+* 유닛 테스트와 함수테스트의 차이점은 무엇인가요?
+* code style linting tool을 사용했을때 장점은 무엇인가요?
+
 ## 그 외 흥미로운 질문들:
 
 * 당신이 작성한 코드 중 어떤 것을 가장 멋지고, 자랑스럽게 여기나요?
