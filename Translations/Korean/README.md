@@ -1,6 +1,6 @@
 # 면접 문제 은행
 
-@version 1.0
+@ Last Update On 2017.07.02
  
 ## Contributors
 
