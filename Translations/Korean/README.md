@@ -209,6 +209,25 @@ $(".foo div#bar:eq(0)")
 * 유닛 테스트와 함수테스트의 차이점은 무엇인가요?
 * code style linting tool을 사용했을때 장점은 무엇인가요?
 
+## 성능 관련 질문들:
+* 성능관련 이슈들을 발견하기 위해서 사용하는 방법은 무엇인가요?
+* 웹사이트 scrolling 성능을 향상시키기 위한 몇가지 방법에 대해 설명해보세요.
+* 브라우저의 layout, painting, compositing에 대해 설명해보세요.
+
+## 네트워크 질문들:
+* 전통적으로, 웹사이트의 assets을 여러 도메인으로 서빙했을 때 장점은 무엇인가요?
+* URL로 접속했을 때 어떤 플로우로 화면에 웹사이트가 그려지는지 네트워크 관점에서 설명해주세요.
+* Long-Polling과 Websocket, Server-Sent Event에 대해 설명해주세요.
+* 다음 request header들에 대해 설명해주세요.
+  * Diff. between Expires, Date, Age and If-Modified-...
+  * Do Not Track
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
+* HTTP와 HTTPS에 대해 설명해주세요.
+* HTTP Method들에 대해 설명해주세요.
+
 ## 그 외 흥미로운 질문들:
 
 * 당신이 작성한 코드 중 어떤 것을 가장 멋지고, 자랑스럽게 여기나요?
