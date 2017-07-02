@@ -2,119 +2,104 @@
 
 Detta arkiv innehåller ett urval av frågor som kan ställas till den arbetssökande. Det är verkligen inte rekommenderat att ställa alla frågor här till samma person (det skulle ta timmar). Att välja ut ett par stycken från listan bör hjälpa dig besluta huruvida den arbetssökande uppfyller dina krav.
 
-[Rebecca Murphey](http://rmurphey.com/)s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) är också en bra resurs att läsa in dig på innan du ger dig in i en intervju.
-
 **Att tänka på:** Kom ihåg att många av de här frågorna är öppna och kan leda till intressanta diskussioner som berättar mer om personens kunskaper än vad en sluten fråga skulle.
 
-## <a name='toc'>Innehållsförteckning</a>
+## Innehållsförteckning
 
-  1. [Ursprungliga skribenter](#contributors)
-  1. [Allmänna frågor](#general)
-  1. [HTML-frågor](#html)
-  1. [CSS-frågor](#css)
-  1. [JS-frågor](#js)
-  1. [jQuery-frågor](#jquery)
-  1. [Kodfrågor](#jscode)
-  1. [Roliga frågor](#fun)
-  1. [Andra bra resurser](#references)
-  1. [Licens](#license)
+  1. [Allmänna frågor](#general-questions)
+  1. [HTML-frågor](#html-questions)
+  1. [CSS-frågor](#css-questions)
+  1. [JS-frågor](#js-questions)
+  1. [Nätverksgrågor](#network-questions)
+  1. [Kodfrågor](#coding-questions)
+  1. [Roliga frågor](#fun-questions)
 
-####[[⬆]](#toc) <a name='contributors'>Ursprungliga skribenter:</a>
+## Hjälpa till
 
-Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.com/)-tråd som ursprungligen skapades av [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) med bidrag från följande personer: [@bentruyman](http://twitter.com/bentruyman) [@cowboy](http://twitter.com/cowboy) [@ajpiano](http://ajpiano)  [@SlexAxton](http://twitter.com/slexaxton) [@boazsender](http://twitter.com/boazsender) [@miketaylr](http://twitter.com/miketaylr) [@vladikoff](http://twitter.com/vladikoff) [@gf3](http://twitter.com/gf3) [@jon_neal](http://twitter.com/jon_neal) [@sambreed](http://twitter.com/sambreed) [@iansym](http://twitter.com/iansym)
+  1. [Bidragande skribenter](#contributors)
+  1. [Att hjälpa till](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [Licens](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-####[[⬆]](#toc) <a name='general'>Allmänna frågor:</a>
+#### Allmänna frågor:
 
-* Vad lärde du dig igår / den här veckan?
+* Vad lärde du dig igår/den här veckan?
 * Vad tycker du är spännande eller intressant med kodning?
+* Berätta om en teknisk utmaning du haft nyligen och hur du löste den.
 * Vilka övervägningar gör du angående gränssnitt, säkerhet, prestanda, SEO, underhållsmässighet och tekniker när du bygger en webbapplikation eller -plats?
-* Berätta lite om den utvecklingsmiljö du helst sitter i? (OS, editor eller IDE, webbläsare, verktyg o.s.v.)
+* Berätta lite om den utvecklingsmiljö du helst sitter i.
+* Vilka versionshanteringssystem har du använt?
 * Kan du beskriva ditt arbetsflöde när du skapar en hemsida?
 * Om du har fem olika stilmallar, hur skulle du bäst integrera dem i sajten?
-  * Filkonkatenering.
 * Kan du beskriva skillnaden mellan "progressive enhancement" och "graceful degradation"?
-	* Bonuspoäng för att beskriva "feature detection"
 * Hur skulle du optimera en webbplats resurser?
-  * Söker en rad lösningar som kan innefatta:
-    * Sammanfoga filer (file concatenation)
-    * Minska filstorleken (file minification)
-    * Hosta via CDN
-    * Caching
-    * o.s.v.
-* Varför har det traditionellt sett varit bättre att servera webbplatsen från flera domäner?
-  * Hur många resurser kan en webbläsare ladda från en specifik domän åt gången?
+* Hur många resurser kan en webbläsare ladda från en specifik domän åt gången?
   * Vilka är undantagen?
-    * Bonuspoäng för att nämna mobila enheter som en möjlig nackdel (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/).
-    * Bonuspoäng för att nämna HTTP2/SPDY som ett undantag.
 * Nämn tre sätt att minska laddningstiden för en webbsida (uppfattad eller faktisk laddningstid).
 * Om du hoppade på ett projekt och de använde tabbar och du mellanslag, vad skulle du då göra?
-  * Föreslå att projektet använder sig av något som t.ex. EditorConfig (http://editorconfig.org)
-  * Håll dig till konventionerna (var konsekvent)
-  * `issue :retab! command`
-* Sätt ihop ett enkelt bildspel 
-  * Bonuspoäng om det inte använder sig av JS.
-* Vilka verktyg använder du dig av för att testa din kods prestanda?
-  * Profiler, JSPerf, Dromaeo
+* Beskriv hur du skulle göra ett enkelt bildspel.
 * Om du kunde bemästra en teknologi i år, vad skulle det vara?
-* Vad är skillnaderna mellan long-polling, WebSockets och SSE?
 * Beskriv varför det är viktigt med standarder och standardiseringsorganisationer.
-* Vad är FOUC? Hur undviker du FOUC?
-* Förklara så noggrannt du kan processen från att du skriver in en webbsidas URL till att sidan har laddats färdigt på din skärm.
+* Vad är "Flash of Unstyled Content"? Hur undviker du FOUC?
+* Förklara vad ARIA och skärmläsare är och hur man gör en webbplats tillgänglig.
+* Förklara några av fördelarna och nackdelarna mellan CSS- och JavaScript-animationer.
 
-####[[⬆]](#toc) <a name='html'>HTML-frågor:</a>
+#### HTML-frågor:
 
-* Vad gör en dokumenttyp (doctype)?
-* Vad är skillnaden mellan standard-läge och quirks-läge?
-* Vilka begränsningar utsätts du för när du hanterar XHTML-sidor?
-  * Finns det några problem med att skicka sidor som `application/xhtml+xml`?
+* Vad gör en dokumenttyp (`doctype`)?
+* Vad är skillnaden mellan standardläge och quirksläge?
+* Vad är skillnaden mellan HTML och XHTML?
+* Finns det några problem med att skicka sidor som `application/xhtml+xml`?
 * Hur skickar du en sida innehållandes flera språk?
-  * Vad måste du vara försiktig med när du designar eller utvecklar för flerspråkssidor?
-* Vad är `data-`-attributen bra för?
-* Tänk dig HTML5 som en öppen webb-plattform. Vad är byggstenarna i HTML5?
-* Beskriv skillnaden mellan cookies, sessionStorage och localStorage.
-* Kan du förklara skillnaden mellan `GET` och `POST`?
+* Vad måste du vara försiktig med när du designar eller utvecklar för flerspråkssidor?
+* Vad är `data-`-attribut bra för?
+* Tänk dig HTML5 som en öppen webbplattform. Vad är byggstenarna i HTML5?
+* Beskriv skillnaden mellan en `cookie`, `sessionStorage` och `localStorage`.
+* Beskriv skillnaden mellan `<script>`, `<script async>` och `<script defer>`.
+* Varför är det generellt en bra idé att lägga CSS-`<link>`ar mellan `<head></head>` och JS-`<script>`ar precis före `</body>`? Känner du till några undantag?
+* Vad är progressiv rendering?
+* Har du använt dig av några HTML-mallspråk tidigare?
 
-####[[⬆]](#toc) <a name='css'>CSS-frågor:</a>
+#### CSS-frågor:
 
 * Vad är skillnaden mellan klasser och ID:n i CSS?
-* Förklara vad en nollställnings(reset)-CSS-fil gör och varför den är användbar.
-  * Bonuspoäng för att nämna baksidor med en nollställningsfil, och/eller nämna normaliseringsfil som ett bättre alternativ.
+* Vad är skillnaden mellan att "nollställa" och att "normalisera" CSS? Vad skulle du välja och varför?
 * Beskriv floats och hur de fungerar.
 * Beskriv z-index och hur stacking context skapas.
+* Beskriv BFC (Block Formatting Context) och hur det fungerar?
 * Vilka olika clearing-tekniker finns det och vilka passar för vilka sammanhang?
 * Förklara CSS-sprites och hur du skulle implementera dem på en sida.
 * Vilka är dina favorittekniker för bildersättning och vilka använder du i vilka situationer?
-* CSS "property hacks", villkorligt inkluderade .css-filer eller något annat?
+* Hur skulle du fixa webbläsarspecifika stilproblem?
 * Hur skickar du sidor till funktionsbegränsade webbläsare?
   * Vilka tekniker/processer använder du?
 * Vilka olika sätt finns det att visuellt dölja element (och bara göra dem tillgängliga för skärmläsare)?
-* Har du någonsin använt ett rutnätsystem, och i sådana fall, vilket föredrar du?
+* Har du någonsin använt ett rutnätsystem, och i sådana fall vilket föredrar du?
 * Har du använt eller implementerat mediafrågor eller mobilspecifika layouter/CSS:er?
-* Någon erfarenhet av att styla SVG? 
+* Har du någon erfarenhet av att styla SVG?
 * Hur optimerar du dina webbplatser för utskrift?
 * Vilka är några av de fallgropar som finns för att skriva effektiv CSS?
-* Vilka är fördelarna/nackdelarna med att använda CSS-preprocessorer? (SASS, Compass, Stylus, LESS)
-  * Om du använt några själv, beskriv vad du gillar och ogillar med dem.
+* Vilka är fördelarna/nackdelarna med att använda CSS-preprocessorer?
+  * Beskriv vad du gillar och ogillar med de CSS-preprocessorer du använt.
 * Hur skulle du implementera en webbdesign som använder icke-standardiserade typsnitt?
-  * Webbtypsnitt (Typsnittstjänster som: Google webbtypsnitt, Typekit o.s.v.)
 * Förklara hur en webbläsare bestämmer vilka element som matchar en selektor.
+* Beskriv pseudoelement och vad de används till.
 * Förklara boxmodellen och hur du skulle göra i CSS för att få webbläsaren att rendera din layout i olika boxmodeller.
 * Vad gör ```* { box-sizing: border-box; }```? Vad är dess fördelar?
 * Lista så många värden för display-egenskapen som du kan komma ihåg.
 * Vad är skillnaden mellan inline och inline-block?
 * Vad är skillnaden mellan element som är positionerade med relative, fixed, absolute och static?
-* Vilka CSS-ramverk har du använt lokalt eller i produktion? (Twitter Bootstrap, PureCSS, Foundation etc.)
-  * Om du kunde, hur skulle du förändra/förbättra dem?
+* C:et i CSS står för "Cascading". Hur bestäms prioritet när stilar sätts (några exempel)? Hur kan du använda det här systemet till din fördel?
+* Vilka CSS-ramverk har du använt lokalt eller i produktion? Hur skulle du förändra/förbättra dem?
 * Har du lekt något med de nya CSS-specifikationerna för Flexbox och Grid?
-* På vilket sätt skiljer sig resposiv design från adaptiv design?
+* På vilket sätt skiljer sig responsiv design från adaptiv design?
 * Har du någon gång arbetat med retinagrafik? I så fall, när var det och vilka tekniker använde du?
+* Finns det någon anledning till att du skulle vilja använda `translate()` i stället för *absolut positionering* och vice-versa? I så fall varför?
 
-####[[⬆]](#toc) <a name='js'>JS-frågor:</a>
+#### JS-frågor:
 
-* Förklara eventdelegering
+* Förklara eventdelegering.
 * Förklara hur `this` fungerar i JavaScript
-* Förklara hur prototypiskt arv fungerar
-* Hur gör du för att testa ditt JavaScript?
+* Förklara hur prototypiskt arv fungerar.
 * AMD eller CommonJS?
 * Förklara varför följande inte fungerar som en IIFE: `function foo(){ }();`.
   * Vad behöver ändras för att göra den till en fungerande IIFE?
@@ -122,69 +107,97 @@ Majoriteten av de här frågorna hämtades från en [oksoclap](http://oksoclap.c
   * Hur skulle du göra för att kolla efter någon av dessa?
 * Vad är en "closure" och hur/varför vill du använda det?
 * Vad är ett typiskt användningsområde för en anonym funktion?
-* Hur organiserar du din kod? (module pattern, classical inheritance?) 
+* Hur organiserar du din kod? (Modulmönstret, klassiskt arv?)
 * Vad är skillnaden mellan "host objects" och "native objects"?
 * Skillnaden mellan: `function Person(){}`, `var person = Person()` och `var person = new Person()`?
-* Vad är skillnaden mellan `.call` och `.apply`? 
-* Förklara `Function.prototype.bind`? 
-* När optimerar du din kod?
+* Vad är skillnaden mellan `.call` och `.apply`?
+* Förklara `Function.prototype.bind`?
 * När skulle du använda `document.write()`?
-  * De flesta genererade reklamerna använder fortfarande `document.write()` även om de flesta ogillar det
 * Vad är skillnaden mellan "feature detection", "feature inference", och att använda UA-strängen?
-* Förklara AJAX så noggrant som möjligt
-* Förklara hur JSONP fungerar (och varför det egentligen inte är AJAX)
+* Förklara AJAX så noggrant som möjligt.
+* Förklara hur JSONP fungerar (och varför det egentligen inte är AJAX).
 * Har du någonsin använt "JavaScript templating"?
-  * Om så är fallet, vilka bibliotek har du använt? (Mustache.js, Handlebars o.s.v.) 
+  * Om så är fallet, vilka bibliotek har du använt?
 * Förklara "hoisting".
 * Beskriv "event bubbling".
-* Vad är skillnaden mellan "attribute" och "property"? 
+* Vad är skillnaden mellan "attribute" och "property"?
 * Varför är det inte bra att utvidga (extend) inbyggda JavaScript-objekt?
-* Skillnaden mellan "document load event" och "document ready event"? 
-* Vad är skillnaden mellan `==` och `===`? 
-* Förklara "same-origin policy" med hänsyn till JavaScript. 
+* Skillnaden mellan "document load event" och "document ready event"?
+* Vad är skillnaden mellan `==` och `===`?
+* Förklara "same-origin policy" med hänsyn till JavaScript.
 * Få det här att fungera
 ```javascript
-[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Varför kallas det för "Ternary expression", vad menas med ordet "Ternary"?
+* Varför kallas det för "ternary expression", vad menas med ordet "ternary"?
 * Vad är `"use strict";`? Vilka är för- och nackdelarna med att använda det?
+* Skapa en for-loop som itererar upp till `100` medan den skriver ut **"fizz"** vid multiplar av `3`, **"buzz"** vid multiplar av `5` och **"fizzbuzz"** vid multiplar av `3` och `5`.
+* Varför är det generellt sett en bra idé att aldrig röra det globala scopet på en webbsida?
+* Varför skulle man vilja använda något som `load`-eventet? Har det eventet några nackdelar? Känner du till några alternativ och varför skulle man i så fall vilja använda dem?
+* Förklara vad en single page-app är och hur en sådan kan göras SEO-vänlig.
+* Hur stor erfarenhet har du av Promises och/eller polyfills för dem?
+* Vad är fördelarna och nackdelarna med att använda Promises i stället för callbacks?
+* Nämn några för- och nackdelar med att skriva JavaScript-kod i ett språk som kompilerar till JavaScript.
 
-####[[⬆]](#toc) <a name='jquery'>jQuery-frågor:</a>
+#### Testfrågor:
 
-* Förklara "chaining". 
-* Förklara "deferreds".
-* Vad är några jQuery-optimeringar du kan göra?
-* Vad gör `.end()`? 
-* Nämn fyra olika värden du kan skicka till jQuery-metoden.
-  * Selektor (sträng), HTML (sträng), Callback (funktion), HTMLElement, objekt, array, array av element, jQuery-objekt o.s.v.
-* Vad är skillnaden mellan `.get()`, `[]`, och `.eq()`? 
+* Nämn några för- och nackdelar med att testa sin kod.
+* Vilka verktyg skulle du använda för att testa din kods funktionalitet?
+* Vad är skillnaden mellan ett enhetstest och ett integrations-/funktionellt test?
+* Vad är syftet med ett verktyg för lintning av kodstil?
 
-####[[⬆]](#toc) <a name='jscode'>Kodfrågor:</a>
+#### Prestandafrågor:
 
-*Fråga: Implementera en modulofunktion som stämmer med nedan*
+* Vilka verktyg skulle du använda för att hitta en prestandabugg i din kod?
+* Nämn några sätt att förbättra din sajts skrollningsprestanda.
+* Beskriv skillnaden mellan "layout", "painting" och "compositing".
+
+#### Nätverksfrågor:
+
+* Varför har det traditionellt sett varit bättre att servera webbplatsen från flera domäner?
+* Förklara så noggrannt du kan processen från att du skriver in en webbsidas URL till att sidan har laddats färdigt på din skärm.
+* Vad är skillnaderna mellan long-polling, WebSockets och Server-Sent Events?
+* Förklara följande svarshuvuden:
+  * Skillnaden mellan Expires, Date, Age och If-Modified-...
+  * Do Not Track
+  * Cache-Control
+  * Transfer-Encoding
+  * ETag
+  * X-Frame-Options
+* Vad är "HTTP actions"? Lista alla "HTTP actions" du känner till och förklara dem.
+
+#### Kodfrågor
+
+*Fråga: Vad är värdet av `foo`?*
 ```javascript
-modulo(12, 5) // 2
+var foo = 10 + '20';
+```
+
+*Fråga: Hur skulle du få det här att fungera?*
+```javascript
+add(2, 5); // 7
+add(2)(5); // 7
 ```
 
 Fråga: Vilket värde returneras från nedanstående?
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-**Svar: "goh angasal a m'i"** 
 
 *Fråga: Vad är värdet av `window.foo`?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-**Svar: "bar"** *Bara om `window.foo` var "falsey", annars skulle den behålla sitt värde.*
-
 
 *Fråga: Vad kommer de två alerterna att ropa ut?*
 ```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
 ```
-**Svar: "Hello World" & ReferenceError: bar is not defined** 
-
 
 *Fråga: Vad är värdet av `foo.length`?*
 ```javascript
@@ -192,26 +205,24 @@ var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-**Svar: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Roliga frågor:</a>
+*Fråga: Vad är värdet av `foo.x`?*
+```javascript
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
+```
 
-* Nämn en cool sak du kodat nyligen. Vad har du byggt som du är stolt över?
+#### Roliga frågor:
+
+* Nämn en cool sak du kodat nyligen.
 * Nämn några delar som du gillar hos de utvecklarverktyg du använder?
 * Har du några egna projekt som du sköter om? I sådana fall vilken typ av projekt?
 * Vilken är din favoritfunktion i Internet Explorer?
+* Hur gillar du ditt kaffe?
 
-####[[⬆]](#toc) <a name='references'>Andra bra resurser:</a>
+#### Bidragande skribenter:
 
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
-* http://www.toptal.com/javascript/interview-questions
-* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-* http://www.sitepoint.com/5-javascript-interview-exercises/
+Det här dokumentet startades 2009 som ett samarbete mellan [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) och [@iansym](https://twitter.com/iansym).
 
-####[[⬆]](#toc) <a name='license'>Licens:</a>
-
-Copyright 2012 av Darcy Clarke, släppt under [MIT-licensen](http://opensource.org/licenses/MIT). Se filen LICENSE för detaljer.
+Det har sedan dess fått bidrag från över [100 utvecklare](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).

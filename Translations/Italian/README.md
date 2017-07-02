@@ -38,45 +38,40 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 
 * Cosa hai imparato ieri/questa settimana?
 * Cosa ti entusiasma o ti interessa della programmazione?
+* Qual è una sfida tecnica che hai incontrato e come l'hai risolta?
 * Quali considerazioni fai riguardo alla UI, alla Sicurezza, alle Prestazioni, al SEO, alla Manutenibilità o alla Tecnologia mentre costruisci una applicazione web o un sito?
 * Parla del tuo ambiente di sviluppo preferito. (Sistema Operativo, Editor di testo, Browser, Strumenti ecc.)
+* Con quali sistemi di controllo di versione [*VCS*] hai familiarità?
 * Puoi descrivere il tuo metodo di lavoro quando crei una pagina web?
+* Se avessi 5 fogli di stile differenti, come ti comporteresti per integrarli al meglio nel sito?
 * Puoi descrivere la differenza tra miglioramento progressivo [*progressive enhancement*] e degradazione elegante [*graceful degradation*]?
-	* Punti bonus se descrive il rilevamento di funzionalità [*feature detection*]
-* Spiega cosa significa "HTML Semantico".
 * Come ottimizzeresti le risorse/asset di un sito?
-	* Mi aspetto svariate soluzioni che possono includere:
-		* Concatenazione dei file
-		* Minimizzazione [*minification*] dei file
-		* Uso di CDN
-		* Caching
-		* ecc...
-* Perché è meglio servire file per il sito da più domini?
-	* Quante risorse scaricherà per volta un browser da uno specifico dominio?
+* Quante risorse scaricherà per volta un browser da uno specifico dominio?
+  * Quali sono le eccezioni?
 * Citami 3 modi per diminuire il caricamento della pagina. (percepito o effettivo tempo di caricamento)
 * Se cominci a lavorare su un progetto già iniziato dove vengono usati tab invece di spazi, cosa fai?
-	* Suggerisci di usare per il progetto qualcosa tipo EditorConfig (http://editorconfig.org)
-	* Ti adatti alle convezioni (rimani coerente)
-	* `issue :retab! command`
-* Scrivi una semplice pagina con slideshow
-	* Punti bonus se non utilizza JS.
-* Che strumenti usi per testare le prestazioni del tuo codice?
-	* Profiler, JSPerf, Dromaeo
-* Se potessi approfondire una tecnologia quest'anno, quale sarebbe?
+* Descrivi come creeresti una semplice pagina con slideshow.
+* Se avessi la possibilità id diventare esperto in una tecnologia, quale sceglieresti?
 * Spiega l'importanza degli standard e degli enti di normazione.
 * Cosa è il FOUC? Come eviti il FOUC?
+* Spiega cosa sono ARIA e lettori di schermo [*screenreaders*] e come rendere un sito web accessibile.
+* Spiega alcuni dei pro e contro delle animazioni CSS rispetto alle animazioni Javascript.
 
-####[[⬆]](#toc) <a name='html'>Domande Specifiche su HTML:</a>
+####[[⬆]](#toc) <a name='html'>Domande su HTML:</a>
 
 * Cosa fa il `doctype`?
 * Qual è la differenza tra standard mode e quirks mode?
-* Quali sono le limitazioni quando servi pagine XHTML?
-	* Ci sono dei problemi a servire le pagine come `application/xhtml+xml`?
+* Qual è la differenza tra HTML e XHTML?
+* Ci sono dei problemi a servire le pagine come `application/xhtml+xml`?
 * Come servi una pagina con il contenuto in più lingue?
-	* A cosa devi far attenzione quando progetti o sviluppi siti multilingua?
+* A cosa devi far attenzione quando progetti o sviluppi siti multilingua?
 * Per cosa sono utili gli attributi `data-`?
 * Considera HTML5 come una piattaforma web aperta. Quali sono i mattoni di HTML5?
-* Descrivi le differenze tra cookie, sessionStorage e localStorage.
+* Descrivi le differenze tra `cookie`, `sessionStorage` e `localStorage`.
+* Descrivi la differenza tra `<script>`, `<script async>` e `<script defer>`.
+* Perche è generalmente una buona idea posizionare CSS `<link>` tags all'interno di `<head></head>` e Javascript `<script>` tags appena prima di `</body>`? Conosci eccezioni?
+* Cos'è il rendering progressivo [*progressive rendering*]?
+* Hai mai utilizzato differeti liguaggi di templating HTML prima?
 
 ####[[⬆]](#toc) <a name='css'>Domande Specifiche su CSS:</a>
 

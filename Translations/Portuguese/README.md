@@ -8,16 +8,16 @@ O artigo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12
 
 ## <a name='toc'>Tabela de Conteúdos</a>
 
-  1. [Original Contributors](#contributors)
-  1. [General Questions](#general)
-  1. [HTML Questions](#html)
-  1. [CSS Questions](#css)
-  1. [JS Questions](#js)
-  1. [jQuery Questions](#jquery)
-  1. [Coding Questions](#jscode)
-  1. [Fun Questions](#fun)
-  1. [Other Great References](#references)
-  1. [License](#license)
+  1. [Contribuintes Originais](#contributors)
+  1. [Questões Gerais](#general)
+  1. [Questões de HTML](#html)
+  1. [Questões de CSS](#css)
+  1. [Questões de JS](#js)
+  1. [Questões de jQuery](#jquery)
+  1. [Questões de Código](#jscode)
+  1. [Questões Divertidas](#fun)
+  1. [Outras Grandes Referências](#references)
+  1. [Licença](#license)
 
 ####[[⬆]](#toc) <a name='contributors'>Contribuintes originais:</a>
 
@@ -151,7 +151,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 ```
 * O que é um operador ternário, o que a palavra "ternário" indica/significa?
 * O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
-* Crie um loop for que itere até `100` enquanto retorn **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
+* Crie um loop for que itere até `100` enquanto retorna **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
 
 ####[[⬆]](#toc) <a name='jquery'>Questões de jQuery:</a>
 
@@ -176,7 +176,7 @@ add(2)(5); // 7
 ```javascript
 "sou uma lasanha".split("").reverse().join("");
 ```
-**Answer: "ahnasal amu uos"**
+**Resposta: "ahnasal amu uos"**
 
 
 *Questão: Qual é o valor de `window.foo`?*

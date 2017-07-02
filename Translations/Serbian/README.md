@@ -28,7 +28,7 @@ Većina pitanja je preuzeta sa [oksoclap](http://oksoclap.com/) tj. rasprave koj
 
 ### Opšta pitanja:
 
-* Opišite Vaš omiljeni radni prostor. (OS, Editor, Broseri, Alati itd.)
+* Opišite Vaš omiljeni radni prostor. (OS, Editor, Browseri, Alati itd.)
 * Opišite Vaš proces izrade web stranice?
 * Možete li opisati razliku između progresivnog poboljšanja i neprimjetne degradacije?
 	* Bonus bodovi ako se opiše detektovanje mogućnosti browsera
