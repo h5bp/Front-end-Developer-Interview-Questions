@@ -1,43 +1,43 @@
-#면접 문제 은행
+# 면접 문제 은행
 
 @version 1.0
  
-##Contributors
+## Contributors
 
 @bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
 
-##한국어 번역
+## 한국어 번역
 @ohgyun(http://ohgyun.com), @nerdog, @javarouka, @Songhun(http://songhun.blogspot.com), @haegul(http://dev-momo.tistory.com)
 
 
-## 일반적인 질문:
-
-* Twitter,Facebook 혹은 Me2day등의 SNS를 사용하시나요?
-	* 사용한다면, 누구를 팔로우 하고 있나요?
-* GitHub을 사용하시나요?
-	* 사용한다면, 어떤 프로젝트를 Watch 혹은 Fork하시나요?
-* 자주 보는 Blog가 있습니까?
+## 일반적인 질문들:
+* 어제/이번주에 무엇을 공부하셨나요?
+* 코딩을 할때 당신을 흥분시키거나 흥미를 끄는 것들은 무엇은가요?
+* 최근에 당신이 경험한 기술적인 문제는 무엇이고 그것을 어떻게 해결했나요?
+* 웹 어플리케이션이나 사이트를 만들때 고려해야할 UI, Security, Performance, SEO, Maintainability에 대해서 설명해주세요.
+* 선호하는 개발 환경에 대해 자유롭게 이야기해 주세요.
 * 버전 관리 시스템은 어떤 것들을 사용해보셨습니까?
-* 선호하는 개발 환경은 무엇입니까? (운영체제, 에디터, 브라우저, 도구 등등)
 * 당신이 웹 페이지를 만들 때의 과정을 설명 해주실 수 있을까요?
+* 당신이 웹 페이지를 만들 때의 과정을 설명 해주실 수 있을까요?
+* 당신에게 5가지 다른 stylesheets들이 있습니다. 어떤 방법으로 사이트에 제공하는게 가장 효과적일까요?
 * 점진적 향상법(progressive enhancement)과 우아한 성능저하법(graceful degradation)의 차이를 설명하실 수 있습니까?
 	* "누구도 성공하지 못합니다" 라고 말하면 보너스 포인트를 주세요.
 	* 각 특색을 설명을 한다면, 더 높은 보너스 포인트를 주세요.
-* "시멘틱 HTML(Semantic HTML)"이 무엇을 뜻하는지 설명해주세요.
-* "최소화(minification)"가 무엇을 하는 것입니까?
+* 웹사이트에서 assets/resources를 최적화 하는 방법에 대해 설명해주세요.
 * 여러 도메인을 이용하여 서버 사이트 데이터를 제공하는 것이 더 나은 이유는 무엇인가요?
 	* 브라우저가 한 번에 1개의 도메인에서 다운로드 받는 리소스는 몇 개 인가요?
-* 만약에 디자인을 표현하기 위해 8개의 다른 Stylesheet를 가지고 있다면, 사이트에서는 어떻게 통합하실 건가요?
 	* 파일의 연결법을 찾아내세요.
-	* Build system을 이용한 결합없이, `@import`를 사용하면 점수를 깎으세요.
+	* Build system을 이용한 결합없이, `@import`를 사용하면 점수를 깎으세요.	
 * 당신이 프로젝트에 합류했습니다. 근데 그들은 Tab을 이용하고, 당신은 Sapce를 사용했습니다. 어떻게 하실건가요?
 	* `:retab!` 명령어를 아는지 확인
 * 간단한 Slideshow 페이지를 만들어보세요.
 	* Javascript를 사용하지 않고 만들었다면, 보너스 점수가 있습니다.
-* 당신의 코드의 성능을 테스트하기 위해서 사용하는 도구가 무엇입니까?
-* 올해 당신이 익히고 싶은 기술이 있다면, 그것은 무엇입니까?
-* 페이지 로딩 시간을 줄이는 3가지 방법은?
-* 표준의 중요함을 설명하세요.
+* 만약 당신이 올해 기술적 책임자가 되었다면 무엇을 먼저 하시겠습니까?
+* 표준의 중요성에 대해 설명해주세요.	
+* Flash of Unstyled Content에 대해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
+* ARIA와 screenreader에 대해 설명해주세요 또 사능한 웹사이트를 어떻게 만드는지에 대해도 설명해주세요.
+* CSS 애니메이션과 Javascript 애니메이션의 차이점에 대해 설명해주세요.
+* CORS 표준에 대해 도메인과 연관지어서 설명해주세요.
 
 ## HTML에 관련된 질문들:
 
