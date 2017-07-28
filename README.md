@@ -61,13 +61,17 @@ This file contains a number of front-end interview questions that can be used wh
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
 * Have you used different HTML templating languages before?
+* What are appropriate uses for HTML tables?
+* What does semantic HTML mean, and how do you apply this principle to your markup? 
 
 #### CSS Questions:
 
 * What is the difference between classes and IDs in CSS?
+* When calculating specificity, what value do elements, classes, and IDs have?
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
+* What other CSS property must be set in order for z-index to be applied?
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
@@ -76,6 +80,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How do you serve your pages for feature-constrained browsers?
   * What techniques/processes do you use?
 * What are the different ways to visually hide content (and make it available only for screen readers)?
+* What CSS styles could potentially cause accessibility issues?
 * Have you ever used a grid system, and if so, what do you prefer?
 * Have you used or implemented media queries or mobile specific layouts/CSS?
 * Are you familiar with styling SVG?
@@ -97,6 +102,7 @@ This file contains a number of front-end interview questions that can be used wh
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+
 
 #### JS Questions:
 
@@ -152,6 +158,8 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is event loop?
   * What is the difference between call stack and task queue?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
+* What are the pros and cons of using jQuery? What features of ES2015 are likely to make jQuery less ubiquitous?
+* Explain the difference between 'let' and 'var'
 
 #### Testing Questions:
 
