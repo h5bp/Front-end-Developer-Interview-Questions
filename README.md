@@ -159,7 +159,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * What is the difference between call stack and task queue?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * What are the pros and cons of using jQuery? What features of ES2015 are likely to make jQuery less ubiquitous?
-* Explain the difference between 'let' and 'var'
+* Explain the difference between `let` and `var`
 
 #### Testing Questions:
 
