@@ -6,19 +6,19 @@ Tập tin này chứa một số câu hỏi phỏng vấn lập trình viên fro
 
 ## Mục lục
 
-  1. [Các câu hỏi chung](#Các-câu-hỏi-chung)
-  1. [Các câu hỏi về HTML](#Các-câu-hỏi-về-HTML)
-  1. [Các câu hỏi về CSS](#Các-câu-hỏi-về-CSS)
-  1. [Các câu hỏi về JavaScript](#Các-câu-hỏi-về-JavaScript)
-  1. [Các câu hỏi về Kiểm thử](#Các-câu-hỏi-về-Kiểm-thử-Testing)
-  1. [Các câu hỏi về Hiệu suất](#Các-câu-hỏi-về-Hiệu-suất-Performance)
-  1. [Các câu hỏi về Network](#Các-câu-hỏi-về-Mạng-Network)
-  1. [Các câu hỏi về việc viết code](#Các-câu-hỏi-về-việc-viết-code)
-  1. [Các câu hỏi vui](#Các-câu-hỏi-vui)
+  1. [Các câu hỏi chung](#các-câu-hỏi-chung)
+  1. [Các câu hỏi về HTML](#các-câu-hỏi-về-html)
+  1. [Các câu hỏi về CSS](#các-câu-hỏi-về-css)
+  1. [Các câu hỏi về JavaScript](#các-câu-hỏi-về-javascript)
+  1. [Các câu hỏi về Kiểm thử](#các-câu-hỏi-về-kiểm-thử-testing)
+  1. [Các câu hỏi về Hiệu suất](#các-câu-hỏi-về-hiệu-suất-performance)
+  1. [Các câu hỏi về Network](#các-câu-hỏi-về-mạng-network)
+  1. [Các câu hỏi về việc viết code](#các-câu-hỏi-về-việc-viết-code)
+  1. [Các câu hỏi vui](#các-câu-hỏi-vui)
 
 ## Getting Involved
 
-  1. [Những người đóng góp](#Những-người-đóng-góp)
+  1. [Những người đóng góp](#những-người-đóng-góp)
   1. [Làm sao để đóng góp](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [Giấy phép](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
