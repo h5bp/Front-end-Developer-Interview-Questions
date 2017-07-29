@@ -10,9 +10,9 @@ Tập tin này chứa một số câu hỏi phỏng vấn lập trình viên fro
   1. [Các câu hỏi về HTML](#các-câu-hỏi-về-html)
   1. [Các câu hỏi về CSS](#các-câu-hỏi-về-css)
   1. [Các câu hỏi về JavaScript](#các-câu-hỏi-về-javascript)
-  1. [Các câu hỏi về Kiểm thử](#các-câu-hỏi-về-kiểm-thử-testing)
-  1. [Các câu hỏi về Hiệu suất](#các-câu-hỏi-về-hiệu-suất-performance)
-  1. [Các câu hỏi về Network](#các-câu-hỏi-về-mạng-network)
+  1. [Các câu hỏi về Kiểm thử (Testing)](#các-câu-hỏi-về-kiểm-thử-testing)
+  1. [Các câu hỏi về Hiệu suất (Performance)](#các-câu-hỏi-về-hiệu-suất-performance)
+  1. [Các câu hỏi về Mạng (Network)](#các-câu-hỏi-về-mạng-network)
   1. [Các câu hỏi về việc viết code](#các-câu-hỏi-về-việc-viết-code)
   1. [Các câu hỏi vui](#các-câu-hỏi-vui)
 
