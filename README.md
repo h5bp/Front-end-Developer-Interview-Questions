@@ -236,6 +236,18 @@ setTimeout(function() {
 console.log('three');
 ```
 
+*Question: What does the following code print?*
+```javascript
+var answer = 58 < 0 || typeof(58 + '');
+console.log(answer);
+```
+
+*Question: What does the following code print respectively?*
+```javascript
+console.log({} ? true : false);
+console.log({} == false ? true : false);
+```
+
 #### Fun Questions:
 
 * What's a cool project that you've recently worked on?
