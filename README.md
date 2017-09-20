@@ -65,6 +65,7 @@ This file contains a number of front-end interview questions that can be used wh
 #### CSS Questions:
 
 * What is the difference between classes and IDs in CSS?
+* What will be the vertical margin thickness between the box1 and box2? HTML:  `<div class="box1">Box 1</div> `  `<div class="box2">Box 2</div> ` CSS:  `.box1 {margin: 0 0 20px 0;} `  `.box2 {margin: 10px 0 0 0;} `.
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
