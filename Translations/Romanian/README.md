@@ -232,6 +232,12 @@ explică-le.
 var foo = 10 + '20';
 ```
 
+*Întrebare: Care este valoarea lui `foo`?*
+
+```js
+var foo = parseInt("08");
+```
+
 *Întrebare: Cum ai face următoarea să funcționeze?*
 
 ```js

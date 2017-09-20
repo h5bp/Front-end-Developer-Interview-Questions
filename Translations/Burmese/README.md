@@ -194,6 +194,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 var foo = 10 + '20';
 ```
 
+*Question: `foo` ၏ value ကိုပြောပါ။*
+```javascript
+var foo = parseInt("08");
+```
+
 *Question: အောက်ပါ code ကို ဘယ်လိုအလုပ်လုပ်အောင်လုပ်မည်နည်း။*
 ```javascript
 add(2, 5); // 7

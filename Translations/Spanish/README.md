@@ -192,6 +192,11 @@ _Pregunta: ¿Cuál es el valor de `foo`?_
 var foo = 10 + '20';
 ```
 
+_Pregunta: ¿Cuál es el valor de `foo`?_
+```javascript
+var foo = parseInt("08");
+```
+
 _Pregunta: ¿Cómo harías funcionar esto?_
 ```javascript
 add(2, 5); // 7
