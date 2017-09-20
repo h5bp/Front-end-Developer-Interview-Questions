@@ -139,7 +139,6 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Tại sao, nói chung, việc không làm ảnh hưởng đến global scope của một website là một điều tốt?
 * Tại sao bạn sẽ không sử dụng những thứ như event `load`? Event này có điểm bất lợi nào không? Bạn có biết cách thay thế nào khác, và tại sao bạn sẽ sử dụng chúng?
 * Giải thích một ứng dụng đơn trang (single page app) là gì và làm sao để làm chúng thân thiện với việc SEO.
-* What is the extent of your experience with Promises and/or their polyfills?
 * Mức độ trải nghiệm của bạn là như thế nào đối với các Promise và/hoặc polyfills của chúng?
 * Những điểm lợi và hại của việc sử dụng các Promise thay cho các callback?
 * Nêu một vài ưu và khuyết điểm của việc viết code JavaScript trong một ngôn ngữ mà sẽ dùng để biên dịch thành JavaScript.
