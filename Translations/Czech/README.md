@@ -24,17 +24,17 @@ Za přečtení stojí také:
 
 Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vytvořeného [Paulem Irishem](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) a následně doplněna těmito osobami:
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
+* [@bentruyman](http://twitter.com/bentruyman) – http://bentruyman.com
+* [@cowboy](http://twitter.com/cowboy) – http://benalman.com
+* [@ajpiano](http://ajpiano) – http://ajpiano.com
+* [@SlexAxton](http://twitter.com/slexaxton) – http://alexsexton.com
+* [@boazsender](http://twitter.com/boazsender) – http://boazsender.com
+* [@miketaylr](http://twitter.com/miketaylr) – http://miketaylr.com
+* [@vladikoff](http://twitter.com/vladikoff) – http://vladfilippov.com
+* [@gf3](http://twitter.com/gf3) – http://gf3.ca
+* [@jon_neal](http://twitter.com/jon_neal) – http://twitter.com/jon_neal
+* [@wookiehangover](http://twitter.com/wookiehangover) – http://wookiehangover.com
+* [@iansym](http://twitter.com/iansym) – http://twitter.com/iansym
 
 **[[⬆]](#toc)**
 
@@ -44,10 +44,10 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 * Co Vás vzrušuje nebo zajímá na kódování? 
 * Povězte něco o Vašem oblíbeném vývojovém prostředí (operační systém, editor, prohlížeč, nástroje, atd.).
 * Popište jak postupujete při vytváření nové webové stránky.
-* Dokážete vysvětlit rozdíl mezi pozvolným degradováním(graceful degradation) a postupným vylepšováním(progressive enhancement)?
+* Dokážete vysvětlit rozdíl mezi pozvolným degradováním (graceful degradation) a postupným vylepšováním(progressive enhancement)?
   * Body navíc za popsání detekce pokročilé funkcionality
 * Vysvětlete pojem "sémantické HTML".
-* Jak byste optimalizovali zdroje(obrázky, JS, CSS, atd.) webové stránky?
+* Jak byste optimalizovali zdroje (obrázky, JS, CSS, atd.) webové stránky?
   * K dispozici je celá řada optimalizací např.:
     * Spojování souborů
     * Minifikace souborů
@@ -79,7 +79,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
   * Existuje nějaký problém při poskytování stránek jako `application/xhtml+xml`?
 * Jak poskytujete stránku s vícejazyčným obsahem?  
   * Na co všechno si musíte dát pozor při vytváření vícejazyčné stránky?
-* K čemu jsou atribut `data-` dobrý?
+* K čemu je dobrý atribut `data-`?
 * Uvažujte o HTML5 jako o otevření platormě. Jaké jsou základní stavební kameny HTML5?
 * Popište rozdíl mezi cookies, sessionStorage a localStorage.
 
@@ -89,7 +89,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
 
 * Popište co děla a k čemu je dobrý "reset" CSS soubor. 
 * Popište obtékání (floats) a jak funguje.
-* Popiště různé techniky pro zastavení obtékání(clear fixing) a řekněte, které se hodí v kterém kontextu.
+* Popiště různé techniky pro zastavení obtékání (clear fixing) a řekněte, které se hodí v kterém kontextu.
 * Vysvětlete, co to jsou CSS sprites a jak byste je implementovali.
 * Jaká je Vaše oblíbená technika pro nahrazování obrázků a kterou a kdy používáte?
 * CSS property hacks, kondicionální vkládání .css souborů nebo něco dalšího?
@@ -97,7 +97,7 @@ Většina otázek byla převzata z [oksoclap](http://oksoclap.com/) původně vy
   * Jakou techniku/proces používáte?
 * Jaké jsou způsoby pro zneviditelní obsahu (a zachování jeho dostupnosti pro čtečky)?
 * Použili jste někdy grid system a pokud ano, který upřednostňujete?
-* Použili jset někdy mediální selektor(media query) nebo specifický layout/CSS pro mobilní zařízení?
+* Použili jset někdy mediální selektor (media query) nebo specifický layout/CSS pro mobilní zařízení?
 * Máte nějaké zkušenosti s vytvářením SVG?
 * Jak optimalizujete stránky pro tisk?
 * Jaké jsou zásady pro psaní efektnivního CSS?
@@ -147,13 +147,13 @@ function Person(){} var person = Person() var person = new Person()
   * Pokud ano, které knihovny jste použili (Mustache.js, Handlebars etc.)?
 * Vysvětlete "hoisting".
 * Vysvětlete probublávání událostí.
-* Jaký je rozdíl mezi atributem(attribute) a vlastností(property)?
+* Jaký je rozdíl mezi atributem (attribute) a vlastností (property)?
 * Proč není dobrý nápad rozšiřovat nativní JavaScriptové objekty?
 * Proč je dobrý nápad rozšiřovat nativní JavaScriptové objekty?
 * Jaký je rozdíl mezi událostmi document load a document ready?
 * Jaký je rozdíl mezi `==` a `===`?
 * Vysvětlete jakým způsobem získáte parametr z URL zadaného v okně prohlížeče.
-* Vysvětlete JavaScriptové pravidlo stejného původu(same-origin policy). 
+* Vysvětlete JavaScriptové pravidlo stejného původu (same-origin policy). 
 * Popište přístupy k dědění v JavaScriptu.
 * Následující kód upravte tak, aby fungoval:
 ```javascript
@@ -168,8 +168,8 @@ function Person(){} var person = Person() var person = new Person()
 
 #### <a name='jquery'>jQuery otázky:</a>
 
-* Vysvětlete řetězení(chaining).
-* Vysvětlete odkládání(deferreds).
+* Vysvětlete řetězení (chaining).
+* Vysvětlete odkládání (deferreds).
 * Jaké znáte a umíte implementovat optimalizace speciálně pro jQuery?
 * Co dělá `.end()`?
 * Jak a proč byste váš event handler opatřili jmeným prostorem?
