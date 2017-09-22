@@ -181,8 +181,8 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Care sunt avantajele și dezavantajele prin a scrie JavaScript într-o limbă ce
 compilează JavaScript?
 * Ce unelte si tehnici foloșeti pentru a 'depana' (debug) JavaScript?
-* Ce limbă de construcție folosești pentru a itera peste proprietăți și
-elmentele matrice (array)?
+* Ce construcții de limbaj folosești pentru a itera peste proprietățile obiectelor și
+elmentele listelor (array)?
 * Explică diferența dintre obiectele mutabile și imutabile.
 * Ce exmplu de obiect imutabil poți da în JavaScript?
 * Avantaje si dezavantaje a imutabilității?
