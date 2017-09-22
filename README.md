@@ -124,6 +124,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
 * Explain "hoisting".
+  * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
@@ -152,7 +153,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the difference between synchronous and asynchronous functions.
 * What is event loop?
   * What is the difference between call stack and task queue?
-* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
+
 
 #### Testing Questions:
 
