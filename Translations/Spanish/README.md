@@ -4,7 +4,7 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 **Nota:** Tenga en mente que muchas de estas preguntas son abiertas y pueden llevar a interesantes discusiones que le pueden decir más sobre las capacidades de la persona que una simple respuesta.
 
-## Indice
+## Índice
 
   1. [Preguntas generales](#general)
   1. [Preguntas específicas de HTML](#html)
@@ -24,10 +24,10 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 #### <a name='general'>Preguntas generales:</a>
 
-* ¿Qué haz aprendido en esta semana?
+* ¿Qué has aprendido en esta semana?
 * ¿Qué es lo que te interesa de la programación?
 * ¿Podría describir algún problema técnico que haya resuelto recientemente?
-* ¿Cuales son las consideraciones del área de interfaces, rendimiento, posicionamiento, mantenimiento o seguridad que toma en cuenta al desarrollar sitios o aplicaciones web?
+* ¿Cuáles son las consideraciones del área de interfaces, rendimiento, posicionamiento, mantenimiento o seguridad que toma en cuenta al desarrollar sitios o aplicaciones web?
 * Hable acerca de su ambiente de desarrollo preferido.
 * ¿Qué sistemas de control de versiones ha usado?
 * ¿Puede describir el proceso que sigue cuando crea una página web?
@@ -42,9 +42,9 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Si pudiera elegir una tecnología para dominar este año, ¿cuál sería?
 * Explique la importancia de estándares y los grupos que los definen.
 * ¿Sabe que es el _Flash Of Unstyled Content_?, ¿cómo lo evita?
-* Explique qué son las _Aplicaciones de internet enriquecidas y accesibles_ y los lectores de pantalla, además de como hacer una página web accesible
+* Explique qué son las _Aplicaciones de internet enriquecidas y accesibles_ y los lectores de pantalla, además de cómo hacer una página web accesible
 * Explique las ventajas y desventajas de usar animaciones en CSS contrario a usar animaciones hechas con JavaScript.
-* ¿Qué significa _CORS_ y a qué problema  está relacionado?
+* ¿Qué significa _CORS_ y a qué problema está relacionado?
 
 
 #### <a name='html'>Preguntas específicas de HTML:</a>
@@ -73,12 +73,12 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Describa qué son los "floats" y su funcionamiento.
 * Describa el `z-index` y como se decide el contexto de apilado de elementos.
 * Describa el contexto de formato de bloques (_BFC_) y como funciona.
-* ¿Cuáles son las tecnicas para usar la propiedad `clear` y cuál funciona para cuál contexto?
-* Explique ¿qué son los sprites en CSS y cómo los implementarias en una página?
+* ¿Cuáles son las técnicas para usar la propiedad `clear` y cuál funciona para cuál contexto?
+* Explique ¿qué son los sprites en CSS y cómo los implementarías en una página?
 * ¿Cuál es su técnica favorita para reemplazar imágenes y cuando usa cada una?
 * ¿Cómo intentaría resolver problemas de estilo para navegadores específicos?
 * ¿Cuál es su enfoque al desarrollar páginas que dan soporte a navegadores con capacidades limitadas?
- * ¿Qué tecnicas o procesos usas?
+ * ¿Qué técnicas o procesos usas?
 * ¿Cuáles son las distintas formas para esconder contenido, pero mantenerlo disponible únicamente para lectores de pantalla?
 * ¿Ha usado algún sistema para cuadrículas (grids) y cuál prefiere?
 * ¿Ha usado o implementado "media queries" o reglas específicas para dispositivos móviles?
@@ -91,16 +91,16 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
 * Describa los pseudo-elementos y discuta sus usos.
 * ¿Puede explicar cómo entiende el `box model` (modelo de cajas) y como podría hacer que un navegador renderize su esquema usando diferentes modelos de cajas?
-* ¿Qué sucede al usar `* { box-sizing: border-box; }`. ¿Qué desventajas supone su uso?
+* ¿Qué sucede al usar `* {box-sizing: border-box;}`. ¿Qué desventajas supone su uso?
 * Por favor enliste todos los valores para la propiedad `display` que pueda recordar
 * ¿Cuál es la diferencia entre `inline` y `inline-block`?
 * ¿Cuál es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
 * La *C* en CSS significa _cascading_ (en cascada). ¿Cómo se determina la prioridad al asignar los estilos? ¿Cómo podemos aprovechar ese sistema?
-* ¿Cuáles frameworks de CSS has usado en desarrollo y producción? ¿Cómo los mejoraria?
+* ¿Cuáles frameworks de CSS has usado en desarrollo y producción? ¿Cómo los mejoraría?
 * ¿Qué sabe sobre CSS Flexbox y cuáles son sus ventajas?
 * ¿En que difiere el diseño responsivo del diseño adaptativo?
-* ¿Haz trabajado con tecnología retina?, ¿qué tecnicas usaste?
-* ¿Hay alguna razón por la cuál preferirias usar `translate()` en vez de el posicionamiento absoluto? ¿Algúna razón para hacer lo contrario?
+* ¿Has trabajado con tecnología retina?, ¿qué técnicas usaste?
+* ¿Hay alguna razón por la cual preferirías usar `translate()` en vez de el posicionamiento absoluto? ¿Alguna razón para hacer lo contrario?
 
 
 
@@ -111,9 +111,9 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Explique cómo funciona la herencia de prototipos (prototypal inheritance) en JavaScript.
 * ¿Qué opina de AMD en comparación con CommonJS?
 * Explique por qué `function foo(){ }();` no funciona como un IIFE.
- * ¿Qué se necesita cambiar para que funcione como una IIFE?.
+ * ¿Qué se necesita cambiar para que funcione como una IIFE?
 * ¿Cuál es la diferencia entre variables `null`, `undefined` y `undeclared`?
- * ¿Cómo comprobarias que una variable refiere a algúno de esos valores?
+ * ¿Cómo comprobarías que una variable refiere a alguno de esos valores?
 * ¿Qué es un "_closure_" y cuando, o por qué usaría uno?
 * ¿Puede hablar de un uso típico para una función anónima?
 * ¿Cómo organiza su código, patrón módulo, herencia clásica?
@@ -126,8 +126,8 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Explique AJAX con tanto detalle como pueda.
 * Explique cómo funciona JSONP (y cómo no es AJAX realmente)
 * ¿Ha utilizado alguna vez templates en JavaScript?
-	* De ser asi, ¿qué bibliotecas ha usado?
-* ¿Puede explicar en que consiste el "_hoisting_"?
+	* De ser así, ¿qué bibliotecas ha usado?
+* ¿Puede explicar en qué consiste el "_hoisting_"?
 * ¿Puede hablar sobre "_event bubbling_"?
 * ¿Cuál es la diferencia entre un "_atributo_" y una "_propiedad_"?
 * ¿Por qué es una mala idea extender objetos nativos de JavaScript?
@@ -143,17 +143,17 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Haga un ciclo `for` de `100` iteraciones que imprima **"fizz"** en los múltiplos de `3`, **"buzz"** en los múltiplos de `5` y **"fizzbuzz"** en los múltiplos de `3` y `5`
 * De manera general, ¿por qué es una buena idea no usar el "ámbito" (scope) global de un sitio web?
 * ¿Por qué usaría el evento `load`?, ¿usarlo representa alguna ventaja?, ¿conoce alternativas y el por qué usaría dichas alternativas?
-* Explique en qué consiste una aplicación de una sola página y como hacer una que bajo los terminos del posicionamiento en los buscadores.
-* ¿Qué tanto sabes acerca de las promesas en javascript? ¿Cónoce alternativas a ellas?
+* Explique en qué consiste una aplicación de una sola página y como hacer una que bajo los términos del posicionamiento en los buscadores.
+* ¿Qué tanto sabes acerca de las promesas en javascript? ¿Conoce alternativas a ellas?
 * Mencione las ventajas y desventajas de usar promesas en vez de callbacks.
 * Menciona las ventajas y desventajas de escribir Javascript a través de otro lenguaje que compile y su resultado sea Javascript.
-* ¿Qué herramientas y tecnias usa para depurar código Javascript?
+* ¿Qué herramientas y técnicas usa para depurar código Javascript?
 * ¿Qué código utiliza para iterar sobre propiedades de un objeto y sobre arreglos?
 * Explique la diferencia entre objetos mutables y objetos inmutables.
  * Mencione un ejemplo de un objeto inmutable en javascript.
  * Mencione las ventajas y desventajas de la inmutabilidad.
  * ¿Cómo puede usar la inmutabilidad en su código?
-* Explique la diferencia entre funciones sincronas y asincronas.
+* Explique la diferencia entre funciones síncronas y asíncronas.
 * ¿Qué es el `event loop`?
  * ¿Cuál es la diferencia entre la pila de llamadas y la cola de tareas?
 
@@ -162,27 +162,27 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Menciona ventajas y desventajas de realizar pruebas en el código
 * ¿Qué herramientas usarías para probar la funcionalidad de tu código?
 * ¿Cuál es la diferencia entre una prueba unitaria y una prueba de funcionalidad?
-* ¿Cuál es el proposito de usar herramientas para verificar los estilos usados en el código?
+* ¿Cuál es el propósito de usar herramientas para verificar los estilos usados en el código?
 
 #### <a name='performance'>Preguntas sobre rendimiento:</a>
 
 * ¿Qué herramientas usarías para detectar un error en el rendimiento de tu código?
 * ¿De qué formas podrías mejorar el rendimiento del scrolling en tu sitio web?
-* Menciona las diferencias entre los terminos `layout`, `painting` y `compositing`.
+* Menciona las diferencias entre los términos `layout`, `painting` y `compositing`.
 
 #### <a name='network'>Preguntas sobre conectividad:</a>
 
-* Tradicionalmente, ¿Por qué es mejor servir los recursos estaticos del sitio desde multiples dominios?
+* Tradicionalmente, ¿Por qué es mejor servir los recursos estáticos del sitio desde múltiples dominios?
 * Intenta explicar el proceso desde el momento en el cual ingresas una URL en el navegador hasta que termina de cargar la página en tu pantalla.
 * ¿Cuáles son las diferencias entre `Long-polling`, `websockets` y `server-sent events`?
-* Explique las siguientes cabeceras de respuesta y envio.
+* Explique las siguientes cabeceras de respuesta y envío.
  * `Expires`, `Date`, `Age` y `If-Modified-`
  * `Do Not Track`
  * `Cache-Control`
  * `Transfer-Encoding`
  * `Etag`
  * `X-Frame-Options`
-* ¿Qué son las acciones `HTTP`, explique las acciones HTTP que conozca.
+* ¿Qué son las acciones `HTTP`? explique las acciones HTTP que conozca.
 
 #### <a name='codigojs'>Preguntas de código:</a>
 
