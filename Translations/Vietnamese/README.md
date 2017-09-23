@@ -16,7 +16,7 @@ Tập tin này chứa một số câu hỏi phỏng vấn lập trình viên fro
   1. [Các câu hỏi về việc viết code](#các-câu-hỏi-về-việc-viết-code)
   1. [Các câu hỏi vui](#các-câu-hỏi-vui)
 
-## Getting Involved
+## Tham gia đóng góp
 
   1. [Những người đóng góp](#những-người-đóng-góp)
   1. [Làm sao để đóng góp](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
@@ -60,6 +60,7 @@ Tập tin này chứa một số câu hỏi phỏng vấn lập trình viên fro
 * Trình bày sự khác nhau giữa `<script>`, `<script async>` và `<script defer>`.
 * Tại sao việc đặt các thẻ (tag) `<link>` CSS giữa 2 thẻ `<head></head>` và các thẻ `<script>` JS ngay trước thẻ `</body>` về cơ bản là một ý tưởng tốt? Bạn có biết những trường hợp ngoại lệ nào khác không?
 * Progressive rendering là gì?
+* Tại sao bạn sẽ sử dụng thuộc tính `srcset` trong 1 tag img? Giải thích quá trình mà trình duyệt sẽ sử dụng khi phân tích nội dung của thuộc tính này.
 * Trước đây bạn đã bao giờ sử dụng những ngôn ngữ template HTML nào khác chưa?
 
 #### Các câu hỏi về CSS:
@@ -152,6 +153,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Event loop là gì?
   * Sự khác biệt giữa call stack và task queue là gì?
 * Giải thích sự khác nhau trong các cách sử dụng `foo` sau đây: giữa `function foo() {}` và `var foo = function() {}`
+* Sự khác biệt giữa các biến được tạo bằng việc sử dụng `let`, `var` hoặc `const` là gì?
 
 #### Các câu hỏi về Kiểm thử (Testing):
 
@@ -163,7 +165,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 #### Các câu hỏi về Hiệu suất (Performance):
 
 * Bạn sử dụng những công cụ nào để tìm ra một lỗi hiệu suất trong code của bạn?
-* Chỉ ra vài cách mà bạn có thể cải thiện hiệu suất scrolling (scrolling performance) trên website của bạn?
+* Chỉ ra vài cách mà bạn có thể cải thiện hiệu suất cuộn trang (scrolling performance) trên website của bạn?
 * Giải thích sự khác nhau giữa layout, painting và compositing.
 
 #### Các câu hỏi về Mạng (Network):
@@ -185,6 +187,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 *Câu hỏi: Giá trị của `foo` là gì?*
 ```javascript
 var foo = 10 + '20';
+```
+
+*Câu hỏi: Đoạn code dưới đây sẽ xuất ra cái gì?*
+```javascript
+console.log(0.1 + 0.2 == 0.3);
 ```
 
 *Câu hỏi: Bạn sẽ làm thế nào để hàm này hoạt động?*
