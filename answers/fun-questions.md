@@ -2,7 +2,7 @@
 
 #### What's a cool project that you've recently worked on?
 
-[Pen](https://github.com/noraesae/pen).
+[Pen](https://github.com/utatti/pen).
 
 It is a markdown previewer written in JavaScript with realtime preview. The
 preview page is updated powered by VirtualDOM of React, which means that only
@@ -21,7 +21,7 @@ them.
 
 #### Do you have any pet projects? What kind?
 
-Many. You can find them in [my GitHub page](https://github.com/noraesae).
+Many. You can find them in [my GitHub page](https://github.com/utatti).
 
 I like to write useful tools not only for developers, but for normal users.
 So many of my pet projects are about tools including markdown previewers,

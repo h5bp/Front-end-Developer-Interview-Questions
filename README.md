@@ -2,7 +2,7 @@
 
 This file contains a number of front-end interview questions from [the original
 repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
-and answers [I](https://github.com/noraesae) answered.
+and answers [I](https://github.com/utatti) answered.
 
 ## About contribution
 
