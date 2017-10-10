@@ -45,6 +45,8 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 * What does CORS stand for and what issue does it address?
+* What is the difference between merging vs. rebasing?
+* How do you stay up to date on technology and the what is happening in the technology industry?
 
 #### HTML Questions:
 
@@ -152,6 +154,10 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is event loop?
   * What is the difference between call stack and task queue?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
+* What is object-oriented JavaScript (OOJS)?
+* What are teh 6 primitive data types in JavaSript?
+* What is the difference between JSON and object literal?
+* Provide an example of a callback function?
 
 #### Testing Questions:
 
