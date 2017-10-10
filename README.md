@@ -1,4 +1,4 @@
-#Front-end Job Interview Questions
+# Front-end Job Interview Questions
 
 This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
@@ -62,6 +62,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
+* Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Have you used different HTML templating languages before?
 
 #### CSS Questions:
@@ -158,6 +159,8 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are teh 6 primitive data types in JavaSript?
 * What is the difference between JSON and object literal?
 * Provide an example of a callback function?
+* What are the differences between variables created using `let`, `var` or `const`?
+
 
 #### Testing Questions:
 
@@ -191,6 +194,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 *Question: What is the value of `foo`?*
 ```javascript
 var foo = 10 + '20';
+```
+
+*Question: What will be the output of the code below?*
+```javascript
+console.log(0.1 + 0.2 == 0.3);
 ```
 
 *Question: How would you make this work?*
