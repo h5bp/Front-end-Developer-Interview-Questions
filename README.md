@@ -156,7 +156,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * What is the difference between call stack and task queue?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * What is object-oriented JavaScript (OOJS)?
-* What are teh 6 primitive data types in JavaSript?
+* What are the 6 primitive data types in JavaSript?
 * What is the difference between JSON and object literal?
 * Provide an example of a callback function?
 * What are the differences between variables created using `let`, `var` or `const`?
