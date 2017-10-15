@@ -6,21 +6,21 @@
 
 ## 목차
 
-  1. [일반적인 질문](#일반적인-질문들)
-  2. [HTML 관련 질문](#html-관련-질문)
-  3. [CSS 관련 질문](#css-관련-질문)
-  4. [JS 관련 질문](#js-관련-질문)
-  5. [테스팅 관련 질문](#testing-관련-질문)
-  6. [성능 관련 질문](#성능-관련-질문)
-  7. [코딩 관련 질문](#코딩-관련-질문)
+  1. [일반적인 질문](#일반적인-질문)
+  1. [HTML 관련 질문](#HTML-관련-질문)
+  1. [CSS 관련 질문](#CSS-관련-질문)
+  1. [JS 관련 질문](#JS-관련-질문)
+  1. [테스트 관련 질문](#테스트-관련-질문)
+  1. [성능 관련 질문](#성능-관련-질문)
+  1. [코딩 관련 질문](#코딩-관련-질문)
 
 ## 함께하기
 
-  1. [함께하는 분들](#contributors)
-  2. [함께하는 방법](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
-  3. [라이선스](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
+  1. [함께하는 분들](#함께하는-분들)
+  1. [함께하는 방법](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [라이선스](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-## 일반적인 질문:
+#### 일반적인 질문:
 
 * 어제/이번 주에 무엇을 공부하셨나요?
 * 코딩을 할 때 당신을 들뜨게 하거나 흥미를 끄는 것들은 무엇은 가요?
@@ -44,7 +44,7 @@
 * CSS 애니메이션과 JavaScript 애니메이션의 차이점에 관해 설명해주세요.
 * CORS는 무엇의 약자이고 어떤 문제에 대해서 언급하는 것인가요?
 
-## HTML 관련 질문:
+#### HTML 관련 질문:
 
 * `doctype`이 무엇을 하는 것인가요?
 * 표준모드(standards mode)와 쿽스모드(quirks mode)의 다른 점은 무엇인가요?
@@ -62,7 +62,7 @@
 * 이미지 태그에 `srcset` 속성을 사용하는 이유는 무엇인가요? 브라우저가 이 속성을 가진 콘텐츠를 평가할 때 사용하는 과정을 설명해보세요.
 * HTML templating language를 사용해 본 경험이 있나요?
 
-## CSS 관련 질문:
+#### CSS 관련 질문:
 
 * class와 id의 차이점에 관해서 설명해주세요.
 * "reset" CSS가 무엇인지, 어떻게 유용한지 설명해주세요.
@@ -98,7 +98,7 @@
 * 레티나 그래픽 환경에서 작업해 보신 적이 있나요? 하셨다면 어떤 기술을 사용하셨나요?
 * *절대 좌표*대신 `translate()` 혹은 반대로 사용하는 이유가 있나요? 있다면 이유에 관해서 설명해주세요.
 
-## JS 관련 질문:
+#### JS 관련 질문:
 
 * event delegation에 관해 설명해주세요.
 * `this`는 JavaScript에서 어떻게 작동하는지 설명해주세요.
@@ -161,20 +161,20 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * `function foo() {}`와 `var foo = function() {}`에서 foo 의 차이가 무엇인지 설명해보세요.
 * `let`, `var`, `const`의 차이점에 관해서 설명해주세요.
 
-## 테스트 관련 질문들:
+#### 테스트 관련 질문들:
 
 * test code를 작성하면서 개발하는 방식의 장점과 단점에 대해 설명해주세요.
 * test code를 테스트하는 툴을 사용해보신 경험이 있나요?
 * 유닛 테스트와 함수테스트의 차이점은 무엇인가요?
 * code style linting tool을 사용했을때 장점은 무엇인가요?
 
-## 성능 관련 질문들:
+#### 성능 관련 질문들:
 
 * 성능관련 이슈들을 발견하기 위해서 사용하는 방법은 무엇인가요?
 * 웹사이트 scrolling 성능을 향상시키기 위한 몇가지 방법에 대해 설명해보세요.
 * 브라우저의 layout, painting, compositing에 대해 설명해보세요.
 
-## 네트워크 질문들:
+#### 네트워크 질문들:
 
 * 전통적으로, 웹사이트의 assets을 여러 도메인으로 서빙했을 때 장점은 무엇인가요?
 * URL로 접속했을 때 어떤 플로우로 화면에 웹사이트가 그려지는지 네트워크 관점에서 설명해주세요.
@@ -189,7 +189,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * HTTP와 HTTPS에 대해 설명해주세요.
 * HTTP Method들에 대해 설명해주세요.
 
-## 코딩 질문:
+#### 코딩 질문:
 
 *질문: `foo`의 값은 무엇인가요?*
 ```javascript
@@ -251,27 +251,18 @@ setTimeout(function() {
 console.log('three');
 ```
 
-## 그 외 흥미로운 질문들:
+#### 그 외 흥미로운 질문들:
 
-* 당신이 작성한 코드 중 어떤 것을 가장 멋지고, 자랑스럽게 여기나요?
-* HTML5 gang sign에 대해서 아시나요?
-* 배를 타본 적이 있으세요?
-* Firebug와 Webkit Inspector에서 좋아하는 부분을 말씀해주세요.
-* 당신 스스로 하는 프로젝트가 있나요? 어떤 종류인가요?
-* "유니콘화(cornify)"의 의미를 설명해주세요.
-* 한 장의 종이 위에, A B C D E를 차례대로 내려쓰세요. 그다음, 코드로 작성하지 말고, 역순으로 재배치해보세요.
-  * 종이를 위아래를 뒤집어낼 때까지 기다리세요.
-  * 이것은 인터뷰의 끝에 긴장감을 풀어주고 웃음을 줄 수 있는 좋은 방법이 입니다.
-* 해적입니까? 닌자입니까?
-  * 만약에 둘 다이며, 좋은 이유를 댄다면 보너스 점수를 주세요. (좀비 몽키 해적 닌자인 경우엔 +2)
-* 만약에 웹 개발을 안 했다면, 무엇을 했었을까요?
-* Carmen Sandiego는 세상의 어디에 있을까요? 힌트 : 그들의 답은 항상 틀릴겁니다 Explorer의 당신이 좋아하는 기능은 무엇입니까?
-* 다음 문장을 완성하세요 : Brendan Eich 와 Doug Crockford 는 JavaScript의 __________ 이다.
-* jQuery: 훌륭한 라이브러리인가요? 최고로 좋은 라이브러리인가요? 토론하세요.
+* 최근에 수행했던 흥미로운 프로젝트는 무엇인가요?
+* 사용하는 개발 도구에서 마음에 드는 부분은 무엇인가요?
+* 프론트엔드 커뮤니티에서 당신에게 영감을 준 사람이 있다면 누구인가요?
+* 애완동물 관련 프로젝트를 해 보았나요? 해보았다면 어떤 종류의 프로젝트인가요?
+* IE에서 가장 좋아하는 기능은 무엇인가요?
+* 어떤 커피를 좋아하시나요?
 
 #### 함께하는 분들:
 
 이 문서는 2009년에 다음에 언급된 분들과의 협업으로 시작했습니다.
  [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) [@iansym](https://twitter.com/iansym)
 
-이후 [100이 넘는 개발자들](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors)이 함께하고 있습니다.
+현재는 [100이 넘는 개발자들](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors)이 함께하고 있습니다.
