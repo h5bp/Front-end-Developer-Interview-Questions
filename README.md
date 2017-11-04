@@ -244,6 +244,22 @@ setTimeout(function() {
 console.log('three');
 ```
 
+*Question: What is the difference between these four promises?*
+```javascript
+doSomething().then(function () {
+  return doSomethingElse();
+});
+
+doSomething().then(function () {
+  doSomethingElse();
+});
+
+doSomething().then(doSomethingElse());
+
+doSomething().then(doSomethingElse);
+```
+
+
 #### Fun Questions:
 
 * What's a cool project that you've recently worked on?
