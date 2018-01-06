@@ -156,6 +156,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * What are the differences between variables created using `let`, `var` or `const`?
 * What is currying?
+* What are the differences between ES6 class and ES5 function constructors?
 
 #### Testing Questions:
 
