@@ -62,7 +62,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### CSS Questions:
 
-* What is the difference between classes and IDs in CSS?
+* What CSS selector specificity and how does it work?
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
@@ -88,7 +88,6 @@ This file contains a number of front-end interview questions that can be used wh
 * What is the CSS `display` property and can you give a few examples of its use?
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
-* The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
 * How is responsive design different from adaptive design?
