@@ -76,7 +76,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Have you ever used a grid system, and if so, what do you prefer?
 * Have you used or implemented media queries or mobile specific layouts/CSS?
 * Are you familiar with styling SVG?
-* How do you optimize your webpages for print?
+* Can you give an example of an `@media` property other than `screen`?
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors?
   * Describe what you like and dislike about the CSS preprocessors you have used.
