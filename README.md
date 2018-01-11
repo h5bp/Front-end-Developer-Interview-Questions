@@ -27,7 +27,10 @@ This file contains a number of front-end interview questions that can be used wh
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+* When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?
+* Can you describe some SEO best practices or techniques you have used lately?
+* Can you explain any common techniques or recent issues solved in regards to front-end security?
+* What actions have you personally taken on recent projects to increase maintainability of your code?
 * Talk about your preferred development environment.
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
