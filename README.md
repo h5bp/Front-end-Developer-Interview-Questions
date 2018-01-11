@@ -132,7 +132,7 @@ This file contains a number of front-end interview questions that can be used wh
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Why is it called a Ternary expression, what does the word "Ternary" indicate?
+* Why is it called a Ternary operator, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
@@ -153,6 +153,12 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * What are the differences between variables created using `let`, `var` or `const`?
 * What are the differences between ES6 class and ES5 function constructors?
+* What are some advantages for using the new arrow `=>` function syntax?
+* What advantage does using the arrow syntax for a method in a constructor offer?
+* What is the definition of a higher-order function?
+* Can you give an example for destructuring an object or an array?
+* ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
+* Can you give an example of a curry function and why this syntax offers an advantage?
 
 #### Testing Questions:
 
