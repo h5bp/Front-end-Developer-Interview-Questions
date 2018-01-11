@@ -93,7 +93,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
-* How is responsive design different from adaptive design?
+* Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 
