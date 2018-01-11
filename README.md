@@ -153,7 +153,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * What are the differences between variables created using `let`, `var` or `const`?
 * What are the differences between ES6 class and ES5 function constructors?
-* What are some advantages for using the new arrow `=>` function syntax?
+* Can you explain a use cases for the new arrow `=>` function syntax and how this differs from other functions?
 * What advantage does using the arrow syntax for a method in a constructor offer?
 * What is the definition of a higher-order function?
 * Can you give an example for destructuring an object or an array?
