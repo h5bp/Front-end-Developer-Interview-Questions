@@ -71,7 +71,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe z-index and how stacking context is formed.
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
-* What are your favourite image replacement techniques and which do you use when?
+* Explain CSS sprites, and how you would implement them on a page or site.
 * How would you approach fixing browser-specific styling issues?
 * How do you serve your pages for feature-constrained browsers?
   * What techniques/processes do you use?
