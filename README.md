@@ -76,7 +76,6 @@ This file contains a number of front-end interview questions that can be used wh
   * What techniques/processes do you use?
 * What are the different ways to visually hide content (and make it available only for screen readers)?
 * Have you ever used a grid system, and if so, what do you prefer?
-* Have you used or implemented media queries or mobile specific layouts/CSS?
 * Are you familiar with styling SVG?
 * Can you give an example of an `@media` property other than `screen`?
 * What are some of the "gotchas" for writing efficient CSS?
@@ -95,6 +94,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+* Can you explain the differences between Functional CSS and Component CSS development styles? What are some advantages/disadvantages of either style?
 
 #### JS Questions:
 
