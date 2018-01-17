@@ -1,21 +1,17 @@
-# Pull Request Template
-
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+# Pull Request
 
 Fixes # (issue)
 
+Please ensure that the title of the Pull Request accurately summarizes the intent of the Pull Request. "Adds question" is too generic. "Adds CSS Grids question" or "Adds JavaScript question about fat arrow syntax" is preferred.
+
+Please include relevant motivation and context when adding questions to this project. Including an anticipated answer to the question(s) is appreciated and reduces the need for further discussion.
+
 ## Type of change
 
-Please delete options that are not relevant.
+Please check the options that are applicable
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-# How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
 # Checklist:
 
