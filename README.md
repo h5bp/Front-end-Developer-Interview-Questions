@@ -153,6 +153,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * What are the differences between variables created using `let`, `var` or `const`?
 * What are the differences between ES6 class and ES5 function constructors?
+* Why would you want to use backticks (i.e. \`\`) instead of an ordinary quotes for strings?
+* What is the most modern approach to accessing the list of arguments passed to a function?
+* Come up with an example of how array/object destructuring works.
+* Are there any benefits in using arrow functions, apart from more dense syntax?
+* How can you share code between files?
 
 #### Testing Questions:
 
