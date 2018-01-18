@@ -62,6 +62,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What is progressive rendering?
 * Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Have you used different HTML templating languages before?
+* Can you explain the main difference between using a `<select>` versus a `<datalist>` element?
 
 #### CSS Questions:
 
