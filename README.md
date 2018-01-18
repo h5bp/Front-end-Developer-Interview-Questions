@@ -159,6 +159,9 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Can you give an example for destructuring an object or an array?
 * ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
 * Can you give an example of a curry function and why this syntax offers an advantage?
+* What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
+* How can you share code between files?
+* Why you might want to create static class members?
 
 #### Testing Questions:
 
