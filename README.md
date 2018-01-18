@@ -100,6 +100,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
+* What is the difference between var and let?
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
