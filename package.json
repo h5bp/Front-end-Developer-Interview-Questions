@@ -1,0 +1,30 @@
+{
+  "name": "front-end-developer-interview-questions",
+  "version": "1.0.0",
+  "description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h5bp/Front-end-Developer-Interview-Questions.git"
+  },
+  "keywords": [
+    "css",
+    "front-end",
+    "html",
+    "interview",
+    "js",
+    "questions"
+  ],
+  "author": "H5BP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h5bp/Front-end-Developer-Interview-Questions/issues"
+  },
+  "homepage": "https://github.com/h5bp/Front-end-Developer-Interview-Questions#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^4.10.1"
+  }
+}
