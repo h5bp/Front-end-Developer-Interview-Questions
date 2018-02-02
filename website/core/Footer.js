@@ -34,36 +34,61 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>Web Platform Questions</h5>
+            <a href={this.docUrl('gettingstarted.html', this.props.language)}>
+              Getting Started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href={this.docUrl('html.html', this.props.language)}>
+              HTML Questions
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('css.html', this.props.language)}>
+              CSS Questions
+            </a>
+            <a href={this.docUrl('javascript.html', this.props.language)}>
+              JavaScript Questions
+            </a>
+            <a href={this.docUrl('network.html', this.props.language)}>
+              Network Questions
+            </a>
+            <a href={this.docUrl('performance.html', this.props.language)}>
+              Performance Questions
+            </a>
+          </div>
+          <div>
+            <h5>Other Questions</h5>
+            <a href={this.docUrl('coding.html', this.props.language)}>
+              Coding Questions
+            </a>
+            <a href={this.docUrl('testing.html', this.props.language)}>
+              Testing Questions
+            </a>
+            <a href={this.docUrl('general.html', this.props.language)}>
+              General Questions
+            </a>
+            <a href={this.docUrl('fun.html', this.props.language)}>
+              Fun Questions
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+            <a
+              href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md"
+              target="_blank">
+              Contribute
             </a>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md"
               target="_blank">
-              Stack Overflow
+              Hall of Fame
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a href="https://twitter.com/" target="_blank">
+            <a href="https://twitter.com/h5bp" target="_blank">
               Twitter
             </a>
-          </div>
-          <div>
-            <h5>More</h5>
-            <a href={this.props.config.baseUrl + 'blog'}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a
+              href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/"
+              target="_blank">
+              GitHub
+            </a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
