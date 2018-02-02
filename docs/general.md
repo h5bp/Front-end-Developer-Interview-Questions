@@ -1,4 +1,7 @@
-# General Questions:
+---
+id: general
+title: General Questions
+---
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?

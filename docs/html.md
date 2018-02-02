@@ -1,4 +1,7 @@
-# HTML Questions:
+---
+id: html
+title: HTML Questions
+---
 
 * What does a `doctype` do?
 * How do you serve a page with content in multiple languages?

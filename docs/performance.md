@@ -1,4 +1,7 @@
-# Performance Questions:
+---
+id: performance
+title: Performance Questions
+---
 
 * What tools would you use to find a performance bug in your code?
 * What are some ways you may improve your website's scrolling performance?

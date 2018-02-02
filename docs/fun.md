@@ -1,4 +1,7 @@
-# Fun Questions:
+---
+id: fun
+title: Fun Questions
+---
 
 * What's a cool project that you've recently worked on?
 * What are some things you like about the developer tools you use?

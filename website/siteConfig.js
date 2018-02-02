@@ -22,9 +22,11 @@ const siteConfig = {
   baseUrl: '/test-site/' /* base url for your project */,
   projectName: 'test-site',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'}
+    {doc: 'gettingstarted', label: 'Questions'},
+    {href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md', label: 'Contribute', external: true},
+    {href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md', label: 'Hall of Fame', external: true},
+    {doc: 'about', label: 'About'},
+    {href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/', label: 'Check on GitHub', external: true}
   ],
   users,
   /* path to images for header/footer */

@@ -1,7 +1,7 @@
 ---
-id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+id: gettingstarted
+title: Front-end Developer Interview Questions
+sidebar_label: Getting Started
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.

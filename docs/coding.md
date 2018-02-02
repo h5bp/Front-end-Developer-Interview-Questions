@@ -1,4 +1,7 @@
-# Coding Questions:
+---
+id: coding
+title: Coding Questions
+---
 
 *Question: What is the value of `foo`?*
 ```javascript
