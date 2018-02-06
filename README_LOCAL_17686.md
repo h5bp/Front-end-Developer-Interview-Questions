@@ -1,4 +1,4 @@
-# Front-end Job Interview Questions
+#Front-end Job Interview Questions
 
 This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
@@ -6,15 +6,15 @@ This file contains a number of front-end interview questions that can be used wh
 
 ## Table of Contents
 
-  1. [General Questions](questions/general-questions.md)
-  1. [HTML Questions](questions/html-questions.md)
-  1. [CSS Questions](questions/css-questions.md)
-  1. [JS Questions](questions/javascript-questions.md)
-  1. [Testing Questions](questions/testing-questions.md)
-  1. [Performance Questions](questions/performance-questions.md)
-  1. [Network Questions](questions/network-questions.md)
-  1. [Coding Questions](questions/coding-questions.md)
-  1. [Fun Questions](questions/fun-questions.md)
+  1. [General Questions](#general-questions)
+  1. [HTML Questions](#html-questions)
+  1. [CSS Questions](#css-questions)
+  1. [JS Questions](#js-questions)
+  1. [Testing Questions](#testing-questions)
+  1. [Performance Questions](#performance-questions)
+  1. [Network Questions](#network-questions)
+  1. [Coding Questions](#coding-questions)
+  1. [Fun Questions](#fun-questions)
 
 ## Getting Involved
 
@@ -22,19 +22,48 @@ This file contains a number of front-end interview questions that can be used wh
   1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-## Contributors:
+#### General Questions:
 
-This project started in 2009 as a collaboration of [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
+* What did you learn yesterday/this week?
+* What excites or interests you about coding?
+* What is a recent technical challenge you experienced and how did you solve it?
+* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+* Talk about your preferred development environment.
+* Which version control systems are you familiar with?
+* Can you describe your workflow when you create a web page?
+* If you have 5 different stylesheets, how would you best integrate them into the site?
+* Can you describe the difference between progressive enhancement and graceful degradation?
+* How would you optimize a website's assets/resources?
+* How many resources will a browser download from a given domain at a time?
+  * What are the exceptions?
+* Name 3 ways to decrease page load (perceived or actual load time).
+* If you jumped on a project and they used tabs and you used spaces, what would you do?
+* Describe how you would create a simple slideshow page.
+* If you could master one technology this year, what would it be?
+* Explain the importance of standards and standards bodies.
+* What is Flash of Unstyled Content? How do you avoid FOUC?
+* Explain what ARIA and screenreaders are, and how to make a website accessible.
+* Explain some of the pros and cons for CSS animations versus JavaScript animations.
+* What does CORS stand for and what issue does it address?
 
-This project is currently maintained by:
+#### HTML Questions:
 
-- [roblarsen](https://github.com/roblarsen)
-- [cezaraugusto](https://github.com/cezaraugusto)
-- [vvscode](https://github.com/vvscode)
+* What does a `doctype` do?
+* What's the difference between full standards mode, almost standards mode and quirks mode?
+* What's the difference between HTML and XHTML?
+* Are there any problems with serving pages as `application/xhtml+xml`?
+* How do you serve a page with content in multiple languages?
+* What kind of things must you be wary of when design or developing for multilingual sites?
+* What are `data-` attributes good for?
+* Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+* Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
+* Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+* Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+* What is progressive rendering?
+* Have you used different HTML templating languages before?
 
-It has since been active thanks to these [incredibly wonderful people](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
+#### CSS Questions:
 
-<<<<<<< HEAD
 * What is the difference between classes and IDs in CSS?
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
@@ -223,6 +252,3 @@ console.log('three');
 This document started in 2009 as a collaboration of [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
 
 It has since received contributions from over [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).
-=======
-Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md) to get started!
->>>>>>> e64c63016bad4808fc5270ba2672420864e66304
