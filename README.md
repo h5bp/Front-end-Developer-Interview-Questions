@@ -19,7 +19,7 @@ This file contains a number of front-end interview questions that can be used wh
 ## Getting Involved
 
   1. [Contributors](#contributors)
-  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md)
   1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
 ## Contributors:
@@ -34,4 +34,4 @@ This project is currently maintained by:
 
 It has since been active thanks to these [incredibly wonderful people](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
 
-Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md) to get started!
+Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md) to get started!
