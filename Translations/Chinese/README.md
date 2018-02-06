@@ -1,4 +1,4 @@
-#前端工作面试问题
+# 前端工作面试问题
 
 本文包含了一些用于考查候选者的前端面试问题。不建议对单个候选者问及每个问题 (那需要好几个小时)。只要从列表里挑选一些，就能帮助你考查候选者是否具备所需要的技能。
 
@@ -139,7 +139,7 @@
 * 为何通常会认为保留网站现有的全局作用域 (global scope) 不去改变它，是较好的选择？
 * 为何你会使用 `load` 之类的事件 (event)？此事件有缺点吗？你是否知道其他替代品，以及为何使用它们？
 * 请解释什么是单页应用 (single page app), 以及如何使其对搜索引擎友好 (SEO-friendly)。
-* What is the extent of your experience with Promises and/or their polyfills?
+* 你使用过 Promises 及其 polyfills 吗? 请写出 Promise 的基本用法（ES6）。
 * 使用 Promises 而非回调 (callbacks) 优缺点是什么？
 * 使用一种可以编译成 JavaScript 的语言来写 JavaScript 代码有哪些优缺点？
 * 你使用哪些工具和技术来调试 JavaScript 代码？
@@ -179,6 +179,7 @@
   * ETag
   * X-Frame-Options
 * 什么是 HTTP method？请罗列出你所知道的所有 HTTP method，并给出解释。
+* 请解释 HTTP status 301 与 302 的区别？
 
 #### <a name='coding-questions'>代码相关的问题：</a>
 
