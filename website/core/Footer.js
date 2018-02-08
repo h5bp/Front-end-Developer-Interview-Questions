@@ -114,7 +114,7 @@ class Footer extends React.Component {
           />
         </a>
         <section className="copyright">
-          Copyright &copy; {currentYear} Facebook Inc.
+          All content available in this site is licensed under the <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md" target="_blank">MIT license</a>.
         </section>
       </footer>
     );

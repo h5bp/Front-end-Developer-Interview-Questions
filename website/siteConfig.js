@@ -1,11 +1,7 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+/*
+ * List of projects/orgs using your project for the users page
+ * TODO: Spread the word to people that want their companies listed here.
  */
-
-/* List of projects/orgs using your project for the users page */
 const users = [
   {
     caption: 'User1',
@@ -16,17 +12,35 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
-  projectName: 'test-site',
+  title: 'Front-end Developer Interview Questions',
+  tagline: 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.',
+  url: 'http://h5bp.github.io/Front-end-Developer-Interview-Questions/',
+  baseUrl: '/',
+  projectName: 'Front-end-Developer-Interview-Questions',
   headerLinks: [
-    {doc: 'gettingstarted', label: 'Questions'},
-    {href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md', label: 'Contribute', external: true},
-    {href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md', label: 'Hall of Fame', external: true},
-    {doc: 'about', label: 'About'},
-    {href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/', label: 'Check on GitHub', external: true}
+    {
+      doc: 'gettingstarted',
+      label: 'Questions'
+    },
+    {
+      href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md',
+      label: 'Contribute',
+      external: true
+    },
+    {
+      href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md',
+      label: 'Hall of Fame',
+      external: true
+    },
+    {
+      doc: 'about',
+      label: 'About'
+    },
+    {
+      href: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/',
+      label: 'Check on GitHub',
+      external: true
+    }
   ],
   users,
   /* path to images for header/footer */
@@ -38,20 +52,16 @@ const siteConfig = {
     primaryColor: '#2E8555',
     secondaryColor: '#205C3B',
   },
-  // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' Your Name or Your Company Name',
-  // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
-  // projectName: 'test-site', // or set an env variable PROJECT_NAME
+  copyright: 'Copyright © ' + new Date().getFullYear() + ' H5BP',
+  organizationName: 'h5bp',
+  projectName: 'Front-end-Developer-Interview-Questions',
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/',
 };
 
 module.exports = siteConfig;
