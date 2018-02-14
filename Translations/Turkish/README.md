@@ -1,4 +1,4 @@
-#Ön Yüz Yazılımcısı -Front-end Developer- Mülakat Soruları
+# Ön Yüz Yazılımcısı - Front-end Developer - Mülakat Soruları
 
 Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza çıkabilecek sorular yer almaktadır. Her sorunun iş başvurularınızda karşınıza çıkması garanti değil ancak ihtimali var. Ayrıca buradaki sorular sadece iş başvurusu yapanlar için değil, bu branşta kendini geliştirmeyi düşünenler için de kaynak niteliğindedir.
 
@@ -18,9 +18,9 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
 
 ## Dahil Olmak İçin
 
-    1. [Katkıda bulunanlar](#contributors)
-    1. [Nasıl katkıda bulunabilirim?](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
-    1. [Lisans](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
+  1. [Katkıda bulunanlar](./#dahil-olmak-%C4%B0%C3%A7in)
+  1. [Nasıl katkıda bulunabilirim?](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
+  1. [Lisans](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
 #### Genel Sorular:
 
@@ -250,6 +250,14 @@ console.log('three');
 
 #### Katılımcılar:
 
-Bu belge 2009 yılında bu katılımcılarla başladı: [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
+Bu proje 2009 yılında bu katılımcılarla başladı: [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
 
-O zamandan beri [100+ yazılımcı] '(https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors) katılım sağladı.
+Bu projenin bakımı şu anda aşağıdaki kişiler tarafından yapılmaktadır:
+
+- [roblarsen](https://github.com/roblarsen)
+- [cezaraugusto](https://github.com/cezaraugusto)
+- [vvscode](https://github.com/vvscode)
+
+O zamandan beri bu [inanılmaz derecede harika insanlar](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md) sayesinde etkin durumda.
+
+İlham mı geldi? Katkı sağlamak için [Katılım rehberi](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md)mizi inceleyin!
