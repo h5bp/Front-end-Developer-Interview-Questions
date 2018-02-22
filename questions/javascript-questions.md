@@ -64,3 +64,4 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
 * How can you share code between files?
 * Why you might want to create static class members?
+* How would we improve the performance problem arising when attaching search handler functionality to "onchange" of input
