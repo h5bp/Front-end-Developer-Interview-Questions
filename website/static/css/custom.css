@@ -1,16 +1,108 @@
-/* your custom css */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+h1,
+h2,
+h3,
+h4 {
+    color: #ffa000;
 }
 
-@media only screen and (min-width: 1024px) {
+a {
+    color: #ffa000;
 }
 
-@media only screen and (max-width: 1023px) {
+.button {
+    border: 1px solid #ffa000;
+    color: #ffa000;
 }
 
-@media only screen and (min-width: 1400px) {
+.button:hover {
+    border: 1px solid #ffa000;
+    background: #ffa000;
 }
 
-@media only screen and (min-width: 1500px) {
+
+/* header */
+
+.fixedHeaderContainer {
+    background: #2f3135;
 }
+
+.navigationSlider .slidingNav ul li a:focus,
+.navigationSlider .slidingNav ul li a:hover {
+    background: #ffa000;
+}
+
+
+/* content */
+
+.mainContainer:not(.blogContainer) .wrapper .post {
+    padding: 40px 20px;
+}
+
+nav.toc .toggleNav ul li a:hover,
+nav.toc .toggleNav ul li a:focus,
+nav.toc .toggleNav ul li a.navItemActive {
+    color: #ffa000;
+}
+
+.container .wrapper h2,
+.productShowcaseSection h2 {
+    color: #ffa000;
+}
+
+pre code {
+    border-left: 4px solid #2f3135;
+}
+
+.darkBackground {
+    background: #2f3135;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive h3 {
+    background: #2f3135;
+}
+
+.mainContainer .wrapper ul li {
+    margin: 0;
+    position: relative;
+    font-weight: 300;
+    padding-left: 25px;
+    display: table;
+}
+
+.mainContainer .wrapper ul li:before {
+    content: '';
+    height: .6em;
+    width: .6em;
+    border-radius: 3px;
+    background: #2f3135;
+    display: block;
+    font-size: inherit;
+    position: absolute;
+    transform: rotate(90deg);
+    top: .6em;
+    left: 0;
+}
+
+
+/* footer */
+
+footer.nav-footer {
+    background: #2f3135;
+}
+
+
+/* media queries */
+
+@media only screen and (min-width: 360px) and (max-width: 736px) {
+    .navigationSlider .slidingNav ul {
+        background: #ffa000;
+    }
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 1500px) {}
