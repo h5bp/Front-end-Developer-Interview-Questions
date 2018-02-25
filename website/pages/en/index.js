@@ -104,13 +104,13 @@ const Features = props => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('h5bp.png'),
         imageAlign: 'top',
         title: 'Feature One',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('h5bp.png'),
         imageAlign: 'top',
         title: 'Feature Two',
       },
@@ -132,7 +132,7 @@ const Description = props => (
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('h5bp.png'),
         imageAlign: 'right',
         title: 'Description',
       },

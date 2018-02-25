@@ -5,7 +5,7 @@
 const users = [
   {
     caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
+    image: '/img/h5bp.png',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -44,8 +44,8 @@ const siteConfig = {
   ],
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/h5bp.png',
+  footerIcon: 'img/h5bp.png',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
