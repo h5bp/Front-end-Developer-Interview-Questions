@@ -23,8 +23,9 @@ a {
 /* header */
 
 .fixedHeaderContainer {
-    background: #2f3135;
+    background: #212121;
 }
+
 
 .navigationSlider .slidingNav ul li a:focus,
 .navigationSlider .slidingNav ul li a:hover {
@@ -50,15 +51,15 @@ nav.toc .toggleNav ul li a.navItemActive {
 }
 
 pre code {
-    border-left: 4px solid #2f3135;
+    border-left: 4px solid #212121;
 }
 
 .darkBackground {
-    background: #2f3135;
+    background: #212121;
 }
 
 nav.toc .toggleNav .navGroup.navGroupActive h3 {
-    background: #2f3135;
+    background: #212121;
 }
 
 .mainContainer .wrapper ul li {
@@ -74,7 +75,7 @@ nav.toc .toggleNav .navGroup.navGroupActive h3 {
     height: .6em;
     width: .6em;
     border-radius: 3px;
-    background: #2f3135;
+    background: #212121;
     display: block;
     font-size: inherit;
     position: absolute;
@@ -87,7 +88,7 @@ nav.toc .toggleNav .navGroup.navGroupActive h3 {
 /* footer */
 
 footer.nav-footer {
-    background: #2f3135;
+    background: #212121;
 }
 
 
