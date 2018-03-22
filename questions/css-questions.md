@@ -24,6 +24,7 @@
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * What is the CSS `display` property and can you give a few examples of its use?
 * What's the difference between inline and inline-block?
+* What's the difference between the "nth-of-type()" and "nth-child()" selectors?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
