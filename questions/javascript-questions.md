@@ -24,6 +24,7 @@
   * If so, what libraries have you used?
 * Explain "hoisting".
 * Describe event bubbling.
+* Describe event capturing.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
