@@ -131,7 +131,7 @@ function Person(){} var person = Person() var person = new Person()
 * 이벤트 버블링(Event Bubbling)에 대해서 설명하세요.
 * "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
 * 내장된 JavaScript 객체를 확장하는 것이 좋지 않은 이유는 무엇인가요?
-* docuemnt load event와 DOMContentLoaded event의 차이점은 무엇인가요?
+* docuement load event와 DOMContentLoaded event의 차이점은 무엇인가요?
 * `==`와 `===`의 차이점은 무엇인가요?
 * JavaScript의 "동일출처정책(the same-origin policy)"에 대해서 설명하세요.
 * 다음 코드를 동작하게 만드세요.
