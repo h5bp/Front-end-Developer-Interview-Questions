@@ -8,6 +8,7 @@
 * Can you explain any common techniques or recent issues solved in regards to front-end security?
 * What actions have you personally taken on recent projects to increase maintainability of your code?
 * Talk about your preferred development environment.
+* How do you organize your code? (directories, patterns, third-party code)
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
