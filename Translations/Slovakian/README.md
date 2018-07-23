@@ -8,7 +8,7 @@ Za prečítanie stojí tiež [Baseline For Front-End Developers](http://rmurphey
 
 ## <a name='toc'>Obsah</a>
 
-1. [Pôvodné prispievatelia](#contributors)
+1. [Pôvodní prispievatelia](#contributors)
 1. [Všeobecné otázky](#general)
 1. [HTML otázky](#html)
 1. [CSS otázky](#css)
@@ -18,7 +18,7 @@ Za prečítanie stojí tiež [Baseline For Front-End Developers](http://rmurphey
 1. [Zábavné otázky](#fun)
 1. [Ďalšie zaujímave referencie](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Pôvodný prispievatelia:</a>
+####[[⬆]](#toc) <a name='contributors'>Pôvodní prispievatelia:</a>
 
 Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vytvoreného [Paulom Irishom](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) a následne doplnená týmito osobami:
 
