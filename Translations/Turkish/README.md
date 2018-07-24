@@ -22,7 +22,7 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
   1. [Nasıl katkıda bulunabilirim?](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [Lisans](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-#### Genel Sorular:
+#### <a name='general-questions'>Genel Sorular:</a>
 
 * Dün -ya da bu hafta- neler öğrendin?
 * Kod yazmanda seni cezbeden şey ne?
@@ -48,7 +48,7 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
 
 
 
-#### HTML Soruları:
+#### <a name='html-questions'>HTML Soruları:</a>
 
 * `doctype`ın işlevi nedir?
 * Full standards mode, almost standards mode ve quirks mode arasındaki farklar nelerdir?
@@ -64,7 +64,7 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
 * Progressive rendering nedir?
 * Önceden farklı bir HTML templating dili kullandın mı?
 
-#### CSS Soruları:
+#### <a name='css-questions'>CSS Soruları:</a>
 
 * CSS'te class ve ID arasındaki farklar nelerdir?
 * "Resetting" ve "normalizing" CSS'ler arasındaki farklar nelerdir? Hangisini kullanmamız gerekir, neden?
@@ -100,7 +100,7 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
 * Hiç retina grafiklerle çalıştınız mı? Eğer çalıştıysanız ne zaman ve hangi teknikleri kullandınız?
 * `translate()` yerine *absolute positioning*, veya tam tersini kullanmak için bir sebebiniz olabilir mi? Ve neden?
 
-#### JS Soruları:
+#### <a name='js-questions'>JS Soruları:</a>
 
 * 'Event delegation' özelliğini anlatın.
 * JavaScript'te `this` nasıl çalışıyor?
@@ -156,20 +156,20 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
   * Çağrı yığını (call stack) ve görev kuyruğu (task queue) arasındaki fark nedir?
 * `foo`, `function foo() {}` ve `var foo = function() {}` arasındaki farkları açıklayın.
 
-#### Test Soruları:
+#### <a name='testing-questions'>Test Soruları:</a>
 
   * Kodunuzu test etmenin avantajları ve dezavantajları nelerdir?
   * Kodunuzun işlevselliğini sınamak için hangi araçları kullanıyorsunuz?
   * Ünite testi (unit test) ile fonksiyonel/entgrasyon testi arasındaki fark nedir?
   * Kodu lint etme aracının (code style linting tool) kullanım amacı nedir?
 
-#### Performans Soruları:
+#### <a name='performance-questions'>Performans Soruları:</a>
 
   * Kodunuzda performans problemleri bulmak için hangi araçları kullanıyorsunuz?
   * Websitenizin kaydırma (scrolling) performansını geliştirmenin yollarından bazıları nelerdir?
   * "Layout", "painting" ve "compositing" terimleri arasındaki farkları açıklayınız.
 
-#### Ağ Soruları:
+#### <a name='network-questions'>Ağ Soruları:</a>
 
   * Geleneksel olarak, neden site dosyalarını birden fazla domainden sunmak daha iyidir?
   * Web adresinin ilk adres girilirken sayfanın tam olarak yüklenmesine kadar ki işlemleri açıklayabilir misin?
@@ -183,7 +183,7 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
     * X-Frame-Options
   * HTTP metodları nelerdir? Bildiklerinizi listeleyin ve açıklayın.
 
-#### Kodlama Soruları:
+#### <a name='coding-questions'>Kodlama Soruları:</a>
 
 *Soru:`foo`'nun değeri nedir?*
 ```javascript
@@ -239,7 +239,7 @@ setTimeout(function() {
 console.log('three');
 ```
 
-#### Eğlenceli Sorular:
+#### <a name='fun-questions'>Eğlenceli Sorular:</a>
 
 * Şimdiye kadar içinde bulunduğun en havalı proje neydi?
 * Kullandığınız geliştirici araçları arasında, sevdikleriniz nelerdir?
