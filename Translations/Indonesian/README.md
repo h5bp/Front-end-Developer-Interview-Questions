@@ -14,7 +14,7 @@ File ini berisi sejumlah pertanyaan teknis yang dapat digunakan saat mewawancara
   1. [Pertanyaan Kinerja](#pertanyaan-kinerja)
   1. [Pertanyaan Jaringan](#pertanyaan-jaringan)
   1. [Pertanyaan Koding](#pertanyaan-koding)
-  1. [Pertanyaan Seru / Sampingan](#pertanyaan-seru-sampingan)
+  1. [Pertanyaan Seru / Sampingan](#pertanyaan-seru--sampingan)
   
 
 ## Cara Partisipasi
