@@ -129,6 +129,7 @@ function Person(){} var person = Person() var person = new Person()
 * 기존에 JavaScript 템플릿을 사용한 적이 있나요? 만약에 있다면, 어떠한 방식으로 사용했는지 말씀해주세요.
 * "호이스팅(Hoisting)"에 대해서 설명하세요.
 * 이벤트 버블링(Event Bubbling)에 대해서 설명하세요.
+* 이벤트 캡쳐링(Event Capturing)에 대해서 설명하세요.
 * "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
 * 내장된 JavaScript 객체를 확장하는 것이 좋지 않은 이유는 무엇인가요?
 * document load event와 DOMContentLoaded event의 차이점은 무엇인가요?
