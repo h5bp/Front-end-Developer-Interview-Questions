@@ -1,19 +1,8 @@
 # Issue Template
 
-Please answer the following questions for yourself before submitting an issue.
+The issue tracker is the preferred channel for feedback on the project, bugs relating to the publishing infrastructure (which is still a a work-in-progress) or other discussion points. 
 
-- [ ] I am running the latest version
-- [ ] I checked the documentation and found no answer
-- [ ] I checked to make sure that this issue has not already been filed
+Note:
 
-# Current status
-
-Please describe the current status of the issue you are reporting.
-
-# Proposal and Expected outcome
-
-Please describe your proposal and expected outcome from proposed work.
-
-# Failure Information (for bugs)
-
-Please help provide information about the failure if this is a bug. If it is not a bug, please remove the rest of this template.
+- *Please do not open issues or pull requests that involve including answers to any of the questions.*
+- *If you have a proposal for a new question or revision of an existing question, please just open a pull request.*

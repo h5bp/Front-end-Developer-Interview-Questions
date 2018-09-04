@@ -35,7 +35,7 @@
 * 브라우저가 한 번에 1개의 도메인에서 내려받는 자원은 몇 개인가요?
   * 예외에는 어떤 것들이 있나요?
 * 페이지 로드 시간을 줄이는 세 가지 방법에 관해서 이야기 해 보세요.
-* 당신이 프로젝트에 합류했습니다. 근데 그들은 Tab을 이용하고, 당신은 Sapce를 사용했습니다. 어떻게 하실 건가요?
+* 당신이 프로젝트에 합류했습니다. 근데 그들은 Tab을 이용하고, 당신은 Space를 사용했습니다. 어떻게 하실 건가요?
 * 간단한 Slideshow 페이지를 만드는 방법에 관해서 이야기해 보세요.
 * 만약 당신이 올해 기술적 책임자가 되었다면 무엇을 먼저 하시겠습니까?
 * 표준의 중요성에 관해 설명해주세요.
@@ -129,9 +129,10 @@ function Person(){} var person = Person() var person = new Person()
 * 기존에 JavaScript 템플릿을 사용한 적이 있나요? 만약에 있다면, 어떠한 방식으로 사용했는지 말씀해주세요.
 * "호이스팅(Hoisting)"에 대해서 설명하세요.
 * 이벤트 버블링(Event Bubbling)에 대해서 설명하세요.
+* 이벤트 캡쳐링(Event Capturing)에 대해서 설명하세요.
 * "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
 * 내장된 JavaScript 객체를 확장하는 것이 좋지 않은 이유는 무엇인가요?
-* docuemnt load event와 DOMContentLoaded event의 차이점은 무엇인가요?
+* document load event와 DOMContentLoaded event의 차이점은 무엇인가요?
 * `==`와 `===`의 차이점은 무엇인가요?
 * JavaScript의 "동일출처정책(the same-origin policy)"에 대해서 설명하세요.
 * 다음 코드를 동작하게 만드세요.

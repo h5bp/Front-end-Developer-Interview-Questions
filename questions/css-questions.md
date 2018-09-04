@@ -4,7 +4,7 @@
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
-* Describe BFC(Block Formatting Context) and how it works.
+* Describe BFC (Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
 * How would you approach fixing browser-specific styling issues?
 * How do you serve your pages for feature-constrained browsers?
@@ -24,6 +24,7 @@
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * What is the CSS `display` property and can you give a few examples of its use?
 * What's the difference between inline and inline-block?
+* What's the difference between the "nth-of-type()" and "nth-child()" selectors?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?

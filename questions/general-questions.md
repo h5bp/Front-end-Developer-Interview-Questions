@@ -24,3 +24,4 @@
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 * What does CORS stand for and what issue does it address?
+* How did you handle a disagreement with your boss or your collaborator?
