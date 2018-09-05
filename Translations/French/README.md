@@ -178,7 +178,7 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 
 #### <a name="performance-questions">Questions sur la performance</a>
 
-* Quels outils utiliseriez-vous pour trouver une érreur de performance dans votre code ?
+* Quels outils utiliseriez-vous pour trouver une erreur de performance dans votre code ?
 * Comment pouvez-vous améliorer les performances de défilement de votre site Web ?
 * Expliquez la différence entre la mise en page, la peinture et la composition.
 
