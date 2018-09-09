@@ -12,6 +12,7 @@
   1. [HTML 問題](#html-questions)
   1. [CSS 問題](#css-questions)
   1. [JS 問題](#js-questions)
+  1. [無障礙 問題](https://scottaohara.github.io/accessibility_interview_questions/) (外部連結)
   1. [測試問題](#testing-questions)
   1. [效能問題](#performance-questions)
   1. [網路問題](#network-questions)
@@ -30,30 +31,32 @@
 * 你昨天或這週學習了什麼？
 * 寫程式的哪部份最讓你感到很興奮或是有興趣？
 * 最近有無遇過不容易的技術性問題，又如何解決？
-* 當你開發Web應用程式或網站時，針對UI、安全性、效能、SEO、維護性，以及技術，你考量的點是什麼？
+* 當你開發或維護一個網站時，你用了哪些技術或方法提高整體效能？
+* 你能描述針對SEO的最佳實踐方法或技術嗎？
+* 你能解釋前端在安全性方面常見的技術問題嗎？
+* 你個人在最近的專案上，使用了哪些技術提高整體程式碼的可維護性？
 * 說說你喜好的開發環境 (作業系統, 編輯器或 IDE, 瀏覽器, 開發工具 … 之類)。
 * 你最熟悉哪一套版本控制系統？
 * 你可以描述你在開發一個網站時的工作流程嗎？
 * 如果有 5 種不同的樣式表 (stylesheets)，該如何整併到網站？
 * 你可以描述漸進增強 (progressive enhancement) 和優美退化 (graceful degradation) 間的差異嗎？
 * 你怎麼優化一個網站的靜態檔案 (assets) 和資源 (resources)？
+* 瀏覽器在同一時間能從相同網域來源下載多少資源？
+* 有什麼例外？ (接續上一題)
 * 說出三種能加快網頁讀取速度的方法 (感覺上的速度或是真正的讀取時間)。
 * 如果你加入了一個專案，但是他們的程式碼用 tabs，但是你習慣用spaces (空白鍵)，你會怎麼做？
 * 寫一個簡易的投影片頁面。
-* 你用什麼工具來測試你的程式碼效能？
 * 如果今年你能精通一項技術，那會是什麼？
 * 描述標準和製定標準機構的重要性？
 * 什麼是 Flash of Unstyled Content？ 你怎麼避免 FOUC？
 * 解釋什麼是 ARIA 與 screenreaders，它們是怎麼樣讓網站使用更無障礙？
 * 解釋 CSS 動畫與 JavaScript 動畫之間的憂與劣。
 * CORS 是什麼，它解決了什麼問題？
+* 你如何處理老闆與合作夥伴間的意見分歧？
 
 #### <a name='html-questions'>HTML 問題:</a>
 
 * `doctype` 做什麼用的？
-* standards mode 和 quirks mode 有什麼不同？
-* 使用 XHTML 有什麼限制？?
-* 如果網頁使用 `application/xhtml+xml` 會有問題嗎？
 * 你怎麼做一個需要支持多國語言的網頁？
 * 當開發和設計一個多國語言網站時，有什麼需要小心的？
 * `data-` 屬性的好處在哪？
@@ -62,6 +65,7 @@
 * 描述下列之間的不同 `<script>`, `<script async>` & `<script defer>`。
 * 為什麼把 CSS `<link>` 放在 `<head></head>` 之間，與將 JS `<script>` 放在 `</body>` 之前是個較好的主意？有什麼例外情形嗎？
 * 什麼是漸進式呈現？
+* 為什麼在image標籤中使用`srcset`？試著解釋瀏覽器遇到此屬性時，對其內容計算評估的過程。
 * 有用過 HTML 樣板語言（template languages）嗎？
 
 #### <a name='css-questions'>CSS 問題：</a>
