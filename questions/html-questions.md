@@ -11,3 +11,5 @@
 * What is progressive rendering?
 * Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Have you used different HTML templating languages before?
+* What's your process for addressing browser-specific rendering problems? Do you find that a certain browser is more challenging to work with than others?
+* Explain Why Table-less Layout Is Very Important?
