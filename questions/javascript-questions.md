@@ -64,3 +64,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
 * How can you share code between files?
 * Why you might want to create static class members?
+* If you have a function that generate random number between 1 to 5 how could u generate random number 1 to 7 by using that function?
+* Count Total number of zeros from 1 upto n?
+
+
