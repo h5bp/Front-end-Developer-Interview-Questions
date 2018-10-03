@@ -25,5 +25,4 @@
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 * What does CORS stand for and what issue does it address?
 * How did you handle a disagreement with your boss or your collaborator?
-* What are your favorite types of front end development projects to work on? What do you like about them?
 * What resources do you use to learn about the latest in front end development and design?
