@@ -15,6 +15,12 @@ console.log(0.1 + 0.2 == 0.3);
 add(2, 5); // 7
 add(2)(5); // 7
 ```
+And extend this to `n` inputs
+```javascript
+add(2)(5)(4)(); // 11
+add(2)(5)(4)(2)(); // 13
+add(2)(5)(4)(2)(10)(); // 23
+```
 
 *Question: What value is returned from the following statement?*
 ```javascript
