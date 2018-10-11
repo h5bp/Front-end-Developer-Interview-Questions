@@ -11,3 +11,7 @@
   * ETag
   * X-Frame-Options
 * What are HTTP methods? List all HTTP methods that you know, and explain them.
+* What does the below tag do ?
+  ```
+  html <link rel="dns-prefetch" href="http://www.github.com/">
+  ```
