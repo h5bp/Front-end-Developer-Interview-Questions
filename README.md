@@ -45,6 +45,8 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 * What does CORS stand for and what issue does it address?
+* What do you do when you find a bug in your code? What do you do if you can't resolve?
+* How do you decide which technology/frameworks you will use while replatforming/refactoring your project?
 
 #### HTML Questions:
 
