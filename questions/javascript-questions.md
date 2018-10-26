@@ -64,4 +64,4 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
 * How can you share code between files?
 * Why you might want to create static class members?
-* At what time will the Settimeout() function be executed, if called at 4000 milliseconds?
+* After how much time will the `callback` be executed if invoked as: `setTimeout(callback, 4000)`?
