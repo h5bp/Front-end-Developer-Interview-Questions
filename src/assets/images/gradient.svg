@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="740px" viewBox="0 0 800 740" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3%" y1="3%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#835EFF" offset="0%"></stop>
+            <stop stop-color="#FF008D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="x" fill="url(#linearGradient-1)">
+            <polygon id="Path" points="0 0 800 0 800 740 0 740"></polygon>
+        </g>
+    </g>
+</svg>

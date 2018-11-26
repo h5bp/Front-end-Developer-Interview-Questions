@@ -1,0 +1,24 @@
+.nav {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  font-size: 1rem;
+}
+
+.navigation-item-emoji {
+  margin-right: 0.8rem;
+}
+
+.navigation-item-emoji a {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navigation-item:not(:last-of-type) {
+  margin-right: 0.8rem;
+}

@@ -1,0 +1,16 @@
+---
+title: 404 - Page not found
+description: Think this is wrong? [Open an issue](https://github.com/h5bp/Front-end-Developer-Interview-Questions/issues/new)
+permalink: /404.html
+excludeFromSitemap: true
+---
+{% extends 'layouts/page.njk' %}
+
+{% set content %}
+{% endset %}
+
+{% block main %}
+  <div class="content">
+    {{ content | markdownify | safe }}
+  </div>
+{% endblock %}

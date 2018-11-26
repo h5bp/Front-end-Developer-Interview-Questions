@@ -1,0 +1,26 @@
+
+{
+  "all": [
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/4672033?v=4",
+      "name": "Cezar Augusto",
+      "website": "https://cezaraugusto.net",
+      "github": "https://github.com/cezaraugusto",
+      "twitter": "https://twitter.com/cezaraugusto"
+    },
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/361421?v=4",
+      "name": "Rob Larsen",
+      "website": "http://htmlcssjavascript.com/",
+      "github": "https://github.com/roblarsen",
+      "twitter": "https://twitter.com/robreact"
+    },
+    {
+      "avatar": "https://avatars1.githubusercontent.com/u/6904368?v=4",
+      "name": "Vasiliy Vanchuk",
+      "website": "https://bit.ly/vvscodeli",
+      "github": "https://github.com/vvscode",
+      "twitter": "https://twitter.com/vvscode"
+    }
+  ]
+}
