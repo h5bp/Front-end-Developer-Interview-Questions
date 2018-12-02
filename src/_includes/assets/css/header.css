@@ -47,7 +47,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url('/assets/images/gradient.svg');
+    background-image: url('https://h5bp.github.io/Front-end-Developer-Interview-Questions/assets/images/gradient.svg');
     pointer-events: none;
   }
   .header-big-title::before {

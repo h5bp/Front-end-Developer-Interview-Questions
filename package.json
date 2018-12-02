@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
   "scripts": {
-    "build": "eleventy --config=config/eleventy.config.js",
+    "build": "eleventy --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'",
     "deploy": "git subtree push --prefix _site git@github.com:h5bp/Front-end-Developer-Interview-Questions.git gh-pages",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "start": "eleventy --config=config/eleventy.config.js --serve --port 9090"
+    "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet"
   },
   "repository": {
     "type": "git",

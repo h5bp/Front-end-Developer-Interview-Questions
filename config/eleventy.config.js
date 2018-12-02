@@ -64,7 +64,7 @@ module.exports = eleventyConfig => {
   })
 
   eleventyConfig.addFilter('github_permalink', str => {
-    return str.replace(/\.html/g, '')
+    return str.replace(/\/index.html/g, '.md')
   })
 
   eleventyConfig.addFilter('permalink', str => {
