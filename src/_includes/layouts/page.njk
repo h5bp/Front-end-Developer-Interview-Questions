@@ -1,0 +1,25 @@
+{% extends 'layouts/default.njk' %}
+
+{% block pageTop %}
+  <header class="header">
+    {% if heading and heading === true %}
+      <h1 class="header-heading">{{ title }}</h1>
+    {% else %}
+      <h1 class="header-big-title">{{ title }}</h1>
+    {% endif %}
+    {% if description %}
+      <p class="header-description">{{ description | markdownify_inline | safe }}</p>
+    {% endif %}
+  </header>
+{% endblock %}
+
+{% block main %}
+  <div class="content">
+    {{ content | safe }}
+  </div>
+  <div class="content-edit">
+    <a rel="external noreferrer noopener" target="_blank" href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/src{{ permalink | github_permalink }}">
+      Edit this page
+    </a>
+  </div>
+{% endblock %}
