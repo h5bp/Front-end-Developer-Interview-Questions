@@ -56,15 +56,29 @@ Adhering to the following process is the best way to get your work included in t
    git pull [--rebase] upstream master
    ```
 
-5. Squash your commits down to a single one (we want to keep the master branch nice and clean)
+5. Set-up the website
 
-5. Push your topic branch up to your fork:
+  ```bash
+  # install dependencies
+  npm install
+  # run the website and watch for changes (http://localhost:9090)
+  npm start
+  ```
+
+Our website is made with [Eleventy](https://11ty.io).
+
+* If you are looking to edit infrastructure/templating files of the website and not sure how to, [check their docs](https://11ty.io/docs).
+* If you are looking to change a question/translation file, just change the markdown file you want and the website will be updated once it is deployed.
+
+6. Squash your commits down to a single one (we want to keep the master branch nice and clean)
+
+7. Push your topic branch up to your fork:
 
    ```bash
    git push origin <topic-branch-name>
    ```
 
-7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
+8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
     with a clear title and description.
 
 **IMPORTANT**: By submitting patches, you agree to allow the project owners to license your work under the terms of the [MIT License](../LICENSE.md).
