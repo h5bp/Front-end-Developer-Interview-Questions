@@ -1,0 +1,15 @@
+<nav class="nav">
+  <ul class="navigation">
+    <li class="navigation-item"><span class="navigation-anchor">Questions:</span></li>
+    {% for entry in questions.all %}
+      {% if not entry.external %}
+      <li class="navigation-item"><a class="navigation-anchor" href="{{ entry.url | url }}" title="{{ entry.title }}">{{ entry.abbreviation }}</a></li>
+      {% else %}
+      <li class="navigation-item"><a rel="external noreferrer noopener" target="_blank" class="navigation-anchor" href="{{ entry.url }}" title="{{ entry.title }} (external link)">{{ entry.abbreviation }}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li class="navigation-item">|</li>
+    <li class="navigation-item-emoji"><a class="navigation-anchor" href="{{ '/' | url }}" title="Home">🏠</a></li>
+    <li class="navigation-item-emoji"><a class="navigation-anchor" href="{{ '/translations' | url }}" title="Translations">🌐</a></li>
+  </ul>
+</nav>
