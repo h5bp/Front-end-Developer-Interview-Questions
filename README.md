@@ -6,16 +6,16 @@ This file contains a number of front-end interview questions that can be used wh
 
 ## Table of Contents
 
-  1. [General Questions](questions/general-questions.md)
-  1. [HTML Questions](questions/html-questions.md)
-  1. [CSS Questions](questions/css-questions.md)
-  1. [JS Questions](questions/javascript-questions.md)
+  1. [General Questions](src/questions/general-questions.md)
+  1. [HTML Questions](src/questions/html-questions.md)
+  1. [CSS Questions](src/questions/css-questions.md)
+  1. [JS Questions](src/questions/javascript-questions.md)
   1. [Accessibility Questions](https://scottaohara.github.io/accessibility_interview_questions/) (external link)
-  1. [Testing Questions](questions/testing-questions.md)
-  1. [Performance Questions](questions/performance-questions.md)
-  1. [Network Questions](questions/network-questions.md)
-  1. [Coding Questions](questions/coding-questions.md)
-  1. [Fun Questions](questions/fun-questions.md)
+  1. [Testing Questions](src/questions/testing-questions.md)
+  1. [Performance Questions](src/questions/performance-questions.md)
+  1. [Network Questions](src/questions/network-questions.md)
+  1. [Coding Questions](src/questions/coding-questions.md)
+  1. [Fun Questions](src/questions/fun-questions.md)
 
 ## Getting Involved
 
@@ -29,9 +29,9 @@ This project started in 2009 as a collaboration of [@paul_irish](https://twitter
 
 This project is currently maintained by:
 
-- [roblarsen](https://github.com/roblarsen)
-- [cezaraugusto](https://github.com/cezaraugusto)
-- [vvscode](https://github.com/vvscode)
+- [@roblarsen](https://github.com/roblarsen)
+- [@cezaraugusto](https://github.com/cezaraugusto)
+- [@vvscode](https://github.com/vvscode)
 
 It has since been active thanks to these [incredibly wonderful people](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
 

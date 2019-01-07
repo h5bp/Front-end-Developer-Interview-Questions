@@ -1,0 +1,71 @@
+.topbar {
+  width: 100%;
+  height: 0.18rem;
+  background: var(--color-gradient);
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header-big-title {
+  font-size: 6.9rem;
+  line-height: 1.06;
+  margin: 2.1rem 0;
+  color: var(--color-primary);
+  word-break: break-word;
+}
+
+@supports (mix-blend-mode: lighten) {
+  .header-big-title {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+  }
+  .header-big-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://h5bp.github.io/Front-end-Developer-Interview-Questions/assets/images/gradient.svg');
+    pointer-events: none;
+  }
+  .header-big-title::before {
+    mix-blend-mode: screen;
+  }
+}
+
+.header-heading {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
+.header-big-description {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  padding: 1rem 0;
+}
+
+.header-description {
+  padding-top: 1rem;
+}
