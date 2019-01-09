@@ -6,7 +6,7 @@ permalink: /translations/slovakian/index.html
 
 # Otázky k pohovoru: front-end vývojár
 
-Tento repozitár obsahuje rad otázok, ktoré môžete položiť pri pohovore kandidátovi na pozíciu front-end vývojár a overiť si tak jeho znalosti v tomto odbore. Nie je zamýšľané položiť všetky tieto otázky (ich korektné zodpovedanie by trvalo hodiny), bohato postačí len určitú časť vyhovujúci vašim potrebám.
+Tento repozitár obsahuje rad otázok, ktoré môžete položiť pri pohovore kandidátovi na pozíciu front-end vývojár a overiť si tak jeho znalosti v tomto odbore. Nie je zamýšľané položiť všetky tieto otázky (ich korektné zodpovedanie by trvalo hodiny), bohato postačí len určitú časť vyhovujúcu vašim potrebám.
 
 Za prečítanie stojí tiež [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) (anglicky) od [Rebecci Murphey](http://rmurphey.com/).
  
@@ -46,7 +46,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * Čo vás vzrušuje alebo zaujíma na kódovaní?
 * Povedzte niečo o vašom obľúbenom vývojovom prostredí (operačný systém, editor, prehliadač, nástroje, ...).
 * Opíšte ako postupujete pri vytváraní novej webovej stránky.
-* Dokážete vysvetliť rozdiel medzi pozvoľným degradováním (graceful degradation) a postupným vylepšovaním (progressive enhancement)?
+* Dokážete vysvetliť rozdiel medzi pozvoľným degradovaním (graceful degradation) a postupným vylepšovaním (progressive enhancement)?
   * Body navyše za opis detekcie pokročilej funkcionality
 * Vysvetlite pojem "sémantické HTML".
 * Ako by ste optimalizovali zdroje (obrázky, JS, CSS, ...) webovej stránky?
@@ -86,7 +86,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 
 * Opíšte čo robí a na čo je dobrý "reset" CSS súbor.
 * Opíšte obtekanie (floats) a ako funguje.
-* Popíšte rôzne techniky pre zastavenie obtekanie (clear fixing) a povedzte, ktoré sa hodia v ktorom kontexte.
+* Popíšte rôzne techniky pre zastavenie obtekania (clear fixing) a povedzte, ktoré sa hodia v ktorom kontexte.
 * Vysvetlite, čo to sú CSS sprites a ako by ste ich implementovali.
 * Aká je vaša obľúbená technika pre nahrádzanie obrázkov a ktorú a kedy používate?
 * CSS property hacks, podmienené vkladanie .css súborov alebo niečo ďalšie?
@@ -97,7 +97,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * Použili ste niekedy mediálne selektory (media query) alebo špecifický layout/CSS pre mobilné zariadenia?
 * Máte nejaké skúsenosti so štýlovaním SVG?
 * Ako optimalizujete stránky pre tlač?
-* Aké sú zásady pre písanie efektnivního CSS?
+* Aké sú zásady pre písanie efektívneho CSS?
 * Aké sú výhody/nevýhody použítia CSS preprocesorov (SASS, Compass, Stylus, LESS)?
   * Popíšte, čo sa Vám na CSS preprocesoroch, ktoré ste použili, páči/nepáči.
 * Ako by ste implementovali návrh webovej stránky, ktorá používa neštandardné rezy písma?
@@ -114,8 +114,8 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * Ako testujete JavaScript?
 * AMD vs. CommonJS?
 * Čo je hashovacia tabuľka?
-* Vysvetlite prečo nasledujúce volanie nebude fungovať ako IIFE : `function foo(){ }();`.
-  * Čo musíte zmeniť, aby volania zafungovalo ako IIFE?
+* Vysvetlite, prečo nasledujúce volanie nebude fungovať ako IIFE : `function foo(){ }();`.
+  * Čo musíte zmeniť, aby volanie zafungovalo ako IIFE?
 * Vysvetlite rozdiel medzi premennou, ktorá je `null`, `undefined` alebo `undeclared`?
   * Akým spôsobom by ste overili tieto jednotlivé stavy?
 * Čo to je "closure" a ako/prečo by sme ich mali používať?
@@ -135,12 +135,12 @@ var person = new Person()
 * Aký je rozdiel medzi `undefined` a `null`?
 * Vysvetlite `Function.prototype.bind`.
 * Kedy optimalizujete váš kód?
-* Vysvetlite ako funguje dedičnosť v JavaScripte.
+* Vysvetlite, ako funguje dedičnosť v JavaScripte.
 * Kedy by ste použili `document.write()`?
   * Väčšina generovaných reklám stále používa tento prístup aj napriek tomu, že je to dlhodobo odsudzované.
-* Aký je rozdiel medzi detekciou vlastností, odvodenie vlastností a použitie UA reťazca?
+* Aký je rozdiel medzi detekciou vlastností, odvodením vlastností a použitím UA reťazca?
 * Vysvetlite AJAX čo najpodrobnejšie to ide.
-* Vysvetlite ako funguje JSONP (a prečo to nie je naozajstný AJAX).
+* Vysvetlite, ako funguje JSONP (a prečo to nie je naozajstný AJAX).
 * Použili ste niekedy JavaScriptové šablóny?
   * Ak áno, ktoré knižnice ste použili (mustache.js, Handlebars, ...)?
 * Vysvetlite "hoisting".
@@ -150,14 +150,14 @@ var person = new Person()
 * Prečo je dobrý nápad rozširovať natívne JavaScriptové objekty?
 * Aký je rozdiel medzi udalosťami "document load" a "document ready"?
 * Aký je rozdiel medzi `==` a `===`?
-* Vysvetlite akým spôsobom získate parameter z URL zadaného v okne prehliadača.
+* Vysvetlite, akým spôsobom získate parameter z URL zadaného v okne prehliadača.
 * Vysvetlite JavaScriptové pravidlo rovnakého pôvodu (same-origin policy).
 * Opíšte prístupy dedenia v JavaScripte.
 * Nasledujúci kód upravte tak, aby fungoval:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Opíšte stratégia pre memorizáciu (odstránenie opakovaných výpočtov) v JavaScripte.
+* Opíšte stratégiu pre memorizáciu (odstránenie opakovaných výpočtov) v JavaScripte.
 * Prečo sa hovorí ternárny operátor, čo označuje slovo ternárny?
 * Čo je označované ako "arita" funkcie?
 * Čo znamená `"use strict";`? Aké sú výhody a nevýhody použitia?
@@ -232,7 +232,7 @@ foo.push(2);
 * Máte nejaký vlastný hobby projekt?
 * Aká je Vaša obľúbená vlastnosť Internet Exploreru?
 
-####[[⬆]](#toc) <a name='references'>Ďalšie zaujímave referencie:</a>
+####[[⬆]](#toc) <a name='references'>Ďalšie zaujímavé referencie:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
