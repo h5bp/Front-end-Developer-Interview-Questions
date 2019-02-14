@@ -1,8 +1,8 @@
 <nav class="nav">
-  <ul class="navigation">
+  <ul class="navigation" id="navigation">
     <li class="navigation-item navigation-questions-label"><button class="navigation-toggle" id="navigation-toggle">Questions:</button></li>
     <li class="navigation-item navigation-questions">
-      <ul class="navigation navigation-questions-list" id="navigation-questions">
+      <ul class="navigation navigation-questions-list">
         {% for entry in questions.all %}
           {% if not entry.external %}
           <li class="navigation-item"><a class="navigation-anchor{{" current" if entry.url == page.url else "" }}" href="{{ entry.url | url }}" title="{{ entry.title }}">{{ entry.abbreviation }}</a></li>

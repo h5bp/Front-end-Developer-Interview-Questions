@@ -4,25 +4,25 @@ console.log(
 )
 
 var navToggle = document.getElementById('navigation-toggle')
-var navQuestions = document.getElementById('navigation-questions')
+var nav = document.getElementById('navigation')
 
 navToggle.addEventListener('click', function() {
-  if (navQuestions.classList.contains('active')) {
-    navQuestions.classList.remove('active')
+  if (nav.classList.contains('open')) {
+    nav.classList.remove('open')
   } else {
-    navQuestions.classList.add('active')
+    nav.classList.add('open')
   }
 })
 
 window.addEventListener('resize', function() {
   if (document.width > 960) {
     // Remove `active` class if viewport shows full menu
-    navQuestions.classList.remove('active')
+    nav.classList.remove('active')
   } else {
     // Temporarily add class to prevent visible motion after resize
-    navQuestions.classList.add('no-motion')
+    nav.classList.add('no-motion')
     setTimeout(function () {
-      navQuestions.classList.remove('no-motion')
+      nav.classList.remove('no-motion')
     }, 250);
   }
 })

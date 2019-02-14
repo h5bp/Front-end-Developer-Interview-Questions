@@ -33,17 +33,24 @@
 }
 
 .navigation-toggle::after {
-  content: '\2630';
-  padding-left: .3rem;
-  font-size: 1.3rem;
+  content: '\25BE';
+  padding-left: 0.3rem;
+  display: inline-block;
+  font-family: var(--font-family-heading);
+  font-size: 1.2rem;
   font-weight: bold;
   color: var(--color-primary);
+  transform-origin: center;
 }
 
 .navigation-toggle:hover::after,
 .navigation-toggle:active::after,
 .navigation-toggle:focus::after {
   color: var(--color-secondary);
+}
+
+.navigation.open .navigation-toggle::after {
+  transform: scaleY(-1) translateY(-0.25em);
 }
 
 @media (min-width: 60em) {
@@ -59,54 +66,38 @@
 }
 
 .navigation-questions-list {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   flex-direction: column;
   position: absolute;
   top: calc(100% - 1rem);
-  right: 0;
+  left: 0;
   z-index: 1;
   opacity: 0;
-  transform: scale(.5);
-  transform-origin: right top;
+  transform: scale(0.5, 0);
+  transform-origin: center top;
   transition: opacity .1s, transform .2s ease-out;
-  text-align: right;
   background-color: #fff;
   box-shadow: 0 0 0 1px var(--color-secondary), 0 2px 4px -1px var(--color-text);
 }
 
-.navigation-questions-list.active {
+.navigation.open .navigation-questions-list {
   opacity: 1;
   transform: none;
 }
 
-.navigation-questions-list.no-motion {
+.navigation.no-motion .navigation-questions-list {
   transition: none;
-}
-
-@media (min-width: 30em) {
-  .navigation-questions-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    left: 0;
-  }
-
-  .navigation-questions-list li {
-    margin: .25rem .5rem;
-  }
 }
 
 @media (min-width: 60em) {
   .navigation-questions-list {
     padding: 0;
-    flex-wrap: no-wrap;
-    justify-content: flex-start;
+    flex-direction: row;
     position: static;
     opacity: 1;
     transform: none;
     transition: none;
-    text-align: left;
     background-color: transparent;
     box-shadow: none;
   }
@@ -115,7 +106,6 @@
     margin: 0;
   }
 }
-
 
 .navigation-divider {
   display: none;
