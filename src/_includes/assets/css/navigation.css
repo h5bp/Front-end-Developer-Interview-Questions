@@ -12,12 +12,12 @@
 }
 
 .navigation-questions-label {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 60em) {
   .navigation-questions-label {
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -116,15 +116,6 @@
   }
 }
 
-.navigation-item-emoji {
-  order: -2;
-}
-
-@media (min-width: 60em) {
-  .navigation-item-emoji {
-    order: 1;
-  }
-}
 
 .navigation-divider {
   display: none;
