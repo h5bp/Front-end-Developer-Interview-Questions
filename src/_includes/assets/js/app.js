@@ -7,11 +7,7 @@ var navToggle = document.getElementById('navigation-toggle')
 var nav = document.getElementById('navigation')
 
 navToggle.addEventListener('click', function() {
-  if (nav.classList.contains('open')) {
-    nav.classList.remove('open')
-  } else {
-    nav.classList.add('open')
-  }
+  nav.classList.toggle('open')
 })
 
 window.addEventListener('resize', function() {
