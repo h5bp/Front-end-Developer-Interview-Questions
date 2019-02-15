@@ -107,6 +107,20 @@
   }
 }
 
+.navigation-questions-anchor {
+  visibility: hidden;
+}
+
+.navigation.open .navigation-questions-anchor {
+  visibility: visible;
+}
+
+@media (min-width: 60em) {
+  .navigation-questions-anchor {
+    visibility: visible;
+  }
+}
+
 .navigation-divider {
   display: none;
 }
