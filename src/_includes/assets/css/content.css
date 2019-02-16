@@ -41,7 +41,7 @@ a:focus:not(.skip-link) {
   color: var(--color-primary);
 }
 
-a[rel~='external'] {
+a:not(.navigation-anchor)[rel~='external'] {
   text-decoration: overline;
 }
 
@@ -133,10 +133,16 @@ abbr[title], acronym[title] {
 }
 
 .container {
-  max-width: 54rem;
-  padding: 3rem 4rem 4rem;
+  max-width: 66rem;
+  padding: 1.5rem 2rem 2rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (min-width: 30rem) {
+  .container {
+    padding: 3rem 4rem 4rem;
+  }
 }
 
 .content li:not(:last-of-type) {

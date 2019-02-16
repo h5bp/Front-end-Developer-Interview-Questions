@@ -24,11 +24,25 @@
 }
 
 .header-big-title {
-  font-size: 6.9rem;
+  font-size: 2.3rem;
   line-height: 1.06;
-  margin: 2.1rem 0;
+  margin: 1.4rem 0 0.7rem;
   color: var(--color-primary);
   word-break: break-word;
+}
+
+@media (min-width: 30em) {
+  .header-big-title {
+    margin: 1.4rem 0;
+    font-size: 4.6rem;
+  }
+}
+
+@media (min-width: 60em) {
+  .header-big-title {
+    margin: 2.1rem 0;
+    font-size: 6.9rem;
+  }
 }
 
 @supports (mix-blend-mode: lighten) {
@@ -61,9 +75,21 @@
 }
 
 .header-big-description {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   padding: 1rem 0;
+}
+
+@media (min-width: 30em) {
+  .header-big-description {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 60em) {
+  .header-big-description {
+    font-size: 1.8rem;
+  }
 }
 
 .header-description {
