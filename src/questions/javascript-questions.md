@@ -12,12 +12,12 @@ permalink: /questions/javascript-questions/index.html
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
 * What language constructions do you use for iterating over object properties and array items?
-* Can you describe the main difference between a `forEach` loop and a `.map()` loop and why you would pick one versus the other?
+* Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?
 * What's a typical use case for anonymous functions?
 * What's the difference between host objects and native objects?
 * Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
-* Can you explain what `.call` and `.apply` do? What's the notable difference between the two?
+* Can you explain what `Function.call` and `Function.apply` do? What's the notable difference between the two?
 * Explain `Function.prototype.bind`.
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain "hoisting".
