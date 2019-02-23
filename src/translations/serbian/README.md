@@ -15,7 +15,7 @@ Pre intevjua, preporučujemo da proučite članak: [Rebecca Murphey](http://rmur
 
 **Napomena:** Uzmite u obzir da veliki broj dole navedenih pitanja može biti korisna tema za razgovor koja će Vam možda reći vise o sposobnostima osobe nego direktni odgovori.
 
-####Autori originalne liste
+#### Autori originalne liste
 
 Većina pitanja je preuzeta sa [oksoclap](http://oksoclap.com/) tj. rasprave koju je originalno pokrenuo [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) i kojoj su doprineli:
 

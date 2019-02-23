@@ -24,7 +24,7 @@ Ebben a gyűjteményben összeválogattuk a legjobb front-end fejlesztő interj�
   1. [Választható és vicces kérdések](#fun)
   1. [További referenciák](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Eredeti közreműködők:</a>
+#### [[⬆]](#toc) <a name='contributors'>Eredeti közreműködők:</a>
 
 A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapján készült, amit [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) kezdeményezett az alábbi közreműködőkkel:
 
@@ -40,7 +40,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * [@wookiehangover](http://twitter.com/wookiehangover) - [http://wookiehangover.com](http://wookiehangover.com)
 * [@iansym](http://twitter.com)
 
-####[[⬆]](#toc) <a name='general'>Általános kérdések:</a>
+#### [[⬆]](#toc) <a name='general'>Általános kérdések:</a>
 
 * Tanultál valami újat a héten/tegnap és ha igen, mit?
 * Mi számodra a legérdekesebb és izgalmasabb a kódolás során?
@@ -77,7 +77,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Magyarázt el legjobb tudásod szerint mi történik a böngészőben attól kezdve hogy beírod az oldal url-jét, addig hogy az betöltődött a képernyőn.
 * Magyarázd el mi az ARIA és a képernyőolvasók, és hogy tudsz egy weboldalt hozzáférhetővé tenni hátrányos helyzetben élők számára.
 
-####[[⬆]](#toc) <a name='html'>HTML kérdések:</a>
+#### [[⬆]](#toc) <a name='html'>HTML kérdések:</a>
 
 * Mi a `doctype` feladata és hány fajtáját tudod megnevezni?
 * Mi a különbség a `standard` és a `quirks` módok között?
@@ -92,7 +92,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Mi a különbség a `<script>`, `<script async>` és `<script defer>` között.
 
 
-####[[⬆]](#toc) <a name='css'>CSS kérdések:</a>
+#### [[⬆]](#toc) <a name='css'>CSS kérdések:</a>
 
 * Mire való a "reset" CSS fájl és mennyire hasznos?
 * Hogyan működik a CSS `float`?
@@ -125,7 +125,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Miben más a reszponzív design és az adaptív design?
 * Dolgoztál már retina grafikával? Ha igen, milyen teknikákat használtál?
 
-####[[⬆]](#toc) <a name='js'>JS kérdések:</a>
+#### [[⬆]](#toc) <a name='js'>JS kérdések:</a>
 
 * Mit jelent az `event delegation`?
 * Magyarázd el hogyan működik a `this` a JavaScript-ben.
@@ -178,7 +178,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 * Készíts egy ciklust ami 100-ig számol, minden 3-al osztható számnál kiírja hogy "fizz", minden 5-el osztható számnál kiírja hogy "buzz", és minden 3-al és 5-el is osztható számnál kiírja hogy "fizzbuzz"
 * Általánosságban miért jó ötlet a weboldal global scope-ját érintetlenül hagyni?
 
-####[[⬆]](#toc) <a name='jquery'>jQuery kérdések:</a>
+#### [[⬆]](#toc) <a name='jquery'>jQuery kérdések:</a>
 
 * Mit jelent a `chaining`?
 * Mit jelent a `deferreds`?
@@ -196,7 +196,7 @@ A kérdések többsége egy [oksoclap](http://oksoclap.com/) beszélgetés alapj
 $(".foo div#bar:eq(0)")
 ```
 
-####[[⬆]](#toc) <a name='jscode'>Példakódok:</a>
+#### [[⬆]](#toc) <a name='jscode'>Példakódok:</a>
 
 ```javascript
 modulo(12, 5) // 2
@@ -238,14 +238,14 @@ foo.push(2);
 
 **Válasz: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Választható és vicces kérdések:</a>
+#### [[⬆]](#toc) <a name='fun'>Választható és vicces kérdések:</a>
 
 * Mi a legjobb dolog, amit eddig kódoltál? Mire vagy a legbüszkébb?
 * Mi a kedvenced az általad használt fejlesztői eszközökben?
 * Van dédelgetett projekted? Ha igen, milyen?
 * Mit szeretsz a legjobban az Internet Explorerben?
 
-####[[⬆]](#toc) <a name='references'>További referenciák:</a>
+#### [[⬆]](#toc) <a name='references'>További referenciák:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
