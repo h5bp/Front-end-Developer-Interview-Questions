@@ -266,7 +266,7 @@ foo.push(2);
 * Какво най-много ви харесва в Internet Explorer?
 * Как предпочитате кафето си?
 
-####[[⬆]](#toc) <a name='references'>Допълнителни ресурси:</a>
+#### [[⬆]](#toc) <a name='references'>Допълнителни ресурси:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/

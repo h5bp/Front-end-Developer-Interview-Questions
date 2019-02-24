@@ -24,7 +24,7 @@ permalink: /translations/latvian/index.html
   1. [Interesanti Jautājumi](#fun)
   1. [Citas Lieliskas Atsauces](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Sākotnējie Kontributori:</a>
+#### [[⬆]](#toc) <a name='contributors'>Sākotnējie Kontributori:</a>
 
 Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta, ko sākotnēji izveidoja [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) un kuru papildināja sekojoši cilvēki:
 
@@ -40,7 +40,7 @@ Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-####[[⬆]](#toc) <a name='general'>Vispārēji Jautājumi:</a>
+#### [[⬆]](#toc) <a name='general'>Vispārēji Jautājumi:</a>
 
 * Ko jaunu Jūs apguvāt vakar/šonedēļ?
 * Kas Jūs aizrauj un interesē programmēšanā?
@@ -73,7 +73,7 @@ Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta
 * Izskaidrojiet standartu un standartizēšanas komisiju nozīmi.
 * Kas ir FOUC? Kā izvairīties no FOUC?
 
-####[[⬆]](#toc) <a name='html'>HTML Jautājumi:</a>
+#### [[⬆]](#toc) <a name='html'>HTML Jautājumi:</a>
 
 * Ko dara `doctype`?
 * Kāda ir starpība starp standarta režīmu un quirks režīmu?
@@ -85,7 +85,7 @@ Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta
 * Pieņemot, ka HTML5 ir atvērta web-platforma, kas ir HTML5 pamatelementi?
 * Aprakstiet atšķirības starp sīkdatnēm (cookies), sessionStorage un localStorage.
 
-####[[⬆]](#toc) <a name='css'>CSS Jautājumi:</a>
+#### [[⬆]](#toc) <a name='css'>CSS Jautājumi:</a>
 
 * Aprakstiet, ko dara "reset" CSS fails un ar ko tas ir noderīgs.
 * Aprakstiet Float parametru un to, kā tas strādā.
@@ -108,7 +108,7 @@ Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta
 * Izskaidrojiet kā pārlūks nosaka kuri elementi atbilst CSS selektoriem?
 * Izskaidrojiet kā Jūs saprotiet "box model" un kā Jūs ar CSS palīdzību norādītu pārlūkam attēlot izkārtojumu(layout) ar dažādiem "box model" iestatījumiem.
 
-####[[⬆]](#toc) <a name='js'>JS Jautājumi:</a>
+#### [[⬆]](#toc) <a name='js'>JS Jautājumi:</a>
 
 * Izskaidrojiet notikumu deleģēšanu (event delegation)
 * Izskaidrojiet kā `this` strādā JavaScript valodā
@@ -158,7 +158,7 @@ Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta
 * Kas ir funkcijas "arity"?
 * Kas ir `"use strict";`? Kādas ir priekšrocības un trūkumi to izmantojot?
 
-####[[⬆]](#toc) <a name='jquery'>jQuery Jautājumi:</a>
+#### [[⬆]](#toc) <a name='jquery'>jQuery Jautājumi:</a>
 
 * Izskaidrojiet savirknēšanu (chaining).
 * Izskaidrojiet novēlojumus (deferreds).
@@ -176,7 +176,7 @@ Vairums no jautājumiem tika paņemti no [oksoclap](http://oksoclap.com/) raksta
 $(".foo div#bar:eq(0)")
 ```
 
-####[[⬆]](#toc) <a name='jscode'>Kodēšanas Jautājumi:</a>
+#### [[⬆]](#toc) <a name='jscode'>Kodēšanas Jautājumi:</a>
 
 
 ```javascript
@@ -214,14 +214,14 @@ foo.push(2);
 
 **Atbilde: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Interesanti Jautājumi:</a>
+#### [[⬆]](#toc) <a name='fun'>Interesanti Jautājumi:</a>
 
 * Kas ir pati foršākā lieta, ko jebkat esiet uzprogrammējis un ar ko lepojaties?
 * Kuras ir Jūsu izstrādes rīku iemīļotākās funkcijas, kuras izmantojiet?
 * Vai Jums ir kādi hobiju projekti? Kādi?
 * Kāda ir Jūsu iecienītakā Internet Explorer raksturiezīme?
 
-####[[⬆]](#toc) <a name='references'>Citas Lieliskas Atsauces:</a>
+#### [[⬆]](#toc) <a name='references'>Citas Lieliskas Atsauces:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/

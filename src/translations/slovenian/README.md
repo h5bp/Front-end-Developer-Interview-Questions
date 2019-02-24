@@ -12,7 +12,7 @@ permalink: /translations/slovenian/index.html
 
 Mnogo teh vprašanj je odprtega tipa in lahko pripeljejo do zanimivih diskusij, ki vam bodo o kandidatih sporočili več, kot pa navaden kratek odgovor.
  
-####Originalni Avtorji
+#### Originalni Avtorji
 
 **Obvestilo:** večino teh vprašanj je bilo pobranih iz foruma, ustvarjenega in vzdrževanega od nasljednjih ljudi:
 

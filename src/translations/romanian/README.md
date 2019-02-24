@@ -34,7 +34,7 @@ capacitățile persoanei.
   1. [Cum să contribui](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [Licență](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-####[[⬆]](#toc) <a name='general'>Întrebări generale:</a>
+#### [[⬆]](#toc) <a name='general'>Întrebări generale:</a>
 
 * Ce ai învățat ieri/săptămâna asta?
 * Ce te fascinează sau interesează la programare?
@@ -61,7 +61,7 @@ capacitățile persoanei.
 * Compară părți bune și negative pentru animații CSS versus animații JavaScript.
 * Ce reprezintă CORS si ce probleme incearcă să rezolve?
 
-####[[⬆]](#toc) <a name='html'>Întrebări despre HTML:</a>
+#### [[⬆]](#toc) <a name='html'>Întrebări despre HTML:</a>
 
 * La ce este util `doctype`?
 * Care este diferența dintre "standards mode" și "quirks mode"?
@@ -78,7 +78,7 @@ capacitățile persoanei.
 * Ce înseamnă randare progresivă?
 * Ai folosit altceva în afară de HTML până acum?
 
-####[[⬆]](#toc) <a name='css'>Întrebări despre CSS:</a>
+#### [[⬆]](#toc) <a name='css'>Întrebări despre CSS:</a>
 
 * Care este diferența dintre clase și ID-uri în CSS?
 * Care este diferența între a 'reseta' și a 'normaliza' in CSS? Pe care ai
@@ -131,7 +131,7 @@ folosit?
 * Este vreun motiv pentru care ai vrea să folosești ```translate()``` în loc de
 **posiționare absolută** sau invers? De ce?
 
-####[[⬆]](#toc) <a name='js'>Întrebări despre JS:</a>
+#### [[⬆]](#toc) <a name='js'>Întrebări despre JS:</a>
 
 * Explică "event delegation".
 * Explică cum funcționează `this` în JavaScript.
@@ -198,7 +198,7 @@ asincrone (asynchronous).
 * Ce este un 'even loop'?
 * Care este diferența dintre 'call stack' si 'task queue'?
 
-####[[⬆]](#toc) <a name='testing'>Întrebări despre testare:</a>
+#### [[⬆]](#toc) <a name='testing'>Întrebări despre testare:</a>
 
 * Care sunt avantajele/dezavantajele în a-ți testa codul?
 * Ce unelte ai folosi pentru a testa functionalitatea codului?
@@ -206,7 +206,7 @@ asincrone (asynchronous).
 funcționalitate/integrare?
 * Care este scopul unei unelte de lintarea a stilului de cod?
 
-####[[⬆]](#toc) <a name='performance'>Întrebări despre perfomanță:</a>
+#### [[⬆]](#toc) <a name='performance'>Întrebări despre perfomanță:</a>
 
 * Ce unelte ai folosi pentru a găsi bug-uri de performanță in codul tau?
 * Ce diferite metode prin care ai putea îmbunătăți performanța defilării
@@ -214,7 +214,7 @@ funcționalitate/integrare?
 * Explică diferența dintre o schemă (layout), desenare (painting) și compoziție
 (compositing).
 
-####[[⬆]](#toc) <a name='network'>Întrebări despre rețea:</a>
+#### [[⬆]](#toc) <a name='network'>Întrebări despre rețea:</a>
 
 * Tradițional, de ce a fost mai bine să servești resurse de pe mai multe domenii?
 * Încearcă să descrii cât mai bine ce se întâmplă din momentul în care scrii
@@ -230,7 +230,7 @@ funcționalitate/integrare?
 * Care sunt acțiunile HTTP? Listează toate acțiunile HTTP pe care le ști și
 explică-le.
 
-####[[⬆]](#toc) <a name='jscode'>Întrebări despre cod:</a>
+#### [[⬆]](#toc) <a name='jscode'>Întrebări despre cod:</a>
 
 *Întrebare: Care este valoarea lui `foo`?*
 
@@ -299,7 +299,7 @@ setTimeout(function() {
 console.log('three');
 ```
 
-####[[⬆]](#toc) <a name='fun'>Întrebări amuzante:</a>
+#### [[⬆]](#toc) <a name='fun'>Întrebări amuzante:</a>
 
 * Povestește-mi despre un proiect mișto la care ai lucrat recent?
 * Ce îți place cel mai mult la uneltele de dezvoltare pe care le folosești?
@@ -307,7 +307,7 @@ console.log('three');
 * Care este funcționalitatea ta preferată din Internet Explorer?
 * Cum îți place cafeaua?
 
-####[[⬆]](#toc) <a name='contributors'>Contribuitori:</a>
+#### [[⬆]](#toc) <a name='contributors'>Contribuitori:</a>
 
 Acest document a început în 2009 ca o colaborare între
 [@paul_irish](https://twitter.com/paul_irish)

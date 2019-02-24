@@ -24,7 +24,7 @@ Za prečítanie stojí tiež [Baseline For Front-End Developers](http://rmurphey
 1. [Zábavné otázky](#fun)
 1. [Ďalšie zaujímave referencie](#references)
 
-####[[⬆]](#toc) <a name='contributors'>Pôvodní prispievatelia:</a>
+#### [[⬆]](#toc) <a name='contributors'>Pôvodní prispievatelia:</a>
 
 Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vytvoreného [Paulom Irishom](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) a následne doplnená týmito osobami:
 
@@ -40,7 +40,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
 * [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
 
-####[[⬆]](#toc) <a name='general'>Všeobecné otázky:</a>
+#### [[⬆]](#toc) <a name='general'>Všeobecné otázky:</a>
 
 * Čo ste sa naučili včera/minulý týždeň nové?
 * Čo vás vzrušuje alebo zaujíma na kódovaní?
@@ -70,7 +70,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * Vysvetlite dôležitosť štandardov a štandardizačných orgánov.
 * Čo to je FOUC? Ako je možné sa vyhnúť FOUC?
 
-####[[⬆]](#toc) <a name='html'>HTML otázky:</a>
+#### [[⬆]](#toc) <a name='html'>HTML otázky:</a>
 
 * Čo robí `doctype`?
 * Aký je rozdiel medzi štandardným a tkz. quirks módom?
@@ -82,7 +82,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * Uvažujte o HTML5 ako o otvorenej platorme. Aké sú základné stavebné kamene HTML5?
 * Opíšte rozdiel medzi cookies, sessionStorage a localStorage.
 
-####[[⬆]](#toc) <a name='css'>CSS otázky: </a>
+#### [[⬆]](#toc) <a name='css'>CSS otázky: </a>
 
 * Opíšte čo robí a na čo je dobrý "reset" CSS súbor.
 * Opíšte obtekanie (floats) a ako funguje.
@@ -106,7 +106,7 @@ Väčšina otázok bola prevzatá z [oksoclap](http://oksoclap.com/) pôvodne vy
 * Vysvetlite vaše chápanie box modelu a ako poviete pomocou CSS prehliadaču, aby váš layout vykreslil v odlišnom box modele
 
 
-####[[⬆]](#toc) <a name='js'>JS otázky:</a>
+#### [[⬆]](#toc) <a name='js'>JS otázky:</a>
 
 * Vysvetlite delegáciu udalostí.
 * Vysvetlite ako funguje `this` v JavaScripte.
@@ -162,7 +162,7 @@ var person = new Person()
 * Čo je označované ako "arita" funkcie?
 * Čo znamená `"use strict";`? Aké sú výhody a nevýhody použitia?
 
-####[[⬆]](#toc) <a name='jquery'>jQuery otázky:</a>
+#### [[⬆]](#toc) <a name='jquery'>jQuery otázky:</a>
 
 * Vysvetlite reťazenie (chaining).
 * Vysvetlite odkladanie (deferreds).
@@ -181,7 +181,7 @@ $(".foo div#bar:eq(0)");
 ```
 * Aký je rozdiel medzi `.delegate()` a `.live()`?
 
-####[[⬆]](#toc) <a name='jscode'>Otázky z kódu:</a>
+#### [[⬆]](#toc) <a name='jscode'>Otázky z kódu:</a>
 
 ```javascript
 modulo(12, 5) // 2
@@ -225,14 +225,14 @@ foo.push(2);
 
 **Odpoveď: `2`**
 
-####[[⬆]](#toc) <a name='fun'>Zábavné otázky:</a>
+#### [[⬆]](#toc) <a name='fun'>Zábavné otázky:</a>
 
 * Aká je najúžasnejšia vec, ktorú ste kedy nakódovali, alebo na ktorú ste najviac pyšní?
 * Aké sú vaše obľúbené časti vývojárskych nástrojov, ktoré používate?
 * Máte nejaký vlastný hobby projekt?
 * Aká je Vaša obľúbená vlastnosť Internet Exploreru?
 
-####[[⬆]](#toc) <a name='references'>Ďalšie zaujímavé referencie:</a>
+#### [[⬆]](#toc) <a name='references'>Ďalšie zaujímavé referencie:</a>
 
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/

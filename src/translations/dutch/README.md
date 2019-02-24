@@ -14,7 +14,7 @@ Deze repo bevat een aantal front-end interview vragen die je kunnen helpen om er
 
 **Let op:** Houd er rekening mee dat deze vragen meestal een open einde hebben en dat zou kunnen leiden tot interessante discussies die je meer over de persoon zelf kan vertellen dan een standaard antwoord.
 
-####Originele Bijdragers
+#### Originele Bijdragers
 
 De meerderheid van deze vragen is geplukt uit een [oksoclap](http://oksoclap.com/) thread origineel gemaakt door [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) en aan bijgedragen door de volgende individuen:
 
