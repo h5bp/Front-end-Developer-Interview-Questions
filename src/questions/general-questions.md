@@ -30,3 +30,4 @@ permalink: /questions/general-questions/index.html
 * What does CORS stand for and what issue does it address?
 * How did you handle a disagreement with your boss or your collaborator?
 * What resources do you use to learn about the latest in front end development and design?
+* How do you voice your opinion to the team?
