@@ -1,0 +1,11 @@
+<footer class="footer">
+  <p class="footer-text">
+    Copyright (c) 2012 - 2018. Contributors to
+    <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">Front-end-Developer-Interview-Questions.</a><br>
+    This project is maintained by
+    {% for person in maintainers.all %}
+      <a href="{{ person.github }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>{% if not loop.last %}{% if loop.index != loop.length - 1 %}, {% else %} and {% endif %}{% endif %}
+    {% endfor %}.<br>
+    Curious about the project? <a href="{{ '/about/' | url }}">Read more about here</a>.
+  </p>
+</footer>

@@ -1,0 +1,27 @@
+---
+title: Translations
+description: Doesn't see yours or see something wrong? Open an [issue](https://github.com/h5bp/Front-end-Developer-Interview-Questions/issues).
+permalink: /translations/index.html
+---
+{% extends 'layouts/default.njk' %}
+
+{% block pageTop %}
+  <header class="header">
+    <h1 class="header-big-title">{{ title }}</h1>
+    <p class="header-description">{{ description | markdownify_inline | safe }}</p>
+  </header>
+{% endblock %}
+
+{% block main %}
+  <section>
+    <div class="content content-simple">
+      <ul style="column-count: 3;">
+        {% for entry in translations.all %}
+        <li>
+          <a href="{{ entry.url }}">{{ entry.language }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+{% endblock %}
