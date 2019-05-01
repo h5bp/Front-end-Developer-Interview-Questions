@@ -31,7 +31,7 @@ permalink: /translations/ukrainian/index.html
 * [cezaraugusto](https://github.com/cezaraugusto)
 * [vvscode](https://github.com/vvscode)
 
-З тих під він був активним завдяки цим [чудовим людям](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
+З тих пір він був активним завдяки цим [чудовим людям](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
 
 
 #### [⬆](#toc) <a name='general'>Загальні запитання:</a>
