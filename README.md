@@ -177,7 +177,7 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
     <td align="center"><a href="https://cezaraugusto.net/"><img src="https://avatars0.githubusercontent.com/u/4672033?v=4" width="120px;" alt="Cezar Augusto"/><br /><sub><b>Cezar Augusto</b></sub></a><br /><a href="#ideas-cezaraugusto" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-cezaraugusto" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#review-cezaraugusto" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-cezaraugusto" title="Maintenance">🚧</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/vvanchuk/"><img src="https://avatars1.githubusercontent.com/u/6904368?v=4" width="120px;" alt="Vasiliy Vanchuk"/><br /><sub><b>Vasiliy Vanchuk</b></sub></a><br /><a href="#ideas-vvscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-vvscode" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/vvanchuk/"><img src="https://avatars1.githubusercontent.com/u/6904368?v=4" width="120px;" alt="Vasiliy Vanchuk"/><br /><sub><b>Vasiliy Vanchuk</b></sub></a><br /><a href="#ideas-vvscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-vvscode" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-vvscode" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
