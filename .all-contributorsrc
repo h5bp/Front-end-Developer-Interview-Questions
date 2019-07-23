@@ -2,7 +2,8 @@
   "projectName": "Front-end-Developer-Interview-Questions",
   "projectOwner": "h5bp",
   "files": [
-    "CONTRIBUTORS.md"
+    "CONTRIBUTORS.md",
+    "README.md"
   ],
   "imageSize": 120,
   "commit": true,
@@ -17,7 +18,8 @@
         "ideas",
         "doc",
         "infra",
-        "review"
+        "review",
+        "question"
       ]
     },
     {
@@ -958,5 +960,7 @@
         "review"
       ]
     }
-  ]
+  ],
+  "repoType": "github",
+  "commitConvention": "none"
 }
