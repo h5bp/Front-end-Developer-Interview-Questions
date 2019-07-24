@@ -4,7 +4,7 @@ body {
   font-family: var(--font-family-body);
   font-weight: 400;
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 2;
   color: var(--color-text);
 }
 
@@ -36,13 +36,14 @@ a {
   transition: color ease-out var(--transition-duration);
 }
 
+a.current,
 a:hover:not(.skip-link),
 a:focus:not(.skip-link) {
   color: var(--color-primary);
 }
 
-a:not(.navigation-anchor)[rel~='external'] {
-  text-decoration: overline;
+a:not(.navigation-anchor)[rel~='external']:after {
+  content: ' ➚'
 }
 
 ul:not(.navigation):not(.inline-list) {
@@ -126,7 +127,6 @@ dd + dt {
 }
 
 abbr[title], acronym[title] {
-  text-decoration: overline;
   background: var(--color-gray-opacity);
   border: 1px solid var(--color-gray-opacity);
   cursor: help;
@@ -146,7 +146,7 @@ abbr[title], acronym[title] {
 }
 
 .content li:not(:last-of-type) {
-  margin-bottom: .5rem;
+  margin-bottom: 1.2rem;
 }
 
 .content h2 {
@@ -179,10 +179,12 @@ abbr[title], acronym[title] {
 .inline-list {
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .inline-list li {
-  padding: 0;
+  padding: 0 5px;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -205,6 +207,17 @@ abbr[title], acronym[title] {
   margin: 0 0.15rem;
 }
 
+.inline-list-contributors li a,
+.inline-list-original li a {
+  font-size: 1rem;
+}
+
 .avatar {
   max-width: 12rem;
+}
+
+hr {
+  border: none;
+  bacground: none;
+  border-bottom: 1px solid #efefef;
 }
