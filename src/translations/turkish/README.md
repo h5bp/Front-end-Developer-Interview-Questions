@@ -261,7 +261,6 @@ Bu proje 2009 yılında bu katılımcılarla başladı: [@paul_irish](https://tw
 Bu projenin bakımı şu anda aşağıdaki kişiler tarafından yapılmaktadır:
 
 - [roblarsen](https://github.com/roblarsen)
-- [cezaraugusto](https://github.com/cezaraugusto)
 - [vvscode](https://github.com/vvscode)
 
 O zamandan beri bu [inanılmaz derecede harika insanlar](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md) sayesinde etkin durumda.

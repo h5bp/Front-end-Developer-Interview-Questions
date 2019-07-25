@@ -30,7 +30,6 @@ This project started in 2009 as a collaboration of [@paul_irish](https://twitter
 This project is currently maintained by:
 
 - [@roblarsen](https://github.com/roblarsen)
-- [@cezaraugusto](https://github.com/cezaraugusto)
 - [@vvscode](https://github.com/vvscode)
 
 It has since been active thanks to these [incredibly wonderful people](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
