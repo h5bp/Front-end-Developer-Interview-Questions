@@ -33,15 +33,15 @@
 
 @media (min-width: 30em) {
   .header-big-title {
-    margin: 1.4rem 0;
+    margin: 1.4rem 0 0.7rem;
     font-size: 4.6rem;
   }
 }
 
 @media (min-width: 60em) {
   .header-big-title {
-    margin: 2.1rem 0;
-    font-size: 6.9rem;
+    margin: 2.1rem 0 0.7rem;
+    font-size: 5.4rem;
   }
 }
 
@@ -62,6 +62,7 @@
     bottom: 0;
     left: 0;
     background-image: url('https://h5bp.github.io/Front-end-Developer-Interview-Questions/assets/images/gradient.svg');
+    background-size: cover;
     pointer-events: none;
   }
   .header-big-title::before {

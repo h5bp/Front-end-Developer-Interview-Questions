@@ -6,7 +6,7 @@
     "build": "eleventy --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'",
     "deploy": "sh ./config/deploy.sh",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate",
+    "contributors:generate": "all-contributors generate && cp .all-contributorsrc ./src/_data/contributors.json",
     "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet"
   },
   "repository": {
@@ -26,6 +26,10 @@
     {
       "name": "Cezar Augusto",
       "email": "boss@cezaraugusto.net"
+    },
+    {
+      "name": "Darcy Clarke",
+      "email": "darcy@darcyclarke.me"
     }
   ],
   "license": "MIT",
@@ -36,12 +40,12 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "all-contributors-cli": "^4.10.1",
-    "clean-css": "^4.1.11",
-    "html-minifier": "^3.5.19",
-    "luxon": "^1.3.1",
-    "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.0.2",
+    "all-contributors-cli": "^6.8.1",
+    "clean-css": "^4.2.1",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.17.2",
+    "markdown-it": "^9.0.1",
+    "markdown-it-anchor": "^5.2.4",
     "uglify-es": "^3.3.9"
   },
   "resolutions": {
