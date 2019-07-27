@@ -30,7 +30,6 @@ permalink: /translations/russian/index.html
 В настоящее время этот проект поддерживают:
 
 * [roblarsen](https://github.com/roblarsen)
-* [cezaraugusto](https://github.com/cezaraugusto)
 * [vvscode](https://github.com/vvscode)
 
 С тех пор он был активным благодаря этим [замечательным людям](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).

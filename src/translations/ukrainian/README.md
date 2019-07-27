@@ -28,7 +28,6 @@ permalink: /translations/ukrainian/index.html
 Наразі проект підтримують:
 
 * [roblarsen](https://github.com/roblarsen)
-* [cezaraugusto](https://github.com/cezaraugusto)
 * [vvscode](https://github.com/vvscode)
 
 З тих пір він був активним завдяки цим [чудовим людям](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
