@@ -2,6 +2,13 @@
 {
   "all": [
     {
+      "avatar": "https://avatars0.githubusercontent.com/u/459713?v=4",
+      "name": "Darcy Clarke",
+      "website": "https://darcyclarke.me",
+      "github": "https://github.com/darcyclarke",
+      "twitter": "https://twitter.com/darcy"
+    },
+    {
       "avatar": "https://avatars0.githubusercontent.com/u/361421?v=4",
       "name": "Rob Larsen",
       "website": "http://htmlcssjavascript.com/",
@@ -18,11 +25,11 @@
   ],
   "legacy": [
     {
-      "avatar": "https://avatars0.githubusercontent.com/u/459713?v=4",
-      "name": "Darcy Clarke",
-      "website": "https://darcyclarke.me",
-      "github": "https://github.com/darcyclarke",
-      "twitter": "https://twitter.com/darcy"
+      "avatar": "https://avatars0.githubusercontent.com/u/4672033?v=4",
+      "name": "Cezar Augusto",
+      "website": "https://cezaraugusto.net",
+      "github": "https://github.com/cezaraugusto",
+      "twitter": "https://twitter.com/cezaraugusto"
     },
     {
       "avatar": "https://avatars0.githubusercontent.com/u/1245284?v=4",
