@@ -32,3 +32,4 @@ permalink: /questions/general-questions/index.html
 * What resources do you use to learn about the latest in front end development and design?
 * What skills are needed to be a good front-end developer?
 * What role do you see yourself?
+* Explain the difference between cookies, session storage, and local storage?
