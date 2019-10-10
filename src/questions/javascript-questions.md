@@ -49,6 +49,7 @@ permalink: /questions/javascript-questions/index.html
 * What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
 * How can you share code between files?
 * Why you might want to create static class members?
+* What is the difference between `while` and `do-while` loops in JavaScript?
 
 ## Coding questions
 * Make this work:
@@ -56,3 +57,9 @@ permalink: /questions/javascript-questions/index.html
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
+* What will be returned by each of these?
+```javascript
+console.log("hello" || "world")
+console.log("foo" && "bar")
+```
+* Write an immediately invoked function expression (IIFE)
