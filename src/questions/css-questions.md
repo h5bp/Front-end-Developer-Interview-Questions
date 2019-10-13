@@ -30,6 +30,7 @@ permalink: /questions/css-questions/index.html
 * What's the difference between inline and inline-block?
 * What's the difference between the "nth-of-type()" and "nth-child()" selectors?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
+* What are collapsing margins?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you used CSS Grid?
 * Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
