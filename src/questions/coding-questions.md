@@ -80,3 +80,8 @@ doSomething().then(doSomethingElse());
 
 doSomething().then(doSomethingElse);
 ```
+
+Question: What's the value of the following expression?
+```javascript
+new Array(10).map((_, index) => index + 1).join('')
+```
