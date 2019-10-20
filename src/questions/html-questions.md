@@ -15,3 +15,12 @@ permalink: /questions/html-questions/index.html
 * What is progressive rendering?
 * Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Have you used different HTML templating languages before?
+* What is figcaption tag?
+* What is Anchor tag and how can you open an URL into a new tab when clicked?
+* Define Semantic elements in HTML.
+* What are inline elements and block-level elements in HTML?
+* Why Meta tags are used in HTML?
+* Define iframe in HTML.
+* Define forms in HTML.
+* Why do we use the required attribute in HTML?
+* What is the SVG element?

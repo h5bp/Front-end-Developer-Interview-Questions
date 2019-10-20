@@ -49,6 +49,11 @@ permalink: /questions/javascript-questions/index.html
 * What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
 * How can you share code between files?
 * Why you might want to create static class members?
+* What is the use of isNaN function?
+* What is 'this' keyword in JavaScript?
+* What is === operator?
+* Explain how to detect the operating system on the client machine?
+* What is the use of blur function?
 
 ## Coding questions
 * Make this work:

@@ -35,3 +35,13 @@ permalink: /questions/css-questions/index.html
 * Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+* What is the purpose of the z-index and how is it used?
+* In how many ways can a CSS be integrated as a web page?
+* What are the different versions of CSS ?
+* Compare RGB values with Hexadecimal color codes?
+* Comment on the Case-sensitivity of CSS ?
+* Explain universal selector.
+* What is the use of ruleset?
+* What are the benefits of CSS sprites?
+* Explain the difference between visibility: hidden and display: none?
+* What do you understand by W3C?
