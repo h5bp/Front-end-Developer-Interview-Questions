@@ -24,6 +24,8 @@ permalink: /questions/css-questions/index.html
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
 * Describe pseudo-elements and discuss what they are used for.
+* Describe pseudo classes and what are they used for?
+  * Differentiate between pseudo classes and pseudo elements.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * What is the CSS `display` property and can you give a few examples of its use?
@@ -31,7 +33,9 @@ permalink: /questions/css-questions/index.html
 * What's the difference between the "nth-of-type()" and "nth-child()" selectors?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
-* Have you used CSS Grid?
+* Have you used CSS Grid and Flexbox before? What are the differences between them?
 * Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+* Describe the different kinds of selectors.
+* What is <code>!important</code> and why should you avoid it?
