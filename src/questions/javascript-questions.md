@@ -36,6 +36,9 @@ permalink: /questions/javascript-questions/index.html
   * What are the pros and cons of immutability?
   * How can you achieve immutability in your own code?
 * Explain the difference between synchronous and asynchronous functions.
+* Why is fetch API?
+* What is Async Await? What is the use of it?
+* Difference between map(), reduce() and filter() ? Does it perform on the same array or it creates a new one?
 * What is event loop?
   * What is the difference between call stack and task queue?
 * What are the differences between variables created using `let`, `var` or `const`?
