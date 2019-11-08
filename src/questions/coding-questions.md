@@ -80,3 +80,31 @@ doSomething().then(doSomethingElse());
 
 doSomething().then(doSomethingElse);
 ```
+
+Question: What will the code below output to the console and why?
+```javascript
+(function(){
+  var a = b = 3;
+})();
+
+console.log("a defined? " + (typeof a !== 'undefined'));
+console.log("b defined? " + (typeof b !== 'undefined'));
+```
+
+Question: Consider the two functions below. Will they both return the same thing? Why or why not?
+```javascript
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+      bar: "hello"
+  };
+}
+```
