@@ -9,4 +9,3 @@ permalink: /questions/fun-questions/index.html
 * Who inspires you in the front-end community?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
-* How do you like your coffee?
