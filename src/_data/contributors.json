@@ -964,6 +964,15 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "blascsi",
+      "name": "Attila Blascsák",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5846127?v=4",
+      "profile": "https://github.com/blascsi",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "repoType": "github",
