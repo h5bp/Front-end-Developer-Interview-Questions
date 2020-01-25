@@ -37,6 +37,7 @@ permalink: /questions/javascript-questions/index.html
   * How can you achieve immutability in your own code?
 * Explain the difference between synchronous and asynchronous functions.
 * What is event loop?
+* In which part of the HTML(Head,Body,footer) should we include the scripts ?
   * What is the difference between call stack and task queue?
 * What are the differences between variables created using `let`, `var` or `const`?
 * What are the differences between ES6 class and ES5 function constructors?
