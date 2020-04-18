@@ -31,6 +31,10 @@
   word-break: break-word;
 }
 
+.rtl .header-big-title{
+  text-align: right;
+}
+
 @media (min-width: 30em) {
   .header-big-title {
     margin: 1.4rem 0 0.7rem;

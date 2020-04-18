@@ -58,6 +58,10 @@ ul:not(.navigation):not(.inline-list) li::before {
   width: 1em;
   margin-left: -1em;
 }
+.rtl ul:not(.navigation):not(.inline-list) li::before{
+  margin-right: -1em;
+  margin-left: initial;
+}
 
 li {
   margin-bottom: 0.6rem;
