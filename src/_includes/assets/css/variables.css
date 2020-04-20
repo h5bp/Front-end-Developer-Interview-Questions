@@ -15,3 +15,6 @@
   --box-shadow-default: 0 2rem 4rem rgba(0,0,0,.15);
   --transition-duration: 0.27s;
 }
+body.rtl{
+  --font-family-body: Arial, Helvetica, sans-serif;
+}

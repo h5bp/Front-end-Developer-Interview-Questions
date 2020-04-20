@@ -1,6 +1,7 @@
 ---
 title: أسئلة مقابله شخصية في تطوير واجهةالويب
 layout: layouts/page.njk
+rtl: true
 permalink: /translations/arabic/index.html
 ---
 <div dir="rtl">

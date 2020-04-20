@@ -1,6 +1,7 @@
 ---
 title: שאלות לראיונות עבודה בנושא פיתוח - צד לקוח
 layout: layouts/page.njk
+rtl: true
 permalink: /translations/hebrew/index.html
 ---
 

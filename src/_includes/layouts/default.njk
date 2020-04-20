@@ -48,7 +48,7 @@
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
 </head>
-<body>
+<body class="{% if rtl %}rtl {% endif %}">
   <div class="topbar"></div>
   <div class="container">
     <a class="skip-link" href="#main-content">Skip to main content</a>

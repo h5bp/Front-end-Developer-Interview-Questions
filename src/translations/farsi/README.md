@@ -1,6 +1,7 @@
 ---
 title: سوالات مصاحبه‌ی کاری فرانت‌-اند
 layout: layouts/page.njk
+rtl: true
 permalink: /translations/farsi/index.html
 ---
 
