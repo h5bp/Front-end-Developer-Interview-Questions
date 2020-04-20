@@ -964,6 +964,16 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "vltansky",
+      "name": "Vlad Tansky",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5851280?v=4",
+      "profile": "https://github.com/vltansky",
+      "contributions": [
+        "doc",
+        "translation"
+      ]
     }
   ],
   "repoType": "github",

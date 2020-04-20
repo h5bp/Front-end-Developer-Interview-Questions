@@ -1,5 +1,5 @@
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-103-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors-)
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
@@ -146,6 +146,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/vvanchuk/"><img src="https://avatars1.githubusercontent.com/u/6904368?v=4" width="120px;" alt="Vasiliy Vanchuk"/><br /><sub><b>Vasiliy Vanchuk</b></sub></a><br /><a href="#ideas-vvscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-vvscode" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-vvscode" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/vltansky"><img src="https://avatars0.githubusercontent.com/u/5851280?v=4" width="120px;" alt="Vlad Tansky"/><br /><sub><b>Vlad Tansky</b></sub></a><br /><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/commits?author=vltansky" title="Documentation">📖</a> <a href="#translation-vltansky" title="Translation">🌍</a></td>
   </tr>
 </table>
 

@@ -79,7 +79,7 @@ module.exports = eleventyConfig => {
       input: 'src',
       includes: '_includes',
       data: '_data',
-      output: '_site'
+      output: 'docs'
     },
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
