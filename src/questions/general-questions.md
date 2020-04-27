@@ -5,6 +5,7 @@ permalink: /questions/general-questions/index.html
 ---
 
 * What did you learn yesterday/this week?
+* How web works step by step?
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
 * When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?
