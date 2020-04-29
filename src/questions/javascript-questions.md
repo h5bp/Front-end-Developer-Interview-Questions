@@ -50,6 +50,8 @@ permalink: /questions/javascript-questions/index.html
 * How can you share code between files?
 * Why you might want to create static class members?
 * What is the difference between `while` and `do-while` loops in JavaScript?
+* What is NaN? What is its type? How can you reliably test if a value is equal to NaN?
+* What is the significance and what are the benefits of including 'use strict' at the beginning of a JavaScript source file?
 
 ## Coding questions
 * Make this work:
