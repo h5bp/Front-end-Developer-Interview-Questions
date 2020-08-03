@@ -64,5 +64,5 @@ console.log("hello" || "world")
 console.log("foo" && "bar")
 ```
 * Write an immediately invoked function expression (IIFE)
-* What is the difference between a deep copy and a shallow copy of a JavaScript object.
+* What is the difference between a deep copy and a shallow copy of a JavaScript object?
   * Can you write a method to deep clone an object of any depth?
