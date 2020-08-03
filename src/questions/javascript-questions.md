@@ -64,3 +64,4 @@ console.log("hello" || "world")
 console.log("foo" && "bar")
 ```
 * Write an immediately invoked function expression (IIFE)
+* Write a method to deep clone an object of any depth
