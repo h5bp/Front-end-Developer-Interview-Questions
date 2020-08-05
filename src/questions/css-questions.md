@@ -36,6 +36,6 @@ permalink: /questions/css-questions/index.html
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 * How is clearfix css property useful?
-* Can you explain the difference between px, em and rem as it related to font sizing?
+* Can you explain the difference between px, em and rem as they relate to font sizing?
 * Can you give me an example use case for a pseudo class? 
 * Could you provide me with an example of some block level elements and inline elements?
