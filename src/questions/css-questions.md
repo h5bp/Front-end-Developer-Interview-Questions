@@ -37,5 +37,5 @@ permalink: /questions/css-questions/index.html
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 * How is clearfix css property useful?
 * Can you explain the difference between px, em and rem as they relate to font sizing?
-* Can you give me an example use case for a pseudo class? 
+* Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class? 
 * Could you provide me with an example of some block level elements and inline elements?
