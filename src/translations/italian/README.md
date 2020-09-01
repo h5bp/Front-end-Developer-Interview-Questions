@@ -6,11 +6,11 @@ permalink: /translations/italian/index.html
 
 # Domande per il colloquio di lavoro per front-end
 
-Questo repository contiene una serie di domande che possono essere usate nei colloqui di lavoro quando si esaminano i potenziali candidati per il ruolo di front-end. Non è affatto consigliato usare ogni singola domanda con lo stesso candidato (richiederebbe ore). Scegliere alcune di queste domande dalla lista dovrebbe aiutarti ad esaminare le skill che richiedi.
+Questo repository contiene una serie di domande che possono essere usate nei colloqui di lavoro quando si esaminano i potenziali candidati per il ruolo di front-end. Non è affatto consigliato usare ogni singola domanda con lo stesso candidato (richiederebbe ore). Scegliere alcune di queste domande dalla lista dovrebbe aiutarti ad esaminare le skill che vengono richieste.
 
 L'articolo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) di [Rebecca Murphey](http://rmurphey.com/) è un'ottima risorsa da leggere prima di affrontare un colloquio.
 
-**Nota:** Tieni presente che molte di queste domande sono a risposta aperta e possono portare a interessanti discussioni che ti possono far capire le capacità di una persona più di quello che farebbe una risposta diretta.
+**Nota:** Tieni presente che molte di queste domande sono a risposta aperta e possono portare a interessanti discussioni che possono far capire le capacità di una persona più di quello che farebbe una risposta diretta.
 
 ## <a name='toc'>Indice dei Contenuti</a>
 
@@ -57,7 +57,7 @@ La maggior parte delle domande sono state prese da una discussione su [oksoclap]
 * Citami 3 modi per diminuire il caricamento della pagina. (percepito o effettivo tempo di caricamento)
 * Se cominci a lavorare su un progetto già iniziato dove vengono usati tab invece di spazi, cosa fai?
 * Descrivi come creeresti una semplice pagina con slideshow.
-* Se avessi la possibilità id diventare esperto in una tecnologia, quale sceglieresti?
+* Se avessi la possibilità di diventare esperto in una tecnologia, quale sceglieresti?
 * Spiega l'importanza degli standard e degli enti di normazione.
 * Cosa è il FOUC? Come eviti il FOUC?
 * Spiega cosa sono ARIA e lettori di schermo [*screenreaders*] e come rendere un sito web accessibile.
