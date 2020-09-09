@@ -15,3 +15,4 @@ permalink: /questions/html-questions/index.html
 * What is progressive rendering?
 * Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Have you used different HTML templating languages before?
+* What is the difference between `canvas` and `svg`?
