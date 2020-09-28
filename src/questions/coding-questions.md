@@ -108,3 +108,15 @@ function foo2()
   };
 }
 ```
+Question: How to make the following code execute correctly?
+```javascript
+function Car() {}
+
+Car.drive = function () {
+  console.log("Vroom vroom!");
+}
+
+const honda = new Car();
+
+honda.drive();
+```
