@@ -3,7 +3,7 @@ title: CSS Questions
 layout: layouts/page.njk
 permalink: /questions/css-questions/index.html
 ---
-
+* CSS stands for ? 
 * What is CSS selector specificity and how does it work?
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
