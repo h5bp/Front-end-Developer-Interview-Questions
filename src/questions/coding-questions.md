@@ -108,15 +108,13 @@ function foo2()
   };
 }
 ```
-Question: How to make the following code execute correctly?
+Question: Can you update the example code below to add a new drive() function to the Car object? This function should simply output some value when it's executed.
 ```javascript
 function Car() {}
 
-Car.drive = function () {
-  console.log("Vroom vroom!");
-}
+// your code here...
 
 const honda = new Car();
 
-honda.drive();
+honda.drive(); // this should console.log some value
 ```
