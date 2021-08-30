@@ -44,7 +44,7 @@
     "clean-css": "^5.1.5",
     "html-minifier": "^4.0.0",
     "luxon": "^2.0.2",
-    "markdown-it": "^12.1.0",
+    "markdown-it": "^12.2.0",
     "markdown-it-anchor": "^8.3.0",
     "uglify-es": "^3.3.9"
   },
