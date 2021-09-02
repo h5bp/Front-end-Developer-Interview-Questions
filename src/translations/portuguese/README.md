@@ -31,42 +31,35 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 #### [⬆](#toc) <a name='general'>Questões Gerais:</a>
 
-* O que você aprendeu ontem ou esta semana?
-* O que te excita ou te interessa em programação/codificação?
-* Quais as suas considerações sobre UI, Segurança, Perfomance, Aplicação, Manutenibilidade  ou Tecnologia quando você desenvolve uma aplicação web ou site?
-* Fale sobre seu ambiente de desenvolvimento preferido. (SO, Editor, Browser, Ferramentas, etc.)
+* O que você aprendeu ontem / esta semana?
+* O que te anima ou te interessa em programação?
+* Qual foi um desafio tecnico que teve recentemente e como o resolveu?
+* Quando construindo um novo site ou mantendo um existente, pode explicar algumas das tecnicas que usou para aumentar a performance?
+* Pode descrever algumas melhores práticas ou metodologias de SEO que usou recentemente?
+* Pode explicar metodologias comuns ou problemas que resolveu recentemente em termos de seguranca em front-end?
+* Que acçãos tomou pessoalmente em projetos recentes para aumentar a manutenibilidade do codigo?
+* Fale sobre seu ambiente de desenvolvimento preferido.
 * Com quais sistemas de controle de versão você é familiar?
-* Descreva seu trabalho quando cria uma página web.
+* Descreva seu processo quando cria uma página web.
 * Se você tivesse 5 diferentes arquivos de folhas de estilo, qual seria a melhor forma de integrá-los no site?
-  * Concatenação de arquivos
 * Descreva a diferença entre _progressive enhancement_ and _graceful degradation_.
-  * Bônus se descrever ou mencionar detecção de recursos.
 * Como você pode otimizar os recursos de um site?
-  * À procura de uma série de soluções que possam incluir:
-    * Concatenação de arquivo
-    * "Minificação" de arquivo
-    * Utilização de CDN
-    * Caching
-    * etc.
-* Por que é melhor servir recursos de um site de múltiplos domínios?
-  * Quantos recursos um navegador pode baixar, simultaneamente, a partir de um determinado domínio?
-  * O que são *exceptions*?
-    * Bônus para identificação mobile como uma possível desvantagem (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
-    * Bônus para identicação de HTTP2 / SPDY como uma *exception*
-* Fale 3 formas de diminuir o _page load_ (tempo de carregamento real e percebido)
+* Quantos recursos um navegador pode baixar, simultaneamente, de um determinado domínio?
+  * Quais são as exceções?
+* Descreva 3 formas de diminuir o _page load_ (tempo de carregamento real ou percebido)
 * Se você caísse em um projeto que as pessoas usam _tabs_ para indentação e você usa espaços, o que você faria?
-  * Sugerir que o projeto utilize algo como EditorConfig (http://editorconfig.org)
-  * Se conformar com as convenções (ficar consistente)
-  * `issue :retab! command`
-* Escreva uma página simples de _slideshow_
-  * Bônus se não usar JS.
-* Quais ferramentas você usa para testar a performance do seu código?
-  * Profiler, JSPerf, Dromaeo
-* Se você pudesse dominar uma tecnologia deste ano, qual seria?
-* Quais as diferenças entre *Long-Polling*, *Websockets* and *SSE*?
+* Descreva como criaria uma simples página com um _slideshow_
+* Se você pudesse dominar uma tecnologia este ano, qual seria?
 * Explique a importância de normas e órgãos normativos.
-* O que é FOUC? Como você evita FOUC?
-* Dê a sua melhor descrição do processo do momento que você digita a URL de um website até o final do carregamento da página na sua tela.
+* O que é _Flash of Unstyled Content_? Como você evita FOUC?
+* Explique o que são ARIA e leitores de tela, e como fazer um site de web acessivel.
+* Explique alguns contras e a favor de usar animações em CSS em vez de Javascript.
+* O que signigica CORS e qual é o problema que resolve?
+* Como resolveria um desentendimento com um patrão ou colega?
+* Que recursos usa para aprender sobre as tendencias em desenvolvimento front-end e design?
+* Quais so as qualificações necessarias para ser um bom programador de front-end?
+* Em que cargo você se vê?
+* Explique a diferença entre _cookies_, _session storage_ e _local storage_.
 
 #### [⬆](#toc) <a name='html'>Questões de HTML:</a>
 
