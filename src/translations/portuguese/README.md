@@ -79,38 +79,42 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 #### [⬆](#toc) <a name='css'>Questões de CSS:</a>
 
-* Qual é a diferença entre classes e IDs no CSS?
-* Descreva o que é o arquivo "reset" do CSS e o que ele faz e como ele é útil.
-  * Bônus para identicação das desvantagens de um *reset* e/ou mencionar *normalize* como uma melhor alternativa.
-* Descreva o que são Floats e como eles funcionam.
+* O que é a especificidade de um seletor CSS e como funciona?
+* Qual é a diferenca entre _resetting_ e _normalizing_ em CSS? Qual escolheria e por quê?
+* Descreva _floats_ e como funcionam.
 * Descreva z-index e como o empilhamento do contexto é formado.
-* Quais são as várias técnicas para "clearing" e quais delas são apropriadas para qual contexto?
-* Explique o que são CSS Sprites, e como você implementaria eles em um website.
-* Quais são suas técnicas favoritas para troca de imagens e quais dela você usa.
-* CSS Hacks, arquivo condicional .css, ou... alguma outra coisa?
-* Como você desenvolve sua página para browsers com recursos limitados?
-  * Quais técnicas/processos você usa?
-* Quais são as diferentes formas de visualizar conteúdo escondido (e como fazer para deixar eles disponíveis apenas para leitores de tela?)
-* Você já utilizou algum sistema de grid, se sim, qual você prefere?
-* Você já utilizou ou implementou media queries ou CSSs específicos para mobile?
-* Qual sua familiaridade com SVG?
-* Como você optimiza suas páginas para impressão?
-* Quais são algumas técnicas para escrever um eficiente CSS?
-* Você já utilizou pré-processadores CSS? (SASS, Compass, Stylus, LESS)
-  * Se sim, descreva o que você gostou e o que não gostou com eles.
-* Como você implementaria um website que não utilizaria fontes padrões nos computadores?
-  * Webfonts (Serviços como: Google Webfonts, Typekit, etc.)
-* Explique como um browser determina quais os elementos que correspondem a um seletor CSS.
-*  Explique o que você entende sobre *box model* e como você poderia dizer para o navegador en CSS para renderizar seu layout em diferentes *box models*.
-* O que ```* { box-sizing: border-box; }``` faz? Quais são as vantagens?
-* Liste quantas propriedades *display* você puder lembrar.
-* Qual a diferença entre inline e inline-block?
-* Qual a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática?
-* Quais frameworks CSS você tem usado localmente ou em produção? (Bootstrap, PureCSS, Foundation, etc.)
-  * Se sim, quais deles? Se você puder, como você mudaria/melhoraria ele(s)?
-* Você já brincou com as novas especificações de CSS Flexbox e CSS Grid?
-* Como o design responsivo é diferente do design adaptavel?
+* Descreva BFC (_Block Formatting Context_) e como funciona.
+* Quais são as várias técnicas para _clearing_ e quais delas são apropriadas para que contexto?
+* Qual seria a sua abordagem para resolver problemas de estilo relacionados com browsers diferentes?
+* Como desenvolve uma página para navegadores com recursos limitados?
+  * Quais técnicas/processos que usa?
+* Quais são as diferentes formas de utilizar conteúdo escondido (e como fazer para deixá-los disponíveis apenas para leitores de tela?)
+* Já utilizou algum sistema de _grid_, se sim, qual você prefere?
+* Já utilizou ou implementou _media queries_ ou CSSs específicos para mobile?
+* Qual é sua familiaridade com estilos em SVG?
+* Consegue dar um exemplo de de uma propriedade `@media` que não seja `screen`?
+* Quais são algumas técnicas para escrever CSS eficiente?
+* Quais são as vantagens/desvantagens de usar pré-processadores CSS?
+  * Descreva o que você gostou e o que não gostou com de pré-processadores que usou.
+* Como você implementaria um website que não utilizaria fontes padrões?
+* Explique como um navegador determina quais os elementos que correspondem a um seletor CSS.
+* Descreva pseudo-elementos e como são utilizados.
+* Explique o que você entende sobre _box model_ e como você poderia dizer para o navegador en CSS para renderizar seu layout em diferentes _box models_.
+* O que `* { box-sizing: border-box; }` faz? Quais são as vantagens?
+* Qual é a funcao da propriadade `display`? Dê alguns exemplos de como pode ser usada.
+* Qual é a diferença entre `inline` e `inline-block`?
+* Qual é a diferença entre seletores `nth-of-type()` e `nth-child()`?
+* Qual é a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática (`relative`, `fixed`, `absolute` and `static`)?
+* Quais _frameworks CSS_ você tem usado localmente ou em produção?
+  * Como você mudaria/melhoraria ele(s)?
+* Alguma vez usou _CSS Grid_?
+* Explique a diferença entre desenvolver um site para ser responsivo ou usando uma tática _Mobile First_?
 * Você já trabalhou com gráficos retina? Se sim, quando e quais técnicas você usou?
+* Qual a razão porque usaria `translate()` em vez de _absolute positioning_, ou vice-versa? Por quê?
+* O que é a propriedade de CSS `clearfix` e como é usada?
+* Explique a diferença entre px, em e rem relacionados com o tamanho da fonte.
+* Pode dar um exemplo de uma _pseudo class_? Pode dar um exemplo de como é utilizada?
+* Qual é a diferença entre elementos _block level_ e elementos _inline_. Pode dar exemplos de cada tipo de elemento?
 
 #### [⬆](#toc) <a name='js'>Questões de JS:</a>
 
