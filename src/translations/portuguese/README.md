@@ -63,16 +63,19 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 #### [⬆](#toc) <a name='html'>Questões de HTML:</a>
 
-* O que um `doctype` faz?
-* Qual a diferença entre _standards mode_ e _quirks mode_?
-* Quais as limitações quando utilizamos páginas XHTML?
-  * Existe algum problema em utilizar páginas como `application/xhtml+xml`?
-* Como você desenvolve uma página com conteúdo em múltiplos idiomas?
-  * Que tipo de coisas que você deve tomar cuidado ao desenvolver um website multi-língua?
+* Qual é a função de `doctype`?
+* Como se serve uma página com conteúdo em múltiplos idiomas?
+* Que tipo de coisas que você deve tomar cuidado ao desenvolver um website multi-língua?
 * Quais são os benefícios em utilizar o atributo `data-`?
 * Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção de HTML5?
-* Descreva a diferença entre cookies, sessionStorage e localStorage.
-* Você pode explicar a diferença entre `GET` e `POST`?
+* Descreva a diferença entre `cookie`, `sessionStorage` e `localStorage`.
+* Descreva a diferença entre `<script>`, `<script asuync>` e `<scrypt defer>`.
+* Porque é, geralmente, uma boa ideia colocar os `<link>` CSS entre `<head></head>` e JS `<script>` diretamente antes de `</body>`? Conhece exceções?
+* O que é _progressive rendering_?
+* Porque usaria um atributo `srcset` numa tag imagem? Explique o processo que o navegador usa quando avalia o atributo.
+* Utilisou diferentes linguagens de _HTML templating_?
+* Qual é a diferença entre `canvas` e `svg`?
+* O que são elementos vazios (elementos nulos) em HTML?
 
 #### [⬆](#toc) <a name='css'>Questões de CSS:</a>
 
