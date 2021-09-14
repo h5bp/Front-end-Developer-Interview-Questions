@@ -1,10 +1,10 @@
 ---
-title: GUIA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
+title: GUÍA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
 layout: layouts/page.njk
 permalink: /translations/spanish/index.html
 ---
 
-# GUIA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
+# GUÍA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
 
 Este repositorio contiene preguntas de entrevistas a programadores front-end, que pueden ser usadas para revisar a candidatos potenciales. Bajo ningún concepto se recomienda usar todas las preguntas aquí expuestas con el mismo candidato (eso llevaría horas). Escoger algunos elementos de esta lista debería ayudarle a revisar las habilidades que requiere.
 
