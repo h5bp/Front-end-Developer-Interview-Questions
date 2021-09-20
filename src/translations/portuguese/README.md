@@ -166,6 +166,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Qual a diferenca entre loops `while` e `do-while` em JavaScript?
 * O que é uma _promise_? Onde, e como usaria uma _promise_?
 
+## Questões de código
 * Faça isso funcionar:
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
