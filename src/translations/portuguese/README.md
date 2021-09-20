@@ -179,6 +179,14 @@ console.log("foo" && "bar")
 ```
 * Escreva uma função de invocação imediata (IIFE - Immediately Invoked Function Expression)
 
+#### [⬆](#toc) <a name='testing'>Questões de teste:</a>
+
+* Quais são algumas vantagens / desvantagens de testar seu código?
+* Que ferramentas usaria para testar a funcionalidade do seu código?
+* Qual é a diferença entre um teste de unidade e um teste funcional / de integração?
+* Qual é a finalidade de uma ferramenta de linting de estilo de código?
+* Quais são algumas das práticas recomendadas para efetuar testes?
+
 #### [⬆](#toc) <a name='jscode'>Questões de código:</a>
 
 *Questão: Como você faria isso funcionar?*
