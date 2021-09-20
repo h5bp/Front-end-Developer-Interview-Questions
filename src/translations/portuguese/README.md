@@ -193,6 +193,22 @@ console.log("foo" && "bar")
 * Quais são algumas maneiras de melhorar o desempenho de rolagem do seu site?
 * Explique a diferença entre layout, pintura e composição.
 
+#### [⬆](#toc) <a name='network'>Questões de rede:</a>
+
+* Tipicamente, porque é melhor servir os assets do site de multiplos dominios?
+* Descreva o processo do momento em que digita or URL de um site até ele ser carregado na tela.
+* Quais as diferenças entre _Long-Polling_, _Websockets_ e _Server-Sent Events_?
+* Explique os seguintes cabeçalhos de solicitação e resposta:
+  * Diferença entre _Expires_, _Date_, _Age_ e _If-Modified_
+  * _Do Not Track_
+  * _Cache-Control_
+  * _Transfer-Encoding_
+  * _ETag_
+  * _X-Frame-Options_
+* O que são métodos HTTP? Liste e explique os métodos HTTP que conhece.
+* O que é pré-busca (_prefetching_) de domínio e como isso ajuda na performance?
+* O que é um CDN e qual é a sua vantagem?
+
 #### [⬆](#toc) <a name='jscode'>Questões de código:</a>
 
 *Questão: Como você faria isso funcionar?*
