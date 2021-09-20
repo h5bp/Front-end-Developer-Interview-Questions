@@ -187,6 +187,12 @@ console.log("foo" && "bar")
 * Qual é a finalidade de uma ferramenta de linting de estilo de código?
 * Quais são algumas das práticas recomendadas para efetuar testes?
 
+#### [⬆](#toc) <a name='performance'>Questões de performance:</a>
+
+* Que ferramentas você usaria para encontrar um bug de performance em seu código?
+* Quais são algumas maneiras de melhorar o desempenho de rolagem do seu site?
+* Explique a diferença entre layout, pintura e composição.
+
 #### [⬆](#toc) <a name='jscode'>Questões de código:</a>
 
 *Questão: Como você faria isso funcionar?*
