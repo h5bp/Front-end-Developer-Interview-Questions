@@ -321,7 +321,7 @@ function foo2()
 
 * Qual a coisa mais legal que você desenvolveu recentement? Qual você ficou mais orgulhoso?
 * Quais suas partes favoritas sobre as ferramentas de desenvolvimento que você usa?
-* Você teve algum projeto para animais de estimação? Qual tipo?
+* Você teve algum projeto prediletos? Qual tipo?
 * Qual sua feature favorita do Internet Explorer?
 
 #### [⬆](#toc) <a name='references'>Outras Grandes Referências:</a>
