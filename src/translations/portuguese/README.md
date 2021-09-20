@@ -168,10 +168,8 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 * Faça isso funcionar:
 ```javascript
-[1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* O que é um operador ternário, o que a palavra "ternário" indica/significa?
-* O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
 * Crie um loop for que itere até `100` enquanto retorna **fizz** em múltiplos de `3`, **buzz** em múltiplos de `5` e **fizzbuzz** em múltiplos de `3` e `5`.
 
 #### [⬆](#toc) <a name='jquery'>Questões de jQuery:</a>
@@ -183,6 +181,12 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Nomeie 4 valores diferentes que você pode passar para um método jQuery.
   * Seletor (string), HTML (string), Callback (function), HTMLElement, object, array, elemento de array, jQuery Object, etc.
 * Qual a diferença entre `.get()`, `[]`, e `.eq()`?
+* O que será retornado de cada um desses?
+```javascript
+console.log("hello" || "world")
+console.log("foo" && "bar")
+```
+* Escreva uma função de invocação imediata (IIFE - Immediately Invoked Function Expression)
 
 #### [⬆](#toc) <a name='jscode'>Questões de código:</a>
 
