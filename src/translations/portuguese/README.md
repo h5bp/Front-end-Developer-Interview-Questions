@@ -118,39 +118,54 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 
 #### [⬆](#toc) <a name='js'>Questões de JS:</a>
 
-* Explique o evento _delegation_.
+* Explique a delegação de eventos (_event delegation_).
 * Explique como `this` funciona em JavaScript.
-* Explique como funciona herança prototipada.
-* Como você testa seu JavaScript?
-* AMD vs. CommonJS?
-* Explique por que a seguinte função não funciona como uma IIFE: `function foo(){ }();`.
-  * O que precisa ser alterado para se tornar uma IIFE?
-* Qual a diferença entre uma variável que `null`,  `undefined` ou `undeclared`?
-  * Como você verificaria esses estados?
+  * Dê um exemplo de como o uso de `this` mudou com ES6.
+* Explique como funciona herança prototípica.
+* Qual a diferença entre uma variável  `null`,  `undefined` ou `undeclared`?
+  * Como verificar esses estados?
 * O que é uma _closure_, e como/por que você usaria uma?
+* Que construções da linguagem javascript se usa para iterar por propridades de um objeto ou elementos de um array?
+* Descreva a diferença principal entre os metodos `Array.forEach()` e `Array.map()`. Por que usaria um em vez do outro?
 * Qual o caso de uso típico para funções anônimas?
-* Como você organiza seu código? (module pattern, herança clássica?)
 * Qual a diferença entre objetos herdados e objetos nativos?
- Qual a diferença entre: `function Person(){}`, `var person = Person()`, e `var person = new Person()`?
-* Qual a diferença entre `.call` e `.apply`?
+* Qual a diferença entre: `function Person(){}`, `var person = Person()`, e `var person = new Person()`?
+* Quais são as diferenças do uso de `foo` entre `function foo() {}` e `var foo = function() {}`
+* Explique como funciona `Function.call` e `Function.apply`? Qual a diferença mais importante?
 * Explique `Function.prototype.bind`.
-* Quando você otimiza seu código?
-* Você pode explicar como funciona a herença no Javascript?
-* Quando você deve usar o `document.write()`?
-  * A maioria dos anúncios de publicidade ainda utilizam `document.write()` embora seu uso não seja recomendado.
-* Qual a diferença entre feature detection, feature inference, e o uso de UA string?
-* Explique o que é AJAX o mais detalhadamente possível.
-* Explique como o JSONP funciona (e como ele realmente não é AJAX).
-* Você já utilizou templates com Javascript?
-  * Se sim, quais bibliotecas foram utilizadas? (Mustache.js, Handlebars, etc.)
-* Explique o que é "hoisting".
-* Descreva o que é event bubbling.
-* Qual a diferença entre "atributo" e "propriedade"?
-* Porque a extensão de objetos nativos não é uma boa ideia?
-* Qual a diferença entre o evento document load e o evento document ready?
+* Qual a diferença entre _feature detection_, _feature inference_, e o uso de _UA string_?
+* Explique o que é _hoisting_.
+* Descreva o que é borbulhar do evento (_event bubbling_).
+* Descreva o que é captura do evento (_event capturing_).
+* Qual a diferença entre um "atributo" e uma "propriedade"?
+* Quais são os pros e contras da extensão de objetos nativos em Javascript?
 * Qual a diferença entre `==` e `===`?
-* Explique como você pega um parâmetro na URL do browser.
 * Explique a política de _same-origin_ em relação a Javascript.
+* Porque é chamado um operador condicional ternário, o que a palavra "ternário" indica?
+* O que é o `"use strict";`? Quais a vantagens e desvantagens de sua utilização?
+* Quais as vantagens a desvantages de escrever código Javascript numa linguagem que é compilada para Javascript?
+* Que instrumentos e técnicas usa para depurar código Javascript?
+* Explique a diferença entre objetos mutáveis e imutáveis.
+  * Dê um exemplo de um objeto imutável em Javascript
+  * Quais são os pros e contras da imutabilidade?
+  * Como consegue desenvolver imutabilidade no seu código?
+* Explique a diferença entre funções síncronas e assíncronas.
+* O que é o loop de eventos?
+  * Qual a diferença entre a pilha de chamadas (_call stack_) e a fila de chamadas (_stack queue_)?
+* Quais as diferenças entre variáveis criadas usando o `let`, `var` ou `const`?
+* Quais as diferenças entre uma classe em ES6 e construtores de função em ES5?
+* Dê um exemplo do uso para a sintaxe das funções de seta `=>`? Como a nova sintaxe difere de outras funções?
+* Qual a vantagem de usar a sintaxe de seta para o metodo em um construtor?
+* Qual é a definição de uma função de ordem superior?
+* Dê um exemplo de desestruturação de um objeto ou array.
+* Dê um exemplo da geração de uma _string_ usando _Template Literals_ em ES6.
+* Dê um exemplo de uma _curry function_ e as vantagens da sintaxe?
+* Quais os benificios de usar `spread syntax` e quais as diferencas com `rest syntax`?
+* Como partilhar código entre ficheiros?
+* Qual a razão para criar membros de classe estáticos?
+* Qual a diferenca entre loops `while` e `do-while` em JavaScript?
+* O que é uma _promise_? Onde, e como usaria uma _promise_?
+
 * Faça isso funcionar:
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
