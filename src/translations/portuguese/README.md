@@ -211,28 +211,33 @@ console.log("foo" && "bar")
 
 #### [⬆](#toc) <a name='jscode'>Questões de código:</a>
 
-*Questão: Como você faria isso funcionar?*
+Questão: Qual é o valor de `foo`?
+```javascript
+var foo = 10 + '20';
+```
+
+Questão: Qual o retorno do código abaixo?
+```javascript
+console.log(0.1 + 0.2 == 0.3);
+```
+
+Questão: Como você faria isso funcionar?
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
 ```
 
-
-*Questão: Qual valor é retornado da seguinte declaração?*
+Questão: Qual valor é retornado da seguinte declaração?
 ```javascript
 "sou uma lasanha".split("").reverse().join("");
 ```
-**Resposta: "ahnasal amu uos"**
 
-
-*Questão: Qual é o valor de `window.foo`?*
+Questão: Qual é o valor de `window.foo`?
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-**Resposta: "bar"** *(apenas se window.foo for falso, se não ele vai retornar o seu valor próprio).*
 
-
-*Questão: Qual o retorno dos dois alerts abaixo?*
+Questão: Qual o retorno dos dois alerts abaixo?
 ```javascript
 var foo = "Hello";
 (function() {
@@ -241,16 +246,76 @@ var foo = "Hello";
 })();
 alert(foo + bar);
 ```
-**Resposta: "Hello World" & ReferenceError: bar is not defined**
 
-
-*Questão: Qual o valor de `foo.length`?*
+Questão: Qual o valor de `foo.length`?
 ```javascript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
-**Resposta: `2`**
+
+Questão: Qual o valor d `foo.x`?
+```javascript
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
+```
+
+Questão: O que o código abaixo imprime na tela?
+```javascript
+console.log('one');
+setTimeout(function() {
+  console.log('two');
+}, 0);
+Promise.resolve().then(function() {
+  console.log('three');
+})
+console.log('four');
+```
+
+Questão: Qual a diferença entra essas quatro promessas?
+```javascript
+doSomething().then(function () {
+  return doSomethingElse();
+});
+
+doSomething().then(function () {
+  doSomethingElse();
+});
+
+doSomething().then(doSomethingElse());
+
+doSomething().then(doSomethingElse);
+```
+
+Questão: Qual será a saída do código abaixo para o console e por quê?
+```javascript
+(function(){
+  var a = b = 3;
+})();
+
+console.log("a defined? " + (typeof a !== 'undefined'));
+console.log("b defined? " + (typeof b !== 'undefined'));
+```
+
+Questão: Considere as duas funções abaixo. Ambos retornarão a mesma coisa? Por que ou por que não?
+```javascript
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+      bar: "hello"
+  };
+}
+```
+
 
 #### [⬆](#toc) <a name='fun'>Questões Divertidas:</a>
 
