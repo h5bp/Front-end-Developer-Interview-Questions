@@ -14,16 +14,16 @@ O artigo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12
 
 ## <a name='toc'>Tabela de Conteúdos</a>
 
-  1. [Contribuintes Originais](#contributors)
   1. [Questões Gerais](#general)
-  1. [Questões de HTML](#html)
-  1. [Questões de CSS](#css)
-  1. [Questões de JS](#js)
-  1. [Questões de jQuery](#jquery)
-  1. [Questões de Código](#jscode)
-  1. [Questões Divertidas](#fun)
-  1. [Outras Grandes Referências](#references)
-  1. [Licença](#license)
+  2. [Questões de HTML](#html)
+  3. [Questões de CSS](#css)
+  4. [Questões de JS](#js)
+  5. [Questões de Acessibilidade](https://scottaohara.github.io/accessibility_interview_questions/)(external link)
+  6. [Questões sobre Teste](#testing)
+  7. [Questões de Performance](#performance)
+  8. [Questões de Rede](#network)
+  9. [Questões de Código](#jscode)
+  10. [Questões Divertidas](#fun)
 
 #### [⬆](#toc) <a name='contributors'>Contribuintes originais:</a>
 
@@ -323,17 +323,6 @@ function foo2()
 * Quais suas partes favoritas sobre as ferramentas de desenvolvimento que você usa?
 * Você teve algum projeto prediletos? Qual tipo?
 * Qual sua feature favorita do Internet Explorer?
-
-#### [⬆](#toc) <a name='references'>Outras Grandes Referências:</a>
-
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
-* http://www.toptal.com/javascript/interview-questions
-* http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-* http://www.sitepoint.com/5-javascript-interview-exercises/
 
 #### [⬆](#toc) <a name='license'>Licença:</a>
 
