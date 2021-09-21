@@ -10,7 +10,7 @@ Este repositório contém uma série de perguntas para entrevista de profissiona
 
 O artigo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) de [Rebecca Murphey](http://rmurphey.com/) é também uma ótima fonte para ler antes de entrevistar um candidato.
 
-**Note:** Tenha em mente que muitas destas questões estão em aberto e poderia levar à discussões interessantes que dizem mais sobre as capacidades do candidato do que a resposta em si.
+**Note:** Tenha em mente que muitas destas questões estão em aberto e poderia levar a discussões interessantes que dizem mais sobre as capacidades do candidato do que a resposta em si.
 
 ## <a name='toc'>Tabela de Conteúdos</a>
 
@@ -37,7 +37,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Quando construindo um novo site ou mantendo um existente, pode explicar algumas das tecnicas que usou para aumentar a performance?
 * Pode descrever algumas melhores práticas ou metodologias de SEO que usou recentemente?
 * Pode explicar metodologias comuns ou problemas que resolveu recentemente em termos de seguranca em front-end?
-* Que acçãos tomou pessoalmente em projetos recentes para aumentar a manutenibilidade do codigo?
+* Que acções tomou pessoalmente em projetos recentes para aumentar a manutenibilidade do código?
 * Fale sobre seu ambiente de desenvolvimento preferido.
 * Com quais sistemas de controle de versão você é familiar?
 * Descreva seu processo quando cria uma página web.
@@ -54,7 +54,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * O que é _Flash of Unstyled Content_? Como você evita FOUC?
 * Explique o que são ARIA e leitores de tela, e como fazer um site de web acessivel.
 * Explique alguns contras e a favor de usar animações em CSS em vez de Javascript.
-* O que signigica CORS e qual é o problema que resolve?
+* O que significa CORS e qual é o problema que resolve?
 * Como resolveria um desentendimento com um patrão ou colega?
 * Que recursos usa para aprender sobre as tendencias em desenvolvimento front-end e design?
 * Quais so as qualificações necessarias para ser um bom programador de front-end?
@@ -69,7 +69,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Quais são os benefícios em utilizar o atributo `data-`?
 * Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção de HTML5?
 * Descreva a diferença entre `cookie`, `sessionStorage` e `localStorage`.
-* Descreva a diferença entre `<script>`, `<script asuync>` e `<scrypt defer>`.
+* Descreva a diferença entre `<script>`, `<script async>` e `<scrypt defer>`.
 * Porque é, geralmente, uma boa ideia colocar os `<link>` CSS entre `<head></head>` e JS `<script>` diretamente antes de `</body>`? Conhece exceções?
 * O que é _progressive rendering_?
 * Porque usaria um atributo `srcset` numa tag imagem? Explique o processo que o navegador usa quando avalia o atributo.
@@ -101,7 +101,7 @@ A maiorida das questões foram retiradas de um _thread_da [oksoclap](http://okso
 * Descreva pseudo-elementos e como são utilizados.
 * Explique o que você entende sobre _box model_ e como você poderia dizer para o navegador en CSS para renderizar seu layout em diferentes _box models_.
 * O que `* { box-sizing: border-box; }` faz? Quais são as vantagens?
-* Qual é a funcao da propriadade `display`? Dê alguns exemplos de como pode ser usada.
+* Qual é a função da propriedade `display`? Dê alguns exemplos de como pode ser usada.
 * Qual é a diferença entre `inline` e `inline-block`?
 * Qual é a diferença entre seletores `nth-of-type()` e `nth-child()`?
 * Qual é a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática (`relative`, `fixed`, `absolute` and `static`)?
@@ -196,7 +196,7 @@ console.log("foo" && "bar")
 #### [⬆](#toc) <a name='network'>Questões de rede:</a>
 
 * Tipicamente, porque é melhor servir os assets do site de multiplos dominios?
-* Descreva o processo do momento em que digita or URL de um site até ele ser carregado na tela.
+* Descreva o processo do momento em que digita o URL de um site até ele ser carregado na tela.
 * Quais as diferenças entre _Long-Polling_, _Websockets_ e _Server-Sent Events_?
 * Explique os seguintes cabeçalhos de solicitação e resposta:
   * Diferença entre _Expires_, _Date_, _Age_ e _If-Modified_
