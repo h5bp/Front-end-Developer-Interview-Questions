@@ -5,7 +5,7 @@ permalink: /questions/html-questions/index.html
 ---
 
 * What does a `doctype` do?
-* How do you serve a page with content in multiple languages?
+* How do you serve a page with content in multiple languages (<a href='https://www.geeksforgeeks.org/how-to-serve-a-page-with-content-in-multiple-languages/' target="_blank">answer</a>)?
 * What kind of things must you be wary of when designing or developing for multilingual sites?
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
