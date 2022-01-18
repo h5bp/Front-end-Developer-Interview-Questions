@@ -8,7 +8,7 @@ permalink: /translations/portuguese/index.html
 
 Este repositório contém uma série de perguntas para entrevista de profissionais de front-end que podem ser usadas para avaliar os candidatos. Não é recomendado de maneira alguma usar todas as perguntas aqui no mesmo candidato (que levaria horas). A escolha de alguns itens dessa lista deverá ajudar a identificar as habilidades requeridas do candidato.
 
-O artigo [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) de [Rebecca Murphey](http://rmurphey.com/) é também uma ótima fonte para ler antes de entrevistar um candidato.
+O artigo [Baseline For Front-End Developers](https://rmurphey.com/posts/a-baseline-for-front-end-developers-2015/) de [Rebecca Murphey](https://rmurphey.com/) é também uma ótima fonte para ler antes de entrevistar um candidato.
 
 **Note:** Tenha em mente que muitas destas questões estão em aberto e poderia levar a discussões interessantes que dizem mais sobre as capacidades do candidato do que a resposta em si.
 
