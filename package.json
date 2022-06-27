@@ -45,7 +45,7 @@
     "html-minifier": "^4.0.0",
     "luxon": "^2.4.0",
     "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.2",
+    "markdown-it-anchor": "^8.6.4",
     "uglify-es": "^3.3.9"
   },
   "resolutions": {
