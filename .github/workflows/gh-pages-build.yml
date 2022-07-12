@@ -14,4 +14,4 @@ jobs:
           publish_dir: ./
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          args: --input src
+          args: --input=src
