@@ -1,0 +1,25 @@
+name: Eleventy Build
+push:
+  branches: [main]
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      - run: npm install
+      - name: Build
+        uses: TartanLlama/actions-eleventy@master
+        with:
+          args: --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
