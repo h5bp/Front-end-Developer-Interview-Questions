@@ -6,6 +6,12 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      - run: npm install
       - name: Build
         uses: TartanLlama/actions-eleventy@master
         with:
