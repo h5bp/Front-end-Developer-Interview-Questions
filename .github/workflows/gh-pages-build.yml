@@ -15,7 +15,7 @@ jobs:
       - name: Build
         uses: TartanLlama/actions-eleventy@master
         with:
-          args: --config=config/eleventy.config.js
+          args: --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
