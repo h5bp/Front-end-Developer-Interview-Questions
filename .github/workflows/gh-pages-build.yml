@@ -1,5 +1,6 @@
 name: Eleventy Build
-on: [push]
+push:
+  branches: [main]
 
 jobs:
   build_deploy:
