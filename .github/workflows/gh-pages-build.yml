@@ -8,10 +8,11 @@ jobs:
       - uses: actions/checkout@master
       - name: Build
         uses: TartanLlama/actions-eleventy@master
+        with:
+          args: --config=config/eleventy.config.js
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          args: --input=src
