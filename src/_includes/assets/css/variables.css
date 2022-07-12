@@ -1,0 +1,20 @@
+:root {
+  --font-family-heading: sans-serif;
+  --font-family-body: Georgia, serif;
+  --font-family-code: Menlo, Monaco, 'Courier New', monospace;
+  --color-primary: #835EFF;
+  --color-secondary: #FF008D;
+  --color-safe: #8338EC;
+  --color-gradient: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  --color-highlight: var(--color-primary);
+  --color-gray-opacity: rgba(39,39,39,0.04);
+  --color-heading: #23231A;
+  --color-text: #23231A;
+  --background-default: #F9F9F9;
+  --border-radius-default: 5px;
+  --box-shadow-default: 0 2rem 4rem rgba(0,0,0,.15);
+  --transition-duration: 0.27s;
+}
+body.rtl{
+  --font-family-body: Arial, Helvetica, sans-serif;
+}

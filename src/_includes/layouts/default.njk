@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/Article">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title and page.fileSlug != '' %}{{ title }} ★ {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if description %}{{ description | markdownify_inline | strip_html }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <meta name="author" content="{{ site.title }}">
+  <!-- schema.org -->
+  <meta itemprop="author" content="{{ site.title }}">
+  <meta itemprop="name" content="{% if title and page.fileSlug != '' %}{{ title }} ★ {% endif %}{{ site.title }}">
+  <meta itemprop="description" content="{% if description %}{{ description | markdownify_inline | strip_html }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="image" content="{{ site.url }}/assets/images/og-image.png">
+  <!-- facebook/open graph -->
+  <meta property="og:title" content="{% if title and page.fileSlug != '' %}{{ title }} ★ {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | permalink }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/og-image.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{site.language}}">
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if title and page.fileSlug != '' %}{{ title }} ★ {% endif %}{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:site" content="{{ site.twitter }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.png">
+  <meta name="twitter:creator" content="{{ site.twitter }}">
+  <!-- icons -->
+  <link type="image/png" rel="apple-touch-icon" href="{{ site.url }}/assets/images/apple-touch-icon.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="{{ site.url }}/assets/images/favicon-32x32.png">
+  <link type="image/png" sizes="16x16" rel="icon" href="{{ site.url }}/assets/images/favicon-32x32.png">
+  <link type="image/png" color="#181818" rel="mask-icon" href="{{ site.url }}/assets/images/favicon-96x96.png">
+  <!-- android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- robots and humans -->
+  <meta name="robots" content="index,follow">
+  <!-- inlined css -->
+  {% set css %}
+    {% include "assets/css/prism.css" %}
+    {% include "assets/css/variables.css" %}
+    {% include "assets/css/defaults.css" %}
+    {% include "assets/css/navigation.css" %}
+    {% include "assets/css/header.css" %}
+    {% include "assets/css/content.css" %}
+    {% include "assets/css/footer.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+</head>
+<body class="{% if rtl %}rtl {% endif %}">
+  <div class="topbar"></div>
+  <div class="container">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    {% include "components/navigation.njk" %}
+    <main id="main-content" tabindex="-1">
+      {% block pageTop %}{% endblock %}
+      {% block main %}{% endblock %}
+    </main>
+    {% include "components/footer.njk" %}
+  </div>
+  {% set js %}{% include "assets/js/app.js" %}{% endset %}
+  <script>{{ js | jsmin | safe }}</script>
+</body>
+</html>

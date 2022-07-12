@@ -1,0 +1,137 @@
+
+{
+  "all": [
+    {
+      "language": "Arabic",
+      "url": "arabic/"
+    },
+    {
+      "language": "Bulgarian",
+      "url": "bulgarian/"
+    },
+    {
+      "language": "Burmese",
+      "url": "burmese/"
+    },
+    {
+      "language": "Chinese",
+      "url": "chinese/"
+    },
+    {
+      "language": "Chinese-Traditional",
+      "url": "chinese-traditional/"
+    },
+    {
+      "language": "Croatian",
+      "url": "croatian/"
+    },
+    {
+      "language": "Czech",
+      "url": "czech/"
+    },
+    {
+      "language": "Danish",
+      "url": "danish/"
+    },
+    {
+      "language": "Dutch",
+      "url": "dutch/"
+    },
+    {
+      "language": "Farsi",
+      "url": "farsi/"
+    },
+    {
+      "language": "French",
+      "url": "french/"
+    },
+    {
+      "language": "German",
+      "url": "german/"
+    },
+    {
+      "language": "Hebrew",
+      "url": "hebrew/"
+    },
+    {
+      "language": "Greek",
+      "url": "greek/"
+    },
+    {
+      "language": "Hindi",
+      "url": "hindi/"
+    },
+    {
+      "language": "Hungarian",
+      "url": "hungarian/"
+    },
+    {
+      "language": "Indonesian",
+      "url": "indonesian/"
+    },
+    {
+      "language": "Italian",
+      "url": "italian/"
+    },
+    {
+      "language": "Japanese",
+      "url": "japanese/"
+    },
+    {
+      "language": "Korean",
+      "url": "korean/"
+    },
+    {
+      "language": "Latvian",
+      "url": "latvian/"
+    },
+    {
+      "language": "Polish",
+      "url": "polish/"
+    },
+    {
+      "language": "Portuguese",
+      "url": "portuguese/"
+    },
+    {
+      "language": "Romanian",
+      "url": "romanian/"
+    },
+    {
+      "language": "Russian",
+      "url": "russian/"
+    },
+    {
+      "language": "Serbian",
+      "url": "serbian/"
+    },
+    {
+      "language": "Slovakian",
+      "url": "slovakian/"
+    },
+    {
+      "language": "Slovenian",
+      "url": "slovenian/"
+    },
+    {
+      "language": "Spanish",
+      "url": "spanish/"
+    },
+    {
+      "language": "Swedish",
+      "url": "swedish/"
+    },
+    {
+      "language": "Turkish",
+      "url": "turkish/"
+    },
+    {
+      "language": "Ukrainian",
+      "url": "ukrainian/"
+    },
+    {
+      "language": "Vietnamese",
+      "url": "vietnamese/"
+    }
+  ]
+}

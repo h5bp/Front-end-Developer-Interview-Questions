@@ -1,0 +1,49 @@
+
+{
+  "all": [
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/459713?v=4",
+      "name": "Darcy Clarke",
+      "website": "https://darcyclarke.me",
+      "github": "https://github.com/darcyclarke",
+      "twitter": "https://twitter.com/darcy"
+    },
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/361421?v=4",
+      "name": "Rob Larsen",
+      "website": "http://htmlcssjavascript.com/",
+      "github": "https://github.com/roblarsen",
+      "twitter": "https://twitter.com/robreact"
+    },
+    {
+      "avatar": "https://avatars1.githubusercontent.com/u/6904368?v=4",
+      "name": "Vasiliy Vanchuk",
+      "website": "https://bit.ly/vvscodeli",
+      "github": "https://github.com/vvscode",
+      "twitter": "https://twitter.com/vvscode"
+    }
+  ],
+  "legacy": [
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/4672033?v=4",
+      "name": "Cezar Augusto",
+      "website": "https://cezaraugusto.net",
+      "github": "https://github.com/cezaraugusto",
+      "twitter": "https://twitter.com/cezaraugusto"
+    },
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/1245284?v=4",
+      "name": "Righ Gilbank",
+      "website": "https://richgilbank.com/",
+      "github": "https://github.com/richgilbank",
+      "twitter": "https://twitter.com/richgilbank"
+    },
+    {
+      "avatar": "https://avatars0.githubusercontent.com/u/21979?v=4",
+      "name": "Bo-Yi Wu",
+      "website": "https://about.me/appleboy",
+      "github": "https://github.com/appleboy",
+      "twitter": "https://twitter.com/appleboy"
+    }
+  ]
+}
