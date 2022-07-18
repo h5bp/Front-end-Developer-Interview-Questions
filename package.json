@@ -46,6 +46,7 @@
     "luxon": "^2.4.0",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
+    "markdown-translator": "^0.4.5",
     "uglify-es": "^3.3.9"
   },
   "resolutions": {
