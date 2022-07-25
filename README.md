@@ -29,7 +29,6 @@ You can read more about this project & its history [here](https://h5bp.org/Front
 The project is currently maintained by:
 
 - [@roblarsen](https://github.com/roblarsen)
-- [@vvscode](https://github.com/vvscode)
 
 ## Contributors
 

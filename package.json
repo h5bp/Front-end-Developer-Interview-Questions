@@ -4,7 +4,6 @@
   "description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
   "scripts": {
     "build": "eleventy --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'",
-    "deploy": "sh ./config/deploy.sh",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate && cp .all-contributorsrc ./src/_data/contributors.json",
     "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet"
@@ -24,8 +23,8 @@
   "author": "H5BP",
   "contributors": [
     {
-      "name": "Cezar Augusto",
-      "email": "boss@cezaraugusto.net"
+      "name": "Rob Larsen",
+      "email": "rob@htmlcssjavascript.com"
     },
     {
       "name": "Darcy Clarke",
