@@ -1,47 +1,79 @@
-import markdownTranslate from 'markdown-translator';
-import concat from 'concat-files';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import async from 'async';
+import markdownTranslate from "markdown-translator";
+import concat from "concat-files";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import async from "async";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const dir = path.resolve(path.join(__dirname, 'temp'));
+const dir = path.resolve(path.join(__dirname, "temp"));
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
-const tmpReadme = `${dir}/readme.md`
 
-  concat([
-    './src/questions/general-questions.md',
-    './src/questions/html-questions.md',
-    './src/questions/css-questions.md',
-    './src/questions/javascript-questions.md',
-    './src/questions/testing-questions.md',
-    './src/questions/performance-questions.md',
-    './src/questions/network-questions.md',
-    './src/questions/coding-questions.md',
-    './src/questions/fun-questions.md'
-  ], tmpReadme, function(err) {
-    if (err) throw err
+const languages = [
+  { folder: "arabic", languageCode: "ar" },
+  { folder: "bulgarian", languageCode: "bg" },
+  { folder: "burmese", languageCode: "my" },
+  { folder: "chinese", languageCode: "zh" },
+  { folder: "chinese-traditional", languageCode: "zh-CHT" },
+  { folder: "croatian", languageCode: "hr" },
+  { folder: "czech", languageCode: "cs" },
+  { folder: "danish", languageCode: "da" },
+  { folder: "dutch", languageCode: "nl" },
+  { folder: "farsi", languageCode: "fa" },
+  { folder: "french", languageCode: "fr" },
+  { folder: "german", languageCode: "de" },
+  { folder: "greek", languageCode: "el" },
+  { folder: "hebrew", languageCode: "he" },
+  { folder: "hindi", languageCode: "hi" },
+  { folder: "hungarian", languageCode: "hu" },
+  { folder: "indonesian", languageCode: "id" },
+  { folder: "italian", languageCode: "it" },
+  { folder: "japanese", languageCode: "ja" },
+  { folder: "korean", languageCode: "ko" },
+  { folder: "latvian", languageCode: "lv" },
+  { folder: "polish", languageCode: "pl" },
+  { folder: "portuguese", languageCode: "pt" },
+  { folder: "romanian", languageCode: "ro" },
+  { folder: "russian", languageCode: "ru" },
+  { folder: "serbian", languageCode: "sr" },
+  { folder: "slovakian", languageCode: "sk" },
+  { folder: "slovenian", languageCode: "sl" },
+  { folder: "spanish", languageCode: "es" },
+  { folder: "swedish", languageCode: "sv" },
+  { folder: "turkish", languageCode: "tr" },
+  { folder: "ukrainian", languageCode: "uk" },
+  { folder: "vietnamese", languageCode: "vi" },
+];
+const files =[
+  "coding-questions.md",  
+  "fun-questions.md",      
+  "html-questions.md",        
+  "network-questions.md",      
+  "testing-questions.md",
+  "css-questions.md",
+  "general-questions.md",  
+  "javascript-questions.md", 
+  "performance-questions.md",
+]
+languages.forEach((language)=>{
+  files.forEach((file)=>{
     markdownTranslate({
-      // Give either a filepath
-      src: tmpReadme,
+      src: `./src/questions/${file}`,
       from: "en-us",
-      to: "it",
+      to: language.languageCode,
       subscriptionKey: "",
       region: "eastus",
     }).then((res) => {
       console.log(res);
-      fs.writeFile("./utils//temp/italian.md",res,(err) => {
-        if (err)
-          console.log(err);
+      fs.writeFile(`${process.cwd()}/src/translations/${language.folder}/${file}`, res, (err) => {
+        if (err) console.log(err);
         else {
           console.log("File written successfully\n");
         }
-      })
-    }) 
-  })
-
-
+      });
+    });
+  });
+});
