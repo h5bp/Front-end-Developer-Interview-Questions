@@ -58,17 +58,17 @@ const files =[
   "javascript-questions.md", 
   "performance-questions.md",
 ]
-
+languages.forEach((language)=>{
   files.forEach((file)=>{
     markdownTranslate({
       src: `./src/questions/${file}`,
       from: "en-us",
-      to: "it",
+      to: language.languageCode,
       subscriptionKey: "",
       region: "eastus",
     }).then((res) => {
       console.log(res);
-      fs.writeFile(`${process.cwd()}/src/translations/italian/${file}`, res, (err) => {
+      fs.writeFile(`${process.cwd()}/src/translations/${language.folder}/${file}`, res, (err) => {
         if (err) console.log(err);
         else {
           console.log("File written successfully\n");
@@ -76,3 +76,4 @@ const files =[
       });
     });
   });
+});
