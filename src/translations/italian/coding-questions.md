@@ -1,7 +1,10 @@
-***
+---
 
-## titolo: Domande di codifica&#xA;layout: layouts/page.njk&#xA;permalink: /questions/coding-questions/index.html
+title: Domande di codifica
+layout: layouts/page.njk
+permalink: /translations/italian/coding-questions/index.html
 
+---
 Domanda: Qual è il valore di `foo`?
 
 ```javascript

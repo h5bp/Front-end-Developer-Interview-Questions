@@ -1,4 +1,10 @@
-***
+---
+
+title: Domande prestazioni
+layout: layouts/page.njk
+permalink: /translations/italian/performance-questions/index.html
+
+---
 
 ## titolo: Performance Questions&#xA;layout: layouts/page.njk&#xA;permalink: /questions/performance-questions/index.html
 

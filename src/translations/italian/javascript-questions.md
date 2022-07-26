@@ -1,6 +1,10 @@
-***
+---
 
-## title: Domande JavaScript&#xA;layout: layouts/page.njk&#xA;permalink: /questions/javascript-questions/index.html
+title: Domande JavaScript
+layout: layouts/page.njk
+permalink: /translations/italian/javascript-questions/index.html
+
+---
 
 *   Spiegare la delega degli eventi.
 *   Spiega come `this` funziona in JavaScript.

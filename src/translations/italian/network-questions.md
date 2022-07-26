@@ -1,6 +1,10 @@
-***
+---
 
-## titolo: Domande sulla rete&#xA;layout: layouts/page.njk&#xA;permalink: /questions/network-questions/index.html
+title: Domande sulla rete
+layout: layouts/page.njk
+permalink: /translations/italian/network-questions/index.html
+
+---
 
 *   Tradizionalmente, perché è stato meglio servire le risorse del sito da più domini?
 *   Fai del tuo meglio per descrivere il processo dal momento in cui digiti l'URL di un sito Web fino al termine del caricamento sullo schermo.

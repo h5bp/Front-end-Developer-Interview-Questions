@@ -1,6 +1,10 @@
-***
+---
 
-## titolo: HTML Questions&#xA;layout: layouts/page.njk&#xA;permalink: /questions/html-questions/index.html
+title: Domande di HTML
+layout: layouts/page.njk
+permalink: /translations/italian/html-questions/index.html
+
+---
 
 *   Che cosa fa un `doctype` fare?
 *   Come si fa a servire una pagina con contenuti in più lingue?

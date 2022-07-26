@@ -1,6 +1,10 @@
-***
+---
 
-## titolo: Fun Questions&#xA;layout: layouts/page.njk&#xA;permalink: /questions/fun-questions/index.html
+title: Domande divertenti
+layout: layouts/page.njk
+permalink: /translations/italian/fun-questions/index.html
+
+---
 
 *   Qual è un bel progetto a cui hai lavorato di recente?
 *   Quali sono alcune cose che ti piacciono degli strumenti di sviluppo che usi?

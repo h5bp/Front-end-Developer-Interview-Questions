@@ -1,6 +1,10 @@
-***
+---
 
-## titolo: Domande generali&#xA;layout: layouts/page.njk&#xA;permalink: /questions/general-questions/index.html
+title: Domande generali
+layout: layouts/page.njk
+permalink: /translations/italian/general-questions/index.html
+
+---
 
 *   Cosa hai imparato ieri/questa settimana?
 *   Cosa ti entusiasma o ti interessa della codifica?

@@ -1,6 +1,10 @@
-***
+---
 
-## titolo: CSS Questions&#xA;layout: layouts/page.njk&#xA;permalink: /questions/css-questions/index.html
+title: Domande di CSS
+layout: layouts/page.njk
+permalink: /translations/italian/css-questions/index.html
+
+---
 
 *   Cos'è la specificità del selettore CSS e come funziona?
 *   Qual è la differenza tra "reset" e "normalizzazione" dei CSS? Quale sceglieresti e perché?
