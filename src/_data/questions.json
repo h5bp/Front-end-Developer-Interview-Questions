@@ -4,25 +4,25 @@
     {
       "abbreviation": "General",
       "title": "General Questions",
-      "url": "/questions/general-questions/",
+      "url": "general-questions/",
       "external": false
     },
     {
       "abbreviation": "HTML",
       "title": "HTML Questions",
-      "url": "/questions/html-questions/",
+      "url": "html-questions/",
       "external": false
     },
     {
       "abbreviation": "CSS",
       "title": "CSS Questions",
-      "url": "/questions/css-questions/",
+      "url": "css-questions/",
       "external": false
     },
     {
       "abbreviation": "JavaScript",
       "title": "JavaScript Questions",
-      "url": "/questions/javascript-questions/",
+      "url": "javascript-questions/",
       "external": false
     },
     {
@@ -34,31 +34,31 @@
     {
       "abbreviation": "Testing",
       "title": "Testing Questions",
-      "url": "/questions/testing-questions/",
+      "url": "testing-questions/",
       "external": false
     },
     {
       "abbreviation": "Performance",
       "title": "Performance Questions",
-      "url": "/questions/performance-questions/",
+      "url": "performance-questions/",
       "external": false
     },
     {
       "abbreviation": "Network",
       "title": "Network Questions",
-      "url": "/questions/network-questions/",
+      "url": "network-questions/",
       "external": false
     },
     {
       "abbreviation": "Coding",
       "title": "Coding Questions",
-      "url": "/questions/coding-questions/",
+      "url": "coding-questions/",
       "external": false
     },
     {
       "abbreviation": "Fun",
       "title": "Fun Questions",
-      "url": "/questions/fun-questions/",
+      "url": "fun-questions/",
       "external": false
     }
   ]

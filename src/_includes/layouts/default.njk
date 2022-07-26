@@ -52,7 +52,9 @@
   <div class="topbar"></div>
   <div class="container">
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    {% include "components/navigation.njk" %}
+      {% block nav %}
+      {% endblock %}
+    
     <main id="main-content" tabindex="-1">
       {% block pageTop %}{% endblock %}
       {% block main %}{% endblock %}

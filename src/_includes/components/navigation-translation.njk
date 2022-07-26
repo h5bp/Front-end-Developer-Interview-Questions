@@ -7,7 +7,7 @@
       <ul class="navigation navigation-questions-list">
         {% for entry in questions.all %}
           {% if not entry.external %}
-          <li class="navigation-item"><a class="navigation-anchor navigation-questions-anchor{{" current" if entry.url == page.url else "" }}" href="/questions/{{ entry.url | url }}" title="{{ entry.title }}">{{ entry.abbreviation }}</a></li>
+          <li class="navigation-item"><a class="navigation-anchor" href="{{ entry.url | url }}" title="{{ entry.title }}">{{ entry.abbreviation }}</a></li>
           {% else %}
           <li class="navigation-item"><a rel="external noreferrer noopener" target="_blank" class="navigation-anchor navigation-questions-anchor" href="{{ entry.url }}" title="{{ entry.title }} (external link)">{{ entry.abbreviation }}</a></li>
           {% endif %}
