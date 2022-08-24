@@ -33,3 +33,5 @@ permalink: /questions/general-questions/index.html
 * What skills are needed to be a good front-end developer?
 * What role do you see yourself in?
 * Explain the difference between cookies, session storage, and local storage?
+* What does client-side mean?
+* What is the difference between HTTP and https?
