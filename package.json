@@ -42,7 +42,7 @@
     "all-contributors-cli": "^6.20.0",
     "clean-css": "^5.3.1",
     "html-minifier": "^4.0.0",
-    "luxon": "^3.0.1",
+    "luxon": "^3.0.3",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "uglify-es": "^3.3.9"
