@@ -51,6 +51,7 @@ permalink: /questions/javascript-questions/index.html
 * Why you might want to create static class members?
 * What is the difference between `while` and `do-while` loops in JavaScript?
 * What is a promise? Where and how would you use promise?
+* Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
 
 ## Coding questions
 * Make this work:
