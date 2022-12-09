@@ -8,4 +8,4 @@ permalink: /questions/fun-questions/index.html
 * What are some things you like about the developer tools you use?
 * Who inspires you in the front-end community?
 * Do you have any pet projects? What kind?
-* What's your favorite feature of Internet Explorer?
+

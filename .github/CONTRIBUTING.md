@@ -3,6 +3,8 @@
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
 
+*Please submit one PR per question*
+
 Following these guidelines helps to communicate that you respect the time of
 the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue or assessing
@@ -39,8 +41,8 @@ Adhering to the following process is the best way to get your work included in t
 2. If you cloned a while ago, get the latest changes from upstream:
 
    ```bash
-   git checkout master
-   git pull upstream master
+   git checkout main
+   git pull upstream main
    ```
 
 3. Create a new topic branch (off the main project development branch) to
@@ -53,7 +55,7 @@ Adhering to the following process is the best way to get your work included in t
 4. Locally merge (or rebase) the upstream development branch into your topic branch:
 
    ```bash
-   git pull [--rebase] upstream master
+   git pull [--rebase] upstream main
    ```
 
 5. Set-up the website
@@ -70,7 +72,7 @@ Our website is made with [Eleventy](https://11ty.io).
 * If you are looking to edit infrastructure/templating files of the website and not sure how to, [check their docs](https://11ty.io/docs).
 * If you are looking to change a question/translation file, just change the markdown file you want and the website will be updated once it is deployed.
 
-6. Squash your commits down to a single one (we want to keep the master branch nice and clean)
+6. Squash your commits down to a single one (we want to keep the main branch nice and clean)
 
 7. Push your topic branch up to your fork:
 
