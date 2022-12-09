@@ -160,6 +160,9 @@ Burada ön yüz yazılım -ya da front-end- iş başvurularınızda karşınıza
 * Senkron ve asenkron fonksiyonlar arasındaki farkları açıklayın.
 * Olay döngüsü (event loop) nedir?
   * Çağrı yığını (call stack) ve görev kuyruğu (task queue) arasındaki fark nedir?
+* Rest Api nedir?  Rest Api de hangi methodlar var? . Get,post,put,delete ve patch yöntemlerini ne zaman kullandığımızı söyler misiniz?
+* req vs res ne anlama geliyor, aynı anda ne kadar req gönderiyoruz
+
 * `foo`, `function foo() {}` ve `var foo = function() {}` arasındaki farkları açıklayın.
 
 #### <a name='testing-questions'>Test Soruları:</a>
