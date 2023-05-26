@@ -20,6 +20,8 @@ permalink: /questions/javascript-questions/index.html
 * Can you explain what `Function.call` and `Function.apply` do? What's the notable difference between the two?
 * Explain `Function.prototype.bind`.
 * What's the difference between feature detection, feature inference, and using the UA string?
+* What are primitive and non-primitive data types?
+  * Which of these two are passed by reference in a function?
 * Explain "hoisting".
 * Describe event bubbling.
 * Describe event capturing.
