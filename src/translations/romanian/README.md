@@ -23,7 +23,7 @@ capacitățile persoanei.
   1. [Întrebări despre CSS](#css)
   1. [Întrebări despre JS](#js)
   1. [Întrebări despre testare](#testing)
-  1. [Întrebări despre perfomanță](#performance)
+  1. [Întrebări despre performanță](#performance)
   1. [Întrebări despre rețea](#network)
   1. [Întrebări despre programare](#jscode)
   1. [Întrebări amuzante](#fun)
@@ -38,9 +38,9 @@ capacitățile persoanei.
 
 * Ce ai învățat ieri/săptămâna asta?
 * Ce te fascinează sau interesează la programare?
-* Ce provocare technica ai intampinat recent si cum ai rezlovat-o?
-* Ce aspecte de UI, Securitate, Performanță, SEO, Întreținere sau Tehnologie
-  iei în cosiderare când construiești o aplicație web sau un site?
+* Ce provocare tehnică ai întâmpinat recent și cum ai rezolvat-o?
+* Ce aspecte de UI, securitate, performanță, SEO, întreținere sau tehnologie
+  iei în considerare când construiești o aplicație web sau un site?
 * Povestește despre mediul de lucru preferat.
 * Îți poți descrie fluxul de lucru când creezi o pagină web?
 * Dacă ai 5 fișiere cu cod CSS, cum le poți integra cel mai bine în site?
@@ -49,17 +49,17 @@ capacitățile persoanei.
 * Cum ai optimiza resursele statice ale unui site?
 * Câte resurse poate un browser descărca de la un domeniu la un moment dat?
     * Care sunt excepțiile?
-* Numește 3 moduri pentru a scădea timpul de încarcare a paginii. (perceput
+* Numește 3 moduri pentru a scădea timpul de încărcare a paginii. (perceput
   sau chiar timpul de descărcare)
 * Dacă intri într-un proiect și se folosesc taburi în loc de spații, ce faci?
 * Descrie modul în care ai crea o simplă pagină de prezentare.
 * Ce unelte folosești pentru a testa performanța codului pe care îl scrii?
 * Dacă ai putea învăța o tehnologie anul asta, care ar fi?
 * Explică importanța standardelor și a organismelor de standardizare.
-* Ce este `Flash of Unstyled Content`? Cum eviți FOUC?
+* Ce este "Flash of Unstyled Content"? Cum eviți FOUC?
 * Explică ce sunt screenreaders și ARIA și cum faci un site accesibil.
 * Compară părți bune și negative pentru animații CSS versus animații JavaScript.
-* Ce reprezintă CORS si ce probleme incearcă să rezolve?
+* Ce reprezintă CORS și ce probleme încearcă să rezolve?
 
 #### [[⬆]](#toc) <a name='html'>Întrebări despre HTML:</a>
 
@@ -81,16 +81,16 @@ capacitățile persoanei.
 #### [[⬆]](#toc) <a name='css'>Întrebări despre CSS:</a>
 
 * Care este diferența dintre clase și ID-uri în CSS?
-* Care este diferența între a 'reseta' și a 'normaliza' in CSS? Pe care ai
-alege-o și de ce?
-* Descrie 'Float' si cum funcționează.
+* Care este diferența între a 'reseta' și a 'normaliza' in CSS? Pe care ai 
+  alege-o și de ce?
+* Descrie 'Float' și cum funcționează.
 * Descrie z-index și cum se formează stacking context.
-* Descrie BFC(Block Formatting Context) și cum functionează.
+* Descrie BFC(Block Formatting Context) și cum funcționează.
 * Care sunt diferitele metode de a 'curăța' (clearing) și care este potrivită
 pentru ce context?
 * Explică conceptul de CSS sprites și cum le-ai implementa pe o pagină sau
   un site.
-* Care sunt tehnicile tale preferate pentru înlocuirea imaginilor și care
+* Care sunt tehnicile tale preferate pentru înlocuirea imaginilor și 
   când le folosești?
 * Hack-uri de proprietăți CSS, includerea condițională a fișierelor .css,
   sau... altceva?
@@ -111,8 +111,8 @@ pentru ce context?
 * Cum ai implementa un design care folosește fonturi non-standard?
 * Explică cum un browser determina ce elemente se potrivesc unui selector CSS?
 * Descrie 'pseudo-elements' și explică la ce sunt folosite.
-* Explică, în cuvintele tale, conceptul "box model" si cum ai instrui
-browser-ul, prin CSS, sa randeze layoutul în modele diferite.
+* Explică, în cuvintele tale, conceptul "box model" și cum ai instrui
+  browser-ul, prin CSS, să redea aspectul în modele diferite.
 * Ce face ```* { box-sizing: border-box; }```? Care sunt avantajele?
 * Ce proprietăți de display știi?
 * Care este diferența între `inline` și `inline-block`?
@@ -126,27 +126,27 @@ browser-ul, prin CSS, sa randeze layoutul în modele diferite.
     * Ce ai schimba / îmbunătăți la ele?
 * Ai avut ocazia să te joci cu noile specificații pentru CSS Flexbox sau Grid?
 * Cum este design-ul 'responsive' diferit de cel 'adaptive'?
-* Ai lucrat vreodata pentru retina display? Dacă da, când și ce tehnici ai
-folosit?
+* Ai lucrat vreodată pentru retina display? Dacă da, când și ce tehnici ai
+  folosit?
 * Este vreun motiv pentru care ai vrea să folosești ```translate()``` în loc de
-**posiționare absolută** sau invers? De ce?
+**poziționare absolută** sau invers? De ce?
 
 #### [[⬆]](#toc) <a name='js'>Întrebări despre JS:</a>
 
 * Explică "event delegation".
 * Explică cum funcționează `this` în JavaScript.
 * Explică cum funcționează moștenirea prototipală.
-* Cum îti testezi codul JavaScript?
+* Cum îți testezi codul JavaScript?
 * Ce părere ai despre AMD vs. CommonJS?
-* Explică de ce următoarea nu functionează ca un IIFE: `function foo(){ }();`
+* Explică de ce următoarea nu funcționează ca un IIFE: `function foo(){ }();`
   * Ce trebuie schimbat ca să o transformi într-o IIFE?
 * Care este diferența dintre o variabilă care este: `null`, `undefined` sau
   `undeclared`?
   * Cum ai face sa verifici după fiecare dintre stările acestea?
 * Ce este un "closure" și cum/de ce ai folosi unul?
 * Care este un caz în care sunt folosite funcții anonime?
-* Cum îți organizezi codul? (module pattern, moștenire?)
-* Care este diferența dintre obiecte host si obiecte native?
+* Cum îți organizezi codul? (module șablon, moștenire?)
+* Care este diferența dintre obiecte host și obiecte native?
 * Diferența dintre: `function Person(){}`, `var person = Person()` și
   `person = new Person()`
 * Care este diferența dintre `.call` și `.apply`?
@@ -156,8 +156,8 @@ folosit?
 * Care este diferența dintre 'feature detection', 'feature inference' și
   folosirea șirului User Agent?
 * Explică AJAX cât mai detaliat posibil.
-* Explică cum funcționează JSONP (și cum nu este chiar AJAX ).
-* Ai folosit vreodată template-uri JavaScript?
+* Explică cum funcționează JSONP (și cum nu este chiar AJAX).
+* Ai folosit vreodată templating JavaScript?
   * Dacă da, ce librării ai folosit? (Mustache.js, Handlebars etc.)
 * Explică "hoisting".
 * Descrie "event bubbling".
@@ -175,9 +175,9 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Ce este o expresie ternară și ce indică cuvântul ternar?
 * Ce este `"use strict;"` și care sunt avantajele și dezavantajele folosirii
   acestuia?
-* Create a for loop that iterates up to `100` while outputting **"fizz"**
-  at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at
-  multiples of `3` and `5`.
+* Creați o buclă for care iterează până la `100` și afișează **"fizz"**
+  la multipli de `3`, **"buzz"** la multipli de `5` și **"fizzbuzz"** la
+  multipli de `3` și `5`.
 * De ce este, de regulă, o idee bună să nu poluezi scope-ul global al unui
   website?
 * Explică ce este o 'single page app' și cum ai putea să improvizezi SEO-ul?
@@ -186,39 +186,39 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 'callbacks' ?
 * Care sunt avantajele și dezavantajele prin a scrie JavaScript într-o limbă ce
 compilează JavaScript?
-* Ce unelte si tehnici foloșeti pentru a 'depana' (debug) JavaScript?
+* Ce unelte și tehnici folosești pentru a 'depana' (debug) JavaScript?
 * Ce construcții de limbaj folosești pentru a itera peste proprietățile obiectelor și
-elmentele listelor (array)?
+elementele listelor (array)?
 * Explică diferența dintre obiectele mutabile și imutabile.
-* Ce exmplu de obiect imutabil poți da în JavaScript?
-* Avantaje si dezavantaje a imutabilității?
+* Ce exemplu de obiect imutabil poți da în JavaScript?
+* Avantaje și dezavantaje a imutabilității?
 * Cum poți obține imutabilitate în propriul cod?
 * Explică diferența dintre funcțiile sincrone (synchronous) și
-asincrone (asynchronous).
+  asincrone (asynchronous).
 * Ce este un 'even loop'?
-* Care este diferența dintre 'call stack' si 'task queue'?
+* Care este diferența dintre 'call stack' și 'task queue'?
 
 #### [[⬆]](#toc) <a name='testing'>Întrebări despre testare:</a>
 
 * Care sunt avantajele/dezavantajele în a-ți testa codul?
-* Ce unelte ai folosi pentru a testa functionalitatea codului?
+* Ce unelte ai folosi pentru a testa funcționalitatea codului?
 * Care este diferența dintre unitatea de testare (unit test) și testarea de
 funcționalitate/integrare?
-* Care este scopul unei unelte de lintarea a stilului de cod?
+* Care este scopul unei unelte de "style linting"?
 
 #### [[⬆]](#toc) <a name='performance'>Întrebări despre perfomanță:</a>
 
-* Ce unelte ai folosi pentru a găsi bug-uri de performanță in codul tau?
+* Ce unelte ai folosi pentru a găsi bug-uri de performanță in codul tău?
 * Ce diferite metode prin care ai putea îmbunătăți performanța defilării
-(scroll) a unui site știi?
+  (scroll) a unui site știi?
 * Explică diferența dintre o schemă (layout), desenare (painting) și compoziție
-(compositing).
+  (compositing).
 
 #### [[⬆]](#toc) <a name='network'>Întrebări despre rețea:</a>
 
 * Tradițional, de ce a fost mai bine să servești resurse de pe mai multe domenii?
 * Încearcă să descrii cât mai bine ce se întâmplă din momentul în care scrii
-  un URL-ul unui site în browser până când este complet încărcat pe ecranul tău.
+  un URL-ul a unui site în browser până când este complet încărcat pe ecranul tău.
 * Care sunt diferențele dintre Long-Polling, WebSockets și Server-Sent Events?
 * Explică semnificația următoarelor antete HTTP:
   * Diferența dintre Expires, Date, Age și If-Modified
@@ -228,7 +228,7 @@ funcționalitate/integrare?
   * ETag
   * X-Frame-Options
 * Care sunt acțiunile HTTP? Listează toate acțiunile HTTP pe care le ști și
-explică-le.
+  explică-le.
 
 #### [[⬆]](#toc) <a name='jscode'>Întrebări despre cod:</a>
 
