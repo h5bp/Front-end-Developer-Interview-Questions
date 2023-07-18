@@ -12,12 +12,13 @@ You can read more about this project & its history [here](https://h5bp.org/Front
   2. [HTML Questions](src/questions/html-questions.md)
   3. [CSS Questions](src/questions/css-questions.md)
   4. [JS Questions](src/questions/javascript-questions.md)
-  5. [Accessibility Questions](https://scottaohara.github.io/accessibility_interview_questions/) (external link)
-  6. [Testing Questions](src/questions/testing-questions.md)
-  7. [Performance Questions](src/questions/performance-questions.md)
-  8. [Network Questions](src/questions/network-questions.md)
-  9. [Coding Questions](src/questions/coding-questions.md)
-  10. [Fun Questions](src/questions/fun-questions.md)
+  5. [JS Questions for senior developers](https://github.com/pravinmohite/JavaScript-Developer-Interview-Questions-For-5-Years-Experience)
+  6. [Accessibility Questions](https://scottaohara.github.io/accessibility_interview_questions/) (external link)
+  7. [Testing Questions](src/questions/testing-questions.md)
+  8. [Performance Questions](src/questions/performance-questions.md)
+  9. [Network Questions](src/questions/network-questions.md)
+  10. [Coding Questions](src/questions/coding-questions.md)
+  11. [Fun Questions](src/questions/fun-questions.md)
 
 ## Getting Involved
 
