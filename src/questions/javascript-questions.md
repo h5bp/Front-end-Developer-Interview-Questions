@@ -52,6 +52,9 @@ permalink: /questions/javascript-questions/index.html
 * What is the difference between `while` and `do-while` loops in JavaScript?
 * What is a promise? Where and how would you use promise?
 * Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
+* What are all the types of Pop up boxes available in JavaScript?
+* Why do we use the word “debugger” in javascript?
+* What are object prototypes?
 
 ## Coding questions
 * Make this work:
