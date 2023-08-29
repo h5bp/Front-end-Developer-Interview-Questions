@@ -17,3 +17,5 @@ permalink: /questions/html-questions/index.html
 * Have you used different HTML templating languages before?
 * What is the difference between `canvas` and `svg`?
 * What are empty elements in HTML ?
+* How to optimize website assets loading?
+* What is the difference between the `get` and `post` methods in HTML forms?
