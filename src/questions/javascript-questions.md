@@ -21,7 +21,7 @@ permalink: /questions/javascript-questions/index.html
 * Explain `Function.prototype.bind`.
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain "hoisting".
-* What are truthy and falsy values in Javascript?
+* What is type coercion? What are common pitfalls of relying on type coercion in JavaScript code?
 * Describe event bubbling.
 * Describe event capturing.
 * What's the difference between an "attribute" and a "property"?
