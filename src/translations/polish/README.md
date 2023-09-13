@@ -2,6 +2,7 @@
 title: Pytania kwalifikacyjne na stanowisko front-end web developera
 layout: layouts/page.njk
 permalink: /translations/polish/index.html
+lang: pl
 ---
 
 # Pytania kwalifikacyjne na stanowisko front-end web developera

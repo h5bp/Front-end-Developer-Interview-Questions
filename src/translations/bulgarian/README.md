@@ -2,6 +2,7 @@
 title: Въпроси за интервю за front-end разработчици
 layout: layouts/page.njk
 permalink: /translations/bulgarian/index.html
+lang : bg
 ---
 
 # Въпроси за интервю за front-end разработчици

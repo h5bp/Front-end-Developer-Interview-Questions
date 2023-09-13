@@ -2,6 +2,7 @@
 title: Questões para entrevista de profissionais Front-end
 layout: layouts/page.njk
 permalink: /translations/portuguese/index.html
+lang: pt
 ---
 
 # Questões para entrevista de profissionais Front-end

@@ -2,6 +2,7 @@
 title: Întrebări pentru interviu tehnic web front-end
 layout: layouts/page.njk
 permalink: /translations/romanian/index.html
+lang: ro
 ---
 
 # Întrebări pentru interviu tehnic web front-end

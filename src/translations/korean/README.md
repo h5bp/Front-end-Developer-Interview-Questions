@@ -2,6 +2,7 @@
 title: 프론트엔드 면접 문제 은행
 layout: layouts/page.njk
 permalink: /translations/korean/index.html
+lang: ko
 ---
 
 # 프론트엔드 면접 문제 은행

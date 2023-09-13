@@ -2,6 +2,7 @@
 title: Intervju vprašanja za front-end programerja
 layout: layouts/page.njk
 permalink: /translations/slovenian/index.html
+lang: sl
 ---
 
 # Intervju vprašanja za front-end programerja

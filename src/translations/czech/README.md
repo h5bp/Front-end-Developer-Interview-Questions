@@ -2,6 +2,7 @@
 title: Front-end vývojář – otázky k pohovoru
 layout: layouts/page.njk
 permalink: /translations/czech/index.html
+lang : cs
 ---
 
 # Front-end vývojář – otázky k pohovoru 

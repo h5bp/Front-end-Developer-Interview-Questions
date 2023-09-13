@@ -2,6 +2,7 @@
 title: Fragen im Bewerbungsgespräch für Frontend-Entwickler
 layout: layouts/page.njk
 permalink: /translations/german/index.html
+lang : de
 ---
 
 # Fragen im Bewerbungsgespräch für Frontend-Entwickler

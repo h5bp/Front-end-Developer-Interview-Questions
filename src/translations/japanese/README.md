@@ -2,6 +2,7 @@
 title: フロントエンドデベロッパー面接時の質問事項
 layout: layouts/page.njk
 permalink: /translations/japanese/index.html
+lang: ja
 ---
 
 # フロントエンドデベロッパー面接時の質問事項

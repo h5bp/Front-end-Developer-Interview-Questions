@@ -2,6 +2,7 @@
 title: Những Câu Hỏi Phỏng Vấn Lập Trình Viên Front-end
 layout: layouts/page.njk
 permalink: /translations/vietnamese/index.html
+lang : vi
 ---
 
 # Những Câu Hỏi Phỏng Vấn Lập Trình Viên Front-end

@@ -3,6 +3,7 @@ title: سوالات مصاحبه‌ی کاری فرانت‌-اند
 layout: layouts/page.njk
 rtl: true
 permalink: /translations/farsi/index.html
+lang: fa
 ---
 
 <h1 dir="rtl">سوالات مصاحبه‌ی کاری فرانت‌-اند</h1>

@@ -2,6 +2,7 @@
 title: Daftar Pertanyaan Wawancara Kerja Front-End
 layout: layouts/page.njk
 permalink: /translations/indonesian/index.html
+lang: id
 ---
 
 # Daftar Pertanyaan Wawancara Kerja Front-End

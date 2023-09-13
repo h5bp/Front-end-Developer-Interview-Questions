@@ -2,6 +2,7 @@
 title: Front-end Anställningsfrågor
 layout: layouts/page.njk
 permalink: /translations/swedish/index.html
+lang: sv
 ---
 
 # Front-end Anställningsfrågor

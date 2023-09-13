@@ -2,6 +2,7 @@
 title: फ्रंट-एंड डेवलपर साक्षात्कार प्रश्न
 layout: layouts/page.njk
 permalink: /translations/hindi/index.html
+lang: hi
 ---
 
 # फ्रंट-एंड डेवलपर साक्षात्कार प्रश्न

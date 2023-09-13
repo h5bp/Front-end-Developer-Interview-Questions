@@ -3,6 +3,7 @@ title: שאלות לראיונות עבודה בנושא פיתוח - צד לק�
 layout: layouts/page.njk
 rtl: true
 permalink: /translations/hebrew/index.html
+lang : he
 ---
 
 <div dir="rtl">

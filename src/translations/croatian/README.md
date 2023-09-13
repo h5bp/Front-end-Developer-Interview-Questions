@@ -2,6 +2,7 @@
 title: Intervju za posao Front-end Developera
 layout: layouts/page.njk
 permalink: /translations/croatian/index.html
+lang: hr
 ---
 
 # Intervju za posao Front-end Developera
