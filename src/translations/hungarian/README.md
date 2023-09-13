@@ -2,6 +2,7 @@
 title: Interjú kérdések front-end fejlesztőknek
 layout: layouts/page.njk
 permalink: /translations/hungarian/index.html
+lang : hu
 ---
 
 # Interjú kérdések front-end fejlesztőknek

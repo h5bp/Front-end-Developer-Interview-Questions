@@ -2,6 +2,7 @@
 title: GUÍA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO
 layout: layouts/page.njk
 permalink: /translations/spanish/index.html
+lang: es
 ---
 
 # GUÍA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO

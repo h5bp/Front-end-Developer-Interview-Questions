@@ -2,6 +2,7 @@
 title: Questionnaire de recrutement pour développeur front-end
 layout: layouts/page.njk
 permalink: /translations/french/index.html
+lang: fr
 ---
 
 # Questionnaire de recrutement pour développeur front-end

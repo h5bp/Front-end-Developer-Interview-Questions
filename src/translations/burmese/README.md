@@ -2,6 +2,7 @@
 title: Front-end developer အလုပ်နှင့်ဆိုင်သော အင်တာဗျူး မေးခွန်းများ
 layout: layouts/page.njk
 permalink: /translations/burmese/index.html
+lang : my
 ---
 
 # Front-end developer အလုပ်နှင့်ဆိုင်သော အင်တာဗျူး မေးခွန်းများ

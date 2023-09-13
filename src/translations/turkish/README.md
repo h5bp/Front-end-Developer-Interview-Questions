@@ -2,6 +2,7 @@
 title: Ön Yüz Yazılımcısı - Front-end Developer - Mülakat Soruları
 layout: layouts/page.njk
 permalink: /translations/turkish/index.html
+lang: tr
 ---
 
 # Ön Yüz Yazılımcısı - Front-end Developer - Mülakat Soruları

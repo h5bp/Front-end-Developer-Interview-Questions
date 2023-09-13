@@ -2,6 +2,7 @@
 title: Otázky k pohovoru; front-end vývojár
 layout: layouts/page.njk
 permalink: /translations/slovakian/index.html
+lang: sk
 ---
 
 # Otázky k pohovoru: front-end vývojár

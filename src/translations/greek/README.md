@@ -2,6 +2,7 @@
 title: Ερωτήσεις συνέντευξης για υποψήφιους Frond-end developers
 layout: layouts/page.njk
 permalink: /translations/greek/index.html
+lang: el
 ---
 
 # Ερωτήσεις συνέντευξης για υποψήφιους Frond-end developers

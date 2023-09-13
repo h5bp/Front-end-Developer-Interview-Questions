@@ -2,6 +2,7 @@
 title: Intervju za posao Front-end Developer-a
 layout: layouts/page.njk
 permalink: /translations/serbian/index.html
+lang: sr
 ---
 
 # Intervju za posao Front-end Developer-a

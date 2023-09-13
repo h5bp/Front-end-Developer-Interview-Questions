@@ -2,6 +2,7 @@
 title: Front-end Job Interview Spørgsmål
 layout: layouts/page.njk
 permalink: /translations/danish/index.html
+lang: da
 ---
 
 # Front-end Job Interview Spørgsmål

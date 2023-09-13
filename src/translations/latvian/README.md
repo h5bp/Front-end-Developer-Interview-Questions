@@ -2,6 +2,7 @@
 title: Front-end web programmētāja darba intervijas jautājumi
 layout: layouts/page.njk
 permalink: /translations/latvian/index.html
+lang: lv
 ---
 
 # Front-end web programmētāja darba intervijas jautājumi

@@ -2,6 +2,7 @@
 title: Вопросы кандидату на должность front-end разработчика
 layout: layouts/page.njk
 permalink: /translations/russian/index.html
+lang: ru
 ---
 
 # Вопросы кандидату на должность фронтенд-разработчика

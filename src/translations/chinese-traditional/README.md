@@ -2,6 +2,7 @@
 title: 前端工程師面試問題集
 layout: layouts/page.njk
 permalink: /translations/chinese-traditional/index.html
+lang: zh
 ---
 
 # 前端工程師面試問題集

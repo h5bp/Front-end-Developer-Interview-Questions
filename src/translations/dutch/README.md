@@ -2,6 +2,7 @@
 title: Front-end interview vragen
 layout: layouts/page.njk
 permalink: /translations/dutch/index.html
+lang : nl
 ---
 
 # Front-end interview vragen

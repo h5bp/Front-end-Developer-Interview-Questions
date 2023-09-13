@@ -2,6 +2,7 @@
 title: 前端工作面试问题
 layout: layouts/page.njk
 permalink: /translations/chinese/index.html
+lang : zh
 ---
 
 # 前端工作面试问题

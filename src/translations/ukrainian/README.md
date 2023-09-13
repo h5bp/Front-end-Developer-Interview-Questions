@@ -2,6 +2,7 @@
 title: Питання кандидату на посаду front-end розробника
 layout: layouts/page.njk
 permalink: /translations/ukrainian/index.html
+lang: uk
 ---
 
 # Питання кандидату на посаду front-end розробника
