@@ -2,6 +2,7 @@
 title: Domande per il colloquio di lavoro per front-end
 layout: layouts/page.njk
 permalink: /translations/italian/index.html
+lang : it
 ---
 
 # Domande per il colloquio di lavoro per front-end

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="https://schema.org/Article">
+<html lang="{% if lang %}{{ lang }}{% else %}{{ page.lang }}{% endif %}" itemscope itemtype="https://schema.org/Article">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +36,9 @@
   <meta name="mobile-web-app-capable" content="yes">
   <!-- robots and humans -->
   <meta name="robots" content="index,follow">
+  <script>
+  console.log(page.lang)
+  </script>
   <!-- inlined css -->
   {% set css %}
     {% include "assets/css/prism.css" %}
