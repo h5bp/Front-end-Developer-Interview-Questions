@@ -1,11 +1,11 @@
 ---
-title: Front-end Job Interview Spørgsmål
+title: Front-end Developer Interview Spørgsmål
 layout: layouts/page.njk
 permalink: /translations/danish/index.html
 lang: da
 ---
 
-# Front-end Job Interview Spørgsmål
+# Front-end Developer Interview Spørgsmål
 
 @version 1.0
 
