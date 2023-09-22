@@ -89,7 +89,7 @@ lang: pt
   * Descreva o que você gosta ou não gosta nos pré-processadores de CSS que você já utilizou.
 * Como você implementaria um comp de design web que usa fontes não padrão?
 * Explique como um navegador determina quais elementos correspondem a um seletor CSS.
-* Descreva pseudo-elementos e discuta para que são usados.
+* Descreva o que são pseudo-elementos e explique para que são usados.
 * Explique sua compreensão do modelo de caixa e como você diria ao navegador em CSS para renderizar seu layout em diferentes modelos de caixa.
 * O que ```* { box-sizing: border-box; }``` faz? Quais são suas vantagens?
 * Qual é a propriedade `display` do CSS e você pode dar alguns exemplos de seu uso?
