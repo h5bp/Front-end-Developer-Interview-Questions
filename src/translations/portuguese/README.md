@@ -1,5 +1,5 @@
 ---
-title: Perguntas para Entrevista de Desenvolvedor Front End
+title: Perguntas para Entrevista de Desenvolvedor Front-End
 layout: layouts/page.njk
 permalink: /translations/portuguese/index.html
 lang: pt
@@ -34,7 +34,7 @@ lang: pt
 * Pode descrever a diferença entre aprimoramento progressivo e degradação graciosa?
 * Como você otimizaria os ativos/recursos de um site?
 * Quantos recursos um navegador baixará de um domínio específico de cada vez?
-  * What are the exceptions?
+  * E quais são as exceções?
 * Cite 3 maneiras de diminuir o carregamento da página (tempo de carregamento percebido ou real).
 * Se você ingressasse em um projeto e eles usassem tabs e você usasse espaços, o que você faria?
 * Descreva como você criaria uma página de apresentação de slides simples.
@@ -78,15 +78,15 @@ lang: pt
 * Quais são as várias técnicas de limpeza e qual é apropriada para qual contexto?
 * Como você abordaria a correção de problemas de estilização específicos do navegador?
 * Como você serve suas páginas para navegadores com recursos limitados?
-  * What techniques/processes do you use?
+  * Quais técnicas ou processos você utiliza?
 * Quais são as diferentes maneiras de ocultar visualmente o conteúdo (e torná-lo disponível apenas para leitores de tela)?
 * Você já usou um sistema de grid e, se sim, qual você prefere?
 * Você já usou ou implementou media queries ou layouts/CSS específicos para dispositivos móveis?
 * Você está familiarizado com a estilização de SVG?
 * Você pode dar um exemplo de uma propriedade `@media` diferente de `screen`?
 * Quais são algumas das "pegadinhas" ao escrever CSS eficiente?
-* Quais são as vantagens/desvantagens de usar pré-processadores CSS?
-  * Describe what you like and dislike about the CSS preprocessors you have used.
+* Quais são as vantagens/desvantagens de usar pré-processadores de CSS?
+  * Descreva o que você gosta ou não gosta nos pré-processadores de CSS que você já utilizou.
 * Como você implementaria um comp de design web que usa fontes não padrão?
 * Explique como um navegador determina quais elementos correspondem a um seletor CSS.
 * Descreva pseudo-elementos e discuta para que são usados.
@@ -111,10 +111,10 @@ lang: pt
 
 * Explique a delegação de eventos.
 * Explique como `this` funciona em JavaScript.
-  * Can you give an example of one of the ways that working with `this` has changed in ES6?
+  * Você pode dar um exemplo de uma das maneiras que trabalhar com `this` mudou no ES6?
 * Explique como funciona a herança prototipal.
 * Qual é a diferença entre uma variável que é: `null`, `undefined` ou não declarada?
-  * How would you go about checking for any of these states?
+  * Como você procederia para verificar qualquer um desses estados?
 * O que é um fechamento (closure) e como/por que você usaria um?
 * Quais construções de linguagem você usa para iterar sobre propriedades de objetos e itens de array?
 * Você pode descrever a principal diferença entre o loop `Array.forEach()` e os métodos `Array.map()` e por que você escolheria um em vez do outro?
@@ -138,12 +138,12 @@ lang: pt
 * Quais são algumas das vantagens/desvantagens de escrever código JavaScript em uma linguagem que compila para JavaScript?
 * Quais ferramentas e técnicas você usa para depurar código JavaScript?
 * Explique a diferença entre objetos mutáveis e imutáveis.
-  * What is an example of an immutable object in JavaScript?
-  * What are the pros and cons of immutability?
-  * How can you achieve immutability in your own code?
+  * Qual é um exemplo de um objeto imutável em JavaScript?
+  * Quais são os prós e contras da imutabilidade?
+  * Como você pode alcançar a imutabilidade em seu próprio código?
 * Explique a diferença entre funções síncronas e assíncronas.
 * O que é o loop de eventos?
-  * What is the difference between call stack and task queue?
+  * Qual é a diferença entre pilha de chamadas (call stack) e fila de tarefas (task queue)?
 * Quais são as diferenças entre as variáveis criadas usando `let`, `var` ou `const`?
 * Quais são as diferenças entre a classe ES6 e os construtores de função ES5?
 * Você pode oferecer um caso de uso para a nova sintaxe de função de seta `=>`? Como essa nova sintaxe difere de outras funções?
