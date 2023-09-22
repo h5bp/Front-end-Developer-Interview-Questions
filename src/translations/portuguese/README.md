@@ -21,7 +21,7 @@ lang: pt
 #### [[⬆]](#toc) <a name='general'>Perguntas Gerais:</a>
 
 * O que você aprendeu ontem/esta semana?
-* O que te excita ou interessa sobre programação?
+* O que mais te interessa sobre programação?
 * Qual foi um desafio técnico recente que você enfrentou e como o resolveu?
 * Ao criar um novo site ou ao mantê-lo, pode explicar algumas técnicas que usou para aumentar o desempenho?
 * Pode descrever algumas boas práticas de SEO ou técnicas que usou recentemente?
@@ -157,7 +157,7 @@ lang: pt
 * Por que você pode querer criar membros de classe estáticos?
 * Qual é a diferença entre os loops `while` e `do-while` em JavaScript?
 * O que é uma promessa? Onde e como você usaria uma promessa?
-* Discuta como você pode usar os princípios da Programação Orientada a Objetos ao codificar com JavaScript.
+* Explique como você pode usar os princípios da Programação Orientada a Objetos ao codificar com JavaScript.
 
 ## Coding questions
 * Faça isso funcionar:
@@ -191,7 +191,7 @@ console.log("foo" && "bar")
 #### [[⬆]](#toc) <a name='network'>Perguntas sobre Rede:</a>
 
 * Tradicionalmente, por que tem sido melhor servir ativos do site a partir de vários domínios?
-* Faça o seu melhor para descrever o processo desde o momento em que você digita a URL de um site até ele terminar de carregar na sua tela.
+* Descreva o processo desde o momento em que você digita a URL de um site até ele terminar de carregar na sua tela.
 * Quais são as diferenças entre Long-Polling, Websockets e Server-Sent Events?
 * Explique os seguintes cabeçalhos de solicitação e resposta:
   * Diff. between Expires, Date, Age and If-Modified-...
