@@ -34,3 +34,10 @@ permalink: /questions/general-questions/index.html
 * What role do you see yourself in?
 * Explain the difference between cookies, session storage, and local storage?
 * Can you explain what happens when you enter a URL into the browser?
+* Can you describe the components of a web application?
+* What is a database transaction and how does it work?
+* Describe the difference between SSR and CSR. Which one would you choose to render a web page?
+  * Are you familiar with static rendering?
+  * Rehydration?
+* What is your experience with git, source version control, branch development, and pull requests?
+* Describe cloud computing. What cloud platforms are you familiar with and how do you use them? 
