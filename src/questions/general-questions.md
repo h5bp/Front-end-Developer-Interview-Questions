@@ -34,3 +34,6 @@ permalink: /questions/general-questions/index.html
 * What role do you see yourself in?
 * Explain the difference between cookies, session storage, and local storage?
 * Can you explain what happens when you enter a URL into the browser?
+* Describe the difference between SSR and CSR. Discuss the pros and cons. 
+  * Are you familiar with static rendering?
+  * Rehydration?
