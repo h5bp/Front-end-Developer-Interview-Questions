@@ -49,6 +49,9 @@ permalink: /translations/************/index.html
 * What role do you see yourself in?
 * Explain the difference between cookies, session storage, and local storage?
 * Can you explain what happens when you enter a URL into the browser?
+* Describe the difference between SSR and CSR. Discuss the pros and cons.
+  * Are you familiar with static rendering?
+  * Rehydration?
 
 #### [[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
@@ -158,7 +161,7 @@ permalink: /translations/************/index.html
 * What is a promise? Where and how would you use promise?
 * Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
 
-## Coding questions
+#### [[⬆]](#toc) <a name='code-questions'>Coding Questions:</a>
 * Make this work:
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
