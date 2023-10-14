@@ -31,15 +31,19 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 #### <a name='general'>Preguntas generales:</a>
 
-* ¿Qué has aprendido en esta semana?
-* ¿Qué es lo que te interesa de la programación?
-* ¿Podría describir algún problema técnico que haya resuelto recientemente?
-* ¿Cuáles son las consideraciones del área de interfaces, rendimiento, posicionamiento, mantenimiento o seguridad que toma en cuenta al desarrollar sitios o aplicaciones web?
-* Hable acerca de su ambiente de desarrollo preferido.
-* ¿Qué sistemas de control de versiones ha usado?
+* ¿Qué aprendió ayer/esta semana?
+* ¿Qué es lo que le entusiasma o le interesa de la programación?
+* ¿Podría describir algún problema técnico que haya resuelto recientemente y cómo lo resolvió?
+* ¿Podría describir algunas técnicas que haya utilizado al momento de construir un nuevo sitio web o dar mantenimiento a uno existente para incrementar su rendimiento?
+* ¿Podría explicar algunas prácticas o técnicas de SEO que haya utilizado recientemente? 
+* ¿Qué puede decir acerca de técnicas comunes o problemas que haya resuelto recientemente respecto a la seguridad de aplicaciones front-end?
+* ¿Qué acciones ha realizado en proyectos recientes para mejorar la manteniabilidad de su código?
+* Hable acerca de tu ambiente de desarrollo preferido.
 * ¿Puede describir el proceso que sigue cuando crea una página web?
+* ¿Qué sistemas de control de versiones ha utilizado?
+* ¿Podría describir el proceso que sigue cuando creas una página web?
 * Si tuviera cinco hojas de estilo distintas, ¿cómo las integraría a su página web?
-* ¿Puede describir la diferencia entre "Progressive Enhancement" y "Graceful Degradation"?
+* ¿Puede describir la diferencia entre _"Progressive Enhancement"_ y _"Graceful Degradation"_?
 * ¿Cómo optimizaría los recursos de un sitio web?
 * ¿Cuántos recursos se pueden descargar simultáneamente de un mismo dominio?
  * ¿Cuáles son las excepciones?
@@ -50,8 +54,17 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Explique la importancia de estándares y los grupos que los definen.
 * ¿Sabe que es el _Flash Of Unstyled Content_?, ¿cómo lo evita?
 * Explique qué son las _Aplicaciones de internet enriquecidas y accesibles_ y los lectores de pantalla, además de cómo hacer una página web accesible
-* Explique las ventajas y desventajas de usar animaciones en CSS contrario a usar animaciones hechas con JavaScript.
+* Explique las ventajas y desventajas de usar animaciones en CSS en comparación con animaciones hechas con JavaScript.
 * ¿Qué significa _CORS_ y a qué problema está relacionado?
+* ¿Cómo manejaría una discrepancia con su jefe o compañero de trabajo?
+* ¿Qué recursos usa para aprender acerca de las últimas novedades en desarrollo web y diseño?
+* ¿Cuáles cree que son las habilidades necesarias para ser un buen desarrollador front-end?
+* ¿En qué rol le gustaría desempeñarse?
+* Explique la diferencia entre _cookies_, _session storage_ y _local storage_.
+* ¿Podría explicar qué sucede cuando ingresa una URL en el navegador?
+* ¿Cuál es la diferencia entre _SSR_ y _CSR_? Hable acerca de los pros y contras de cada uno.
+ * ¿Está familiarizado con el concepto de _Static Rendering_?
+ * ¿Qué puede decir acerca de la re-hidratación?
 
 
 #### <a name='html'>Preguntas específicas de HTML:</a>
