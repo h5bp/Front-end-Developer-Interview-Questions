@@ -203,19 +203,21 @@ console.log("foo" && "bar")
 * ¿De qué formas podrías mejorar el rendimiento del scrolling en tu sitio web?
 * Menciona las diferencias entre los términos `layout`, `painting` y `compositing`.
 
-#### <a name='network'>Preguntas sobre conectividad:</a>
+#### <a name='network'>Preguntas sobre redes:</a>
 
 * Tradicionalmente, ¿Por qué es mejor servir los recursos estáticos del sitio desde múltiples dominios?
 * Intenta explicar el proceso desde el momento en el cual ingresas una URL en el navegador hasta que termina de cargar la página en tu pantalla.
 * ¿Cuáles son las diferencias entre `Long-polling`, `websockets` y `server-sent events`?
-* Explique las siguientes cabeceras de respuesta y envío.
- * `Expires`, `Date`, `Age` y `If-Modified-`
+* Explique las siguientes cabeceras de peticiones y respuestas:
+ * Diferencias entre `Expires`, `Date`, `Age` y `If-Modified-`...
  * `Do Not Track`
  * `Cache-Control`
  * `Transfer-Encoding`
  * `Etag`
  * `X-Frame-Options`
-* ¿Qué son las acciones `HTTP`? explique las acciones HTTP que conozca.
+* ¿Qué son los métodos `HTTP`? Mencione y explique los que conozca.
+* ¿Qué es el "_pre-fetching_" de dominio y cómo contribuye al rendimiento de una página web?
+* ¿Qué es un CDN y cuáles son los beneficios de usar uno?
 
 #### <a name='codigojs'>Preguntas de código:</a>
 
