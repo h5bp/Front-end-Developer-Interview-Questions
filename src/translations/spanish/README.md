@@ -223,11 +223,9 @@ console.log("foo" && "bar")
 #### <a name='divertidas'>Preguntas divertidas:</a>
 
 * ¿Qué es lo más genial que ha programado y qué es lo que más le enorgullece de ello?
-* ¿Cuáles son sus partes favoritas de las herramientas de desarrollo que usa?
-* ¿Tiene algún proyecto personal? ¿De qué tipo?
-* ¿Cuál es su funcionalidad favorita de Internet Explorer?
-* ¿Cómo te gusta tu café?
-
+* ¿Cuáles son sus características favoritas de las herramientas de desarrollo que usa?
+* ¿Quién le inspira en la industria de desarrollo web?
+* ¿Tiene algún proyecto personal? ¿De qué se trata?
 
 #### <a name='contribuyentes'>Contribuyentes</a>
 
