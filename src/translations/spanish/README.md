@@ -125,49 +125,34 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 #### <a name='js'>Preguntas específicas de JavaScript:</a>
 
-* Explique "_event delegation_".
+* Explique el "_event delegation_".
 * Explique cómo funciona `this` en JavaScript.
+ * ¿Puede dar un ejemplo de una de las maneras en que trabajar con `this` ha cambiado desde ES6?
 * Explique cómo funciona la herencia de prototipos (prototypal inheritance) en JavaScript.
-* ¿Qué opina de AMD en comparación con CommonJS?
-* Explique por qué `function foo(){ }();` no funciona como un IIFE.
- * ¿Qué se necesita cambiar para que funcione como una IIFE?
 * ¿Cuál es la diferencia entre variables `null`, `undefined` y `undeclared`?
  * ¿Cómo comprobarías que una variable refiere a alguno de esos valores?
 * ¿Qué es un "_closure_" y cuando, o por qué usaría uno?
+* ¿Qué características del lenguaje puede utilizar para iterar sobre propiedades de un objeto y elementos de un arreglo?
+* ¿Podría describir cuál es la principal diferencia entre el ciclo `Array.forEach()` y el método `Array.map()` y por qué elegiría uno sobre el otro?
 * ¿Puede hablar de un uso típico para una función anónima?
-* ¿Cómo organiza su código, patrón módulo, herencia clásica?
 * ¿Cuál es la diferencia entre objetos huésped (host objects) y objetos nativos?
 * ¿Cuál es la diferencia entre: ` function Person(){} `, `var person = Person()` y `var person = new Person()`?
-* ¿Cuál es la diferencia entre `.call` y `.apply`?
+* Esplique las diferencias entre el uso de `foo` en `function foo(){}` y `var foo = function(){}`.
+* ¿Qué hacen `Function.call` y `Function.apply`? ¿Cuál es la diferencia más notable entre las dos?
 * ¿Puede explicar el uso de `Function.prototype.bind`?
-* ¿Cuándo usarías `document.write()`?
 * ¿Cuál es la diferencia entre detección de capacidades, inferencia de capacidades y usar la cadena del user agent?.
-* Explique AJAX con tanto detalle como pueda.
-* Explique cómo funciona JSONP (y cómo no es AJAX realmente)
-* ¿Ha utilizado alguna vez templates en JavaScript?
-	* De ser así, ¿qué bibliotecas ha usado?
 * ¿Puede explicar en qué consiste el "_hoisting_"?
+* ¿Qué es la coerción de tipos? ¿Cuáles son los errores más comunes al utilizarla en JavaScript?
 * ¿Puede hablar sobre "_event bubbling_"?
-* ¿Cuál es la diferencia entre un "_atributo_" y una "_propiedad_"?
-* ¿Por qué es una mala idea extender objetos nativos de JavaScript?
-* ¿Cuál es la diferencia entre el evento "_document load_" y el evento “_document ready_"?
+* Describa qué es "_event capturing"_.
+* ¿Cuál es la diferencia entre un atributo y una propiedad?
+* ¿Cuáles son los pros y contras de extender objetos nativos de JavaScript?
 * ¿Cuál es la diferencia entre `==` y `===`?
 * Explique la política de mismo origen (same-origin policy) y sus repercusiones en JavaScript.
-* Haga que este código funcione:
-```javascript
-[1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
-```
 * ¿Por qué reciben el nombre de sentencias ternarias? ¿Qué significa la palabra "_ternaria_"?
 * ¿Qué es `"use strict";`? ¿Cuáles son las ventajas y desventajas de usarlo?
-* Haga un ciclo `for` de `100` iteraciones que imprima **"fizz"** en los múltiplos de `3`, **"buzz"** en los múltiplos de `5` y **"fizzbuzz"** en los múltiplos de `3` y `5`
-* De manera general, ¿por qué es una buena idea no usar el "ámbito" (scope) global de un sitio web?
-* ¿Por qué usaría el evento `load`?, ¿usarlo representa alguna ventaja?, ¿conoce alternativas y el por qué usaría dichas alternativas?
-* Explique en qué consiste una aplicación de una sola página y como hacer una que bajo los términos del posicionamiento en los buscadores.
-* ¿Qué tanto sabes acerca de las promesas en javascript? ¿Conoce alternativas a ellas?
-* Mencione las ventajas y desventajas de usar promesas en vez de callbacks.
-* Menciona las ventajas y desventajas de escribir Javascript a través de otro lenguaje que compile y su resultado sea Javascript.
+* Mencione las ventajas y desventajas de escribir Javascript a través de otro lenguaje que transpile a Javascript.
 * ¿Qué herramientas y técnicas usa para depurar código Javascript?
-* ¿Qué código utiliza para iterar sobre propiedades de un objeto y sobre arreglos?
 * Explique la diferencia entre objetos mutables y objetos inmutables.
  * Mencione un ejemplo de un objeto inmutable en javascript.
  * Mencione las ventajas y desventajas de la inmutabilidad.
@@ -175,6 +160,33 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 * Explique la diferencia entre funciones síncronas y asíncronas.
 * ¿Qué es el `event loop`?
  * ¿Cuál es la diferencia entre la pila de llamadas y la cola de tareas?
+* ¿Cuáles son las diferencias entre variables declaradas usando `let`, `var` o `const`?
+* ¿Cuáles son las diferencias entre los constructores de clases de ES6 y los constructores de funciones de ES5?
+* ¿Podría mencionar un caso de uso para la nueva sintaxis de funciones flecha (_"arrow functions"_) `=>`? ¿Qué diferencia tiene respecto a las funciones tradicionales?
+* ¿Qué ventaja tiene utilizar la sintaxis de funciones flecha (_"arrow functions"_) para un método en un constructor?
+* Defina qué es una función de orden superior (_"higher order function"_).
+* ¿Podría dar un ejemplo de desestructuración (_"destructuring"_) de un objeto o arreglo?
+* ¿Cómo se puede generar un string con los _template literals_ de ES6?
+* ¿Podría dar un ejemplo de una función curry? ¿Qué ventajas tiene usarla?
+* ¿Cuáles son los beneficios de usar el operador `spread` y cómo se diferencia del operador `rest`?
+* ¿De qué manera puede compartir código entre archivos?
+* ¿Por qué necesitaría crear un miembro estático en una clase?
+* ¿Cuál es la diferencia entre los ciclos `while` y `do-while` en JavaScript?
+* ¿Qué es una promesa? ¿En qué casos y cómo usaría una?
+* ¿Cómo podría utilizar los principios de la programación orientada a objetos en JavaScript?
+
+#### <a name='codigojs'>Preguntas sobre código:</a>
+
+* Haga que este código funcione:
+```javascript
+[1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
+```
+* Haga un ciclo `for` de `100` iteraciones que imprima **"fizz"** en los múltiplos de `3`, **"buzz"** en los múltiplos de `5` y **"fizzbuzz"** en los múltiplos de `3` y `5`
+* De manera general, ¿por qué es una buena idea no usar el "ámbito" (scope) global de un sitio web?
+* ¿Por qué usaría el evento `load`?, ¿usarlo representa alguna ventaja?, ¿conoce alternativas y el por qué usaría dichas alternativas?
+* Explique en qué consiste una aplicación de una sola página y como hacer una que bajo los términos del posicionamiento en los buscadores.
+* ¿Qué tanto sabes acerca de las promesas en javascript? ¿Conoce alternativas a ellas?
+* Mencione las ventajas y desventajas de usar promesas en vez de callbacks.
 
 #### <a name='codigojs'>Preguntas sobre pruebas de código:</a>
 
