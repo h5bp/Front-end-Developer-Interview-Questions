@@ -179,14 +179,15 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 * Haga que este código funcione:
 ```javascript
-[1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1,2,3,4,5]) // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Haga un ciclo `for` de `100` iteraciones que imprima **"fizz"** en los múltiplos de `3`, **"buzz"** en los múltiplos de `5` y **"fizzbuzz"** en los múltiplos de `3` y `5`
-* De manera general, ¿por qué es una buena idea no usar el "ámbito" (scope) global de un sitio web?
-* ¿Por qué usaría el evento `load`?, ¿usarlo representa alguna ventaja?, ¿conoce alternativas y el por qué usaría dichas alternativas?
-* Explique en qué consiste una aplicación de una sola página y como hacer una que bajo los términos del posicionamiento en los buscadores.
-* ¿Qué tanto sabes acerca de las promesas en javascript? ¿Conoce alternativas a ellas?
-* Mencione las ventajas y desventajas de usar promesas en vez de callbacks.
+* ¿Cuál será el retorno de cada uno de los siguientes códigos?
+```javascript
+console.log("hello" || "world")
+console.log("foo" && "bar")
+```
+* Escriba una función auto-invocada ("_IIFE_")
 
 #### <a name='codigojs'>Preguntas sobre pruebas de código:</a>
 
