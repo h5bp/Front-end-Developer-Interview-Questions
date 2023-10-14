@@ -219,62 +219,6 @@ console.log("foo" && "bar")
 * ¿Qué es el "_pre-fetching_" de dominio y cómo contribuye al rendimiento de una página web?
 * ¿Qué es un CDN y cuáles son los beneficios de usar uno?
 
-#### <a name='codigojs'>Preguntas de código:</a>
-
-
-_Pregunta: ¿Cuál es el valor de `foo`?_
-```javascript
-var foo = 10 + '20';
-```
-
-_Pregunta: ¿Cómo harías funcionar esto?_
-```javascript
-add(2, 5); // 7
-add(2)(5); // 7
-```
-
-_Pregunta: ¿Cuál es el resultado de la siguiente sentencia?_
-```javascript
-"i'm a lasagna hog".split("").reverse().join("");
-```
-
-_Pregunta: ¿Cuál es el valor de `window.foo`?_
-```javascript
-( window.foo || ( window.foo = "bar" ) );
-```
-
-_Pregunta: ¿Cuál es el resultado de los dos *alerts*?_
-```javascript
-var foo = "Hello";
-(function() {
-  var bar = " World";
-  alert(foo + bar);
-})();
-alert(foo + bar);
-```
-
-_Pregunta: ¿Cuál es el valor de `foo.length`?_
-```javascript
-var foo = [];
-foo.push(1);
-foo.push(2);
-```
-
-_Pregunta: ¿Cuál es el valor de `foo.x`?_
-```javascript
-var foo = {n: 1};
-var bar = foo;
-foo.x = foo = {n: 2};
-```
-
-_Pregunta: ¿Qué imprime el siguiente código?_
-```javascript
-console.log('one');
-setTimeout(function() {
-  console.log('two');
-}, 0);
-console.log('three');
-```
 
 #### <a name='divertidas'>Preguntas divertidas:</a>
 
