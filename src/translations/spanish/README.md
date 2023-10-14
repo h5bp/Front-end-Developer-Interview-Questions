@@ -17,10 +17,10 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
   1. [Preguntas específicas de HTML](#html)
   1. [Preguntas específicas de CSS](#css)
   1. [Preguntas específicas de JavaScript](#js)
+  1. [Preguntas de código](#codigojs)
   1. [Preguntas sobre pruebas de código](#testing)
   1. [Preguntas sobre rendimiento](#performance)
   1. [Preguntas sobre conectividad](#network)
-  1. [Preguntas de código](#codigojs)
   1. [Preguntas divertidas](#divertidas)
 
 ## Contribuyendo
