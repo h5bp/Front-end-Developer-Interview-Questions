@@ -189,12 +189,13 @@ console.log("foo" && "bar")
 ```
 * Escriba una función auto-invocada ("_IIFE_")
 
-#### <a name='codigojs'>Preguntas sobre pruebas de código:</a>
+#### <a name='testing'>Preguntas sobre pruebas de código:</a>
 
 * Menciona ventajas y desventajas de realizar pruebas en el código
 * ¿Qué herramientas usarías para probar la funcionalidad de tu código?
-* ¿Cuál es la diferencia entre una prueba unitaria y una prueba de funcionalidad?
+* ¿Cuál es la diferencia entre una prueba unitaria y una prueba funcional o de integración?
 * ¿Cuál es el propósito de usar herramientas para verificar los estilos usados en el código?
+* ¿Cuáles son algunas de las mejores prácticas al realizar pruebas?
 
 #### <a name='performance'>Preguntas sobre rendimiento:</a>
 
