@@ -70,7 +70,7 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 #### <a name='html'>Preguntas específicas de HTML:</a>
 
 * ¿Qué función cumple el `doctype`?
-* ¿Cómo presentaría una página con contenido en varios lenguajes?
+* ¿Cómo distribuiría una página con contenido en varios lenguajes?
 * ¿Qué consideraciones se deben tener cuando se diseñan/desarrollan sitios multi-lenguajes?
 * ¿Para qué son buenos los atributos `data-`?
 * Si consideramos HTML5 como una plataforma web abierta, ¿cuáles son los componentes que constituyen HTML5?
@@ -86,40 +86,41 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 #### <a name='css'>Preguntas específicas de CSS:</a>
 
-* ¿Cuál es la diferencia entre clases e identificadores en CSS?
-* ¿Cuál es la diferencia entre normalizar y anular el CSS?, ¿cuál usarías y por qué?
+* ¿Qué es la especificidad de los selectores CSS y cómo funciona? 
+* ¿Cuál es la diferencia entre normalizar y resetear el CSS?, ¿Cuál elegiría y por qué?
 * Describa qué son los "floats" y su funcionamiento.
 * Describa el `z-index` y como se decide el contexto de apilado de elementos.
 * Describa el contexto de formato de bloques (_BFC_) y como funciona.
-* ¿Cuáles son las técnicas para usar la propiedad `clear` y cuál funciona para cuál contexto?
-* Explique ¿qué son los sprites en CSS y cómo los implementarías en una página?
-* ¿Cuál es su técnica favorita para reemplazar imágenes y cuando usa cada una?
-* ¿Cómo intentaría resolver problemas de estilo para navegadores específicos?
+* ¿Cuáles son las técnicas para usar la propiedad `clear` y en qué contexto es apropiado utilizar cada una?
 * ¿Cuál es su enfoque al desarrollar páginas que dan soporte a navegadores con capacidades limitadas?
- * ¿Qué técnicas o procesos usas?
+ * ¿Qué técnicas o procesos utiliza?
 * ¿Cuáles son las distintas formas para esconder contenido, pero mantenerlo disponible únicamente para lectores de pantalla?
 * ¿Ha usado algún sistema para cuadrículas (grids) y cuál prefiere?
 * ¿Ha usado o implementado "media queries" o reglas específicas para dispositivos móviles?
 * ¿Está familiarizado con aplicar estilos a SVGs?
-* ¿Cómo optimiza sus páginas para la impresión?
+* ¿Podría dar un ejemplo de una propiedad `@media` distinta a `screen`?
 * ¿Cuáles son algunos de los "trucos" para escribir CSS eficiente?
-* Menciona las ventajas y desventajas de usar preprocesadores de CSS
- * Menciona lo que te agrada y desagrada de los preprocesadores que usas.
+* ¿Cuáles son las ventajas y desventajas de utilizar pre-procesadores CSS?
+ * Mencione lo que le agrada y desagrada de los pre-procesadores que ha usado.
 * ¿Cómo implementaría un diseño que usa fuentes que no son web-safe?
 * ¿Puede explicar cómo determina un navegador qué elementos coinciden con un selector de CSS?
 * Describa los pseudo-elementos y discuta sus usos.
-* ¿Puede explicar cómo entiende el `box model` (modelo de cajas) y como podría hacer que un navegador renderize su esquema usando diferentes modelos de cajas?
+* ¿Puede explicar cómo entiende el `box model` (modelo de cajas) y como podría, mediante CSS, hacer que un navegador renderize su esquema usando diferentes modelos de cajas?
 * ¿Qué sucede al usar `* {box-sizing: border-box;}`. ¿Qué desventajas supone su uso?
-* Por favor enliste todos los valores para la propiedad `display` que pueda recordar
+* ¿Qué es la propiedad `display` de CSS? ¿Podría dar algunos ejemplos de su uso?
 * ¿Cuál es la diferencia entre `inline` y `inline-block`?
+* ¿Cuál es la diferencia entre los selectores `nth-of-type()` y `nth-child()`?
 * ¿Cuál es la diferencia entre las posiciones `relative`, `fixed`, `absolute` y `static` para un elemento dado?
-* La *C* en CSS significa _cascading_ (en cascada). ¿Cómo se determina la prioridad al asignar los estilos? ¿Cómo podemos aprovechar ese sistema?
-* ¿Cuáles frameworks de CSS has usado en desarrollo y producción? ¿Cómo los mejoraría?
-* ¿Qué sabe sobre CSS Flexbox y cuáles son sus ventajas?
-* ¿En que difiere el diseño responsivo del diseño adaptativo?
-* ¿Has trabajado con tecnología retina?, ¿qué técnicas usaste?
-* ¿Hay alguna razón por la cual preferirías usar `translate()` en vez de el posicionamiento absoluto? ¿Alguna razón para hacer lo contrario?
-
+* ¿Cuáles frameworks de CSS has usado en desarrollo o producción? ¿Cómo los mejoraría?
+* ¿Ha utilizado CSS Grid?
+* ¿Podría explicar la diferencia entre desarrollar un sitio web para ser _responsive_ y utilizar una estrategia _mobile-first_?
+* ¿Ha trabajado con tecnología retina?, ¿qué técnicas utilizó?
+* ¿Hay alguna razón por la cual preferiría usar `translate()` en vez de el posicionamiento absoluto? ¿Alguna razón para hacer lo contrario?
+* ¿En qué casos es útil la propiedad `clearfix` de css?
+* ¿Cuál es ls diferencia entre usar px, em o rem para definir tamaños de fuente?
+* ¿Podría dar un ejemplo de una pseudo-clase de CSS y un posible caso de uso?
+* ¿Cuál es la diferencia entre un elemento a nivel de bloque y un elemento en línea? Mencione algunos ejemplos de cada tipo de elemento.
+* ¿Cuál es la diferencia entre CSS Grid y Flexbox? ¿En qué casos preferiría usar uno sobre el otro?
 
 
 #### <a name='js'>Preguntas específicas de JavaScript:</a>
