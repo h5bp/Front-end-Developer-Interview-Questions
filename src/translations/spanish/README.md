@@ -69,21 +69,19 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 #### <a name='html'>Preguntas específicas de HTML:</a>
 
-* ¿Qué función cumple el `doctype` y cuántos tipos puede nombrar?
-* ¿Cuál es la diferencia entre el modo convencional y el "_quirks mode_"?
-* ¿Cuál es la diferencia entre HTML y XHTML?
-* ¿Hay algún problema al servir las páginas usando: `application/xhtml+xml`?  
+* ¿Qué función cumple el `doctype`?
 * ¿Cómo presentaría una página con contenido en varios lenguajes?
 * ¿Qué consideraciones se deben tener cuando se diseñan/desarrollan sitios multi-lenguajes?
 * ¿Para qué son buenos los atributos `data-`?
-* ¿Puede usar sintaxis de XHTML en HTML5?
-* ¿Cómo usa XML en HTML5?
 * Si consideramos HTML5 como una plataforma web abierta, ¿cuáles son los componentes que constituyen HTML5?
 * Describa la diferencia entre `cookies`, `sessionStorage` y `localStorage`.
 * Describa la diferencia entre `<script>`, `<script async>` y `<script defer>`.
 * Generalmente, ¿por qué es una buena idea agregar la etiqueta `<link>` dentro de la etiqueta `<head>` y la etiqueta `<script>` justo antes de cerrar la etiqueta `<body>`. ¿Conoces algún caso excepcional?
 * ¿Qué es el renderizado progresivo?
-* ¿Haz usado algún motor para creado de plantillas HTML?
+* ¿Por qué usaría el atributo `srcset` en una imagen? Explique el proceso que sigue el navegador al evaluar el contenido de este atributo.
+* ¿Ha usado algún lenguaje de plantillas HTML?
+* ¿Cuál es la diferencia entre los elementos `canvas` y `svg`?
+* ¿Qué son los elementos vacíos en HTML?
 
 
 #### <a name='css'>Preguntas específicas de CSS:</a>
