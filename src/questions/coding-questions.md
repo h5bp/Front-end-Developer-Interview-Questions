@@ -108,3 +108,26 @@ function foo2()
   };
 }
 ```
+Question: Consider the functions below. Will they what will be the output ?
+```javascript
+console.log("Lets Start");
+
+setTimeout(() => {
+  console.log("Timeout 1");
+  Promise.resolve().then(() => {
+    console.log("resolved promise 1");
+  });
+}, 0);
+
+new Promise(function (resolve, reject) {
+  console.log("promise 2");
+  setTimeout(function () {
+    console.log("Timeout 2");
+    resolve("resolve Promise 1");
+  }, 0);
+}).then((res) => {
+  console.log("resolved promise then 1");
+  setTimeout(() => {
+    console.log(res);
+  }, 0);
+});
