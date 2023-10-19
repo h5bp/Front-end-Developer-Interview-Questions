@@ -17,3 +17,8 @@ permalink: /questions/html-questions/index.html
 * Have you used different HTML templating languages before?
 * What is the difference between `canvas` and `svg`?
 * What are empty elements in HTML ?
+* What are the semantic HTML5 page structure elements?
+* What is an API for HTML5? Can you name some APIs in HTML5?
+* What is an iFrame? What are the risks of using it within your code?
+* What are the media element tags introduced by HTML5?
+* Describe how can a copyright symbol be added to the webpage using HTML5?
