@@ -8,23 +8,23 @@ permalink: /questions/javascript-questions/index.html
 * Explain how `this` works in JavaScript.
   * Can you give an example of one of the ways that working with `this` has changed in ES6?
 * Explain how prototypal inheritance works.
-* What's the difference between a variable that is: `null`, `undefined` or undeclared?
+* What is the difference between a variable that is: `null`, `undefined` or undeclared?
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
 * What language constructions do you use for iterating over object properties and array items?
 * Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?
-* What's a typical use case for anonymous functions?
-* What's the difference between host objects and native objects?
+* What is a typical use case for anonymous functions?
+* What is the difference between host objects and native objects?
 * Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
-* Can you explain what `Function.call` and `Function.apply` do? What's the notable difference between the two?
+* Can you explain what `Function.call` and `Function.apply` do? What is the notable difference between the two?
 * Explain `Function.prototype.bind`.
-* What's the difference between feature detection, feature inference, and using the UA string?
+* What is the difference between feature detection, feature inference, and using the UA string?
 * Explain "hoisting".
 * What is type coercion? What are common pitfalls of relying on type coercion in JavaScript code?
 * Describe event bubbling.
 * Describe event capturing.
-* What's the difference between an "attribute" and a "property"?
+* What is the difference between an "attribute" and a "property"?
 * What are the pros and cons of extending built-in JavaScript objects?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
