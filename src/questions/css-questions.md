@@ -5,7 +5,7 @@ permalink: /questions/css-questions/index.html
 ---
 
 * What is CSS selector specificity and how does it work?
-* What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+* What is the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * Describe BFC (Block Formatting Context) and how it works.
@@ -27,9 +27,9 @@ permalink: /questions/css-questions/index.html
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * What is the CSS `display` property and can you give a few examples of its use?
-* What's the difference between inline and inline-block?
-* What's the difference between the "nth-of-type()" and "nth-child()" selectors?
-* What's the difference between a relative, fixed, absolute and statically positioned element?
+* What is the difference between inline and inline-block?
+* What is the difference between the "nth-of-type()" and "nth-child()" selectors?
+* What is the difference between a relative, fixed, absolute and statically positioned element?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you used CSS Grid?
 * Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
@@ -40,4 +40,4 @@ permalink: /questions/css-questions/index.html
 * Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class? 
 * What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
 * What is the difference between CSS Grid and Flexbox? When would you use one over the other?
-* What's the difference between fixed, fluid and responsive layouts? 
+* What is the difference between fixed, fluid and responsive layouts? 
