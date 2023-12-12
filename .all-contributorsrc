@@ -1074,6 +1074,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "satyamsundaram",
+      "name": "Satyam Sundaram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54367435?v=4",
+      "profile": "https://satyamsundaram.tech/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "repoType": "github",

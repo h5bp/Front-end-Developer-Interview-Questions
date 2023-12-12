@@ -193,6 +193,7 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://baumannzone.dev/"><img src="https://avatars.githubusercontent.com/u/5422102?v=4?s=120" width="120px;" alt="Jorge Baumann"/><br /><sub><b>Jorge Baumann</b></sub></a><br /><a href="#translation-baumannzone" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://satyamsundaram.tech/"><img src="https://avatars.githubusercontent.com/u/54367435?v=4?s=120" width="120px;" alt="Satyam Sundaram"/><br /><sub><b>Satyam Sundaram</b></sub></a><br /><a href="#content-satyamsundaram" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
