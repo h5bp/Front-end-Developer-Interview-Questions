@@ -1150,6 +1150,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "vltansky",
+      "name": "Vlad Tansky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5851280?v=4",
+      "profile": "https://github.com/vltansky",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "repoType": "github",
