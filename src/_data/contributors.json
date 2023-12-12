@@ -1132,6 +1132,79 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "nataliepina",
+      "name": "Natalie Pina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34781875?v=4",
+      "profile": "https://github.com/nataliepina",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "bt-dot",
+      "name": "Bruce Tang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55170799?v=4",
+      "profile": "https://github.com/bt-dot",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "vltansky",
+      "name": "Vlad Tansky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5851280?v=4",
+      "profile": "https://github.com/vltansky",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "voy",
+      "name": "Vojtech Jasny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194726?v=4",
+      "profile": "https://github.com/voy",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Linda-Ikechukwu",
+      "name": "Linda Ikechukwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32891838?v=4",
+      "profile": "https://codewithlinda.com/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "iownthegame",
+      "name": "Hui-Yu Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1487369?v=4",
+      "profile": "https://github.com/iownthegame",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "aej11a",
+      "name": "Andrew Jones",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10066422?v=4",
+      "profile": "https://github.com/aej11a",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Teesy99",
+      "name": "Teesta Koch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45621118?v=4",
+      "profile": "https://github.com/Teesy99",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
