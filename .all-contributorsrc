@@ -1141,6 +1141,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "bt-dot",
+      "name": "Bruce Tang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55170799?v=4",
+      "profile": "https://github.com/bt-dot",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "repoType": "github",
