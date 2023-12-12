@@ -171,6 +171,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Abg4real"><img src="https://avatars.githubusercontent.com/u/55308761?v=4?s=120" width="120px;" alt="Abg4real"/><br /><sub><b>Abg4real</b></sub></a><br /><a href="#content-Abg4real" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/nataliepina"><img src="https://avatars.githubusercontent.com/u/34781875?v=4?s=120" width="120px;" alt="Natalie Pina"/><br /><sub><b>Natalie Pina</b></sub></a><br /><a href="#content-nataliepina" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
