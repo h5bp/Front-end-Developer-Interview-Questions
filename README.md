@@ -183,6 +183,9 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/gabrielrbarbosa"><img src="https://avatars.githubusercontent.com/u/12158575?v=4?s=120" width="120px;" alt="Gabriel R. Barbosa"/><br /><sub><b>Gabriel R. Barbosa</b></sub></a><br /><a href="#translation-gabrielrbarbosa" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/talhatahir"><img src="https://avatars.githubusercontent.com/u/8845428?v=4?s=120" width="120px;" alt="Talha Tahir"/><br /><sub><b>Talha Tahir</b></sub></a><br /><a href="#content-talhatahir" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="http://www.subashcs.com.np/"><img src="https://avatars.githubusercontent.com/u/29421465?v=4?s=120" width="120px;" alt="Subash Chandra Sapkota"/><br /><sub><b>Subash Chandra Sapkota</b></sub></a><br /><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/commits?author=subashcs" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 

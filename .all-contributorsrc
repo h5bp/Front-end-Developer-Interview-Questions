@@ -1009,6 +1009,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "subashcs",
+      "name": "Subash Chandra Sapkota",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29421465?v=4",
+      "profile": "http://www.subashcs.com.np/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",
