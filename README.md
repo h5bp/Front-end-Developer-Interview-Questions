@@ -191,6 +191,9 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
       <td align="center" valign="top" width="16.66%"><a href="https://segredo.dev/"><img src="https://avatars.githubusercontent.com/u/11761170?v=4?s=120" width="120px;" alt="Italo A."/><br /><sub><b>Italo A.</b></sub></a><br /><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/commits?author=iaurg" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/cpvalente"><img src="https://avatars.githubusercontent.com/u/34649812?v=4?s=120" width="120px;" alt="Carlos Valente"/><br /><sub><b>Carlos Valente</b></sub></a><br /><a href="#translation-cpvalente" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://baumannzone.dev/"><img src="https://avatars.githubusercontent.com/u/5422102?v=4?s=120" width="120px;" alt="Jorge Baumann"/><br /><sub><b>Jorge Baumann</b></sub></a><br /><a href="#translation-baumannzone" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 

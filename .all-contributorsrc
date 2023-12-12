@@ -1065,6 +1065,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "baumannzone",
+      "name": "Jorge Baumann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5422102?v=4",
+      "profile": "https://baumannzone.dev/",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "repoType": "github",
