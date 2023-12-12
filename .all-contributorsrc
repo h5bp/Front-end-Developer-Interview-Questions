@@ -1027,6 +1027,17 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "coliff",
+      "name": "Christian Oliff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1212885?v=4",
+      "profile": "https://christianoliff.com/",
+      "contributions": [
+        "code",
+        "infra",
+        "maintenance"
+      ]
     }
   ],
   "repoType": "github",

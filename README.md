@@ -186,6 +186,7 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="http://www.subashcs.com.np/"><img src="https://avatars.githubusercontent.com/u/29421465?v=4?s=120" width="120px;" alt="Subash Chandra Sapkota"/><br /><sub><b>Subash Chandra Sapkota</b></sub></a><br /><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/commits?author=subashcs" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/sarahesbie"><img src="https://avatars.githubusercontent.com/u/4270573?v=4?s=120" width="120px;" alt="Sarah Brown"/><br /><sub><b>Sarah Brown</b></sub></a><br /><a href="#content-sarahesbie" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://christianoliff.com/"><img src="https://avatars.githubusercontent.com/u/1212885?v=4?s=120" width="120px;" alt="Christian Oliff"/><br /><sub><b>Christian Oliff</b></sub></a><br /><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/commits?author=coliff" title="Code">💻</a> <a href="#infra-coliff" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-coliff" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
