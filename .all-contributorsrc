@@ -938,7 +938,11 @@
       "profile": "http://htmlcssjavascript.com/",
       "contributions": [
         "ideas",
+        "doc",
+        "infra",
         "review",
+        "question",
+        "talk",
         "maintenance"
       ]
     },
