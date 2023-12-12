@@ -178,6 +178,7 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/vvanchuk/"><img src="https://avatars1.githubusercontent.com/u/6904368?v=4?s=120" width="120px;" alt="Vasiliy Vanchuk"/><br /><sub><b>Vasiliy Vanchuk</b></sub></a><br /><a href="#ideas-vvscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/pulls?q=is%3Apr+reviewed-by%3Avvscode" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-vvscode" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/veronvynguyen"><img src="https://avatars.githubusercontent.com/u/17018972?v=4?s=120" width="120px;" alt="Vy Nguyen"/><br /><sub><b>Vy Nguyen</b></sub></a><br /><a href="#content-veronvynguyen" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://pchaparro.netlify.app/"><img src="https://avatars.githubusercontent.com/u/94259578?v=4?s=120" width="120px;" alt="Pedro Chaparro"/><br /><sub><b>Pedro Chaparro</b></sub></a><br /><a href="#translation-PChaparro" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>

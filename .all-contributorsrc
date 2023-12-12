@@ -973,6 +973,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "PChaparro",
+      "name": "Pedro Chaparro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94259578?v=4",
+      "profile": "https://pchaparro.netlify.app/",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "repoType": "github",
