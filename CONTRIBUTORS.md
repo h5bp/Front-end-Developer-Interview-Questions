@@ -169,6 +169,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://swati-gwc.github.io/"><img src="https://avatars.githubusercontent.com/u/63490144?v=4?s=120" width="120px;" alt="Swati Tripathi"/><br /><sub><b>Swati Tripathi</b></sub></a><br /><a href="#translation-swati-gwc" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/dafaputra00"><img src="https://avatars.githubusercontent.com/u/62801712?v=4?s=120" width="120px;" alt="Aziz Dafa Putra"/><br /><sub><b>Aziz Dafa Putra</b></sub></a><br /><a href="#translation-dafaputra00" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Abg4real"><img src="https://avatars.githubusercontent.com/u/55308761?v=4?s=120" width="120px;" alt="Abg4real"/><br /><sub><b>Abg4real</b></sub></a><br /><a href="#content-Abg4real" title="Content">🖋</a></td>
+    </tr>
   </tbody>
 </table>
 
