@@ -1018,6 +1018,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sarahesbie",
+      "name": "Sarah Brown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4270573?v=4",
+      "profile": "https://github.com/sarahesbie",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "repoType": "github",
