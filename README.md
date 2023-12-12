@@ -204,6 +204,7 @@ Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-e
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/nataliepina"><img src="https://avatars.githubusercontent.com/u/34781875?v=4?s=120" width="120px;" alt="Natalie Pina"/><br /><sub><b>Natalie Pina</b></sub></a><br /><a href="#content-nataliepina" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/bt-dot"><img src="https://avatars.githubusercontent.com/u/55170799?v=4?s=120" width="120px;" alt="Bruce Tang"/><br /><sub><b>Bruce Tang</b></sub></a><br /><a href="#content-bt-dot" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/vltansky"><img src="https://avatars.githubusercontent.com/u/5851280?v=4?s=120" width="120px;" alt="Vlad Tansky"/><br /><sub><b>Vlad Tansky</b></sub></a><br /><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/commits?author=vltansky" title="Code">💻</a> <a href="#design-vltansky" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/voy"><img src="https://avatars.githubusercontent.com/u/194726?v=4?s=120" width="120px;" alt="Vojtech Jasny"/><br /><sub><b>Vojtech Jasny</b></sub></a><br /><a href="#content-voy" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
