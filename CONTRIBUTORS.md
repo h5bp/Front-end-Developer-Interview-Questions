@@ -146,6 +146,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/vvanchuk/"><img src="https://avatars1.githubusercontent.com/u/6904368?v=4" width="120px;" alt="Vasiliy Vanchuk"/><br /><sub><b>Vasiliy Vanchuk</b></sub></a><br /><a href="#ideas-vvscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-vvscode" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-vvscode" title="Maintenance">🚧</a></td>
+     <td align="center"><a href="https://brisk-web-services.com"><img src="https://avatars.githubusercontent.com/u/39283490?v=4" width="120px;" alt="b0c0de"/><br /><sub><b>Bojan Cvjetković</b></sub></a><br /><a href="#translation-bocode" title="Translation">🌍</a> </td>
   </tr>
 </table>
 
