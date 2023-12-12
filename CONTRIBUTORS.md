@@ -179,6 +179,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/iownthegame"><img src="https://avatars.githubusercontent.com/u/1487369?v=4?s=120" width="120px;" alt="Hui-Yu Lee"/><br /><sub><b>Hui-Yu Lee</b></sub></a><br /><a href="#translation-iownthegame" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/aej11a"><img src="https://avatars.githubusercontent.com/u/10066422?v=4?s=120" width="120px;" alt="Andrew Jones"/><br /><sub><b>Andrew Jones</b></sub></a><br /><a href="#content-aej11a" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

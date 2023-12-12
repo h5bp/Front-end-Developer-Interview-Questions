@@ -1187,6 +1187,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "aej11a",
+      "name": "Andrew Jones",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10066422?v=4",
+      "profile": "https://github.com/aej11a",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "repoType": "github",
