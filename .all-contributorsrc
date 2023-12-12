@@ -1196,6 +1196,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Teesy99",
+      "name": "Teesta Koch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45621118?v=4",
+      "profile": "https://github.com/Teesy99",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
