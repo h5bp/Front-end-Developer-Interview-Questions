@@ -1038,6 +1038,15 @@
         "infra",
         "maintenance"
       ]
+    },
+    {
+      "login": "andershagbard",
+      "name": "Anders Søgaard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9662430?v=4",
+      "profile": "https://github.com/andershagbard",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "repoType": "github",
