@@ -177,6 +177,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/voy"><img src="https://avatars.githubusercontent.com/u/194726?v=4?s=120" width="120px;" alt="Vojtech Jasny"/><br /><sub><b>Vojtech Jasny</b></sub></a><br /><a href="#content-voy" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://codewithlinda.com/"><img src="https://avatars.githubusercontent.com/u/32891838?v=4?s=120" width="120px;" alt="Linda Ikechukwu"/><br /><sub><b>Linda Ikechukwu</b></sub></a><br /><a href="#content-Linda-Ikechukwu" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/iownthegame"><img src="https://avatars.githubusercontent.com/u/1487369?v=4?s=120" width="120px;" alt="Hui-Yu Lee"/><br /><sub><b>Hui-Yu Lee</b></sub></a><br /><a href="#translation-iownthegame" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 

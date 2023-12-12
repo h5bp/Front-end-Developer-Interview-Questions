@@ -1178,6 +1178,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "iownthegame",
+      "name": "Hui-Yu Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1487369?v=4",
+      "profile": "https://github.com/iownthegame",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "repoType": "github",
