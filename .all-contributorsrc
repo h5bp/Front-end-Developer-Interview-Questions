@@ -1056,6 +1056,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "cpvalente",
+      "name": "Carlos Valente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34649812?v=4",
+      "profile": "https://github.com/cpvalente",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "repoType": "github",
