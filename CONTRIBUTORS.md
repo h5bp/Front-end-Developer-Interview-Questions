@@ -151,6 +151,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://pchaparro.netlify.app/"><img src="https://avatars.githubusercontent.com/u/94259578?v=4?s=120" width="120px;" alt="Pedro Chaparro"/><br /><sub><b>Pedro Chaparro</b></sub></a><br /><a href="#translation-PChaparro" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/WildxHV"><img src="https://avatars.githubusercontent.com/u/71403298?v=4?s=120" width="120px;" alt="Harshvardhan Singh Sisodia"/><br /><sub><b>Harshvardhan Singh Sisodia</b></sub></a><br /><a href="#translation-WildxHV" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/gabrielrbarbosa"><img src="https://avatars.githubusercontent.com/u/12158575?v=4?s=120" width="120px;" alt="Gabriel R. Barbosa"/><br /><sub><b>Gabriel R. Barbosa</b></sub></a><br /><a href="#translation-gabrielrbarbosa" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/talhatahir"><img src="https://avatars.githubusercontent.com/u/8845428?v=4?s=120" width="120px;" alt="Talha Tahir"/><br /><sub><b>Talha Tahir</b></sub></a><br /><a href="#content-talhatahir" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
