@@ -964,6 +964,15 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "veronvynguyen",
+      "name": "Vy Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17018972?v=4",
+      "profile": "https://github.com/veronvynguyen",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "repoType": "github",
