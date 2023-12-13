@@ -40,7 +40,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "all-contributors-cli": "^6.26.1",
-    "clean-css": "^5.3.2",
+    "clean-css": "^5.3.3",
     "html-minifier": "^4.0.0",
     "luxon": "^3.4.4",
     "markdown-it": "^13.0.2",
