@@ -938,7 +938,11 @@
       "profile": "http://htmlcssjavascript.com/",
       "contributions": [
         "ideas",
+        "doc",
+        "infra",
         "review",
+        "question",
+        "talk",
         "maintenance"
       ]
     },
@@ -963,6 +967,243 @@
         "ideas",
         "review",
         "maintenance"
+      ]
+    },
+    {
+      "login": "veronvynguyen",
+      "name": "Vy Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17018972?v=4",
+      "profile": "https://github.com/veronvynguyen",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "PChaparro",
+      "name": "Pedro Chaparro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94259578?v=4",
+      "profile": "https://pchaparro.netlify.app/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "WildxHV",
+      "name": "Harshvardhan Singh Sisodia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71403298?v=4",
+      "profile": "https://github.com/WildxHV",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "gabrielrbarbosa",
+      "name": "Gabriel R. Barbosa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12158575?v=4",
+      "profile": "https://github.com/gabrielrbarbosa",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "talhatahir",
+      "name": "Talha Tahir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8845428?v=4",
+      "profile": "https://github.com/talhatahir",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "subashcs",
+      "name": "Subash Chandra Sapkota",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29421465?v=4",
+      "profile": "http://www.subashcs.com.np/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sarahesbie",
+      "name": "Sarah Brown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4270573?v=4",
+      "profile": "https://github.com/sarahesbie",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "coliff",
+      "name": "Christian Oliff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1212885?v=4",
+      "profile": "https://christianoliff.com/",
+      "contributions": [
+        "code",
+        "infra",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "andershagbard",
+      "name": "Anders Søgaard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9662430?v=4",
+      "profile": "https://github.com/andershagbard",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "iaurg",
+      "name": "Italo A.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11761170?v=4",
+      "profile": "https://segredo.dev/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "cpvalente",
+      "name": "Carlos Valente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34649812?v=4",
+      "profile": "https://github.com/cpvalente",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "baumannzone",
+      "name": "Jorge Baumann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5422102?v=4",
+      "profile": "https://baumannzone.dev/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "satyamsundaram",
+      "name": "Satyam Sundaram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54367435?v=4",
+      "profile": "https://satyamsundaram.tech/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "NegiAkash890",
+      "name": "Akash Negi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55234838?v=4",
+      "profile": "https://github.com/NegiAkash890",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "tounsils",
+      "name": "Ilyes Tounsi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44228841?v=4",
+      "profile": "https://www.tn76.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "swati-gwc",
+      "name": "Swati Tripathi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63490144?v=4",
+      "profile": "https://swati-gwc.github.io/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "dafaputra00",
+      "name": "Aziz Dafa Putra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62801712?v=4",
+      "profile": "https://github.com/dafaputra00",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "Abg4real",
+      "name": "Abg4real",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55308761?v=4",
+      "profile": "https://github.com/Abg4real",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "nataliepina",
+      "name": "Natalie Pina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34781875?v=4",
+      "profile": "https://github.com/nataliepina",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "bt-dot",
+      "name": "Bruce Tang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55170799?v=4",
+      "profile": "https://github.com/bt-dot",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "vltansky",
+      "name": "Vlad Tansky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5851280?v=4",
+      "profile": "https://github.com/vltansky",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "voy",
+      "name": "Vojtech Jasny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194726?v=4",
+      "profile": "https://github.com/voy",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Linda-Ikechukwu",
+      "name": "Linda Ikechukwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32891838?v=4",
+      "profile": "https://codewithlinda.com/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "iownthegame",
+      "name": "Hui-Yu Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1487369?v=4",
+      "profile": "https://github.com/iownthegame",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "aej11a",
+      "name": "Andrew Jones",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10066422?v=4",
+      "profile": "https://github.com/aej11a",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Teesy99",
+      "name": "Teesta Koch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45621118?v=4",
+      "profile": "https://github.com/Teesy99",
+      "contributions": [
+        "doc"
       ]
     }
   ],
