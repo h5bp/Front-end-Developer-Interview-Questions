@@ -72,95 +72,95 @@ permalink: /translations/bengali/index.html
 
 #### [[⬆]](#toc) <a name='css'>CSS Questions:</a>
 
-* What is CSS selector specificity and how does it work?
-* What is the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
-* Describe Floats and how they work.
-* Describe z-index and how stacking context is formed.
-* Describe BFC (Block Formatting Context) and how it works.
-* What are the various clearing techniques and which is appropriate for what context?
-* How would you approach fixing browser-specific styling issues?
-* How do you serve your pages for feature-constrained browsers?
-  * What techniques/processes do you use?
-* What are the different ways to visually hide content (and make it available only for screen readers)?
-* Have you ever used a grid system, and if so, what do you prefer?
-* Have you used or implemented media queries or mobile specific layouts/CSS?
-* Are you familiar with styling SVG?
-* Can you give an example of an `@media` property other than `screen`?
-* What are some of the "gotchas" for writing efficient CSS?
-* What are the advantages/disadvantages of using CSS preprocessors?
-  * Describe what you like and dislike about the CSS preprocessors you have used.
-* How would you implement a web design comp that uses non-standard fonts?
-* Explain how a browser determines what elements match a CSS selector.
-* Describe pseudo-elements and discuss what they are used for.
-* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-* What does ```* { box-sizing: border-box; }``` do? What are its advantages?
-* What is the CSS `display` property and can you give a few examples of its use?
-* What is the difference between inline and inline-block?
-* What is the difference between the "nth-of-type()" and "nth-child()" selectors?
-* What is the difference between a relative, fixed, absolute and statically positioned element?
-* What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
-* Have you used CSS Grid?
-* Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
-* Have you ever worked with retina graphics? If so, when and what techniques did you use?
-* Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
-* How is clearfix css property useful?
-* Can you explain the difference between px, em and rem as they relate to font sizing?
-* Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class? 
-* What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
-* What is the difference between CSS Grid and Flexbox? When would you use one over the other?
-* What is the difference between fixed, fluid and responsive layouts?
+* সিএসএস সিলেক্টর স্পেসিফিসিটি কি এবং এটি কিভাবে কাজ করে?
+* "resetting" এবং "normalizing" CSS এর মধ্যে পার্থক্য কী? আপনি কোনটি বেছে নেবেন এবং কেন?
+* ফ্লোট এবং এটি কিভাবে কাজ করে তা বর্ণনা করুন।
+* z-index বর্ণনা করুন এবং কীভাবে স্ট্যাকিং কনটেক্সট গঠিত হয়।
+* বিএফসি (Block Formatting Context) এবং এটি কীভাবে কাজ করে তা বর্ণনা করুন।
+* বিভিন্ন ক্লিয়ারিং কৌশল কি এবং কোন প্রেক্ষাপটের জন্য কোনটি উপযুক্ত?
+* আপনি কীভাবে ব্রাউজার-নির্দিষ্ট স্টাইলিং সমস্যাগুলি সমাধান করবেন?
+* আপনি কিভাবে সীমাবদ্ধ ফিচারের ব্রাউজারগুলির জন্য আপনার পেইজগুলো পরিবেশন করবেন?
+  * আপনি কি টেকনিক/প্রসেস ব্যবহার করেন?
+* দৃশ্যত কন্টেন্ট লুকানোর (এবং এটি শুধুমাত্র স্ক্রিন রিডারদের জন্য এভেইলেবল করার) বিভিন্ন উপায় কী?
+* আপনি কি কখনও একটি গ্রিড সিস্টেম ব্যবহার করেছেন, এবং যদি তাই হয়, আপনি কি প্রেফার করেন?
+* আপনি কি মিডিয়া কুয়েরি বা মোবাইলের নির্দিষ্ট লেআউট/সিএসএস ব্যবহার করেছেন বা ইমপ্লিমেন্ট করেছেন?
+* আপনি SVG স্টাইলিং সঙ্গে পরিচিত?
+* আপনি কি `screen` ছাড়া অন্য কোনো `@media` প্রপারর্টির উদাহরণ দিতে পারেন?
+* এফিসিয়েন্ট CSS লেখার জন্য কিছু "gotchas" কি কি?
+* CSS প্রিপ্রসেসর ব্যবহার করার সুবিধা/অসুবিধা কি?
+  * আপনি যে CSS প্রিপ্রসেসরগুলি ব্যবহার করেছেন সেগুলি সম্পর্কে আপনি পছন্দ এবং অপছন্দ করেন তা বর্ণনা করুন।
+* নন স্ট্যান্ডার্ড ফন্ট ব্যবহার করে এমন একটি ওয়েব ডিজাইন কম্পনেন্ট কিভাবে আপনি ইমপ্লিমেন্ট করবেন?
+* ব্যাখ্যা করুন কিভাবে একটি ব্রাউজার নির্ধারণ করে কোন উপাদানগুলি একটি CSS সিলেক্টরের সাথে ম্যাচ করে।
+* বর্ণনা করুন pseudo-elements এবং সেগুলি কীসের জন্য ব্যবহৃত হয় তা আলোচনা করুন।
+* বক্স মডেল সম্পর্কে আপনি যা বুঝেন ব্যাখ্যা করুন এবং আপনি কীভাবে CSS-এ ব্রাউজারকে বিভিন্ন বক্স মডেলে আপনার লেআউট রেন্ডার করবেন ব্যাখ্যা করুন।
+* ```* { box-sizing: border-box; }``` কি করে? এর সুবিধা কি কি?
+* CSS `display` প্রপার্টি কী এবং আপনি এর ব্যবহারের কয়েকটি উদাহরণ দিতে পারেন?
+* ইনলাইন এবং ইনলাইন-ব্লকের মধ্যে পার্থক্য কী?
+* "nth-of-type()" এবং "nth-child()" সিলেক্টরের মধ্যে পার্থক্য কি?
+* একটি relative, fixed, absolute and statically অবস্থানকারী ইলিমেন্ট এর মধ্যে পার্থক্য কী?
+* কোন এক্সিস্টিং CSS ফ্রেমওয়ার্ক আপনি লোকালি বা প্রোডাকশনে ব্যবহার করেছেন? আপনি কিভাবে তাদের চেঞ্জ/উন্নতি করবেন?
+* আপনি কি CSS গ্রিড ব্যবহার করেছেন?
+* আপনি মোবাইল ফার্স্ট স্ট্র্যাটেজি এবং কোডিং করে সাইট রেসপন্সিভ এর মধ্যে পার্থক্য ব্যাখ্যা করতে পারেন?
+* আপনি কি কখনও রেটিনা গ্রাফিক্স নিয়ে কাজ করেছেন? যদি তাই হয়, আপনি কখন এবং কি কৌশল ব্যবহার করেছেন?
+* কোন কারণ আছে যে আপনি *absolute positioning* এর পরিবর্তে `translate()` ব্যবহার করতে চান বা এর বিপরীতে? এবং কেন?
+* কিভাবে ক্লিয়ারফিক্স সিএসএস প্রপার্টি উপকারী?
+* আপনি px, em এবং rem এর মধ্যে পার্থক্য ব্যাখ্যা করতে পারেন কারণ তারা ফন্ট সাইজিংয়ের সাথে সম্পর্কিত?
+* আপনি pseudo class এর একটি উদাহরণ দিতে পারেন? আপনি pseudo class এর জন্য একটি ইউজ কেইস উদাহরণ হিসেবে দিতে পারেন?
+* একটি ব্লক লেভেল ইলিমেন্ট এবং একটি ইনলাইন ইলিমেন্টের মধ্যে পার্থক্য কি? আপনি প্রতিটি ইলিমেন্টের উদাহরণ প্রদান করতে পারেন?
+* সিএসএস গ্রিড এবং ফ্লেক্সবক্সের মধ্যে পার্থক্য কী? আপনি কখন একটি অন্যের উপর ব্যবহার করবেন?
+* ফিক্সড, ফ্লুইড এবং রেস্পন্সিভ লেআউটের মধ্যে পার্থক্য কী?
 
 #### [[⬆]](#toc) <a name='js'>JS Questions:</a>
 
-* Explain event delegation.
-* Explain how `this` works in JavaScript.
-  * Can you give an example of one of the ways that working with `this` has changed in ES6?
-* Explain how prototypal inheritance works.
-* What is the difference between a variable that is: `null`, `undefined` or undeclared?
-  * How would you go about checking for any of these states?
-* What is a closure, and how/why would you use one?
-* What language constructions do you use for iterating over object properties and array items?
-* Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?
-* What is a typical use case for anonymous functions?
-* What is the difference between host objects and native objects?
-* Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
-* Can you explain what `Function.call` and `Function.apply` do? What is the notable difference between the two?
-* Explain `Function.prototype.bind`.
-* What is the difference between feature detection, feature inference, and using the UA string?
-* Explain "hoisting".
-* What is type coercion? What are common pitfalls of relying on type coercion in JavaScript code?
-* Describe event bubbling.
-* Describe event capturing.
-* What is the difference between an "attribute" and a "property"?
-* What are the pros and cons of extending built-in JavaScript objects?
-* What is the difference between `==` and `===`?
-* Explain the same-origin policy with regards to JavaScript.
-* Why is it called a Ternary operator, what does the word "Ternary" indicate?
-* What is strict mode? What are some of the advantages/disadvantages of using it?
-* What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-* What tools and techniques do you use debugging JavaScript code?
-* Explain the difference between mutable and immutable objects.
-  * What is an example of an immutable object in JavaScript?
-  * What are the pros and cons of immutability?
-  * How can you achieve immutability in your own code?
-* Explain the difference between synchronous and asynchronous functions.
-* What is event loop?
-  * What is the difference between call stack and task queue?
-* What are the differences between variables created using `let`, `var` or `const`?
-* What are the differences between ES6 class and ES5 function constructors?
-* Can you offer a use case for the new arrow `=>` function syntax? How does this new syntax differ from other functions?
-* What advantage is there for using the arrow syntax for a method in a constructor?
-* What is the definition of a higher-order function?
-* Can you give an example for destructuring an object or an array?
-* Can you give an example of generating a string with ES6 Template Literals?
-* Can you give an example of a curry function and why this syntax offers an advantage?
-* What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
-* How can you share code between files?
-* Why you might want to create static class members?
-* What is the difference between `while` and `do-while` loops in JavaScript?
-* What is a promise? Where and how would you use promise?
-* Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
+* ইভেন্ট ডেলিগেশন ব্যাখ্যা করুন।
+* জাভাস্ক্রিপ্টে `this` কীভাবে কাজ করে তা ব্যাখ্যা করুন।
+  * আপনি কি ES6 এ `this` এর সাথে কাজ করার উপায়গুলির একটির উদাহরণ দিতে পারেন?
+* প্রোটোটাইপল ইনহেরিটেন্স কিভাবে কাজ করে তা ব্যাখ্যা কর।
+* এই ভেরিয়েবলের মধ্যে পার্থক্য কী যেটি: `null`, `undefined` বা undeclared?
+  * আপনি কিভাবে এই স্টেট চেক করবেন?
+* ক্লোজার কি, কিভাবে/কেন আপনি ব্যবহার করবেন?
+* অবজেক্ট এবং অ্যারে আইটেমগুলির উপর লুপ করার জন্য আপনি কোন ল্যাংগুয়েজ কন্সট্রাক্টর ব্যবহার করেন?
+* আপনি কি `Array.forEach()` এবং `Array.map()` এর প্রধান পার্থক্য বর্ণনা করতে পারেন এবং কেন আপনি একটি বনাম অন্যটিকে বেছে নেবেন?
+* এননিমাস ফাংশনের এর সাধারণ ব্যবহার কি?
+* হোস্ট অবজেক্ট এবং নেটিভ অবজেক্টের মধ্যে পার্থক্য কি?
+* পার্থক্য ব্যাখ্যা করুন: `function Person(){}`, `var person = Person()`, এবং `var person = new Person()`?
+* পার্থক্য ব্যাখ্যা করুন `foo` between `function foo() {}` and `var foo = function() {}` এইগুলো ইউজ এর।
+* আপনি কি ব্যাখ্যা করতে পারেন `Function.call` এবং `Function.apply` কি করে? দুটি মধ্যে উল্লেখযোগ্য পার্থক্য কি?
+* ব্যাখ্যা করুন `Function.prototype.bind`.
+* feature detection, feature inference এবং UA স্ট্রিং ব্যবহার করার মধ্যে পার্থক্য কি?
+* ব্যাখ্যা করুন "hoisting".
+* টাইপ coercion কি? জাভাস্ক্রিপ্ট কোডে টাইপ coercion উপর নির্ভর করার সাধারণ অসুবিধাগুলি কী কী?
+* বর্ণনা করুন ইভেন্ট বাবলিং।
+* বর্ণনা করুন ইভেন্ট ক্যাপচারিংন।
+* "attribute" এবং "property" এর মধ্যে পার্থক্য কি?
+* বিল্ট ইন জাভাস্ক্রিপ্ট অবজেক্ট এক্সটেন্ডের সুবিধা এবং অসুবিধাগুলি কী কী?
+* `==` এবং `===` এর মধ্যে পার্থক্য কী?
+* জাভাস্ক্রিপ্টের ক্ষেত্রে same-origin policy ব্যাখ্যা করুন।
+* কেন এটিকে Ternary অপারেটর বলা হয়, "Ternary" শব্দটি কি নির্দেশ করে?
+* স্ট্রিক্ট মোড কি? এটি ব্যবহার করার কিছু সুবিধা/অসুবিধা কি কি?
+* জাভাস্ক্রিপ্টে কম্পাইল করা একটি ভাষায় জাভাস্ক্রিপ্ট কোড লেখার কিছু সুবিধা/অসুবিধা কী কী?
+* আপনি ডিবাগিং এর জন্য কি টুল বা টেকনিক ব্যবহার করেন?
+* মিউটেবল ইমিউটেবল অব্জেক্টস এর মধ্যে পার্থক্য ব্যাখ্যা কর।
+  * জাভাস্ক্রিপ্টে ইমিউটেবল অব্জেক্ট এর উদাহরণ দিন।
+  * ইমিউটেবলিটি এর সুবিধা এবং অসুবিধাগুলি কী কী?
+  * কিভাবে আপনি আপনার নিজের কোডে ইমিউটেবলিটি অর্জন করতে পারেন?
+* সিঙ্ক্রোনাস এবং অ্যাসিঙ্ক্রোনাস ফাংশনের মধ্যে পার্থক্য ব্যাখ্যা করুন।
+* ইভেন্ট লুপ কি?
+  * কল স্ট্যাক এবং টাস্ক কিউ মধ্যে পার্থক্য কি?
+* `let`, `var` বা `const` ব্যবহার করে তৈরি ভেরিয়েবলের মধ্যে পার্থক্য কী?
+* ES6 ক্লাস এবং ES5 ফাংশন কনস্ট্রাক্টরের মধ্যে পার্থক্য কি?
+* আপনি নতুন এরো `=>` ফাংশন সিনট্যাক্সের জন্য একটি ব্যবহারের ইউজ কেইস অফার করতে পারেন? কিভাবে এই নতুন সিনট্যাক্স অন্যান্য ফাংশন থেকে আলাদা?
+* মেথোড কনস্ট্রাক্টরের জন্য এরো সিনট্যাক্স ব্যবহার করার কি কি সুবিধা আছে?
+* higher-order function কি?
+* আপনি অব্জেক্ট বা অ্যারে destructuring এর উদাহরণ দিতে পারেন?
+* আপনি ES6 টেমপ্লেট লিটারালগুলি দিয়ে স্ট্রিং তৈরি করার একটি উদাহরণ দিতে পারেন?
+* আপনি কারি ফাংশন এর একটি উদাহরণ দিতে পারেন এবং কেন এই সিনট্যাক্স সুবিধা প্রদান করে?
+* `spread syntax` ব্যবহার করার সুবিধা কী এবং কীভাবে এটি `rest syntax` থেকে আলাদা?
+* আপনি কিভাবে ফাইল গুলোর মধ্যে কোড শেয়ার করতে পারেন?
+* কেন আপনি স্ট্যাটিক ক্লাস মেমবার তৈরি করতে চাইবেন?
+* জাভাস্ক্রিপ্টে `while` এবং `do-while` লুপের মধ্যে পার্থক্য কী?
+* একটি প্রমিস কি? কোথায় এবং কিভাবে আপনি প্রমিস ব্যবহার করবেন?
+* জাভাস্ক্রিপ্টের সাথে কোডিং করার সময় আপনি কীভাবে অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং প্রিন্সিপল ব্যবহার করতে পারেন তা নিয়ে আলোচনা করুন।
 
 #### [[⬆]](#toc) <a name='code-questions'>Coding Questions:</a>
 * Make this work:
@@ -173,43 +173,43 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 console.log("hello" || "world")
 console.log("foo" && "bar")
 ```
-* Write an immediately invoked function expression (IIFE)
+* একটি ইমেডিয়েটলি ইনভোকড ফাংশন এক্সপ্রেশন লিখুন (IIFE)
 
 
 #### [[⬆]](#toc) <a name='testing'>Testing Questions:</a>
 
-* What are some advantages/disadvantages to testing your code?
-* What tools would you use to test your code's functionality?
-* What is the difference between a unit test and a functional/integration test?
-* What is the purpose of a code style linting tool?
-* What are some of the testing best practices?
+* আপনার কোড টেস্টিং করার কিছু সুবিধা/অসুবিধা কি?
+* আপনার কোডের ফাংশনালিটি পরীক্ষা করতে আপনি কোন টুলস ব্যবহার করবেন?
+* ইউনিট টেস্ট এবং ফাংশনাল/ ইন্টেগ্রেশন টেস্টের মধ্যে পার্থক্য কি?
+* একটি কোড স্টাইল লিন্টিং টুলের উদ্দেশ্য কি?
+* টেস্টিং এর বেস্ট প্র্যাকটিস কি কি?
 
 
 #### [[⬆]](#toc) <a name='performance'>Performance Questions:</a>
 
-* What tools would you use to find a performance bug in your code?
-* What are some ways you may improve your website's scrolling performance?
-* Explain the difference between layout, painting and compositing.
+* আপনার কোডে পারফরম্যান্স বাগ খুঁজে পেতে আপনি কোন টুল ব্যবহার করবেন?
+* আপনি আপনার ওয়েবসাইটের স্ক্রোলিং পারফরম্যান্স উন্নত করতে পারেন কি কি উপায় এ?
+* লেআউট, পেইন্টিং এবং কম্পোজিংয়ের মধ্যে পার্থক্য ব্যাখ্যা করুন।
 
 #### [[⬆]](#toc) <a name='network'>Network Questions:</a>
 
-* Traditionally, why has it been better to serve site assets from multiple domains?
-* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
-* What are the differences between Long-Polling, Websockets and Server-Sent Events?
-* Explain the following request and response headers:
+* ট্রেডিশনালি, কেন একাধিক ডোমেন থেকে সাইট এসেট পরিবেশন করা ভাল?
+* আপনি একটি ওয়েবসাইটের URL টাইপ করার সময় থেকে এটি আপনার স্ক্রিনে লোড হওয়া পর্যন্ত প্রক্রিয়াটি বর্ণনা করার জন্য যথাসাধ্য চেষ্টা করুন।
+* লং-পোলিং, ওয়েবসকেট এবং সার্ভার-সেন্ট ইভেন্টের মধ্যে পার্থক্য কী?
+* নিম্নলিখিত রিকোয়েস্ট এবং রেসপন্স হেডার ব্যাখ্যা করুন:
   * Diff. between Expires, Date, Age and If-Modified-...
   * Do Not Track
   * Cache-Control
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* What are HTTP methods? List all HTTP methods that you know, and explain them.
-* What is domain pre-fetching and how does it help with performance?
-* What is a CDN and what is the benefit of using one?
+* HTTP মেথড কি? আপনি জানেন সে সমস্ত HTTP মেথড তালিকাভুক্ত করুন এবং তাদের ব্যাখ্যা করুন।
+* ডোমেন প্রি-ফেচিং কী এবং এটি কীভাবে পারফরম্যান্সে সাহায্য করে?
+* CDN কি এবং একটি ব্যবহার করে লাভ কি?
 
 #### [[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
-* What is a cool project that you've recently worked on?
-* What are some things you like about the developer tools you use?
-* Who inspires you in the front-end community?
-* Do you have any pet projects? What kind?
+* আপনি সম্প্রতি কাজ করেছেন এমন একটি কুল প্রজেক্টের ব্যাপারে বলুন?
+* আপনি যে ডেভেলপার টুলগুলি ব্যবহার করেন সেগুলি থেকে আপনি কী পছন্দ করেন?
+* ফ্রন্ট-এন্ড কমিউনিটিতে কে আপনাকে অনুপ্রাণিত করেছে?
+* আপনি কোন পেট প্রজেক্ট আছে? কি ধরনের?
