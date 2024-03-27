@@ -53,6 +53,7 @@ permalink: /questions/javascript-questions/index.html
 * What is the difference between `while` and `do-while` loops in JavaScript?
 * What is a promise? Where and how would you use promise?
 * Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
+* What is Cross-Origin Resource Sharing (CORS)?
 
 ## Coding questions
 * Make this work:
