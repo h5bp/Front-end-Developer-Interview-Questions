@@ -38,6 +38,39 @@ permalink: /questions/css-questions/index.html
 * How is clearfix css property useful?
 * Can you explain the difference between px, em and rem as they relate to font sizing?
 * Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class? 
+  * What new pseudo-classes have appeared in the last year or two?
 * What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
 * What is the difference between CSS Grid and Flexbox? When would you use one over the other?
 * What is the difference between fixed, fluid and responsive layouts? 
+* What problems arise when overriding component styles from a UI library? How to solve them?
+  * What is `@layer`and how could it help solve the problem of overriding styles?
+* Can you explain what `vh` and `vw` units are?
+  * What problems may arise on a mobile device when using `vh`? Ways to solve them?
+* What is CSS custom properties?
+  * How to limit their scope?
+
+## Coding questions
+* What color will be applied and why?
+```css
+.red {
+  color: red;
+}
+.blue {
+  color: blue
+}
+```
+```html
+<div class="blue red">Hello world</div>
+```
+* How can you optimize the following code? (It has several solutions)
+```css
+main h1 {
+  color: red;
+}
+main p {
+  color: red;
+}
+main a {
+  color: red;
+}
+```
