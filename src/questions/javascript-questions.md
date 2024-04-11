@@ -13,6 +13,7 @@ permalink: /questions/javascript-questions/index.html
 * What is a closure, and how/why would you use one?
 * What language constructions do you use for iterating over object properties and array items?
 * Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?
+  * Сan you describe other popular methods for iterating over arrays?
 * What is a typical use case for anonymous functions?
 * What is the difference between host objects and native objects?
 * Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
@@ -40,6 +41,7 @@ permalink: /questions/javascript-questions/index.html
 * What is event loop?
   * What is the difference between call stack and task queue?
 * What are the differences between variables created using `let`, `var` or `const`?
+  * Can you change a property of an object defined via `const`? How you can change this behavior?
 * What are the differences between ES6 class and ES5 function constructors?
 * Can you offer a use case for the new arrow `=>` function syntax? How does this new syntax differ from other functions?
 * What advantage is there for using the arrow syntax for a method in a constructor?
@@ -53,6 +55,8 @@ permalink: /questions/javascript-questions/index.html
 * What is the difference between `while` and `do-while` loops in JavaScript?
 * What is a promise? Where and how would you use promise?
 * Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
+* What is the difference between `event.target` and `event.currentTarget`?
+* What is the difference between `event.preventDefault()` and `event.stopPropagation()`?
 
 ## Coding questions
 * Make this work:
