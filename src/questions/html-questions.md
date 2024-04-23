@@ -17,3 +17,7 @@ permalink: /questions/html-questions/index.html
 * Have you used different HTML templating languages before?
 * What is the difference between `canvas` and `svg`?
 * What are empty elements in HTML ?
+* Can you explain the difference in behavior of `<button>` and `<input type="button">` tags inside a form?
+* Can you explain the difference between the `<strong>` and `<b>` tags?
+* Provide an example of using the `<label>` tag?
+* How does the `<a>` tag differ from the `<button>` tag in terms of functionality and usage?
