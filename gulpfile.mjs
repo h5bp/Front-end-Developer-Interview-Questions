@@ -29,12 +29,12 @@ gulp.task("build", (done) => {
                 const { metadata, content } = parseMD(fileContents)
                     buffer += content;
                 } 
-                fs.writeFile("src/translations/_template.README.md", buffer, (err) => {
+                fs.writeFile("src/translations/_template/README.md", buffer, (err) => {
                     if (err)
                       console.log(err);
                     else {
                       console.log("File written successfully\n");
-                      console.log(fs.readFileSync("src/translations/_template.README.md", "utf8"));
+                      console.log(fs.readFileSync("src/translations/_template/README.md", "utf8"));
                     }}
                 );
             });
