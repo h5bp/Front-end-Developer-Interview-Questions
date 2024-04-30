@@ -41,6 +41,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "all-contributors-cli": "^6.26.1",
     "clean-css": "^5.3.3",
+    "gulp": "^5.0.0",
     "html-minifier": "^4.0.0",
     "luxon": "^3.4.4",
     "markdown-it": "^14.1.0",
@@ -49,5 +50,8 @@
   },
   "resolutions": {
     "axios": "0.18.1"
+  },
+  "dependencies": {
+    "parse-md": "^3.0.3"
   }
 }
