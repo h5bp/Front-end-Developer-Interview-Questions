@@ -36,3 +36,4 @@ permalink: /questions/general-questions/index.html
 * Describe the difference between SSR and CSR. Discuss the pros and cons. 
   * Are you familiar with static rendering?
   * Rehydration?
+* What's the difference between HTTPS and HTTP?
