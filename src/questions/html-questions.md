@@ -17,3 +17,4 @@ permalink: /questions/html-questions/index.html
 * Have you used different HTML templating languages before?
 * What is the difference between `canvas` and `svg`?
 * What are empty elements in HTML?
+* What techniques and best practices can you apply to improve the performance and loading speed of multilingual websites?
