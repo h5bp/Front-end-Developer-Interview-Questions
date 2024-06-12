@@ -7,15 +7,14 @@ permalink: /translations/german/index.html
 # Inhaltsverzeichnis
 
 1. [Allgemeine Fragen](#general)
-1. [HTML-Fragen](#html)
-1. [CSS-Fragen](#css)
-1. [JS-Fragen](#js)
-1. [Code-Fragen](#code)
-1. [Test-Fragen](#testing)
-1. [Performance-Fragen](#performance)
-1. [Netzwerk-Fragen](#network)
-1. [Spaß-Fragen](#fun)
-
+1. [HTML Fragen](#html)
+1. [CSS Fragen](#css)
+1. [JS Fragen](#js)
+1. [Code Fragen](#code)
+1. [Test Fragen](#testing)
+1. [Performance Fragen](#performance)
+1. [Netzwerk Fragen](#network)
+1. [Spaß Fragen](#fun)
 
 #### [[⬆]](#toc) <a name='general'>Allgemeine Fragen:</a>
 
@@ -53,8 +52,7 @@ permalink: /translations/german/index.html
   * Bist du mit statischem Rendering vertraut?
   * Und mit Rehydration?
 
-  
-#### [[⬆]](#toc) <a name='html'>HTML-Fragen:</a>
+#### [[⬆]](#toc) <a name='html'>HTML Fragen:</a>
 
 * Was macht ein `doctype`?
 * Wie stellst du eine Seite mit Inhalten in mehreren Sprachen bereit?
@@ -71,7 +69,7 @@ permalink: /translations/german/index.html
 * Was sind leere Elemente in HTML?
 
 
-#### [[⬆]](#toc) <a name='css'>CSS-Fragen:</a>
+#### [[⬆]](#toc) <a name='css'>CSS Fragen:</a>
 
 * Was ist die Spezifität von CSS-Selektoren und wie funktioniert sie?
 * Was ist der Unterschied zwischen "Resetting" und "Normalizing" von CSS? Was würdest du wählen und warum?
@@ -111,8 +109,7 @@ permalink: /translations/german/index.html
 * Was ist der Unterschied zwischen CSS Grid und Flexbox? Wann würdest du welches verwenden?
 * Was ist der Unterschied zwischen festen, fluiden und responsiven Layouts?
 
-
-#### [[⬆]](#toc) <a name='js'>JS-Fragen:</a>
+#### [[⬆]](#toc) <a name='js'>JS Fragen:</a>
 
 * Erkläre Event Delegation.
 * Erkläre, wie `this` in JavaScript funktioniert.
@@ -164,7 +161,7 @@ permalink: /translations/german/index.html
 * Was ist ein promise? Wo und wie würdest du ein promise verwenden?
 * Erkläre, wie du objektorientierte Programmierprinzipien beim Programmieren mit JavaScript anwenden würdest.
 
-#### [[⬆]](#toc) <a name='code'>Code-Fragen:</a>
+#### [[⬆]](#toc) <a name='code'>Code Fragen:</a>
 
 * Mach, dass dies funktioniert: 
 ```javascript
@@ -178,7 +175,7 @@ console.log("foo" && "bar")
 ```
 * Schreibe einen sofort ausgeführten Funktionsausdruck (IIFE).
 
-#### [[⬆]](#toc) <a name='testing'>Test-Fragen:</a>
+#### [[⬆]](#toc) <a name='testing'>Test Fragen:</a>
 
 * Was sind einige Vor- und Nachteile beim Testen deines Codes?
 * Welche Werkzeuge würdest du verwenden, um die Funktionalität deines Codes zu testen?
@@ -186,13 +183,13 @@ console.log("foo" && "bar")
 * Was ist der Zweck eines Code-Stil-Linting-Tools?
 * Was sind einige der Best Practices für das Testen?
 
-#### [[⬆]](#toc) <a name='performance'>Performance-Fragen:</a>
+#### [[⬆]](#toc) <a name='performance'>Performance Fragen:</a>
 
 * Welche Werkzeuge würdest du verwenden, um einen Performance-Bug in deinem Code zu finden?
 * Welche Möglichkeiten gibt es, die Scroll-Performance deiner Website zu verbessern?
 * Erkläre den Unterschied zwischen Layout, Painting und Compositing.
 
-#### [[⬆]](#toc) <a name='network'>Netzwerk-Fragen:</a>
+#### [[⬆]](#toc) <a name='network'>Netzwerk Fragen:</a>
 
 * Warum war es traditionell besser, Site-Assets von mehreren Domains zu servieren?
 * Beschreibe den Prozess so gut wie möglich, vom Zeitpunkt, an dem du die URL einer Website eingibst, bis sie vollständig auf deinem Bildschirm geladen ist.
@@ -208,7 +205,7 @@ console.log("foo" && "bar")
 * Was ist Domain-Pre-Fetching und wie hilft es bei der Performance?
 * Was ist ein CDN und was ist der Vorteil der Verwendung eines solchen
 
-#### [[⬆]](#toc) <a name='fun'>Spaß-Fragen:</a>
+#### [[⬆]](#toc) <a name='fun'>Spaß Fragen:</a>
 
 * Was ist ein cooles Projekt, an dem du kürzlich gearbeitet hast?
 * Was magst du an den Entwickler-Tools, die du benutzt?
