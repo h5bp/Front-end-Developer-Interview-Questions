@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/h5bp/Front-end-Developer-Interview-Questions#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "all-contributors-cli": "^6.26.1",
     "clean-css": "^5.3.3",
