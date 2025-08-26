@@ -6,7 +6,9 @@
     "build": "eleventy --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate && cp .all-contributorsrc ./src/_data/contributors.json",
-    "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet"
+    "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet",
+    "translate": "node scripts/translate.js",
+    "translate:all": "node scripts/translate.js all"
   },
   "repository": {
     "type": "git",
@@ -45,6 +47,7 @@
     "luxon": "^3.4.4",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^8.6.7",
+    "openai": "^4.20.1",
     "uglify-es": "^3.3.9"
   },
   "resolutions": {

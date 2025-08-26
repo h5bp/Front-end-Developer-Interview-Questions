@@ -1,0 +1,90 @@
+{
+  "languages": {
+    "spanish": {
+      "title": "GUÍA DE PREGUNTAS PARA ENTREVISTAS DE TRABAJO",
+      "lang": "es",
+      "rtl": false,
+      "sections": {
+        "general": "Preguntas generales",
+        "html": "Preguntas específicas de HTML",
+        "css": "Preguntas específicas de CSS",
+        "javascript": "Preguntas específicas de JavaScript",
+        "coding": "Preguntas de código",
+        "testing": "Preguntas sobre pruebas de código",
+        "performance": "Preguntas sobre rendimiento",
+        "network": "Preguntas sobre conectividad",
+        "fun": "Preguntas divertidas"
+      }
+    },
+    "french": {
+      "title": "Questionnaire de recrutement pour développeur front-end",
+      "lang": "fr",
+      "rtl": false,
+      "sections": {
+        "general": "Questions générales",
+        "html": "Questions sur HTML",
+        "css": "Questions sur CSS",
+        "javascript": "Questions sur JS",
+        "coding": "Questions sur la programmation",
+        "testing": "Questions sur les tests",
+        "performance": "Questions sur la performance",
+        "network": "Questions sur réseau",
+        "fun": "Questions pour le fun"
+      }
+    },
+    "chinese": {
+      "title": "前端工作面试问题",
+      "lang": "zh",
+      "rtl": false,
+      "sections": {
+        "general": "常见问题",
+        "html": "HTML 相关问题",
+        "css": "CSS 相关问题",
+        "javascript": "JS 相关问题",
+        "coding": "代码相关问题",
+        "testing": "测试相关问题",
+        "performance": "效能相关问题",
+        "network": "网络相关问题",
+        "fun": "趣味问题"
+      }
+    },
+    "german": {
+      "title": "Frontend-Entwickler Interviewfragen",
+      "lang": "de",
+      "rtl": false,
+      "sections": {
+        "general": "Allgemeine Fragen",
+        "html": "HTML-Fragen",
+        "css": "CSS-Fragen",
+        "javascript": "JavaScript-Fragen",
+        "coding": "Code-Fragen",
+        "testing": "Test-Fragen",
+        "performance": "Performance-Fragen",
+        "network": "Netzwerk-Fragen",
+        "fun": "Spaß-Fragen"
+      }
+    },
+    "italian": {
+      "title": "Domande per il colloquio di lavoro per sviluppatori front-end",
+      "lang": "it",
+      "rtl": false,
+      "sections": {
+        "general": "Domande generali",
+        "html": "Domande HTML",
+        "css": "Domande CSS",
+        "javascript": "Domande JavaScript",
+        "coding": "Domande di codifica",
+        "testing": "Domande sui test",
+        "performance": "Domande sulle prestazioni",
+        "network": "Domande di rete",
+        "fun": "Domande divertenti"
+      }
+    }
+  },
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "apiKey": "${OPENAI_API_KEY}",
+    "systemPrompt": "You are a professional translator specializing in technical documentation. Translate the following front-end developer interview questions accurately while maintaining their technical meaning and professional tone. Preserve any code snippets, technical terms, and markdown formatting exactly as they appear."
+  }
+}

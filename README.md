@@ -25,6 +25,25 @@ You can read more about this project & its history [here](https://h5bp.org/Front
   2. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md)
   3. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
+## Automated Translations
+
+This repository now features automated translation capabilities! 🌍
+
+When English questions are updated, translations are automatically generated using AI to keep all language versions in sync. This ensures that our international community always has access to the latest questions.
+
+### How it works:
+- English questions are maintained in separate files in [`src/questions/`](src/questions/)
+- Automated translation system converts them into combined language-specific files
+- Translations are generated using AI with technical accuracy and professional tone
+- Available in 30+ languages and growing
+
+### For Maintainers:
+- Translations update automatically when questions change
+- Manual translation workflow available: `npm run translate [language]`
+- Full documentation in [`scripts/README.md`](scripts/README.md)
+
+See our [translation documentation](scripts/README.md) for more details.
+
 
 The project is currently maintained by:
 

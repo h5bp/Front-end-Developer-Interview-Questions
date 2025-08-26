@@ -1,0 +1,62 @@
+name: Auto-Translate Questions
+
+on:
+  push:
+    paths:
+      - 'src/questions/**/*.md'
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Specific language to translate (leave empty for all)'
+        required: false
+        default: ''
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run translations
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        if [ -n "${{ github.event.inputs.language }}" ]; then
+          echo "Translating specific language: ${{ github.event.inputs.language }}"
+          npm run translate "${{ github.event.inputs.language }}"
+        else
+          echo "Translating all configured languages"
+          npm run translate:all
+        fi
+
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add src/translations/
+        git commit -m "Auto-update translations [skip ci]"
+        git push
