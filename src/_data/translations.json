@@ -54,12 +54,12 @@
       "url": "german/"
     },
     {
-      "language": "Hebrew",
-      "url": "hebrew/"
-    },
-    {
       "language": "Greek",
       "url": "greek/"
+    },
+    {
+      "language": "Hebrew",
+      "url": "hebrew/"
     },
     {
       "language": "Hindi",
