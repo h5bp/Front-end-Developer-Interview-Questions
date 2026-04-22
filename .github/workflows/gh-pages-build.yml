@@ -6,14 +6,15 @@ on:
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@master
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: "16.x"
+          node-version: "22"
       - run: npm install
       - name: Build
         uses: TartanLlama/actions-eleventy@master
