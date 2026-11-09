@@ -1,22 +1,24 @@
 const { DateTime } = require('luxon')
 const CleanCSS = require('clean-css')
-const UglifyJS = require('uglify-es')
-const htmlmin = require('html-minifier')
+const UglifyJS = require('uglify-js')
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const anchor = require('markdown-it-anchor')
 const markdown = require('markdown-it')({
   html: true,
   breaks: true,
   linkify: true,
   typographer: true
-}).use(require('markdown-it-anchor'), {
+}).use(anchor, {
   level: [2],
-  permalink: true,
-  permalinkBefore: true,
-  permalinkSymbol: ''
+  permalink: anchor.permalink.linkInsideHeader({
+    placement: 'before',
+    symbol: ''
+  })
 })
 
-module.exports = eleventyConfig => {
+module.exports = async eleventyConfig => {
+  const { minify } = await import('html-minifier')
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
@@ -37,9 +39,9 @@ module.exports = eleventyConfig => {
   })
 
   // Minify HTML output
-  eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
-    if (outputPath.indexOf('.html') > -1) {
-      let minified = htmlmin.minify(content, {
+  eleventyConfig.addTransform('htmlmin', async function (content) {
+    if (this.page.outputPath && this.page.outputPath.endsWith('.html')) {
+      let minified = await minify(content, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true

@@ -61,8 +61,11 @@ Adhering to the following process is the best way to get your work included in t
 5. Set-up the website
 
   ```bash
+  # Requires Node.js 22.22.0 or later
   # install dependencies
-  npm install
+  npm ci
+  # run regression tests
+  npm test
   # run the website and watch for changes (http://localhost:9090)
   npm start
   ```

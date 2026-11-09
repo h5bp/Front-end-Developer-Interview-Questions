@@ -6,7 +6,11 @@
     "build": "eleventy --config=config/eleventy.config.js --pathprefix='Front-end-Developer-Interview-Questions/'",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate && cp .all-contributorsrc ./src/_data/contributors.json",
-    "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet"
+    "start": "eleventy --config=config/eleventy.config.js --serve --port 9090 --quiet",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.22.0"
   },
   "repository": {
     "type": "git",
@@ -37,17 +41,14 @@
   },
   "homepage": "https://github.com/h5bp/Front-end-Developer-Interview-Questions#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "all-contributors-cli": "^6.26.1",
+    "@11ty/eleventy": "^3.1.8",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "all-contributors-cli": "^7.0.1",
     "clean-css": "^5.3.3",
-    "html-minifier": "^4.0.0",
-    "luxon": "^3.4.4",
-    "markdown-it": "^14.1.0",
-    "markdown-it-anchor": "^8.6.7",
-    "uglify-es": "^3.3.9"
-  },
-  "resolutions": {
-    "axios": "0.18.1"
+    "html-minifier": "^5.0.2",
+    "luxon": "^3.7.2",
+    "markdown-it": "^15.0.3",
+    "markdown-it-anchor": "^10.1.0",
+    "uglify-js": "^3.19.3"
   }
 }
