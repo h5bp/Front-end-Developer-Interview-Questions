@@ -1,25 +1,25 @@
 name: Eleventy Build
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
+    branches: [ main ]
+  pull_request:
     branches: [ main ]
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: "16.x"
-      - run: npm install
-      - name: Build
-        uses: TartanLlama/actions-eleventy@master
-        with:
-          args: --config=config/eleventy.config.js --pathprefix=Front-end-Developer-Interview-Questions
+          node-version: "22.22.0"
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
       - name: Deploy
+        if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./_site
