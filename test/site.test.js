@@ -55,7 +55,7 @@ test('renders translations and an unminified sitemap', () => {
 
 test('minified navigation script handles clicks and resize', () => {
   const html = read('index.html')
-  const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)]
+  const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/gi)]
   const script = scripts.find(([, content]) => content.includes('navigation-toggle'))
   assert.ok(script, 'navigation script is present')
 
