@@ -25,7 +25,7 @@ lang: ko
 ## 함께하기
 
 1. [함께하는 분들](#contributors)
-1. [함께하는 방법](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/CONTRIBUTING.md)
+1. [함께하는 방법](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/.github/CONTRIBUTING.md)
 1. [라이선스](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/LICENSE.md)
 
 #### [[⬆]](#toc) <a name='general'>일반적인 질문:</a>
